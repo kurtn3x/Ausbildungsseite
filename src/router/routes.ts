@@ -23,6 +23,45 @@ const routes: RouteRecordRaw[] = [
         component: () =>
           import('pages/BetriebUnternehmen/ManagementQualitaet.vue'),
       },
+      {
+        path: 'unternehmensrechtsformen',
+        component: () =>
+          import('pages/BetriebUnternehmen/Unternehmensrechtsformen.vue'),
+      },
+    ],
+  },
+  {
+    path: '/netzwerke',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'ipv4',
+        component: () => import('pages/Netzwerke/IPV4View.vue'),
+      },
+      {
+        path: 'mac_switch_hub',
+        component: () => import('pages/Netzwerke/MacSwitchHub.vue'),
+      },
+      {
+        path: 'ipv6',
+        component: () => import('pages/Netzwerke/IPV6View.vue'),
+      },
+      {
+        path: 'netzwerktopologien',
+        component: () => import('pages/Netzwerke/AllgNetzwerktopologien.vue'),
+      },
+      {
+        path: 'dns',
+        component: () => import('pages/Netzwerke/DNSView.vue'),
+      },
+      {
+        path: 'dhcp',
+        component: () => import('src/pages/Netzwerke/DHCPView.vue'),
+      },
+      {
+        path: 'osi',
+        component: () => import('pages/Netzwerke/OSIView.vue'),
+      },
     ],
   },
 
