@@ -28,6 +28,21 @@ const routes: RouteRecordRaw[] = [
         component: () =>
           import('pages/BetriebUnternehmen/Unternehmensrechtsformen.vue'),
       },
+      {
+        path: 'unternehmensleitbild',
+        component: () =>
+          import('pages/BetriebUnternehmen/UnternehmensleitbildView.vue'),
+      },
+      {
+        path: 'aufbauorganisation',
+        component: () =>
+          import('pages/BetriebUnternehmen/AufbauorganisationView.vue'),
+      },
+      {
+        path: 'wertschoepfungsprozesse',
+        component: () =>
+          import('pages/BetriebUnternehmen/WertschoepfungView.vue'),
+      },
     ],
   },
   {

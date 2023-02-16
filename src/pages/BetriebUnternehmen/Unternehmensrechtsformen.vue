@@ -95,6 +95,59 @@
         <li>z.B. Prokuraerteilung, Anmelden der Firma zum Handelsregister</li>
       </ul>
     </ul>
+    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+      Entscheidungskriterien für Wahl der Rechtsform
+    </div>
+    <ul>
+      <li>Rechtsgestaltung, insbesondere Haftung</li>
+      <li>Aufwendungen der Rechtsform</li>
+      <li>Kapitalbedarf und Finanzierungsmöglichkeiten, Risiken</li>
+      <li>Eintraguns ins Handelsregister</li>
+      <li>Leistungsbefugnisse</li>
+      <li>Gewinn- und Verlustminimierung</li>
+      <li>Steuerbelastung</li>
+      <li>Flexibilität bei Änderung von Beteiligungsverhältnissen</li>
+    </ul>
+
+    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+      Wirtschaftliche Verflechtungen
+    </div>
+    <ul>
+      <li>
+        <a class="text-weight-bold">Konzern:</a>Zusammenschluss zweier oder
+        mehrerer rechtlich selbständiger Unternehmen zu einer großen
+        wirtschaftlichen Einheit unter einer Führung (keine UN-Rechtsform)
+      </li>
+      <li>
+        <a class="text-weight-bold">Kartell:</a>vertraglicher Zusammenschluss
+        von Unternehmen, die rechtlich selbstständig bleiben, ihere
+        wirtschaftliche Selbstständigkeit jedoch ganz oder zum Teil aufgeben, um
+        daraus einen Wettbewerbsvorteil zu erzielen (Preis- u. Gebietskartelle
+        verboten, Entwicklungs- u. Normenkartelle von Kartellamt genehmigt)
+      </li>
+      <li>
+        <a class="text-weight-bold">Fusion/Merger:</a> Zusammenschluss rechtlich
+        selbstständiger UN zu einer rechtlichen wirtschaftlichen Einheit
+      </li>
+      <li>
+        <a class="text-weight-bold">Partnerschaft/Allianz:</a> schließen
+        Unternehmen, um gemeinsam definierte Ziele zu verfolgen
+      </li>
+      <li>
+        <a class="text-weight-bold">Konsortium:</a> vorübergehender
+        Zusammenschluss von Unternehmen zur gemeinsamen Durchführung größerer
+        Geschäfts- u. Standardisierungsvorhaben
+      </li>
+      <li>
+        <a class="text-weight-bold">Arge:</a> Zusammenschluss als Arbeits- oder
+        Interessengemeinschaft, befristet auf gemeinsame Rechnung und Gefahr
+      </li>
+      <li>
+        <a class="text-weight-bold">Franchise:</a> Geschäftsmodell zur
+        Überlassung der entgeltlichen Nutzung von Geschäftskonzepten unter
+        bestimmten Vorgaben
+      </li>
+    </ul>
   </div>
 </template>
 

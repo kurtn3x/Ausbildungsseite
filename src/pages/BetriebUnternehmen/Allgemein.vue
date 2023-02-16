@@ -84,7 +84,8 @@
       <ul>
         <li>
           z.B. Handwerksbetriebe führen Handwerksleistungen aus und
-          Industriebetriebe produzieren Sachgüter
+          Industriebetriebe produzieren Sachgüter, Dienstleistungsbetriebe
+          bieten Dienstleistungen an
         </li>
       </ul>
     </ul>

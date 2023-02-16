@@ -38,6 +38,19 @@
             to="/betrieb_unternehmen/unternehmensrechtsformen"
             >Unternehmensrechtsformen</q-item
           >
+          <q-item
+            :inset-level="1"
+            to="/betrieb_unternehmen/unternehmensleitbild"
+            >Das Unternehmensleitbild</q-item
+          >
+          <q-item :inset-level="1" to="/betrieb_unternehmen/aufbauorganisation"
+            >Aufbauorganisation</q-item
+          >
+          <q-item
+            :inset-level="1"
+            to="/betrieb_unternehmen/wertschoepfungsprozesse"
+            >Wertschöpfungsprozesse</q-item
+          >
         </q-expansion-item>
         <q-expansion-item expand-separator label="Netzwerke & Co (LF3 & LF9)">
           <q-item :inset-level="1" to="/netzwerke/netzwerktopologien"

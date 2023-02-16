@@ -12,21 +12,21 @@
     <tbody>
       <tr valign="top">
         <td
-          style="
-            background: #67a4d8;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#67a4d8"
           width="79"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #ffffff"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Netzmaske</span></span
+                      ><span
+                        style="font-weight: normal"
+                        class="text-h6 text-weight-bold"
+                        >Netzmaske</span
+                      ></span
                     ></span
                   ></span
                 ></span
@@ -35,21 +35,19 @@
           </p>
         </td>
         <td
-          style="
-            background: #67a4d8;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#67a4d8"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #ffffff"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
+                      ><span
+                        style="font-weight: normal"
+                        class="text-h6 text-weight-bold"
                         >Welches Netz</span
                       ></span
                     ></span
@@ -60,21 +58,19 @@
           </p>
         </td>
         <td
-          style="
-            background: #67a4d8;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#67a4d8"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #ffffff"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
+                      ><span
+                        style="font-weight: normal"
+                        class="text-h6 text-weight-bold"
                         >Welcher Host</span
                       ></span
                     ></span
@@ -85,21 +81,21 @@
           </p>
         </td>
         <td
-          style="
-            background: #67a4d8;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#67a4d8"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #ffffff"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Oktett 1</span></span
+                      ><span
+                        style="font-weight: normal"
+                        class="text-h6 text-weight-bold"
+                        >Oktett 1</span
+                      ></span
                     ></span
                   ></span
                 ></span
@@ -108,21 +104,21 @@
           </p>
         </td>
         <td
-          style="
-            background: #67a4d8;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#67a4d8"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #ffffff"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Oktett 2</span></span
+                      ><span
+                        style="font-weight: normal"
+                        class="text-h6 text-weight-bold"
+                        >Oktett 2</span
+                      ></span
                     ></span
                   ></span
                 ></span
@@ -131,21 +127,21 @@
           </p>
         </td>
         <td
-          style="
-            background: #67a4d8;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#67a4d8"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #ffffff"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Oktett 3</span></span
+                      ><span
+                        style="font-weight: normal"
+                        class="text-h6 text-weight-bold"
+                        >Oktett 3</span
+                      ></span
                     ></span
                   ></span
                 ></span
@@ -154,21 +150,21 @@
           </p>
         </td>
         <td
-          style="
-            background: #67a4d8;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#67a4d8"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #ffffff"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Oktett 4</span></span
+                      ><span
+                        style="font-weight: normal"
+                        class="text-h6 text-weight-bold"
+                        >Oktett 4</span
+                      ></span
                     ></span
                   ></span
                 ></span
@@ -179,18 +175,14 @@
       </tr>
       <tr valign="top">
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="79"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">/24</span></span
@@ -202,18 +194,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">1. Netz</span></span
@@ -225,18 +213,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -250,18 +234,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -273,18 +253,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -296,18 +272,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -319,18 +291,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">0</span></span
@@ -343,11 +311,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="79">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -360,7 +328,7 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -374,10 +342,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -387,10 +355,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -400,10 +368,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -413,10 +381,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -426,10 +394,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">1</span></span
@@ -441,18 +409,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">Hostadres-</span></span
@@ -463,14 +424,7 @@
             >
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -485,18 +439,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -510,18 +460,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -533,18 +479,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -556,18 +498,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -579,18 +517,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">254</span></span
@@ -603,11 +537,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="79">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">sen</span></span
@@ -618,7 +552,7 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -632,10 +566,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -645,10 +579,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -658,10 +592,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -671,10 +605,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -684,10 +618,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">255</span></span
@@ -700,18 +634,14 @@
       </tr>
       <tr valign="top">
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="79"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">/25</span></span
@@ -723,18 +653,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">1. Netz</span></span
@@ -746,18 +672,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -771,18 +693,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -794,18 +712,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -817,18 +731,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -840,18 +750,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">0</span></span
@@ -864,18 +770,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -888,7 +787,7 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -902,10 +801,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -915,10 +814,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -928,10 +827,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -941,10 +840,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -954,10 +853,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">1</span></span
@@ -969,18 +868,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">Hostadres-</span></span
@@ -991,14 +883,7 @@
             >
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -1013,18 +898,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -1038,18 +919,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -1061,18 +938,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -1084,18 +957,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -1107,18 +976,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">126</span></span
@@ -1131,18 +996,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">sen</span></span
@@ -1153,7 +1011,7 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -1167,10 +1025,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -1180,10 +1038,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -1193,10 +1051,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -1206,10 +1064,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -1219,10 +1077,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">127</span></span
@@ -1234,14 +1092,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -1256,18 +1107,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">2. Netz</span></span
@@ -1279,18 +1126,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -1304,18 +1147,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -1327,18 +1166,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -1350,18 +1185,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -1373,18 +1204,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">128</span></span
@@ -1397,14 +1224,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -1418,7 +1238,7 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -1432,10 +1252,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -1445,10 +1265,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -1458,10 +1278,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -1471,10 +1291,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -1484,10 +1304,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">129</span></span
@@ -1499,14 +1319,21 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
+          <p
+            lang="de-DE"
+            style="
+              font-weight: normal;
+              orphans: 2;
+              widows: 2;
+              text-decoration: none;
+            "
+            align="left"
+          >
+            &nbsp;
+          </p>
+        </td>
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -1521,39 +1348,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -1567,18 +1369,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -1590,18 +1388,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -1613,18 +1407,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -1636,18 +1426,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">254</span></span
@@ -1661,11 +1447,7 @@
       </tr>
       <tr valign="top">
         <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="border: 1px solid; padding: 0in 0.08in"
           width="79"
           height="14"
         >
@@ -1682,7 +1464,7 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -1696,10 +1478,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -1709,10 +1491,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -1722,10 +1504,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -1735,10 +1517,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -1748,10 +1530,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">255</span></span
@@ -1764,18 +1546,14 @@
       </tr>
       <tr valign="top">
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="79"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">/26 </span></span
@@ -1787,18 +1565,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">1. Netz</span></span
@@ -1810,18 +1584,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -1835,18 +1605,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -1858,18 +1624,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -1881,18 +1643,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -1904,18 +1662,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">0</span></span
@@ -1929,18 +1683,14 @@
       </tr>
       <tr valign="top">
         <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="border: 1px solid; padding: 0in 0.08in"
           width="79"
           height="3"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -1953,14 +1703,7 @@
             >
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -1974,10 +1717,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -1987,10 +1730,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -2000,10 +1743,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -2013,10 +1756,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -2026,10 +1769,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">1</span></span
@@ -2041,18 +1784,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">Hostadres-</span></span
@@ -2063,14 +1799,7 @@
             >
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -2085,18 +1814,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -2110,18 +1835,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -2133,18 +1854,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -2156,18 +1873,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -2179,18 +1892,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">62</span></span
@@ -2203,18 +1912,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">sen</span></span
@@ -2225,14 +1927,7 @@
             >
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -2246,10 +1941,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -2259,10 +1954,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -2272,10 +1967,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -2285,10 +1980,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -2298,10 +1993,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">63</span></span
@@ -2313,14 +2008,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -2335,18 +2023,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">2. Netz</span></span
@@ -2358,18 +2042,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -2383,18 +2063,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -2406,18 +2082,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -2429,18 +2101,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -2452,18 +2120,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">64</span></span
@@ -2476,14 +2140,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -2497,14 +2154,7 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -2518,10 +2168,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -2531,10 +2181,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -2544,10 +2194,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -2557,10 +2207,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -2570,10 +2220,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">65</span></span
@@ -2585,14 +2235,21 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
+          <p
+            lang="de-DE"
+            style="
+              font-weight: normal;
+              orphans: 2;
+              widows: 2;
+              text-decoration: none;
+            "
+            align="left"
+          >
+            &nbsp;
+          </p>
+        </td>
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -2607,39 +2264,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -2653,18 +2285,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -2676,18 +2304,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -2699,18 +2323,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -2722,18 +2342,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">126</span></span
@@ -2746,14 +2362,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -2767,14 +2376,7 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -2788,10 +2390,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -2801,10 +2403,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -2814,10 +2416,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -2827,10 +2429,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -2840,10 +2442,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">127</span></span
@@ -2855,14 +2457,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -2877,18 +2472,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">3. Netz</span></span
@@ -2900,18 +2491,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -2925,18 +2512,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -2948,18 +2531,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -2971,18 +2550,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -2994,18 +2569,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">128</span></span
@@ -3018,14 +2589,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -3039,14 +2603,7 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -3060,10 +2617,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -3073,10 +2630,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -3086,10 +2643,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -3099,10 +2656,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -3112,10 +2669,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">129</span></span
@@ -3127,14 +2684,21 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
+          <p
+            lang="de-DE"
+            style="
+              font-weight: normal;
+              orphans: 2;
+              widows: 2;
+              text-decoration: none;
+            "
+            align="left"
+          >
+            &nbsp;
+          </p>
+        </td>
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -3149,39 +2713,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -3195,18 +2734,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -3218,18 +2753,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -3241,18 +2772,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -3264,18 +2791,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">190</span></span
@@ -3288,14 +2811,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -3309,14 +2825,7 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -3330,10 +2839,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -3343,10 +2852,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -3356,10 +2865,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -3369,10 +2878,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -3382,10 +2891,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">191</span></span
@@ -3397,14 +2906,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -3419,18 +2921,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">4. Netz</span></span
@@ -3442,18 +2940,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -3467,18 +2961,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -3490,18 +2980,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -3513,18 +2999,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -3536,18 +3018,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -3560,7 +3038,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="79">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -3574,13 +3052,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -3590,10 +3068,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -3603,10 +3081,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -3616,10 +3094,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -3629,10 +3107,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">193</span></span
@@ -3645,18 +3123,14 @@
       </tr>
       <tr valign="top">
         <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="border: 1px solid; padding: 0in 0.08in"
           width="79"
           height="1"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">
@@ -3664,29 +3138,18 @@
             ></span>
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -3700,18 +3163,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -3723,18 +3182,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -3746,18 +3201,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -3769,18 +3220,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">254</span></span
@@ -3793,7 +3240,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="79">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -3807,13 +3254,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -3823,10 +3270,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -3836,10 +3283,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -3849,10 +3296,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -3862,10 +3309,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">255</span></span
@@ -3878,18 +3325,14 @@
       </tr>
       <tr valign="top">
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="79"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">/27</span></span
@@ -3901,18 +3344,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">1. Netz</span></span
@@ -3924,18 +3363,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -3949,18 +3384,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -3972,18 +3403,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -3995,18 +3422,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -4018,18 +3441,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">0</span></span
@@ -4042,18 +3461,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -4066,13 +3478,13 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -4082,10 +3494,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -4095,10 +3507,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -4108,10 +3520,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -4121,10 +3533,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">1</span></span
@@ -4136,18 +3548,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">Hostadres-</span></span
@@ -4158,29 +3563,18 @@
             >
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -4194,18 +3588,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -4217,18 +3607,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -4240,18 +3626,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -4263,18 +3645,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">30</span></span
@@ -4287,18 +3665,11 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">sen</span></span
@@ -4309,13 +3680,13 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -4325,10 +3696,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -4338,10 +3709,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -4351,10 +3722,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -4364,10 +3735,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">31</span></span
@@ -4379,14 +3750,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -4401,18 +3765,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">2. Netz</span></span
@@ -4424,18 +3784,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -4449,18 +3805,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -4472,18 +3824,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -4495,18 +3843,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -4518,18 +3862,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">32</span></span
@@ -4542,14 +3882,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -4563,13 +3896,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -4579,10 +3912,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -4592,10 +3925,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -4605,10 +3938,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -4618,10 +3951,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">33</span></span
@@ -4633,14 +3966,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -4654,29 +3980,18 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -4690,18 +4005,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -4713,18 +4024,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -4736,18 +4043,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -4759,18 +4062,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">62</span></span
@@ -4783,14 +4082,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -4804,13 +4096,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -4820,10 +4112,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -4833,10 +4125,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -4846,10 +4138,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -4859,10 +4151,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">63</span></span
@@ -4874,14 +4166,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -4896,18 +4181,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">3. Netz</span></span
@@ -4919,18 +4200,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -4944,18 +4221,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -4967,18 +4240,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -4990,18 +4259,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -5013,18 +4278,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">64</span></span
@@ -5037,14 +4298,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5058,13 +4312,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -5074,10 +4328,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -5087,10 +4341,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -5100,10 +4354,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -5113,10 +4367,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">65</span></span
@@ -5128,14 +4382,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5149,29 +4396,18 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -5185,18 +4421,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -5208,18 +4440,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -5231,18 +4459,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -5254,18 +4478,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">94</span></span
@@ -5278,14 +4498,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5299,13 +4512,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -5315,10 +4528,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -5328,10 +4541,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -5341,10 +4554,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -5354,10 +4567,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">95</span></span
@@ -5369,14 +4582,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5391,18 +4597,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">4. Netz</span></span
@@ -5414,18 +4616,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -5439,18 +4637,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -5462,18 +4656,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -5485,18 +4675,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -5508,18 +4694,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">96</span></span
@@ -5532,14 +4714,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5553,13 +4728,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -5569,10 +4744,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -5582,10 +4757,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -5595,10 +4770,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -5608,10 +4783,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">97</span></span
@@ -5623,14 +4798,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5644,29 +4812,18 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -5680,18 +4837,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -5703,18 +4856,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -5726,18 +4875,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -5749,18 +4894,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">126</span></span
@@ -5773,14 +4914,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5794,13 +4928,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -5810,10 +4944,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -5823,10 +4957,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -5836,10 +4970,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -5849,10 +4983,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">127</span></span
@@ -5864,14 +4998,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -5886,18 +5013,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">5. Netz</span></span
@@ -5909,18 +5032,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -5934,18 +5053,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -5957,18 +5072,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -5980,18 +5091,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -6003,18 +5110,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">128</span></span
@@ -6027,14 +5130,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6048,13 +5144,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -6064,10 +5160,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -6077,10 +5173,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -6090,10 +5186,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -6103,10 +5199,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">129</span></span
@@ -6118,14 +5214,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6139,29 +5228,18 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -6175,18 +5253,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -6198,18 +5272,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -6221,18 +5291,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -6244,18 +5310,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">158</span></span
@@ -6268,14 +5330,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6289,13 +5344,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -6305,10 +5360,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -6318,10 +5373,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -6331,10 +5386,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -6344,10 +5399,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">159</span></span
@@ -6359,14 +5414,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6381,18 +5429,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">6. Netz</span></span
@@ -6404,18 +5448,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -6429,18 +5469,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -6452,18 +5488,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -6475,18 +5507,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -6498,18 +5526,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">160</span></span
@@ -6522,14 +5546,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6543,13 +5560,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -6559,10 +5576,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -6572,10 +5589,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -6585,10 +5602,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -6598,10 +5615,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">161</span></span
@@ -6613,14 +5630,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6634,29 +5644,18 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -6670,18 +5669,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -6693,18 +5688,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -6716,18 +5707,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -6739,18 +5726,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">190</span></span
@@ -6763,14 +5746,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6784,13 +5760,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -6800,10 +5776,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -6813,10 +5789,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -6826,10 +5802,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -6839,10 +5815,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">191</span></span
@@ -6854,14 +5830,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -6876,18 +5845,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">7. Netz</span></span
@@ -6899,18 +5864,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -6924,18 +5885,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -6947,18 +5904,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -6970,18 +5923,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -6993,18 +5942,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -7017,14 +5962,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -7038,13 +5976,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -7054,10 +5992,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -7067,10 +6005,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -7080,10 +6018,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -7093,10 +6031,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">193</span></span
@@ -7108,14 +6046,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -7129,29 +6060,18 @@
             &nbsp;
           </p>
         </td>
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -7165,18 +6085,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -7188,18 +6104,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -7211,18 +6123,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -7234,18 +6142,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">222</span></span
@@ -7258,14 +6162,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -7279,13 +6176,13 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -7295,10 +6192,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -7308,10 +6205,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -7321,10 +6218,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -7334,10 +6231,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">223</span></span
@@ -7349,14 +6246,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -7371,18 +6261,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="99"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">8. Netz</span></span
@@ -7394,18 +6280,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -7419,18 +6301,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -7442,18 +6320,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -7465,18 +6339,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -7488,18 +6358,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">224</span></span
@@ -7512,14 +6378,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -7533,7 +6392,7 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -7547,10 +6406,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Erster Host</span></span
@@ -7560,10 +6419,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -7573,10 +6432,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -7586,10 +6445,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -7599,10 +6458,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">225</span></span
@@ -7614,14 +6473,21 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
+          <p
+            lang="de-DE"
+            style="
+              font-weight: normal;
+              orphans: 2;
+              widows: 2;
+              text-decoration: none;
+            "
+            align="left"
+          >
+            &nbsp;
+          </p>
+        </td>
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -7636,39 +6502,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="99"
-        >
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="156"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal"
@@ -7682,18 +6523,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">192</span></span
@@ -7705,18 +6542,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">168</span></span
@@ -7728,18 +6561,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="62"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">164</span></span
@@ -7751,18 +6580,14 @@
           </p>
         </td>
         <td
-          style="
-            background: #dfebf6;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
+          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
           bgcolor="#dfebf6"
           width="61"
         >
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="color: #404040"
-              ><span style="font-family: Arial, serif"
-                ><span style="font-size: small"
+            <span style=""
+              ><span style=""
+                ><span style=""
                   ><span lang="de-DE"
                     ><span style="text-decoration: none"
                       ><span style="font-weight: normal">254</span></span
@@ -7775,14 +6600,7 @@
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="
-            background: #ffffff;
-            border: 1px solid #000000;
-            padding: 0in 0.08in;
-          "
-          width="79"
-        >
+        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
           <p
             lang="de-DE"
             style="
@@ -7796,7 +6614,7 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="99">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
           <p
             lang="de-DE"
             style="
@@ -7810,10 +6628,10 @@
             &nbsp;
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="156">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">Broadcast</span></span
@@ -7823,10 +6641,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">192</span></span
@@ -7836,10 +6654,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">168</span></span
@@ -7849,10 +6667,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="62">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">164</span></span
@@ -7862,10 +6680,10 @@
             >
           </p>
         </td>
-        <td style="border: 1px solid #000000; padding: 0in 0.08in" width="61">
+        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
           <p style="orphans: 2; widows: 2" align="left">
-            <span style="font-family: Arial, serif"
-              ><span style="font-size: small"
+            <span style=""
+              ><span style=""
                 ><span lang="de-DE"
                   ><span style="text-decoration: none"
                     ><span style="font-weight: normal">255</span></span

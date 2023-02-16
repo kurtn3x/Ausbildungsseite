@@ -87,31 +87,86 @@
         </li>
       </ul>
     </ul>
+    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+      Beteiligte (Stakeholder) des Zielentscheidungsprozesses
+    </div>
+    <ul>
+      <li><a class="text-weight-bold">Im Unternehmen</a></li>
+      <ul>
+        <li>Eigentümer, Aktionäre</li>
+        <li>Unternehmensleitung</li>
+        <li>Arbeitnehmer</li>
+        <ul>
+          <li>Interesse an langfristiger Marktposition</li>
+          <li>Sicherung des Arbeitsplatzes</li>
+          <li>leistungsgerechte Vergütung</li>
+        </ul>
+        <li>Beauftragte z.B. Arbeitsschutz</li>
+      </ul>
+      <li><a class="text-weight-bold">unternehmensnahe</a></li>
+      <ul>
+        <li>Kapitalgeber</li>
+        <ul>
+          <li>hohe Verzinsung bei niedrigerem Risiko</li>
+          <li>Gutes Image</li>
+          <li>Kapitalwachstum</li>
+        </ul>
+        <li>Marktpartner wie Lieferanten</li>
+        <ul>
+          <li>Kontinuierliche Auftragserteilung</li>
+          <li>pünktliche Zahlung</li>
+          <li>Gute Preise</li>
+        </ul>
+        <li>Indirekt: Konkurrenten</li>
+      </ul>
+      <li><a class="text-weight-bold">Außerhalb des Unternehmens</a></li>
+      <ul>
+        <li>Staat</li>
+        <li>EU</li>
+        <li>Insitute</li>
+        <li>Gesellschaftliche Gruppen</li>
+      </ul>
+    </ul>
 
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Bewertung von Zielen
     </div>
     <ul>
-      <li>
-        <a class="text-weight-bold">Zielharmonie:</a> mehrere erreichbahre Ziele
-        ohne Zielkonflikte z.B. Ökologie und Wirtschaftlichkeit, kann
-        konkuierrend sein, aber auch Imagefördernd
-      </li>
-      <li>
-        <a class="text-weight-bold">Neutrale Ziele:</a> Ziele beeinflussen sich
-        nicht
-      </li>
-      <li>
-        <a class="text-weight-bold">Komplementäre Ziele:</a> wenn Ziel erreicht
-        wird, unterstüzt dies auch das Ereichen des anderen Ziels, z.B.
-        Bestellung größerer Mengen kann Transportkosten sparen und ggf.
-        Mengenrabatt nach sich ziehen
-      </li>
-      <li>
-        <a class="text-weight-bold">Konkuierrende Ziele:</a> sich behinderne
-        Ziele -> Ziele müssen priorisiert werden, d.h. Ziele mit höherem
-        Wirkungsgrad haben einen höheren Rang
-      </li>
+      <li class="text-weight-bolder">Zielharmonie und Zielkonflikte</li>
+      <ul>
+        <li>
+          <a class="text-weight-bold">Zielharmonie:</a> mehrere erreichbahre
+          Ziele ohne Zielkonflikte z.B. Ökologie und Wirtschaftlichkeit, kann
+          konkuierrend sein, aber auch Imagefördernd
+        </li>
+        <li>
+          <a class="text-weight-bold">Neutrale Ziele:</a> Ziele beeinflussen
+          sich nicht
+        </li>
+        <li>
+          <a class="text-weight-bold">Komplementäre Ziele:</a> wenn Ziel
+          erreicht wird, unterstüzt dies auch das Ereichen des anderen Ziels,
+          z.B. Bestellung größerer Mengen kann Transportkosten sparen und ggf.
+          Mengenrabatt nach sich ziehen
+        </li>
+        <li>
+          <a class="text-weight-bold">Konkuierrende Ziele:</a> sich behinderne
+          Ziele -> Ziele müssen priorisiert werden, d.h. Ziele mit höherem
+          Wirkungsgrad haben einen höheren Rang
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Strategische und operative Ziele</li>
+      <ul>
+        <li>
+          <a class="text-weight-bold">Strategische (langefristige) Ziele</a> wie
+          Gewinnmaximierung
+        </li>
+        <li>
+          <a class="text-weight-bold"
+            >Operative (mittel- und kurzfristige) Ziele </a
+          >wie Absatzmaximierung, Kostenminimierung
+        </li>
+      </ul>
     </ul>
 
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
