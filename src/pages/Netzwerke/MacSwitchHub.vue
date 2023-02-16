@@ -1,9 +1,12 @@
 <template>
-  <div class="text-body1 q-ma-md">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md">Netzwerke</div>
+  <div class="text-body1 q-ma-lg">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+      Netzwerke
+    </div>
     <div class="text-center q-mt-lg text-h5 text-weight-bold">
       Mac-Adressen, Switche und Hubs
     </div>
+    <q-separator class="q-mt-md" />
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Mac-Adressen</div>
     <ul>
       <li>MAC = Media Access Control</li>
@@ -22,6 +25,17 @@
         Beispiel: 00-09-8C-00-69-63 oder auch : statt -
       </li>
     </ul>
+    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+      ARP- Address Resolution Protocol
+    </div>
+    <ul>
+      <li>löst IP-Adressen in MAC-Adressen auf</li>
+      <li>wird benötigt um Pakete im Netz zu adressieren</li>
+      <li>ARP-Request an "FF-FF-FF-FF-FF-FF" -> 'MAC-Broadcast'</li>
+      <li>Daten werden in einem lokalen ARP-Cache gespeichert</li>
+    </ul>
+    <q-separator class="q-mt-md" />
+
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Hub</div>
     <ul>
       <li>verbinden Geräte sternförmig</li>

@@ -19,55 +19,143 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list bordered class="rounded-borders">
-        <q-item clickable to="/">Home</q-item>
+        <q-item clickable to="/" class="text-weight-bolder text-cyan-5"
+          ><q-item-section>Home</q-item-section></q-item
+        >
+        <q-separator />
         <q-expansion-item
           expand-separator
           label="Betriebe und Unternehmen (LF1)"
+          header-class="text-weight-bolder text-cyan-5"
         >
-          <q-item :inset-level="1" to="/betrieb_unternehmen/allgemein"
-            >Betriebe und Unternehmen</q-item
-          >
-          <q-item :inset-level="1" to="/betrieb_unternehmen/ziele"
-            >Ziele von Betrieben und Unternehmen</q-item
-          >
-          <q-item :inset-level="1" to="/betrieb_unternehmen/management"
-            >Managementsysteme und Qualitätsmanagement</q-item
-          >
-          <q-item
-            :inset-level="1"
-            to="/betrieb_unternehmen/unternehmensrechtsformen"
-            >Unternehmensrechtsformen</q-item
-          >
-          <q-item
-            :inset-level="1"
-            to="/betrieb_unternehmen/unternehmensleitbild"
-            >Das Unternehmensleitbild</q-item
-          >
-          <q-item :inset-level="1" to="/betrieb_unternehmen/aufbauorganisation"
-            >Aufbauorganisation</q-item
-          >
-          <q-item
-            :inset-level="1"
-            to="/betrieb_unternehmen/wertschoepfungsprozesse"
-            >Wertschöpfungsprozesse</q-item
+          <q-list bordered>
+            <q-item :inset-level="1" to="/betrieb_unternehmen/allgemein"
+              ><q-item-section>Betriebe und Unternehmen</q-item-section></q-item
+            >
+            <q-separator />
+            <q-item :inset-level="1" to="/betrieb_unternehmen/ziele"
+              ><q-item-section
+                >Ziele von Betrieben und Unternehmen</q-item-section
+              ></q-item
+            >
+            <q-separator />
+
+            <q-item :inset-level="1" to="/betrieb_unternehmen/management"
+              ><q-item-section
+                >Managementsysteme und Qualitätsmanagement</q-item-section
+              ></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              to="/betrieb_unternehmen/unternehmensrechtsformen"
+              ><q-item-section>Unternehmensrechtsformen</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              to="/betrieb_unternehmen/unternehmensleitbild"
+              ><q-item-section>Das Unternehmensleitbild</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              to="/betrieb_unternehmen/aufbauorganisation"
+              ><q-item-section>Aufbauorganisation</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              to="/betrieb_unternehmen/wertschoepfungsprozesse"
+              ><q-item-section>Wertschöpfungsprozesse</q-item-section></q-item
+            >
+          </q-list>
+        </q-expansion-item>
+        <q-separator />
+        <q-expansion-item
+          expand-separator
+          label="Netzwerke & Co (LF3 & LF9)"
+          header-class="text-weight-bolder text-cyan-5"
+        >
+          <q-list bordered>
+            <q-item :inset-level="1" to="/netzwerke/allgemein_topologien"
+              ><q-item-section>Netzwerke und Topologien</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item :inset-level="1" to="/netzwerke/mac_switch_hub"
+              ><q-item-section
+                >MAC-Adressen, Switche und Hubs</q-item-section
+              ></q-item
+            >
+            <q-separator />
+
+            <q-item :inset-level="1" to="/netzwerke/osi"
+              ><q-item-section>Das OSI-Schichtenmodell</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item :inset-level="1" to="/netzwerke/ipv4"
+              ><q-item-section>IPv4</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item :inset-level="1" to="/netzwerke/ipv6"
+              ><q-item-section>IPv6</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item :inset-level="1" to="/netzwerke/dns_dhcp"
+              ><q-item-section>DNS and DHCP</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item :inset-level="1" to="/netzwerke/tcp_udp_ports"
+              ><q-item-section>TCP, UDP & Ports</q-item-section></q-item
+            >
+            <q-separator />
+            <q-item :inset-level="1" to="/netzwerke/routing"
+              ><q-item-section>Routing</q-item-section></q-item
+            >
+          </q-list>
+        </q-expansion-item>
+        <q-separator />
+
+        <q-expansion-item
+          expand-separator
+          label="Datenschutz und Datensicherheit (LF4)"
+          header-class="text-weight-bolder text-cyan-5"
+        >
+          <q-list bordered>
+            <q-item
+              :inset-level="1"
+              to="/datenschutz_datensicherheit/schutzziele"
+              ><q-item-section>Schutzziele</q-item-section></q-item
+            >
+            <q-separator />
+            <q-item :inset-level="1" to="/datenschutz_datensicherheit/tom"
+              ><q-item-section
+                >Technisch organisatorische Maßnahmen</q-item-section
+              ></q-item
+            >
+          </q-list>
+        </q-expansion-item>
+        <q-separator />
+        <q-expansion-item
+          expand-separator
+          label="Strom und Ladung (LF7)"
+          header-class="text-weight-bolder text-cyan-5"
+        >
+          <q-list bordered>
+            <q-item :inset-level="1" to="/strom_ladung/allgemein"
+              ><q-item-section>Allgemein</q-item-section></q-item
+            ></q-list
           >
         </q-expansion-item>
-        <q-expansion-item expand-separator label="Netzwerke & Co (LF3 & LF9)">
-          <q-item :inset-level="1" to="/netzwerke/netzwerktopologien"
-            >Netzwerke und Topologien</q-item
-          >
-          <q-item :inset-level="1" to="/netzwerke/mac_switch_hub"
-            >MAC-Adressen, Switche und Hubs</q-item
-          >
-          <q-item :inset-level="1" to="/netzwerke/osi"
-            >Das OSI-Schichtenmodell</q-item
-          >
-          <q-item :inset-level="1" to="/netzwerke/ipv4">IPV4</q-item>
-          <q-item :inset-level="1" to="/netzwerke/ipv6">IPV6</q-item>
-          <q-item :inset-level="1" to="/netzwerke/dns">DNS</q-item>
-          <q-item :inset-level="1" to="/netzwerke/dhcp">DHCP</q-item>
-        </q-expansion-item>
-        <q-item clickable to="/lf3">LF3</q-item>
       </q-list>
     </q-drawer>
 

@@ -1,12 +1,12 @@
 <template>
-  <div class="text-body1 q-ma-md">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md">
+  <div class="text-body1 q-ma-lg">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
       Betriebe und Unternehmen
     </div>
     <div class="text-center q-mt-lg text-h5 text-weight-bold">
       Unternehmensrechtsformen
     </div>
-
+    <q-separator class="q-mt-md" />
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Gesetzliche Grundlagen
     </div>
@@ -26,6 +26,7 @@
       </ul>
       <li>z.T. Bürgerliches Gesetzbuch (BGB)</li>
     </ul>
+    <q-separator class="q-mt-md" />
 
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Wichtige Rechtsformen eines Unternehmens
@@ -63,6 +64,7 @@
         <li>Aktiengesellschaft (AG)</li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
 
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Prokura</div>
     <ul>
@@ -95,6 +97,8 @@
         <li>z.B. Prokuraerteilung, Anmelden der Firma zum Handelsregister</li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Entscheidungskriterien für Wahl der Rechtsform
     </div>
@@ -108,6 +112,7 @@
       <li>Steuerbelastung</li>
       <li>Flexibilität bei Änderung von Beteiligungsverhältnissen</li>
     </ul>
+    <q-separator class="q-mt-md" />
 
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Wirtschaftliche Verflechtungen

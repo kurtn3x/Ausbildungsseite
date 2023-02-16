@@ -62,20 +62,50 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/Netzwerke/IPV6View.vue'),
       },
       {
-        path: 'netzwerktopologien',
+        path: 'allgemein_topologien',
         component: () => import('pages/Netzwerke/AllgNetzwerktopologien.vue'),
       },
       {
-        path: 'dns',
-        component: () => import('pages/Netzwerke/DNSView.vue'),
-      },
-      {
-        path: 'dhcp',
-        component: () => import('src/pages/Netzwerke/DHCPView.vue'),
+        path: 'dns_dhcp',
+        component: () => import('pages/Netzwerke/DnsDhcp.vue'),
       },
       {
         path: 'osi',
         component: () => import('pages/Netzwerke/OSIView.vue'),
+      },
+      {
+        path: 'tcp_udp_ports',
+        component: () => import('pages/Netzwerke/TcpUdpPorts.vue'),
+      },
+      {
+        path: 'routing',
+        component: () => import('pages/Netzwerke/Routing.vue'),
+      },
+    ],
+  },
+  {
+    path: '/datenschutz_datensicherheit',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'schutzziele',
+        component: () =>
+          import('pages/DatenschutzDatensicherheit/Schutzziele.vue'),
+      },
+      {
+        path: 'tom',
+        component: () => import('pages/DatenschutzDatensicherheit/TOMView.vue'),
+      },
+    ],
+  },
+
+  {
+    path: '/strom_ladung',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'allgemein',
+        component: () => import('pages/StromLadungen/AllgemeinView.vue'),
       },
     ],
   },

@@ -1,9 +1,10 @@
 <template>
-  <div class="text-body1 q-ma-md">
-    <div class="text-center text-h4 text-weight-bolder">
+  <div class="text-body1 q-ma-lg">
+    <div class="text-center text-h4 text-weight-bolder text-primary">
       Betriebe und Unternehmen
     </div>
     <div class="text-center q-mt-lg text-h5 text-weight-bold">Allgemeines</div>
+    <q-separator class="q-mt-md" />
     <ul>
       <li>
         <a class="text-weight-bolder text-h6">Betrieb</a> ist eine
@@ -42,7 +43,7 @@
         </ul>
       </ul>
     </ul>
-
+    <q-separator class="q-mt-md" />
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Unterscheidung von Betrieb und Unternehmen
     </div>

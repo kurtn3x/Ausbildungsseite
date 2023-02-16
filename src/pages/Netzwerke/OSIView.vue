@@ -1,9 +1,12 @@
 <template>
-  <div class="text-body1 q-ma-md">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md">Netzwerke</div>
+  <div class="text-body1 q-ma-lg">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+      Netzwerke
+    </div>
     <div class="text-center q-mt-lg text-h5 text-weight-bold">
       Das OSI-Schichtenmodell
     </div>
+    <q-separator class="q-mt-md" />
     <table class="tg q-mt-lg">
       <thead>
         <tr>

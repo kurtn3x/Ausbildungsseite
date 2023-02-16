@@ -1,11 +1,15 @@
 <template>
-  <div class="text-body1 q-ma-md">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md">
+  <q-dialog v-model="show_img">
+    <q-img :src="src + popupsrc" class="bg-grey-5" />
+  </q-dialog>
+  <div class="text-body1 q-ma-lg">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
       Betriebe und Unternehmen
     </div>
     <div class="text-center q-mt-lg text-h5 text-weight-bold">
       Aufbauorganistation
     </div>
+    <q-separator class="q-mt-md" />
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Grundbegriffe</div>
     <ul>
       <li class="text-weight-bold">Merkmale von Organistationen</li>
@@ -36,6 +40,8 @@
         <li>Entwicklung von Führungsformen und Techniken</li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Das Bilden von Stellen und Abteilungen
     </div>
@@ -81,6 +87,8 @@
         <li>ermöglich die Festlegung von Verantwortungsbereichen</li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Hierarchien und Führung im Unternehmen
     </div>
@@ -112,11 +120,13 @@
         </li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       Leitungssysteme
     </div>
 
-    <table class="tg">
+    <table class="tg q-mt-lg">
       <thead>
         <tr>
           <th><a class="text-weight-bold">Skizze</a></th>
@@ -128,7 +138,34 @@
       </thead>
       <tbody>
         <tr>
-          <td class="tg-0lax"></td>
+          <td class="tg-0lax">
+            <div class="bg-grey-5">
+              <q-img
+                width="300px"
+                height="200px"
+                :src="
+                  src +
+                  '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png'
+                "
+                @click="
+                  show_img = true;
+                  popupsrc =
+                    '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png';
+                "
+              >
+                <div
+                  class="absolute-bottom-right text-subtitle2"
+                  style="
+                    height: 40px;
+                    font-size: 10px;
+                    background-color: transparent;
+                  "
+                >
+                  Click for full size
+                </div>
+              </q-img>
+            </div>
+          </td>
           <td class="tg-0lax">
             <a class="text-weight-bold text-h6">Einliniensystem</a>
           </td>
@@ -144,57 +181,135 @@
           </td>
         </tr>
         <tr>
-          <td class="tg-0lax"></td>
+          <td class="tg-0lax">
+            <div class="bg-grey-5">
+              <q-img
+                class="fit"
+                :src="
+                  src +
+                  '/BetriebeUnternehmen/Aufbauorganisation/Mehrliniensystem.png'
+                "
+                @click="
+                  show_img = true;
+                  popupsrc =
+                    '/BetriebeUnternehmen/Aufbauorganisation/Mehrliniensystem.png';
+                "
+              >
+                <div
+                  class="absolute-bottom-right text-subtitle2"
+                  style="
+                    height: 40px;
+                    font-size: 10px;
+                    background-color: transparent;
+                  "
+                >
+                  Click for full size
+                </div>
+              </q-img>
+            </div>
+          </td>
           <td class="tg-0lax">
             <a class="text-weight-bold text-h6">Mehrliniensystem</a>
           </td>
           <td class="tg-0lax">
-            eine untergeordnete Stelle kann von mehrerer Instanzen Weisungen
-            erhalten<br />Mehrdimensionale Organisationsstruktur<br />
+            - eine untergeordnete Stelle kann von mehrerer Instanzen Weisungen
+            erhalten<br />- Mehrdimensionale Organisationsstruktur<br />
           </td>
           <td class="tg-0lax">
-            Entlastung der Instanzen<br />Direkte Kommunikations- und
+            - Entlastung der Instanzen<br />- Direkte Kommunikations- und
             Informationswege<br />
           </td>
           <td class="tg-0lax">
-            Kompetenzstreitigkeiten unter Instanzen<br />Fehler lassen sich
+            - Kompetenzstreitigkeiten unter Instanzen<br />- Fehler lassen sich
             schwerer zuweisen<br />
           </td>
         </tr>
         <tr>
-          <td class="tg-0lax"></td>
+          <td class="tg-0lax">
+            <div class="bg-grey-5">
+              <q-img
+                class="fit"
+                :src="
+                  src +
+                  '/BetriebeUnternehmen/Aufbauorganisation/Stabliniensystem.png'
+                "
+                @click="
+                  show_img = true;
+                  popupsrc =
+                    '/BetriebeUnternehmen/Aufbauorganisation/Stabliniensystem.png';
+                "
+              >
+                <div
+                  class="absolute-bottom-right text-subtitle2"
+                  style="
+                    height: 40px;
+                    font-size: 10px;
+                    background-color: transparent;
+                  "
+                >
+                  Click for full size
+                </div>
+              </q-img>
+            </div>
+          </td>
           <td class="tg-0lax">
             <a class="text-weight-bold text-h6">Stabliniensystem</a>
           </td>
           <td class="tg-0lax">
-            Liniensystem mit zusätzlichen Stabsstellen<br />Erweiterung
+            - Liniensystem mit zusätzlichen Stabsstellen<br />- Erweiterung
             Einliniensystem durch einen Stab<br />
           </td>
           <td class="tg-0lax">
-            Entlastung der Instanzen<br />Ausgleich zwischen Fachwissen der
+            - Entlastung der Instanzen<br />- Ausgleich zwischen Fachwissen der
             Stäbe und Überblick der Instanzen<br />
           </td>
           <td class="tg-0lax">
-            Konflikte zwischen Instanzen und Stab<br />unübersichtliche
+            - Konflikte zwischen Instanzen und Stab<br />- unübersichtliche
             Entscheidungsprozesse<br />
           </td>
         </tr>
         <tr>
-          <td class="tg-0lax"></td>
+          <td class="tg-0lax">
+            <div class="bg-grey-5">
+              <q-img
+                class="fit"
+                :src="
+                  src +
+                  '/BetriebeUnternehmen/Aufbauorganisation/Matrixorganisation.png'
+                "
+                @click="
+                  show_img = true;
+                  popupsrc =
+                    '/BetriebeUnternehmen/Aufbauorganisation/Matrixorganisation.png';
+                "
+              >
+                <div
+                  class="absolute-bottom-right text-subtitle2"
+                  style="
+                    height: 40px;
+                    font-size: 10px;
+                    background-color: transparent;
+                  "
+                >
+                  Click for full size
+                </div>
+              </q-img>
+            </div>
+          </td>
           <td class="tg-0lax">
             <a class="text-weight-bold text-h6">Matrixorganisation</a>
           </td>
           <td class="tg-0lax">
-            Weiterentwicklung des Mehrliniensystems, auf zwei unabhängige
-            Instanzen begrenzt<br />Überschneidung funktionaler
+            - Weiterentwicklung des Mehrliniensystems, auf zwei unabhängige
+            Instanzen begrenzt<br />- Überschneidung funktionaler
             Organisationsbereiche mit der Organisation der Produktbereiche<br />
           </td>
           <td class="tg-0lax">
-            Entlastung der Instanzen<br />Ausgleich zwischen Fachwissen der
+            - Entlastung der Instanzen<br />- Ausgleich zwischen Fachwissen der
             Stäbe und Überblick der Instanzen<br />
           </td>
           <td class="tg-0lax">
-            Konflikte zwischen Instanzen und Stab<br />unübersichtliche
+            - Konflikte zwischen Instanzen und Stab<br />- unübersichtliche
             Entscheidungsprozesse<br />
           </td>
         </tr>
@@ -204,10 +319,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 
 export default defineComponent({
   name: 'IndexPage',
+  setup() {
+    return {
+      src: 'https://media.kurtn3x.xyz/assets',
+      show_img: ref(false),
+      popupsrc: ref(''),
+    };
+  },
 });
 </script>
 

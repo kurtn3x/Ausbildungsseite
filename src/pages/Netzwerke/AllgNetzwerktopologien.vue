@@ -1,9 +1,12 @@
 <template>
-  <div class="text-body1 q-ma-md">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md">Netzwerke</div>
+  <div class="text-body1 q-ma-lg">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+      Netzwerke
+    </div>
     <div class="text-center q-mt-lg text-h5 text-weight-bold">
       Allgemeines und Topologien
     </div>
+    <q-separator class="q-mt-md" />
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Netzwerke</div>
     <ul>
       <li>
@@ -28,6 +31,8 @@
         </li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder q-mb-md">
       Netzwerktopologien
     </div>
@@ -44,7 +49,7 @@
         <tr>
           <td class="tg-0lax">
             <q-img
-              class="fit"
+              class="fit bg-grey-5"
               :src="src + '/Netzwerke/Topologien/Bustopologie.png'"
             />
           </td>
@@ -59,7 +64,7 @@
         <tr>
           <td class="tg-0lax">
             <q-img
-              class="fit"
+              class="fit bg-grey-5"
               :src="src + '/Netzwerke/Topologien/Ringtopologie.png'"
             />
           </td>
@@ -74,7 +79,7 @@
         <tr>
           <td class="tg-0lax">
             <q-img
-              class="fit"
+              class="fit bg-grey-5"
               :src="src + '/Netzwerke/Topologien/Sterntopologie.png'"
             />
           </td>
@@ -95,6 +100,7 @@
               width="200px"
               height="200px"
               :src="src + '/Netzwerke/Topologien/Maschentopologie.png'"
+              class="bg-grey-5"
             />
           </td>
           <td class="tg-0lax text-h6 text-weight-bold">Maschentopologie</td>
@@ -107,6 +113,66 @@
         </tr>
       </tbody>
     </table>
+    <q-separator class="q-mt-md" />
+    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder q-mb-md">
+      Allgemeine Begriffe
+    </div>
+    <ul>
+      <li>
+        <a class="text-weight-bolder">Zwischensystem:</a>Gerät zur Verstärkung,
+        Weiterleitung und Anpassung des Datenstromes
+      </li>
+      <li>
+        <a class="text-weight-bolder">Datenpaket:</a>Datenströme in
+        Übertragungseinheiten zerlegt, welche als Datenpaket bezeichnet
+        werden.Sind mit Sender- u. Empfängeradresse ausgestattet (siehe versch.
+        Headeraufbau)
+      </li>
+      <li>
+        <a class="text-weight-bolder">Räumliche Ausdehnung von Netzen:</a>
+      </li>
+
+      <ul>
+        <li>
+          <a class="text-weight-bolder">PAN:</a>Personal Area Network (z.B.
+          Bluetooth)
+        </li>
+        <li>
+          <a class="text-weight-bolder">LAN:</a>Local Area Network (lokales
+          Netz)
+        </li>
+        <li>
+          <a class="text-weight-bolder">MAN:</a>Metropolitan Area Network
+          (regionales Netz einer Metropolregion)
+        </li>
+        <li>
+          <a class="text-weight-bolder">WAN:</a>Wide Area Network
+          (Weitverkehrsverbindung)
+        </li>
+        <li>
+          <a class="text-weight-bolder">GAN:</a>Global Area Network (globales
+          Netz)
+        </li>
+      </ul>
+
+      <li>
+        <a class="text-weight-bolder">PowerLAN:</a>Nutzt das Stromnetz als
+        lokales Übertragungsmedium
+      </li>
+      <li><a class="text-weight-bolder">WLAN:</a>Wireless-LAN</li>
+      <li>
+        <a class="text-weight-bolder">VLAN:</a>Virtual LAN : flexible, logische
+        Trennung eines physischen Netzes
+      </li>
+      <li>
+        <a class="text-weight-bolder">IEEE:</a>Insitute of Electrical and
+        Electronics Engineers (US-Normungsbehörde)
+      </li>
+      <li>
+        <a class="text-weight-bolder">ISO:</a>International Organisation for
+        Standardization
+      </li>
+    </ul>
   </div>
 </template>
 
