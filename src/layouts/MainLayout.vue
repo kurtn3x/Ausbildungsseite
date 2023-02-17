@@ -10,10 +10,22 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-
         <q-toolbar-title> Ausbildung</q-toolbar-title>
         <q-space />
-        <q-btn icon="visibility" flat @click="darkmodeChanged" />
+        <q-slider
+          v-model="fontSize"
+          color="green"
+          :min="50"
+          :step="1"
+          :max="200"
+          style="width: 200px"
+        />
+        <q-btn
+          icon="visibility"
+          class="q-ml-md"
+          flat
+          @click="darkmodeChanged"
+        />
       </q-toolbar>
     </q-header>
 
@@ -84,6 +96,10 @@
           <q-list bordered>
             <q-item :inset-level="1" to="/netzwerke/allgemein_topologien"
               ><q-item-section>Netzwerke und Topologien</q-item-section></q-item
+            >
+            <q-separator />
+            <q-item :inset-level="1" to="/netzwerke/verkabelung"
+              ><q-item-section>Kabel und Verkabelung</q-item-section></q-item
             >
             <q-separator />
 
@@ -160,7 +176,11 @@
     </q-drawer>
 
     <q-page-container>
-      <router-view />
+      <router-view
+        :style="
+          'font-size:' + fontSize + '%' + ';line-height:' + fontSize + '%'
+        "
+      />
     </q-page-container>
   </q-layout>
 </template>
@@ -181,6 +201,7 @@ export default defineComponent({
     const q = useQuasar();
 
     return {
+      fontSize: ref(100),
       q,
       leftDrawerOpen,
       settingsStore,
@@ -199,3 +220,9 @@ export default defineComponent({
   },
 });
 </script>
+
+<style>
+.text-h6 {
+  font-size: 150%;
+}
+</style>

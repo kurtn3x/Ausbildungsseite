@@ -159,7 +159,7 @@
     <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">
       Beispiel für das Netz 192.168.164.0
     </div>
-    <IPv4SubnetExample class="q-ml-lg q-mt-lg" />
+    <IPv4SubnetExample class="q-ml-lmd q-mt-lg fit" />
   </div>
 </template>
 

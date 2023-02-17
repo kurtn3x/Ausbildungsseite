@@ -81,6 +81,10 @@ const routes: RouteRecordRaw[] = [
         path: 'routing',
         component: () => import('pages/Netzwerke/Routing.vue'),
       },
+      {
+        path: 'verkabelung',
+        component: () => import('pages/Netzwerke/KabelVerkabelung.vue'),
+      },
     ],
   },
   {

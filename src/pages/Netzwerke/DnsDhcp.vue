@@ -1,6 +1,6 @@
 <template>
   <q-dialog v-model="show_img">
-    <q-img :src="src + popupsrc" class="bg-grey5" />
+    <q-img :src="src + popupsrc" class="bg-grey-5" />
   </q-dialog>
   <div class="text-body1 q-ma-lg">
     <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
@@ -37,11 +37,9 @@
         </li>
       </ul>
       <li><a class="text-weight-bolder">DNS Anfrage - Beispiel</a></li>
-    </ul>
-    <div class="row justify-center">
       <q-img
         :src="src + '/Netzwerke/DNS/DNS.png'"
-        class="bg-grey-5"
+        class="bg-grey-5 q-mt-md"
         @click="
           show_img = true;
           popupsrc = '/Netzwerke/DNS/DNS.png';
@@ -55,7 +53,7 @@
           Click for full size
         </div>
       </q-img>
-    </div>
+    </ul>
     <q-separator class="q-mt-md" />
     <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">DHCP</div>
     <ul>
@@ -98,27 +96,24 @@
           Der Server antwortet dem Client mit einem DHCP-ACK Packet, welcher
           weitere Informationen wie Lease Duration und Einstellungen beinhaltet.
         </li>
+        <q-img
+          :src="src + '/Netzwerke/DNS/DHCP.png'"
+          class="bg-grey-5 q-mt-md"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/DNS/DHCP.png';
+          "
+          style="width: 400px"
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
     </ul>
-
-    <div class="row justify-center">
-      <q-img
-        :src="src + '/Netzwerke/DNS/DHCP.png'"
-        class="bg-grey-5"
-        @click="
-          show_img = true;
-          popupsrc = '/Netzwerke/DNS/DHCP.png';
-        "
-        style="width: 400px"
-      >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
-      </q-img>
-    </div>
   </div>
 </template>
 

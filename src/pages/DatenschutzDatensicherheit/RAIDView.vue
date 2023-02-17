@@ -18,10 +18,5 @@ import { defineComponent, ref } from 'vue';
 
 export default defineComponent({
   name: 'IndexPage',
-  setup() {
-    return {
-      src: 'https://media.kurtn3x.xyz/assets',
-    };
-  },
 });
 </script>

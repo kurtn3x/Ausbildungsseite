@@ -15,14 +15,13 @@
       <li>Richtige Reihenfolge der Pakete wird sichergestellt</li>
       <li>z.B. HTTP oder SMTP</li>
       <li><a class="text-weight-bolder">Aufbau des TCP-Headers:</a></li>
-    </ul>
-    <div class="row justify-center">
       <q-img
         :src="src + '/Netzwerke/TCPUDPPorts/TCP.jpg'"
-        class="bg-grey-5"
+        class="bg-grey-5 q-mt-md"
         style="width: 600px"
       />
-    </div>
+    </ul>
+
     <ul>
       <li>
         <a class="text-weight-bolder"
@@ -44,15 +43,13 @@
           (ACK).
         </li>
         <li>Der Server empfängt dies und startet eine TCP Verbindung.</li>
+        <q-img
+          style="width: 450px"
+          :src="src + '/Netzwerke/TCPUDPPorts/TCPHandshake.png'"
+          class="bg-grey-5 q-mt-md"
+        />
       </ul>
     </ul>
-    <div class="row justify-center">
-      <q-img
-        style="width: 450px"
-        :src="src + '/Netzwerke/TCPUDPPorts/TCPHandshake.png'"
-        class="bg-grey-5"
-      />
-    </div>
 
     <q-separator class="q-mt-lg" />
     <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">UDP</div>
@@ -69,14 +66,12 @@
       <li>Keine Garantie, dass Reihenfolge eingehalten wird</li>
       <li>Schnelligkeit vor Zuverlässigkeit</li>
       <li><a class="text-weight-bolder">Aufbau des UDP-Headers:</a></li>
-    </ul>
-    <div class="row justify-center">
       <q-img
         :src="src + '/Netzwerke/TCPUDPPorts/UDP.png'"
-        class="bg-grey-5"
+        class="bg-grey-5 q-mt-md"
         style="width: 600px"
       />
-    </div>
+    </ul>
     <q-separator class="q-mt-lg" />
     <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">Ports</div>
     <ul>

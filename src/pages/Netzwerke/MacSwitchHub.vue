@@ -14,7 +14,7 @@
         Weltweit eindeutige, unveränderbare Hardwareadresse jedes einzelnen
         Netzwerkadapters
       </li>
-      <li>Bestehen aus 48 Bit also 6 Oktette</li>
+      <li>Bestehen aus 48 Bit also 6 -> 2^48 verfügbare Adressen</li>
       <li>Hexadezimale Schreibweise</li>
       <li>
         Bestimmte Unternehmen unterhalten bestimmte Anfangsbereiche von
@@ -24,12 +24,23 @@
       <li class="text-weight-bold">
         Beispiel: 00-09-8C-00-69-63 oder auch : statt -
       </li>
+      <li class="text-weight-bold">
+        Mac-Adressen werden für die Adressierung im Ethernet-Header genutzt:
+      </li>
     </ul>
+    <q-img
+      :src="src + '/Netzwerke/MAC/EthernetHeader.png'"
+      class="bg-grey-5 q-ml-lg"
+      style="width: 600px"
+    />
     <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
       ARP- Address Resolution Protocol
     </div>
     <ul>
-      <li>löst IP-Adressen in MAC-Adressen auf</li>
+      <li>
+        löst IP-Adressen in MAC-Adressen auf um Adressierung im Ethernet-Header
+        zu gewährtleisten
+      </li>
       <li>wird benötigt um Pakete im Netz zu adressieren</li>
       <li>ARP-Request an "FF-FF-FF-FF-FF-FF" -> 'MAC-Broadcast'</li>
       <li>Daten werden in einem lokalen ARP-Cache gespeichert</li>
@@ -68,7 +79,7 @@ export default defineComponent({
   name: 'IndexPage',
   setup() {
     return {
-      helloworld: 1,
+      src: 'https://media.kurtn3x.xyz/assets',
     };
   },
 });

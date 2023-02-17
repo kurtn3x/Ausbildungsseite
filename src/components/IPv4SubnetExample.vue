@@ -1,6697 +1,1594 @@
 <template>
-  <table style="width: 1049px" width="680" cellspacing="0" cellpadding="7">
+  <table style="width: 1049px" cellspacing="0" cellpadding="7">
     <colgroup>
-      <col style="width: 147px" width="79" />
-      <col style="width: 165px" width="99" />
-      <col style="width: 219px" width="156" />
-      <col style="width: 130px" width="62" />
-      <col style="width: 130px" width="62" />
-      <col style="width: 130px" width="62" />
-      <col style="width: 129px" width="61" />
+      <col style="width: 147px" />
+      <col style="width: 165px" />
+      <col style="width: 219px" />
+      <col style="width: 130px" />
+      <col style="width: 130px" />
+      <col style="width: 130px" />
+      <col style="width: 129px" />
     </colgroup>
     <tbody>
       <tr valign="top">
         <td
-          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#67a4d8"
-          width="79"
+          style="background: #67a4d8; border: 1px solid; padding: 0.1in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span
-                        style="font-weight: normal"
-                        class="text-h6 text-weight-bold"
-                        >Netzmaske</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span class="text-h6 text-weight-bold">Netzmaske</span>
         </td>
         <td
-          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#67a4d8"
-          width="99"
+          style="background: #67a4d8; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span
-                        style="font-weight: normal"
-                        class="text-h6 text-weight-bold"
-                        >Welches Netz</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span class="text-h6 text-weight-bold">Welches Netz</span>
         </td>
         <td
-          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#67a4d8"
-          width="156"
+          style="background: #67a4d8; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span
-                        style="font-weight: normal"
-                        class="text-h6 text-weight-bold"
-                        >Welcher Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span class="text-h6 text-weight-bold">Welcher Host</span>
         </td>
         <td
-          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#67a4d8"
-          width="62"
+          style="background: #67a4d8; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span
-                        style="font-weight: normal"
-                        class="text-h6 text-weight-bold"
-                        >Oktett 1</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span class="text-h6 text-weight-bold">Oktett 1</span>
         </td>
         <td
-          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#67a4d8"
-          width="62"
+          style="background: #67a4d8; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span
-                        style="font-weight: normal"
-                        class="text-h6 text-weight-bold"
-                        >Oktett 2</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span class="text-h6 text-weight-bold">Oktett 2</span>
         </td>
         <td
-          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#67a4d8"
-          width="62"
+          style="background: #67a4d8; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span
-                        style="font-weight: normal"
-                        class="text-h6 text-weight-bold"
-                        >Oktett 3</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span class="text-h6 text-weight-bold">Oktett 3</span>
         </td>
         <td
-          style="background: #67a4d8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#67a4d8"
-          width="61"
+          style="background: #67a4d8; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span
-                        style="font-weight: normal"
-                        class="text-h6 text-weight-bold"
-                        >Oktett 4</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span class="text-h6 text-weight-bold">Oktett 4</span>
         </td>
       </tr>
       <tr valign="top">
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="79"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">/24</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>/24</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">1. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>1. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">0</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>0</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >254 m&ouml;gl.</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>254 m&ouml;gl.</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">1</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>1</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Hostadres-</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Hostadres-</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">254</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>254</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">sen</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>sen</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">255</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>255</span>
         </td>
       </tr>
       <tr valign="top">
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="79"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">/25</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>/25</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">1. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>1. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">0</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>0</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >126 m&ouml;gl.</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>126 m&ouml;gl.</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">1</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>1</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Hostadres-</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Hostadres-</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">126</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>126</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">sen</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>sen</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">127</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>127</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>2. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">2. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">128</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>128</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">129</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>129</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  >
-                </span></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>254</span>
         </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">254</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in" height="14">
+          &nbsp;
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>255</span>
         </td>
       </tr>
       <tr valign="top">
         <td
-          style="border: 1px solid; padding: 0in 0.08in"
-          width="79"
-          height="14"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+          <span>/26 </span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>1. Netz</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Netzadresse</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">255</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>0</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in" height="3">
+          <span>62 m&ouml;gl.</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>1</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Hostadres-</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>62</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>sen</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>63</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>2. Netz</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Netzadresse</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>64</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>65</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>126</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>127</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>3. Netz</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Netzadresse</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>128</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>129</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>190</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>191</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>4. Netz</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Netzadresse</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>193</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in" height="1">
+          <span> </span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>192</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>168</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>164</span>
+        </td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>254</span>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
+        </td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>255</span>
         </td>
       </tr>
       <tr valign="top">
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="79"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">/26 </span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>/27</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">1. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>1. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">0</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>0</span>
         </td>
       </tr>
       <tr valign="top">
-        <td
-          style="border: 1px solid; padding: 0in 0.08in"
-          width="79"
-          height="3"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >62 m&ouml;gl.</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>30 m&ouml;gl.</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">1</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>1</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Hostadres-</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Hostadres-</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">62</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>30</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">sen</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>sen</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">63</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>31</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>2. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">2. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">64</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>32</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="center"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">65</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>33</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">126</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>62</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">127</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>63</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>3. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">3. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">128</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>64</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">129</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>65</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">190</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>94</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">191</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>95</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>4. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">4. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>96</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">193</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>97</span>
         </td>
       </tr>
       <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
         <td
-          style="border: 1px solid; padding: 0in 0.08in"
-          width="79"
-          height="1"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">
-                      </span></span></span></span></span
-            ></span>
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">254</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>126</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">255</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>127</span>
         </td>
       </tr>
       <tr valign="top">
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="79"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">/27</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>5. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">1. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">0</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>128</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >30 m&ouml;gl.</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">1</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>129</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">Hostadres-</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">30</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>158</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">sen</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">31</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>159</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>6. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">2. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">32</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>160</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">33</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>161</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">62</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>190</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">63</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>191</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>7. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">3. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">64</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">65</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>193</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">94</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>222</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">95</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>223</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>8. Netz</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">4. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>Netzadresse</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">96</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>224</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Erster Host</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">97</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>225</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
+        >
+          <span>Letzter Host</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>192</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>168</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>164</span>
         </td>
         <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
+          style="background: #26a2e0; border: 1px solid; padding: 0.03in 0.08in"
         >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">126</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+          <span>254</span>
         </td>
       </tr>
       <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">&nbsp;</td>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>Broadcast</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>192</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>168</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>164</span>
         </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">127</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">5. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">128</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">129</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">158</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">159</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">6. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">160</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">161</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">190</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">191</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">7. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">193</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">222</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p lang="de-DE" style="orphans: 2; widows: 2" align="left">&nbsp;</p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">223</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="99"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">8. Netz</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Netzadresse</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">224</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Erster Host</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">225</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="156"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal"
-                        >Letzter Host</span
-                      ></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">192</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">168</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="62"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">164</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td
-          style="background: #a0c6e8; border: 1px solid; padding: 0in 0.08in"
-          bgcolor="#dfebf6"
-          width="61"
-        >
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span style=""
-                  ><span lang="de-DE"
-                    ><span style="text-decoration: none"
-                      ><span style="font-weight: normal">254</span></span
-                    ></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-      </tr>
-      <tr valign="top">
-        <td style="border: 1px solid; padding: 0in 0.08in" width="79">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="99">
-          <p
-            lang="de-DE"
-            style="
-              font-weight: normal;
-              orphans: 2;
-              widows: 2;
-              text-decoration: none;
-            "
-            align="left"
-          >
-            &nbsp;
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="156">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">Broadcast</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">192</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">168</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="62">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">164</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
-        </td>
-        <td style="border: 1px solid; padding: 0in 0.08in" width="61">
-          <p style="orphans: 2; widows: 2" align="left">
-            <span style=""
-              ><span style=""
-                ><span lang="de-DE"
-                  ><span style="text-decoration: none"
-                    ><span style="font-weight: normal">255</span></span
-                  ></span
-                ></span
-              ></span
-            >
-          </p>
+        <td style="border: 1px solid; padding: 0.03in 0.08in">
+          <span>255</span>
         </td>
       </tr>
     </tbody>
