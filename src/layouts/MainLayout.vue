@@ -55,7 +55,7 @@
               :inset-level="1"
               class="text-body2"
               to="/betrieb_unternehmen/allgemein"
-              ><q-item-section>Betriebe und Unternehmen</q-item-section></q-item
+              ><q-item-section>Betriebe & Unternehmen</q-item-section></q-item
             >
             <q-separator />
             <q-item
@@ -63,7 +63,7 @@
               class="text-body2"
               to="/betrieb_unternehmen/ziele"
               ><q-item-section
-                >Ziele von Betrieben und Unternehmen</q-item-section
+                >Ziele von Betrieben & Unternehmen</q-item-section
               ></q-item
             >
             <q-separator />
@@ -73,7 +73,7 @@
               class="text-body2"
               to="/betrieb_unternehmen/management"
               ><q-item-section
-                >Managementsysteme und Qualitätsmanagement</q-item-section
+                >Managementsysteme & Qualitätsmanagement</q-item-section
               ></q-item
             >
             <q-separator />
@@ -113,7 +113,7 @@
         <q-separator />
         <q-expansion-item
           expand-separator
-          label="Netzwerke & Co (LF3 & LF9)"
+          label="Alles über Netzwerke (LF3 & LF9)"
           header-class="text-weight-bolder text-secondary text-body1"
         >
           <q-list bordered>
@@ -121,7 +121,7 @@
               :inset-level="1"
               class="text-body2"
               to="/netzwerke/allgemein_topologien"
-              ><q-item-section>Netzwerke und Topologien</q-item-section></q-item
+              ><q-item-section>Netzwerke & Topologien</q-item-section></q-item
             >
             <q-separator />
 
@@ -133,7 +133,7 @@
               :inset-level="1"
               class="text-body2"
               to="/netzwerke/verkabelung"
-              ><q-item-section>Kabel und Verkabelung</q-item-section></q-item
+              ><q-item-section>Kabel & Verkabelung</q-item-section></q-item
             >
             <q-separator />
 
@@ -142,7 +142,7 @@
               class="text-body2"
               to="/netzwerke/mac_switch_hub"
               ><q-item-section
-                >MAC-Adressen, Switche und Hubs</q-item-section
+                >MAC-Adressen, Switche & Hubs</q-item-section
               ></q-item
             >
 
@@ -205,7 +205,31 @@
               to="/datenschutz_datensicherheit/raid"
               ><q-item-section>Speicher & RAID</q-item-section></q-item
             >
+            <q-separator />
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/datenschutz_datensicherheit/schutzbedarfsanalys"
+              ><q-item-section
+                >Schutzbedarfsanalyse & Schutzbedarfsklassen</q-item-section
+              ></q-item
+            >
           </q-list>
+        </q-expansion-item>
+        <q-separator />
+        <q-expansion-item
+          expand-separator
+          label="Serviceanfragen bearbeiten (LF6)"
+          header-class="text-weight-bolder text-secondary text-body1"
+        >
+          <q-list bordered>
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/services/vertragsarten"
+              ><q-item-section>Vertragsarten</q-item-section></q-item
+            ></q-list
+          >
         </q-expansion-item>
         <q-separator />
         <q-expansion-item
@@ -221,6 +245,40 @@
               ><q-item-section>Allgemein</q-item-section></q-item
             ></q-list
           >
+        </q-expansion-item>
+        <q-separator />
+
+        <q-expansion-item
+          expand-separator
+          label="Projektmanagement (LF8)"
+          header-class="text-weight-bolder text-secondary text-body1"
+        >
+          <q-list bordered>
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/projektmanagement/pflichtenheft_lastenheft"
+              ><q-item-section
+                >Pflichtenheft & Lastenheft</q-item-section
+              ></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/projektmanagement/gantt"
+              ><q-item-section>Gantt-Diagramm</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/projektmanagement/netzplan"
+              ><q-item-section>Netzplan</q-item-section></q-item
+            >
+          </q-list>
         </q-expansion-item>
       </q-list>
     </q-drawer>

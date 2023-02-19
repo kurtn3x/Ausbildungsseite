@@ -37,16 +37,16 @@
       </li>
       <ul>
         <li>
-          <a class="text-weight-bolder text-orange-4">Primärbereich:</a
+          <a class="text-weight-bolder text-orange-4">Primärbereich: </a
           >Verbindet zentrale Komponenten und einzelne Gebäude. Meist
-          Lichtwellenleiter & Redundanz.
+          Lichtwellenleiter mit Redundanz.
         </li>
         <li>
-          <a class="text-weight-bolder text-pink-3">Sekundärbereich:</a
+          <a class="text-weight-bolder text-pink-3">Sekundärbereich: </a
           >Vertikale Stockwerksverkabelung. Lichtwellenleiter oder Twisted Pair.
         </li>
         <li>
-          <a class="text-weight-bolder text-green-4">Tertiärbereich:</a
+          <a class="text-weight-bolder text-green-4">Tertiärbereich: </a
           >Horizontale Stockwerksverkabelung bis zur Anschlussdose.
           Lichtwellenleiter oder Twisted Pair.
         </li>

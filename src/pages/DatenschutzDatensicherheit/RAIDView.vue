@@ -64,6 +64,7 @@
         zusammen.
       </li>
       <li>Keine Redundanz & schlechtere Datenübertragungsraten</li>
+      <li>Gut für z.B. Archivierung</li>
     </ul>
     <q-separator class="q-mt-md" />
     <div

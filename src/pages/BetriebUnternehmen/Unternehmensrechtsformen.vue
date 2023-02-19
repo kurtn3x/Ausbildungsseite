@@ -16,7 +16,9 @@
       <li class="text-weight-bold">Handelsgesetzbuch (HGB)</li>
       <ul>
         <li>Handelsrecht der BRD</li>
-        <li>Regelungen zu Kaufmannseigenschaften und Rechtsformen von UN</li>
+        <li>
+          Regelungen zu Kaufmannseigenschaften und Rechtsformen von Unternehmen
+        </li>
       </ul>
       <li class="text-weight-bold">Eintragung im Handelsregister (HR)</li>
       <ul>
@@ -137,7 +139,7 @@
       </li>
       <li>
         <a class="text-weight-bold">Kartell: </a>vertraglicher Zusammenschluss
-        von Unternehmen, die rechtlich selbstständig bleiben, ihere
+        von Unternehmen, die rechtlich selbstständig bleiben, ihre
         wirtschaftliche Selbstständigkeit jedoch ganz oder zum Teil aufgeben, um
         daraus einen Wettbewerbsvorteil zu erzielen (Preis- u. Gebietskartelle
         verboten, Entwicklungs- u. Normenkartelle von Kartellamt genehmigt)

@@ -18,7 +18,7 @@
         Weltweit eindeutige, unveränderbare Hardwareadresse jedes einzelnen
         Netzwerkadapters
       </li>
-      <li>Bestehen aus 48 Bit also 6 -> 2^48 verfügbare Adressen</li>
+      <li>Bestehen aus 48 Bit also 6 Byte -> 2^48 verfügbare Adressen</li>
       <li>Hexadezimale Schreibweise</li>
       <li>
         Bestimmte Unternehmen unterhalten bestimmte Anfangsbereiche von
@@ -56,7 +56,7 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
     >
-      Hub
+      Hubs
     </div>
     <ul>
       <li>verbinden Geräte sternförmig</li>

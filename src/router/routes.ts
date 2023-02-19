@@ -105,6 +105,21 @@ const routes: RouteRecordRaw[] = [
         component: () =>
           import('pages/DatenschutzDatensicherheit/RAIDView.vue'),
       },
+      {
+        path: 'schutzbedarfsanalys',
+        component: () =>
+          import('pages/DatenschutzDatensicherheit/SchutzbedarfView.vue'),
+      },
+    ],
+  },
+  {
+    path: '/services',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'vertragsarten',
+        component: () => import('pages/Serviceanfragen/VertragsartenView.vue'),
+      },
     ],
   },
 
@@ -115,6 +130,25 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'allgemein',
         component: () => import('pages/StromLadungen/AllgemeinView.vue'),
+      },
+    ],
+  },
+
+  {
+    path: '/projektmanagement',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'gantt',
+        component: () => import('pages/Projektmanagement/GanttView.vue'),
+      },
+      {
+        path: 'pflichtenheft_lastenheft',
+        component: () => import('pages/Projektmanagement/PflichtLastView.vue'),
+      },
+      {
+        path: 'netzplan',
+        component: () => import('pages/Projektmanagement/NetzplanView.vue'),
       },
     ],
   },

@@ -112,7 +112,8 @@
       <li class="text-weight-bolder q-mt-md">
         OSI-Schicht 2,3,4 binden das Datenpaket in einen Frame bzw. Header, um
         die Weiterleitung über diese Schichten zu ermöglichen: Der
-        Ethernet-Frame, der IP-Header & der TCP/UDP-Header.
+        Ethernet-Frame, der IP-Header & der TCP/UDP-Header. Der Aufbau dieser
+        Header ist bei den jeweiligen Unterthemen zu finden.
       </li>
 
       <q-img

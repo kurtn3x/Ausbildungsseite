@@ -116,6 +116,19 @@
           <a class="text-yellow">:3357: ...</a>
         </li>
       </ul>
+      <li class="text-weight-bolder">Aufbau des IPv6-Headers:</li>
+      <ul>
+        <li>
+          Der IPv6 Header ist vom Datenumfang zwar größer als der IPv4 Header,
+          das ist wie auf dem Bild zusehen der Größe der Adressen geschuldet.
+          Insgesamt ist der IPv6-Header schlanker aufgebaut.
+        </li>
+        <q-img
+          :src="src + '/Netzwerke/ipv6/ipv6.jpg'"
+          class="bg-grey-5 q-mt-md"
+          style="width: 600px"
+        />
+      </ul>
     </ul>
   </div>
 </template>
@@ -125,6 +138,11 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'IndexPage',
+  setup() {
+    return {
+      src: 'https://media.kurtn3x.xyz/assets',
+    };
+  },
 });
 </script>
 

@@ -9,7 +9,7 @@
     <q-separator class="q-mt-md" />
     <ul class="q-mt-lg">
       <li>
-        <a class="text-weight-bolder text-orange">SMART</a> - Akronym für eine
+        <a class="text-weight-bolder text-third">SMART</a> - Akronym für eine
         Methode, Ziele richtig zu setzen
       </li>
       <ul>
