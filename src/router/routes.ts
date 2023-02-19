@@ -100,6 +100,11 @@ const routes: RouteRecordRaw[] = [
         path: 'tom',
         component: () => import('pages/DatenschutzDatensicherheit/TOMView.vue'),
       },
+      {
+        path: 'raid',
+        component: () =>
+          import('pages/DatenschutzDatensicherheit/RAIDView.vue'),
+      },
     ],
   },
 

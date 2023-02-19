@@ -1,13 +1,15 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Betriebe und Unternehmen
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       Unternehmensrechtsformen
     </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Gesetzliche Grundlagen
     </div>
     <ul>
@@ -28,7 +30,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Wichtige Rechtsformen eines Unternehmens
     </div>
     <ul>
@@ -66,7 +70,11 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Prokura</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Prokura
+    </div>
     <ul>
       <li>
         handelsrechtliche Vollmacht mit gesetzlich fixiertem Inhalt: Prokurist
@@ -99,7 +107,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Entscheidungskriterien für Wahl der Rechtsform
     </div>
     <ul>
@@ -114,17 +124,19 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Wirtschaftliche Verflechtungen
     </div>
     <ul>
       <li>
-        <a class="text-weight-bold">Konzern:</a>Zusammenschluss zweier oder
+        <a class="text-weight-bold">Konzern: </a>Zusammenschluss zweier oder
         mehrerer rechtlich selbständiger Unternehmen zu einer großen
         wirtschaftlichen Einheit unter einer Führung (keine UN-Rechtsform)
       </li>
       <li>
-        <a class="text-weight-bold">Kartell:</a>vertraglicher Zusammenschluss
+        <a class="text-weight-bold">Kartell: </a>vertraglicher Zusammenschluss
         von Unternehmen, die rechtlich selbstständig bleiben, ihere
         wirtschaftliche Selbstständigkeit jedoch ganz oder zum Teil aufgeben, um
         daraus einen Wettbewerbsvorteil zu erzielen (Preis- u. Gebietskartelle

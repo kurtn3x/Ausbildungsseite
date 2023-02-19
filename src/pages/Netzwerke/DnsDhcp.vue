@@ -1,14 +1,20 @@
 <template>
-  <q-dialog v-model="show_img">
-    <q-img :src="src + popupsrc" class="bg-grey-5" />
-  </q-dialog>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <q-dialog v-model="show_img">
+      <q-img :src="src + popupsrc" class="bg-grey-5" />
+    </q-dialog>
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">DNS und DHCP</div>
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      DNS und DHCP
+    </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">DNS</div>
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third text-third"
+    >
+      DNS
+    </div>
     <ul>
       <li>
         Übersetzt Menschenlesbare Namen wie www.google.de in IP-Adressen, welche
@@ -55,7 +61,11 @@
       </q-img>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">DHCP</div>
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third text-third"
+    >
+      DHCP
+    </div>
     <ul>
       <li>Dynamic Host Configuration Protocol</li>
       <li>Automatisches Zuordnen von IP-Adressen über das DHCP Protokoll</li>

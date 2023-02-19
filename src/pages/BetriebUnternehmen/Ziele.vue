@@ -1,16 +1,16 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder text-primary">
+    <div class="text-center text-h4 text-weight-bolder text-secondary">
       Betriebe und Unternehmen
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       Ziele von Betrieben und Unternehmen
     </div>
     <q-separator class="q-mt-md" />
     <ul class="q-mt-lg">
       <li>
-        <a class="text-weight-bolder">SMART</a> - Akronym für eine Methode,
-        Ziele richtig zu setzen
+        <a class="text-weight-bolder text-orange">SMART</a> - Akronym für eine
+        Methode, Ziele richtig zu setzen
       </li>
       <ul>
         <li class="text-weight-bold">
@@ -20,7 +20,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Unterscheidung nach Zielsetzung
     </div>
     <ul>
@@ -92,7 +94,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Beteiligte (Stakeholder) des Zielentscheidungsprozesses
     </div>
     <ul>
@@ -134,7 +138,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Bewertung von Zielen
     </div>
     <ul>
@@ -176,7 +182,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Wichtige Begriffe wirtschaftlicher Ziele
     </div>
     <ul>

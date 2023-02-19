@@ -1,9 +1,9 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       Das OSI-Schichtenmodell
     </div>
     <q-separator class="q-mt-md" />
@@ -34,7 +34,10 @@
         <tr>
           <td class="tg-0pky">6</td>
           <td class="tg-0pky">
-            <a class="text-weight-bold">Darstellungsschicht</a>
+            <a class="text-weight-bold"
+              >Darstellungsschicht <br />
+              Presentation Layer</a
+            >
           </td>
           <td class="tg-0pky">FTP, HTTP, SMTP, Telnet</td>
           <td class="tg-0pky">-</td>
@@ -105,6 +108,19 @@
         </tr>
       </tbody>
     </table>
+    <ul>
+      <li class="text-weight-bolder q-mt-md">
+        OSI-Schicht 2,3,4 binden das Datenpaket in einen Frame bzw. Header, um
+        die Weiterleitung über diese Schichten zu ermöglichen: Der
+        Ethernet-Frame, der IP-Header & der TCP/UDP-Header.
+      </li>
+
+      <q-img
+        :src="src + '/Netzwerke/ipv4/Datenpaket.png'"
+        class="bg-grey-5 q-mt-md"
+        style="width: 600px"
+      />
+    </ul>
   </div>
 </template>
 
@@ -115,7 +131,7 @@ export default defineComponent({
   name: 'IndexPage',
   setup() {
     return {
-      helloworld: 1,
+      src: 'https://media.kurtn3x.xyz/assets',
     };
   },
 });
@@ -136,7 +152,6 @@ export default defineComponent({
 .tg th {
   border-style: solid;
   border-width: 1px;
-  font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;

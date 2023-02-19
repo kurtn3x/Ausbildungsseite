@@ -1,13 +1,17 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       Allgemeines und Topologien
     </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Netzwerke</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Netzwerke
+    </div>
     <ul>
       <li>
         Ein Rechnernetz, Computernetz ist ein Zusammenschluss verschiedener
@@ -33,7 +37,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder q-mb-md">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder q-mb-md text-underline text-third"
+    >
       Netzwerktopologien
     </div>
     <table class="tg">
@@ -114,7 +120,9 @@
       </tbody>
     </table>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder q-mb-md">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder q-mb-md text-underline text-third"
+    >
       Allgemeine Begriffe
     </div>
     <ul>

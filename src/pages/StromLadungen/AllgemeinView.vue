@@ -1,9 +1,11 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Strom & Ladung
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">Allgemein</div>
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      Allgemein
+    </div>
     <q-separator class="q-mt-md" />
     <ul>
       <li><a class="text-h6 text-weight-bold">Ohmsches Gesetz</a></li>

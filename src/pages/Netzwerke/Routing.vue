@@ -1,13 +1,17 @@
 <template>
-  <q-dialog v-model="show_img">
-    <q-img :src="src + popupsrc" class="bg-grey" />
-  </q-dialog>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">Routing</div>
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      Routing
+    </div>
     <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Routing Allgemein
+    </div>
     <ul>
       <li class="text-weight-bold text-h6">Router</li>
       <ul>
@@ -109,6 +113,39 @@
         </li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Routingtabellen
+    </div>
+    <ul>
+      <li class="text-weight-bold">
+        Beispiel: Routingtabelle der Filiale Hamburg.
+      </li>
+      <li>
+        Die letzten beiden Zeilen der Routingtabellen sollten so ausgefüllt
+        werden, dass Kommunikation mit der Filiale Berlin und Zentrale Köln
+        möglich ist.
+      </li>
+      <q-img
+        :src="src + '/Netzwerke/Routing/RoutingtabelleVorgabe.png'"
+        class="bg-grey-5 q-mt-md"
+        style="width: 600px"
+      />
+      <q-img
+        :src="src + '/Netzwerke/Routing/Routingtabelle.png'"
+        class="bg-grey-5 q-mt-md"
+        style="width: 600px"
+      />
+      <li>
+        Die Default-Route wurde für den Hop zur Zentrale Köln eingetragen, da
+        dort das Gateway zum Internet ist. Das heißt, alle Anfragen zu
+        IP-Adressen, welche nicht in der Routing-Tabelle stehen, werden an die
+        Zentrale Köln geleitet. Der Router dort kümmert sich dann um die
+        Weiterleitung ins Internet bzw. in das lokale Netz.
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -120,8 +157,6 @@ export default defineComponent({
   setup() {
     return {
       src: 'https://media.kurtn3x.xyz/assets',
-      show_img: ref(false),
-      popupsrc: ref(''),
     };
   },
 });

@@ -1,13 +1,17 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       TCP, UDP und Ports
     </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">TCP</div>
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      TCP
+    </div>
     <ul>
       <li>Transmission Control Protocol</li>
       <li>Herstellung einer Verbindung zwischen zwei Endpunkten</li>
@@ -52,7 +56,11 @@
     </ul>
 
     <q-separator class="q-mt-lg" />
-    <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">UDP</div>
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      UDP
+    </div>
     <ul>
       <li>User Datagram Protocol</li>
       <li>
@@ -73,7 +81,11 @@
       />
     </ul>
     <q-separator class="q-mt-lg" />
-    <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">Ports</div>
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Ports
+    </div>
     <ul>
       <li>Ergänzt die IP Adresse im TCP oder UDP Header</li>
       <li>

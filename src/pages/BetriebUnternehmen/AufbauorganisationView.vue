@@ -1,16 +1,20 @@
 <template>
-  <q-dialog v-model="show_img">
-    <q-img :src="src + popupsrc" class="bg-grey-5" />
-  </q-dialog>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <q-dialog v-model="show_img">
+      <q-img :src="src + popupsrc" class="bg-grey-5" />
+    </q-dialog>
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Betriebe und Unternehmen
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       Aufbauorganistation
     </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Grundbegriffe</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Grundbegriffe
+    </div>
     <ul>
       <li class="text-weight-bold">Merkmale von Organistationen</li>
       <ul>
@@ -42,7 +46,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Das Bilden von Stellen und Abteilungen
     </div>
     <ul>
@@ -89,7 +95,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Hierarchien und Führung im Unternehmen
     </div>
     <ul>
@@ -122,7 +130,9 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline text-third"
+    >
       Leitungssysteme
     </div>
 
@@ -341,7 +351,6 @@ export default defineComponent({
 .tg td {
   border-style: solid;
   border-width: 1px;
-  font-size: 14px;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
@@ -349,8 +358,6 @@ export default defineComponent({
 .tg th {
   border-style: solid;
   border-width: 1px;
-  font-size: 14px;
-  font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;

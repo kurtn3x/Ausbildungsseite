@@ -1,14 +1,19 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder text-primary">
+    <div class="text-center text-h4 text-weight-bolder text-secondary">
       Betriebe und Unternehmen
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">Allgemeines</div>
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      Allgemeines
+    </div>
     <q-separator class="q-mt-md" />
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6">Betrieb</a> ist eine
-        unselbstständige örtliche Einheit zum Zweck des Erstellens von Gütern
+        <a class="text-weight-bolder text-h6 text-third text-underline"
+          >Betrieb</a
+        >
+        ist eine unselbstständige örtliche Einheit zum Zweck des Erstellens von
+        Gütern
       </li>
       <ul>
         <li>Technisch organisatorische Einheit</li>
@@ -27,8 +32,10 @@
 
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6">Unternehmen</a> ist ein
-        selbstständig rechtliches und finanzielles Gebilde
+        <a class="text-weight-bolder text-h6 text-third text-underline"
+          >Unternehmen</a
+        >
+        ist ein selbstständig rechtliches und finanzielles Gebilde
       </li>
       <ul>
         <li>Rechtliche Wirtschaftseinheit</li>
@@ -44,7 +51,9 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Unterscheidung von Betrieb und Unternehmen
     </div>
     <ul>

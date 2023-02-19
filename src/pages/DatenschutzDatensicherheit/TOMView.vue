@@ -1,14 +1,18 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Datenschutz und Datensicherheit
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       TOM - Technisch-organisatorische Maßnahmen
     </div>
     <q-separator class="q-mt-md" />
     <ul>
-      <li><a class="text-weight-bolder text-h6">Technische Maßnahmen</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-underline text-third"
+          >Technische Maßnahmen</a
+        >
+      </li>
       <ul>
         <li>
           Unter technischen Maßnahmen sind alle Schutzversuche zu verstehen, die
@@ -31,7 +35,9 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6">Organisatorische Maßnahmen</a>
+        <a class="text-weight-bolder text-h6 text-underline text-third"
+          >Organisatorische Maßnahmen</a
+        >
       </li>
       <ul>
         <li>
@@ -51,11 +57,15 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       TOM gemäß Bundesdatenschutzgesetz (BDSG)
     </div>
     <ul>
-      <li><a class="text-weight-bolder text-h6">Zutrittskontrolle</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third">Zutrittskontrolle</a>
+      </li>
       <ul>
         <li>
           Maßnahmen, die Unbefugte daran hindern Zutritt zu
@@ -67,7 +77,9 @@
           <li>Alarmanlagen</li>
         </ul>
       </ul>
-      <li><a class="text-weight-bolder text-h6">Zugangskontrolle</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third">Zugangskontrolle</a>
+      </li>
       <ul>
         <li>
           Maßnahmen, die Unbefugte am Nutzen von Datenverarbeitunganlagen
@@ -79,7 +91,9 @@
           <li>biometrische Benutzeridentifikation</li>
         </ul>
       </ul>
-      <li><a class="text-weight-bolder text-h6">Zugriffskontrolle</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third">Zugriffskontrolle</a>
+      </li>
       <ul>
         <li>
           Maßnahmen, die dafür sorgen, dass nur Personen auf die Inhalte Zugriff
@@ -92,7 +106,9 @@
           <li>Benutzerkennung mit Passwor</li>
         </ul>
       </ul>
-      <li><a class="text-weight-bolder text-h6">Weitergabekontrolle</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third">Weitergabekontrolle</a>
+      </li>
       <ul>
         <li>
           Maßnahmen, die Unbefugte daran hindern, personenbezogene Daten bei der
@@ -105,7 +121,9 @@
           <li>Protokollierungsmaßnahmen</li>
         </ul>
       </ul>
-      <li><a class="text-weight-bolder text-h6">Eingabekontrolle</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third">Eingabekontrolle</a>
+      </li>
       <ul>
         <li>
           Es muss sichergestellt werden, dass nachträglich überprüft werden kann
@@ -117,7 +135,9 @@
           <li>Benutzeridentifikation</li>
         </ul>
       </ul>
-      <li><a class="text-weight-bolder text-h6">Auftragskontrolle</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third">Auftragskontrolle</a>
+      </li>
       <ul>
         <li>
           Es muss sichergestellt werden, dass personenbezogene Daten, die im
@@ -130,7 +150,11 @@
           <li>Vor-Ort-Kontrollen</li>
         </ul>
       </ul>
-      <li><a class="text-weight-bolder text-h6">Verfügbarkeitskontrolle</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third"
+          >Verfügbarkeitskontrolle</a
+        >
+      </li>
       <ul>
         <li>
           Es muss sichergestellt werden, dass personenbezogene Daten gegen
@@ -141,7 +165,9 @@
           <li>Überspannungsschutz</li>
         </ul>
       </ul>
-      <li><a class="text-weight-bolder text-h6">Trennungsgebot</a></li>
+      <li>
+        <a class="text-weight-bolder text-h6 text-third">Trennungsgebot</a>
+      </li>
       <ul>
         <li>
           Es ist sicher zu Stellen, dass personenbezogene Daten, die zu

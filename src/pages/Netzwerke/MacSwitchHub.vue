@@ -1,13 +1,17 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       Mac-Adressen, Switche und Hubs
     </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Mac-Adressen</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Mac-Adressen
+    </div>
     <ul>
       <li>MAC = Media Access Control</li>
       <li>
@@ -33,13 +37,15 @@
       class="bg-grey-5 q-ml-lg"
       style="width: 600px"
     />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       ARP- Address Resolution Protocol
     </div>
     <ul>
       <li>
         löst IP-Adressen in MAC-Adressen auf um Adressierung im Ethernet-Header
-        zu gewährtleisten
+        zu gewährleisten
       </li>
       <li>wird benötigt um Pakete im Netz zu adressieren</li>
       <li>ARP-Request an "FF-FF-FF-FF-FF-FF" -> 'MAC-Broadcast'</li>
@@ -47,7 +53,11 @@
     </ul>
     <q-separator class="q-mt-md" />
 
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Hub</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Hub
+    </div>
     <ul>
       <li>verbinden Geräte sternförmig</li>
       <li>keine Analyse der Mac-Adresse</li>
@@ -57,7 +67,11 @@
         Jede Kommunikation zwischen zwei Endgeräten besetzt alle Leitungen
       </li>
     </ul>
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Switche</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Switche
+    </div>
     <ul>
       <li>
         Können Mac-Adressen auswerten und lernt, welche sich an welchen Port

@@ -1,56 +1,71 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">IPv4</div>
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      IPv4
+    </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Allgemeines</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Allgemeines
+    </div>
     <ul>
       <li>bestehen aus 32Bit, also 4 Oktetten</li>
       <li>Dezimale Schreibweise</li>
-      <li>Ca. 4,3 Milliarden verfügbare Adressen</li>
+      <li>Ca. 4,3 Milliarden verfügbare Adressen = 2^32</li>
       <li class="text-weight-bold">Beispiel: 192.168.24.2/24</li>
+      <table class="tg q-mt-md">
+        <thead>
+          <tr>
+            <th><a class="text-weight-bold">192</a></th>
+            <th><a class="text-weight-bold">168</a></th>
+            <th><a class="text-weight-bold">24</a></th>
+            <th><a class="text-weight-bold">2</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0lax">1. Oktett</td>
+            <td class="tg-0lax">2. Oktett</td>
+            <td class="tg-0lax">3. Oktett</td>
+            <td class="tg-0lax">4. Oktett</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">8 Bit<br /></td>
+            <td class="tg-0lax">8 Bit</td>
+            <td class="tg-0lax">8 Bit</td>
+            <td class="tg-0lax">8 Bit</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">0-255</td>
+            <td class="tg-0lax">0-255</td>
+            <td class="tg-0lax">0-255</td>
+            <td class="tg-0lax">0-255</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">1100 0000</td>
+            <td class="tg-0lax">1010 1000</td>
+            <td class="tg-0lax">0001 1000</td>
+            <td class="tg-0lax">0000 0010</td>
+          </tr>
+        </tbody>
+      </table>
+      <li class="text-weight-bold q-mt-md">Aufbau des IPv4-Headers:</li>
+      <q-img
+        :src="src + '/Netzwerke/ipv4/IPV4Header.png'"
+        class="bg-grey-5 q-mt-md"
+        style="width: 600px"
+      />
     </ul>
-
-    <table class="tg q-ml-xl">
-      <thead>
-        <tr>
-          <th><a class="text-weight-bold">192</a></th>
-          <th><a class="text-weight-bold">168</a></th>
-          <th><a class="text-weight-bold">24</a></th>
-          <th><a class="text-weight-bold">2</a></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tg-0lax">1. Oktett</td>
-          <td class="tg-0lax">2. Oktett</td>
-          <td class="tg-0lax">3. Oktett</td>
-          <td class="tg-0lax">4. Oktett</td>
-        </tr>
-        <tr>
-          <td class="tg-0lax">8 Bit<br /></td>
-          <td class="tg-0lax">8 Bit</td>
-          <td class="tg-0lax">8 Bit</td>
-          <td class="tg-0lax">8 Bit</td>
-        </tr>
-        <tr>
-          <td class="tg-0lax">0-255</td>
-          <td class="tg-0lax">0-255</td>
-          <td class="tg-0lax">0-255</td>
-          <td class="tg-0lax">0-255</td>
-        </tr>
-        <tr>
-          <td class="tg-0lax">1100 0000</td>
-          <td class="tg-0lax">1010 1000</td>
-          <td class="tg-0lax">0001 1000</td>
-          <td class="tg-0lax">0000 0010</td>
-        </tr>
-      </tbody>
-    </table>
     <q-separator class="q-mt-lg" />
-    <div class="text-h4 q-mt-lg q-ml-md text-weight-bolder">Subnetting</div>
+    <div
+      class="text-h4 q-mt-lg q-ml-md text-weight-bolder text-underline text-third text-third"
+    >
+      Subnetting
+    </div>
 
     <table class="tg q-ml-xl q-mt-lg">
       <thead>
@@ -124,7 +139,7 @@
       </tbody>
     </table>
     <ul>
-      <li>
+      <li class="text-weight-bold">
         Eine IPv4 Adresse hat 32 Bit. Die Anzahl der möglichen Hosts in einem
         Subnetz kann bestimmt werden, indem man die Bits, welche die Anzahl
         Hosts beschreiben von diesen 32 Bit abzieht.
@@ -155,8 +170,38 @@
           <li>Broadcast-Adresse: 192.168.164.15/28</li>
         </ul>
       </ul>
+
+      <li class="text-weight-bold">
+        Diese Regel kann auch andersherum eingesetzt werden:
+      </li>
+      <ul>
+        <li>Wie viele Clients befinden sich in einem /26er Netz?</li>
+        <li>
+          32-26 = 6 -> 2⁶ - 2(Netz- und Broadcast) Clients = 62 mögliche Clients
+        </li>
+      </ul>
+
+      <li class="text-weight-bold">Umrechnung Subnetzmaske ⇄ Suffix:</li>
+      <ul>
+        <li>Subnetzmaske besteht aus 32Bit, das Suffix geht bis zu /32.</li>
+        <li>
+          Die Subnetzmaske erhält man, indem man die Bit des Suffixes von Beginn
+          an setzt und die verbleibenden Bit bis zum 32. mit Nullen füllt und je
+          8Bit in eine Dezimalzahl umrechnet.
+        </li>
+        <ul>
+          <li>Suffix: /23 = 23 Einsen gefolgt von 7 Nullen</li>
+          <li>1111 1111 (255) 1111 1111 (255) 1111 1110 (254) 0000 0000 (0)</li>
+          <li>
+            genauso kann man auch das Suffix ausrechnen, indem man die
+            Subnetzmaske in Bits umwandelt und die 1en abzählt.
+          </li>
+        </ul>
+      </ul>
     </ul>
-    <div class="text-h5 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Beispiel für das Netz 192.168.164.0
     </div>
     <IPv4SubnetExample class="q-ml-lmd q-mt-lg fit" />
@@ -170,6 +215,11 @@ import IPv4SubnetExample from 'components/IPv4SubnetExample.vue';
 export default defineComponent({
   name: 'IndexPage',
   components: { IPv4SubnetExample },
+  setup() {
+    return {
+      src: 'https://media.kurtn3x.xyz/assets',
+    };
+  },
 });
 </script>
 
@@ -181,8 +231,6 @@ export default defineComponent({
 .tg td {
   border-style: solid;
   border-width: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;
@@ -190,8 +238,6 @@ export default defineComponent({
 .tg th {
   border-style: solid;
   border-width: 1px;
-  font-size: 14px;
-  font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
   word-break: normal;

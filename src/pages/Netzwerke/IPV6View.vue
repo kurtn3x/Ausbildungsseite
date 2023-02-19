@@ -1,11 +1,17 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">IPv6</div>
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      IPv6
+    </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">Allgemeines</div>
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Allgemeines
+    </div>
     <ul>
       <li>Hexadezimal (je 4 Bit in eine Hexadezimalzahl)</li>
       <li>8 Blöcke mit je 16 Bit bzw. 8 Blöcke mit je 4 Hexadezimalzahlen</li>
@@ -43,7 +49,7 @@
         <a class="text-weight-bold"
           >Beispiel: 2001:0db8<a class="text-red">:0000:</a>08d3<a
             class="text-red"
-            >:0000:</a
+            >:0020:</a
           >8a2e:0070:7344</a
         >
       </li>
@@ -52,7 +58,7 @@
         <ul>
           <li>
             Beispiel: 2001:db8<a class="text-red">:0:</a>8d3<a class="text-red"
-              >:0:</a
+              >:20:</a
             >8a2e:70:7344
           </li>
         </ul>
@@ -65,13 +71,13 @@
           <li>
             Beispiel: 2001:db8<a class="text-orange">:0000:0000:</a>1428<a
               class="text-red"
-              >:0000:0000:</a
+              >:0000:0015:</a
             >57ab
           </li>
           <li>
             wird zu: 2001:db8<a class="text-orange">::</a>1428<a
               class="text-red"
-              >:0:0:</a
+              >:0:15:</a
             >57ab (orange 2. Regel, rot 1. Regel)
           </li>
         </ul>
@@ -84,6 +90,13 @@
         <li>
           Fe80::/64 Link-Local-Adressen, sind nur bis zum ersten Router gültig
         </li>
+      </ul>
+      <li><a class="text-weight-bold">Vorteile von IPv6 gegenüber IPv4:</a></li>
+      <ul>
+        <li>Nahezu uneingeschränkte Adresszahl</li>
+        <li>Dadurch auch weltweite Erreichbarkeit einzelner Komponenten</li>
+        <li>Verbesserte Integration von Sicherheitsmaßnahmen wie IPSec</li>
+        <li>Verschlankung des Protokoll-Headers</li>
       </ul>
       <li><a class="text-weight-bolder">Subnetting</a></li>
       <ul>

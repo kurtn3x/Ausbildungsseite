@@ -15,9 +15,15 @@ export default defineComponent({
     if (settingsStore.darkmodeState == null) {
       settingsStore.darkmode = true;
     }
+    if (settingsStore.fontsizeState == null) {
+      settingsStore.fontsize = 100;
+    }
     q.dark.set(settingsStore.darkmodeState);
     settingsStore.$subscribe((mutation, state) => {
       LocalStorage.set('darkmode', state.darkmode);
+    });
+    settingsStore.$subscribe((mutation, state) => {
+      LocalStorage.set('fontsize', state.fontsize);
     });
   },
 });

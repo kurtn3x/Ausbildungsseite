@@ -1,13 +1,15 @@
 <template>
   <div class="text-body1 q-ma-lg">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-primary">
+    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Netzwerke
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold">
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
       Kabel und Verkabelung
     </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
       Strukturierte Verkabelung
     </div>
     <ul>
@@ -30,21 +32,21 @@
         <li>Empfehlungen für Verlegung und Installation</li>
         <li>standardisierte Mess-m Prüf- und Dokumentationsverfahren</li>
       </ul>
-      <li class="text-weight-bold text-h6">
+      <li class="text-weight-bold text-h6 q-mt-md text-third">
         Strukturierte Verkabelung nach EN 50173/50174
       </li>
       <ul>
         <li>
-          <a class="text-weight-bolder text-green-4">Primärbereich:</a>Verbindet
-          zentrale Komponenten und einzelne Gebäude. Meist Lichtwellenleiter &
-          Redundanz.
+          <a class="text-weight-bolder text-orange-4">Primärbereich:</a
+          >Verbindet zentrale Komponenten und einzelne Gebäude. Meist
+          Lichtwellenleiter & Redundanz.
         </li>
         <li>
           <a class="text-weight-bolder text-pink-3">Sekundärbereich:</a
           >Vertikale Stockwerksverkabelung. Lichtwellenleiter oder Twisted Pair.
         </li>
         <li>
-          <a class="text-weight-bolder text-orange-4">Tertiärbereich:</a
+          <a class="text-weight-bolder text-green-4">Tertiärbereich:</a
           >Horizontale Stockwerksverkabelung bis zur Anschlussdose.
           Lichtwellenleiter oder Twisted Pair.
         </li>
@@ -56,7 +58,9 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-weight-bold text-h6 q-mt-md">Übertragungsmedien</div>
+    <div class="text-weight-bold text-h6 q-mt-md text-underline text-third">
+      Übertragungsmedien
+    </div>
     <ul>
       <li class="text-weight-bold">Leitergebundene</li>
       <ul>
