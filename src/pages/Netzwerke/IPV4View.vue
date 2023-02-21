@@ -67,7 +67,7 @@
       Subnetting
     </div>
 
-    <table class="tg q-ml-xl q-mt-lg">
+    <table class="tg q-mt-lg">
       <thead>
         <tr>
           <th><a class="text-weight-bold">Subnetzmaske</a></th>
@@ -75,8 +75,7 @@
           <th><a class="text-weight-bold">Binär letzte 2 Oktette</a></th>
           <th>
             <a class="text-weight-bold"
-              >Verfügbare Client-Adressen <br />( - Netzadresse &amp;
-              Broadcast)</a
+              >Verfügbare Client-Adressen <br />(ohne Netz & Broadcast)</a
             >
           </th>
         </tr>
@@ -227,20 +226,22 @@ export default defineComponent({
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
 }
 .tg td {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
+  word-break: break-word;
 }
 .tg th {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
+  word-break: break-word;
 }
 .tg .tg-0lax {
   text-align: left;

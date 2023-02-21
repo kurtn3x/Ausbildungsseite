@@ -107,7 +107,7 @@
       <li class="text-h6 text-weight-bolder">Der Werkvertrag</li>
       <ul>
         <li>
-          Herstellung eines Werkes oder sontigen Erfolgs gegen Entgelt
+          Herstellung eines Werkes oder sonstigen Erfolgs gegen Entgelt
           (erfolgsabhängig!)
         </li>
         <li>Partner: Unternehmer und Besteller</li>

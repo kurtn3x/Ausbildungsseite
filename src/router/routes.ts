@@ -117,8 +117,28 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
+        path: 'allgemein',
+        component: () => import('pages/Serviceanfragen/AllgemeinView.vue'),
+      },
+      {
         path: 'vertragsarten',
         component: () => import('pages/Serviceanfragen/VertragsartenView.vue'),
+      },
+    ],
+  },
+
+  {
+    path: '/datenbanken_programmierung',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'normalisierung',
+        component: () => import('pages/Datenbanken/NormalisierungView.vue'),
+      },
+      {
+        path: 'erm',
+        component: () =>
+          import('pages/Datenbanken/EntityRelationshipModell.vue'),
       },
     ],
   },
@@ -138,6 +158,10 @@ const routes: RouteRecordRaw[] = [
     path: '/projektmanagement',
     component: () => import('layouts/MainLayout.vue'),
     children: [
+      {
+        path: 'allgemein',
+        component: () => import('pages/Projektmanagement/AllgemeinView.vue'),
+      },
       {
         path: 'gantt',
         component: () => import('pages/Projektmanagement/GanttView.vue'),

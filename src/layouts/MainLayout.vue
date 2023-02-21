@@ -148,14 +148,6 @@
 
             <q-separator />
 
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/netzwerke/tcp_udp_ports"
-              ><q-item-section>TCP, UDP & Ports</q-item-section></q-item
-            >
-            <q-separator />
-
             <q-item :inset-level="1" class="text-body2" to="/netzwerke/ipv4"
               ><q-item-section>IPv4</q-item-section></q-item
             >
@@ -167,6 +159,14 @@
             <q-separator />
             <q-item :inset-level="1" class="text-body2" to="/netzwerke/routing"
               ><q-item-section>Routing</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/netzwerke/tcp_udp_ports"
+              ><q-item-section>TCP, UDP & Ports</q-item-section></q-item
             >
             <q-separator />
 
@@ -219,10 +219,38 @@
         <q-separator />
         <q-expansion-item
           expand-separator
+          label="Datenbanken (und Programmierung) (LF5)"
+          header-class="text-weight-bolder text-secondary text-body1"
+        >
+          <q-list bordered>
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/datenbanken_programmierung/normalisierung"
+              ><q-item-section>Normalisierung</q-item-section></q-item
+            >
+            <q-separator />
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/datenbanken_programmierung/erm"
+              ><q-item-section
+                >Entity-Relationship-Modell</q-item-section
+              ></q-item
+            ></q-list
+          >
+        </q-expansion-item>
+        <q-separator />
+        <q-expansion-item
+          expand-separator
           label="Serviceanfragen bearbeiten (LF6)"
           header-class="text-weight-bolder text-secondary text-body1"
         >
           <q-list bordered>
+            <q-item :inset-level="1" class="text-body2" to="/services/allgemein"
+              ><q-item-section>Allgemeines</q-item-section></q-item
+            >
+            <q-separator />
             <q-item
               :inset-level="1"
               class="text-body2"
@@ -254,6 +282,15 @@
           header-class="text-weight-bolder text-secondary text-body1"
         >
           <q-list bordered>
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/projektmanagement/allgemein"
+              ><q-item-section
+                >Projekte und Projektphasen</q-item-section
+              ></q-item
+            >
+            <q-separator />
             <q-item
               :inset-level="1"
               class="text-body2"

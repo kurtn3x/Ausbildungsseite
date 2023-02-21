@@ -142,31 +142,22 @@ export default defineComponent({
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
 }
 .tg td {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
+  word-break: break-word;
 }
 .tg th {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
-}
-.tg .tg-sxqf {
-  border-color: inherit;
-  font-family: inherit;
-  text-align: left;
-  vertical-align: top;
-}
-.tg .tg-0pky {
-  border-color: inherit;
-  text-align: left;
-  vertical-align: top;
+  word-break: break-word;
 }
 .tg .tg-0lax {
   text-align: left;

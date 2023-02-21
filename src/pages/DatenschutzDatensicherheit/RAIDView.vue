@@ -24,16 +24,26 @@
           verbunden.
         </li>
         <li>Erhöhung der Übertragungsraten, da parellelle Zugriffe möglich</li>
+        <q-img
+          :src="src + '/datenschutz/RAID/RAID0.png'"
+          class="bg-grey-5 q-mt-md"
+          style="width: 150px"
+        />
       </ul>
-      <li class="text-weight-bolder">RAID 1: Mirroring</li>
+      <li class="text-weight-bolder q-mt-md">RAID 1: Mirroring</li>
       <ul>
         <li>Verbund von mindestens zwei Festplatten</li>
         <li>
           speichert auf allen Festplatten die gleichen Daten -> volle Redundanz
         </li>
         <li>Kapazität so groß, wie kleinste Festplatte</li>
+        <q-img
+          :src="src + '/datenschutz/RAID/RAID1.png'"
+          class="bg-grey-5 q-mt-md"
+          style="width: 150px"
+        />
       </ul>
-      <li class="text-weight-bolder">
+      <li class="text-weight-bolder q-mt-md">
         RAID 5: Block-Level Striping mit verteilten Paritätsinformationen
       </li>
       <ul>
@@ -52,10 +62,16 @@
           nutzbare Kapazität = (Anzahl Festplatten -1) * Kapazität der kleinsten
           Festplatte
         </li>
+        <q-img
+          :src="src + '/datenschutz/RAID/RAID5.png'"
+          class="bg-grey-5 q-mt-md"
+          style="width: 250px"
+        />
       </ul>
     </ul>
-    <div class="text-weight-bold text-h6 q-ml-md">
-      JBOD- Just a bunch of disks
+    <q-separator class="q-mt-md" />
+    <div class="text-weight-bold text-h6 q-ml-md text-third q-mt-md">
+      JBOD- Just a bunch of disks (kein RAID)
     </div>
     <ul>
       <li>Mehrere Festplatten verbunden zu einem logischen Volumen.</li>
@@ -64,7 +80,13 @@
         zusammen.
       </li>
       <li>Keine Redundanz & schlechtere Datenübertragungsraten</li>
+      <li>da kein RAID, kein RAID-Controller erforderlich</li>
       <li>Gut für z.B. Archivierung</li>
+      <q-img
+        :src="src + '/datenschutz/RAID/JBOD.png'"
+        class="bg-grey-5 q-mt-md"
+        style="width: 200px"
+      />
     </ul>
     <q-separator class="q-mt-md" />
     <div
@@ -93,6 +115,11 @@
         </li>
         <li>hohe Datendurchsätze und niedrige Latenz</li>
       </ul>
+      <q-img
+        :src="src + '/datenschutz/RAID/NASSAN.jpg'"
+        class="bg-grey-5 q-mt-md"
+        style="width: 500px"
+      />
     </ul>
   </div>
 </template>
@@ -102,5 +129,10 @@ import { defineComponent, ref } from 'vue';
 
 export default defineComponent({
   name: 'IndexPage',
+  setup() {
+    return {
+      src: 'https://media.kurtn3x.xyz/assets',
+    };
+  },
 });
 </script>
