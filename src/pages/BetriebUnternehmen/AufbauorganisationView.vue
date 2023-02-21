@@ -146,8 +146,7 @@
       <table class="tg q-mt-lg">
         <thead>
           <tr>
-            <th><a class="text-weight-bold">Skizze</a></th>
-            <th><a class="text-weight-bold">Name</a></th>
+            <th><a class="text-weight-bold">Skizze & Name</a></th>
             <th><a class="text-weight-bold">Beschreibung</a></th>
             <th><a class="text-weight-bold">Vorteile</a></th>
             <th><a class="text-weight-bold">Nachteile</a></th>
@@ -158,7 +157,6 @@
             <td class="tg-0lax">
               <div class="bg-grey-5">
                 <q-img
-                  style="min-width: 150px"
                   :src="
                     src +
                     '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png'
@@ -181,9 +179,9 @@
                   </div>
                 </q-img>
               </div>
-            </td>
-            <td class="tg-0lax">
-              <a class="text-weight-bold">Einliniensystem</a>
+              <div class="text-weight-bold text-center q-mt-md">
+                Einliniensystem
+              </div>
             </td>
             <td class="tg-0lax">
               -jede untergeordnete Stelle hat nur eine übergeordnete Instanz<br />-
@@ -224,9 +222,9 @@
                   </div>
                 </q-img>
               </div>
-            </td>
-            <td class="tg-0lax">
-              <a class="text-weight-bold">Mehrliniensystem</a>
+              <div class="text-weight-bold text-center q-mt-md">
+                Mehrliniensystem
+              </div>
             </td>
             <td class="tg-0lax">
               -eine untergeordnete Stelle kann von mehrerer Instanzen Weisungen
@@ -268,9 +266,9 @@
                   </div>
                 </q-img>
               </div>
-            </td>
-            <td class="tg-0lax">
-              <a class="text-weight-bold">Stabliniensystem</a>
+              <div class="text-weight-bold text-center q-mt-md">
+                Stabliniensystem
+              </div>
             </td>
             <td class="tg-0lax">
               -Liniensystem mit zusätzlichen Stabsstellen<br />-Erweiterung
@@ -312,10 +310,11 @@
                   </div>
                 </q-img>
               </div>
+              <div class="text-weight-bold text-center q-mt-md">
+                Matrixorganisation
+              </div>
             </td>
-            <td class="tg-0lax">
-              <a class="text-weight-bold">Matrixorganisation</a>
-            </td>
+
             <td class="tg-0lax">
               -Weiterentwicklung des Mehrliniensystems, auf zwei unabhängige
               Instanzen begrenzt<br />-Überschneidung funktionaler

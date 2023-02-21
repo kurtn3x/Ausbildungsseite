@@ -155,6 +155,26 @@ const routes: RouteRecordRaw[] = [
   },
 
   {
+    path: '/hardware_und_rechnungen',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'bin_dez_hexa',
+        component: () => import('pages/HardwareRechnungen/BinDezHex.vue'),
+      },
+      {
+        path: 'speichergroessen',
+        component: () =>
+          import('pages/HardwareRechnungen/SpeichergrosenView.vue'),
+      },
+      {
+        path: 'anderes',
+        component: () => import('pages/HardwareRechnungen/PixeluswView.vue'),
+      },
+    ],
+  },
+
+  {
     path: '/projektmanagement',
     component: () => import('layouts/MainLayout.vue'),
     children: [

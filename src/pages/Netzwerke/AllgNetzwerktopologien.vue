@@ -21,9 +21,9 @@
         Kommunikation zwischen den Teilnehmern im Netzwerk.
       </li>
       <li>
-        <a class="text-weight-bold">Ziel:</a>Kommunikation der einzelnen Systeme
-        untereinander und die gemeinsame Nutzung von Ressourcen. Wie z.B.
-        Rechenleistung, Geräte(Drucker,....), Software, Daten, Dienste.
+        <a class="text-weight-bold">Ziel: </a>Kommunikation der einzelnen
+        Systeme untereinander und die gemeinsame Nutzung von Ressourcen. Wie
+        z.B. Rechenleistung, Geräte(Drucker,....), Software, Daten, Dienste.
       </li>
       <li class="text-weight-bold">Nachteile:</li>
       <ul>
@@ -61,10 +61,11 @@
           </td>
           <td class="tg-0lax text-h6 text-weight-bold">Bustopologie</td>
           <td class="tg-0lax">
-            Einfach Installierbar<br />Kurze Leitungen<br />
+            -Einfach Installierbar<br />-Kurze Leitungen<br />
           </td>
           <td class="tg-0lax">
-            Bei Kabelbruch fällt Netz aus<br />Zugriffszeit nicht berechenbar<br />
+            -Bei Kabelbruch fällt Netz aus<br />-Zugriffszeit nicht
+            berechenbar<br />
           </td>
         </tr>
         <tr>
@@ -76,10 +77,10 @@
           </td>
           <td class="tg-0lax text-h6 text-weight-bold">Ringtopologie</td>
           <td class="tg-0lax">
-            Zugriffszeit vorhersehbar<br />Keine Datenkollosionen<br />
+            -Zugriffszeit vorhersehbar<br />-Keine Datenkollosionen<br />
           </td>
           <td class="tg-0lax">
-            höhere Latenzzeiten<br />höherer Verkabelungsaufwand als Bus
+            -höhere Latenzzeiten<br />-höherer Verkabelungsaufwand als Bus
           </td>
         </tr>
         <tr>
@@ -93,11 +94,12 @@
             Sterntopologie<br />(kann zu Baum erweitert werden)<br />
           </td>
           <td class="tg-0lax">
-            Einfache Erweiterung<br />Kabelbruch führt nicht zum Netzausfall<br />
+            -Einfache Erweiterung<br />-Kabelbruch führt nicht zum
+            Netzausfall<br />
           </td>
           <td class="tg-0lax">
-            hoher Verkabelungsaufwand<br />Netzausfall bei Ausfall des zentralen
-            Vertreters<br />
+            -hoher Verkabelungsaufwand<br />-Netzausfall bei Ausfall des
+            zentralen Vertreters<br />
           </td>
         </tr>
         <tr>
@@ -111,10 +113,10 @@
           </td>
           <td class="tg-0lax text-h6 text-weight-bold">Maschentopologie</td>
           <td class="tg-0lax">
-            Unendliche Netzausdehnung möglich<br />hohe Ausfallsicherheit<br />
+            -Unendliche Netzausdehnung möglich<br />-hohe Ausfallsicherheit<br />
           </td>
           <td class="tg-0lax">
-            aufwendige Administration<br />teure Vernetzung<br />
+            -aufwendige Administration<br />-teure Vernetzung<br />
           </td>
         </tr>
       </tbody>
@@ -201,26 +203,22 @@ export default defineComponent({
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
 }
 .tg td {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
+  word-break: break-word;
 }
 .tg th {
   border-style: solid;
   border-width: 1px;
-  font-weight: normal;
   overflow: hidden;
   padding: 10px 5px;
-  word-break: normal;
-}
-.tg .tg-c6q4 {
-  font-family: inherit;
-  text-align: left;
-  vertical-align: top;
+  word-break: break-word;
 }
 .tg .tg-0lax {
   text-align: left;

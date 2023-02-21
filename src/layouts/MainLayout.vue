@@ -113,6 +113,42 @@
         <q-separator />
         <q-expansion-item
           expand-separator
+          label="Hardware und Umrechnungen (LF2)"
+          header-class="text-weight-bolder text-secondary text-body1"
+        >
+          <q-list bordered>
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/hardware_und_rechnungen/bin_dez_hexa"
+              ><q-item-section
+                >Binär-, Dezimal-, Hexadezimalumrechnung - und
+                Berechnungen</q-item-section
+              ></q-item
+            >
+            <q-separator />
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/hardware_und_rechnungen/speichergroessen"
+              ><q-item-section
+                >Speichergrößenrechnungen (Bit, Byte, ...)</q-item-section
+              ></q-item
+            >
+            <q-separator />
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/hardware_und_rechnungen/anderes"
+              ><q-item-section
+                >Andere Berechnungen (Pixel, DPI, ...)</q-item-section
+              ></q-item
+            >
+          </q-list>
+        </q-expansion-item>
+        <q-separator />
+        <q-expansion-item
+          expand-separator
           label="Alles über Netzwerke (LF3 & LF9)"
           header-class="text-weight-bolder text-secondary text-body1"
         >
