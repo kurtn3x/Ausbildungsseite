@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1 q-ma-lg">
+  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
     <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Hardware und Umrechnungen
     </div>
@@ -23,8 +23,8 @@
         <ul>
           <li>KB - Kilobyte</li>
           <li>Kbit - Kilobit -> 800Kbit = 100KB</li>
-          <li>MB/s - Megabyte / s</li>
-          <li>MBit/s - Megabit / s -> 800Mbit/s = 100MB/s</li>
+          <li>MB/s - Megabyte/s</li>
+          <li>MBit/s - Megabit/s -> 800Mbit/s = 100MB/s</li>
         </ul>
         <li>
           Es gibt zwei Formen der Speichergrößenangabe:
@@ -39,7 +39,7 @@
             <a class="text-weight-bolder text-red">1024</a> = 8192 Bit
           </li>
           <li>
-            1 KB = Kilybyte = 10er-Potenz = 1 *
+            1 KB = Kilobyte = 10er-Potenz = 1 *
             <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-green">1000</a> = 8000 Bit
           </li>
@@ -140,13 +140,22 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
 
 export default defineComponent({
   name: 'IndexPage',
   setup() {
-    return {
-      src: 'https://media.kurtn3x.xyz/assets',
-    };
+    const q = useQuasar();
+    return { q, src: 'https://media.kurtn3x.xyz/assets' };
+  },
+  computed: {
+    small() {
+      if (this.q.screen.width < 1024) {
+        return true;
+      } else {
+        return false;
+      }
+    },
   },
 });
 </script>

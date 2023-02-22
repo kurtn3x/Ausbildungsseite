@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1 q-ma-lg">
+  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
     <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Datenschutz und Datensicherheit
     </div>
@@ -19,17 +19,23 @@
           Daten hat
         </li>
       </ul>
-      <li><a class="text-h6 text-weight-bold text-third">Integrität</a></li>
+      <li>
+        <a class="text-h6 text-weight-bold text-third">Integrität</a>
+      </li>
       <ul>
         <li>Daten dürfen nicht unerkannt oder unbemerkt geändert werden</li>
         <li>Nachvollziehbarkeit der Datenänderungen</li>
       </ul>
-      <li><a class="text-h6 text-weight-bold text-third">Verfügbarkeit</a></li>
+      <li>
+        <a class="text-h6 text-weight-bold text-third">Verfügbarkeit</a>
+      </li>
       <ul>
         <li>Beschreibt die Zeit, in der das System funktioniert</li>
         <li>Ist möglichst hoch zu halten</li>
       </ul>
-      <li><a class="text-h6 text-weight-bold text-third">Datenschutz</a></li>
+      <li>
+        <a class="text-h6 text-weight-bold text-third">Datenschutz</a>
+      </li>
       <ul>
         <li>
           Schutz eines Bürgers vor misbräuchlicher Datenverarbeitung, das Recht
@@ -53,8 +59,27 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
 
 export default defineComponent({
   name: 'IndexPage',
+  setup() {
+    const q = useQuasar();
+    return {
+      q,
+      src: 'https://media.kurtn3x.xyz/assets',
+      show_img: ref(false),
+      popupsrc: ref(''),
+    };
+  },
+  computed: {
+    small() {
+      if (this.q.screen.width < 1024) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
 });
 </script>

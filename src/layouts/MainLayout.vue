@@ -122,8 +122,7 @@
               class="text-body2"
               to="/hardware_und_rechnungen/bin_dez_hexa"
               ><q-item-section
-                >Binär-, Dezimal-, Hexadezimalumrechnung - und
-                Berechnungen</q-item-section
+                >Binär-, Dezimal-, Hexadezimalumrechnung</q-item-section
               ></q-item
             >
             <q-separator />
@@ -340,14 +339,6 @@
             <q-item
               :inset-level="1"
               class="text-body2"
-              to="/projektmanagement/gantt"
-              ><q-item-section>Gantt-Diagramm</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
               to="/projektmanagement/netzplan"
               ><q-item-section>Netzplan</q-item-section></q-item
             >
@@ -373,8 +364,8 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import { useSettingsStore } from 'stores/settings';
 import { useQuasar } from 'quasar';
+import { useSettingsStore } from 'stores/settings';
 
 export default defineComponent({
   name: 'MainLayout',
@@ -405,13 +396,13 @@ export default defineComponent({
 
   computed: {
     fontSizeh6() {
-      return this.fontSize + '%';
+      return this.fontSize + 25 + '%';
     },
     fontSizeh5() {
-      return this.fontSize + 20 + '%';
+      return this.fontSize + 40 + '%';
     },
     fontSizeh4() {
-      return this.fontSize + 40 + '%';
+      return this.fontSize + 55 + '%';
     },
   },
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1 q-ma-lg">
+  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
     <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Hauptthemaaaaaaaaaaaaa
     </div>
@@ -17,13 +17,22 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
 
 export default defineComponent({
   name: 'IndexPage',
   setup() {
-    return {
-      src: 'https://media.kurtn3x.xyz/assets',
-    };
+    const q = useQuasar();
+    return { q, src: 'https://media.kurtn3x.xyz/assets' };
+  },
+  computed: {
+    small() {
+      if (this.q.screen.width < 1024) {
+        return true;
+      } else {
+        return false;
+      }
+    },
   },
 });
 </script>

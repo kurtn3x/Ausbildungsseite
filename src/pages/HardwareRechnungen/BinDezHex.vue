@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="q-ma-lg">
+    <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
       <div
         class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
       >
@@ -206,8 +206,9 @@
       </div>
       <ul>
         <li>
-          Ich persönlich rechne Dezimalzahlen immer in Binärzahlen um und
-          beginne die Umrechnung wie oben beschrieben von dort.
+          Dezimalzahl in Binär umrechnen und von dort aus weitermachen, bzw. die
+          Hexadezimalzahl in Binär ausrechnen und diese dann zu Dezimal
+          umrechnen.
         </li>
       </ul>
     </div>
@@ -216,15 +217,27 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
 
 export default defineComponent({
   name: 'IndexPage',
   setup() {
+    const q = useQuasar();
     return {
+      q,
       src: 'https://media.kurtn3x.xyz/assets',
       show_img: ref(false),
       popupsrc: ref(''),
     };
+  },
+  computed: {
+    small() {
+      if (this.q.screen.width < 1024) {
+        return true;
+      } else {
+        return false;
+      }
+    },
   },
 });
 </script>

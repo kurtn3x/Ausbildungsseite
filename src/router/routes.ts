@@ -183,10 +183,6 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/Projektmanagement/AllgemeinView.vue'),
       },
       {
-        path: 'gantt',
-        component: () => import('pages/Projektmanagement/GanttView.vue'),
-      },
-      {
         path: 'pflichtenheft_lastenheft',
         component: () => import('pages/Projektmanagement/PflichtLastView.vue'),
       },

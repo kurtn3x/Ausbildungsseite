@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1 q-ma-lg">
+  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
     <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Strom & Ladung
     </div>
@@ -21,7 +21,9 @@
         <li>Potentialdifferenz elektrischer Ladungen</li>
         <li>Einheit: V (Volt)</li>
       </ul>
-      <li><a class="text-h6 text-weight-bold">Elektrischer Strom I</a></li>
+      <li>
+        <a class="text-h6 text-weight-bold">Elektrischer Strom I</a>
+      </li>
       <ul>
         <li>Beschreibt die Bewegung von Ladungsteilchen</li>
         <li>Einheit: A (Ampere)</li>
@@ -48,7 +50,9 @@
         <li>Einheit: A/m² (Ampere/m²)</li>
         <li>S = I in Ampere / Fläche A in m²</li>
       </ul>
-      <li><a class="text-h6 text-weight-bold">Elektrische Leistung P</a></li>
+      <li>
+        <a class="text-h6 text-weight-bold">Elektrische Leistung P</a>
+      </li>
       <ul>
         <li>Einheit: W (Watt)</li>
         <li>P = U in Volt * I in Ampere</li>
@@ -89,8 +93,27 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
 
 export default defineComponent({
   name: 'IndexPage',
+  setup() {
+    const q = useQuasar();
+    return {
+      q,
+      src: 'https://media.kurtn3x.xyz/assets',
+      show_img: ref(false),
+      popupsrc: ref(''),
+    };
+  },
+  computed: {
+    small() {
+      if (this.q.screen.width < 1024) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
 });
 </script>

@@ -1597,6 +1597,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useQuasar } from 'quasar';
 
 export default defineComponent({
   name: 'IPv4SubnetExample',
