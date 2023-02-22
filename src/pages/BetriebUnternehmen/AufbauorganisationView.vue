@@ -1,9 +1,12 @@
 <template>
   <div class="text-body1">
-    <q-dialog v-model="show_img" full-width>
-      <q-card class="full-width">
-        <q-img :src="src + popupsrc" class="bg-grey-5 fit" />
-      </q-card>
+    <q-dialog v-model="show_img">
+      <q-img
+        :src="src + popupsrc"
+        fit="contain"
+        style="max-width: 90%; max-height: 90%; overflow-y: hidden"
+        class="bg-grey-5"
+      />
     </q-dialog>
     <div class="q-ma-lg">
       <div
@@ -34,7 +37,7 @@
         <li class="text-weight-bold">Begriff Organisation</li>
         <ul>
           <li>Zustand der Ordnung der Elemente (Struktur)</li>
-          <li>Beziehun zwischen den Elementen eines Systems</li>
+          <li>Beziehung zwischen den Elementen eines Systems</li>
           <li>dargestellt z.B. in einem Organigramm</li>
         </ul>
         <li>
@@ -69,7 +72,7 @@
         <li class="text-weight-bold">Aufgabensyntese</li>
         <ul>
           <li>
-            Zusammenfassungs sachlogisch zusammenhängender Teilaufgaben zu
+            Zusammenfassung sachlogisch zusammenhängender Teilaufgaben zu
             Aufgabenkomplexen und Zuordnung der Aufgabenträger
           </li>
         </ul>
@@ -92,12 +95,10 @@
           Zusammenfassen mehrerer Stellen.
         </li>
         <ul>
-          <li>
-            schafft überschaubare Bereiche -übersichtliche Gesamtstruktur des
-            Unternehmens
-          </li>
+          <li>schafft überschaubare Bereiche</li>
+          <li>übersichtliche Gesamtstruktur des Unternehmens</li>
           <li>vereinfacht die Vergabe von Zugriffsrechten</li>
-          <li>ermöglich die Festlegung von Verantwortungsbereichen</li>
+          <li>ermöglicht die Festlegung von Verantwortungsbereichen</li>
         </ul>
       </ul>
       <q-separator class="q-mt-md" />
@@ -118,11 +119,11 @@
         <li class="text-weight-bold">Modernes Management</li>
         <ul>
           <li>
-            Flache Hierarchien -Lean Management: möglichst flache Strukturen und
-            Stärkung der Eigentverantwortung der Mitarbeiter
+            Flache Hierarchien - Lean Management: möglichst flache Strukturen
+            und Stärkung der Eigentverantwortung der Mitarbeiter
           </li>
           <li>
-            Jobrotation -Job Enrichment: Vergrößerung des Arbeitsgebietes oder
+            Jobrotation - Job Enrichment: Vergrößerung des Arbeitsgebietes oder
             gezieltes Wechseln der Arbeitsstelle
           </li>
           <li>
@@ -184,8 +185,8 @@
               </div>
             </td>
             <td class="tg-0lax">
-              -jede untergeordnete Stelle hat nur eine übergeordnete Instanz<br />-
-              kleine-mittlere Unternehmen<br />vertikale Kommunikationswege<br />
+              -jede untergeordnete Stelle hat nur eine übergeordnete Instanz<br />
+              -kleine-mittlere Unternehmen<br />-vertikale Kommunikationswege<br />
             </td>
             <td class="tg-0lax">
               -eindeutige Dienst-, Informations-, und Kommunikationswege

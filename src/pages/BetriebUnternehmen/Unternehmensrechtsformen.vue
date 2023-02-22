@@ -24,7 +24,7 @@
       <ul>
         <li>amtliches Verzeichnis der Kaufleute eines Amtgerichtsbezirks</li>
         <li>durch Eintragungen erlangt eine Firma Kaufmannseigenschaften</li>
-        <li>Schutz von UN-Partnern durch die Bekanntmachung</li>
+        <li>Schutz von Unternehmens-Partnern durch die Bekanntmachung</li>
         <li>Recht auf Einsichtnahme</li>
         <li>begrenzte Informationen zu Geschäftsdaten</li>
       </ul>
@@ -55,7 +55,7 @@
         <li>Gesellschaft als juristische Person rechtsfähig</li>
         <li>
           Rechts und Steuersubjekt kann haftbar gemacht werden für
-          Verbindlichkeiten mit ihrem Vermögen oder
+          Verbindlichkeiten mit ihrem Vermögen
         </li>
         <li>Körperschaftssteuerpflichtig</li>
         <li>Ertragsbesteuerung</li>
@@ -117,8 +117,9 @@
     <ul>
       <li>Rechtsgestaltung, insbesondere Haftung</li>
       <li>Aufwendungen der Rechtsform</li>
-      <li>Kapitalbedarf und Finanzierungsmöglichkeiten, Risiken</li>
-      <li>Eintraguns ins Handelsregister</li>
+      <li>Kapitalbedarf und Finanzierungsmöglichkeiten</li>
+      <li>Risiken</li>
+      <li>Eintragung ins Handelsregister</li>
       <li>Leistungsbefugnisse</li>
       <li>Gewinn- und Verlustminimierung</li>
       <li>Steuerbelastung</li>
@@ -135,7 +136,8 @@
       <li>
         <a class="text-weight-bold">Konzern: </a>Zusammenschluss zweier oder
         mehrerer rechtlich selbständiger Unternehmen zu einer großen
-        wirtschaftlichen Einheit unter einer Führung (keine UN-Rechtsform)
+        wirtschaftlichen Einheit unter einer Führung (keine
+        Unternehmens-Rechtsform)
       </li>
       <li>
         <a class="text-weight-bold">Kartell: </a>vertraglicher Zusammenschluss
@@ -146,7 +148,8 @@
       </li>
       <li>
         <a class="text-weight-bold">Fusion/Merger:</a> Zusammenschluss rechtlich
-        selbstständiger UN zu einer rechtlichen wirtschaftlichen Einheit
+        selbstständiger Unternehmen zu einer rechtlichen wirtschaftlichen
+        Einheit
       </li>
       <li>
         <a class="text-weight-bold">Partnerschaft/Allianz:</a> schließen

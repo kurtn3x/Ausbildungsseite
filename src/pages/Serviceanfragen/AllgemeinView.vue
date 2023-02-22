@@ -1,9 +1,12 @@
 <template>
   <div class="text-body1">
     <q-dialog v-model="show_img" full-width>
-      <q-card class="full-width">
-        <q-img :src="src + popupsrc" class="bg-grey-5 fit" />
-      </q-card>
+      <q-img
+        :src="src + popupsrc"
+        fit="contain"
+        style="max-width: 90%; max-height: 90%; overflow-y: hidden"
+        class="bg-grey-5"
+      />
     </q-dialog>
     <div class="q-ma-lg">
       <div

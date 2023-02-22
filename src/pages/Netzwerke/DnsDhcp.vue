@@ -1,9 +1,12 @@
 <template>
   <div class="text-body1">
-    <q-dialog v-model="show_img" full-width>
-      <q-card class="q-ma-xl">
-        <q-img :src="src + popupsrc" class="bg-grey-5" />
-      </q-card>
+    <q-dialog v-model="show_img">
+      <q-img
+        :src="src + popupsrc"
+        fit="contain"
+        style="max-width: 90%; max-height: 90%; overflow-y: hidden"
+        class="bg-grey-5"
+      />
     </q-dialog>
     <div class="q-ma-lg">
       <div
@@ -76,7 +79,7 @@
         <li>Automatisches Zuordnen von IP-Adressen über das DHCP Protokoll</li>
         <li><a class="text-weight-bold">3 Modi:</a></li>
         <ul>
-          <li>Statisches DHCP: feste Zuordnung von MAC Adresse und IP</li>
+          <li>Statisches DHCP: feste Zuordnung von MAC-Adresse und IP</li>
           <li>
             Automatisches DHCP: Adressen in einer Range werden automatisch &
             permanent vergeben
@@ -112,11 +115,27 @@
             weitere Informationen wie Lease Duration und Einstellungen
             beinhaltet.
           </li>
+
           <q-img
+            class="fit bg-grey-5"
             :src="src + '/Netzwerke/DNS/DHCP.png'"
-            class="bg-grey-5 q-mt-md"
             style="max-width: 400px"
-          />
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/DNS/DHCP.png';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
         </ul>
       </ul>
     </div>

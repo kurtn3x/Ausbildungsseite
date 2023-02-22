@@ -36,7 +36,7 @@
       <li class="text-weight-bold">Qualität</li>
       <ul>
         <li>
-          Güte aller Eigentschaften eines Objectes, Systems oder Prozesses
+          Güte aller Eigentschaften eines Objektes, Systems oder Prozesses
         </li>
         <li>
           die den Handlungen und deren Ergebnissen vorgelagerten individuellen

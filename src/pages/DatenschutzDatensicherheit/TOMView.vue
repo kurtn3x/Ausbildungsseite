@@ -96,14 +96,14 @@
       </li>
       <ul>
         <li>
-          Maßnahmen, die dafür sorgen, dass nur Personen auf die Inhalte Zugriff
-          haben, für die sie berechtigt sind und das Daten nicht unbefugt
+          Maßnahmen, die dafür sorgen, dass Personen nur auf die Inhalte Zugriff
+          haben, für die sie berechtigt sind und dass Daten nicht unbefugt
           kopiert, verändert oder gelöscht werden können
         </li>
         <li>Beispiele:</li>
         <ul>
           <li>Berechtigungskonzept</li>
-          <li>Benutzerkennung mit Passwor</li>
+          <li>Benutzerkennung mit Passwort</li>
         </ul>
       </ul>
       <li>
