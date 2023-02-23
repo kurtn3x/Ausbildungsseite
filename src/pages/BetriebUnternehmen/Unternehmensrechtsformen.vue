@@ -64,7 +64,7 @@
       <ul>
         <li>Einzelunternehmen</li>
         <li>Gesellschaft bürgerlichen Rechts (GbR)</li>
-        <li>Offene Handelsgesellschaft (GbR)</li>
+        <li>Offene Handelsgesellschaft (OH)</li>
         <li>Kommanditgesellschaft (KG)</li>
         <li>Gesellschaft mit beschränkter Haftung (GmbH)</li>
         <li>Aktiengesellschaft (AG)</li>

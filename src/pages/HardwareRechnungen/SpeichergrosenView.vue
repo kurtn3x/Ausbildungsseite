@@ -23,6 +23,8 @@
         <ul>
           <li>KB - Kilobyte</li>
           <li>Kbit - Kilobit -> 800Kbit = 100KB</li>
+          <li>KiB - Kibibyte (Unterschied KB-KiB siehe nächster Punkt)</li>
+          <li>Kibit - Kibibit -> 800Kibit = 100KiB</li>
           <li>MB/s - Megabyte/s</li>
           <li>MBit/s - Megabit/s -> 800Mbit/s = 100MB/s</li>
         </ul>
@@ -90,9 +92,8 @@
             <a class="text-weight-bolder text-green">1000</a> Bit
           </li>
           <li>
-            um die oben genannten Werte von den jeweiligen Bit-Formen aus
-            umzurechen (KiBit, KBit, TiBit, TBit) müsste man einfach die 8
-            weglassen
+            um die oben genannten Werte in die jeweiligen Bit-Formen umzurechen
+            (KiBit, KBit, TiBit, TBit) müsste man einfach die *8 weglassen.
           </li>
           <li>
             generell lohnt es sich, gegebene Werte bis zu den Bits umzurechnen,

@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+    <div :class="small ? 'q-ma-sm' : 'q-ma-lg'">
       <div
         class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
       >
@@ -31,7 +31,7 @@
         </thead>
         <tbody>
           <tr>
-            <td class="tg-0pky">7</td>
+            <td>7</td>
             <td class="tg-0pky">
               <a class="text-weight-bold"
                 >Anwendungsschicht<br />Application Layer<br
@@ -43,7 +43,7 @@
             <td class="tg-0lax">Application Layer</td>
           </tr>
           <tr>
-            <td class="tg-0pky">6</td>
+            <td>6</td>
             <td class="tg-0pky">
               <a class="text-weight-bold"
                 >Darstellungsschicht <br />
@@ -56,7 +56,7 @@
             <td class="tg-0lax">Application Layer</td>
           </tr>
           <tr>
-            <td class="tg-0pky">5</td>
+            <td>5</td>
             <td class="tg-0pky">
               <a class="text-weight-bold">
                 Kommunikationsschicht<br />Session Layer<br />
@@ -68,7 +68,7 @@
             <td class="tg-0lax">Application Layer</td>
           </tr>
           <tr>
-            <td class="tg-0pky">4</td>
+            <td>4</td>
             <td class="tg-0pky">
               <a class="text-weight-bold"
                 >Transportschicht<br />Transport Layer<br
@@ -80,7 +80,7 @@
             <td class="tg-0lax">Transport Layer</td>
           </tr>
           <tr>
-            <td class="tg-0pky">3</td>
+            <td>3</td>
             <td class="tg-0pky">
               <a class="text-weight-bold"
                 >Vermittlungsschicht<br />Network Layer<br
@@ -94,7 +94,7 @@
             <td class="tg-0lax">Internet Layer</td>
           </tr>
           <tr>
-            <td class="tg-0pky">2</td>
+            <td>2</td>
             <td class="tg-0pky">
               <a class="text-weight-bold"
                 >Sicherungsschicht<br />Data-Link Layer<br
@@ -106,7 +106,7 @@
             <td class="tg-0lax">Network Access Layer</td>
           </tr>
           <tr>
-            <td class="tg-0pky">1</td>
+            <td>1</td>
             <td class="tg-0pky">
               <a class="text-weight-bold"
                 >Bitübertragungsschicht<br />Physical Layer<br />

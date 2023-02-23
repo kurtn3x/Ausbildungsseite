@@ -93,7 +93,7 @@
       <ul>
         <li>
           Kleine Arbeitsgruppe von Mitarbeitern eines Unternehmens, welche sich
-          freiwillig zusammenfinde, um Schawchstellen ihres Aufgabengebietes zu
+          freiwillig zusammenfinden, um Schawchstellen ihres Aufgabengebietes zu
           finden oder um Problemlösungen bzw. Verbesserungsvorschläge zu
           erarbeiten und umzusetzen
         </li>

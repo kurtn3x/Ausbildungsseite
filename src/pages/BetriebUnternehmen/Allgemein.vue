@@ -20,7 +20,7 @@
         <li>z.B. Hotel, Friseur, IT-Betrieb, Automanufaktur</li>
         <li>Merkmale:</li>
         <ul>
-          <li>Einem Unternehmen Zugeordnet</li>
+          <li>Einem Unternehmen zugeordnet</li>
           <li>Dient der Leistungserstellung</li>
           <li>
             Folgt einem wirtschaftlichen Ziel, ist aber wirtschaftlich

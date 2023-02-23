@@ -213,7 +213,7 @@
             füllt und je 8Bit in eine Dezimalzahl umrechnet.
           </li>
           <ul>
-            <li>Suffix: /23 = 23 Einsen gefolgt von 7 Nullen</li>
+            <li>Suffix: /23 = 23 Einsen gefolgt von 9 Nullen</li>
             <li>
               1111 1111 (255) 1111 1111 (255) 1111 1110 (254) 0000 0000 (0)
             </li>

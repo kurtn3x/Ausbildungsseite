@@ -86,7 +86,7 @@
                 </div>
               </q-img>
             </td>
-            <td class="tg-0lax text-h6 text-weight-bold">Bustopologie</td>
+            <td class="text-h6 text-weight-bold">Bustopologie</td>
             <td class="tg-0lax">
               -Einfach Installierbar<br />-Kurze Leitungen<br />
             </td>
@@ -118,7 +118,7 @@
                 </div>
               </q-img>
             </td>
-            <td class="tg-0lax text-h6 text-weight-bold">Ringtopologie</td>
+            <td class="text-h6 text-weight-bold">Ringtopologie</td>
             <td class="tg-0lax">
               -Zugriffszeit vorhersehbar<br />-Keine Datenkollosionen<br />
             </td>
@@ -149,7 +149,7 @@
                 </div>
               </q-img>
             </td>
-            <td class="tg-0lax text-h6 text-weight-bold">
+            <td class="text-h6 text-weight-bold">
               Sterntopologie<br />(kann zu Baum erweitert werden)<br />
             </td>
             <td class="tg-0lax">
@@ -184,7 +184,7 @@
                 </div>
               </q-img>
             </td>
-            <td class="tg-0lax text-h6 text-weight-bold">Maschentopologie</td>
+            <td class="text-h6 text-weight-bold">Maschentopologie</td>
             <td class="tg-0lax">
               -Unendliche Netzausdehnung möglich<br />-hohe Ausfallsicherheit<br />
             </td>
@@ -202,11 +202,11 @@
       </div>
       <ul>
         <li>
-          <a class="text-weight-bolder">Zwischensystem:</a>Gerät zur
+          <a class="text-weight-bolder">Zwischensystem: </a>Gerät zur
           Verstärkung, Weiterleitung und Anpassung des Datenstromes
         </li>
         <li>
-          <a class="text-weight-bolder">Datenpaket:</a>Datenströme in
+          <a class="text-weight-bolder">Datenpaket: </a>Datenströme in
           Übertragungseinheiten zerlegt, welche als Datenpaket bezeichnet
           werden.Sind mit Sender- u. Empfängeradresse ausgestattet (siehe
           versch. Headeraufbau)
@@ -217,42 +217,42 @@
 
         <ul>
           <li>
-            <a class="text-weight-bolder">PAN:</a>Personal Area Network (z.B.
+            <a class="text-weight-bolder">PAN: </a>Personal Area Network (z.B.
             Bluetooth)
           </li>
           <li>
-            <a class="text-weight-bolder">LAN:</a>Local Area Network (lokales
+            <a class="text-weight-bolder">LAN: </a>Local Area Network (lokales
             Netz)
           </li>
           <li>
-            <a class="text-weight-bolder">MAN:</a>Metropolitan Area Network
+            <a class="text-weight-bolder">MAN: </a>Metropolitan Area Network
             (regionales Netz einer Metropolregion)
           </li>
           <li>
-            <a class="text-weight-bolder">WAN:</a>Wide Area Network
+            <a class="text-weight-bolder">WAN: </a>Wide Area Network
             (Weitverkehrsverbindung)
           </li>
           <li>
-            <a class="text-weight-bolder">GAN:</a>Global Area Network (globales
+            <a class="text-weight-bolder">GAN: </a>Global Area Network (globales
             Netz)
           </li>
         </ul>
 
         <li>
-          <a class="text-weight-bolder">PowerLAN:</a>Nutzt das Stromnetz als
+          <a class="text-weight-bolder">PowerLAN: </a>Nutzt das Stromnetz als
           lokales Übertragungsmedium
         </li>
-        <li><a class="text-weight-bolder">WLAN:</a>Wireless-LAN</li>
+        <li><a class="text-weight-bolder">WLAN: </a>Wireless-LAN</li>
         <li>
-          <a class="text-weight-bolder">VLAN:</a>Virtual LAN : flexible,
+          <a class="text-weight-bolder">VLAN: </a>Virtual LAN : flexible,
           logische Trennung eines physischen Netzes
         </li>
         <li>
-          <a class="text-weight-bolder">IEEE:</a>Insitute of Electrical and
+          <a class="text-weight-bolder">IEEE: </a>Insitute of Electrical and
           Electronics Engineers (US-Normungsbehörde)
         </li>
         <li>
-          <a class="text-weight-bolder">ISO:</a>International Organisation for
+          <a class="text-weight-bolder">ISO: </a>International Organisation for
           Standardization
         </li>
       </ul>
