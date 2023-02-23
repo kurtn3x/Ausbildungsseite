@@ -209,6 +209,18 @@
           </div>
         </q-img>
       </ul>
+      <q-separator class="q-mt-md" />
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://commons.wikimedia.org/wiki/File:RAID_0.svg<br />
+        https://commons.wikimedia.org/wiki/File:RAID_1.svg
+        <br />
+        https://commons.wikimedia.org/wiki/File:RAID_5.svg <br />
+        https://commons.wikimedia.org/wiki/File:JBOD.svg <br />
+        https://medium.com/teamresellerclub/what-is-the-difference-between-san-and-nas-storage-9e5d0b0b94b2
+        <br />
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

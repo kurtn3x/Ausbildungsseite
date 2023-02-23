@@ -149,6 +149,12 @@
           </li>
         </ul>
       </ul>
+      <q-separator class="q-mt-md" />
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://commons.wikimedia.org/wiki/File:Factoring-de.svg<br />
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

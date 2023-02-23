@@ -230,6 +230,14 @@
         Beispiel für das Netz 192.168.164.0
       </div>
       <IPv4SubnetExample class="q-ml-lmd q-mt-lg fit" />
+      <q-separator class="q-mt-md" />
+
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg
+        <br />
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

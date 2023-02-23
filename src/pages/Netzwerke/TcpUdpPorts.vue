@@ -163,6 +163,18 @@
           <li>443: HTTPS Hyper Text Transfer Protocol Secure</li>
         </ul>
       </ul>
+      <q-separator class="q-mt-md" />
+
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://www.ionos.de/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/tcp-header.jpg
+        <br />
+        https://commons.wikimedia.org/wiki/File:Tcp-handshake.svg <br />
+        https://www.ionos.de/digitalguide/fileadmin/DigitalGuide/Screenshots/aufbau-udp-header.png
+        <br />
+
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

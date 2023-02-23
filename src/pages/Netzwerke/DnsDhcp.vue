@@ -138,6 +138,14 @@
           </q-img>
         </ul>
       </ul>
+      <q-separator class="q-mt-md" />
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://aws.amazon.com/route53/what-is-dns/ <br />
+        https://commons.wikimedia.org/wiki/File:DHCP_session.svg
+        <br />
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

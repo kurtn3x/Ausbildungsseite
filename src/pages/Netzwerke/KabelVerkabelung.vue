@@ -128,6 +128,12 @@
           </ul>
         </ul>
       </ul>
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://studyflix.de/informatik/strukturierte-verkabelung-5549
+        <br />
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

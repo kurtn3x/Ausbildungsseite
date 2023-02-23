@@ -144,6 +144,13 @@
           </div>
         </q-img>
       </ul>
+      <q-separator class="q-mt-md" />
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://oinf.ch/wp-content/uploads/Konzeptbild_Datenpaket.png
+        <br />
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

@@ -256,6 +256,16 @@
           Standardization
         </li>
       </ul>
+      <q-separator class="q-mt-md" />
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://de.m.wikipedia.org/wiki/Datei:Netzwerktopologie_Bus.png
+        <br />
+        https://de.m.wikipedia.org/wiki/Datei:Netzwerktopologie_Ring.png <br />
+        https://de.m.wikipedia.org/wiki/Datei:Netzwerktopologie_Stern.png <br />
+
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>

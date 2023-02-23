@@ -105,6 +105,12 @@
           </li>
         </ul>
       </ul>
+      <q-separator class="q-mt-md" />
+      <div class="text-subtitle2 text-grey font-size-small">
+        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+        https://www.deutsche-systemhaus.eu/wp-content/uploads/2017/04/IMAC_2.png<br />
+        Ich bin nicht der Eigentümer der oben genannten Bilder.
+      </div>
     </div>
   </div>
 </template>
