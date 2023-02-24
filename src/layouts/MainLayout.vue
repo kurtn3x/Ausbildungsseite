@@ -120,9 +120,28 @@
             <q-item
               :inset-level="1"
               class="text-body2"
+              to="/hardware_und_rechnungen/aufbau_rechner"
+              ><q-item-section>Aufbau von Rechnern</q-item-section></q-item
+            >
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              class="text-body2"
               to="/hardware_und_rechnungen/bin_dez_hexa"
               ><q-item-section
                 >Binär-, Dezimal-, Hexadezimalumrechnung</q-item-section
+              ></q-item
+            >
+
+            <q-separator />
+
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/hardware_und_rechnungen/bin_dez_hexa_rechnungen"
+              ><q-item-section
+                >Binär-, Dezimal-, Hexadezimalberechnungen</q-item-section
               ></q-item
             >
             <q-separator />
@@ -244,10 +263,17 @@
             <q-item
               :inset-level="1"
               class="text-body2"
-              to="/datenschutz_datensicherheit/schutzbedarfsanalys"
+              to="/datenschutz_datensicherheit/schutzbedarfsanalyse"
               ><q-item-section
                 >Schutzbedarfsanalyse & Schutzbedarfsklassen</q-item-section
               ></q-item
+            >
+            <q-separator />
+            <q-item
+              :inset-level="1"
+              class="text-body2"
+              to="/datenschutz_datensicherheit/sicherheitsprozess"
+              ><q-item-section>IT-Sicherheitsprozess</q-item-section></q-item
             >
           </q-list>
         </q-expansion-item>

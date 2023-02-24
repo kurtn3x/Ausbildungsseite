@@ -68,7 +68,7 @@
               <q-img
                 class="fit bg-grey-5"
                 :src="src + '/Netzwerke/Topologien/Bustopologie.png'"
-                style="max-width: 600px"
+                style="max-width: 200px"
                 @click="
                   show_img = true;
                   popupsrc = '/Netzwerke/Topologien/Bustopologie.png';
@@ -86,7 +86,7 @@
                 </div>
               </q-img>
             </td>
-            <td class="text-h6 text-weight-bold">Bustopologie</td>
+            <td class="text-h6 text-weight-bold text-center">Bustopologie</td>
             <td class="tg-0lax">
               -Einfach Installierbar<br />-Kurze Leitungen<br />
             </td>
@@ -100,7 +100,7 @@
               <q-img
                 class="fit bg-grey-5"
                 :src="src + '/Netzwerke/Topologien/Ringtopologie.png'"
-                style="max-width: 600px"
+                style="max-width: 200px"
                 @click="
                   show_img = true;
                   popupsrc = '/Netzwerke/Topologien/Ringtopologie.png';
@@ -118,7 +118,7 @@
                 </div>
               </q-img>
             </td>
-            <td class="text-h6 text-weight-bold">Ringtopologie</td>
+            <td class="text-h6 text-weight-bold text-center">Ringtopologie</td>
             <td class="tg-0lax">
               -Zugriffszeit vorhersehbar<br />-Keine Datenkollosionen<br />
             </td>
@@ -131,7 +131,7 @@
               <q-img
                 class="fit bg-grey-5"
                 :src="src + '/Netzwerke/Topologien/Sterntopologie.png'"
-                style="max-width: 600px"
+                style="max-width: 200px"
                 @click="
                   show_img = true;
                   popupsrc = '/Netzwerke/Topologien/Sterntopologie.png';
@@ -149,7 +149,7 @@
                 </div>
               </q-img>
             </td>
-            <td class="text-h6 text-weight-bold">
+            <td class="text-h6 text-weight-bold text-center">
               Sterntopologie<br />(kann zu Baum erweitert werden)<br />
             </td>
             <td class="tg-0lax">
@@ -166,7 +166,7 @@
               <q-img
                 class="fit bg-grey-5"
                 :src="src + '/Netzwerke/Topologien/Maschentopologie.png'"
-                style="max-width: 600px"
+                style="max-width: 200px; min-width: 125px"
                 @click="
                   show_img = true;
                   popupsrc = '/Netzwerke/Topologien/Maschentopologie.png';
@@ -184,7 +184,9 @@
                 </div>
               </q-img>
             </td>
-            <td class="text-h6 text-weight-bold">Maschentopologie</td>
+            <td class="text-h6 text-weight-bold text-center">
+              Maschentopologie
+            </td>
             <td class="tg-0lax">
               -Unendliche Netzausdehnung möglich<br />-hohe Ausfallsicherheit<br />
             </td>
@@ -302,7 +304,7 @@ export default defineComponent({
   border-collapse: collapse;
   border-spacing: 0;
   table-layout: fixed;
-  width: 100%;
+  max-width: 100%;
 }
 .tg td {
   border-style: solid;

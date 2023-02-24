@@ -106,9 +106,14 @@ const routes: RouteRecordRaw[] = [
           import('pages/DatenschutzDatensicherheit/RAIDView.vue'),
       },
       {
-        path: 'schutzbedarfsanalys',
+        path: 'schutzbedarfsanalyse',
         component: () =>
           import('pages/DatenschutzDatensicherheit/SchutzbedarfView.vue'),
+      },
+      {
+        path: 'sicherheitsprozess',
+        component: () =>
+          import('pages/DatenschutzDatensicherheit/SicherheitsprozessView.vue'),
       },
     ],
   },
@@ -161,6 +166,15 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'bin_dez_hexa',
         component: () => import('pages/HardwareRechnungen/BinDezHex.vue'),
+      },
+      {
+        path: 'bin_dez_hexa_rechnungen',
+        component: () =>
+          import('pages/HardwareRechnungen/BDHRechnungenView.vue'),
+      },
+      {
+        path: 'aufbau_rechner',
+        component: () => import('pages/HardwareRechnungen/AufbauRechner.vue'),
       },
       {
         path: 'speichergroessen',
