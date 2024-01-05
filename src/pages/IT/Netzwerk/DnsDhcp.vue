@@ -28,7 +28,7 @@
           Übersetzt Menschenlesbare Namen wie www.google.de in IP-Adressen,
           welche der Computer verwenden kann
         </li>
-        <li><a class="text-weight-bolder">Autoratives DNS:</a></li>
+        <li><a class="text-weight-bolder">Authoritative DNS:</a></li>
         <ul>
           <li>
             Bietet Aktualisierungsmechanismus, welcher die öffentlichen
@@ -36,7 +36,7 @@
           </li>
           <li>Antwortet auch rekursiven DNS-Servern</li>
         </ul>
-        <li><a class="text-weight-bolder">Rekursives DNS:</a></li>
+        <li><a class="text-weight-bolder">Recursive DNS:</a></li>
         <ul>
           <li>Normalerweise erster Ansprechpunkt für Clients</li>
           <li>Auch Resolver genannt</li>

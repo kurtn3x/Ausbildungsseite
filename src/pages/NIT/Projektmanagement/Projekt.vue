@@ -9,13 +9,8 @@
       />
     </q-dialog>
     <div :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div
-        class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
-      >
-        Projektmanagement
-      </div>
       <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-        Allgemeines
+        Das Projekt - Allgemeines
       </div>
       <q-separator class="q-mt-md" />
       <div
@@ -25,8 +20,8 @@
       </div>
       <ul>
         <li>
-          Vorhaben, dass sich im Wesentlichen durch Einmaligkeit in seinen
-          Bdeingungen in ihrere Gesamtheit auszeichnet
+          Vorhaben, das im Wesentlichen durch die Einmaligkeit aber auch
+          Konstante der Bedingungen in ihrer Gesamtheit gekennzeichnet ist
         </li>
         <li class="text-weight-bolder">Kennzeichen:</li>
         <ul>
@@ -169,7 +164,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'ProjektPage',
   setup() {
     const q = useQuasar();
     return {

@@ -1,10 +1,7 @@
 <template>
   <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
-      Datenschutz und Datensicherheit
-    </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-      TOM - Technisch-organisatorische Maßnahmen
+    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+      TOM - Die technisch-organisatorischen Maßnahmen
     </div>
     <q-separator class="q-mt-md" />
     <ul>
@@ -188,7 +185,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'TOMPage',
   setup() {
     const q = useQuasar();
     return {

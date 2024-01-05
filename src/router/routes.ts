@@ -7,202 +7,145 @@ const routes: RouteRecordRaw[] = [
     children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
   },
   {
-    path: '/betrieb_unternehmen',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: 'allgemein',
-        component: () => import('pages/BetriebUnternehmen/Allgemein.vue'),
-      },
-      {
-        path: 'ziele',
-        component: () => import('pages/BetriebUnternehmen/Ziele.vue'),
-      },
-      {
-        path: 'management',
-        component: () =>
-          import('pages/BetriebUnternehmen/ManagementQualitaet.vue'),
-      },
-      {
-        path: 'unternehmensrechtsformen',
-        component: () =>
-          import('pages/BetriebUnternehmen/Unternehmensrechtsformen.vue'),
-      },
-      {
-        path: 'unternehmensleitbild',
-        component: () =>
-          import('pages/BetriebUnternehmen/UnternehmensleitbildView.vue'),
-      },
-      {
-        path: 'aufbauorganisation',
-        component: () =>
-          import('pages/BetriebUnternehmen/AufbauorganisationView.vue'),
-      },
-      {
-        path: 'wertschoepfungsprozesse',
-        component: () =>
-          import('pages/BetriebUnternehmen/WertschoepfungView.vue'),
-      },
-    ],
-  },
-  {
-    path: '/netzwerke',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: 'ipv4',
-        component: () => import('pages/Netzwerke/IPV4View.vue'),
-      },
-      {
-        path: 'mac_switch_hub',
-        component: () => import('pages/Netzwerke/MacSwitchHub.vue'),
-      },
-      {
-        path: 'ipv6',
-        component: () => import('pages/Netzwerke/IPV6View.vue'),
-      },
-      {
-        path: 'allgemein_topologien',
-        component: () => import('pages/Netzwerke/AllgNetzwerktopologien.vue'),
-      },
-      {
-        path: 'dns_dhcp',
-        component: () => import('pages/Netzwerke/DnsDhcp.vue'),
-      },
-      {
-        path: 'osi',
-        component: () => import('pages/Netzwerke/OSIView.vue'),
-      },
-      {
-        path: 'tcp_udp_ports',
-        component: () => import('pages/Netzwerke/TcpUdpPorts.vue'),
-      },
-      {
-        path: 'routing',
-        component: () => import('pages/Netzwerke/Routing.vue'),
-      },
-      {
-        path: 'verkabelung',
-        component: () => import('pages/Netzwerke/KabelVerkabelung.vue'),
-      },
-    ],
-  },
-  {
-    path: '/datenschutz_datensicherheit',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: 'schutzziele',
-        component: () =>
-          import('pages/DatenschutzDatensicherheit/Schutzziele.vue'),
-      },
-      {
-        path: 'tom',
-        component: () => import('pages/DatenschutzDatensicherheit/TOMView.vue'),
-      },
-      {
-        path: 'raid',
-        component: () =>
-          import('pages/DatenschutzDatensicherheit/RAIDView.vue'),
-      },
-      {
-        path: 'schutzbedarfsanalyse',
-        component: () =>
-          import('pages/DatenschutzDatensicherheit/SchutzbedarfView.vue'),
-      },
-      {
-        path: 'sicherheitsprozess',
-        component: () =>
-          import('pages/DatenschutzDatensicherheit/SicherheitsprozessView.vue'),
-      },
-    ],
-  },
-  {
-    path: '/services',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: 'allgemein',
-        component: () => import('pages/Serviceanfragen/AllgemeinView.vue'),
-      },
-      {
-        path: 'vertragsarten',
-        component: () => import('pages/Serviceanfragen/VertragsartenView.vue'),
-      },
-    ],
-  },
-
-  {
-    path: '/datenbanken_programmierung',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: 'normalisierung',
-        component: () => import('pages/Datenbanken/NormalisierungView.vue'),
-      },
-      {
-        path: 'erm',
-        component: () =>
-          import('pages/Datenbanken/EntityRelationshipModell.vue'),
-      },
-    ],
-  },
-
-  {
-    path: '/strom_ladung',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: 'allgemein',
-        component: () => import('pages/StromLadungen/AllgemeinView.vue'),
-      },
-    ],
-  },
-
-  {
-    path: '/hardware_und_rechnungen',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: 'bin_dez_hexa',
-        component: () => import('pages/HardwareRechnungen/BinDezHex.vue'),
-      },
-      {
-        path: 'bin_dez_hexa_rechnungen',
-        component: () =>
-          import('pages/HardwareRechnungen/BDHRechnungenView.vue'),
-      },
-      {
-        path: 'aufbau_rechner',
-        component: () => import('pages/HardwareRechnungen/AufbauRechner.vue'),
-      },
-      {
-        path: 'speichergroessen',
-        component: () =>
-          import('pages/HardwareRechnungen/SpeichergrosenView.vue'),
-      },
-      {
-        path: 'anderes',
-        component: () => import('pages/HardwareRechnungen/PixeluswView.vue'),
-      },
-    ],
-  },
-
-  {
     path: '/projektmanagement',
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
-        path: 'allgemein',
-        component: () => import('pages/Projektmanagement/AllgemeinView.vue'),
-      },
-      {
-        path: 'pflichtenheft_lastenheft',
-        component: () => import('pages/Projektmanagement/PflichtLastView.vue'),
+        path: 'gantt',
+        component: () => import('pages/NIT/Projektmanagement/Gantt.vue'),
       },
       {
         path: 'netzplan',
-        component: () => import('pages/Projektmanagement/NetzplanView.vue'),
+        component: () => import('pages/NIT/Projektmanagement/Netzplan.vue'),
+      },
+      {
+        path: 'pflichten-lastenheft',
+        component: () =>
+          import('pages/NIT/Projektmanagement/PflichtenLastenheft.vue'),
+      },
+      {
+        path: 'projekt',
+        component: () => import('pages/NIT/Projektmanagement/Projekt.vue'),
+      },
+    ],
+  },
+
+  {
+    path: '/qualitatsmanagement',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'systeme-methoden',
+        component: () =>
+          import('pages/NIT/Qualitätsmanagement/SystemeMethoden.vue'),
+      },
+      {
+        path: 'pdca',
+        component: () => import('pages/NIT/Qualitätsmanagement/PDCA.vue'),
+      },
+    ],
+  },
+  {
+    path: '/wirtschaft',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'kostenrechnung',
+        component: () => import('pages/NIT/Wirtschaft/Kostenrechnung.vue'),
+      },
+      {
+        path: 'markt',
+        component: () => import('pages/NIT/Wirtschaft/Markt.vue'),
+      },
+      {
+        path: 'vertrage',
+        component: () => import('pages/NIT/Wirtschaft/Verträge.vue'),
+      },
+    ],
+  },
+  {
+    path: '/unternehmen',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'aufbauorganisation',
+        component: () => import('pages/NIT/Unternehmen/Aufbauorganisation.vue'),
+      },
+      {
+        path: 'unternehmen-betriebe',
+        component: () =>
+          import('pages/NIT/Unternehmen/UnternehmenBetriebe.vue'),
+      },
+      {
+        path: 'leitbild',
+        component: () => import('pages/NIT/Unternehmen/Leitbild.vue'),
+      },
+      {
+        path: 'rechtsformen',
+        component: () => import('pages/NIT/Unternehmen/Rechtsformen.vue'),
+      },
+      {
+        path: 'wertschopfung',
+        component: () => import('pages/NIT/Unternehmen/Wertschöpfung.vue'),
+      },
+      {
+        path: 'ziele',
+        component: () => import('pages/NIT/Unternehmen/Ziele.vue'),
+      },
+    ],
+  },
+
+  {
+    path: '/datenschutz-datensicherheit',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'raid',
+        component: () => import('pages/IT/DatenschutzDatensicherheit/RAID.vue'),
+      },
+      {
+        path: 'schutzbedarfsanalyse',
+        component: () =>
+          import(
+            'pages/IT/DatenschutzDatensicherheit/Schutzbedarfsanalyse.vue'
+          ),
+      },
+      {
+        path: 'schutzziele',
+        component: () =>
+          import('pages/IT/DatenschutzDatensicherheit/Schutzziele.vue'),
+      },
+      {
+        path: 'sicherheitsprozess',
+        component: () =>
+          import('pages/IT/DatenschutzDatensicherheit/Sicherheitsprozess.vue'),
+      },
+      {
+        path: 'tom',
+        component: () => import('pages/IT/DatenschutzDatensicherheit/TOM.vue'),
+      },
+    ],
+  },
+  {
+    path: '/netzwerk',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'allgemein',
+        component: () => import('pages/IT/Netzwerk/Allgemein.vue'),
+      },
+      {
+        path: 'osi',
+        component: () => import('pages/IT/Netzwerk/OSI.vue'),
+      },
+      {
+        path: 'strukturierte-verkabelung',
+        component: () =>
+          import('pages/IT/Netzwerk/StrukturierteVerkabelung.vue'),
+      },
+      {
+        path: 'topologien',
+        component: () => import('pages/IT/Netzwerk/Topologien.vue'),
       },
     ],
   },

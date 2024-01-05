@@ -10,13 +10,8 @@
     </q-dialog>
 
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div
-        class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
-      >
-        Datenschutz und Datensicherheit
-      </div>
-      <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-        RAID-Level & NAS vs SAN
+      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+        Die wichtigsten RAID-Level & NAS vs SAN
       </div>
       <q-separator class="q-mt-md" />
       <div
@@ -100,7 +95,7 @@
           </li>
           <li>
             Speichern von Paritätsinformationen auf verschiedenen Festplatten
-            (RAID-4 nur auf einer)
+            (RAID 4: das selbe, jedoch nur auf einer Festplatte)
           </li>
           <li>
             Je ein Datenblock von Datenblockgruppe enthält
@@ -108,7 +103,7 @@
           </li>
           <li>Nutzdaten auf alle anderen Datenblöcke verteilt</li>
           <li>
-            nutzbare Kapazität = (Anzahl Festplatten -1) * Kapazität der
+            nutzbare Kapazität = (Anzahl Festplatten - 1) * Kapazität der
             kleinsten Festplatte
           </li>
 
@@ -230,7 +225,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'RaidPage',
   setup() {
     const q = useQuasar();
     return {

@@ -34,343 +34,338 @@
         <q-separator vertical />
         <q-btn icon="visibility" stretch flat @click="darkmodeChanged" />
       </q-toolbar>
+      <q-toolbar inset>
+        <q-breadcrumbs active-color="white" style="font-size: 16px">
+          <q-breadcrumbs-el label="Home" icon="home" />
+          <q-breadcrumbs-el label="Components" icon="widgets" />
+          <q-breadcrumbs-el label="Toolbar" />
+        </q-breadcrumbs>
+      </q-toolbar>
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-list bordered class="rounded-borders">
-        <q-item
-          clickable
-          to="/"
-          class="text-weight-bolder text-secondary text-body1"
-          ><q-item-section>Home</q-item-section></q-item
-        >
-        <q-separator />
-        <q-expansion-item
-          expand-separator
-          label="Betriebe und Unternehmen (LF1)"
-          header-class="text-weight-bolder text-secondary text-body1 text-body1"
-        >
-          <q-list bordered>
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/betrieb_unternehmen/allgemein"
-              ><q-item-section>Betriebe & Unternehmen</q-item-section></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/betrieb_unternehmen/ziele"
-              ><q-item-section
-                >Ziele von Betrieben & Unternehmen</q-item-section
-              ></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/betrieb_unternehmen/management"
-              ><q-item-section
-                >Managementsysteme & Qualitätsmanagement</q-item-section
-              ></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/betrieb_unternehmen/unternehmensrechtsformen"
-              ><q-item-section>Unternehmensrechtsformen</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/betrieb_unternehmen/unternehmensleitbild"
-              ><q-item-section>Das Unternehmensleitbild</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/betrieb_unternehmen/aufbauorganisation"
-              ><q-item-section>Aufbauorganisation</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/betrieb_unternehmen/wertschoepfungsprozesse"
-              ><q-item-section>Wertschöpfungsprozesse</q-item-section></q-item
-            >
-          </q-list>
-        </q-expansion-item>
-        <q-separator />
-        <q-expansion-item
-          expand-separator
-          label="Hardware und Umrechnungen (LF2)"
-          header-class="text-weight-bolder text-secondary text-body1"
-        >
-          <q-list bordered>
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/hardware_und_rechnungen/aufbau_rechner"
-              ><q-item-section>Aufbau von Rechnern</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/hardware_und_rechnungen/bin_dez_hexa"
-              ><q-item-section
-                >Binär-, Dezimal-, Hexadezimalumrechnung</q-item-section
-              ></q-item
-            >
-
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/hardware_und_rechnungen/bin_dez_hexa_rechnungen"
-              ><q-item-section
-                >Binär-, Dezimal-, Hexadezimalberechnungen</q-item-section
-              ></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/hardware_und_rechnungen/speichergroessen"
-              ><q-item-section
-                >Speichergrößenrechnungen (Bit, Byte, ...)</q-item-section
-              ></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/hardware_und_rechnungen/anderes"
-              ><q-item-section
-                >Andere Berechnungen (Pixel, DPI, ...)</q-item-section
-              ></q-item
-            >
-          </q-list>
-        </q-expansion-item>
-        <q-separator />
-        <q-expansion-item
-          expand-separator
-          label="Alles über Netzwerke (LF3 & LF9)"
-          header-class="text-weight-bolder text-secondary text-body1"
-        >
-          <q-list bordered>
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/netzwerke/allgemein_topologien"
-              ><q-item-section>Netzwerke & Topologien</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item :inset-level="1" class="text-body2" to="/netzwerke/osi"
-              ><q-item-section>Das OSI-Schichtenmodell</q-item-section></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/netzwerke/verkabelung"
-              ><q-item-section>Kabel & Verkabelung</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/netzwerke/mac_switch_hub"
-              ><q-item-section
-                >MAC-Adressen, Switche & Hubs</q-item-section
-              ></q-item
-            >
-
-            <q-separator />
-
-            <q-item :inset-level="1" class="text-body2" to="/netzwerke/ipv4"
-              ><q-item-section>IPv4</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item :inset-level="1" class="text-body2" to="/netzwerke/ipv6"
-              ><q-item-section>IPv6</q-item-section></q-item
-            >
-            <q-separator />
-            <q-item :inset-level="1" class="text-body2" to="/netzwerke/routing"
-              ><q-item-section>Routing</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/netzwerke/tcp_udp_ports"
-              ><q-item-section>TCP, UDP & Ports</q-item-section></q-item
-            >
-            <q-separator />
-
-            <q-item :inset-level="1" class="text-body2" to="/netzwerke/dns_dhcp"
-              ><q-item-section>DNS and DHCP</q-item-section></q-item
-            >
-          </q-list>
-        </q-expansion-item>
-        <q-separator />
-
-        <q-expansion-item
-          expand-separator
-          label="Datenschutz und Datensicherheit (LF4)"
-          header-class="text-weight-bolder text-secondary text-body1"
-        >
-          <q-list bordered>
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/datenschutz_datensicherheit/schutzziele"
-              ><q-item-section>Schutzziele</q-item-section></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/datenschutz_datensicherheit/tom"
-              ><q-item-section
-                >Technisch organisatorische Maßnahmen</q-item-section
-              ></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/datenschutz_datensicherheit/raid"
-              ><q-item-section>Speicher & RAID</q-item-section></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/datenschutz_datensicherheit/schutzbedarfsanalyse"
-              ><q-item-section
-                >Schutzbedarfsanalyse & Schutzbedarfsklassen</q-item-section
-              ></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/datenschutz_datensicherheit/sicherheitsprozess"
-              ><q-item-section>IT-Sicherheitsprozess</q-item-section></q-item
-            >
-          </q-list>
-        </q-expansion-item>
-        <q-separator />
-        <q-expansion-item
-          expand-separator
-          label="Datenbanken (und Programmierung) (LF5)"
-          header-class="text-weight-bolder text-secondary text-body1"
-        >
-          <q-list bordered>
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/datenbanken_programmierung/normalisierung"
-              ><q-item-section>Normalisierung</q-item-section></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/datenbanken_programmierung/erm"
-              ><q-item-section
-                >Entity-Relationship-Modell</q-item-section
-              ></q-item
-            ></q-list
+      <q-expansion-item
+        dense-toggle
+        label="Projektmanagement"
+        header-class="bg-primary text-white text-body1"
+        expand-icon-class="text-white"
+        :content-inset-level="0.2"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/projektmanagement/projekt"
+            label="Das Projekt"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/projektmanagement/gantt"
+            label="Gantt-Diagramm"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/projektmanagement/netzplan"
+            label="Netzplan"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/projektmanagement/pflichten-lastenheft"
+            label="Pflichten- & Lastenheft"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
+        label="Qualitätsmanagement"
+        header-class="bg-primary text-white text-body1"
+        expand-icon-class="text-white"
+        :content-inset-level="0.2"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/qualitatsmanagement/systeme-methoden"
+            label="Managementsysteme - & methoden"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/qualitatsmanagement/pdca"
+            label="Der PDCA-Zyklus"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
+        label="Unternehmen"
+        header-class="bg-primary text-white text-body1"
+        expand-icon-class="text-white"
+        :content-inset-level="0.2"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/unternehmen/unternehmen-betriebe"
+            label="Unternehmen & Betriebe"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/unternehmen/aufbauorganisation"
+            label="Aufbauorganisation"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/unternehmen/Leitbild"
+            label="Leitbild"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/unternehmen/rechtsformen"
+            label="Rechtsformen"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/unternehmen/wertschopfung"
+            label="Wertschöpfung"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/unternehmen/ziele"
+            label="Ziele"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
+        label="Wirtschaft"
+        header-class="bg-primary text-white text-body1"
+        expand-icon-class="text-white"
+        :content-inset-level="0.2"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/wirtschaft/kostenrechnung"
+            label="Kostenrechnung"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/wirtschaft/markt"
+            label="Der Markt"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-btn
+            dense
+            flat
+            to="/wirtschaft/vertrage"
+            label="Verträge & Vertragsarten"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
+        label="Netzwerk"
+        header-class="bg-primary text-white text-body1"
+        expand-icon-class="text-white"
+        :content-inset-level="0.2"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/netzwerk/allgemein"
+            label="Allgemein"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-expansion-item
+            dense-toggle
+            expand-separator
+            label="Netzwerkkonzepte & topologien"
+            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+            class="q-mt-xs"
+            align="start"
+            dense
+            :content-inset-level="0.4"
           >
-        </q-expansion-item>
-        <q-separator />
-        <q-expansion-item
-          expand-separator
-          label="Serviceanfragen bearbeiten (LF6)"
-          header-class="text-weight-bolder text-secondary text-body1"
-        >
-          <q-list bordered>
-            <q-item :inset-level="1" class="text-body2" to="/services/allgemein"
-              ><q-item-section>Allgemeines</q-item-section></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/services/vertragsarten"
-              ><q-item-section>Vertragsarten</q-item-section></q-item
-            ></q-list
+            <div class="q-ma-xs">
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/topologien"
+                label="Netzwerktopologien"
+                class="full-width q-mt-xs"
+                rounded
+                align="start"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/strukturierte-verkabelung"
+                label="Strukturierte Verkabelung"
+                class="full-width q-mt-xs"
+                rounded
+                align="start"
+              />
+            </div>
+          </q-expansion-item>
+          <q-expansion-item
+            dense-toggle
+            dense
+            expand-separator
+            label="Netzwerkmodelle"
+            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+            class="q-mt-xs"
+            align="start"
+            :content-inset-level="0.4"
           >
-        </q-expansion-item>
-        <q-separator />
-        <q-expansion-item
-          expand-separator
-          label="Strom und Ladung (LF7)"
-          header-class="text-weight-bolder text-secondary text-body1"
-        >
-          <q-list bordered>
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/strom_ladung/allgemein"
-              ><q-item-section>Allgemein</q-item-section></q-item
-            ></q-list
+            <div class="q-ma-xs">
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/osi"
+                label="OSI-Modell"
+                class="full-width q-mt-xs"
+                rounded
+                align="start"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/osi"
+                label="TCP/IP Modell"
+                class="full-width q-mt-xs"
+                rounded
+                align="start"
+              />
+            </div>
+          </q-expansion-item>
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
+        label="Datenschutz & Datensicherheit"
+        header-class="bg-primary text-white text-body1"
+        expand-icon-class="text-white"
+        :content-inset-level="0.2"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/datenschutz-datensicherheit/raid"
+            label="Storage & RAID"
+            class="full-width q-mt-xs"
+            rounded
+            align="start"
+          />
+          <q-expansion-item
+            dense
+            dense-toggle
+            expand-separator
+            label="BSI IT Grundschutz"
+            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+            class="q-mt-xs"
+            align="start"
+            :content-inset-level="0.4"
           >
-        </q-expansion-item>
-        <q-separator />
-
-        <q-expansion-item
-          expand-separator
-          label="Projektmanagement (LF8)"
-          header-class="text-weight-bolder text-secondary text-body1"
-        >
-          <q-list bordered>
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/projektmanagement/allgemein"
-              ><q-item-section
-                >Projekte und Projektphasen</q-item-section
-              ></q-item
-            >
-            <q-separator />
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/projektmanagement/pflichtenheft_lastenheft"
-              ><q-item-section
-                >Pflichtenheft & Lastenheft</q-item-section
-              ></q-item
-            >
-            <q-separator />
-
-            <q-item
-              :inset-level="1"
-              class="text-body2"
-              to="/projektmanagement/netzplan"
-              ><q-item-section>Netzplan</q-item-section></q-item
-            >
-          </q-list>
-        </q-expansion-item>
-      </q-list>
+            <q-btn
+              dense
+              flat
+              to="/datenschutz-datensicherheit/schutzziele"
+              label="Schutzziele"
+              class="full-width q-mt-xs"
+              rounded
+              align="start"
+            />
+            <q-btn
+              dense
+              flat
+              to="/datenschutz-datensicherheit/tom"
+              label="Techn. Org. Maßnahmen"
+              class="full-width q-mt-xs"
+              rounded
+              align="start"
+            />
+            <q-btn
+              dense
+              flat
+              to="/datenschutz-datensicherheit/schutzbedarfsanalyse"
+              label="Schutzbedarfsanalyse"
+              class="full-width q-mt-xs"
+              rounded
+              align="start"
+            />
+            <q-btn
+              dense
+              flat
+              to="/datenschutz-datensicherheit/sicherheitsprozess"
+              label="IT-Sicherheitsprozess"
+              class="full-width q-mt-xs"
+              rounded
+              align="start"
+            />
+          </q-expansion-item>
+        </div>
+      </q-expansion-item>
     </q-drawer>
 
     <q-page-container>
@@ -422,13 +417,13 @@ export default defineComponent({
 
   computed: {
     fontSizeh6() {
-      return this.fontSize + 25 + '%';
+      return this.fontSize + 35 + '%';
     },
     fontSizeh5() {
-      return this.fontSize + 40 + '%';
+      return this.fontSize + 50 + '%';
     },
     fontSizeh4() {
-      return this.fontSize + 55 + '%';
+      return this.fontSize + 100 + '%';
     },
   },
 

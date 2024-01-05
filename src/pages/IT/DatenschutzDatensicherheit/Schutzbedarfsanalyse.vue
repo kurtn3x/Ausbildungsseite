@@ -3,15 +3,10 @@
     <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Datenschutz und Datensicherheit
     </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-      Schutzbedarfsanalyse und -kategorien
+    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+      Die Schutzbedarfsanalyse und ihre Kategorien
     </div>
     <q-separator class="q-mt-md" />
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
-    >
-      Die Schutzbedarfsanalyse
-    </div>
     <ul>
       <li>
         Der mögliche Schaden wird für jedes Zielobjekt (Anwendung, Prozess)
@@ -130,7 +125,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'SchutzbedarfsanalysePage',
   setup() {
     const q = useQuasar();
     return { q, src: 'https://media.kurtn3x.xyz/assets' };

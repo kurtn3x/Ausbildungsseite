@@ -9,13 +9,8 @@
       />
     </q-dialog>
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div
-        class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
-      >
-        Betriebe und Unternehmen
-      </div>
-      <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-        Aufbauorganistation
+      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+        Die Aufbauorganistation von Unternehmen
       </div>
       <q-separator class="q-mt-md" />
       <div
@@ -185,15 +180,20 @@
               </div>
             </td>
             <td class="tg-0lax">
-              -jede untergeordnete Stelle hat nur eine übergeordnete Instanz<br />
-              -kleine-mittlere Unternehmen<br />-vertikale Kommunikationswege<br />
+              jede untergeordnete Stelle hat nur eine übergeordnete Instanz
+              <br />
+              <br />
+              kleine-mittlere Unternehmen
+              <br />
+              <br />
+              vertikale Kommunikationswege
             </td>
             <td class="tg-0lax">
-              -eindeutige Dienst-, Informations-, und Kommunikationswege
+              eindeutige Dienst-, Informations-, und Kommunikationswege
             </td>
             <td class="tg-0lax">
-              -Zeitverlust durch lange Dienstwege<br />-mangelnde
-              Flexibilität<br />
+              Zeitverlust durch lange Dienstwege<br /><br />mangelnde
+              Flexibilität
             </td>
           </tr>
           <tr>
@@ -228,16 +228,16 @@
               </div>
             </td>
             <td class="tg-0lax">
-              -eine untergeordnete Stelle kann von mehrerer Instanzen Weisungen
-              erhalten<br />-Mehrdimensionale Organisationsstruktur
+              eine untergeordnete Stelle kann von mehreren Instanzen Weisungen
+              erhalten<br /><br />Mehrdimensionale Organisationsstruktur
             </td>
             <td class="tg-0lax">
-              -Entlastung der Instanzen<br />-Direkte Kommunikations-und
-              Informationswege<br />
+              Entlastung der Instanzen<br /><br />Direkte Kommunikations-und
+              Informationswege
             </td>
             <td class="tg-0lax">
-              -Kompetenzstreitigkeiten unter Instanzen<br />-Fehler lassen sich
-              schwerer zuweisen<br />
+              Kompetenzstreitigkeiten unter Instanzen<br /><br />Fehler lassen
+              sich schwerer zuweisen
             </td>
           </tr>
           <tr>
@@ -272,16 +272,16 @@
               </div>
             </td>
             <td class="tg-0lax">
-              -Liniensystem mit zusätzlichen Stabsstellen<br />-Erweiterung
-              Einliniensystem durch einen Stab<br />
+              Liniensystem mit zusätzlichen Stabsstellen<br /><br />Erweiterung
+              Einliniensystem durch einen Stab
             </td>
             <td class="tg-0lax">
-              -Entlastung der Instanzen<br />-Ausgleich zwischen Fachwissen der
-              Stäbe und Überblick der Instanzen<br />
+              Entlastung der Instanzen<br /><br />Ausgleich zwischen Fachwissen
+              der Stäbe und Überblick der Instanzen
             </td>
             <td class="tg-0lax">
-              -Konflikte zwischen Instanzen und Stab<br />-unübersichtliche
-              Entscheidungsprozesse<br />
+              Konflikte zwischen Instanzen und Stab<br /><br />unübersichtliche
+              Entscheidungsprozesse
             </td>
           </tr>
           <tr>
@@ -317,17 +317,17 @@
             </td>
 
             <td class="tg-0lax">
-              -Weiterentwicklung des Mehrliniensystems, auf zwei unabhängige
-              Instanzen begrenzt<br />-Überschneidung funktionaler
+              Weiterentwicklung des Mehrliniensystems, auf zwei unabhängige
+              Instanzen begrenzt<br /><br />Überschneidung funktionaler
               Organisationsbereiche mit der Organisation der Produktbereiche<br />
             </td>
             <td class="tg-0lax">
-              -Entlastung der Instanzen<br />-Ausgleich zwischen Fachwissen der
-              Stäbe und Überblick der Instanzen<br />
+              Entlastung der Instanzen<br /><br />Ausgleich zwischen Fachwissen
+              der Stäbe und Überblick der Instanzen
             </td>
             <td class="tg-0lax">
-              -Konflikte zwischen Instanzen und Stab<br />-unübersichtliche
-              Entscheidungsprozesse<br />
+              Konflikte zwischen Instanzen und Stab<br /><br />unübersichtliche
+              Entscheidungsprozesse
             </td>
           </tr>
         </tbody>
@@ -351,7 +351,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'AufbauorganisationPage',
   setup() {
     const q = useQuasar();
     return {

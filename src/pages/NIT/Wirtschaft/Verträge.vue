@@ -9,13 +9,8 @@
       />
     </q-dialog>
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div
-        class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
-      >
-        Serviceanfragen
-      </div>
-      <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-        Vertragsarten
+      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+        Verträge und Vertragsarten
       </div>
       <q-separator class="q-mt-md" />
       <div
@@ -104,23 +99,28 @@
             umgehend mit Liquidität versorgt
           </li>
         </ul>
-
-        <q-img
-          class="fit bg-grey-5 q-mt-md"
-          :src="src + '/serviceanfragen/factoringvertrag.png'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/serviceanfragen/factoringvertrag.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
+        <div class="row justify-center">
+          <q-img
+            class="fit bg-grey-5 q-mt-md"
+            :src="src + '/serviceanfragen/factoringvertrag.png'"
+            style="max-width: 600px"
+            @click="
+              show_img = true;
+              popupsrc = '/serviceanfragen/factoringvertrag.png';
+            "
           >
-            Click for full size
-          </div>
-        </q-img>
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </div>
       </ul>
       <q-separator class="q-mt-md" />
       <div
@@ -164,7 +164,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'VertragsartenPage',
   setup() {
     const q = useQuasar();
     return {

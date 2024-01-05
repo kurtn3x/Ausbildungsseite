@@ -1,13 +1,12 @@
 <template>
   <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
-      Projektmanagement
-    </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-      Pflichtenheft & Lastenheft
+    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+      Das Pflichtenheft & Lastenheft
     </div>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third">
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-underline text-weight-bolder text-third"
+    >
       Das Lastenheft
     </div>
     <ul>
@@ -107,13 +106,15 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third">
+    <div
+      class="text-h6 text-underline q-mt-lg q-ml-md text-weight-bolder text-third"
+    >
       Das Pflichtenheft
     </div>
     <ul>
       <li>
         beschreibt die Vorgehensweise des Auftragnehmers, wie er gedenkt die
-        Anforderungen des Auftraggebers (Lastenheft) gedenkt umzusetzen
+        Anforderungen des Auftraggebers (Lastenheft) umzusetzen
       </li>
       <li>
         wird vom Auftragnehmer nach Erhalt des Lastenheftes erstellt und setzt
@@ -153,7 +154,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'PflichtenLastenheftPage',
   setup() {
     const q = useQuasar();
     return { q, src: 'https://media.kurtn3x.xyz/assets' };
