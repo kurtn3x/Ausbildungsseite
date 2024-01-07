@@ -10,7 +10,7 @@
     </q-dialog>
     <div :class="small ? 'q-ma-sm' : 'q-ma-lg'">
       <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-        Das Projekt - Allgemeines
+        Das Projekt
       </div>
       <q-separator class="q-mt-md" />
       <div

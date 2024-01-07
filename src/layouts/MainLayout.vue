@@ -10,10 +10,10 @@
           style="width: 75px"
           stretch
         />
-        <q-separator vertical />
+        <q-separator vertical color="white" />
 
         <q-space />
-        <q-separator vertical />
+        <q-separator vertical color="white" />
 
         <q-icon name="format_size" size="30px" class="q-ml-md q-mr-md" />
         <q-slider
@@ -27,19 +27,17 @@
           :min="50"
           :step="1"
           :max="200"
-          style="width: 200px"
+          style="width: 150px"
           class="q-mr-md"
           track-color="white"
         />
-        <q-separator vertical />
-        <q-btn icon="visibility" stretch flat @click="darkmodeChanged" />
-      </q-toolbar>
-      <q-toolbar inset>
-        <q-breadcrumbs active-color="white" style="font-size: 16px">
-          <q-breadcrumbs-el label="Home" icon="home" />
-          <q-breadcrumbs-el label="Components" icon="widgets" />
-          <q-breadcrumbs-el label="Toolbar" />
-        </q-breadcrumbs>
+        <q-separator vertical color="white" />
+        <q-btn
+          :icon="darkmode ? 'light_mode' : 'dark_mode'"
+          stretch
+          flat
+          @click="darkmodeChanged"
+        />
       </q-toolbar>
     </q-header>
 
@@ -59,7 +57,7 @@
             label="Das Projekt"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -68,7 +66,7 @@
             label="Gantt-Diagramm"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -77,7 +75,7 @@
             label="Netzplan"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -86,7 +84,7 @@
             label="Pflichten- & Lastenheft"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
         </div>
       </q-expansion-item>
@@ -105,7 +103,7 @@
             label="Managementsysteme - & methoden"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -114,7 +112,7 @@
             label="Der PDCA-Zyklus"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
         </div>
       </q-expansion-item>
@@ -133,7 +131,7 @@
             label="Unternehmen & Betriebe"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -142,7 +140,7 @@
             label="Aufbauorganisation"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -151,7 +149,7 @@
             label="Leitbild"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -160,7 +158,7 @@
             label="Rechtsformen"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -169,7 +167,7 @@
             label="Wertschöpfung"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -178,7 +176,7 @@
             label="Ziele"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
         </div>
       </q-expansion-item>
@@ -197,7 +195,7 @@
             label="Kostenrechnung"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -206,7 +204,7 @@
             label="Der Markt"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-btn
             dense
@@ -215,7 +213,7 @@
             label="Verträge & Vertragsarten"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
         </div>
       </q-expansion-item>
@@ -234,7 +232,7 @@
             label="Allgemein"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-expansion-item
             dense-toggle
@@ -242,7 +240,7 @@
             label="Netzwerkkonzepte & topologien"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
-            align="start"
+            align="left"
             dense
             :content-inset-level="0.4"
           >
@@ -254,7 +252,7 @@
                 label="Netzwerktopologien"
                 class="full-width q-mt-xs"
                 rounded
-                align="start"
+                align="left"
               />
               <q-btn
                 dense
@@ -263,7 +261,7 @@
                 label="Strukturierte Verkabelung"
                 class="full-width q-mt-xs"
                 rounded
-                align="start"
+                align="left"
               />
             </div>
           </q-expansion-item>
@@ -274,7 +272,7 @@
             label="Netzwerkmodelle"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
-            align="start"
+            align="left"
             :content-inset-level="0.4"
           >
             <div class="q-ma-xs">
@@ -285,7 +283,7 @@
                 label="OSI-Modell"
                 class="full-width q-mt-xs"
                 rounded
-                align="start"
+                align="left"
               />
               <q-btn
                 dense
@@ -294,7 +292,188 @@
                 label="TCP/IP Modell"
                 class="full-width q-mt-xs"
                 rounded
-                align="start"
+                align="left"
+              />
+            </div>
+          </q-expansion-item>
+          <q-expansion-item
+            dense-toggle
+            dense
+            expand-separator
+            label="Addressierung und Protokolle (OSI 1-4)"
+            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+            class="q-mt-xs"
+            align="left"
+            :content-inset-level="0.4"
+          >
+            <div class="q-ma-xs">
+              <q-expansion-item
+                dense-toggle
+                dense
+                expand-separator
+                label="Layer 2"
+                header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+                class="q-mt-xs"
+                align="left"
+                :content-inset-level="0.4"
+              >
+                <div class="q-ma-xs">
+                  <q-btn
+                    dense
+                    flat
+                    to="/netzwerk/mac"
+                    label="MAC"
+                    class="full-width q-mt-xs"
+                    rounded
+                    align="left"
+                  />
+                  <q-btn
+                    dense
+                    flat
+                    to="/netzwerk/switch-hub"
+                    label="Switch & Hub"
+                    class="full-width q-mt-xs"
+                    rounded
+                    align="left"
+                  />
+                </div>
+              </q-expansion-item>
+              <q-expansion-item
+                dense-toggle
+                dense
+                expand-separator
+                label="Layer 3"
+                header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+                class="q-mt-xs"
+                align="left"
+                :content-inset-level="0.4"
+              >
+                <div class="q-ma-xs">
+                  <q-expansion-item
+                    dense-toggle
+                    dense
+                    expand-separator
+                    label="IPv4"
+                    header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+                    class="q-mt-xs"
+                    align="left"
+                    :content-inset-level="0.4"
+                  >
+                    <div class="q-ma-xs">
+                      <q-btn
+                        dense
+                        flat
+                        to="/netzwerk/ipv4"
+                        label="Allgemein"
+                        class="full-width q-mt-xs"
+                        rounded
+                        align="left"
+                      />
+                      <q-btn
+                        dense
+                        flat
+                        to="/netzwerk/ipv4subnetting"
+                        label="Subnetting"
+                        class="full-width q-mt-xs"
+                        rounded
+                        align="left"
+                      />
+                    </div>
+                  </q-expansion-item>
+                  <q-expansion-item
+                    dense-toggle
+                    dense
+                    expand-separator
+                    label="IPv6"
+                    header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+                    class="q-mt-xs"
+                    align="left"
+                    :content-inset-level="0.4"
+                  >
+                    <div class="q-ma-xs">
+                      <q-btn
+                        dense
+                        flat
+                        to="/netzwerk/ipv6"
+                        label="Allgemein"
+                        class="full-width q-mt-xs"
+                        rounded
+                        align="left"
+                      />
+                      <q-btn
+                        dense
+                        flat
+                        to="/netzwerk/osi"
+                        label="Subnetting"
+                        class="full-width q-mt-xs"
+                        rounded
+                        align="left"
+                      />
+                    </div>
+                  </q-expansion-item>
+                  <q-btn
+                    dense
+                    flat
+                    to="/netzwerk/routing"
+                    label="Routing"
+                    class="full-width q-mt-xs"
+                    rounded
+                    align="left"
+                  />
+                </div>
+              </q-expansion-item>
+              <q-expansion-item
+                dense-toggle
+                dense
+                expand-separator
+                label="Layer 4"
+                header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+                class="q-mt-xs"
+                align="left"
+                :content-inset-level="0.4"
+              >
+                <div class="q-ma-xs">
+                  <q-btn
+                    dense
+                    flat
+                    to="/netzwerk/tcpudp"
+                    label="TCP, UDP & Ports"
+                    class="full-width q-mt-xs"
+                    rounded
+                    align="left"
+                  />
+                </div>
+              </q-expansion-item>
+            </div>
+          </q-expansion-item>
+          <q-expansion-item
+            dense-toggle
+            dense
+            expand-separator
+            label="Protokolle (OSI 5-7)"
+            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+            class="q-mt-xs"
+            align="left"
+            :content-inset-level="0.4"
+          >
+            <div class="q-ma-xs">
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/dhcp"
+                label="DHCP"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/dns"
+                label="DNS"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
               />
             </div>
           </q-expansion-item>
@@ -315,7 +494,7 @@
             label="Storage & RAID"
             class="full-width q-mt-xs"
             rounded
-            align="start"
+            align="left"
           />
           <q-expansion-item
             dense
@@ -324,7 +503,7 @@
             label="BSI IT Grundschutz"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
-            align="start"
+            align="left"
             :content-inset-level="0.4"
           >
             <q-btn
@@ -334,7 +513,7 @@
               label="Schutzziele"
               class="full-width q-mt-xs"
               rounded
-              align="start"
+              align="left"
             />
             <q-btn
               dense
@@ -343,7 +522,7 @@
               label="Techn. Org. Maßnahmen"
               class="full-width q-mt-xs"
               rounded
-              align="start"
+              align="left"
             />
             <q-btn
               dense
@@ -352,7 +531,7 @@
               label="Schutzbedarfsanalyse"
               class="full-width q-mt-xs"
               rounded
-              align="start"
+              align="left"
             />
             <q-btn
               dense
@@ -361,7 +540,7 @@
               label="IT-Sicherheitsprozess"
               class="full-width q-mt-xs"
               rounded
-              align="start"
+              align="left"
             />
           </q-expansion-item>
         </div>
@@ -399,6 +578,7 @@ export default defineComponent({
     const q = useQuasar();
 
     return {
+      darkmode: ref(settingsStore.darkmodeState),
       fontSize: ref(settingsStore.fontsizeState),
       q,
       leftDrawerOpen,
@@ -429,8 +609,9 @@ export default defineComponent({
 
   methods: {
     darkmodeChanged() {
-      this.settingsStore.darkmode = !this.settingsStore.darkmodeState;
-      this.q.dark.set(this.settingsStore.darkmodeState);
+      this.settingsStore.darkmode = !this.darkmode;
+      this.darkmode = !this.darkmode;
+      this.q.dark.set(this.darkmode);
     },
   },
 });

@@ -15,11 +15,11 @@
       <q-separator class="q-mt-md" />
       <ul class="q-mt-lg">
         <li>
-          Ein Rechnernetz, Computernetz ist ein Zusammenschluss verschiedener
-          technischer, primär selbstständiger elektronischer Systeme, der die
-          Kommunikation der einzelnen Systeme untereinander ermöglicht.
-          Techniken, Protokolle und Systeme zur Datenübertragung realisieren die
-          Kommunikation zwischen den Teilnehmern im Netzwerk.
+          Ein Rechnernetz oder Computernetz ist ein Zusammenschluss
+          verschiedener technischer, primär selbstständiger elektronischer
+          Systeme, der die Kommunikation der einzelnen Systeme untereinander
+          ermöglicht. Techniken, Protokolle und Systeme zur Datenübertragung
+          realisieren die Kommunikation zwischen den Teilnehmern im Netzwerk.
         </li>
         <li>
           <a class="text-weight-bold">Ziel: </a>Kommunikation der einzelnen

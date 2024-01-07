@@ -9,22 +9,12 @@
       />
     </q-dialog>
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div
-        class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
-      >
-        Netzwerke
-      </div>
-      <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
         Routing
       </div>
       <q-separator class="q-mt-md" />
-      <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-      >
-        Routing Allgemein
-      </div>
       <ul>
-        <li class="text-weight-bold text-h6">Router</li>
+        <li class="text-weight-bold text-h6 text-third">Router</li>
         <ul>
           <li>
             Zwischensystem zwischen zwei Netzen, benötigt in beiden eine
@@ -39,71 +29,51 @@
             WLAN (- Access Point), DHCP & DNS, uvm.
           </li>
         </ul>
-        <li class="text-weight-bold text-h6">Routing - Ablauf:</li>
+        <li class="text-weight-bold">Einfaches Beispiel von Routing:</li>
         <ul>
-          <li>
-            Sender ermittelt den für das gewünschte Ziel zuständigen Router
-            (Routingtabelle).
-          </li>
-          <li>Sender ermittelt MAC-Adresse dieses Routers (ARP).</li>
-          <li>
-            Sender erstellt Ethernet-Paket -> Ziel-MAC-Adresse des Routers,
-            Ziel-IP-Adresse des Empfängers sowie MAC und IP des Senders
-          </li>
-          <li>Sender schickt Ethernet Paket an den Router.</li>
-          <li>
-            Router verarbeitet das Paket und ermittelt MAC des Empfängers.
-          </li>
-          <li>
-            Router ändert das Paket -> Ziel-MAC-Adresse des Empfängers,
-            Quell-MAC-Adresse von ihm selbst.
-          </li>
-          <li class="text-weight-bold">Einfaches Beispiel von Routing:</li>
-          <ul>
-            <q-img
-              class="fit bg-grey-5"
-              :src="src + '/Netzwerke/Routing/RoutingEinfach.png'"
-              style="max-width: 600px"
-              @click="
-                show_img = true;
-                popupsrc = '/Netzwerke/Routing/RoutingEinfach.png';
+          <q-img
+            class="fit bg-grey-5"
+            :src="src + '/Netzwerke/Routing/RoutingEinfach.png'"
+            style="max-width: 600px"
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/Routing/RoutingEinfach.png';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
               "
             >
-              <div
-                class="absolute-bottom-right text-subtitle2"
-                style="
-                  height: 40px;
-                  font-size: 10px;
-                  background-color: transparent;
-                "
-              >
-                Click for full size
-              </div>
-            </q-img>
-          </ul>
-          <li class="text-weight-bold">Realität:</li>
-          <ul>
-            <q-img
-              style="max-width: 600px"
-              class="fit bg-grey-5"
-              :src="src + '/Netzwerke/Routing/RoutingRealitat.png'"
-              @click="
-                show_img = true;
-                popupsrc = '/Netzwerke/Routing/RoutingRealitat.png';
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+        <li class="text-weight-bold">Realität:</li>
+        <ul>
+          <q-img
+            style="max-width: 600px"
+            class="fit bg-grey-5"
+            :src="src + '/Netzwerke/Routing/RoutingRealitat.png'"
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/Routing/RoutingRealitat.png';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
               "
             >
-              <div
-                class="absolute-bottom-right text-subtitle2"
-                style="
-                  height: 40px;
-                  font-size: 10px;
-                  background-color: transparent;
-                "
-              >
-                Click for full size
-              </div>
-            </q-img>
-          </ul>
+              Click for full size
+            </div>
+          </q-img>
         </ul>
         <li class="text-weight-bold q-mt-md text-h6">
           Limited Broadcast vs Direct Broadcast
@@ -145,8 +115,8 @@
         <ul>
           <li>benennt den lokalen Rechner</li>
           <li>
-            Ermöglicht es, netzwerkfähigen Programmen innerhalb eines Rechners
-            untereinander zu kommunizieren
+            Ermöglicht innerhalb eines Rechners die Kommunikation
+            netzwerkfähiger Programme untereinander.
           </li>
         </ul>
 
@@ -167,13 +137,14 @@
       </div>
       <ul>
         <li class="text-weight-bold">
-          Beispiel: Routingtabelle der Filiale Hamburg.
+          Beispiel-Aufgabe: Routingtabelle der Filiale Hamburg.
         </li>
-        <li>
-          Die letzten beiden Zeilen der Routingtabellen sollten so ausgefüllt
-          werden, dass Kommunikation mit der Filiale Berlin und Zentrale Köln
-          möglich ist.
-        </li>
+        <ul>
+          <li>
+            Routingtabelle so ausfüllen, dass Kommunikation mit der Filiale
+            Berlin und Zentrale Köln möglich ist.
+          </li>
+        </ul>
         <q-img
           class="fit bg-grey-5"
           :src="src + '/Netzwerke/Routing/RoutingtabelleVorgabe.png'"
@@ -208,11 +179,11 @@
         </q-img>
 
         <li>
-          Die Default-Route wurde für den Hop zur Zentrale Köln eingetragen, da
-          dort das Gateway zum Internet ist. Das heißt, alle Anfragen zu
-          IP-Adressen, welche nicht in der Routing-Tabelle stehen, werden an die
-          Zentrale Köln geleitet. Der Router dort kümmert sich dann um die
-          Weiterleitung ins Internet bzw. in das lokale Netz.
+          Die Default-Route (0.0.0.0) wurde für den Hop zur Zentrale Köln
+          eingetragen, da dort das Gateway zum Internet ist. Das heißt, alle
+          Anfragen zu IP-Adressen, welche nicht in der Routing-Tabelle stehen,
+          werden an die Zentrale Köln geleitet. Der Router dort kümmert sich
+          dann um die Weiterleitung ins Internet bzw. in das lokale Netz.
         </li>
       </ul>
     </div>
@@ -222,6 +193,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
+import { Router } from 'vue-router';
 
 export default defineComponent({
   name: 'IndexPage',

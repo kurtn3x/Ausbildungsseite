@@ -147,6 +147,42 @@ const routes: RouteRecordRaw[] = [
         path: 'topologien',
         component: () => import('pages/IT/Netzwerk/Topologien.vue'),
       },
+      {
+        path: 'dns',
+        component: () => import('pages/IT/Netzwerk/DNS.vue'),
+      },
+      {
+        path: 'dhcp',
+        component: () => import('pages/IT/Netzwerk/DHCP.vue'),
+      },
+      {
+        path: 'mac',
+        component: () => import('pages/IT/Netzwerk/MAC.vue'),
+      },
+      {
+        path: 'switch-hub',
+        component: () => import('pages/IT/Netzwerk/SwitchHub.vue'),
+      },
+      {
+        path: 'routing',
+        component: () => import('pages/IT/Netzwerk/Routing.vue'),
+      },
+      {
+        path: 'ipv4',
+        component: () => import('pages/IT/Netzwerk/IPv4.vue'),
+      },
+      {
+        path: 'ipv4subnetting',
+        component: () => import('pages/IT/Netzwerk/IPv4Subnetting.vue'),
+      },
+      {
+        path: 'ipv6',
+        component: () => import('pages/IT/Netzwerk/IPv6.vue'),
+      },
+      {
+        path: 'tcpudp',
+        component: () => import('pages/IT/Netzwerk/TcpUdpPorts.vue'),
+      },
     ],
   },
 

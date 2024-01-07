@@ -9,87 +9,10 @@
       />
     </q-dialog>
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div
-        class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
-      >
-        Netzwerke
-      </div>
-      <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-        IPv4
+      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+        IPv4 - Subnetting
       </div>
       <q-separator class="q-mt-md" />
-      <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-      >
-        Allgemeines
-      </div>
-      <ul>
-        <li>bestehen aus 32Bit, also 4 Oktetten</li>
-        <li>Dezimale Schreibweise</li>
-        <li>Ca. 4,3 Milliarden verfügbare Adressen = 2^32</li>
-        <li class="text-weight-bold">Beispiel: 192.168.24.2/24</li>
-        <table class="tg q-mt-md">
-          <thead>
-            <tr>
-              <th><a class="text-weight-bold">192</a></th>
-              <th><a class="text-weight-bold">168</a></th>
-              <th><a class="text-weight-bold">24</a></th>
-              <th><a class="text-weight-bold">2</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="tg-0lax">1. Oktett</td>
-              <td class="tg-0lax">2. Oktett</td>
-              <td class="tg-0lax">3. Oktett</td>
-              <td class="tg-0lax">4. Oktett</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">8 Bit<br /></td>
-              <td class="tg-0lax">8 Bit</td>
-              <td class="tg-0lax">8 Bit</td>
-              <td class="tg-0lax">8 Bit</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">0-255</td>
-              <td class="tg-0lax">0-255</td>
-              <td class="tg-0lax">0-255</td>
-              <td class="tg-0lax">0-255</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">1100 0000</td>
-              <td class="tg-0lax">1010 1000</td>
-              <td class="tg-0lax">0001 1000</td>
-              <td class="tg-0lax">0000 0010</td>
-            </tr>
-          </tbody>
-        </table>
-        <li class="text-weight-bold q-mt-md">Aufbau des IPv4-Headers:</li>
-
-        <q-img
-          class="fit bg-grey-5"
-          :src="src + '/Netzwerke/ipv4/IPV4Header.png'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/ipv4/IPV4Header.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </ul>
-      <q-separator class="q-mt-lg" />
-      <div
-        class="text-h4 q-mt-lg q-ml-md text-weight-bolder text-underline text-third text-third"
-      >
-        Subnetting
-      </div>
-
       <table class="tg q-mt-lg">
         <thead>
           <tr>
@@ -174,11 +97,11 @@
           </li>
           <li>
             Da jedes Netz zuzüglich noch eine Netz- und Broadcast-Adresse hat,
-            muss das Netz 16 Adressen zur Verfügung stellen.
+            muss das Netz mindestens 16 Adressen zur Verfügung stellen.
           </li>
           <li>
             16 Adressen passen in 4 Bit (2^4 = 16). Diese 4 Bit zieht man von
-            den 32 möglichen Bit der IP-Adresse ab, was 28Bit ergibt.
+            den 32 möglichen Bit der IP-Adresse ab → 32-4 = 28.
           </li>
           <li>
             Diese 16 Adressen passen also in das Subnetz mit dem Suffix /28 oder
@@ -188,8 +111,14 @@
           <ul>
             <li>Netzadresse: 192.168.164.0/28</li>
             <li>Erste Client-Adresse: 192.168.164.1/28</li>
-            <li>Letzte Client-Adresse: 192.168.164.14/28</li>
-            <li>Broadcast-Adresse: 192.168.164.15/28</li>
+            <li>
+              Broadcast-Adresse: 192.168.164.15/28 (16 Adressen passen in das
+              Netz, da die Netzadresse 192.168.164.0 als Adresse mitgezählt wird
+              ist die Broadcastadresse .15)
+            </li>
+            <li>
+              Letzte Client-Adresse: 192.168.164.14/28 (Broadcastadresse - 1)
+            </li>
           </ul>
         </ul>
 
@@ -223,6 +152,12 @@
             </li>
           </ul>
         </ul>
+        <li class="text-weight-bold">
+          Das letzte Oktett der Broadcastadresse ist immer ungerade.
+        </li>
+        <li class="text-weight-bold">
+          Das letzte Oketett der Netzadresse ist immer gerade.
+        </li>
       </ul>
       <div
         class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
@@ -230,14 +165,6 @@
         Beispiel für das Netz 192.168.164.0
       </div>
       <IPv4SubnetExample class="q-ml-lmd q-mt-lg fit" />
-      <q-separator class="q-mt-md" />
-
-      <div class="text-subtitle2 text-grey font-size-small">
-        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
-        https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg
-        <br />
-        Ich bin nicht der Eigentümer der oben genannten Bilder.
-      </div>
     </div>
   </div>
 </template>
@@ -248,7 +175,7 @@ import { useQuasar } from 'quasar';
 import IPv4SubnetExample from 'components/IPv4SubnetExample.vue';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'IPv4SubnettingPage',
   components: { IPv4SubnetExample },
   setup() {
     const q = useQuasar();

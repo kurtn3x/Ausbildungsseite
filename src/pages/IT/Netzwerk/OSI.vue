@@ -21,7 +21,6 @@
               <th><a class="text-weight-bold"> Name</a></th>
               <th><a class="text-weight-bold"> Verwendete Protokolle</a></th>
               <th><a class="text-weight-bold"> Verwendete Adressen</a></th>
-              <th><a class="text-weight-bold"> Mögliche Fehler</a></th>
               <th><a class="text-weight-bold"> TCP/IP Schicht</a></th>
             </tr>
           </thead>
@@ -35,7 +34,6 @@
               </td>
               <td class="tg-0pky">FTP, HTTP, SMTP, Telnet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0pky">Fehlerhafte Serverkonfiguration</td>
               <td class="tg-0lax">Application Layer</td>
             </tr>
             <tr>
@@ -48,7 +46,6 @@
               </td>
               <td class="tg-0pky">FTP, HTTP, SMTP, Telnet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0pky">Fehlerhafte Serverkonfiguration</td>
               <td class="tg-0lax">Application Layer</td>
             </tr>
             <tr>
@@ -60,7 +57,6 @@
               </td>
               <td class="tg-0pky">FTP, HTTP, SMTP, Telnet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0pky">Fehlerhafte Serverkonfiguration</td>
               <td class="tg-0lax">Application Layer</td>
             </tr>
             <tr>
@@ -72,7 +68,6 @@
               </td>
               <td class="tg-0pky">TCP, UDP</td>
               <td class="tg-0pky">Ports</td>
-              <td class="tg-0pky">Verlust eines Segments</td>
               <td class="tg-0lax">Transport Layer</td>
             </tr>
             <tr>
@@ -84,9 +79,6 @@
               </td>
               <td class="tg-0pky">IPv4, IPv6, ICMP</td>
               <td class="tg-0pky">IPv4 Adressen<br />IPv6 Adressen<br /></td>
-              <td class="tg-0pky">
-                Falsche IP-Adresse<br />Falsches Subnetz<br />
-              </td>
               <td class="tg-0lax">Internet Layer</td>
             </tr>
             <tr>
@@ -98,7 +90,6 @@
               </td>
               <td class="tg-0pky">ARP, Ethernet<br /></td>
               <td class="tg-0pky">MAC-Adressen</td>
-              <td class="tg-0pky">Netzwerkkarte defekt</td>
               <td class="tg-0lax">Network Access Layer</td>
             </tr>
             <tr>
@@ -110,7 +101,6 @@
               </td>
               <td class="tg-0pky">Token Ring, Ethernet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0pky">Medium getrennt</td>
               <td class="tg-0lax">Network Access Layer</td>
             </tr>
           </tbody>
@@ -123,23 +113,28 @@
           Ethernet-Frame, der IP-Header & der TCP/UDP-Header. Der Aufbau dieser
           Header ist bei den jeweiligen Unterthemen zu finden.
         </li>
-
-        <q-img
-          class="bg-grey-5"
-          :src="src + '/Netzwerke/ipv4/Datenpaket.png'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/ipv4/Datenpaket.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
+        <div class="row justify-center">
+          <q-img
+            class="bg-grey-5"
+            :src="src + '/Netzwerke/ipv4/Datenpaket.png'"
+            style="max-width: 600px"
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/ipv4/Datenpaket.png';
+            "
           >
-            Click for full size
-          </div>
-        </q-img>
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </div>
       </ul>
       <q-separator class="q-mt-md" />
       <div class="text-subtitle2 text-grey font-size-small">
