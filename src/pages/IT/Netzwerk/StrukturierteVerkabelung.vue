@@ -93,34 +93,34 @@
             Metallische Leiter: Kupferleitungen (Koaxialkabel, Twisted Pair)
           </li>
           <li>Nichtmetallische Leiter: Glasfaser</li>
+          <li class="text-weight-bold">Lichtwellenleiter</li>
+          <ul>
+            <li>Lichtleitung erfolgt mittels Quarzglas oder Kunststoff.</li>
+            <li>
+              bestehen im Inneren aus einem Kern und einen umgebenden Mantel mit
+              niedrigerem Brechungsindex
+            </li>
+            <li>
+              Totalreflexion an der Grenzschischt -> Weiterleitung des Lichts
+            </li>
+            <li class="text-weight-bold">Vorteile gegenüber Twisted-Pair:</li>
+            <ul>
+              <li>Kostengünstig und robust</li>
+              <li>Einfachere Verbindungstechnik</li>
+              <li>Power over Ethernet möglich</li>
+            </ul>
+            <li class="text-weight-bold">Nachteile gegenüber Twisted-Pair:</li>
+            <ul>
+              <li>Geringe Reichweite</li>
+              <li>Elektromagnetische Störungen</li>
+            </ul>
+          </ul>
         </ul>
         <li class="text-weight-bold">Leiterungebundene</li>
         <ul>
           <li>Infarot</li>
           <li>Ultraschall</li>
           <li>Funk</li>
-        </ul>
-        <li class="text-weight-bold text-h6">Lichtwellenleiter</li>
-        <ul>
-          <li>Lichtleitung erfolgt mittels Quarzglas oder Kunststoff.</li>
-          <li>
-            bestehen im Inneren aus einem Kern und einen umgebenden Mantel mit
-            niedrigerem Brechungsindex
-          </li>
-          <li>
-            Totalreflexion an der Grenzschischt -> Weiterleitung des Lichts
-          </li>
-          <li class="text-weight-bold">Vorteile gegenüber Twisted-Pair:</li>
-          <ul>
-            <li>Kostengünstig und robust</li>
-            <li>Einfachere Verbindungstechnik</li>
-            <li>Power over Ethernet möglich</li>
-          </ul>
-          <li class="text-weight-bold">Nachteile gegenüber Twisted-Pair:</li>
-          <ul>
-            <li>Geringe Reichweite</li>
-            <li>Elektromagnetische Störungen</li>
-          </ul>
         </ul>
       </ul>
       <div class="text-subtitle2 text-grey font-size-small">

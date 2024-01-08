@@ -14,7 +14,7 @@
       </div>
       <q-separator class="q-mt-md" />
       <ul>
-        <li class="text-weight-bold text-h6 text-third">Router</li>
+        <li class="text-weight-bolder">Router</li>
         <ul>
           <li>
             Zwischensystem zwischen zwei Netzen, benötigt in beiden eine
@@ -75,10 +75,21 @@
             </div>
           </q-img>
         </ul>
-        <li class="text-weight-bold q-mt-md text-h6">
-          Limited Broadcast vs Direct Broadcast
+      </ul>
+      <q-separator class="q-mt-md" />
+      <div
+        class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      >
+        Besondere Routing-Methoden
+      </div>
+      <ul>
+        <li class="text-weight-bolder q-mt-md">
+          Limited Broadcast und Direct Broadcast
         </li>
         <ul>
+          <li class="text-weight-bold">
+            IPv6 implementiert keine Broadcast-Methoden
+          </li>
           <li class="text-weight-bold">Limited Broadcast</li>
           <ul>
             <li>Ziel-IP-Adresse: 255.255.255.255</li>
@@ -111,21 +122,34 @@
             </li>
           </ul>
         </ul>
-        <li class="text-weight-bold q-mt-md text-h6">Localhost</li>
+        <li class="text-weight-bolder">Localhost bzw. Loopback</li>
         <ul>
           <li>benennt den lokalen Rechner</li>
           <li>
             Ermöglicht innerhalb eines Rechners die Kommunikation
             netzwerkfähiger Programme untereinander.
           </li>
+          <li>
+            <a class="text-weight-bold">IPv4:</a> meist 127.0.0.1 bzw. das
+            gesamte Netz 127.0.0.0/8
+          </li>
+          <li><a class="text-weight-bold">IPv6:</a> ::1</li>
         </ul>
 
-        <li class="text-weight-bold q-mt-md text-h6">Anderes</li>
+        <li class="text-weight-bolder">Default-Route</li>
         <ul>
           <li>
-            <a class="text-weight-bolder">Default-Route 0.0.0.0:</a> Das Gateway
-            zum Internet. Sollte im Normalfall immer der Router sein, der
-            Traffic ins Internet ermöglicht.
+            Die Standart-Route. Wird gewählt wenn es keine spezifischen Routen
+            für eine Zieladresse in der Routingtabelle gibt.
+          </li>
+          <li>
+            Sollte im Normalfall immer der Router sein, der Traffic ins Internet
+            ermöglicht.
+          </li>
+          <li><a class="text-weight-bold">IPv4:</a> 0.0.0.0/0</li>
+          <li>
+            <a class="text-weight-bold">IPv6:</a> ::/0 (
+            0000:0000:0000:0000:0000:0000:0000:0000/0)
           </li>
         </ul>
       </ul>

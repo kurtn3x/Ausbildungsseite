@@ -19,7 +19,7 @@
         Leasing- vs Mietvertrag
       </div>
       <ul>
-        <li class="text-h6 text-weight-bolder">Der Leasingvertrag</li>
+        <li class="text-weight-bolder">Der Leasingvertrag</li>
         <ul>
           <li>
             Überlassung einer Sache zum Gebrauch gegen Entgelt zwischen
@@ -55,7 +55,7 @@
             </li>
           </ul>
         </ul>
-        <li class="text-h6 text-weight-bolder">Der Mietvertrag</li>
+        <li class="text-weight-bolder">Der Mietvertrag</li>
         <ul>
           <li>
             gegenseitiger schuldrechtliche Vertrag zur zeitweisen
@@ -129,7 +129,7 @@
         Werktvertrag vs Dienstvertrag
       </div>
       <ul>
-        <li class="text-h6 text-weight-bolder">Der Werkvertrag</li>
+        <li class="text-weight-bolder">Der Werkvertrag</li>
         <ul>
           <li>
             Herstellung eines Werkes oder sonstigen Erfolgs gegen Entgelt
@@ -139,7 +139,7 @@
           <li>ist zweckbestimmt -> fester Leistungsgegenstand mit Abnahme</li>
           <li>z.B. Anpassung von Software an bestimmte Bedürfnisse</li>
         </ul>
-        <li class="text-h6 text-weight-bolder">Der Dienstvertrag</li>
+        <li class="text-weight-bolder">Der Dienstvertrag</li>
         <ul>
           <li>Dienstleistungen gegen Entgelt (nicht erfolgsabhängig!)</li>
           <li>Partner: Dienstleister und Dienstleistungsnehmer</li>

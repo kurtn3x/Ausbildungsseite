@@ -12,7 +12,9 @@
     <ul>
       <li class="text-weight-bold">Das Unternehmensleitbild</li>
       <ul>
-        <li>beschreibt das Selbstverständnis und die Grundsätze eines UN</li>
+        <li>
+          beschreibt das Selbstverständnis und die Grundsätze eines Unternehmens
+        </li>
         <li>ist schriftlich fixiert</li>
         <li>richtet sich an Mitarbeiter, Kunden, Öffentlichkeit</li>
         <li>
@@ -33,8 +35,8 @@
           Entscheidungshilfe für Kunden
         </li>
         <li>
-          nach innen: identifikation der Mitarbeiter mit Werten des UN, um
-          Leistungen, Prozesse danach auszurichten
+          nach innen: identifikation der Mitarbeiter mit Werten des
+          Unternehmens, um Leistungen, Prozesse danach auszurichten
         </li>
       </ul>
     </ul>

@@ -18,25 +18,25 @@
       >
         PDCA-Zyklus
       </div>
-
-      <q-img
-        class="fit bg-grey-5 q-mt-md"
-        :src="src + '/datenschutz/PDCA.png'"
-        style="max-width: 600px"
-        @click="
-          show_img = true;
-          popupsrc = '/datenschutz/PDCA.png';
-        "
-      >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
-      </q-img>
       <ul>
-        <li>
+        <q-img
+          class="fit bg-grey-5 q-mt-md"
+          :src="src + '/datenschutz/PDCA.png'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/datenschutz/PDCA.png';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
+
+        <li class="q-mt-sm">
           <a class="text-weight-bolder">PLAN: </a>Planung von
           Sicherheitsmaßnahmen
         </li>

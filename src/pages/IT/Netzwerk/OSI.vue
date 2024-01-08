@@ -108,10 +108,12 @@
       </div>
       <ul>
         <li class="text-weight-bolder q-mt-md">
-          OSI-Schicht 2,3,4 binden das Datenpaket in einen Frame bzw. Header, um
-          die Weiterleitung über diese Schichten zu ermöglichen: Der
-          Ethernet-Frame, der IP-Header & der TCP/UDP-Header. Der Aufbau dieser
-          Header ist bei den jeweiligen Unterthemen zu finden.
+          OSI-Schicht 2,3 und 4 binden das Datenpaket in einen Frame bzw.
+          Header, um die Weiterleitung über diese Schichten zu ermöglichen: Der
+          Ethernet-Frame, der IPv4 oder IPv6-Header & der TCP oder UDP-Header.
+          In den darauffolgenden Schichten gibt es auch verschiedene Header z.B.
+          der HTTP-Header, welche jedoch sehr spezifisch und programmbasiert
+          sind.
         </li>
         <div class="row justify-center">
           <q-img
@@ -178,7 +180,7 @@ export default defineComponent({
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
-  table-layout: fixed;
+  table-layout: auto;
 }
 .tg td {
   border-style: solid;
