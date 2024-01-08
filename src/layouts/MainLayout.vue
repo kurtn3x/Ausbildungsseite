@@ -68,6 +68,7 @@
             rounded
             align="left"
           />
+
           <q-btn
             dense
             flat
@@ -330,6 +331,15 @@
                   <q-btn
                     dense
                     flat
+                    to="/netzwerk/mac"
+                    label="VLAN"
+                    class="full-width q-mt-xs"
+                    rounded
+                    align="left"
+                  />
+                  <q-btn
+                    dense
+                    flat
                     to="/netzwerk/switch-hub"
                     label="Switch & Hub"
                     class="full-width q-mt-xs"
@@ -403,7 +413,7 @@
                       <q-btn
                         dense
                         flat
-                        to="/netzwerk/osi"
+                        to="/netzwerk/ipv6subnetting"
                         label="Subnetting"
                         class="full-width q-mt-xs"
                         rounded
@@ -477,6 +487,15 @@
               />
             </div>
           </q-expansion-item>
+          <q-btn
+            dense
+            flat
+            to="/netzwerk/dns"
+            label="Auswerten von Headern"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
         </div>
       </q-expansion-item>
       <q-expansion-item

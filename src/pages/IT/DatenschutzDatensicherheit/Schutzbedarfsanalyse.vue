@@ -1,8 +1,5 @@
 <template>
   <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
-      Datenschutz und Datensicherheit
-    </div>
     <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
       Die Schutzbedarfsanalyse und ihre Kategorien
     </div>

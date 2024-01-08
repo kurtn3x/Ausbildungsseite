@@ -25,7 +25,7 @@
         <li>2^128 verfügbare Adressen</li>
       </ul>
 
-      <table class="tg q-ml-lg">
+      <table class="tg q-ml-lg" style="max-width: 450px">
         <thead>
           <tr>
             <th><a class="text-weight-bold">IPv4</a></th>
@@ -35,7 +35,7 @@
         <tbody>
           <tr>
             <td class="tg-0lax">Netzanteil</td>
-            <td class="tg-0lax">Prefix mit /64</td>
+            <td class="tg-0lax">Präfix mit /64</td>
           </tr>
           <tr>
             <td class="tg-0lax">Hostanteil</td>
@@ -48,18 +48,14 @@
         </tbody>
       </table>
       <ul>
-        <li>Präfix links, Interface-Identifier rechts</li>
-        <li>Interface-Identifier immer 64 Bit lang</li>
-        <li>Präfixe maximal 64 Bit lang</li>
-        <li>
-          <a class="text-weight-bold"
-            >Beispiel: 2001:0db8<a class="text-red">:0000:</a>08d3<a
-              class="text-red"
-              >:0020:</a
-            >8a2e:0070:7344</a
-          >
-        </li>
+        <li class="text-weight-bolder">IPv6-Adressen können gekürzt werden</li>
         <ul>
+          <li>
+            <a class="text-weight-bold">Beispiel:</a> 2001:0db8<a
+              class="text-red"
+              >:0000:</a
+            >08d3<a class="text-red">:0020:</a>8a2e:0070:7344
+          </li>
           <li>führende Nullen können ausgelassen werden</li>
           <ul>
             <li>
@@ -85,7 +81,7 @@
               wird zu: 2001:db8<a class="text-orange">::</a>1428<a
                 class="text-red"
                 >:0:15:</a
-              >57ab (orange 2. Regel, rot 1. Regel)
+              >57ab
             </li>
           </ul>
         </ul>
@@ -107,30 +103,13 @@
           <li>Verbesserte Integration von Sicherheitsmaßnahmen wie IPSec</li>
           <li>Verschlankung des Protokoll-Headers</li>
         </ul>
-        <li><a class="text-weight-bolder">Subnetting</a></li>
-        <ul>
-          <li>
-            <a class="text-blue">2001:00d3:a3df:3357:</a>
-            <a class="text-green">54b7:1d72:6f0a:e9dc </a>
-            <a class="q-ml-md">|</a>
-            <a class="text-blue q-ml-md">Netzanteil</a
-            ><a class="text-green q-ml-md"> Hostanteil </a>
-          </li>
-          <li>
-            Der Netzanteil kann noch weiter unterteilt werden, so bekommt der
-            Provider z.B. die ersten 32 Bit, die nächsten 16Bit sind für die
-            Netzaufteilung und der Kunde bekommt dann ein /64 Netz
-            <a class="text-green">2001:00d3</a>
-            <a class="text-purple">:a3df</a>
-            <a class="text-yellow">:3357: ...</a>
-          </li>
-        </ul>
+
         <li class="text-weight-bolder">Aufbau des IPv6-Headers:</li>
         <ul>
           <li>
             Der IPv6 Header ist vom Datenumfang zwar größer als der IPv4 Header,
-            das ist wie auf dem Bild zusehen der Größe der Adressen geschuldet.
-            Insgesamt ist der IPv6-Header schlanker aufgebaut.
+            dies ist jedoch der Größe der Adressen geschuldet. Insgesamt ist der
+            IPv6-Header schlanker aufgebaut.
           </li>
 
           <q-img

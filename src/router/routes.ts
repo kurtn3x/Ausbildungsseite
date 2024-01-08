@@ -180,6 +180,10 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Netzwerk/IPv6.vue'),
       },
       {
+        path: 'ipv6subnetting',
+        component: () => import('pages/IT/Netzwerk/IPv6Subnetting.vue'),
+      },
+      {
         path: 'tcpudp',
         component: () => import('pages/IT/Netzwerk/TcpUdpPorts.vue'),
       },
