@@ -23,7 +23,7 @@
           switch-label-side
           v-model="fontSize"
           color="white"
-          thumb-color="purple"
+          thumb-color="third"
           :min="50"
           :step="1"
           :max="200"
@@ -299,6 +299,46 @@
             dense-toggle
             dense
             expand-separator
+            label="Netzwerkarten"
+            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+            class="q-mt-xs"
+            align="left"
+            :content-inset-level="0.4"
+          >
+            <div class="q-ma-xs">
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/vlan"
+                label="VLAN"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/vpn"
+                label="VPN, IPsec & Tunneling"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/wlan"
+                label="WLAN"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+            </div>
+          </q-expansion-item>
+          <q-expansion-item
+            dense-toggle
+            dense
+            expand-separator
             label="Adressierung und Protokolle (OSI 1-4)"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
@@ -315,16 +355,6 @@
                 rounded
                 align="left"
               />
-              <q-btn
-                dense
-                flat
-                to="/netzwerk/mac"
-                label="VLAN"
-                class="full-width q-mt-xs"
-                rounded
-                align="left"
-              />
-
               <q-expansion-item
                 dense-toggle
                 dense
@@ -399,8 +429,8 @@
               <q-btn
                 dense
                 flat
-                to="/netzwerk/dns"
-                label="NAT, SNAT & DNAT"
+                to="/netzwerk/nat"
+                label="NAT"
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
@@ -449,8 +479,8 @@
               <q-btn
                 dense
                 flat
-                to="/netzwerk/dns"
-                label="VPN & Proxy"
+                to="/netzwerk/proxy"
+                label="Proxy"
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
@@ -458,7 +488,7 @@
               <q-btn
                 dense
                 flat
-                to="/netzwerk/dns"
+                to="/netzwerk/firewall"
                 label="Firewall"
                 class="full-width q-mt-xs"
                 rounded
@@ -504,42 +534,66 @@
             align="left"
             :content-inset-level="0.4"
           >
-            <q-btn
-              dense
-              flat
-              to="/datenschutz-datensicherheit/schutzziele"
-              label="Schutzziele"
-              class="full-width q-mt-xs"
-              rounded
-              align="left"
-            />
-            <q-btn
-              dense
-              flat
-              to="/datenschutz-datensicherheit/tom"
-              label="Techn. Org. Maßnahmen"
-              class="full-width q-mt-xs"
-              rounded
-              align="left"
-            />
-            <q-btn
-              dense
-              flat
-              to="/datenschutz-datensicherheit/schutzbedarfsanalyse"
-              label="Schutzbedarfsanalyse"
-              class="full-width q-mt-xs"
-              rounded
-              align="left"
-            />
-            <q-btn
-              dense
-              flat
-              to="/datenschutz-datensicherheit/sicherheitsprozess"
-              label="IT-Sicherheitsprozess"
-              class="full-width q-mt-xs"
-              rounded
-              align="left"
-            />
+            <div class="q-ma-xs">
+              <q-btn
+                dense
+                flat
+                to="/datenschutz-datensicherheit/schutzziele"
+                label="Schutzziele"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/datenschutz-datensicherheit/tom"
+                label="Techn. Org. Maßnahmen"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/datenschutz-datensicherheit/schutzbedarfsanalyse"
+                label="Schutzbedarfsanalyse"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/datenschutz-datensicherheit/sicherheitsprozess"
+                label="IT-Sicherheitsprozess"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+            </div>
+          </q-expansion-item>
+          <q-expansion-item
+            dense
+            dense-toggle
+            expand-separator
+            label="Verschlüsselung"
+            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+            class="q-mt-xs"
+            align="left"
+            :content-inset-level="0.4"
+          >
+            <div class="q-ma-xs">
+              <q-btn
+                dense
+                flat
+                to="/datenschutz-datensicherheit/schutzziele"
+                label="SSL & TLS"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+            </div>
           </q-expansion-item>
         </div>
       </q-expansion-item>

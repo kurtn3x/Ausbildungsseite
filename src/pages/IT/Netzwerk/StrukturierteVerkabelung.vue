@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+    <div :class="small ? 'q-ma-sm' : 'q-ma-lg'">
       <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
         Strukturierte Verkabelung
       </div>

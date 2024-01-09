@@ -73,13 +73,13 @@
         <ul>
           <li>
             fe80:15:dead:f5:d000:17::/53 → Die Unterteilung des Netzes findet
-            lediglich im Block :f5: statt, da dieser das 53.-56. Bit beinhaltet,
+            lediglich im Block :f5: statt, da dieser das 54.-56. Bit beinhaltet,
             welche relevant für die Verschiebung des Netzes sind.
           </li>
           <li>
             Die 7 gleich großen Subnetze werden also zwischen dem 53. und 56.
             Bit gebildet. Deshalb müssen wir den Block
-            <a class="text-blue">:00f5:</a> in Bit umrechnen.
+            <a class="text-blue">:00f5:</a> in Binärschreibweise umrechnen.
           </li>
           <li>
             fe80:15:dead:<a class="text-blue">f5</a>:d000:17:: →
@@ -90,7 +90,10 @@
             56. Bit → <a class="text-blue">0000 0</a
             ><a class="text-red">000</a> <a class="text-green">1111 0101</a>.
             Die Netze werden also aus den Bits
-            <a class="text-red">000</a> gebildet.
+            <a class="text-red">000</a> gebildet. (<a class="text-blue"
+              >das erste Bit aus :00f5: ist das 49.,</a
+            >
+            <a class="text-red"> rot markiert sind die Bits 54-56</a>)
           </li>
         </ul>
         <li>

@@ -137,8 +137,8 @@
         <li class="text-weight-bold">Spanning-Tree</li>
         <ul>
           <li>
-            Stellt sicher, dass zwischen zwei Geräten jeweils nur ein Datenpfad
-            existiert
+            Protokoll, welches sicherstellt, dass zwischen zwei Geräten jeweils
+            nur ein Datenpfad existiert
           </li>
           <li>unterbindet somit Loops</li>
           <li>

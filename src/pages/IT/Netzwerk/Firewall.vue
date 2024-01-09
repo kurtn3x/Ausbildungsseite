@@ -9,7 +9,7 @@
       />
     </q-dialog>
     <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
-      Nebenthemaaaaaaaaaaaa
+      Die Firewall
     </div>
     <q-separator class="q-mt-md" />
     <div
@@ -25,7 +25,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'FirewallPage',
   setup() {
     const q = useQuasar();
     return {

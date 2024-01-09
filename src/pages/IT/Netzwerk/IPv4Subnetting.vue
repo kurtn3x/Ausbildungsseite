@@ -229,11 +229,11 @@
         </li>
         <q-img
           class="fit bg-grey-5 q-mt-sm"
-          :src="src + '/Netzwerke/ipv4/Ipv4Subnetting2.png'"
+          :src="src + '/Netzwerke/ipv4/Ipv4Subnetting3.png'"
           style="max-width: 600px"
           @click="
             show_img = true;
-            popupsrc = '/Netzwerke/ipv4/Ipv4Subnetting2.png';
+            popupsrc = '/Netzwerke/ipv4/Ipv4Subnetting3.png';
           "
         >
           <div

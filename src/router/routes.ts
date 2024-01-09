@@ -191,6 +191,30 @@ const routes: RouteRecordRaw[] = [
         path: 'tcpudp',
         component: () => import('pages/IT/Netzwerk/TcpUdpPorts.vue'),
       },
+      {
+        path: 'proxy',
+        component: () => import('pages/IT/Netzwerk/Proxy.vue'),
+      },
+      {
+        path: 'nat',
+        component: () => import('pages/IT/Netzwerk/NAT.vue'),
+      },
+      {
+        path: 'firewall',
+        component: () => import('pages/IT/Netzwerk/Firewall.vue'),
+      },
+      {
+        path: 'vlan',
+        component: () => import('pages/IT/Netzwerk/VLAN.vue'),
+      },
+      {
+        path: 'vpn',
+        component: () => import('pages/IT/Netzwerk/VPN.vue'),
+      },
+      {
+        path: 'wlan',
+        component: () => import('pages/IT/Netzwerk/WLAN.vue'),
+      },
     ],
   },
 
