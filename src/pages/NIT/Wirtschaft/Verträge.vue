@@ -16,7 +16,7 @@
       <div
         class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
       >
-        Leasing- vs Mietvertrag
+        Leasing- und Mietvertrag
       </div>
       <ul>
         <li class="text-weight-bolder">Der Leasingvertrag</li>
@@ -126,7 +126,7 @@
       <div
         class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
       >
-        Werktvertrag vs Dienstvertrag
+        Werk- und Dienstvertrag
       </div>
       <ul>
         <li class="text-weight-bolder">Der Werkvertrag</li>

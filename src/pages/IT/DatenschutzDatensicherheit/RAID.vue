@@ -33,7 +33,7 @@
         RAID-Level
       </div>
       <ul>
-        <li class="text-body1 text-weight-bolder">Gebräuchliche RAID-Level:</li>
+        <li class="text-weight-bolder">Gebräuchliche RAID-Level:</li>
         <ul>
           <li class="text-weight-bold">RAID 0: Striping</li>
           <ul>

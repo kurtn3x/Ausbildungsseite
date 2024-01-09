@@ -14,21 +14,6 @@
       </div>
       <q-separator class="q-mt-md" />
       <ul>
-        <li class="text-weight-bolder">Router</li>
-        <ul>
-          <li>
-            Zwischensystem zwischen zwei Netzen, benötigt in beiden eine
-            IP-Adresse
-          </li>
-          <li>
-            ist in der Lage, Datenpakete zwischen zwei verschiedenen Netzen
-            weiterzuleiten
-          </li>
-          <li>
-            Heutige Router haben oft viele weitere funktionen: NAS, Firewall,
-            WLAN (- Access Point), DHCP & DNS, uvm.
-          </li>
-        </ul>
         <li class="text-weight-bold">Einfaches Beispiel von Routing:</li>
         <ul>
           <q-img

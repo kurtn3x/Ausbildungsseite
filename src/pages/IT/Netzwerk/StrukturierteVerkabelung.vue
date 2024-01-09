@@ -19,6 +19,10 @@
         Strukturierte Verkabelung
       </div>
       <ul>
+        <li class="text-weight-bold">
+          Konzept für die Verkabelung mit anwendungsneutralen
+          Kommunikationskabeln in und zwischen Gebäuden
+        </li>
         <li class="text-weight-bolder">
           Ziel einer strukturierten Verkabelung
         </li>
@@ -38,7 +42,7 @@
           <li>Leitungen und Steckverbindungen</li>
           <li>Netzwerktopologie</li>
           <li>Empfehlungen für Verlegung und Installation</li>
-          <li>standardisierte Mess-m Prüf- und Dokumentationsverfahren</li>
+          <li>standardisierte Mess-, Prüf- und Dokumentationsverfahren</li>
         </ul>
         <li class="text-weight-bold text-h6 q-mt-md text-third">
           Strukturierte Verkabelung nach EN 50173/50174

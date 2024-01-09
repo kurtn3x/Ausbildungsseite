@@ -235,37 +235,35 @@
             rounded
             align="left"
           />
-          <q-expansion-item
-            dense-toggle
-            expand-separator
-            label="Netzwerkkonzepte & topologien"
-            header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
-            class="q-mt-xs"
-            align="left"
+          <q-btn
             dense
-            :content-inset-level="0.4"
-          >
-            <div class="q-ma-xs">
-              <q-btn
-                dense
-                flat
-                to="/netzwerk/topologien"
-                label="Netzwerktopologien"
-                class="full-width q-mt-xs"
-                rounded
-                align="left"
-              />
-              <q-btn
-                dense
-                flat
-                to="/netzwerk/strukturierte-verkabelung"
-                label="Strukturierte Verkabelung"
-                class="full-width q-mt-xs"
-                rounded
-                align="left"
-              />
-            </div>
-          </q-expansion-item>
+            flat
+            to="/netzwerk/hardware"
+            label="Hardware"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+
+          <q-btn
+            dense
+            flat
+            to="/netzwerk/strukturierte-verkabelung"
+            label="Verkabelung"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+          <q-btn
+            dense
+            flat
+            to="/netzwerk/topologien"
+            label="Netzwerktopologien"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+
           <q-expansion-item
             dense-toggle
             dense
@@ -289,8 +287,8 @@
               <q-btn
                 dense
                 flat
-                to="/netzwerk/osi"
-                label="TCP/IP Modell"
+                to="/netzwerk/tcpip"
+                label="TCP/IP-Modell"
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
@@ -301,18 +299,37 @@
             dense-toggle
             dense
             expand-separator
-            label="Addressierung und Protokolle (OSI 1-4)"
+            label="Adressierung und Protokolle (OSI 1-4)"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
             align="left"
             :content-inset-level="0.4"
           >
             <div class="q-ma-xs">
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/mac"
+                label="MAC"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/mac"
+                label="VLAN"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+
               <q-expansion-item
                 dense-toggle
                 dense
                 expand-separator
-                label="Layer 2"
+                label="IPv4"
                 header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
                 class="q-mt-xs"
                 align="left"
@@ -322,8 +339,8 @@
                   <q-btn
                     dense
                     flat
-                    to="/netzwerk/mac"
-                    label="MAC"
+                    to="/netzwerk/ipv4"
+                    label="Allgemein"
                     class="full-width q-mt-xs"
                     rounded
                     align="left"
@@ -331,17 +348,8 @@
                   <q-btn
                     dense
                     flat
-                    to="/netzwerk/mac"
-                    label="VLAN"
-                    class="full-width q-mt-xs"
-                    rounded
-                    align="left"
-                  />
-                  <q-btn
-                    dense
-                    flat
-                    to="/netzwerk/switch-hub"
-                    label="Switch & Hub"
+                    to="/netzwerk/ipv4subnetting"
+                    label="Subnetting"
                     class="full-width q-mt-xs"
                     rounded
                     align="left"
@@ -352,115 +360,68 @@
                 dense-toggle
                 dense
                 expand-separator
-                label="Layer 3"
+                label="IPv6"
                 header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
                 class="q-mt-xs"
                 align="left"
                 :content-inset-level="0.4"
               >
                 <div class="q-ma-xs">
-                  <q-expansion-item
-                    dense-toggle
-                    dense
-                    expand-separator
-                    label="IPv4"
-                    header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
-                    class="q-mt-xs"
-                    align="left"
-                    :content-inset-level="0.4"
-                  >
-                    <div class="q-ma-xs">
-                      <q-btn
-                        dense
-                        flat
-                        to="/netzwerk/ipv4"
-                        label="Allgemein"
-                        class="full-width q-mt-xs"
-                        rounded
-                        align="left"
-                      />
-                      <q-btn
-                        dense
-                        flat
-                        to="/netzwerk/ipv4subnetting"
-                        label="Subnetting"
-                        class="full-width q-mt-xs"
-                        rounded
-                        align="left"
-                      />
-                    </div>
-                  </q-expansion-item>
-                  <q-expansion-item
-                    dense-toggle
-                    dense
-                    expand-separator
-                    label="IPv6"
-                    header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
-                    class="q-mt-xs"
-                    align="left"
-                    :content-inset-level="0.4"
-                  >
-                    <div class="q-ma-xs">
-                      <q-btn
-                        dense
-                        flat
-                        to="/netzwerk/ipv6"
-                        label="Allgemein"
-                        class="full-width q-mt-xs"
-                        rounded
-                        align="left"
-                      />
-                      <q-btn
-                        dense
-                        flat
-                        to="/netzwerk/ipv6subnetting"
-                        label="Subnetting"
-                        class="full-width q-mt-xs"
-                        rounded
-                        align="left"
-                      />
-                    </div>
-                  </q-expansion-item>
                   <q-btn
                     dense
                     flat
-                    to="/netzwerk/routing"
-                    label="Routing"
+                    to="/netzwerk/ipv6"
+                    label="Allgemein"
+                    class="full-width q-mt-xs"
+                    rounded
+                    align="left"
+                  />
+                  <q-btn
+                    dense
+                    flat
+                    to="/netzwerk/ipv6subnetting"
+                    label="Subnetting"
                     class="full-width q-mt-xs"
                     rounded
                     align="left"
                   />
                 </div>
               </q-expansion-item>
-              <q-expansion-item
-                dense-toggle
+              <q-btn
                 dense
-                expand-separator
-                label="Layer 4"
-                header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
-                class="q-mt-xs"
+                flat
+                to="/netzwerk/routing"
+                label="Routing"
+                class="full-width q-mt-xs"
+                rounded
                 align="left"
-                :content-inset-level="0.4"
-              >
-                <div class="q-ma-xs">
-                  <q-btn
-                    dense
-                    flat
-                    to="/netzwerk/tcpudp"
-                    label="TCP, UDP & Ports"
-                    class="full-width q-mt-xs"
-                    rounded
-                    align="left"
-                  />
-                </div>
-              </q-expansion-item>
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/dns"
+                label="NAT, SNAT & DNAT"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/tcpudp"
+                label="TCP, UDP & Ports"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
             </div>
           </q-expansion-item>
           <q-expansion-item
             dense-toggle
             dense
             expand-separator
-            label="Protokolle (OSI 5-7)"
+            label="Weitere Protokolle & Anwendungen"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
             align="left"
@@ -481,6 +442,24 @@
                 flat
                 to="/netzwerk/dns"
                 label="DNS"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/dns"
+                label="VPN & Proxy"
+                class="full-width q-mt-xs"
+                rounded
+                align="left"
+              />
+              <q-btn
+                dense
+                flat
+                to="/netzwerk/dns"
+                label="Firewall"
                 class="full-width q-mt-xs"
                 rounded
                 align="left"

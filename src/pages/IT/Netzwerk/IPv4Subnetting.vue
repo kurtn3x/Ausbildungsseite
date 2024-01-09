@@ -10,7 +10,7 @@
     </q-dialog>
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
       <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
-        IPv4 - Subnetting
+        IPv4 Subnetting
       </div>
       <q-separator class="q-mt-md" />
 
@@ -157,8 +157,8 @@
         </li>
         <ul>
           <li>
-            Die Netzwerkmaske, in welche die 7 gleich großen Netze beherbergt
-            ist 255.255.255.224 oder /27
+            Die Netzwerkmaske, welche die 7 gleich großen Netze beherbergt ist
+            255.255.255.224 oder /27
           </li>
         </ul>
         <li>
@@ -227,6 +227,22 @@
             Bestimmen von Adressen innerhalb eines Subnets </a
           >)
         </li>
+        <q-img
+          class="fit bg-grey-5 q-mt-sm"
+          :src="src + '/Netzwerke/ipv4/Ipv4Subnetting2.png'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/ipv4/Ipv4Subnetting2.png';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
       <q-separator class="q-mt-md" />
 

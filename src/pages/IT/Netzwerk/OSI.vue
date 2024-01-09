@@ -21,7 +21,6 @@
               <th><a class="text-weight-bold"> Name</a></th>
               <th><a class="text-weight-bold"> Verwendete Protokolle</a></th>
               <th><a class="text-weight-bold"> Verwendete Adressen</a></th>
-              <th><a class="text-weight-bold"> TCP/IP Schicht</a></th>
             </tr>
           </thead>
           <tbody>
@@ -34,7 +33,6 @@
               </td>
               <td class="tg-0pky">FTP, HTTP, SMTP, Telnet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0lax">Application Layer</td>
             </tr>
             <tr>
               <td>6</td>
@@ -46,7 +44,6 @@
               </td>
               <td class="tg-0pky">FTP, HTTP, SMTP, Telnet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0lax">Application Layer</td>
             </tr>
             <tr>
               <td>5</td>
@@ -57,7 +54,6 @@
               </td>
               <td class="tg-0pky">FTP, HTTP, SMTP, Telnet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0lax">Application Layer</td>
             </tr>
             <tr>
               <td>4</td>
@@ -68,7 +64,6 @@
               </td>
               <td class="tg-0pky">TCP, UDP</td>
               <td class="tg-0pky">Ports</td>
-              <td class="tg-0lax">Transport Layer</td>
             </tr>
             <tr>
               <td>3</td>
@@ -79,7 +74,6 @@
               </td>
               <td class="tg-0pky">IPv4, IPv6, ICMP</td>
               <td class="tg-0pky">IPv4 Adressen<br />IPv6 Adressen<br /></td>
-              <td class="tg-0lax">Internet Layer</td>
             </tr>
             <tr>
               <td>2</td>
@@ -90,7 +84,6 @@
               </td>
               <td class="tg-0pky">ARP, Ethernet<br /></td>
               <td class="tg-0pky">MAC-Adressen</td>
-              <td class="tg-0lax">Network Access Layer</td>
             </tr>
             <tr>
               <td>1</td>
@@ -101,7 +94,6 @@
               </td>
               <td class="tg-0pky">Token Ring, Ethernet</td>
               <td class="tg-0pky">-</td>
-              <td class="tg-0lax">Network Access Layer</td>
             </tr>
           </tbody>
         </table>

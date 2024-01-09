@@ -139,6 +139,10 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Netzwerk/OSI.vue'),
       },
       {
+        path: 'tcpip',
+        component: () => import('pages/IT/Netzwerk/TCPIP.vue'),
+      },
+      {
         path: 'strukturierte-verkabelung',
         component: () =>
           import('pages/IT/Netzwerk/StrukturierteVerkabelung.vue'),
@@ -160,8 +164,8 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Netzwerk/MAC.vue'),
       },
       {
-        path: 'switch-hub',
-        component: () => import('pages/IT/Netzwerk/SwitchHub.vue'),
+        path: 'hardware',
+        component: () => import('pages/IT/Netzwerk/NetzwerkHardware.vue'),
       },
       {
         path: 'routing',
