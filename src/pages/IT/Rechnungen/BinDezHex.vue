@@ -9,19 +9,14 @@
       />
     </q-dialog>
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div
-        class="text-center text-h4 text-weight-bolder q-mt-md text-secondary"
-      >
-        Hardware und Umrechnungen
-      </div>
-      <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
         Binär-, Dezimal-, und Hexadezimalumrechnungen sowie Berechnungen
       </div>
       <q-separator class="q-mt-md" />
       <div
         class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
       >
-        Binär &lt;-&gt; Dezimal
+        Binär ↔ Dezimal
       </div>
       <ul>
         <li>
@@ -57,7 +52,7 @@
         </table>
         <li>
           von links nach rechts durchgehen und schauen ob die Zahl in die
-          Dezimalzahl passt: ja -> 1, nein -> 0
+          Dezimalzahl passt: ja → 1, nein → 0
         </li>
         <li>
           wenn die Zahl passt (also eine 1 eingetragen wurde, diese von der
@@ -65,7 +60,7 @@
         </li>
         <li>
           Beispiel: Dezimalzahl 300 (eine typische Tabelle bis zur 128(8Bit)
-          reicht nicht -> 256 (9Bit))
+          reicht nicht → 256 (9Bit))
         </li>
         <table class="tg">
           <thead>
@@ -130,26 +125,29 @@
             über die Zahlen von rechts nach links die zweier Potenzen schreiben
             (oder denken) und die Zusammenrechnen, wo 1 steht
           </li>
-          <li>z.B. 1100 0001 -> 128 + 64 + 0 + 0 + 0 + 0 + 0 + 1 = 193</li>
+          <li>z.B. 1100 0001 → 128 + 64 + 0 + 0 + 0 + 0 + 0 + 1 = 193</li>
         </ul>
       </ul>
       <div
         class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
       >
-        Binär &lt;-&gt; Hexa
+        Binär ↔ Hexa
       </div>
       <ul>
         <li>
           bei der Umrechnung von Binär in Hexadezimal muss man in 4er- Feldern
-          denken: 4Binär-Zahlen ergeben eine Hexadezimalzahl, falls das nicht
-          aufgeht muss man so viele Nullen an die Binärzahl vorne
-          heranschreiben, bis die Anzahl der Binärzahlen durch 4 teilbar ist
+          denken: 4Binär-Zahlen ergeben eine Hexadezimalzahl
+        </li>
+        <li>
+          falls eine gegebene Binärzahl nicht durch 4 teilbar ist, muss man vor
+          die Binärzahlen Nullen anfügen, z.B. gegeben: 1 0101 1001 →
+          <a class="text-red">000</a>1 0101 1001
         </li>
         <li>
           nun geht man die 4er-Binärfelder durch und trägt die Hexadezimalzahl
           dazu ein
         </li>
-        <li>Tabelle für die Umrechnung (bis 15 ist notwendig zu wissen!)</li>
+        <li>Tabelle für die Umrechnung</li>
 
         <q-img
           class="bg-grey-5"
@@ -202,13 +200,16 @@
       <div
         class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
       >
-        Dezimal &lt;-&gt; Hexa
+        Dezimal ↔ Hexa
       </div>
       <ul>
         <li>
-          Dezimalzahl in Binär umrechnen und von dort aus weitermachen, bzw. die
-          Hexadezimalzahl in Binär ausrechnen und diese dann zu Dezimal
-          umrechnen.
+          Am besten die Dezimalzahl in Binär umrechnen, und dann die entstandene
+          Binärzahl in Hexdezimal umrechnen
+        </li>
+        <li>
+          bzw. die Hexadezimalzahl in Binär umrechnen und die enstandene
+          Binärzahl in eine Dezimalzahl umrechnen
         </li>
       </ul>
       <q-separator class="q-mt-md" />
@@ -228,7 +229,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'BinDezHexPage',
   setup() {
     const q = useQuasar();
     return {

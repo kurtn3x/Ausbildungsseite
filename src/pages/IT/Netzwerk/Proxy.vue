@@ -15,8 +15,61 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
-      Erstes Seitenthema
+      Allgemeines
     </div>
+    <ul>
+      <li>Proxy = Stellvertreter</li>
+      <li>bekannte Proxy-Protokolle sind HTTP und SOCKS</li>
+      <li>
+        dient als Zwischenspeicher innerhalb eines Netzwerks um Zugriff auf die
+        gleichen Daten aus dem Speicher zu bedienen
+      </li>
+      <li>leitet stellvertretend Anfragen an ein Netzwerk weiter</li>
+      <li>man unterscheidet zwischen einem Standard- und Reverse-Proxy</li>
+      <li class="text-weight-bold">Standard-Proxy</li>
+      <ul>
+        <li>Client schickt Anfrage an Proxy-Server</li>
+        <li>Proxy-Server übermittelt die Anfrage zum Zielserver</li>
+        <li>Zielserver schickt Antwort an Proxy-Server</li>
+        <li>
+          Proxy-Server speichert Antwortdaten und übermittelt Antwort an Client
+        </li>
+        <li>
+          Bei erneuter Anfrage zum Endpunkt verwendet der Proxy-Server die
+          vorher gespeicherte Antwort
+        </li>
+      </ul>
+      <li class="text-weight-bold">Reverse-Proxy</li>
+      <ul>
+        <li>Sinnvoll für Serverdienste, z.B. Webserver</li>
+        <li>Reverse-Proxy-Server wird vor den Webserver geschalten</li>
+        <li>
+          Webserver muss nicht offen im Internet stehen, sondern Reverse-Proxy
+          nimmt Anfrage für den Webserver entgegen
+        </li>
+        <li>
+          Client sendet Anfrage für eine Website an einen (vermeintlichen)
+          Webserver, in Wirklichkeit nimmt der Reverse-Proxy-Server diese
+          Anfrage entgegen
+        </li>
+        <li>
+          Reverse-Proxy leitet die Anfrage an den richtigen, vom Internet
+          versteckten Webserver weiter
+        </li>
+        <li>
+          Webserver antwortet mit einer Website und sendet sie an den
+          Reverse-Proxy-Server
+        </li>
+        <li>
+          Reverse-Proxy speichert die Website zwischen und sendet sie an den
+          Client
+        </li>
+        <li>
+          Anfragen von Clients auf die Website können direkt vom Proxy-Speicher
+          aus bedient werden → weniger Last für den Webserver
+        </li>
+      </ul>
+    </ul>
   </div>
 </template>
 

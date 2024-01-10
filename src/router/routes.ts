@@ -215,6 +215,32 @@ const routes: RouteRecordRaw[] = [
         path: 'wlan',
         component: () => import('pages/IT/Netzwerk/WLAN.vue'),
       },
+      {
+        path: 'storage',
+        component: () => import('pages/IT/Netzwerk/Storage.vue'),
+      },
+    ],
+  },
+  {
+    path: '/rechnungen',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'speichergrossen',
+        component: () => import('pages/IT/Rechnungen/Speichergrößen.vue'),
+      },
+      {
+        path: 'strom-ladung',
+        component: () => import('pages/IT/Rechnungen/StromLadung.vue'),
+      },
+      {
+        path: 'bin-dez-hex',
+        component: () => import('pages/IT/Rechnungen/BinDezHex.vue'),
+      },
+      {
+        path: 'anderes',
+        component: () => import('pages/IT/Rechnungen/AndereBerechnungen.vue'),
+      },
     ],
   },
 

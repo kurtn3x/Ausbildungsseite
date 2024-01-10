@@ -51,7 +51,7 @@
             zugeordnet
           </li>
           <li>
-            z.B. anhang der IP- oder MAC-Adresse eines Clients → Selbe
+            z.B. anhand der IP- oder MAC-Adresse eines Clients → Selbe
             IP-Adresse wird stets automatisch dem selben VLAN zugeordnet
           </li>
           <li>
@@ -97,11 +97,16 @@
         handhaben
       </li>
       <ul>
-        <li>z.B. Switch aus oberen Beispiel mit einem 2. Switch</li>
         <li>
-          Auf jedem Switch muss zudem für jedes VLAN eine physische Verbindung
-          hergestellt werden
+          Zwischen den Switches muss für jedes VLAN eine physische Verbindung
+          hergestellt werden. Die Ports, welche die Switches miteinander
+          verbinden bekommen die VLAN-ID, welche sie verbinden sollen.
         </li>
+        <li>
+          Bei mehreren VLANs werden auf diesem Weg sehr viele Ports
+          verschwendet.
+        </li>
+        <li>Beispiel:</li>
         <q-img
           class="fit bg-grey-5 q-mt-sm"
           :src="src + '/Netzwerke/VLAN.png'"
@@ -118,6 +123,18 @@
             Click for full size
           </div>
         </q-img>
+        <li class="text-red">
+          Die Switches werden jeweils über Port 6 mit der VLAN-ID 100 verbunden.
+        </li>
+        <li class="text-red">
+          PC C, D, G und H können untereinander kommunizieren
+        </li>
+        <li class="text-green">
+          Die Switches werden jeweils über Port 3 mit der VLAN-ID 200 verbunden.
+        </li>
+        <li class="text-green">
+          PC A, B, E und F können untereinander kommunizieren
+        </li>
       </ul>
       <li>
         <a class="text-weight-bold">PVID:</a> oft muss auf den Ports neben der
@@ -136,6 +153,10 @@
     <ul>
       <li>mehrere VLANs über einen einzelnen Port</li>
       <li>VLAN-ID wird im Ethernet-Frame mitgelifert (VLAN-Tags)</li>
+      <li>
+        Es muss darauf geachtet werden, dass Geräte im Netz VLAN-Tags handhaben
+        können.
+      </li>
       <li>ein getaggter Port wird auch als "trunked port" bezeichnet</li>
       <li>
         z.B. mit tagged VLANs kann man das obere Beispiel mit mehreren Switches
@@ -165,7 +186,9 @@
         </q-img>
       </ul>
       <li class="q-mt-sm">
-        Der VLAN-Tag wird wie beschrieben im Ethernet-Frame hinterlegt.
+        Der VLAN-Tag wird wie beschrieben im Ethernet-Frame hinterlegt. Dieser
+        VLAN-Tag im Ethernet-Frame ist optional, also ein Ethernet-Frame mit
+        VLAN-Tag ist größer als einer ohne VLAN-Tag.
       </li>
       <ul>
         <q-img

@@ -67,13 +67,13 @@
         <li class="text-weight-bold">Site-to-Site-VPN / LAN-to-LAN-VPN</li>
         <ul>
           <li>
-            Ziel ist mehrere lokale Netze zu einem gesamten virtuellen Netzwerk
-            zu verbinden
+            Ziel ist es mehrere lokale Netze zu einem gesamten virtuellen
+            Netzwerk zu verbinden
           </li>
           <li>
             Ersatz für teure physikalische Verbindungen zwischen Standorten
           </li>
-          <li>jedes lokales Netz hat in der Regel Internetanschluss</li>
+          <li>jedes lokale Netz hat in der Regel einen Internetanschluss</li>
         </ul>
         <li class="text-weight-bold">
           End-to-End-VPN / Host-to-Host-VPN / Remote-Desktop-VPN
@@ -95,6 +95,37 @@
           </li>
         </ul>
       </ul>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Tunneling
+    </div>
+    <ul>
+      <li>
+        Tunnel ist ein virtueller Übertragungsweg, der durch Kapselung eines
+        Netzwerkprotokolls in ein anderes erfolgt
+      </li>
+      <li>
+        Wenn eine Firewall z.B. FTP (Port 20 & 21) blockiert, kann diese
+        Blockierung umgangen werden, indem man den FTP-Datenstrom über HTTPS
+        (port 443) "tunnelt".
+      </li>
+      <li>
+        vor und hinter dem Tunnel erfolgt die Kommunikation über das
+        ursprüngliche Netzwerkprotokoll
+      </li>
+      <li>
+        zwischen den beiden Tunnelenden erfolgt die Kommunikation über ein
+        anderes beliebiges Protokoll, welches auch als Tunnelprotokoll
+        bezeichnet wird
+      </li>
+      <li>
+        Solche Netzwerktunnel können durch verschiedene Tools hergestellt
+        werden, z.B. SSH, OpenVPN, PuTTY
+      </li>
+      <li>Zu den Tunneling-Protokollen gehört z.B. IPsec im Tunnelmodus</li>
     </ul>
     <q-separator class="q-mt-md" />
     <div
@@ -159,11 +190,11 @@
           das ursprüngliche Paket wird in ein komplett neues IP-Paket gepackt
         </li>
         <li>
-          Es wird ein äußerer IP-Header gebildet, welche die IP-Daten der
+          Es wird ein äußerer IP-Header gebildet, welcher die IP-Daten der
           Tunnelenden beinhaltet
         </li>
         <li>
-          Nach dem äußeren IP-Header folgt der ESP-Header, welche alle
+          Nach dem äußeren IP-Header folgt der ESP-Header, welcher alle
           nachfolgenden Daten verschlüsselt
         </li>
         <li>
@@ -188,6 +219,14 @@
         </q-img>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div class="text-subtitle2 text-grey font-size-small">
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://www.elektronik-kompendium.de/sites/net/bilder/09061915.gif
+      <br />
+      https://www.elektronik-kompendium.de/sites/net/bilder/09061914.gif <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
+    </div>
   </div>
 </template>
 

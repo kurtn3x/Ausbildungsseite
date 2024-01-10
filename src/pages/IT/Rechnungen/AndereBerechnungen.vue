@@ -1,16 +1,13 @@
 <template>
   <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
-      Hardware und Umrechnungen
-    </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
       Andere Berechnungen (Pixel, DPI, ...)
     </div>
     <q-separator class="q-mt-md" />
     <ul>
       <li class="text-weight-bolder">DPI</li>
       <ul>
-        <li>= Dots per Inch -> 1 Inch = 2,54cm</li>
+        <li>= Dots per Inch → 1 Inch = 2,54cm</li>
         <li>
           z.B. gegebene Fläche 50,8cm x 63,5 cm mit einer Auflösung von
           500x500DPI
@@ -38,7 +35,7 @@
             ein Pixel nimmt 16Bit ein (auch direkte Umrechnung in Byte möglich)
           </li>
           <li>
-            -> vorheriges Beispiel: 120.000.000Pixel nehmen 120.000.000*16Bit an
+            → vorheriges Beispiel: 120.000.000Pixel nehmen 120.000.000*16Bit an
             Speicher ein
           </li>
           <li>
@@ -56,7 +53,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'AndereBerechnungenPage',
   setup() {
     const q = useQuasar();
     return { q, src: 'https://media.kurtn3x.xyz/assets' };

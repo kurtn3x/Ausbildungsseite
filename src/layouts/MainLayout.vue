@@ -319,7 +319,7 @@
                 dense
                 flat
                 to="/netzwerk/vpn"
-                label="VPN, IPsec & Tunneling"
+                label="VPN (+ IPsec & Tunneling )"
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
@@ -339,7 +339,7 @@
             dense-toggle
             dense
             expand-separator
-            label="Adressierung und Protokolle (OSI 1-4)"
+            label="Adressierung (OSI 1-4)"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
             align="left"
@@ -451,7 +451,7 @@
             dense-toggle
             dense
             expand-separator
-            label="Weitere Protokolle & Anwendungen"
+            label="Protokolle & Anwendungen"
             header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
             class="q-mt-xs"
             align="left"
@@ -499,6 +499,15 @@
           <q-btn
             dense
             flat
+            to="/netzwerk/storage"
+            label="Storage"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+          <q-btn
+            dense
+            flat
             to="/netzwerk/dns"
             label="Auswerten von Headern"
             class="full-width q-mt-xs"
@@ -519,7 +528,7 @@
             dense
             flat
             to="/datenschutz-datensicherheit/raid"
-            label="Storage & RAID"
+            label="RAID"
             class="full-width q-mt-xs"
             rounded
             align="left"
@@ -595,6 +604,52 @@
               />
             </div>
           </q-expansion-item>
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
+        label="IT-Rechnungen"
+        header-class="bg-primary text-white text-body1"
+        expand-icon-class="text-white"
+        :content-inset-level="0.2"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/rechnungen/speichergrossen"
+            label="Speichergrößen"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+          <q-btn
+            dense
+            flat
+            to="/rechnungen/strom-ladung"
+            label="Strom & Ladung"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+          <q-btn
+            dense
+            flat
+            to="/rechnungen/bin-dez-hex"
+            label="Bin, Dez und Hexadezimal"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+          <q-btn
+            dense
+            flat
+            to="/rechnungen/anderes"
+            label="Andere Berechnungen"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
         </div>
       </q-expansion-item>
     </q-drawer>

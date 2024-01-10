@@ -261,51 +261,7 @@
           </div>
         </q-img>
       </ul>
-      <q-separator class="q-mt-md" />
-      <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-      >
-        SAN & NAS
-      </div>
-      <ul>
-        <li class="text-weight-bold">NAS- Network Attached Storage</li>
-        <ul>
-          <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
-          <li>
-            Speichergerät, welches mit dem Netzwerk verbunden ist und Nutzern
-            zentrales Abrufen und Speichern von Daten ermöglicht
-          </li>
-          <li>Zugriff über Remoteprotokoll wie SMB oder NFS</li>
-          <li>unkompliziert und schnell</li>
-        </ul>
-        <li class="text-weight-bold">SAN- Storage Area Network</li>
-        <ul>
-          <li>oft große Unternehmen bzw. wichtige Services</li>
-          <li>Teil des Gesamt-Netzwerkes</li>
-          <li>Datenspeicherung in zentralem, blockbasierten Shared Storage</li>
-          <li>
-            Verbindung der einzelnen Server mit ihren LUNs (Logical Unit Number)
-          </li>
-          <li>hohe Datendurchsätze und niedrige Latenz</li>
-        </ul>
 
-        <q-img
-          class="fit bg-grey-5"
-          :src="src + '/datenschutz/RAID/NASSAN.jpg'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/datenschutz/RAID/NASSAN.jpg';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </ul>
       <q-separator class="q-mt-md" />
       <div class="text-subtitle2 text-grey font-size-small">
         Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
