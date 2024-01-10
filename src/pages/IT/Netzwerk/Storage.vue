@@ -49,25 +49,6 @@
       <li>oft Datensicherheit durch konfigurierbares RAID</li>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="row justify-center q-mt-md">
-      <q-img
-        class="fit bg-grey-5"
-        :src="src + '/datenschutz/RAID/NASSAN.jpg'"
-        style="max-width: 600px"
-        @click="
-          show_img = true;
-          popupsrc = '/datenschutz/RAID/NASSAN.jpg';
-        "
-      >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
-      </q-img>
-    </div>
-    <q-separator class="q-mt-md" />
 
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
@@ -96,6 +77,24 @@
       <li>oft große Unternehmen bzw. wichtige Services</li>
       <li>hohe Datendurchsätze und niedrige Latenz</li>
     </ul>
+    <div class="row justify-center q-mt-md">
+      <q-img
+        class="fit bg-grey-5"
+        :src="src + '/datenschutz/RAID/NASSAN.jpg'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/datenschutz/RAID/NASSAN.jpg';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
+    </div>
     <q-separator class="q-mt-md" />
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"

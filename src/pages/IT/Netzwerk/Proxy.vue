@@ -38,8 +38,24 @@
           Bei erneuter Anfrage zum Endpunkt verwendet der Proxy-Server die
           vorher gespeicherte Antwort
         </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Netzwerke/proxy.png'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/proxy.png';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
-      <li class="text-weight-bold">Reverse-Proxy</li>
+      <li class="text-weight-bold q-mt-sm">Reverse-Proxy</li>
       <ul>
         <li>Sinnvoll für Serverdienste, z.B. Webserver</li>
         <li>Reverse-Proxy-Server wird vor den Webserver geschalten</li>
@@ -68,6 +84,22 @@
           Anfragen von Clients auf die Website können direkt vom Proxy-Speicher
           aus bedient werden → weniger Last für den Webserver
         </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Netzwerke/reverse_proxy.png'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/reverse_proxy.png';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
     </ul>
   </div>
