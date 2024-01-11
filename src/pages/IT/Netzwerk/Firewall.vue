@@ -15,8 +15,78 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
-      Erstes Seitenthema
+      Allgemeines
     </div>
+    <ul>
+      <li>
+        Schutzmaßnahme gegen unberechtigte Verbindungsversuche auf einen Rechner
+        oder ein Rechnernetz
+      </li>
+      <li>
+        beschränkt oder erlaubt Netzwerkzugriff basierend auf Absender, Ziel
+        oder dem genutzten Dienst
+      </li>
+      <li>
+        Man unterscheidet zwischen einer Personal Firewall und exterenen
+        Firewall
+      </li>
+      <ul>
+        <li class="text-weight-bold">Personal- / Desktop-Firewall</li>
+        <ul>
+          <li>arbeitet auf dem zu schützenden System</li>
+          <li>
+            beschränkt/erlaubt einkommenden oder ausgehenden Datenverkehr auf
+            dem zu schützenden System
+          </li>
+        </ul>
+        <li class="text-weight-bold">Externe- / Netzwerk-Firewall</li>
+        <ul>
+          <li>
+            arbeitet auf einem seperaten Gerät, welches Netzwerke miteinander
+            verbindet
+          </li>
+          <li>
+            beschränkt/erlaubt Datenverkehr zwischen den verbundenen Netzwerken
+          </li>
+        </ul>
+      </ul>
+      <li class="text-weight-bold">Filtertechniken:</li>
+      <ul>
+        <li>
+          <a class="text-weight-bold">Paketfilter </a> filtern Datenpakete
+          anhand des Ports oder der Quell-/Ziel-IP-Adresse
+        </li>
+        <li>
+          <a class="text-weight-bold">Stateful Packet Inspection </a> filtert
+          Datenpakete je nach einer bestimmten aktiven Session. Datenpakete die
+          keiner bestimmten Session zugeordnet werden können (z.B. bei
+          DoS-Attacken) werden verworfen.
+        </li>
+        <li>
+          <a class="text-weight-bold">Der Proxyfilter </a> stellt
+          stellvertretend für den anfragenden Client die Verbindung zum
+          Zielsystem her und leitet danach die Antwort an den Client weiter. Er
+          kann deshalb die Kommunikation zwischen Client und Zielsystem beliebig
+          beeinflussen und analysieren.
+          <router-link to="/netzwerk/proxy" class="text-light-blue">
+            Siehe auch Proxy</router-link
+          >
+        </li>
+        <li>
+          <a class="text-weight-bold">Contentfilter </a> ist eine Form des
+          Proxyfilters. Er filtert einen bestimmtem Inhalt (z.B. Scripte) oder
+          auch Schadsoftware aus den Nutzdaten heraus und blockiert
+          Schadsoftware beim Download.
+        </li>
+        <li>
+          <a class="text-weight-bold">Deep Packet Inspection </a> analysiert
+          weitergehende oder protokollspezifische Informationen, z.B. URLs,
+          Dateinamen, Dateinhalte. SSL Deep Packet Inspection terminiert die
+          SSL-Verschlüsselung um die Nutzdaten zu analysieren und verschlüsselt
+          die Daten für den Client anschließend neu.
+        </li>
+      </ul>
+    </ul>
   </div>
 </template>
 

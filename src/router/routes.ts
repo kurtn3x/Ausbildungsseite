@@ -124,6 +124,11 @@ const routes: RouteRecordRaw[] = [
         path: 'tom',
         component: () => import('pages/IT/DatenschutzDatensicherheit/TOM.vue'),
       },
+      {
+        path: 'cyberbedrohung',
+        component: () =>
+          import('pages/IT/DatenschutzDatensicherheit/Cyberbedrohung.vue'),
+      },
     ],
   },
   {
