@@ -52,9 +52,9 @@
           fontSize +
           '%' +
           ';line-height:' +
-          (fontSize * 1.1 + 50) +
-          '%'
+          1.3 * (fontSize / 100)
         "
+        :class="small ? 'q-ma-sm' : 'q-ma-lg'"
       />
     </q-page-container>
   </q-layout>
@@ -89,13 +89,20 @@ export default defineComponent({
   },
   computed: {
     fontSizeh6() {
-      return this.fontSize + 50 + '%';
+      return this.fontSize + 25 + '%';
     },
     fontSizeh5() {
-      return this.fontSize + 100 + '%';
+      return this.fontSize + 75 + '%';
     },
     fontSizeh4() {
-      return this.fontSize + 150 + '%';
+      return this.fontSize + 125 + '%';
+    },
+    small() {
+      if (this.q.screen.width < 1024) {
+        return true;
+      } else {
+        return false;
+      }
     },
   },
 

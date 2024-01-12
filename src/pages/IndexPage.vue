@@ -1,11 +1,11 @@
 <template>
-  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+  <q-page>
     <div class="row justify-center q-mt-lg">
       <q-card bordered flat style="width: 600px">
         <Links />
       </q-card>
     </div>
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">

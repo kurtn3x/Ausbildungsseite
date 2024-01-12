@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+  <q-page>
     <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
       Das Unternehmensleitbild
     </div>
@@ -51,7 +51,7 @@
         </li>
       </ul>
     </ul>
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <table style="width: 1049px" cellspacing="0" cellpadding="7">
+  <table cellspacing="0" cellpadding="7">
     <colgroup>
       <col style="width: 147px" />
       <col style="width: 165px" />

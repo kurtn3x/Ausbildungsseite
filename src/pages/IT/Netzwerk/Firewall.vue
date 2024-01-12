@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+  <q-page>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -48,6 +48,26 @@
           <li>
             beschränkt/erlaubt Datenverkehr zwischen den verbundenen Netzwerken
           </li>
+          <q-img
+            class="fit bg-grey-5 q-mt-md"
+            :src="src + '/Netzwerke/firewall.jpg'"
+            style="max-width: 500px"
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/firewall.jpg';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
         </ul>
       </ul>
       <li class="text-weight-bold">Filtertechniken:</li>
@@ -87,7 +107,13 @@
         </li>
       </ul>
     </ul>
-  </div>
+    <q-separator class="q-mt-md" />
+    <div class="text-subtitle2 text-grey font-size-small">
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://commons.wikimedia.org/wiki/File:Externe_Firewall.jpg <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
+    </div>
+  </q-page>
 </template>
 
 <script lang="ts">

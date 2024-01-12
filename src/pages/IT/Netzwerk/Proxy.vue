@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+  <q-page>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -102,7 +102,16 @@
         </q-img>
       </ul>
     </ul>
-  </div>
+    <q-separator class="q-mt-md" />
+    <div class="text-subtitle2 text-grey font-size-small">
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://commons.wikimedia.org/wiki/File:Proxy_concept_en.svg
+      <br />
+      https://commons.wikimedia.org/wiki/File:Reverse_proxy_h2g2bob.svg
+      <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
+    </div>
+  </q-page>
 </template>
 
 <script lang="ts">

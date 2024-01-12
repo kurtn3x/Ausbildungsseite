@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1">
+  <q-page>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -343,7 +343,7 @@
         Ich bin nicht der Eigentümer der oben genannten Bilder.
       </div>
     </div>
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">

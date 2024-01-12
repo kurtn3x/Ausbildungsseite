@@ -563,7 +563,25 @@
             dense
             flat
             to="/datenschutz-datensicherheit/schutzziele"
+            label="Verschlüsselungsmethoden"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+          <q-btn
+            dense
+            flat
+            to="/datenschutz-datensicherheit/schutzziele"
             label="SSL & TLS"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
+          <q-btn
+            dense
+            flat
+            to="/datenschutz-datensicherheit/schutzziele"
+            label="Hashing"
             class="full-width q-mt-xs"
             rounded
             align="left"

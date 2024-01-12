@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1">
+  <q-page>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,70 +8,68 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-        Die MAC-Adresse
-      </div>
-      <q-separator class="q-mt-md" />
-      <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-      >
-        Mac-Adressen
-      </div>
-      <ul>
-        <li>MAC = Media Access Control</li>
-        <li>
-          Weltweit eindeutige, unveränderbare Hardwareadresse jedes einzelnen
-          Netzwerkadapters
-        </li>
-        <li>Bestehen aus 48 Bit also 6 Byte -> 2^48 verfügbare Adressen</li>
-        <li>Hexadezimale Schreibweise</li>
-        <li>
-          Bestimmte Unternehmen unterhalten bestimmte Anfangsbereiche von
-          Mac-Adressen (erste 3 Oktette / 24Bit bzw erste 6 Zeichen) =
-          "Organizationally Unique Identifier"
-        </li>
-        <li class="text-weight-bold">
-          Beispiel: 00-09-8C-00-69-63 oder auch : statt -
-        </li>
-        <li class="text-weight-bold">
-          Mac-Adressen werden für die Adressierung im Ethernet-Header genutzt:
-        </li>
-        <q-img
-          class="fit bg-grey-5"
-          :src="src + '/Netzwerke/MAC/EthernetHeader.png'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/MAC/EthernetHeader.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </ul>
-      <q-separator class="q-mt-md" />
-
-      <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-      >
-        ARP- Address Resolution Protocol
-      </div>
-      <ul>
-        <li>
-          löst IP-Adressen in MAC-Adressen auf um Adressierung im
-          Ethernet-Header zu gewährleisten
-        </li>
-        <li>wird benötigt um Pakete im Netz zu adressieren</li>
-        <li>ARP-Request an "FF-FF-FF-FF-FF-FF" -> 'MAC-Broadcast'</li>
-        <li>Daten werden in einem lokalen ARP-Cache gespeichert</li>
-      </ul>
+    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
+      Die MAC-Adresse
     </div>
-  </div>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Mac-Adressen
+    </div>
+    <ul>
+      <li>MAC = Media Access Control</li>
+      <li>
+        Weltweit eindeutige, unveränderbare Hardwareadresse jedes einzelnen
+        Netzwerkadapters
+      </li>
+      <li>Bestehen aus 48 Bit also 6 Byte -> 2^48 verfügbare Adressen</li>
+      <li>Hexadezimale Schreibweise</li>
+      <li>
+        Bestimmte Unternehmen unterhalten bestimmte Anfangsbereiche von
+        Mac-Adressen (erste 3 Oktette / 24Bit bzw erste 6 Zeichen) =
+        "Organizationally Unique Identifier"
+      </li>
+      <li class="text-weight-bold">
+        Beispiel: 00-09-8C-00-69-63 oder auch : statt -
+      </li>
+      <li class="text-weight-bold">
+        Mac-Adressen werden für die Adressierung im Ethernet-Header genutzt:
+      </li>
+      <q-img
+        class="fit bg-grey-5"
+        :src="src + '/Netzwerke/MAC/EthernetHeader.png'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/Netzwerke/MAC/EthernetHeader.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
+    </ul>
+    <q-separator class="q-mt-md" />
+
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      ARP- Address Resolution Protocol
+    </div>
+    <ul>
+      <li>
+        löst IP-Adressen in MAC-Adressen auf um Adressierung im Ethernet-Header
+        zu gewährleisten
+      </li>
+      <li>wird benötigt um Pakete im Netz zu adressieren</li>
+      <li>ARP-Request an "FF-FF-FF-FF-FF-FF" -> 'MAC-Broadcast'</li>
+      <li>Daten werden in einem lokalen ARP-Cache gespeichert</li>
+    </ul>
+  </q-page>
 </template>
 
 <script lang="ts">

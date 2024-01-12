@@ -25,6 +25,22 @@ export default defineComponent({
     settingsStore.$subscribe((mutation, state) => {
       LocalStorage.set('fontsize', state.fontsize);
     });
+    return { q };
+  },
+  computed: {
+    ulPadding() {
+      if (this.q.screen.width < 1024) {
+        return 20 + 'px';
+      } else {
+        return 35 + 'px';
+      }
+    },
   },
 });
 </script>
+
+<style>
+ul {
+  padding-left: v-bind(ulPadding);
+}
+</style>

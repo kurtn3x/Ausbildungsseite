@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+  <q-page>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -17,7 +17,7 @@
     >
       Erstes Seitenthema
     </div>
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">

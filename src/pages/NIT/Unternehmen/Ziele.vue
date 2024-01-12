@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+  <q-page>
     <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
       Ziele von Betrieben und Unternehmen
     </div>
@@ -233,7 +233,7 @@
       </li>
       <li><a class="text-weight-bold">Liquidität:</a> Zahlungsfähigkeit</li>
     </ul>
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">

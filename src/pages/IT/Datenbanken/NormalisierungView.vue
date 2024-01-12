@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
+  <q-page>
     <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
       Datenbanken
     </div>
@@ -396,7 +396,7 @@
         </tr>
       </tbody>
     </table>
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-body1">
+  <q-page>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,94 +8,90 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
-        Das TCP/IP-Modell
-      </div>
-      <q-separator class="q-mt-md" />
-      <ul class="q-mt-lg">
-        <li class="text-weight-bold">
-          ähnlich zu OSI-Modell, jedoch vereinfacht bzw. Schichten wurden
-          zusammengefasst
-        </li>
-        <li class="text-weight-bolder">
-          Stellt eher dar, wo die Frames eines Pakets aufgebaut werden
-        </li>
-      </ul>
-      <div class="row justify-center">
-        <table class="tg">
-          <thead>
-            <tr>
-              <th><a class="text-weight-bold"> Schicht</a></th>
-              <th><a class="text-weight-bold"> Name</a></th>
-              <th><a class="text-weight-bold"> Verwendete Protokolle</a></th>
-              <th><a class="text-weight-bold"> Frame</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>4</td>
-              <td class="tg-0pky">
-                <a class="text-weight-bold"
-                  >Anwendung<br />Application <br
-                /></a>
-              </td>
-              <td class="tg-0pky">FTP, HTTP, SMTP, Telnet, TLS, SOCKS</td>
-              <td>Programmspezifisch z.B. HTTP-Header</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td class="tg-0pky">
-                <a class="text-weight-bold">Transport</a>
-              </td>
-              <td class="tg-0pky">TCP, UDP</td>
-              <td>TCP-/UDP-Frame</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td class="tg-0pky">
-                <a class="text-weight-bold">Vermittlung <br />Internet</a>
-              </td>
-              <td class="tg-0pky">IPv4, IPv6, ICMP</td>
-              <td>IPv4-/IPv6-Frame</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td class="tg-0pky">
-                <a class="text-weight-bold">Netzzugang <br />Network</a>
-              </td>
-              <td class="tg-0pky">ARP, Ethernet<br /></td>
-              <td>Ethernet-Frame</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <q-img
-          class="bg-grey-5 q-mt-md"
-          :src="src + '/Netzwerke/ipv4/Datenpaket.png'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/ipv4/Datenpaket.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </div>
-      <q-separator class="q-mt-md" />
-      <div class="text-subtitle2 text-grey font-size-small">
-        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
-        https://oinf.ch/wp-content/uploads/Konzeptbild_Datenpaket.png
-        <br />
-        Ich bin nicht der Eigentümer der oben genannten Bilder.
-      </div>
+    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+      Das TCP/IP-Modell
     </div>
-  </div>
+    <q-separator class="q-mt-md" />
+    <ul class="q-mt-lg">
+      <li class="text-weight-bold">
+        ähnlich zu OSI-Modell, jedoch vereinfacht bzw. Schichten wurden
+        zusammengefasst
+      </li>
+      <li class="text-weight-bolder">
+        Stellt eher dar, wo die Frames eines Pakets aufgebaut werden
+      </li>
+    </ul>
+    <div class="row justify-center">
+      <table class="tg">
+        <thead>
+          <tr>
+            <th><a class="text-weight-bold"> Schicht</a></th>
+            <th><a class="text-weight-bold"> Name</a></th>
+            <th><a class="text-weight-bold"> Verwendete Protokolle</a></th>
+            <th><a class="text-weight-bold"> Frame</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4</td>
+            <td class="tg-0pky">
+              <a class="text-weight-bold">Anwendung<br />Application <br /></a>
+            </td>
+            <td class="tg-0pky">FTP, HTTP, SMTP, Telnet, TLS, SOCKS</td>
+            <td>Programmspezifisch z.B. HTTP-Header</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="tg-0pky">
+              <a class="text-weight-bold">Transport</a>
+            </td>
+            <td class="tg-0pky">TCP, UDP</td>
+            <td>TCP-/UDP-Frame</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="tg-0pky">
+              <a class="text-weight-bold">Vermittlung <br />Internet</a>
+            </td>
+            <td class="tg-0pky">IPv4, IPv6, ICMP</td>
+            <td>IPv4-/IPv6-Frame</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="tg-0pky">
+              <a class="text-weight-bold">Netzzugang <br />Network</a>
+            </td>
+            <td class="tg-0pky">ARP, Ethernet<br /></td>
+            <td>Ethernet-Frame</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <q-img
+        class="bg-grey-5 q-mt-md"
+        :src="src + '/Netzwerke/ipv4/Datenpaket.png'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/Netzwerke/ipv4/Datenpaket.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
+    </div>
+    <q-separator class="q-mt-md" />
+    <div class="text-subtitle2 text-grey font-size-small">
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://oinf.ch/wp-content/uploads/Konzeptbild_Datenpaket.png
+      <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
+    </div>
+  </q-page>
 </template>
 
 <script lang="ts">
