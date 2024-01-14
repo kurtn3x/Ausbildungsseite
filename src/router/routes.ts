@@ -262,6 +262,10 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Netzwerk/VLAN.vue'),
       },
       {
+        path: 'header',
+        component: () => import('pages/IT/Netzwerk/AuswertenHeader.vue'),
+      },
+      {
         path: 'vpn',
         component: () => import('pages/IT/Netzwerk/VPN.vue'),
       },

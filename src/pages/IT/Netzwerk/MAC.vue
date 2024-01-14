@@ -34,7 +34,7 @@
         Beispiel: 00-09-8C-00-69-63 oder auch : statt -
       </li>
       <li class="text-weight-bold">
-        Mac-Adressen werden für die Adressierung im Ethernet-Header genutzt:
+        Mac-Adressen werden für die Adressierung im Ethernet-Frame genutzt:
       </li>
       <q-img
         class="fit bg-grey-5"

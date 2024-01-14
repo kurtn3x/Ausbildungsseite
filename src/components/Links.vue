@@ -483,7 +483,7 @@
       <q-btn
         dense
         flat
-        to="/netzwerk/dns"
+        to="/netzwerk/header"
         label="Auswerten von Headern"
         class="full-width q-mt-xs"
         rounded
