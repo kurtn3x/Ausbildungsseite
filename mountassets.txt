@@ -1,1 +1,0 @@
-sshfs kurtn3x@kurtn3x.xyz:/var/www/kurtn3x.xyz/media/assets src/assets

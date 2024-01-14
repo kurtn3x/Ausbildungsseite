@@ -94,6 +94,28 @@ const routes: RouteRecordRaw[] = [
       },
     ],
   },
+  {
+    path: '/datenbanken',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'normalisierung',
+        component: () => import('pages/IT/Datenbanken/Normalisierung.vue'),
+      },
+      {
+        path: 'erm',
+        component: () => import('pages/IT/Datenbanken/ERM.vue'),
+      },
+      {
+        path: 'arten',
+        component: () => import('pages/IT/Datenbanken/Arten.vue'),
+      },
+      {
+        path: 'sql',
+        component: () => import('pages/IT/Datenbanken/SQL.vue'),
+      },
+    ],
+  },
 
   {
     path: '/datenschutz-datensicherheit',
@@ -128,6 +150,33 @@ const routes: RouteRecordRaw[] = [
         path: 'cyberbedrohung',
         component: () =>
           import('pages/IT/DatenschutzDatensicherheit/Cyberbedrohung.vue'),
+      },
+      {
+        path: 'verschlusselung',
+        component: () =>
+          import('pages/IT/DatenschutzDatensicherheit/Verschlüsselung.vue'),
+      },
+    ],
+  },
+  {
+    path: '/programmierung',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'ablaufdiagramme',
+        component: () => import('pages/IT/Programmierung/Ablaufdiagramme.vue'),
+      },
+      {
+        path: 'uml',
+        component: () => import('pages/IT/Programmierung/UML.vue'),
+      },
+      {
+        path: 'sql',
+        component: () => import('pages/IT/Programmierung/SQL.vue'),
+      },
+      {
+        path: 'arten',
+        component: () => import('pages/IT/Programmierung/Arten.vue'),
       },
     ],
   },
@@ -223,6 +272,14 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'storage',
         component: () => import('pages/IT/Netzwerk/Storage.vue'),
+      },
+      {
+        path: 'weitere-netzwerkarten',
+        component: () => import('pages/IT/Netzwerk/WeitereNetzwerkarten.vue'),
+      },
+      {
+        path: 'protokolle',
+        component: () => import('pages/IT/Netzwerk/WichtigeProtokolle.vue'),
       },
     ],
   },

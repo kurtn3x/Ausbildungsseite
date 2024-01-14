@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Strukturierte Verkabelung
     </div>
     <q-separator class="q-mt-md" />
@@ -99,13 +99,13 @@
           <li>
             Totalreflexion an der Grenzschischt -> Weiterleitung des Lichts
           </li>
-          <li class="text-weight-bold">Vorteile gegenüber Twisted-Pair:</li>
+          <li class="text-green">Vorteile gegenüber Twisted-Pair:</li>
           <ul>
             <li>Kostengünstig und robust</li>
             <li>Einfachere Verbindungstechnik</li>
             <li>Power over Ethernet möglich</li>
           </ul>
-          <li class="text-weight-bold">Nachteile gegenüber Twisted-Pair:</li>
+          <li class="text-red">Nachteile gegenüber Twisted-Pair:</li>
           <ul>
             <li>Geringe Reichweite</li>
             <li>Elektromagnetische Störungen</li>

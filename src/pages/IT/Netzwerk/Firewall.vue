@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Die Firewall
     </div>
     <q-separator class="q-mt-md" />
@@ -108,9 +108,52 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Begriffe zu Firewalls
+    </div>
+    <ul>
+      <li class="text-weight-bolder">DMZ - Demilitarized Zone</li>
+      <ul>
+        <li>Pufferzone zwischen externen und internen Netzwerk</li>
+        <li>
+          z.B. Ort für Webserver oder Mailserver, Dienste die sowohl vom
+          externen sowie internen Netz erreichbar sein müssen
+        </li>
+        <li>
+          externe Anwender können keinen Zugriff auf das interne Netz über die
+          Dienste in der DMZ erlangen
+        </li>
+        <li>
+          Schutz vor Angriffen aus dem Internet oder Schutz vor Überlastung
+          durch Anfragen
+        </li>
+        <li>Firewall-Gerät definiert die DMZ</li>
+        <q-img
+          class="fit bg-grey-5 q-mt-md"
+          :src="src + '/Netzwerke/dmz.png'"
+          style="max-width: 500px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/dmz.png';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
+      </ul>
+    </ul>
+    <q-separator class="q-mt-md" />
     <div class="text-subtitle2 text-grey font-size-small">
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:Externe_Firewall.jpg <br />
+      https://www.ipfire.org/docs/configuration/firewall/rules/simple_dmz_network_v2a.png
+      <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
   </q-page>

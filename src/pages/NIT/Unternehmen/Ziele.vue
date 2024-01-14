@@ -1,6 +1,6 @@
 <template>
-  <q-page>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+  <q-page padding>
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Ziele von Betrieben und Unternehmen
     </div>
     <q-separator class="q-mt-md" />

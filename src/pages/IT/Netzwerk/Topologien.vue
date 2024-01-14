@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -167,6 +167,8 @@
       <br />
       https://de.m.wikipedia.org/wiki/Datei:Netzwerktopologie_Ring.png <br />
       https://de.m.wikipedia.org/wiki/Datei:Netzwerktopologie_Stern.png <br />
+      https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/FullMeshNetwork.svg/220px-FullMeshNetwork.svg.png
+      <br />
 
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>

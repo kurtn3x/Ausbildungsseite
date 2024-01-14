@@ -2,8 +2,8 @@
   "name": "ausbildung",
   "version": "0.0.1",
   "description": "a",
-  "productName": "AusbildungsApp",
-  "author": "Kurt",
+  "productName": "ausbildung.kurtn3x.xyz",
+  "author": "kurtn3x.xyz",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",

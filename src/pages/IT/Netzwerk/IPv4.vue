@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       IPv4
     </div>
     <q-separator class="q-mt-md" />

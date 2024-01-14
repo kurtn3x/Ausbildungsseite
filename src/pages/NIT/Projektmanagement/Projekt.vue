@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Das Projekt
     </div>
     <q-separator class="q-mt-md" />
@@ -115,23 +115,29 @@
       <li class="text-weight-bolder">Projektdefinition und -analyse</li>
       <ul>
         <li>Ziel wird festgelegt</li>
+        <li>Kick-Off-Meeting</li>
         <li>Chancen- und Risikoanalyse</li>
         <li>festlegen wesentlicher Inhalte</li>
         <li>Abschätzung von Kosten, Ausmaß und Zeit</li>
         <li>Am Ende formeller Projektauftrag</li>
+        <li>Dokuemente: Lastenheft des Kunden, Projektantrag</li>
       </ul>
       <li class="text-weight-bolder">Projektplanung</li>
       <ul>
         <li>Organisation des Projektteams</li>
+        <li>Identifikation der Arbeitspakete</li>
+        <li>Projektzeitplanung</li>
+        <li>Kostenplanung</li>
         <li>
-          festlegen von Aufgabenplänen, Ablaufplänen, Terminplänen,
-          Kapizitätsplänen, Kommunikationsplänen, Kostenplänen, Qualitätsplänen
-          und Risikomanagement
+          Dokumente: Risikoanalyse, Pflichtenheft, Kostenplan,
+          Projektstrukturplan, ...
         </li>
       </ul>
       <li class="text-weight-bolder">Projektdurchführung - und kontrolle</li>
       <ul>
         <li>Durchführung des Projekts</li>
+        <li>Umsetzung der Pläne und Angaben im Pflichtenheft</li>
+        <li>Meilensteingespräche</li>
         <li>
           Kontrolle des Projektfortschritts und Reaktion auf projektstörende
           Ereignisse

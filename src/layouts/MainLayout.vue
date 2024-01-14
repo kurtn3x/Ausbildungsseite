@@ -27,7 +27,7 @@
           :min="50"
           :step="10"
           :max="200"
-          style="width: 150px"
+          style="width: 125px"
           class="q-mr-md"
           track-color="white"
         />
@@ -42,19 +42,15 @@
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+      <q-btn dense flat stretch to="/" icon="home" class="full-width" />
       <Links />
     </q-drawer>
 
     <q-page-container>
       <router-view
         :style="
-          'font-size:' +
-          fontSize +
-          '%' +
-          ';line-height:' +
-          1.3 * (fontSize / 100)
+          'font-size:' + fontSize + '%' + ';line-height:' + (fontSize / 150 + 1)
         "
-        :class="small ? 'q-ma-sm' : 'q-ma-lg'"
       />
     </q-page-container>
   </q-layout>

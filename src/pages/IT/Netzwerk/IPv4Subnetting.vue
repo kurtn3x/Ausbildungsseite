@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       IPv4 Subnetting
     </div>
     <q-separator class="q-mt-md" />
@@ -22,8 +22,8 @@
       <li>Beispiel:</li>
       <ul>
         <li class="text-weight-bold">
-          IP-Adresse: 176.255.13.22, Subnetzmaske: 255.255.255.224, Netz- &
-          Broadcastadresse für das Netz der IP-Adrese bestimmen
+          IP-Adresse: 176.255.13.22, Subnetzmaske: 255.255.255.224 (/27), Netz-
+          & Broadcastadresse für das Netz der IP-Adrese bestimmen
         </li>
       </ul>
       <li>
@@ -41,8 +41,8 @@
       </li>
       <li class="text-red">
         Durch die Umwandlung der Subnetzmaske wissen wir, dass die ersten 3 Bits
-        der IP-Adresse (000) noch zum Netzteil gehören, da in der Subnetzmaske
-        diese Bits auf 1 gesetzt sind.
+        des letzten Oktetts der IP-Adresse (000) noch zum Netzteil gehören, da
+        diese Bits in der Subnetzmaske auf 1 gesetzt sind.
       </li>
       <li class="text-green">
         Alle Bits nach den ersten 3 gehören demnach zum Clientteil.
@@ -134,7 +134,8 @@
       <li>Beispiel:</li>
       <ul>
         <li class="text-weight-bold">
-          Netz: 192.168.1.0/24 in 7 gleich große Netze unterteilen
+          Netz: 192.168.1.0, Subnetzmaske: 255.255.255.0 (/24) in 7 gleich große
+          Netze unterteilen
         </li>
       </ul>
       <li>
@@ -142,15 +143,18 @@
         wie viel ergibt 7 oder die nächst höhere 2er Potenz?
       </li>
       <li>
-        2<a class="text-blue text-h6 text-weight-bold">³</a> = 8 → in Subnetz
-        mit 8 Netzen passen 7 Netze, 2² wäre zu klein, 2^4 zu groß →
+        2<a class="text-blue text-h6 text-weight-bold">³</a> = 8 → in ein
+        Subnetz welches in 8 kleinere Netze unterteilt wird passen unsere 7
+        gesuchten Netze, eine Netzverschiebung um 2 Bit (2²) wäre zu klein, eine
+        Netzverschiebung um 4 Bit (2⁴) zu groß →
         <a class="text-blue">Die Netzmaske muss um 3 Bit verschoben werden.</a>
       </li>
       <li>
         255(...).255(...).255(...).0(0000 0000) → 255.255.255.<a
           class="text-blue"
           >224</a
-        >(<a class="text-blue">111</a>0 000)
+        >(<a class="text-blue">111</a>0 000) bzw.
+        <a class="text-blue">/24 → /27</a>
       </li>
       <ul>
         <li>
@@ -163,19 +167,22 @@
       </li>
       <ul>
         <li>
-          192.168.1.0 → Die Unterteilung des Netzes findet lediglich im letzten
-          Oktett statt, weshalb nur dieses relevant ist.
-        </li>
-        <li>
-          Das letzte Oktett der berechneten Netzwerkmaske hat die ersten 3 Bits
-          auf 1 gesetzt, dies ist also unser Netzteil. (<a class="text-red"
+          192.168.1.0 → Die Netzwerkverschiebung findet lediglich im letzten
+          Oktett statt, da dort die Subnetzmaske verschoben wurde. (<a
+            class="text-red"
             >111</a
           >0 0000)
         </li>
       </ul>
       <li>
-        Durch den Netzteil können nun alle Netze gebildet werden, indem immer 1
-        Bit im Netzteil hochgezählt wird.
+        <a class="text-red"
+          >Durch den Netzteil können nun alle Netze gebildet werden, indem immer
+          1 Bit im Netzteil hochgezählt wird.
+        </a>
+        <a class="text-green">
+          Um die Netzadresse zu finden, werden alle Bits im Clientteil auf 0
+          gesetzt.</a
+        >
       </li>
       <ul>
         <li>
@@ -263,7 +270,7 @@
           muss das Netz mindestens 16 Adressen zur Verfügung stellen.
         </li>
         <li>
-          16 Adressen passen in 4 Bit (2^4 = 16). Diese 4 Bit zieht man von den
+          16 Adressen passen in 4 Bit (2⁴ = 16). Diese 4 Bit zieht man von den
           32 möglichen Bit der IP-Adresse ab → 32-4 = 28.
         </li>
         <li>

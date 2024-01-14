@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -9,7 +9,7 @@
       />
     </q-dialog>
     <div class="" :class="small ? 'q-ma-sm' : 'q-ma-lg'">
-      <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+      <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
         Die Aufbauorganistation von Unternehmen
       </div>
       <q-separator class="q-mt-md" />

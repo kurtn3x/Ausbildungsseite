@@ -1,6 +1,6 @@
 <template>
-  <q-page>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+  <q-page padding>
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       TOM - Die technisch-organisatorischen Maßnahmen
     </div>
     <q-separator class="q-mt-md" />
@@ -13,17 +13,17 @@
       <ul>
         <li>
           Unter technischen Maßnahmen sind alle Schutzversuche zu verstehen, die
-          im weitesten Sinne physisch umsetzbar sind
+          im weitesten Sinne physisch umsetzbar sind, z.B.:
         </li>
-        <li>Beispiele:</li>
         <ul>
           <li>Umzäunung des Geländes</li>
           <li>Sicherung von Türen und Fenstern</li>
           <li>bauliche Maßnahmen allgemein</li>
           <li>Alarmanlagen jeglicher Art</li>
         </ul>
-        <li>oder Maßnahmen die in Soft- und Hardware umgesetzt werden</li>
-        <li>Beispiele:</li>
+        <li>
+          oder Maßnahmen die in Soft- und Hardware umgesetzt werden, z.B.:
+        </li>
         <ul>
           <li>Benutzerkonto</li>
           <li>Passworterzwingung</li>
@@ -40,9 +40,8 @@
         <li>
           Als organisatorische Maßnahmen sind solche Schutzversuche zu verstehen
           die durch Handlungsanweisung, Verfahrens- und Vorgehensweisen
-          umgesetzt werden.
+          umgesetzt werden, z.B.:
         </li>
-        <li>Beispiele:</li>
         <ul>
           <li>Besucheranmeldung</li>
           <li>
@@ -66,9 +65,8 @@
       <ul>
         <li>
           Maßnahmen, die Unbefugte daran hindern Zutritt zu
-          Datenverarbeitungsanlagen zu erhalten (räumlich)
+          Datenverarbeitungsanlagen zu erhalten (räumlich), z.B.:
         </li>
-        <li>Beispiele:</li>
         <ul>
           <li>Zäune</li>
           <li>Alarmanlagen</li>
@@ -80,9 +78,8 @@
       <ul>
         <li>
           Maßnahmen, die Unbefugte am Nutzen von Datenverarbeitunganlagen
-          hindern
+          hindern, z.B.:
         </li>
-        <li>Beispiele:</li>
         <ul>
           <li>Benutzerkennung mit Passwort</li>
           <li>biometrische Benutzeridentifikation</li>
@@ -95,9 +92,8 @@
         <li>
           Maßnahmen, die dafür sorgen, dass Personen nur auf die Inhalte Zugriff
           haben, für die sie berechtigt sind und dass Daten nicht unbefugt
-          kopiert, verändert oder gelöscht werden können
+          kopiert, verändert oder gelöscht werden können, z.B.:
         </li>
-        <li>Beispiele:</li>
         <ul>
           <li>Berechtigungskonzept</li>
           <li>Benutzerkennung mit Passwort</li>
@@ -110,9 +106,8 @@
         <li>
           Maßnahmen, die Unbefugte daran hindern, personenbezogene Daten bei der
           Übertragung, beimTransport oder bei der Speicherung zu lesen,
-          kopieren, verändern oder zu löschen
+          kopieren, verändern oder zu löschen, z.B.:
         </li>
-        <li>Beispiele:</li>
         <ul>
           <li>Verschlüsselung</li>
           <li>Protokollierungsmaßnahmen</li>
@@ -125,7 +120,7 @@
         <li>
           Es muss sichergestellt werden, dass nachträglich überprüft werden kann
           ob und von wem personenbezogene Daten eingegeben, verändert oder
-          gelöscht worden sind.
+          gelöscht worden sind, z.B.:
         </li>
         <ul>
           <li>Protokollierung</li>
@@ -139,9 +134,8 @@
         <li>
           Es muss sichergestellt werden, dass personenbezogene Daten, die im
           Auftrag verarbeitet werden, gemäß den Weisungen des Auftraggebers
-          verarbeitet werden.
+          verarbeitet werden, z.B.:
         </li>
-        <li>Beispiele:</li>
         <ul>
           <li>Weisungsbefugnisse festlegen</li>
           <li>Vor-Ort-Kontrollen</li>
@@ -155,7 +149,7 @@
       <ul>
         <li>
           Es muss sichergestellt werden, dass personenbezogene Daten gegen
-          zufällige Zerstörung oder Verlust geschützt werden.
+          zufällige Zerstörung oder Verlust geschützt werden, z.B.:
         </li>
         <ul>
           <li>Brandschutzmaßnahmen</li>
@@ -169,7 +163,7 @@
         <li>
           Es ist sicher zu Stellen, dass personenbezogene Daten, die zu
           unterschiedlichen Zwecken erhoben wurden, getrennt verarbeitet werden
-          können.
+          können, z.B.:
         </li>
         <ul>
           <li>Trennung von Produktiv- und Testsystemen</li>

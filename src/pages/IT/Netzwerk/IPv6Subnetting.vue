@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       IPv6 Subnetting
     </div>
     <q-separator class="q-mt-md" />
@@ -48,12 +48,14 @@
         </li>
       </ul>
       <li>
-        Das Netz muss in mindestens 7 kleinere Netze unterteilt werden → 2 hoch
-        wie viel ergibt 7 oder die nächst höhere 2er Potenz?
+        Das Netz muss in mindestens 7 kleinere, gleichgroße Netze unterteilt
+        werden → 2 hoch wie viel ergibt 7 oder die nächst höhere 2er Potenz?
       </li>
       <li>
-        2<a class="text-blue text-h6 text-weight-bold">³</a> = 8 → in Subnetz
-        mit 8 Netzen passen 7 Netze, 2² wäre zu klein, 2^4 zu groß →
+        2<a class="text-blue text-h6 text-weight-bold">³</a> = 8 → in ein
+        Subnetz welches in 8 kleinere Netze unterteilt wird passen unsere 7
+        gesuchten Netze, eine Netzverschiebung um 2 Bit (2²) wäre zu klein, eine
+        Netzverschiebung um 4 Bit (2⁴) zu groß →
         <a class="text-blue">Die Netzmaske muss um 3 Bit verschoben werden.</a>
       </li>
       <li><a class="text-blue">/53 → /56</a></li>
@@ -63,9 +65,7 @@
           /56.
         </li>
       </ul>
-      <li>
-        Als nächstes muss der Netzteil unseres größeren Netzes bestimmt werden.
-      </li>
+      <li>Als nächstes muss der Netzteil und Hostteil bestimmt werden.</li>
       <ul>
         <li>
           fe80:15:dead:f5:d000:17::/53 → Die Unterteilung des Netzes findet
@@ -73,9 +73,10 @@
           welche relevant für die Verschiebung des Netzes sind.
         </li>
         <li>
-          Die 7 gleich großen Subnetze werden also zwischen dem 53. und 56. Bit
+          Die 7 gleich großen Subnetze werden also aus dem 54. bis 56. Bit
           gebildet. Deshalb müssen wir den Block
-          <a class="text-blue">:00f5:</a> in Binärschreibweise umrechnen.
+          <a class="text-blue">:00f5:</a>, welcher die Bits 49-64 beinhaltet in
+          Binärschreibweise umrechnen.
         </li>
         <li>
           fe80:15:dead:<a class="text-blue">f5</a>:d000:17:: →
@@ -83,18 +84,31 @@
         </li>
         <li>
           Wie vorher beschrieben, verschiebt sich der Netzteil vom 53. auf das
-          56. Bit → <a class="text-blue">0000 0</a><a class="text-red">000</a>
-          <a class="text-green">1111 0101</a>. Die Netze werden also aus den
-          Bits <a class="text-red">000</a> gebildet. (<a class="text-blue"
-            >das erste Bit aus :00f5: ist das 49.,</a
-          >
-          <a class="text-red"> rot markiert sind die Bits 54-56</a>)
+          56. Bit
+          <ul>
+            <li>
+              <a class="text-blue">0000 0</a><a class="text-red">000</a>
+              <a class="text-green">1111 0101</a>
+            </li>
+            <li class="text-blue">blau markiert 49. - 53. Bit <br /></li>
+            <li class="text-red">rot markiert 54. - 56. Bit</li>
+
+            <li class="text-green">grün markiert 57. - 64. Bit</li>
+            <li>
+              Die Netze werden also aus den Bits
+              <a class="text-red">000</a>
+              gebildet.
+            </li>
+          </ul>
         </li>
       </ul>
       <li>
-        Durch den Netzteil können nun alle Netze gebildet werden, indem immer 1
-        Bit im Netzteil hochgezählt wird. Die restlichen Bit nach dem Netzteil
-        werden komplett auf 0 gesetzt, da wir die Netzadresse suchen.
+        Durch den Netzteil können nun alle Netze gebildet werden,
+        <a class="text-red"> indem immer 1 Bit im Netzteil hochgezählt wird.</a>
+        <a class="text-green">
+          Die restlichen Bit nach dem Netzteil werden komplett auf 0 gesetzt, da
+          wir die Netzadresse suchen.</a
+        >
       </li>
       <ul>
         <li>

@@ -1,0 +1,121 @@
+<template>
+  <q-page padding>
+    <q-dialog v-model="show_img">
+      <q-img
+        :src="src + popupsrc"
+        fit="contain"
+        style="max-width: 90%; max-height: 90%; overflow-y: hidden"
+        class="bg-grey-5"
+      />
+    </q-dialog>
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+      Weitere wichtige und oft verwendete Protokolle
+    </div>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Übersicht
+    </div>
+    <ul>
+      <li class="text-weight-bolder">POP</li>
+      <ul>
+        <li>Post Office Protocol</li>
+        <li>
+          Verwendung von E-Mail Programmen zum abholen von E-Mails eines
+          E-Mail-Servers
+        </li>
+        <li>
+          z.B. POP3: Auflisten, Abholen und Löschen von E-Mails auf dem
+          Mail-Server
+        </li>
+      </ul>
+      <li class="text-weight-bolder">IMAP</li>
+      <ul>
+        <li>Internet Message Access Protocol</li>
+        <li>stellt Netzwerkdateisystem für E-Mails bereit</li>
+        <li>
+          Speichern von Mails, Ordnerstrukturen und Einstellungen auf dem
+          Mail-Server
+        </li>
+      </ul>
+      <li class="text-weight-bolder">SMTP</li>
+      <ul>
+        <li>Simple Mail Transfer Protocol</li>
+        <li>Austausch von E-Mails</li>
+        <li>Einspeisen und Weiterleiten von E-Mails</li>
+        <li>meist Port 25</li>
+      </ul>
+      <li class="text-weight-bolder">FTP</li>
+      <ul>
+        <li>File Transfer Protocol</li>
+        <li>
+          Hochladen von Dateien von einem Client zum Server, oder herunterladen
+          von Dateien vom Server
+        </li>
+        <li>
+          erlaubt Anlegen von FTP-Verzeichnissen und umbennenen von
+          Verzeichnissen und Dateien
+        </li>
+        <li>keine Verschlüsselung</li>
+        <li>Port 21 & 22</li>
+      </ul>
+      <li class="text-weight-bolder">SSH</li>
+      <ul>
+        <li>Secure Shell</li>
+        <li>lokales verfügbar machen von entfernten Kommandozeilen</li>
+        <li>Verschlüsselung der Datenübertragung</li>
+        <li>Port 22</li>
+      </ul>
+      <li class="text-weight-bolder">SFTP</li>
+      <ul>
+        <li>SSH File Transfer Protocol</li>
+        <li>Verschlüsselung von FTP mithilfe von SSH</li>
+      </ul>
+
+      <li class="text-weight-bolder">HTTP / HTTPS</li>
+      <ul>
+        <li>Hypertext Transfer Protocol</li>
+        <li>
+          Übertragung von Websiten aus dem World Wide Web auf den Webbrowser
+        </li>
+        <li>HTTP ist unverschlüsselt</li>
+        <li>
+          HTTPS = Hypertext Transfer Protocol Secure, ist verschlüsselt mit SSL
+          oder TLS (Standard TLS1.2 oder TLS1.3)
+        </li>
+        <li>
+          Port 80 für unverschlüsselte Verbindung (HTTP) und Port 443 für
+          verschlüsselte Verbindung (HTTPS)
+        </li>
+      </ul>
+    </ul>
+  </q-page>
+</template>
+
+<script lang="ts">
+import { defineComponent, ref } from 'vue';
+import { useQuasar } from 'quasar';
+
+export default defineComponent({
+  name: 'IndexPage',
+  setup() {
+    const q = useQuasar();
+    return {
+      q,
+      src: 'https://media.kurtn3x.xyz/assets',
+      show_img: ref(false),
+      popupsrc: ref(''),
+    };
+  },
+  computed: {
+    small() {
+      if (this.q.screen.width < 1024) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+  },
+});
+</script>

@@ -1,14 +1,14 @@
 <template>
-  <q-page>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+  <q-page padding>
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Die Schutzbedarfsanalyse und ihre Kategorien
     </div>
     <q-separator class="q-mt-md" />
     <ul>
       <li>
         Der mögliche Schaden wird für jedes Zielobjekt (Anwendung, Prozess)
-        ermittelt auf Basis von den Schutzzielen Vertraulichkeit, Integrität und
-        Verfügbarkeit (siehe Schutzziele).
+        ermittelt auf Basis der Schutzziele Vertraulichkeit, Integrität und
+        Verfügbarkeit.
       </li>
       <li>
         Jedem Schutzziel wird begründend eine Schutzbedarfsklasse zugeordnet.
@@ -24,7 +24,7 @@
         <li>Beeinträchtigung des informationellen Selbstbestimmungsrechts</li>
       </ul>
       <li class="text-weight-bold">
-        Beispiel: Schutzbedarfsanalys eines ActiveDirectory-Servers
+        Beispiel: Schutzbedarfsanalyse eines Active-Directory-Servers
       </li>
       <table class="tg">
         <thead>

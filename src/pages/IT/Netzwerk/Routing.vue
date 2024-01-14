@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Routing
     </div>
     <q-separator class="q-mt-md" />
@@ -23,43 +23,50 @@
         (siehe
         <a class="text-third"> Routing-Protokolle</a>)
       </li>
-      <li class="text-weight-bold">Einfaches Beispiel von Routing:</li>
+      <li>Man unterscheidet zwischen statischem und dynamischem Routing</li>
+      <uL>
+        <li class="text-weight-bolder">statisches Routing</li>
+        <ul>
+          <li>Routen werden im Vorfeld manuell konfiguriert</li>
+          <li>
+            findet Verwendung, wenn es nur eine Route oder eine bevorzugte Route
+            gibt um ein Ziel zu erreichen
+          </li>
+          <li>sinvoll für sehr kleine Netzwerke</li>
+        </ul>
+        <li class="text-weight-bolder">dynamisches Routing</li>
+        <ul>
+          <li>
+            verwenden verschiedener Protokolle, um mehrere mögliche Routen zu
+            berechnen und den besten Weg für den Datenverkehr zu finden
+          </li>
+          <li>Router passen ihre Routingtabelle dynamisch an</li>
+          <li>
+            z.B.: werden die Protokolle OSPF oder RIP für die Erzeugung
+            dynamischer Routing verwendet (<a class="text-third"
+              >siehe auch Routing-Protokolle</a
+            >)
+          </li>
+          <li>
+            findet Verwendung, wenn sich die Routen im Netzwerk häufig ändern
+          </li>
+        </ul>
+      </uL>
+      <li class="text-weight-bolder">autonomes System</li>
       <ul>
-        <q-img
-          class="fit bg-grey-5"
-          :src="src + '/Netzwerke/Routing/RoutingEinfach.png'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/Routing/RoutingEinfach.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </ul>
-      <li class="text-weight-bold q-mt-sm">Realität:</li>
-      <ul>
-        <q-img
-          style="max-width: 600px"
-          class="fit bg-grey-5"
-          :src="src + '/Netzwerke/Routing/RoutingRealitat.png'"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/Routing/RoutingRealitat.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
+        <li>
+          bezeichnet eine Menge von Routern mit einem gemeinsamen inneren
+          Gateway-Protokoll und gemeinsamen Metriken, die bestimmen, wie Pakete
+          innerhalb des autonomen Systems vermittelt werden
+        </li>
+        <li>
+          innerhalb autonomer Systeme werden Interior-Gateway-Protokolle
+          verwendet, um Routen zu bestimmen
+        </li>
+        <li>
+          zwischen autonomen Systemen werden Exterior-Gateway-Protokolle
+          verwendet, um Routen zu bestimmen
+        </li>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
@@ -69,44 +76,102 @@
       Routing-Protokolle
     </div>
     <ul>
-      <li class="text-weight-bold">IP-Routing</li>
+      <li class="text-weight-bolder">Arten von Routing-Protokollen</li>
       <ul>
-        <li>
-          Router inspiziert den Header eines Pakets um zu bestimmen, wohin es
-          gesendet werden soll
-        </li>
+        <q-separator class="q-ma-sm" inset />
+
+        <li class="text-weight-bold">Link-State-Routing-Protokolle</li>
+        <ul>
+          <li>Teile der Welt mit, wer deine Nachbarn sind</li>
+          <li>z.B. OSPF</li>
+        </ul>
+
+        <li class="text-weight-bold">Distanzvektor-Protokolle</li>
+        <ul>
+          <li>Teile deinen Nachbarn mit, wie für dich die Welt aussieht</li>
+          <li>
+            eine allgemeinere Form der Distanzverktorprotokolle sind die
+            Pfadvektorprotokolle, welche eine bessere Erkennung von Schleifen
+            dank mitführen von mehr Informationen gewährleisten. Dazu gehört
+            z.B. BGP
+          </li>
+          <li>z.B. RIP, (BGP)</li>
+        </ul>
+        <q-separator class="q-ma-sm" inset />
+        <li class="text-weight-bold">Interior Gateway Protokolle</li>
+        <ul>
+          <li>
+            Routingprotokolle, die innerhalb von autonomen Systemen eingesetzt
+            werden (Intradomain-Routing)
+          </li>
+          <li>besserer Umgang mit komplizierten Netzwerk Topologien</li>
+          <li>z.B. OSPF, IS-IS, RIP</li>
+        </ul>
+        <li class="text-weight-bold">Exterior Gateway Protokolle</li>
+        <ul>
+          <li>
+            dienen dazu, Erreichbarkeitsinformationen zwischen autonomen
+            Systemen auszutauschen, also Informationen darüber, welche Netze
+            erreichbar sind
+          </li>
+          <li>z.B. BGP</li>
+        </ul>
+        <q-separator class="q-ma-sm" inset />
       </ul>
-      <li class="text-weight-bold">BGP - Border Gateway Protocol</li>
+
+      <li class="text-weight-bolder">Beispiele von Routing-Protokollen</li>
       <ul>
-        <li>
-          wird verwendet, um anzukündigen, welche Netzwerke welche IP-Adressen
-          kontrollieren und welche Netzwerke miteinander verbunden sind
+        <li class="text-weight-bold">OSPF - Open Shortest Path First</li>
+        <ul>
+          <li>
+            wird verwendet um auf dynamische Weise die schnellsten und kürzesten
+            verfügbaren Routen für Pakete zu ihrem Ziel zu ermitteln
+          </li>
+        </ul>
+
+        <li class="text-weight-bold">
+          IS-IS - Intermediate System to Intermediate System Protocol
         </li>
-        <li>
-          Netzwerke, welche diese BGP-Ankündigungen durchführen werden auch als
-          autonome Systeme bezeichnet
-        </li>
-        <li>
-          findet zwischen Routern in meist großen, verzweigten Netzwerken statt
-        </li>
-      </ul>
-      <li class="text-weight-bold">OSPF - Open Shortest Path First</li>
-      <ul>
-        <li>
-          wird verwendet um auf dynamische Weise die schnellsten und kürzesten
-          verfügbaren Routen für Pakete zu ihrem Ziel zu ermitteln
-        </li>
-      </ul>
-      <li class="text-weight-bold">RIP - Routing Information Protocol</li>
-      <ul>
-        <li>
-          verwendet den "Hop Count" um den kürzesten Weg von einem Netzwerk zum
-          anderen zu finden
-        </li>
-        <li>
-          Der "Hop Count" gibt die Anzahl der Router an, die ein Paket auf dem
-          Weg durchlaufen muss
-        </li>
+        <ul>
+          <li>
+            nutzt den SPF (shortest-path-first) Algorithmus, um Routen zu
+            bestimmen
+          </li>
+          <li>
+            erkennt schnell Netzwerkänderungen und evaluiert, ob bei
+            Netzwerkänderungen nur teilweise Routenneuberechnungen stattfinden
+            müssen (PRC - partial route calculation) oder eine komplette
+            SPF-Neuberechnung stattfinden muss.
+          </li>
+        </ul>
+
+        <li class="text-weight-bold">BGP - Border Gateway Protocol</li>
+        <ul>
+          <li>
+            wird verwendet, um anzukündigen, welche Netzwerke welche IP-Adressen
+            kontrollieren und welche Netzwerke miteinander verbunden sind
+          </li>
+          <li>
+            Netzwerke, welche diese BGP-Ankündigungen durchführen werden auch
+            als autonome Systeme bezeichnet
+          </li>
+          <li>
+            findet zwischen Routern in meist großen, verzweigten Netzwerken
+            statt
+          </li>
+        </ul>
+
+        <li class="text-weight-bold">RIP - Routing Information Protocol</li>
+        <ul>
+          <li>
+            verwendet den "Hop Count" um den kürzesten Weg von einem Netzwerk
+            zum anderen zu finden
+          </li>
+          <li>
+            Der "Hop Count" gibt die Anzahl der Router an, die ein Paket auf dem
+            Weg zum Ziel durchlaufen muss
+          </li>
+        </ul>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
@@ -208,6 +273,26 @@
           <a class="text-weight-bold">IPv6:</a> letzten 32 Bit der Adresse in
           die MAC-Adresse 33-33-XX-XX-XX-XX eingesetzt. Auch hierbei kann es
           Überschneidungen geben.
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Unicast</li>
+      <ul>
+        <li>Adressierung einer Nachricht an einen einzelnen Empfänger</li>
+        <li>
+          IPv6 reserviert bestimmte Bereiche für Unicast-Adressen, diese dienen
+          der temporären Verbindung mit IPv4-Netzen oder der Zuordnung einzelner
+          Geräte innerhalb geschlossener Netze
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Anycast</li>
+      <ul>
+        <li>
+          eine ganze Gruppe von Rechnern nutzt eine gemeinsame Adresse, es wird
+          aber nur der Rechner mit der kürzesten Route erreicht
+        </li>
+        <li>
+          sinvoll für das Erstellen dynamischer Routen mithilfe von oben
+          genannten Routing-Protokollen (Verwendung besonders von Routern)
         </li>
       </ul>
     </ul>

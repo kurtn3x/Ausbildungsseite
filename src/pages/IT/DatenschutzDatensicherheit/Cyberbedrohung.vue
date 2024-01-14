@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Cyberbedrohungen
     </div>
     <q-separator class="q-mt-md" />
@@ -48,7 +48,7 @@
             >Botnets</a
           >)
         </li>
-        <li>Beispiel einer DDoS-Attacke über Botnets</li>
+        <li>Beispiel einer DDoS-Attacke über Botnets:</li>
         <q-img
           class="fit bg-grey-5 q-mt-md"
           :src="src + '/datenschutz/ddos.png'"
@@ -72,52 +72,56 @@
           Malware ist ein Überbegriff vieler verschiedener Schadsoftwares, dazu
           zählen:
         </li>
-        <li>
-          <a class="text-weight-bold text-blue">Viren</a> sind Schadprogramme,
-          die sich selbst verbreiten und reproduzieren. Tragen sich in Dateien
-          oder Bootsektoren ein und verbreiten sich durch infizierte Dateien
-          oder Wechselmedien. Sie nehmen schädliche Veränderungen an weiterer
-          Software vor und können teilweise auch die Hardware beschädigen.
-        </li>
-        <li>
-          <a class="text-weight-bold text-blue">Würmer</a> vervielfältigen sich
-          wie auch Viren, jedoch ohne Dateien oder Bootsektoren zu infizieren.
-          Verbreiten sich, indem sie z.B. E-Mail Programme übernehmen und
-          E-Mails mit Wurm als Anhang an alle Kontake verschicken.
-        </li>
-        <li>
-          <a class="text-weight-bold text-blue">Trojaner</a> tarnen sich als
-          nützliche Anwendung, verfüllen jedoch im Hintergrund andere
-          Funktionen. Können sich grundsätzlich nicht selbst verbreiten, z.B.
-          photoshop.exe, welche im Hintergrund Daten löscht. Dabei kann sich
-          auch für eine bessere Tarnung eine echte Photoshop-Instanz öffnen.
-        </li>
-        <li>
-          <a class="text-weight-bold text-blue">Spyware</a> ist eine Software,
-          die Daten eines Computernutzers ohne dessen Wissen an Dritte sendet,
-          z.B. ausspähen des Surfverhaltens des Nutzers, um dann gezielte
-          Popup-Werbung zu schalten.
-        </li>
-        <li>
-          <a class="text-weight-bold text-blue">Botnets</a> stellen einem
-          Angreifer die Netzwerkverbindung, Daten oder Ressourcen eines
-          Opferrechners zur Verfügung. Von dort aus nutzt der Angreifer die
-          erlangten Ressourcen, um das Botnet zu erweitern oder andere
-          Cyberattacken auszuführen, z.B. Versand von Spam-Mails vom System
-          eines Opfers aus oder DDoS-Attacken
-        </li>
-        <li>
-          <a class="text-weight-bold text-blue">Keylogger</a> überwachen die
-          Eingaben des Benutzers an der Tastatur. Durch das senden dieser Daten
-          an den Angreifer kann er so z.B. Passwörter ausspähen.
-        </li>
-        <li>
-          <a class="text-weight-bold text-blue">Rootkits</a> sind
-          Softwarewerkzeuge, die nach Eindrigen auf das Opfersystem installiert
-          werden und von dort die zukünftigen Anmeldeversuche eines Angreifers
-          oder auch Dateien und Prozesse verbergen. Zweck ist unter anderem
-          andere Schadprogramme vor Antivirenprogrammen zu verbergen.
-        </li>
+        <ul>
+          <li>
+            <a class="text-weight-bold text-blue">Viren</a> sind Schadprogramme,
+            die sich selbst verbreiten und reproduzieren. Tragen sich in Dateien
+            oder Bootsektoren ein und verbreiten sich durch infizierte Dateien
+            oder Wechselmedien. Sie nehmen schädliche Veränderungen an weiterer
+            Software vor und können teilweise auch die Hardware beschädigen.
+          </li>
+          <li>
+            <a class="text-weight-bold text-blue">Würmer</a> vervielfältigen
+            sich wie auch Viren, jedoch ohne Dateien oder Bootsektoren zu
+            infizieren. Verbreiten sich, indem sie z.B. E-Mail Programme
+            übernehmen und E-Mails mit Wurm als Anhang an alle Kontake
+            verschicken.
+          </li>
+          <li>
+            <a class="text-weight-bold text-blue">Trojaner</a> tarnen sich als
+            nützliche Anwendung, verfüllen jedoch im Hintergrund andere
+            Funktionen. Können sich grundsätzlich nicht selbst verbreiten, z.B.
+            photoshop.exe, welche im Hintergrund Daten löscht. Dabei kann sich
+            auch für eine bessere Tarnung eine echte Photoshop-Instanz öffnen.
+          </li>
+          <li>
+            <a class="text-weight-bold text-blue">Spyware</a> ist eine Software,
+            die Daten eines Computernutzers ohne dessen Wissen an Dritte sendet,
+            z.B. Ausspähen des Surfverhaltens des Nutzers, um dann gezielte
+            Popup-Werbung zu schalten.
+          </li>
+          <li>
+            <a class="text-weight-bold text-blue">Botnets</a> stellen einem
+            Angreifer die Netzwerkverbindung, Daten oder Ressourcen eines
+            Opferrechners zur Verfügung. Von dort aus nutzt der Angreifer die
+            erlangten Ressourcen, um das Botnet zu erweitern oder andere
+            Cyberattacken auszuführen, z.B. Versand von Spam-Mails vom System
+            eines Opfers aus oder DDoS-Attacken
+          </li>
+          <li>
+            <a class="text-weight-bold text-blue">Keylogger</a> überwachen die
+            Eingaben des Benutzers an der Tastatur. Durch das senden dieser
+            Daten an den Angreifer kann er so z.B. Passwörter ausspähen.
+          </li>
+          <li>
+            <a class="text-weight-bold text-blue">Rootkits</a> sind
+            Softwarewerkzeuge, die nach Eindrigen auf das Opfersystem
+            installiert werden und von dort die zukünftigen Anmeldeversuche
+            eines Angreifers oder auch Dateien und Prozesse verbergen. Zweck ist
+            unter anderem andere Schadprogramme vor Antivirenprogrammen zu
+            verbergen.
+          </li>
+        </ul>
       </ul>
       <li class="text-weight-bolder">Man-in-the-Middle-Angriff</li>
       <ul>

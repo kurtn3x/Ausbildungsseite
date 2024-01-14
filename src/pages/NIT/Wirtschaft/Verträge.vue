@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Verträge und Vertragsarten
     </div>
     <q-separator class="q-mt-md" />
@@ -99,11 +99,11 @@
       <div class="row justify-center">
         <q-img
           class="fit bg-grey-5 q-mt-md"
-          :src="src + '/serviceanfragen/factoringvertrag.png'"
+          :src="src + '/serviceanfragen/factoringvertrag.jpg'"
           style="max-width: 600px"
           @click="
             show_img = true;
-            popupsrc = '/serviceanfragen/factoringvertrag.png';
+            popupsrc = '/serviceanfragen/factoringvertrag.jpg';
           "
         >
           <div
@@ -145,7 +145,7 @@
     <q-separator class="q-mt-md" />
     <div class="text-subtitle2 text-grey font-size-small">
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
-      https://commons.wikimedia.org/wiki/File:Factoring-de.svg<br />
+      https://www.bommi2000.de/wirtkunde/e2_lernfeld06_2.jpg<br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
   </q-page>

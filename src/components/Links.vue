@@ -290,6 +290,15 @@
             rounded
             align="left"
           />
+          <q-btn
+            dense
+            flat
+            to="/netzwerk/weitere-netzwerkarten"
+            label="Weitere Netzwerkarten"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
         </div>
       </q-expansion-item>
       <q-expansion-item
@@ -451,6 +460,15 @@
             rounded
             align="left"
           />
+          <q-btn
+            dense
+            flat
+            to="/netzwerk/protokolle"
+            label="Weitere Protokolle"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+          />
         </div>
       </q-expansion-item>
       <q-btn
@@ -548,46 +566,15 @@
           />
         </div>
       </q-expansion-item>
-      <q-expansion-item
+      <q-btn
         dense
-        dense-toggle
-        expand-separator
+        flat
+        to="/datenschutz-datensicherheit/schutzziele"
         label="Verschlüsselung"
-        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
-        class="q-mt-xs"
+        class="full-width q-mt-xs"
+        rounded
         align="left"
-        :content-inset-level="0.4"
-      >
-        <div class="q-ma-xs">
-          <q-btn
-            dense
-            flat
-            to="/datenschutz-datensicherheit/schutzziele"
-            label="Verschlüsselungsmethoden"
-            class="full-width q-mt-xs"
-            rounded
-            align="left"
-          />
-          <q-btn
-            dense
-            flat
-            to="/datenschutz-datensicherheit/schutzziele"
-            label="SSL & TLS"
-            class="full-width q-mt-xs"
-            rounded
-            align="left"
-          />
-          <q-btn
-            dense
-            flat
-            to="/datenschutz-datensicherheit/schutzziele"
-            label="Hashing"
-            class="full-width q-mt-xs"
-            rounded
-            align="left"
-          />
-        </div>
-      </q-expansion-item>
+      />
     </div>
   </q-expansion-item>
   <q-expansion-item
@@ -630,6 +617,80 @@
         flat
         to="/rechnungen/anderes"
         label="Andere Berechnungen"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+    </div>
+  </q-expansion-item>
+  <q-expansion-item
+    dense-toggle
+    label="Programmierung"
+    header-class="bg-primary text-white text-body1"
+    expand-icon-class="text-white"
+    :content-inset-level="0.2"
+  >
+    <div class="q-ma-xs">
+      <q-btn
+        dense
+        flat
+        to="/programmierung/uml"
+        label="UML-Diagramme"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/programmierung/ablaufdiagramme"
+        label="Ablaufdiagramme"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+    </div>
+  </q-expansion-item>
+  <q-expansion-item
+    dense-toggle
+    label="Datenbanken"
+    header-class="bg-primary text-white text-body1"
+    expand-icon-class="text-white"
+    :content-inset-level="0.2"
+  >
+    <div class="q-ma-xs">
+      <q-btn
+        dense
+        flat
+        to="/datenbanken/arten"
+        label="Arten von Datenbanken"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/datenbanken/erm"
+        label="Entity-Relationship-Modell"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/datenbanken/normalisierung"
+        label="Normalisierung"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/datenbanken/sql"
+        label="SQL-Befehle"
         class="full-width q-mt-xs"
         rounded
         align="left"

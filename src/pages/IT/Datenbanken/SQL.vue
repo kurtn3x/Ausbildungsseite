@@ -1,10 +1,15 @@
 <template>
-  <q-page>
-    <div class="text-center text-h4 text-weight-bolder q-mt-md text-secondary">
-      Hauptthemaaaaaaaaaaaaa
-    </div>
-    <div class="text-center q-mt-lg text-h5 text-weight-bold text-primary">
-      Nebenthemaaaaaaaaaaaa
+  <q-page padding>
+    <q-dialog v-model="show_img">
+      <q-img
+        :src="src + popupsrc"
+        fit="contain"
+        style="max-width: 90%; max-height: 90%; overflow-y: hidden"
+        class="bg-grey-5"
+      />
+    </q-dialog>
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+      SQL-Befehle
     </div>
     <q-separator class="q-mt-md" />
     <div
@@ -20,10 +25,15 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'SQLPage',
   setup() {
     const q = useQuasar();
-    return { q, src: 'https://media.kurtn3x.xyz/assets' };
+    return {
+      q,
+      src: 'https://media.kurtn3x.xyz/assets',
+      show_img: ref(false),
+      popupsrc: ref(''),
+    };
   },
   computed: {
     small() {

@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       RAID & Storage
     </div>
     <q-separator class="q-mt-md" />
@@ -262,8 +262,6 @@
       <br />
       https://commons.wikimedia.org/wiki/File:RAID_5.svg <br />
       https://commons.wikimedia.org/wiki/File:JBOD.svg <br />
-      https://medium.com/teamresellerclub/what-is-the-difference-between-san-and-nas-storage-9e5d0b0b94b2
-      <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
   </q-page>

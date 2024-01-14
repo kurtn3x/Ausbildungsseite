@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Netzwerk-Hardware
     </div>
     <q-separator class="q-mt-md" />
@@ -89,6 +89,79 @@
           <li>keine begrenzte Anzahl an Switches</li>
           <li>jeder Switch hat eigene MAC-Adresse</li>
         </ul>
+        <li class="text-weight-bold">managed vs unmanaged Switch</li>
+        <ul>
+          <li>
+            <a class="text-weight-bold">Unmanaged Switches</a> sind direkt nach
+            dem Anschluss funktionsfähig und benötigen keine Konfiguration.
+            Funktion ist die grundlegende Konnektivität.
+          </li>
+          <li>
+            <a class="text-weight-bold">Managed Switches</a> stellen den
+            umfassenden Funktionsumfang eines Switches bereit und erlauben somit
+            die höchste Sicherheit, Kontrolle und Verwaltung des Netzwerks.
+            Managed Switches müssen nicht unbedingt konfiguriert werden,
+            funktionieren meist aber ohne Konfiguration nur so wie ein unmanaged
+            Switch. Daher ist bei managed Switches eine Konfiguration
+            vorgesehen.
+          </li>
+        </ul>
+        <li class="text-weight-bold">
+          Core-, Distribution- und Access-Switches
+        </li>
+        <ul>
+          <li class="text-weight-bolder">Core-Switches</li>
+          <ul>
+            <li>
+              leistungsfähige Switches die das Rückgrat (Backbone) eines Netzes
+              bilden
+            </li>
+            <li>hohe Durchsatzraten, Leistung und Zuverlässigkeit</li>
+            <li>
+              Redundanz sehr wichtig, da bei Ausfall des Core-Switches das
+              gesamte Netzwerk betroffen ist
+            </li>
+            <li>leiten Pakete an Distribution-Switches weiter</li>
+          </ul>
+          <li class="text-weight-bolder">Distribution-Switches</li>
+          <ul>
+            <li>Verteilung von Datenpaketen</li>
+            <li>
+              sorgen dafür, dass das Netzwerk nicht mit Datenpaketen überfüllt
+              wird
+            </li>
+            <li>
+              leiten Pakete an Access-Switches oder andere Access-Geräte weiter
+            </li>
+          </ul>
+          <li class="text-weight-bolder">Access-Switches</li>
+          <ul>
+            <li>direkt mit Subnets verbunden</li>
+            <li>Layer 3 switches mit Routingfunktionen</li>
+            <li>leiten Pakete an das addressierte Gerät weiter</li>
+          </ul>
+          <q-img
+            class="bg-grey-5"
+            :src="src + '/Netzwerke/coreswitch.webp'"
+            style="max-width: 600px"
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/coreswitch.webp';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+
         <li class="text-weight-bold">AutoUplink (MDI/MDI-X)</li>
         <ul>
           <li>
@@ -216,6 +289,8 @@
     <q-separator class="q-mt-md" />
     <div class="text-subtitle2 text-grey font-size-small">
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://www.fibermall.com/blog/wp-content/uploads/2022/06/different-layers-of-the-network.jpg
+      <br />
       https://heinen-elektronik.de/wp-content/uploads/2023/02/Simplex_duplex.png
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

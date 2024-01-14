@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       Der PDCA-Zyklus (KVP)
     </div>
     <q-separator class="q-mt-md" />
@@ -16,6 +16,9 @@
     <ul>
       <li>
         oft auch als KVP (kontinuierlicher Verbesserungsprozess) bezeichnet
+      </li>
+      <li>
+        dient der Weiterentwicklung von Prdukten und der Fehler-Ursache-Analyse
       </li>
 
       <q-img
@@ -37,16 +40,21 @@
     </ul>
     <ul>
       <li>
-        <a class="text-weight-bolder">PLAN: </a>Planung von Sicherheitsmaßnahmen
-      </li>
-      <li><a class="text-weight-bolder">DO: </a>Umsetzung der Maßnahmen</li>
-      <li>
-        <a class="text-weight-bolder">CHECK: </a>Erfolgskontrolle, Überwachung
-        der Zielerreichung
+        <a class="text-weight-bolder">PLAN: </a>Planen: Welches Problem muss
+        gelöst werden? Welche Ressourcen brauchen/haben wir? Was ist das Ziel?
       </li>
       <li>
-        <a class="text-weight-bolder">ACT: </a>Beseitigung von Defiziten,
-        Verbesserung
+        <a class="text-weight-bolder">DO: </a>Umsetzung: Umsetzung von all dem,
+        was geplant wurde.
+      </li>
+      <li>
+        <a class="text-weight-bolder">CHECK: </a>Überprüfen: Erfolgskontrolle,
+        Überwachung der Zielerreichung. Wurde der ursprüngliche Plan umgesetzt?
+        Was ist schiefgelaufen? Was war die Ursache für die Probleme?
+      </li>
+      <li>
+        <a class="text-weight-bolder">ACT: </a>Handeln, Beseitigung von
+        Defiziten, Verbesserung. Reagieren auf die Ergebnisse.
       </li>
     </ul>
 

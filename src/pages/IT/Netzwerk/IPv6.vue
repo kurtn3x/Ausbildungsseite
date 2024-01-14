@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <q-dialog v-model="show_img">
       <q-img
         :src="src + popupsrc"
@@ -8,7 +8,7 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-lg text-h4 text-weight-bold text-primary">
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
       IPv6
     </div>
     <q-separator class="q-mt-md" />
@@ -49,15 +49,16 @@
     <ul>
       <li class="text-weight-bolder">IPv6-Adressen können gekürzt werden</li>
       <ul>
-        <li>
-          <a class="text-weight-bold">Beispiel:</a> 2001:0db8<a class="text-red"
-            >:0000:</a
-          >08d3<a class="text-red">:0020:</a>8a2e:0070:7344
-        </li>
         <li>führende Nullen können ausgelassen werden</li>
         <ul>
           <li>
-            Beispiel: 2001:db8<a class="text-red">:0:</a>8d3<a class="text-red"
+            <a class="text-weight-bold">Beispiel:</a> 2001:0db8<a
+              class="text-red"
+              >:0000:</a
+            >08d3<a class="text-red">:0020:</a>8a2e:0070:7344
+          </li>
+          <li>
+            wird zu: 2001:db8<a class="text-red">:0:</a>8d3<a class="text-red"
               >:20:</a
             >8a2e:70:7344
           </li>
