@@ -171,12 +171,9 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Programmierung/UML.vue'),
       },
       {
-        path: 'sql',
-        component: () => import('pages/IT/Programmierung/SQL.vue'),
-      },
-      {
-        path: 'arten',
-        component: () => import('pages/IT/Programmierung/Arten.vue'),
+        path: 'interpreter-compiler',
+        component: () =>
+          import('pages/IT/Programmierung/InterpreterCompiler.vue'),
       },
     ],
   },
