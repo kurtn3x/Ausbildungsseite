@@ -10,9 +10,10 @@
         werden, zu beachten gilt
       </li>
       <ul>
-        <li class="text-purple text-weight-bold">8 Bit = 1 Byte</li>
-        <li>Unterschied Bit und Byte beachten</li>
-        <li>Beispiel:</li>
+        <li>
+          Unterschied Bit und Byte beachten,
+          <a class="text-purple text-weight-bold">8 Bit = 1 Byte</a>
+        </li>
         <ul>
           <li>KB - Kilobyte</li>
           <li>Kbit - Kilobit → 800Kbit = 100KB</li>
@@ -25,49 +26,48 @@
           Es gibt zwei Formen der Speichergrößenangabe:
           <a class="text-weight-bolder text-red">2er-Potenzen (*1024)</a> und
           <a class="text-weight-bolder text-green"> 10er-Potenzen (*1000)</a>.
-          2er-Potenzen sind durch ein ' i ' in der in der Abkürzung zu erkennen.
         </li>
         <ul>
           <li>
-            1 KiB = Kibibyte = 2er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-red">KiB</a> = Kibi<a class="text-purple">byte</a>
+            = 2er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-red">1024</a> = 8192 Bit
           </li>
           <li>
-            1 KB = Kilobyte = 10er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-green">KB</a> = Kilo<a class="text-purple">byte</a>
+            = 10er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-green">1000</a> = 8000 Bit
           </li>
           <li>
-            1 MiB = Mebibyte = 2er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-red">MiB</a> = Mebi<a class="text-purple">byte</a>
+            = 2er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-red">1024</a> *
             <a class="text-weight-bolder text-red">1024</a> = 8.388.608 Bit
           </li>
           <li>
-            1 MB = Megabyte = 10er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-green">MB</a> = Mega<a class="text-purple">byte</a>
+            = 10er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-green">1000</a> *
             <a class="text-weight-bolder text-green">1000</a> = 8.000.000 Bit
           </li>
           <li>
-            1 GiB = Gibibyte = 2er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-red">GiB</a> = Gibi<a class="text-purple">byte</a>
+            = 2er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-red">1024</a> *
             <a class="text-weight-bolder text-red">1024</a>
             *
             <a class="text-weight-bolder text-red">1024</a> Bit
           </li>
           <li>
-            1 GB = Gigabyte = 10er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-green">GB</a> = Giga<a class="text-purple">byte</a>
+            = 10er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-green">1000</a> *
             <a class="text-weight-bolder text-green">1000</a>*
             <a class="text-weight-bolder text-green">1000</a> Bit
           </li>
           <li>
-            1 TiB = Tebibyte = 2er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-red">TiB</a> = Tebi<a class="text-purple">byte</a>
+            = 2er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-red">1024</a> *
             <a class="text-weight-bolder text-red">1024</a>
             *
@@ -76,8 +76,10 @@
             <a class="text-weight-bolder text-red">1024</a> Bit
           </li>
           <li>
-            1 TB = Terrabyte = 10er-Potenz = 1 *
-            <a class="text-purple text-weight-bold">8</a> *
+            1 <a class="text-green">TB</a> = Terra<a class="text-purple"
+              >byte</a
+            >
+            = 10er-Potenz = 1 * <a class="text-purple text-weight-bold">8</a> *
             <a class="text-weight-bolder text-green">1000</a> *
             <a class="text-weight-bolder text-green">1000</a>*
             <a class="text-weight-bolder text-green">1000</a>

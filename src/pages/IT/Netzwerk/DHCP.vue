@@ -14,6 +14,9 @@
     <q-separator class="q-mt-md" />
     <ul>
       <li>Automatisches Zuordnen von IP-Adressen über das DHCP Protokoll</li>
+      <li>
+        DHCP verwendet Port 67 auf Serverseite und Port 68 auf Clientseite
+      </li>
       <li><a class="text-weight-bold">3 Modi:</a></li>
       <ul>
         <li>Statisches DHCP: feste Zuordnung von MAC-Adresse und IP</li>

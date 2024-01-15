@@ -24,7 +24,7 @@
       </li>
       <li class="text-weight-bolder">Kennzeichen:</li>
       <ul>
-        <li>werden vom Kunden beauftragt -> Lastenheft</li>
+        <li>werden vom Kunden beauftragt → Lastenheft</li>
         <li>Auftragnehmer erstellt auf dessen Grundlage das Pflichtenheft</li>
         <li>Eigene organisatorische Struktur</li>
         <li>Projekte sind abrechenbar</li>
@@ -75,13 +75,13 @@
         </li>
         <li>
           Umfang hat Auswirkung auf Kosten und Zeit, z.B. Stakeholder fordert
-          neue Funktion für das Projekt -> Zeit erhöht sich, da Funktion
+          neue Funktion für das Projekt → Zeit erhöht sich, da Funktion
           erarbeitet werden muss, Kosten erhöhen sich durch Mitarbeiterkosten
         </li>
       </ul>
       <li class="text-weight-bolder">Zeit</li>
       <ul>
-        <li>Projektzeit -> Projektstart und -ende</li>
+        <li>Projektzeit → Projektstart und -ende</li>
         <li>
           Zeitmanagement wichtig (Abhängigkeiten von Funktionen und Reihenfolge
           festlegen)
@@ -99,7 +99,7 @@
         </li>
         <li>z.B. Gehälter, Ausrüstung, Werkzeuge, Räume, ...</li>
         <li>
-          z.B. Einsetzung von Leiharbeitern -> Projektkosten steigen wenn sich
+          z.B. Einsetzung von Leiharbeitern → Projektkosten steigen wenn sich
           Projektzeitraum verlängert
         </li>
         <li>Reduzierung von Kosten fordert meist eine längere Projektdauer</li>

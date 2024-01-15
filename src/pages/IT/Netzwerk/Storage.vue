@@ -18,7 +18,7 @@
       DAS - Direct Attached Storage
     </div>
     <ul>
-      <li>eine Festplatte, die mit einem Server direkt verbunden ist</li>
+      <li>eine Festplatte, die direkt mit einem Server verbunden ist</li>
       <li>Server kontrolliert Zugriff auf Speicherplatz</li>
       <li>
         Andere können über Benutzerrichtlichen oder Freigaben Zugriff auf den
@@ -63,7 +63,7 @@
       <li>zentral verwaltet und zu virtuellen Einheiten zusammengefasst</li>
       <li>
         Zugriff auf Speicher erfolgt über die Server, die für die Verwaltung der
-        Laufwerke zuständig ist
+        Laufwerke zuständig sind
       </li>
       <li>
         Ziel ist auch die Zusammenfassung einzelner Festplatten, damit der

@@ -45,7 +45,8 @@
         diese Bits in der Subnetzmaske auf 1 gesetzt sind.
       </li>
       <li class="text-green">
-        Alle Bits nach den ersten 3 gehören demnach zum Clientteil.
+        Alle Bits nach den ersten 3 gehören demnach zum Clientteil bzw.
+        Hostteil.
       </li>
       <li class="text-weight-bold">
         Die Netzadresse für das Netz, zu welchem die IP 176.255.13.22 gehört,
@@ -180,8 +181,8 @@
           1 Bit im Netzteil hochgezählt wird.
         </a>
         <a class="text-green">
-          Um die Netzadresse zu finden, werden alle Bits im Clientteil auf 0
-          gesetzt.</a
+          Um die Netzadresse zu finden, werden alle Bits im Clientteil bzw.
+          Hostteil auf 0 gesetzt.</a
         >
       </li>
       <ul>
@@ -224,7 +225,8 @@
       </ul>
       <li>
         Die Broadcastadresse kann z.B. dazubestimmt werden, indem man den
-        <a class="text-green">Clientteil</a> komplett auf 1 setzt. (Siehe auch
+        <a class="text-green">Clientteil bzw. Hostteil</a> komplett auf 1 setzt.
+        (Siehe auch
         <a class="text-third">
           Bestimmen von Adressen innerhalb eines Subnets </a
         >)

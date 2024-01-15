@@ -143,8 +143,9 @@
       <li class="text-weight-bolder">Aufbau des Ethernet-Headers:</li>
       <ul>
         <li>
-          Präambel und SFD entfallen, da Layer-1-Inhalte sind und daher bereits
-          früh von z.B. Netzwerkfirmware aussortiert werden
+          Präambel, SFD und Interpacket Gap entfallen, da es Layer-1-Inhalte
+          sind und daher bereits früh von z.B. Netzwerkfirmware aussortiert
+          werden
         </li>
         <li>
           die FCS entfällt, da sie von Wireshark automatisch aussortiert wird
@@ -185,6 +186,11 @@
             Ethernet-Type (2 Byte): 08 00 = IPv4 (z.B.: IPv6 = 86 DD)
           </li>
         </ul>
+        <li>
+          Außerdem werden am Ende des Datenpakets noch Padding-Bits gesetzt, um
+          die Mindestgröße von 64 Byte des Ethernet-Datenpakets zu gewährleisten
+          (00 00 00 00 00 00)
+        </li>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
@@ -216,20 +222,56 @@
       <li class="q-mt-sm text-weight-bolder">Auswerten des Beispiel-Headers</li>
       <ul>
         <li>
-          IPv4-Header: <a class="text-purple">4</a>5 00
-          <a class="text-pink">00 28</a> 69 cc 40 00
-          <a class="text-teal">f2</a> <a class="text-lime">06</a> 77 86
+          IPv4-Header: <a class="text-purple">4</a
+          ><a class="text-light-blue">5</a> 00 <a class="text-pink">00 28</a> 69
+          cc 40 00 <a class="text-teal">f2</a> <a class="text-lime">06</a> 77 86
           <a class="text-red">22 ce c1 90</a>
           <a class="text-green"> c0 a8 02 76</a>
         </li>
         <li>Wichtige Teile des IPv4-Headers:</li>
         <ul>
           <li class="text-purple">Version: 4 (IPv4)</li>
-          <li class="text-pink">Total Length: 00 28 (40)</li>
-          <li class="text-teal">Time to Live: f2 (242)</li>
-          <li class="text-teal">Protocol: 06 (TCP)</li>
-          <li class="text-red">Quell-Adresse: 22 ce c1 90 (34.206.193.144)</li>
-          <li class="text-green">Ziel-Adresse: c0 a8 02 76 (192.168.2.118)</li>
+          <ul>
+            <li>derzeit nur Version 4 und Version 6</li>
+          </ul>
+          <li class="text-light-blue">IHL - Internet Header Length: 5</li>
+          <ul>
+            <li>als vielfaches von 32 Bit (5*32 = 160 Bit = 20 Byte)</li>
+            <li>gibt die gesamte Länge des IPv4-Headers an</li>
+          </ul>
+          <li class="text-pink">Total Length: 00 28</li>
+          <ul>
+            <li>00 28 = 40</li>
+            <li>
+              gibt die Länge des gesamten Pakets inklusive Kopfdaten in Byte an
+            </li>
+          </ul>
+          <li class="text-teal">Time to Live: f2</li>
+          <ul>
+            <li>f2 = 242</li>
+            <li>gibt die Lebensdauer des Pakets an</li>
+            <li>
+              Wird initial gesetzt und danach von jedem Router, durch welches
+              das Paket reist um 1 reduziert
+            </li>
+            <li>wenn 0 erreicht wird, wird das Paket verworfen</li>
+            <li>soll ewiges weiterleiten von Paketen oder Loops verhindern</li>
+          </ul>
+          <li class="text-teal">Protocol: 06</li>
+          <ul>
+            <li>= TCP</li>
+            <li>
+              bezeichnet das Folgeprotokoll, z.B. 06 für TCP oder 17 für UDP
+            </li>
+          </ul>
+          <li class="text-red">Quell-Adresse: 22 ce c1 90</li>
+          <ul>
+            <li>34.206.193.144</li>
+          </ul>
+          <li class="text-green">Ziel-Adresse: c0 a8 02 76</li>
+          <ul>
+            <li>192.168.2.118</li>
+          </ul>
         </ul>
       </ul>
     </ul>
@@ -263,13 +305,25 @@
       <ul>
         <li>
           TCP-Header: <a class="text-red">01 bb</a>
-          <a class="text-green"> 0e 07</a> 8f 83 c0 67 48 4a c7 19 50 10 00 ca
-          98 7c 00 00
+          <a class="text-green"> 0e 07</a> 8f 83 c0 67 48 4a c7 19
+          <a class="text-light-blue">5</a>0 10 00 ca 98 7c 00 00
         </li>
         <li>Wichtige Teile des TCP-Headers:</li>
         <ul>
-          <li class="text-red">Quell-Port: 443</li>
-          <li class="text-green">Ziel-Port: 3591</li>
+          <li class="text-red">Quell-Port: 01 bb</li>
+          <ul>
+            <li>= 443 (HTTPS)</li>
+          </ul>
+          <li class="text-green">Ziel-Port: 0e 07</li>
+          <ul>
+            <li>= 3591 (User-Port)</li>
+          </ul>
+          <li class="text-light-blue">Data Offset: 5</li>
+          <ul>
+            <li>als vielfaches von 32 Bit (5*32 = 160 Bit = 20 Byte)</li>
+            <li>gesamte Länge des TCP-Headers</li>
+          </ul>
+          <ul></ul>
         </ul>
       </ul>
     </ul>

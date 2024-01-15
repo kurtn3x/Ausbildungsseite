@@ -21,7 +21,7 @@
       <li>VLAN ist ein logisches Teilnetzwerk eines physischen Netzes</li>
       <li>Kann sich über mehrere Switches hinweg ausdehnen</li>
       <li>jedes VLAN bildet eine eigene Broadcast-Domain</li>
-      <li class="text-weight-bold">Gründe für VLANs:</li>
+      <li class="text-weight-bold text-green">Gründe für VLANs:</li>
       <ul>
         <li>
           <a class="text-weight-bold">Sicherheitsgründe: </a>Da die Datenströme

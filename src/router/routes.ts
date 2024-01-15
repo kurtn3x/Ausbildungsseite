@@ -171,9 +171,9 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Programmierung/UML.vue'),
       },
       {
-        path: 'interpreter-compiler',
+        path: 'compiler-interpreter',
         component: () =>
-          import('pages/IT/Programmierung/InterpreterCompiler.vue'),
+          import('pages/IT/Programmierung/CompilerInterpreter.vue'),
       },
     ],
   },

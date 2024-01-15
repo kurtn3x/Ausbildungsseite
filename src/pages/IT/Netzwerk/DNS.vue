@@ -17,27 +17,34 @@
         Übersetzt Menschenlesbare Namen wie www.google.de in IP-Adressen, welche
         der Computer verwenden kann
       </li>
-      <li><a class="text-weight-bolder">Authoritative DNS:</a></li>
+      <li>DNS verwendet Port 53 auf Serverseite</li>
+      <li>man unterscheidet zwischen einem autoritativen und rekursiven DNS</li>
       <ul>
+        <li><a class="text-weight-bolder">Autoritatives DNS:</a></li>
+        <ul>
+          <li>
+            Bietet Aktualisierungsmechanismus, welcher die öffentlichen
+            DNS-Namen verwaltet
+          </li>
+          <li>Antwortet auch rekursiven DNS-Servern</li>
+        </ul>
         <li>
-          Bietet Aktualisierungsmechanismus, welcher die öffentlichen DNS-Namen
-          verwaltet
+          <a class="text-weight-bolder"
+            >Rekursives DNS (auch Resolver genannt):</a
+          >
         </li>
-        <li>Antwortet auch rekursiven DNS-Servern</li>
-      </ul>
-      <li><a class="text-weight-bolder">Recursive DNS:</a></li>
-      <ul>
-        <li>Normalerweise erster Ansprechpunkt für Clients</li>
-        <li>Auch Resolver genannt</li>
-        <li>
-          Handelt als vermittler zwischen Client und autorativen DNS-Servern,
-          kann auch Anfragen direkt beantworten, falls sie im Cache gespeichert
-          sind
-        </li>
-        <li>
-          Falls Anfragen nicht im Cache sind, leitet er sie an einen oder
-          mehrere autorative DNS-Server weiter
-        </li>
+        <ul>
+          <li>Normalerweise erster Ansprechpunkt für Clients</li>
+          <li>
+            Handelt als vermittler zwischen Client und autorativen DNS-Servern,
+            kann auch Anfragen direkt beantworten, falls sie im Cache
+            gespeichert sind
+          </li>
+          <li>
+            Falls Anfragen nicht im Cache sind, leitet er sie an einen oder
+            mehrere autorative DNS-Server weiter
+          </li>
+        </ul>
       </ul>
       <li><a class="text-weight-bolder">DNS Anfrage - Beispiel</a></li>
       <q-img

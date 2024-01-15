@@ -12,6 +12,12 @@
       Binär-, Dezimal-, und Hexadezimalumrechnungen sowie Berechnungen
     </div>
     <q-separator class="q-mt-md" />
+    <ul>
+      <li>Es gibt viele verschiedene Wege und Methoden zur Umrechnung.</li>
+      <li>Nur meine Präferenzen.</li>
+    </ul>
+    <q-separator class="q-mt-md" />
+
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
@@ -126,6 +132,8 @@
         <li>z.B. 1100 0001 → 128 + 64 + 0 + 0 + 0 + 0 + 0 + 1 = 193</li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
@@ -195,6 +203,8 @@
         </li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >

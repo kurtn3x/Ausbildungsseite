@@ -209,7 +209,7 @@
         </li>
       </ul>
       <li class="text-weight-bolder q-mt-md">
-        Limited Broadcast und Direct Broadcast
+        Limited Broadcast und Directed Broadcast
       </li>
       <ul>
         <li class="text-weight-bold">
@@ -239,8 +239,10 @@
             Limited Broadcast
           </li>
           <li>
-            Mittlerweile sollen Router nicht mehr Direct Broadcasts
-            weiterleiten.
+            Viele Router sind mittlerweile standardmäßig so eingestellt, das
+            Directed-Broadcasts nicht weitergeleitet werden. Generell sollen
+            Directed-Broadcasts nicht mehr weitergeleitet werden, da sie
+            Sicherheitsprobleme wie z.B. DoS-Attacken mit sich bringen.
           </li>
         </ul>
       </ul>
@@ -252,11 +254,7 @@
           Datenübertragungsrate beim Sender mit der Zahl der Empfänger erhöht
         </li>
         <li>
-          Sollte im Normalfall immer der Router sein, der Traffic ins Internet
-          ermöglicht.
-        </li>
-        <li>
-          unterschied zu Broadcast: Beim Multicast ist eine Anmeldung beim
+          Unterschied zu Broadcast: Beim Multicast ist eine Anmeldung beim
           Sender erforderlich, beim Broadcast erhält jeder, der die Nachricht
           empfangen kann die Nachricht
         </li>

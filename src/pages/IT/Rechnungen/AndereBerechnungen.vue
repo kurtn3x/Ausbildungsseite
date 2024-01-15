@@ -1,13 +1,15 @@
 <template>
   <q-page padding>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Andere Berechnungen (Pixel, DPI, ...)
+      Andere Berechnungen
     </div>
     <q-separator class="q-mt-md" />
     <ul>
-      <li class="text-weight-bolder">DPI</li>
+      <li class="text-weight-bolder">
+        Berechnung der Anzahl von Pixeln mit Angabe einer Fläche und DPI
+      </li>
       <ul>
-        <li>= Dots per Inch → 1 Inch = 2,54cm</li>
+        <li>DPI = Dots per Inch → 1 Inch = 2,54cm</li>
         <li>
           z.B. gegebene Fläche 50,8cm x 63,5 cm mit einer Auflösung von
           500x500DPI
@@ -22,7 +24,8 @@
         </ul>
       </ul>
       <li class="text-weight-bolder">
-        Berechnen der Speichergröße mit einer gegebenen Farbtiefe
+        Berechnen der Speichergröße mit einer Anzahl von Pixeln und Farbtiefe
+        der Pixel
       </li>
       <ul>
         <li>

@@ -69,6 +69,11 @@
       <li>ARP-Request an "FF-FF-FF-FF-FF-FF" -> 'MAC-Broadcast'</li>
       <li>Daten werden in einem lokalen ARP-Cache gespeichert</li>
     </ul>
+    <div class="text-subtitle2 text-grey font-size-small">
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://de.m.wikipedia.org/wiki/Datei:Ethernet_frame.svg <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
+    </div>
   </q-page>
 </template>
 

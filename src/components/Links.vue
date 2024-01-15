@@ -634,6 +634,15 @@
       <q-btn
         dense
         flat
+        to="/programmierung/compiler-interpreter"
+        label="Compiler und Interpreter"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
         to="/programmierung/uml"
         label="UML-Diagramme"
         class="full-width q-mt-xs"

@@ -18,8 +18,8 @@
           <tr>
             <th><a class="text-weight-bold">Skizze</a></th>
             <th><a class="text-weight-bold">Topologie</a></th>
-            <th><a class="text-weight-bold">Vorteile</a></th>
-            <th><a class="text-weight-bold">Nachteile</a></th>
+            <th><a class="text-weight-bold text-green">Vorteile</a></th>
+            <th><a class="text-weight-bold text-red">Nachteile</a></th>
           </tr>
         </thead>
         <tbody>
@@ -206,7 +206,7 @@ export default defineComponent({
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
-  table-layout: fixed;
+  table-layout: auto;
   max-width: 100%;
 }
 .tg td {

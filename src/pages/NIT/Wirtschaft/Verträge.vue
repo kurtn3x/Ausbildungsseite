@@ -29,7 +29,7 @@
           Versicherung der Sache möglich
         </li>
         <li>z.B. Auto, Produktionsanlage, IT-Geräte</li>
-        <li class="text-weight-bold">Vorteile</li>
+        <li class="text-weight-bold text-green">Vorteile</li>
         <ul>
           <li>
             steuerliche Vorteile (Leasingraten als Betriebs- ausgaben voll
@@ -41,7 +41,7 @@
           <li>Planungssicherheit durch feste Monatsraten</li>
           <li>unvorhersehbare Risken trägt der Leasinggeber</li>
         </ul>
-        <li class="text-weight-bold">Nachteile</li>
+        <li class="text-weight-bold text-red">Nachteile</li>
         <ul>
           <li>Leasinggegenstand ist kein Eigentum des Leasingnehmers.</li>
           <li>Hohe Gesamtkosten für den Leasingnehmer.</li>
@@ -83,7 +83,7 @@
       <ul>
         <li>
           <a class="text-weight-bold">Debitor: </a>Schuldner aus Lieferungen und
-          Leistungen (Käufer, welche Ware nicht sofort bezahlt)
+          Leistungen (Käufer, welcher Ware nicht sofort bezahlt)
         </li>
         <li>
           <a class="text-weight-bold">Kreditor: </a>Gäubiger von Forderungen aus
@@ -96,24 +96,22 @@
           mit Liquidität versorgt
         </li>
       </ul>
-      <div class="row justify-center">
-        <q-img
-          class="fit bg-grey-5 q-mt-md"
-          :src="src + '/serviceanfragen/factoringvertrag.jpg'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/serviceanfragen/factoringvertrag.jpg';
-          "
+      <q-img
+        class="fit bg-grey-5 q-mt-md"
+        :src="src + '/serviceanfragen/factoringvertrag.jpg'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/serviceanfragen/factoringvertrag.jpg';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
         >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </div>
+          Click for full size
+        </div>
+      </q-img>
     </ul>
     <q-separator class="q-mt-md" />
     <div
@@ -129,14 +127,14 @@
           (erfolgsabhängig!)
         </li>
         <li>Partner: Unternehmer und Besteller</li>
-        <li>ist zweckbestimmt -> fester Leistungsgegenstand mit Abnahme</li>
+        <li>ist zweckbestimmt → fester Leistungsgegenstand mit Abnahme</li>
         <li>z.B. Anpassung von Software an bestimmte Bedürfnisse</li>
       </ul>
       <li class="text-weight-bolder">Der Dienstvertrag</li>
       <ul>
         <li>Dienstleistungen gegen Entgelt (nicht erfolgsabhängig!)</li>
         <li>Partner: Dienstleister und Dienstleistungsnehmer</li>
-        <li>ist zeitbestimmt -> allgemeine, laufende Tätigkeit</li>
+        <li>ist zeitbestimmt → allgemeine, laufende Tätigkeit</li>
         <li>
           z.B. Schulung und Beratung der Mitarbeiter zu Hard- und Software
         </li>

@@ -29,6 +29,8 @@
           z.B. POP3: Auflisten, Abholen und Löschen von E-Mails auf dem
           Mail-Server
         </li>
+        <li>Port 110 für POP3</li>
+        <li>Port 995 für POP3S (POP3 mit SSL-Verschlüsselung)</li>
       </ul>
       <li class="text-weight-bolder">IMAP</li>
       <ul>
@@ -38,13 +40,16 @@
           Speichern von Mails, Ordnerstrukturen und Einstellungen auf dem
           Mail-Server
         </li>
+        <li>Port 143</li>
+        <li>Port 993 für IMAPS (IMAP mit SSL-Verschlüsselung)</li>
       </ul>
       <li class="text-weight-bolder">SMTP</li>
       <ul>
         <li>Simple Mail Transfer Protocol</li>
         <li>Austausch von E-Mails</li>
         <li>Einspeisen und Weiterleiten von E-Mails</li>
-        <li>meist Port 25</li>
+        <li>Port 25</li>
+        <li>Port 465 für SMTPS (SMTP mit SSL-Veschlüsselung)</li>
       </ul>
       <li class="text-weight-bolder">FTP</li>
       <ul>
@@ -65,6 +70,13 @@
         <li>Secure Shell</li>
         <li>lokales verfügbar machen von entfernten Kommandozeilen</li>
         <li>Verschlüsselung der Datenübertragung</li>
+        <li>sicherer Ablöser für Telnet</li>
+        <li>
+          auch viele weitere Funktionen, z.B. SFTP, SCP, Tunneling, SOCKS,
+          SSHFS, ... (viele Funktionen sind verbunden mit der Verschlüsselung
+          unsicherer Protokolle über SSH)
+        </li>
+
         <li>Port 22</li>
       </ul>
       <li class="text-weight-bolder">SFTP</li>
@@ -88,6 +100,12 @@
           Port 80 für unverschlüsselte Verbindung (HTTP) und Port 443 für
           verschlüsselte Verbindung (HTTPS)
         </li>
+      </ul>
+      <li class="text-weight-bolder">Telnet</li>
+      <ul>
+        <li>Fernsteuerung von Computern über Terminals</li>
+        <li>unverschlüsselt und unsicher, durch SSH ersetzt</li>
+        <li>Port 23</li>
       </ul>
     </ul>
   </q-page>
