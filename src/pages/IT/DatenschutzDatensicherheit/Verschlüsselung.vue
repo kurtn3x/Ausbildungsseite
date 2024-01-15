@@ -15,8 +15,90 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
-      Erstes Seitenthema
+      Symmetrische und asymmetrische Verschlüsselung
     </div>
+    <ul>
+      <li class="text-weight-bolder">symmetrische Verschlüsselung</li>
+      <ul>
+        <li>selber Schlüssel für Ver- und Entschlüsselung</li>
+        <li>z.B.: Caesar-Verschlüsselung</li>
+        <ul>
+          <li>
+            Jeder Buchstabe des Rohtexts wird um x Positionen im Alphabet
+            verschoben
+          </li>
+          <li>z.B. verschiebung um 3 Buchstaben → Hallo → Kdoor</li>
+          <li>Schlüssel ist die Verschiebung um 3 Buchstaben im Alphabet</li>
+          <li>
+            Für die Ver- und Entschlüsselung kommt hier also der selbe Schlüssel
+            zum Einsatz
+          </li>
+        </ul>
+        <li class="text-red">
+          Nachteil: Übertragung des Schlüssels muss geheim Erfolgen, da jeder
+          mit Schlüssel Zugriff auf die verschlüsselten Informationen hat
+        </li>
+        <li>Beispiele:</li>
+        <ul>
+          <li>
+            AES (Advanced Encryption Standard), de facto Standard für
+            symmetrische Verschlüsselung und gilt mit Schlüsselgrößen von 192
+            Bit (AES-192) und 256 Bit (AES-256) als sehr sicher
+          </li>
+          <li>Blowfish</li>
+          <li>Twofish</li>
+        </ul>
+      </ul>
+      <li class="text-weight-bolder">asymmetrische Verschlüsselung</li>
+      <ul>
+        <li>zwei Schlüssel zum ver- und entschlüsseln</li>
+        <li>ein öffentlicher Schlüssel, der für jeden zugänglich ist</li>
+        <li>ein privater Schlüssel, der geheim gehalten werden muss</li>
+        <li>
+          Die Verschlüsselung der Informationen erfolgt mit dem öffentlichen
+          Schlüssel, die Entschlüsselung kann nur mit dem privaten Schlüssel
+          passieren
+        </li>
+        <li>
+          Falls zwei Nutzer miteinander asymmetrisch verschlüsselt kommunizieren
+          wollen, werden also insgesamt 4 Schlüssel benötigt: Für Jeden ein
+          Public-Key und ein Private-Key. Die Nutzer nutzen zum verschlüsseln
+          der Nachricht den jeweils anderen Public-Key und zum Entschlüsseln der
+          Nachricht ihren eigenen Private-Key. Die Public-Keys müssen vorher
+          ausgetauscht werden, dies muss aber nicht sicher erfolgen.
+        </li>
+        <li class="text-red">
+          Nachteil: deutlich langsamer als symmetrische Verschlüsselungsmethoden
+        </li>
+        <li>Beispiele:</li>
+        <ul>
+          <li>RSA</li>
+          <li>ECC (Elliptische-Kurven-Kryptographie)</li>
+          <li>Diffie-Hellman</li>
+        </ul>
+      </ul>
+      <li class="text-green">
+        Durch die Nachteile der beiden Verschlüsselungsverfahren, ist es
+        sinnvoll beide gemeinsam zu verwenden. Als erstes wird der symmetrische
+        Schlüssel mithilfe einer asymmetrischen Verschlüsselungsmethode
+        ausgetauscht. Danach wird weiter über den symmetrischen Schlüssel
+        kommuniziert. Dies wird z.B. bei einer TLS-Verschlüsselung verwendet.
+      </li>
+      <ul>
+        <ul>
+          <li>z.B. Diffie-Hellman-Schlüsselaustausch</li>
+          <li>TLS 1.3 unterstützt nur noch diese Verschlüsselungsmethode</li>
+          <li>
+            Kommunikationspartner einigen sich auf einen gemeinsamen, geheimen
+            Schlüssel basierend auf ihren privaten und öffentlichen Schlüsseln
+          </li>
+          <li>
+            Schlüssel wird dann über symmetrische Kryptoverfahren wie AES
+            verwendet
+          </li>
+        </ul>
+      </ul>
+    </ul>
   </q-page>
 </template>
 

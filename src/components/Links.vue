@@ -569,7 +569,7 @@
       <q-btn
         dense
         flat
-        to="/datenschutz-datensicherheit/schutzziele"
+        to="/datenschutz-datensicherheit/verschlusselung"
         label="Verschlüsselung"
         class="full-width q-mt-xs"
         rounded
