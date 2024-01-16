@@ -46,6 +46,31 @@
           </li>
         </ul>
       </ul>
+      <li class="text-weight-bolder">Arten von DNS-Records:</li>
+      <ul>
+        <li>A Records</li>
+        <ul>
+          <li>gibt die IP-Adresse einer bestimmten Domain an</li>
+          <li>für IPv4-Adressen</li>
+          <li>
+            wird für standardmäßige Auflösung von DNS-Namen zu IP-Adressen
+            verwendet
+          </li>
+        </ul>
+        <li>AAAA Records</li>
+        <ul>
+          <li>dasselbe wie A-Records, jedoch mit IPv6-Adressen</li>
+        </ul>
+        <li>CNAME Records</li>
+        <ul>
+          <li>ein Hostname zeigt zu einem anderen Hostnamen oder FQDN</li>
+          <li>
+            können auch als Alias verstanden werden, z.B. wenn die Seite
+            test.google.de auf www.google.de zeigt, wird dies über einen
+            CNAME-Record realisiert
+          </li>
+        </ul>
+      </ul>
       <li><a class="text-weight-bolder">DNS Anfrage - Beispiel</a></li>
       <q-img
         :src="src + '/Netzwerke/DNS/DNS.png'"

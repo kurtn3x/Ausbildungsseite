@@ -15,36 +15,50 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
-      Arten von Programmiersprachen
+      Programmierparadigmen
     </div>
     <ul>
-      <li class="text-weight-bolder">Imperative Sprachen</li>
+      <li class="text-weight-bolder">Imperative und Deklarative Sprachen</li>
       <ul>
-        <li>Programme erklären, wie ein Problem gelöst werden soll</li>
-        <li>Befehle und Schleifen</li>
-        <li>z.B. die meisten Sprachen wie Python, C, Shell, BASIC</li>
+        <li class="text-weight-bold">Imperative Sprachen</li>
+        <ul>
+          <li>Programme erklären, wie ein Problem gelöst werden soll</li>
+          <li>Befehle und Schleifen</li>
+          <li>Programm besitzt einen inneren Zustand</li>
+          <li>
+            Zustand des Systems wird verändert, also Variablen können zur
+            Laufzeit geändert werden
+          </li>
+          <li>z.B. die meisten Sprachen wie Python, C, Shell, BASIC</li>
+        </ul>
+        <li class="text-weight-bold">Deklarative Sprachen</li>
+        <ul>
+          <li>Keine Befehle und kein innerer Zustand</li>
+          <li>Rekursion anstatt Schleifen</li>
+          <li>Änderung von Werten per Zuweisung nicht möglich</li>
+          <li>z.B. Haskell, Erlang</li>
+        </ul>
       </ul>
-      <li class="text-weight-bolder">Deklarative Sprachen</li>
+      <li class="text-weight-bolder">
+        Prozedurale, Funktionale und Logische Sprachen
+      </li>
       <ul>
-        <li>Keine Befehle und kein innerer Zustand</li>
-        <li>Rekursion anstatt Schleifen</li>
-        <li>z.B. Haskell, Erlang</li>
-      </ul>
-      <li class="text-weight-bolder">Prozedurale Sprachen</li>
-      <uL>
-        <li>strukturierter Code mit Funktionen und Prozeduren</li>
-        <li>z.B. Python, C</li>
-      </uL>
-      <li class="text-weight-bolder">Funktionale Sprachen</li>
-      <ul>
-        <li>basierend auf Funktion im mathematischen Sinn</li>
-        <li>beschreibt was berechnet wird und nicht wie</li>
-        <li>z.B. Haskell</li>
-      </ul>
-      <li class="text-weight-bolder">Logische Sprachen</li>
-      <ul>
-        <li>basierend auf Fakten, Axiomem und logischer Ableitung</li>
-        <li>z.B. Prolog</li>
+        <li class="text-weight-bold">Prozedurale Sprachen</li>
+        <uL>
+          <li>strukturierter Code mit Funktionen und Prozeduren</li>
+          <li>z.B. Python, C</li>
+        </uL>
+        <li class="text-weight-bold">Funktionale Sprachen</li>
+        <ul>
+          <li>basierend auf Funktion im mathematischen Sinn</li>
+          <li>beschreibt was berechnet wird und nicht wie</li>
+          <li>z.B. Haskell</li>
+        </ul>
+        <li class="text-weight-bold">Logische Sprachen</li>
+        <ul>
+          <li>basierend auf Fakten, Axiomem und logischer Ableitung</li>
+          <li>z.B. Prolog</li>
+        </ul>
       </ul>
       <li class="text-weight-bolder">Objkektorientierte Sprachen</li>
       <ul>
@@ -55,40 +69,48 @@
         </li>
         <li>z.B. C++, Python, Java</li>
       </ul>
-      <li class="text-weight-bolder">Interpretierte Sprachen (Interpreter)</li>
+      <li class="text-weight-bolder">
+        Interpretierte und Kompilierte Sprachen
+      </li>
       <ul>
-        <li>Programm wird vom Interpreter gelesen und ausgeführt</li>
-        <li>Nie in Maschinencode übersetzt, Ausnahme: Just-in-Time Compiler</li>
-        <li>
-          portabel, selbes Programm kann auf jedem Betriebssystem und jeder
-          Architektur ausgeführt werden, sofern der Interpreter installiert ist
-        </li>
-        <li>z.B. Python, Java</li>
-      </ul>
-      <li class="text-weight-bolder">Komplierte Sprachen (Compiler)</li>
-      <ul>
-        <li>Compiler übersetzt das Programm in maschinenlesbaren Code</li>
-        <li>
-          Nicht portabel, selbes kompiliertes Programm kann nicht auf
-          unterschiedlichen Architekturen oder Betriebssystemen ausgeführt
-          werden
-        </li>
-        <li>Wie ausführbare Programme entstehen:</li>
+        <li class="text-weight-bold">Interpretierte Sprachen (Interpreter)</li>
         <ul>
+          <li>Programm wird vom Interpreter gelesen und ausgeführt</li>
           <li>
-            Der Präprozessor bindet weitere Quelltextdateien in den Sourcecode
-            ein
+            Nie in Maschinencode übersetzt, Ausnahme: Just-in-Time Compiler
           </li>
           <li>
-            Der Compiler übersetzt den Quellcode in Assembly-Code und nimmt
-            Optimisierungen vor. Assembly-Code ist die menschenlesbare Form des
-            Maschinencodes.
+            portabel, selbes Programm kann auf jedem Betriebssystem und jeder
+            Architektur ausgeführt werden, sofern der Interpreter installiert
+            ist
           </li>
-          <li>Der Assembler erzeugt eine Objektdatei mit Maschinencode</li>
+          <li>z.B. Python, Java</li>
+        </ul>
+        <li class="text-weight-bold">Komplierte Sprachen (Compiler)</li>
+        <ul>
+          <li>Compiler übersetzt das Programm in maschinenlesbaren Code</li>
           <li>
-            Der Linker verbindet mehrere Objektdateien und die Zugriffe zwischen
-            diesen zu einer ausführbaren Datei oder Bibliothek
+            Nicht portabel, selbes kompiliertes Programm kann nicht auf
+            unterschiedlichen Architekturen oder Betriebssystemen ausgeführt
+            werden
           </li>
+          <li>Wie ausführbare Programme entstehen:</li>
+          <ul>
+            <li>
+              Der Präprozessor bindet weitere Quelltextdateien in den Sourcecode
+              ein
+            </li>
+            <li>
+              Der Compiler übersetzt den Quellcode in Assembly-Code und nimmt
+              Optimisierungen vor. Assembly-Code ist die menschenlesbare Form
+              des Maschinencodes.
+            </li>
+            <li>Der Assembler erzeugt eine Objektdatei mit Maschinencode</li>
+            <li>
+              Der Linker verbindet mehrere Objektdateien und die Zugriffe
+              zwischen diesen zu einer ausführbaren Datei oder Bibliothek
+            </li>
+          </ul>
         </ul>
       </ul>
     </ul>
