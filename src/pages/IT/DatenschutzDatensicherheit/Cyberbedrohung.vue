@@ -30,17 +30,17 @@
       <ul>
         <li>Denial of Service / Distributed Denial of Service</li>
         <li>
-          Nichtverfügbarkeit eines Internetdienstes, der eignetlich verfügbar
-          sein sollte
+          Nichtverfügbarkeit oder Verlangsamung eines Internetdienstes, der
+          eigentlich verfügbar sein sollte
         </li>
-        <li>oft durch Überlastung oder Überforderung des Datennetzes</li>
         <li>
-          mutwillig verursachtes Senden vieler Anfragen zur Dienstblockade bzw.
-          Überlastung / Verlangsamung eines Dienstes
+          oft durch mutwilliges Überlastung oder Überforderung des Datennetzes
+          durch Senden vieler Anfragen
         </li>
+
         <li>
           bei einer großen Zahl an Rechnern, welche die Abfragen senden spricht
-          man von Distributed Denial of Service
+          man von Distributed (verteiltem) Denial of Service
         </li>
         <li>
           auch durch Botnets (siehe <a class="text-weight-bolder">Malware</a>→<a
@@ -217,7 +217,10 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:Stachledraht_DDos_Attack.svg
       <br />Ich bin nicht der Eigentümer der oben genannten Bilder.

@@ -138,210 +138,203 @@
       >
         Leitungssysteme
       </div>
-
-      <table class="tg q-mt-lg">
-        <thead>
-          <tr>
-            <th><a class="text-weight-bold">Skizze & Name</a></th>
-            <th><a class="text-weight-bold">Beschreibung</a></th>
-            <th><a class="text-weight-bold">Vorteile</a></th>
-            <th><a class="text-weight-bold">Nachteile</a></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tg-0lax">
-              <div class="bg-grey-5">
-                <q-img
-                  :src="
-                    src +
-                    '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png'
-                  "
-                  @click="
-                    show_img = true;
-                    popupsrc =
-                      '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png';
-                  "
-                >
-                  <div
-                    class="absolute-bottom-right text-subtitle2"
-                    style="
-                      height: 40px;
-                      font-size: 10px;
-                      background-color: transparent;
-                    "
-                  >
-                    Click for full size
-                  </div>
-                </q-img>
-              </div>
-              <div class="text-weight-bold text-center q-mt-md">
-                Einliniensystem
-              </div>
-            </td>
-            <td class="tg-0lax">
+      <ul>
+        <li class="text-weight-bolder">Einliniensystem</li>
+        <ul>
+          <li>Beschreibung:</li>
+          <ul>
+            <li>
               jede untergeordnete Stelle hat nur eine übergeordnete Instanz
-              <br />
-              <br />
-              kleine-mittlere Unternehmen
-              <br />
-              <br />
-              vertikale Kommunikationswege
-            </td>
-            <td class="tg-0lax">
-              eindeutige Dienst-, Informations-, und Kommunikationswege
-            </td>
-            <td class="tg-0lax">
-              Zeitverlust durch lange Dienstwege<br /><br />mangelnde
-              Flexibilität
-            </td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">
-              <div class="bg-grey-5">
-                <q-img
-                  class="fit"
-                  :src="
-                    src +
-                    '/BetriebeUnternehmen/Aufbauorganisation/Mehrliniensystem.png'
-                  "
-                  @click="
-                    show_img = true;
-                    popupsrc =
-                      '/BetriebeUnternehmen/Aufbauorganisation/Mehrliniensystem.png';
-                  "
-                >
-                  <div
-                    class="absolute-bottom-right text-subtitle2"
-                    style="
-                      height: 40px;
-                      font-size: 10px;
-                      background-color: transparent;
-                    "
-                  >
-                    Click for full size
-                  </div>
-                </q-img>
-              </div>
-              <div class="text-weight-bold text-center q-mt-md">
-                Mehrliniensystem
-              </div>
-            </td>
-            <td class="tg-0lax">
+            </li>
+            <li>kleine-mittlere Unternehmen</li>
+            <li>vertikale Kommunikationswege</li>
+          </ul>
+          <li class="text-green">Vorteile:</li>
+          <ul>
+            <li>eindeutige Dienst-, Informations-, und Kommunikationswege</li>
+          </ul>
+          <li class="text-red">Nachteile</li>
+          <ul>
+            <li>Zeitverlust durch lange Dienstwege</li>
+            <li>mangelnde Flexibilität</li>
+          </ul>
+          <q-img
+            :src="
+              src +
+              '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png'
+            "
+            @click="
+              show_img = true;
+              popupsrc =
+                '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png';
+            "
+            class="bg-grey-5"
+            style="max-width: 300px"
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+        <li class="text-weight-bolder q-mt-md">Mehrliniensystem</li>
+        <ul>
+          <li>Beschreibung:</li>
+          <ul>
+            <li>
               eine untergeordnete Stelle kann von mehreren Instanzen Weisungen
-              erhalten<br /><br />Mehrdimensionale Organisationsstruktur
-            </td>
-            <td class="tg-0lax">
-              Entlastung der Instanzen<br /><br />Direkte Kommunikations-und
-              Informationswege
-            </td>
-            <td class="tg-0lax">
-              Kompetenzstreitigkeiten unter Instanzen<br /><br />Fehler lassen
-              sich schwerer zuweisen
-            </td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">
-              <div class="bg-grey-5">
-                <q-img
-                  class="fit"
-                  :src="
-                    src +
-                    '/BetriebeUnternehmen/Aufbauorganisation/Stabliniensystem.png'
-                  "
-                  @click="
-                    show_img = true;
-                    popupsrc =
-                      '/BetriebeUnternehmen/Aufbauorganisation/Stabliniensystem.png';
-                  "
-                >
-                  <div
-                    class="absolute-bottom-right text-subtitle2"
-                    style="
-                      height: 40px;
-                      font-size: 10px;
-                      background-color: transparent;
-                    "
-                  >
-                    Click for full size
-                  </div>
-                </q-img>
-              </div>
-              <div class="text-weight-bold text-center q-mt-md">
-                Stabliniensystem
-              </div>
-            </td>
-            <td class="tg-0lax">
-              Liniensystem mit zusätzlichen Stabsstellen<br /><br />Erweiterung
-              Einliniensystem durch einen Stab
-            </td>
-            <td class="tg-0lax">
-              Entlastung der Instanzen<br /><br />Ausgleich zwischen Fachwissen
-              der Stäbe und Überblick der Instanzen
-            </td>
-            <td class="tg-0lax">
-              Konflikte zwischen Instanzen und Stab<br /><br />unübersichtliche
-              Entscheidungsprozesse
-            </td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">
-              <div class="bg-grey-5">
-                <q-img
-                  class="fit"
-                  :src="
-                    src +
-                    '/BetriebeUnternehmen/Aufbauorganisation/Matrixorganisation.png'
-                  "
-                  @click="
-                    show_img = true;
-                    popupsrc =
-                      '/BetriebeUnternehmen/Aufbauorganisation/Matrixorganisation.png';
-                  "
-                >
-                  <div
-                    class="absolute-bottom-right text-subtitle2"
-                    style="
-                      height: 40px;
-                      font-size: 10px;
-                      background-color: transparent;
-                    "
-                  >
-                    Click for full size
-                  </div>
-                </q-img>
-              </div>
-              <div class="text-weight-bold text-center q-mt-md">
-                Matrixorganisation
-              </div>
-            </td>
-
-            <td class="tg-0lax">
+              erhalten
+            </li>
+            <li>Mehrdimensionale Organisationsstruktur</li>
+          </ul>
+          <li class="text-green">Vorteile:</li>
+          <ul>
+            <li>Entlastung der Instanzen</li>
+            <li>Direkte Kommunikations-und Informationswege</li>
+          </ul>
+          <li class="text-red">Nachteile</li>
+          <ul>
+            <li>Kompetenzstreitigkeiten unter Instanzen</li>
+            <li>Fehler lassen sich schwerer zuweisen</li>
+          </ul>
+          <q-img
+            :src="
+              src +
+              '/BetriebeUnternehmen/Aufbauorganisation/Mehrliniensystem.png'
+            "
+            @click="
+              show_img = true;
+              popupsrc =
+                '/BetriebeUnternehmen/Aufbauorganisation/Mehrliniensystem.png';
+            "
+            class="bg-grey-5"
+            style="max-width: 300px"
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+        <li class="text-weight-bolder q-mt-md">Stabliniensystem</li>
+        <ul>
+          <li>Beschreibung:</li>
+          <ul>
+            <li>Liniensystem mit zusätzlichen Stabsstellen</li>
+            <li>Erweiterung Einliniensystem durch einen Stab</li>
+          </ul>
+          <li class="text-green">Vorteile:</li>
+          <ul>
+            <li>Entlastung der Instanzen</li>
+            <li>
+              Ausgleich zwischen Fachwissen der Stäbe und Überblick der
+              Instanzen
+            </li>
+          </ul>
+          <li class="text-red">Nachteile</li>
+          <ul>
+            <li>Konflikte zwischen Instanzen und Stab</li>
+            <li>unübersichtliche Entscheidungsprozesse</li>
+          </ul>
+          <q-img
+            class="bg-grey-5"
+            style="max-width: 300px"
+            :src="
+              src +
+              '/BetriebeUnternehmen/Aufbauorganisation/Stabliniensystem.png'
+            "
+            @click="
+              show_img = true;
+              popupsrc =
+                '/BetriebeUnternehmen/Aufbauorganisation/Stabliniensystem.png';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+        <li class="text-weight-bolder q-mt-md">Matrixorganisation</li>
+        <ul>
+          <li>Beschreibung:</li>
+          <ul>
+            <li>
               Weiterentwicklung des Mehrliniensystems, auf zwei unabhängige
-              Instanzen begrenzt<br /><br />Überschneidung funktionaler
-              Organisationsbereiche mit der Organisation der Produktbereiche<br />
-            </td>
-            <td class="tg-0lax">
-              Entlastung der Instanzen<br /><br />Ausgleich zwischen Fachwissen
-              der Stäbe und Überblick der Instanzen
-            </td>
-            <td class="tg-0lax">
-              Konflikte zwischen Instanzen und Stab<br /><br />unübersichtliche
-              Entscheidungsprozesse
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <q-separator class="q-mt-md" />
-      <div class="text-subtitle2 text-grey font-size-small">
-        Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
-        https://www.bwl-lexikon.de/app/uploads/einliniensystem-beispiel.png
-        <br />
-        https://www.bwl-lexikon.de/app/uploads/mehrliniensystem.png <br />
-        https://www.bwl-lexikon.de/app/uploads/stablinienorganisation.png <br />
-        https://www.bwl-lexikon.de/app/uploads/matrixorganisation.png <br />
-        Ich bin nicht der Eigentümer der oben genannten Bilder.
-      </div>
+              Instanzen begrenzt
+            </li>
+            <li>
+              Überschneidung funktionaler Organisationsbereiche mit der
+              Organisation der Produktbereiche
+            </li>
+          </ul>
+          <li class="text-green">Vorteile:</li>
+          <ul>
+            <li>Entlastung der Instanzen</li>
+            <li>
+              Ausgleich zwischen Fachwissen der Stäbe und Überblick der
+              Instanzen
+            </li>
+          </ul>
+          <li class="text-red">Nachteile</li>
+          <ul>
+            <li>Konflikte zwischen Instanzen und Stab</li>
+            <li>unübersichtliche Entscheidungsprozesse</li>
+          </ul>
+          <q-img
+            class="bg-grey-5"
+            style="max-width: 300px"
+            :src="
+              src +
+              '/BetriebeUnternehmen/Aufbauorganisation/Matrixorganisation.png'
+            "
+            @click="
+              show_img = true;
+              popupsrc =
+                '/BetriebeUnternehmen/Aufbauorganisation/Matrixorganisation.png';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+      </ul>
+    </div>
+    <q-separator class="q-mt-md" />
+    <div class="text-subtitle2 text-grey font-size-small">
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://www.bwl-lexikon.de/app/uploads/einliniensystem-beispiel.png
+      <br />
+      https://www.bwl-lexikon.de/app/uploads/mehrliniensystem.png <br />
+      https://www.bwl-lexikon.de/app/uploads/stablinienorganisation.png <br />
+      https://www.bwl-lexikon.de/app/uploads/matrixorganisation.png <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
   </q-page>
 </template>

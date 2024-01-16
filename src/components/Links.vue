@@ -634,8 +634,8 @@
       <q-btn
         dense
         flat
-        to="/programmierung/compiler-interpreter"
-        label="Compiler und Interpreter"
+        to="/programmierung/programmierparadigmen"
+        label="Arten & Begriffe"
         class="full-width q-mt-xs"
         rounded
         align="left"

@@ -211,7 +211,10 @@
     </ul>
 
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://download-hk.huawei.com/mdl/image/download?uuid=e293a66aa668456881268c0a73b3e0bf
       <br />

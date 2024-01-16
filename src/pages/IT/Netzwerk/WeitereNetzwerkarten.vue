@@ -107,7 +107,10 @@
       </div>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://ipcisco.com/wp-content/uploads/2022/03/types-of-networks-ipcisco.png
       <br />

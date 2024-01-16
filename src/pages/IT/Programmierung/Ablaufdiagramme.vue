@@ -45,7 +45,7 @@
     </div>
     <ul>
       <li class="text-green">
-        Kreis / rechteck mit gerundeten Ecken: Entweder mit Inhalt Start oder
+        Kreis / Rechteck mit gerundeten Ecken: Entweder mit Inhalt Start oder
         Stop, gibt an wo der Programmablaufplan beginnt oder endet
       </li>
       <li>Pfeil: Verbindung zum nächstfolgenden Element</li>
@@ -121,7 +121,10 @@
     </ul>
 
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:NassiShneiderman.png <br />
       https://commons.wikimedia.org/wiki/File:Rechteck_mit_doppelten,_vertikalen_Linien_(Programmablaufplan).png

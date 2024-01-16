@@ -9,7 +9,7 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Begriffe und Arten von Programmiersprachen
+      Programmierparadigmen und Begriffe zur Programmierung
     </div>
     <q-separator class="q-mt-md" />
     <div
@@ -18,6 +18,10 @@
       Programmierparadigmen
     </div>
     <ul>
+      <li>
+        Programmierparadigma = fundamentaler Programmierstil basierend auf
+        Prinzipien
+      </li>
       <li class="text-weight-bolder">Imperative und Deklarative Sprachen</li>
       <ul>
         <li class="text-weight-bold">Imperative Sprachen</li>
@@ -46,6 +50,7 @@
         <li class="text-weight-bold">Prozedurale Sprachen</li>
         <uL>
           <li>strukturierter Code mit Funktionen und Prozeduren</li>
+          <li>Zerlegen des Programms in kleinere Teilaufgaben</li>
           <li>z.B. Python, C</li>
         </uL>
         <li class="text-weight-bold">Funktionale Sprachen</li>
@@ -56,16 +61,23 @@
         </ul>
         <li class="text-weight-bold">Logische Sprachen</li>
         <ul>
-          <li>basierend auf Fakten, Axiomem und logischer Ableitung</li>
+          <li>basierend auf Fakten und logischen Aussgaen</li>
+          <li>
+            Interpreter versucht, die gewünschte Lösungsaussage herzuleiten
+          </li>
           <li>z.B. Prolog</li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">Objkektorientierte Sprachen</li>
+      <li class="text-weight-bolder">Objektorientierte Sprachen</li>
       <ul>
         <li>sprachunabhängiges Programmiermodell</li>
         <li>
           bessere Wartbarkeit und Austauschbarkeit von Software durch Isolation
           von Teilproblem
+        </li>
+        <li>
+          Einführung von Klassen: Objekte mit Daten und darauf arbeitenden
+          Routinen werden zu Einheiten zusammengefasst
         </li>
         <li>z.B. C++, Python, Java</li>
       </ul>
@@ -114,6 +126,31 @@
         </ul>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Begriffe zur Programmierung
+    </div>
+    <ul>
+      <li class="text-weight-bolder">Just-in-time-Compiler</li>
+      <ul>
+        <li>Zwischending von Compiler und Interpreter</li>
+        <li>
+          Programme oder Teile davon werden zur Laufzeit in Maschinencode
+          übersetzt
+        </li>
+        <li>
+          Ziel: Erhöhung der Ausführgeschwindigkeit im Gegensatz zum Interpreter
+        </li>
+        <li>
+          Kompilierter Bytecode wird meist im Rahmen einer virtuellen Maschine
+          ausgeführt um plattformunabhängig zu funktionieren
+        </li>
+        <li>wird oft als Teil von interpretierten Sprachen verwendet</li>
+        <li>z.B. JavaScript oder Python</li>
+      </ul>
+    </ul>
   </q-page>
 </template>
 
@@ -122,7 +159,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'ProgrammierparadigmenBegriffePage',
   setup() {
     const q = useQuasar();
     return {

@@ -9,7 +9,7 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Binär-, Dezimal-, und Hexadezimalumrechnungen sowie Berechnungen
+      Binär-, Dezimal-, und Hexadezimal Umrechnungen und Berechnungen
     </div>
     <q-separator class="q-mt-md" />
     <ul>
@@ -67,60 +67,62 @@
         Beispiel: Dezimalzahl 300 (eine typische Tabelle bis zur 128(8Bit)
         reicht nicht → 256 (9Bit))
       </li>
-      <table class="tg">
-        <thead>
-          <tr>
-            <th class="tg-0lax">2er Potenz<br /></th>
-            <th class="tg-0lax">256</th>
-            <th class="tg-0lax">128</th>
-            <th class="tg-0lax">64</th>
-            <th class="tg-0lax">32</th>
-            <th class="tg-0lax">16</th>
-            <th class="tg-0lax">8</th>
-            <th class="tg-0lax">4</th>
-            <th class="tg-0lax">2</th>
-            <th class="tg-0lax">1</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tg-0lax">Binär</td>
-            <td class="tg-0lax">1</td>
-            <td class="tg-0lax">0<br /><br /></td>
-            <td class="tg-0lax">0</td>
-            <td class="tg-0lax">1</td>
-            <td class="tg-0lax">0</td>
-            <td class="tg-0lax">1</td>
-            <td class="tg-0lax">1</td>
-            <td class="tg-0lax">0<br />passt nicht<br /></td>
-            <td class="tg-0lax">0<br />passt nicht<br /></td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">Rechnung</td>
-            <td class="tg-0lax">300-256 =44</td>
-            <td class="tg-0lax">128 &gt; 44<br />passt nicht<br /></td>
-            <td class="tg-0lax">64 &gt; 44<br />passt nicht<br /></td>
-            <td class="tg-0lax">44-32 =12</td>
-            <td class="tg-0lax">16&gt;12<br />passt nicht<br /></td>
-            <td class="tg-0lax">12-8 =4</td>
-            <td class="tg-0lax">4-4 =0</td>
-            <td class="tg-0lax">passt nicht</td>
-            <td class="tg-0lax">passt nicht</td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">Rest</td>
-            <td class="tg-0lax">44</td>
-            <td class="tg-0lax"></td>
-            <td class="tg-0lax"></td>
-            <td class="tg-0lax">12</td>
-            <td class="tg-0lax"></td>
-            <td class="tg-0lax">4</td>
-            <td class="tg-0lax">0</td>
-            <td class="tg-0lax"></td>
-            <td class="tg-0lax"></td>
-          </tr>
-        </tbody>
-      </table>
+      <div style="overflow-x: auto">
+        <table class="tg" style="min-width: 600px">
+          <thead>
+            <tr>
+              <th class="tg-0lax">2er Potenz<br /></th>
+              <th class="tg-0lax">256</th>
+              <th class="tg-0lax">128</th>
+              <th class="tg-0lax">64</th>
+              <th class="tg-0lax">32</th>
+              <th class="tg-0lax">16</th>
+              <th class="tg-0lax">8</th>
+              <th class="tg-0lax">4</th>
+              <th class="tg-0lax">2</th>
+              <th class="tg-0lax">1</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax text-weight-bolder">Binär</td>
+              <td class="tg-0lax">1</td>
+              <td class="tg-0lax">0<br /><br /></td>
+              <td class="tg-0lax">0</td>
+              <td class="tg-0lax">1</td>
+              <td class="tg-0lax">0</td>
+              <td class="tg-0lax">1</td>
+              <td class="tg-0lax">1</td>
+              <td class="tg-0lax">0<br />passt nicht<br /></td>
+              <td class="tg-0lax">0<br />passt nicht<br /></td>
+            </tr>
+            <tr>
+              <td class="tg-0lax text-weight-bolder">Rechnung</td>
+              <td class="tg-0lax">300-256 =44</td>
+              <td class="tg-0lax">128 &gt; 44<br />passt nicht<br /></td>
+              <td class="tg-0lax">64 &gt; 44<br />passt nicht<br /></td>
+              <td class="tg-0lax">44-32 =12</td>
+              <td class="tg-0lax">16&gt;12<br />passt nicht<br /></td>
+              <td class="tg-0lax">12-8 =4</td>
+              <td class="tg-0lax">4-4 =0</td>
+              <td class="tg-0lax">passt nicht</td>
+              <td class="tg-0lax">passt nicht</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax text-weight-bolder">Rest</td>
+              <td class="tg-0lax">44</td>
+              <td class="tg-0lax"></td>
+              <td class="tg-0lax"></td>
+              <td class="tg-0lax">12</td>
+              <td class="tg-0lax"></td>
+              <td class="tg-0lax">4</td>
+              <td class="tg-0lax">0</td>
+              <td class="tg-0lax"></td>
+              <td class="tg-0lax"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <li>
         genau auf dem selben weg geschieht die Umrechnung von Binär zu Dezimal:
       </li>
@@ -262,7 +264,7 @@ export default defineComponent({
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
 }
 .tg td {

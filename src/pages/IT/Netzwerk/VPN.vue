@@ -220,7 +220,10 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://www.elektronik-kompendium.de/sites/net/bilder/09061915.gif
       <br />

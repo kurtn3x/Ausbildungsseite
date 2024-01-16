@@ -35,8 +35,9 @@
           </li>
         </ul>
         <li class="text-red">
-          Nachteil: Übertragung des Schlüssels muss geheim Erfolgen, da jeder
-          mit Schlüssel Zugriff auf die verschlüsselten Informationen hat
+          Nachteil: Übertragung des Schlüssels muss geheim Erfolgen, da Jeder,
+          der Zugriff auf den Schlüssel hat auch Zugriff auf die verschlüsselten
+          Informationen hat
         </li>
         <li>Beispiele:</li>
         <ul>
@@ -64,8 +65,8 @@
           wollen, werden also insgesamt 4 Schlüssel benötigt: Für Jeden ein
           Public-Key und ein Private-Key. Die Nutzer nutzen zum verschlüsseln
           der Nachricht den jeweils anderen Public-Key und zum Entschlüsseln der
-          Nachricht ihren eigenen Private-Key. Die Public-Keys müssen vorher
-          ausgetauscht werden, dies muss aber nicht sicher erfolgen.
+          erhaltenen Nachricht ihren eigenen Private-Key. Die Public-Keys müssen
+          vorher ausgetauscht werden, dies muss aber nicht sicher erfolgen.
         </li>
         <li class="text-red">
           Nachteil: deutlich langsamer als symmetrische Verschlüsselungsmethoden
@@ -79,10 +80,11 @@
       </ul>
       <li class="text-green">
         Durch die Nachteile der beiden Verschlüsselungsverfahren, ist es
-        sinnvoll beide gemeinsam zu verwenden. Als erstes wird der symmetrische
-        Schlüssel mithilfe einer asymmetrischen Verschlüsselungsmethode
-        ausgetauscht. Danach wird weiter über den symmetrischen Schlüssel
-        kommuniziert. Dies wird z.B. bei einer TLS-Verschlüsselung verwendet.
+        sinnvoll beide gemeinsam zu verwenden: Dazu wird als Erstes der
+        symmetrische Schlüssel mithilfe einer asymmetrischen
+        Verschlüsselungsmethode ausgetauscht. Danach wird weiter über den
+        symmetrischen Schlüssel kommuniziert. Dies wird z.B. bei einer
+        TLS-Verschlüsselung verwendet.
       </li>
       <ul>
         <ul>
@@ -90,11 +92,12 @@
           <li>TLS 1.3 unterstützt nur noch diese Verschlüsselungsmethode</li>
           <li>
             Kommunikationspartner einigen sich auf einen gemeinsamen, geheimen
-            Schlüssel basierend auf ihren privaten und öffentlichen Schlüsseln
+            symmetrischen Schlüssel basierend auf ihren privaten und
+            öffentlichen Schlüsseln
           </li>
           <li>
-            Schlüssel wird dann über symmetrische Kryptoverfahren wie AES
-            verwendet
+            Der symmetrische Schlüssel wird dann verwendet, um mithilfe eines
+            symmetrischen Verschlüsselungsprotokolls wie AES zu kommunizieren.
           </li>
         </ul>
       </ul>

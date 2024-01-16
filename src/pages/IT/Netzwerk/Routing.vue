@@ -32,7 +32,10 @@
             findet Verwendung, wenn es nur eine Route oder eine bevorzugte Route
             gibt um ein Ziel zu erreichen
           </li>
-          <li>sinvoll für sehr kleine Netzwerke</li>
+          <li>
+            ressourcenschonend, da Netz nicht mit Nachrichten von
+            Routingprotokollen belastet wird
+          </li>
         </ul>
         <li class="text-weight-bolder">dynamisches Routing</li>
         <ul>
@@ -83,12 +86,18 @@
         <li class="text-weight-bold">Link-State-Routing-Protokolle</li>
         <ul>
           <li>Teile der Welt mit, wer deine Nachbarn sind</li>
-          <li>z.B. OSPF</li>
+          <li>Router lernen die Topologie des gesamten Netzwerks</li>
+          <li>z.B. OSPF, IS-IS</li>
         </ul>
 
         <li class="text-weight-bold">Distanzvektor-Protokolle</li>
         <ul>
           <li>Teile deinen Nachbarn mit, wie für dich die Welt aussieht</li>
+          <li>Übermitteln der eigenen Routingtabelle an die Nachbarrouter</li>
+          <li>
+            Nachbarrouter lernen, dass sie über den Sender der Informationen
+            weitere Netzwerke erreichen können
+          </li>
           <li>
             eine allgemeinere Form der Distanzverktorprotokolle sind die
             Pfadvektorprotokolle, welche eine bessere Erkennung von Schleifen
@@ -292,6 +301,12 @@
           sinvoll für das Erstellen dynamischer Routen mithilfe von oben
           genannten Routing-Protokollen (Verwendung besonders von Routern)
         </li>
+      </ul>
+      <li class="text-weight-bolder">Hot-Potatoe</li>
+      <ul>
+        <li>Pakete werden so schnell wie möglich weitergeleitet</li>
+        <li>Routen können dadurch unoptimal sein</li>
+        <li>ressourcenschonend</li>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />

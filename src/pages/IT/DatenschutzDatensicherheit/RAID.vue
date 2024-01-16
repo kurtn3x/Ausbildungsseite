@@ -255,7 +255,10 @@
     </ul>
 
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:RAID_0.svg<br />
       https://commons.wikimedia.org/wiki/File:RAID_1.svg

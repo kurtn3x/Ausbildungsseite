@@ -37,8 +37,8 @@
             Client
           </li>
           <li>
-            Bei erneuter Anfrage zum Endpunkt verwendet der Proxy-Server die
-            vorher gespeicherte Antwort
+            Bei erneuter Anfrage zum selben Endpunkt verwendet der Proxy-Server
+            die vorher gespeicherte Antwort
           </li>
           <q-img
             class="fit bg-grey-5"
@@ -87,7 +87,7 @@
             Client
           </li>
           <li>
-            Anfragen von Clients auf die Website können direkt vom
+            Anfragen von Clients auf die selbe Website können direkt vom
             Proxy-Speicher aus bedient werden → weniger Last für den Webserver
           </li>
           <q-img
@@ -114,7 +114,10 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:Proxy_concept_en.svg
       <br />

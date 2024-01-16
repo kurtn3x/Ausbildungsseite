@@ -50,7 +50,8 @@
       </li>
       <li>
         Falls das Datenpaket kleiner als 64 (bzw. 68) Byte ist, werden vor der
-        Frame Check Squence noch Padding-Bits zum Auffüllen gesetzt.
+        Frame Check Squence in Layer 2 des Ethernet-Headers noch Padding-Bits
+        zum Auffüllen gesetzt.
       </li>
     </ul>
     <q-separator class="q-mt-md" />
@@ -328,7 +329,10 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://de.wikipedia.org/wiki/Datenframe <br />
       https://download-hk.huawei.com/mdl/image/download?uuid=e293a66aa668456881268c0a73b3e0bf

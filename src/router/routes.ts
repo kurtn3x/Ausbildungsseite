@@ -4,8 +4,15 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
+    children: [
+      { path: '', component: () => import('pages/IndexPage.vue') },
+      {
+        path: 'privacy-policy',
+        component: () => import('pages/PrivacyPolicy.vue'),
+      },
+    ],
   },
+
   {
     path: '/projektmanagement',
     component: () => import('layouts/MainLayout.vue'),
@@ -171,9 +178,9 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Programmierung/UML.vue'),
       },
       {
-        path: 'compiler-interpreter',
+        path: 'programmierparadigmen',
         component: () =>
-          import('pages/IT/Programmierung/CompilerInterpreter.vue'),
+          import('pages/IT/Programmierung/ProgrammierparadigmenBegriffe.vue'),
       },
     ],
   },

@@ -178,7 +178,10 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://www.bommi2000.de/wirtkunde/e1_lernbereich3_6x9zoll.pdf<br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

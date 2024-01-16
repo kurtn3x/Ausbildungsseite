@@ -9,6 +9,13 @@
         <Links />
       </q-card>
     </div>
+    <div class="absolute-bottom-right q-mb-md q-mr-md">
+      <div class="text-right">
+        <router-link to="/privacy-policy" class="q-ml-md text-light-blue"
+          >Privacy Policy</router-link
+        >
+      </div>
+    </div>
   </q-page>
 </template>
 

@@ -417,7 +417,9 @@
     >
       Beispiel für das Netz 192.168.164.0
     </div>
-    <IPv4SubnetExample class="q-ml-lmd q-mt-lg fit" />
+    <div style="overflow-x: auto">
+      <IPv4SubnetExample class="q-ml-lmd q-mt-lg" />
+    </div>
   </q-page>
 </template>
 

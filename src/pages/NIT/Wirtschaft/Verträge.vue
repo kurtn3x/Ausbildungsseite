@@ -56,11 +56,11 @@
       <li class="text-weight-bolder">Der Mietvertrag</li>
       <ul>
         <li>
-          gegenseitiger schuldrechtliche Vertrag zur zeitweisen
+          gegenseitiger schuldrechtlicher Vertrag zur zeitweisen
           Gebrauchsüberlassung einer gemieteten Sache gegen Entgelt
         </li>
         <li>
-          Verantwortung beim Vermieter, Mitsache in vertragsmäßig geeignetem
+          Verantwortung beim Vermieter, Mietsache in vertragsmäßig geeignetem
           Zustand zu übergeben und den Erhalt dieses Zustandes zu gewährleisten
         </li>
         <li>z.B. Wohnung, Auto, Produktionsanlage, IT-Geräte</li>
@@ -141,7 +141,10 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://www.bommi2000.de/wirtkunde/e2_lernfeld06_2.jpg<br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

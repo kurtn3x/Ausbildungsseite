@@ -59,7 +59,10 @@
     </ul>
 
     <q-separator class="q-mt-md" />
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://www.smart-qm-borchert.de/images/grafiken/pdca-zyklus.png<br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

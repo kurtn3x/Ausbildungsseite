@@ -105,7 +105,7 @@
           private Netze.
         </li>
         <li>
-          <a class="text-weight-bold">172.16.0.0/16: </a>Netzbereich für private
+          <a class="text-weight-bold">172.16.0.0/12: </a>Netzbereich für private
           Netze.
         </li>
         <li>
@@ -114,10 +114,77 @@
         </li>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Netzwerkklassen
+    </div>
+    <ul>
+      <li>
+        veraltet und nicht mehr verwendet aufgrund von Knappheit der
+        IPv4-Adressen
+      </li>
+      <li class="text-weight-bolder">Klasse A</li>
+      <ul>
+        <li><a class="text-weight-bold">Erste vier Bits:</a> 0XXX</li>
+        <li>
+          <a class="text-weight-bold">Adressbereich:</a> 0.0.0.0 -
+          127.255.255.255
+        </li>
+        <li>
+          <a class="text-weight-bold">Für private Adressen reserviert:</a>
+          10.0.0.0/8
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Klasse B</li>
+      <ul>
+        <li><a class="text-weight-bold">Erste vier Bits:</a> 10XX</li>
+        <li>
+          <a class="text-weight-bold">Adressbereich:</a> 128.0.0.0 -
+          191.255.255.255
+        </li>
+        <li>
+          <a class="text-weight-bold">Für private Adressen reserviert:</a>
+          172.16.0.0/12
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Klasse C</li>
+      <ul>
+        <li><a class="text-weight-bold">Erste vier Bits:</a> 110X</li>
+        <li>
+          <a class="text-weight-bold">Adressbereich:</a> 192.0.0.0 -
+          223.255.255.255
+        </li>
+        <li>
+          <a class="text-weight-bold">Für private Adressen reserviert:</a>
+          192.168.0.0/16
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Klasse D</li>
+      <ul>
+        <li><a class="text-weight-bold">Erste vier Bits:</a> 1110</li>
+        <li>
+          <a class="text-weight-bold">Adressbereich:</a> 224.0.0.0 -
+          239.255.255.255
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Klasse E</li>
+      <ul>
+        <li><a class="text-weight-bold">Erste vier Bits:</a> 1111</li>
+        <li>
+          <a class="text-weight-bold">Adressbereich:</a> 240.0.0.0 -
+          255.255.255.255
+        </li>
+      </ul>
+    </ul>
 
     <q-separator class="q-mt-md" />
 
-    <div class="text-subtitle2 text-grey font-size-small">
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:IPv4_Packet-en.svg
       <br />
