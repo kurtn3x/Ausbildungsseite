@@ -19,7 +19,35 @@
       </li>
     </ul>
     <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      UML-Anwendungsfalldiagramm / use-case-Diagramm
+    </div>
+    <ul>
+      <li>
+        stellt Anwendungsfälle und Akteure mit ihren jeweiligen Abhängigkeiten
+        und Beziehungen dar
+      </li>
+      <q-img
+        class="fit bg-grey-5 q-mt-md"
+        :src="src + '/Programmierung/uml-use-case.png'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/Programmierung/uml-use-case.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
+    </ul>
 
+    <q-separator class="q-mt-md" />
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >

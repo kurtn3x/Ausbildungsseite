@@ -17,7 +17,7 @@
         Systeme untereinander und die gemeinsame Nutzung von Ressourcen. Wie
         z.B. Rechenleistung, Geräte(Drucker,....), Software, Daten, Dienste.
       </li>
-      <li class="text-weight-bold">Nachteile:</li>
+      <li class="text-weight-bold text-red">Nachteile:</li>
       <ul>
         <li>Infrastruktur und Betriebskosten</li>
         <li>Administrationsaufwand</li>
@@ -43,6 +43,16 @@
         Übertragungseinheiten zerlegt, welche als Datenpaket bezeichnet
         werden.Sind mit Sender- u. Empfängeradresse ausgestattet (siehe versch.
         Headeraufbau)
+      </li>
+      <li>
+        <a class="text-weight-bolder">Latenz: </a> Verzögerung bei der
+        Netzwerkkommunikation. Gibt an, wie viel Zeit die Daten für die
+        Übertragung über das Netzwerk benötigen.
+      </li>
+      <li>
+        <a class="text-weight-bolder">Bandbreite: </a> Maß für die in einer
+        bestimmten Zeiteinheit über ein Medium übertragene Datenmenge. Wird in
+        <a class="text-purple">Bit</a> pro Sekunde angegeben. (z.B. MiB/s)
       </li>
       <li>
         <a class="text-weight-bolder">Räumliche Ausdehnung von Netzen:</a>

@@ -15,6 +15,31 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
+      Schutz vor Cyberbedrohungen
+    </div>
+    <ul>
+      <li class="text-weight-bolder">TPM - Trusted Platform Module</li>
+      <ul>
+        <li>
+          ist ein Chip, der einen Computer um grundlegende Sicherheitsfunktionen
+          erweitert
+        </li>
+        <li>dient dem Lizenz- und Datenschutz</li>
+        <li>
+          Gerät mit TPM, einem speziell angepassten Betriebssystem und
+          entsprechender Software bilden eine Trusted-Computing-Plattform
+        </li>
+        <li>
+          Soll Nutzer unter anderem vor softwareseitiger Manipulation Dritter
+          schützen
+        </li>
+        <li>z.B. Windows11 läuft nur noch auf einer Plattform mit TPM</li>
+      </ul>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
       Bekannte Arten von Cyberattacken
     </div>
     <ul>

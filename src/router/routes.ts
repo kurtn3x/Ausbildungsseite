@@ -183,8 +183,9 @@ const routes: RouteRecordRaw[] = [
           import('pages/IT/Programmierung/ProgrammierparadigmenBegriffe.vue'),
       },
       {
-        path: 'tests',
-        component: () => import('pages/IT/Programmierung/Tests.vue'),
+        path: 'tests-vorgehensmodelle',
+        component: () =>
+          import('pages/IT/Programmierung/TestsVorgehensmodelle.vue'),
       },
     ],
   },

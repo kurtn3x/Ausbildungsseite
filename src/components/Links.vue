@@ -699,8 +699,8 @@
       <q-btn
         dense
         flat
-        to="/programmierung/tests"
-        label="Software testing"
+        to="/programmierung/tests-vorgehensmodelle"
+        label="Tests & Vorgehensmodelle"
         class="full-width q-mt-xs"
         rounded
         align="left"

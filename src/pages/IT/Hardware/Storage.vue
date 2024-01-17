@@ -89,11 +89,61 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
     >
-      Storage-Protokolle
+      Storage-Protokolle und Übertragungsmedien
     </div>
     <ul>
-      <li class="text-weight-bolder">SMB</li>
-      <li class="text-weight-bolder">NFS</li>
+      <li class="text-weight-bolder">NFS - Network File System</li>
+      <ul>
+        <li>Kommunikation zwischen NFS-fähigen Client und NFS-Server</li>
+        <li>
+          Server prüft bei Zugriff ob die Datei existiert und ob der Client
+          Zugriffsrechte hat
+        </li>
+        <li>
+          Server mountet Datei oder Verzeichnis remote auf dem Client und teilt
+          den Zugriff über eine virtuelle Verbindung
+        </li>
+        <li>Serverdatei verhält sich für Client ähnlich wie lokale Datei</li>
+        <li>Neueste NFS-Version: NFSv4</li>
+        <li>besonders Linux</li>
+      </ul>
+      <li class="text-weight-bolder">SMB - Server Message Block</li>
+      <ul>
+        <li>ähnlich NFS</li>
+        <li>
+          Dateien werden nicht auf lokalem SMB-Client gemountet, sondern über
+          einen Netzwerkpfad auf eine Netzwerkfreigabe bereitgestellt
+        </li>
+        <li>Neueste SMB-Version: SMB 3.1.1</li>
+        <li>besonders Windows</li>
+      </ul>
+      <li class="text-weight-bolder">SCSI - Small Computer System Interface</li>
+      <ul>
+        <li>
+          Protokoll zur Steuerung der Kommunikation zwischen Massenspeicher und
+          Controller
+        </li>
+        <li>
+          SCSI als Hardware-Schnittstelle spielt keine Rolle mehr, jedoch wird
+          das Protokoll immernoch häufig verwendet z.B. SAS, iSCSI
+        </li>
+        <li class="text-weight-bold">iSCSI</li>
+        <ul>
+          <li>SCSI über TCP/IP-Netzwerk</li>
+          <li>Verschicken von SCSI-Kommandos in TCP-Paketen</li>
+          <li>Vorteil von blockbasierten Zugriff</li>
+        </ul>
+      </ul>
+      <li class="text-weight-bolder">FC - Fibre Channel</li>
+      <ul>
+        <li>Übertragungssystem, das für Speichernetze (SAN) eingesetzt wird</li>
+        <li>logische Erweiterung des SCSI-Busses</li>
+        <li>Überträgt SCSI-Befehle und Daten in serieller Form in einem SAN</li>
+        <li>
+          benötigt teure Hardware → FCIP (Fibre Channel over IP) und FCoE (Fibre
+          Channel over Ethernet) zur Datenübertragung durch Ethernet und TCP/IP
+        </li>
+      </ul>
     </ul>
     <q-separator class="q-mt-md" />
     <div
@@ -159,9 +209,6 @@
           </li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">Cloning</li>
-      <li class="text-weight-bolder">Blockbasiert</li>
-      <li class="text-weight-bolder">Dateibasiert</li>
     </ul>
 
     <q-separator class="q-mt-md" />
@@ -190,40 +237,45 @@
           gespeichert wird, wird dedupliziert, sodass das gespeicherte Dokument
           nur einmal wirklich gespeichert wurde und die restlichen "Dateien" nur
           auf das echte Dokument zeigen
-          https://www.computerweekly.com/de/tipp/Im-Vergleich-Komprimierung-Deduplizierung-Verschluesselung
+        </li>
+        <li>
+          Deduplizierung auf Blockebene (im Gegenzug zur Dateiebene) speichert
+          eindeutige Wiederholungen jedes Blocks in einer Datei. Falls die Datei
+          geändert wurde, werden nur die überarbeiteten Daten gespeichert,
+          wodurch keine neue Datei entsteht. Effizienter, jedoch
+          rechenintensiver.
         </li>
       </ul>
+      <li>
+        <a class="text-weight-bolder">Block:</a> Speicherbereich (Folge von Bits
+        oder Bytes) mit fester Größe (Blockgröße)
+      </li>
+      <li>
+        <a class="text-weight-bolder">Datei:</a> Ansammlung belegter Blöcke
+      </li>
+      <li>
+        <a class="text-weight-bolder">Volume/LUN:</a> Logischer, blockbasierter
+        Bereich
+      </li>
 
-      <li class="text-weight-bolder">SCSI - Small Computer System Interface</li>
+      <li class="text-weight-bolder">blockbasierter Dateizugriff</li>
       <ul>
+        <li>Speicherung von Daten in Blöcken</li>
         <li>
-          Protokoll zur Steuerung der Kommunikation zwischen Massenspeicher und
-          Controller
+          Blöcke durch willkürlich zugewiesene Kennung identifiziert, mit der
+          sie gespeichert oder gelesen werden können
         </li>
-        <li>
-          Besteht aus 2 Teilen: dem Kabelbus, der das Kabel, die Stecker und die
-          elektrischen Signale festlegt und dem Software-Protokoll, das die
-          Übertragung von Daten und den Zugriff auf den Bus regelt
-        </li>
-        <li>
-          SCSI als Hardware-Schnittstelle spielt keine Rolle mehr, jedoch wird
-          das Protokoll immernoch häufig verwendet z.B. SAS, iSCSI
-        </li>
-        <li class="text-weight-bold">iSCSI</li>
+        <li>Dateisystem ordnet Dateien einer Folge von Blöcken zu</li>
+        <li class="text-green">Vorteile:</li>
         <ul>
-          <li>SCSI über TCP/IP-Netzwerk</li>
-          <li>Verschicken von SCSI-Kommandos in TCP-Paketen</li>
+          <li>
+            Direkter Zugriff auf Blöcke, die geändert oder gelesen werden sollen
+          </li>
+          <li>
+            Bei Änderung einer Datei muss nicht der gesamte Datensatz der Datei
+            verändert werden, sondern nur die Blöcke, die verändert wurden.
+          </li>
         </ul>
-      </ul>
-      <li class="text-weight-bolder">FC - Fibre Channel</li>
-      <ul>
-        <li>Übertragungssystem, das für Speichernetze (SAN) eingesetzt wird</li>
-        <li>logische Erweiterung des SCSI-Busses</li>
-        <li>Überträgt SCSI-Befehle und Daten in serieller Form in einem SAN</li>
-        <li>
-          benötigt teure Hardware → FCIP (Fibre Channel over IP) und FCoE (Fibre
-          Channel over Ethernet) zur Datenübertragung durch Ethernet und TCP/IP
-        </li>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
