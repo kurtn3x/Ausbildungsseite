@@ -102,9 +102,63 @@
       Arten von Backups
     </div>
     <ul>
+      <li class="text-weight-bolder">Vollständiges Backup</li>
+      <ul>
+        <li>
+          kopieren des gesamten Datensatzes, unabhängig davon, ob Änderungen
+          vorgenommen wurden
+        </li>
+        <li>langsam und beansprucht am meisten Speicherplatz</li>
+      </ul>
+
       <li class="text-weight-bolder">inkrementelles Backup</li>
+      <ul>
+        <li>
+          es werden nur die Dateien gesichert, die sich seit dem letzten Backup
+          verändert haben
+        </li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>schnell und effizient</li>
+          <li>benötigen wenig Speicherplatz</li>
+          <li>spart Netzwerkbandbreite</li>
+          <li>kosteneffizient</li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>
+            Wiederherstellung der Daten ist zeitaufwending und komplex
+            (Erfordert das letzte vollständige Backup und alle darauffolgenden
+            inkrementellen Backups zur Datenwiederherstellung)
+          </li>
+        </ul>
+      </ul>
       <li class="text-weight-bolder">differentielles Backup</li>
-      <li class="text-weight-bolder">Vollbackup</li>
+      <ul>
+        <li>
+          es werden nur die Dateien gesichert, die sich seit dem letzten
+          <a class="text-blue">vollständigen</a> Backup verändert haben
+        </li>
+        <li>
+          Größe der Backupdatei nimmt immer weiter zu, bis zum nächsten
+          Vollbackup
+        </li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>
+            Wiederherstellung des Backups einfach (erfordert nur das letzte
+            vollständige Backup und das letzte differentielle Backup)
+          </li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>größere Backups</li>
+          <li>
+            dauert dadurch länger, nutzt mehr Speicherplatz und verursacht mehr
+            Netzwerklast
+          </li>
+        </ul>
+      </ul>
       <li class="text-weight-bolder">Cloning</li>
       <li class="text-weight-bolder">Blockbasiert</li>
       <li class="text-weight-bolder">Dateibasiert</li>
@@ -118,7 +172,27 @@
     </div>
     <ul>
       <li class="text-weight-bolder">Komprimentierung</li>
+      <ul>
+        <li>
+          Anzahl der für die Darstellung von Daten benötigten Bits verringert
+        </li>
+        <li>durch entfernen von redundanten Daten innerhalb der Datei</li>
+        <li>
+          Algorithmus stellt die Originaldaten beim Lesen der Datei wieder her
+        </li>
+      </ul>
       <li class="text-weight-bolder">Deduplizierung</li>
+      <ul>
+        <li>Eliminieren redundanter Dateien auf einem Speichersystem</li>
+        <li>Es wird nur eine Instanz einer Datei gespeichert</li>
+        <li>
+          z.B. gleiches Dokument, welches in verschiedenen Unterordnern
+          gespeichert wird, wird dedupliziert, sodass das gespeicherte Dokument
+          nur einmal wirklich gespeichert wurde und die restlichen "Dateien" nur
+          auf das echte Dokument zeigen
+          https://www.computerweekly.com/de/tipp/Im-Vergleich-Komprimierung-Deduplizierung-Verschluesselung
+        </li>
+      </ul>
 
       <li class="text-weight-bolder">SCSI - Small Computer System Interface</li>
       <ul>
