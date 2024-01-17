@@ -182,6 +182,36 @@ const routes: RouteRecordRaw[] = [
         component: () =>
           import('pages/IT/Programmierung/ProgrammierparadigmenBegriffe.vue'),
       },
+      {
+        path: 'tests',
+        component: () => import('pages/IT/Programmierung/Tests.vue'),
+      },
+    ],
+  },
+  {
+    path: '/hardware',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'verkabelung',
+        component: () => import('pages/IT/Hardware/Verkabelung.vue'),
+      },
+      {
+        path: 'usv',
+        component: () => import('pages/IT/Hardware/USV.vue'),
+      },
+      {
+        path: 'storage-backup',
+        component: () => import('pages/IT/Hardware/Storage.vue'),
+      },
+      {
+        path: 'strom-ladung',
+        component: () => import('pages/IT/Hardware/StromLadung.vue'),
+      },
+      {
+        path: 'virtualisierung-cloud',
+        component: () => import('pages/IT/Hardware/VirtualisierungCloud.vue'),
+      },
     ],
   },
   {
@@ -199,11 +229,6 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'tcpip',
         component: () => import('pages/IT/Netzwerk/TCPIP.vue'),
-      },
-      {
-        path: 'strukturierte-verkabelung',
-        component: () =>
-          import('pages/IT/Netzwerk/StrukturierteVerkabelung.vue'),
       },
       {
         path: 'topologien',
@@ -277,10 +302,7 @@ const routes: RouteRecordRaw[] = [
         path: 'wlan',
         component: () => import('pages/IT/Netzwerk/WLAN.vue'),
       },
-      {
-        path: 'storage',
-        component: () => import('pages/IT/Netzwerk/Storage.vue'),
-      },
+
       {
         path: 'weitere-netzwerkarten',
         component: () => import('pages/IT/Netzwerk/WeitereNetzwerkarten.vue'),
@@ -298,10 +320,6 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'speichergrossen',
         component: () => import('pages/IT/Rechnungen/Speichergrößen.vue'),
-      },
-      {
-        path: 'strom-ladung',
-        component: () => import('pages/IT/Rechnungen/StromLadung.vue'),
       },
       {
         path: 'bin-dez-hex',

@@ -9,75 +9,65 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Storage
+      Storage & Backup
     </div>
     <q-separator class="q-mt-md" />
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
     >
-      DAS - Direct Attached Storage
+      DAS, NAS & SAN
     </div>
     <ul>
-      <li>eine Festplatte, die direkt mit einem Server verbunden ist</li>
-      <li>Server kontrolliert Zugriff auf Speicherplatz</li>
-      <li>
-        Andere können über Benutzerrichtlichen oder Freigaben Zugriff auf den
-        Speicher erhalten
-      </li>
-    </ul>
+      <li class="text-weight-bolder">DAS - Direct Attached Storage</li>
+      <ul>
+        <li>eine Festplatte, die direkt mit einem Server verbunden ist</li>
+        <li>Server kontrolliert Zugriff auf Speicherplatz</li>
+        <li>
+          Andere können über Benutzerrichtlichen oder Freigaben Zugriff auf den
+          Speicher erhalten
+        </li>
+      </ul>
 
-    <q-separator class="q-mt-md" />
+      <li class="text-weight-bolder">NAS - Network Attached Storage</li>
+      <ul>
+        <li>
+          konfigurierbarer Datenspeicher, um in einem Netzwerk Speicherplatz zur
+          Verfügung zu stellen
+        </li>
+        <li>Festplatten nicht an Server gebunden</li>
+        <li>
+          Besteht aus Festplatten, Stromversorgung und einem Netzwerkinterface
+        </li>
+        <li>jedes NAS muss einzeln konfiguriert werden</li>
+        <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
+        <li>Zugriff über Remoteprotokoll wie SMB, NFS, FTP oder auch HTTP</li>
+        <li>unkompliziert und schnell</li>
+        <li>oft Datensicherheit durch konfigurierbares RAID</li>
+      </ul>
 
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-    >
-      NAS - Network Attached Storage
-    </div>
-    <ul>
-      <li>
-        konfigurierbarer Datenspeicher, um in einem Netzwerk Speicherplatz zur
-        Verfügung zu stellen
-      </li>
-      <li>Festplatten nicht an Server gebunden</li>
-      <li>
-        Besteht aus Festplatten, Stromversorgung und einem Netzwerkinterface
-      </li>
-      <li>jedes NAS muss einzeln konfiguriert werden</li>
-      <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
-      <li>Zugriff über Remoteprotokoll wie SMB, NFS, FTP oder auch HTTP</li>
-      <li>unkompliziert und schnell</li>
-      <li>oft Datensicherheit durch konfigurierbares RAID</li>
-    </ul>
-    <q-separator class="q-mt-md" />
-
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-    >
-      SAN - Storage Area Network
-    </div>
-    <ul>
-      <li>
-        Speicherung großer Datenmengen unabhängig von Standort und
-        Betriebssystem
-      </li>
-      <li>zentral verwaltet und zu virtuellen Einheiten zusammengefasst</li>
-      <li>
-        Zugriff auf Speicher erfolgt über die Server, die für die Verwaltung der
-        Laufwerke zuständig sind
-      </li>
-      <li>
-        Ziel ist auch die Zusammenfassung einzelner Festplatten, damit der
-        Speicher von allen Servern gemeinsam genutzt werden kann → gesamter
-        Speicher steht als ein Block zur Verfügung
-      </li>
-      <li>Flexibilität durch vereinfachte Speicherzuweisung</li>
-      <li>
-        verschiedene Schnitstellen: Fibre Channel, iSCSI, Ethernet, Infiniband
-      </li>
-      <li>oft große Unternehmen bzw. wichtige Services</li>
-      <li>hohe Datendurchsätze und niedrige Latenz</li>
-    </ul>
-    <div class="row justify-center q-mt-md">
+      <li class="text-weight-bolder">SAN - Storage Area Network</li>
+      <ul>
+        <li>
+          Speicherung großer Datenmengen unabhängig von Standort und
+          Betriebssystem
+        </li>
+        <li>zentral verwaltet und zu virtuellen Einheiten zusammengefasst</li>
+        <li>
+          Zugriff auf Speicher erfolgt über die Server, die für die Verwaltung
+          der Laufwerke zuständig sind
+        </li>
+        <li>
+          Ziel ist auch die Zusammenfassung einzelner Festplatten, damit der
+          Speicher von allen Servern gemeinsam genutzt werden kann → gesamter
+          Speicher steht als ein Block zur Verfügung
+        </li>
+        <li>Flexibilität durch vereinfachte Speicherzuweisung</li>
+        <li>
+          verschiedene Schnitstellen: Fibre Channel, iSCSI, Ethernet, Infiniband
+        </li>
+        <li>oft große Unternehmen bzw. wichtige Services</li>
+        <li>hohe Datendurchsätze und niedrige Latenz</li>
+      </ul>
       <q-img
         class="fit bg-grey-5"
         :src="src + '/datenschutz/RAID/NASSAN.jpg'"
@@ -94,7 +84,32 @@
           Click for full size
         </div>
       </q-img>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Storage-Protokolle
     </div>
+    <ul>
+      <li class="text-weight-bolder">SMB</li>
+      <li class="text-weight-bolder">NFS</li>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Arten von Backups
+    </div>
+    <ul>
+      <li class="text-weight-bolder">inkrementelles Backup</li>
+      <li class="text-weight-bolder">differentielles Backup</li>
+      <li class="text-weight-bolder">Vollbackup</li>
+      <li class="text-weight-bolder">Cloning</li>
+      <li class="text-weight-bolder">Blockbasiert</li>
+      <li class="text-weight-bolder">Dateibasiert</li>
+    </ul>
+
     <q-separator class="q-mt-md" />
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
@@ -102,7 +117,10 @@
       Sonstige Begriffe
     </div>
     <ul>
-      <li class="text-weight-bold">SCSI - Small Computer System Interface</li>
+      <li class="text-weight-bolder">Komprimentierung</li>
+      <li class="text-weight-bolder">Deduplizierung</li>
+
+      <li class="text-weight-bolder">SCSI - Small Computer System Interface</li>
       <ul>
         <li>
           Protokoll zur Steuerung der Kommunikation zwischen Massenspeicher und
@@ -123,7 +141,7 @@
           <li>Verschicken von SCSI-Kommandos in TCP-Paketen</li>
         </ul>
       </ul>
-      <li class="text-weight-bold">FC - Fibre Channel</li>
+      <li class="text-weight-bolder">FC - Fibre Channel</li>
       <ul>
         <li>Übertragungssystem, das für Speichernetze (SAN) eingesetzt wird</li>
         <li>logische Erweiterung des SCSI-Busses</li>

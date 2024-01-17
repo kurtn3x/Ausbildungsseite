@@ -136,7 +136,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'StrukturierteVerkabelungPage',
+  name: 'VerkabelungPage',
   setup() {
     const q = useQuasar();
     return {

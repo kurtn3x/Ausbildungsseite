@@ -18,6 +18,8 @@
         und Visualisierung von Software-Teilen und anderen Systemen
       </li>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
@@ -57,6 +59,23 @@
         stellen die einzelnen Objekte und ihre Interaktionen zeitlich bezogen
         dar
       </li>
+      <li class="text-weight-bolder">Beispiel:</li>
+      <q-img
+        class="fit bg-grey-5 q-mt-md"
+        :src="src + '/Programmierung/uml-sequenz.png'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/Programmierung/uml-sequenz.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
     </ul>
     <q-separator class="q-mt-md" />
     <div
@@ -69,19 +88,35 @@
         beschreiben Objekte eines Programms mittels der Aktivitäten, die sie
         während des Programmablaufes vollführen
       </li>
+      <li class="text-weight-bolder">Beispiel:</li>
+      <q-img
+        class="fit bg-grey-5 q-mt-md"
+        :src="src + '/Programmierung/uml-aktivitat.png'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/Programmierung/uml-aktivitat.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
     </ul>
+
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
     >
-      UML-Zustandsdiagramme
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://commons.wikimedia.org/wiki/File:UmlSequenzdiagramm-2.svg<br />
+      https://commons.wikimedia.org/wiki/File:Uml-Activity-Beispiel2.svg <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
-    <ul>
-      <li>
-        visualisieren die unterschiedlichen Zustände, die Objekte in ihrem Leben
-        annehmen können
-      </li>
-    </ul>
   </q-page>
 </template>
 

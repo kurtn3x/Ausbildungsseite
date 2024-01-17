@@ -177,6 +177,70 @@
   </q-expansion-item>
   <q-expansion-item
     dense-toggle
+    label="Hardware"
+    header-class="bg-primary text-white text-body1"
+    expand-icon-class="text-white"
+    :content-inset-level="0.2"
+  >
+    <div class="q-ma-xs">
+      <q-btn
+        dense
+        flat
+        to="/hardware/verkabelung"
+        label="Verkabelung"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/netzwerk/hardware"
+        label="Netzwerk-Hardware"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/hardware/usv"
+        label="USV"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/hardware/strom-ladung"
+        label="Strom & Ladung"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/hardware/storage-backup"
+        label="Storage & Backup"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/hardware/virtualisierung-cloud"
+        label="Virtualisierung & Cloud"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+    </div>
+  </q-expansion-item>
+  <q-expansion-item
+    dense-toggle
     label="Netzwerk"
     header-class="bg-primary text-white text-body1"
     expand-icon-class="text-white"
@@ -202,15 +266,6 @@
         align="left"
       />
 
-      <q-btn
-        dense
-        flat
-        to="/netzwerk/strukturierte-verkabelung"
-        label="Verkabelung"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-      />
       <q-btn
         dense
         flat
@@ -474,15 +529,6 @@
       <q-btn
         dense
         flat
-        to="/netzwerk/storage"
-        label="Storage"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-      />
-      <q-btn
-        dense
-        flat
         to="/netzwerk/header"
         label="Auswerten von Headern"
         class="full-width q-mt-xs"
@@ -594,15 +640,7 @@
         rounded
         align="left"
       />
-      <q-btn
-        dense
-        flat
-        to="/rechnungen/strom-ladung"
-        label="Strom & Ladung"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-      />
+
       <q-btn
         dense
         flat
@@ -654,6 +692,15 @@
         flat
         to="/programmierung/ablaufdiagramme"
         label="Ablaufdiagramme"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/programmierung/tests"
+        label="Software testing"
         class="full-width q-mt-xs"
         rounded
         align="left"
