@@ -34,24 +34,18 @@ const routes: RouteRecordRaw[] = [
         path: 'projekt',
         component: () => import('pages/NIT/Projektmanagement/Projekt.vue'),
       },
-    ],
-  },
-
-  {
-    path: '/qualitatsmanagement',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
       {
         path: 'systeme-methoden',
         component: () =>
-          import('pages/NIT/Qualitätsmanagement/SystemeMethoden.vue'),
+          import('pages/NIT/Projektmanagement/SystemeMethoden.vue'),
       },
       {
         path: 'pdca',
-        component: () => import('pages/NIT/Qualitätsmanagement/PDCA.vue'),
+        component: () => import('pages/NIT/Projektmanagement/PDCA.vue'),
       },
     ],
   },
+
   {
     path: '/wirtschaft',
     component: () => import('layouts/MainLayout.vue'),

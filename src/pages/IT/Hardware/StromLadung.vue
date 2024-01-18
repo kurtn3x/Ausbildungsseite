@@ -79,9 +79,16 @@
         </li>
         <li>
           Energiekosten = Benutzungsdauer in h * bezogene Leistung aus Stromnetz
-          in kiloWatt * Energiekosten kWh in Cent <br />
-          Beispiel: 30cent/kWh, 180h Benutzungsdauer, 140W (140W/1000 = 0.14kW)
-          = 180 * 0.14 * 30 = 756 Cent Kosten
+          in kiloWatt * Energiekosten kWh in Cent
+          <ul>
+            <li>Beispiel: 30cent/kWh, 180h Benutzungsdauer, 140W</li>
+            <li>
+              entwender 30cent/kWh in cent/Wh umrechnen oder 140W in kW
+              umrechnen
+            </li>
+            <li>0.03 cent/Wh * 140 W * 180 h = 756 Cent Kosten</li>
+            <li>30 cent/kWh * 0.14 kW * 180 h = 756 Cent Kosten</li>
+          </ul>
         </li>
         <li>
           Netzspannung in Deutschland: 230Volt → z.B. Steckdose mit 10A kann in

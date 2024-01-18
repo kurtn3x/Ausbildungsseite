@@ -44,20 +44,10 @@
         rounded
         align="left"
       />
-    </div>
-  </q-expansion-item>
-  <q-expansion-item
-    dense-toggle
-    label="Qualitätsmanagement"
-    header-class="bg-primary text-white text-body1"
-    expand-icon-class="text-white"
-    :content-inset-level="0.2"
-  >
-    <div class="q-ma-xs">
       <q-btn
         dense
         flat
-        to="/qualitatsmanagement/systeme-methoden"
+        to="/projektmanagement/systeme-methoden"
         label="Managementsysteme - & methoden"
         class="full-width q-mt-xs"
         rounded
@@ -66,7 +56,7 @@
       <q-btn
         dense
         flat
-        to="/qualitatsmanagement/pdca"
+        to="/projektmanagement/pdca"
         label="Der PDCA-Zyklus"
         class="full-width q-mt-xs"
         rounded

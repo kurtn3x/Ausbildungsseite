@@ -40,7 +40,7 @@
       <ul>
         <li>
           Sicherheitsrisiken (Absicherung des Zugriffs bei Transfer von Client
-          zu Server)
+          zu Server, Sicherheitsverantwortung wird an Anbieter abgegeben)
         </li>
         <li>Risiko von unautorisierten Zugriffen des Cloud-Anbieters</li>
         <li>

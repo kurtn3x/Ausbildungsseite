@@ -15,8 +15,70 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
-      Erstes Seitenthema
+      Relationale und nicht-relationale Datenbanken
     </div>
+    <ul>
+      <li class="text-weight-bolder">relationale Datenbank</li>
+      <ul>
+        <li>auch SQL-Datenbank</li>
+        <li>
+          speichern von Daten in tabellarischer Form in Spalten und Zeilen
+        </li>
+        <li>Spalten = Datenattribute, Zeilen = Datenwerte</li>
+        <li>
+          Jede Tabelle hat Primärschlüssel, um Verknüpfungen zu anderen Tabellen
+          herzustellen
+        </li>
+        <li>
+          Verknüpfung zu anderer Tabelle innerhalb einer Tabelle =
+          Fremdschlüssel
+        </li>
+        <li>
+          strenge Regeln in Bezug auf Datenvariation und Tabellenbeziehungen
+        </li>
+        <li>Nutzen von SQL zur Datenabfrage</li>
+        <li>muss "ACID"-Eigenschaften aufweisen</li>
+        <ul>
+          <li>
+            Atomarität (Atomicity): Transaktionen müssen vollständig gelingen
+            oder vollständig fehlschlagen
+          </li>
+          <li>
+            Konsitenz (Consistency): Validierung und Verhinderung der
+            Verfälschung von Daten
+          </li>
+          <li>
+            Isolation: konkurrirende Transaktionen dürfen sich nicht gegenseitig
+            beeinflussen
+          </li>
+          <li>
+            Dauerhaftigkeit: Systemausfall darf Auswirkungen einer efolgreichen
+            Transaktion nicht rückgängig machen
+          </li>
+        </ul>
+      </ul>
+      <li class="text-weight-bolder">nicht-relationale Datenbank</li>
+      <ul>
+        <li>auch NoSQL-Datenbank</li>
+        <li>Vielzahl von Datenmodellen für Zugriff und Verwaltung der Daten</li>
+        <li>
+          ohne Schema und ohne Einschränkungen von relationalen Datenbanken
+        </li>
+        <li>
+          speichern und ändern vieler verschiedener Daten mit unterschiedlichen
+          Datentypen möglich
+        </li>
+        <li>NoSQL-Modelle</li>
+        <ul>
+          <li>
+            Schlüssel-Werte-Datenbank: Sammlung von Daten als
+            Schlüssel-Werte-Paare
+          </li>
+          <li>Dokumentdatenbank: Daten als JSON-Objekte</li>
+          <li>Graphdatenbank: Speichern und Navigieren von Beziehungen</li>
+        </ul>
+      </ul>
+    </ul>
   </q-page>
 </template>
 

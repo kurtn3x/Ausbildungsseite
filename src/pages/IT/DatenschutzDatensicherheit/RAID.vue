@@ -47,6 +47,7 @@
           <li>
             Erhöhung der Übertragungsraten, da parellelle Zugriffe möglich
           </li>
+          <li>Verfügbarer Speicherplatz: 100%</li>
 
           <q-img
             class="fit bg-grey-5 q-mt-md"
@@ -76,7 +77,9 @@
             speichert auf allen Festplatten die gleichen Daten -> volle
             Redundanz
           </li>
-          <li>Kapazität so groß, wie kleinste Festplatte</li>
+          <li>
+            Verfügbarer Speicher: so viel, wie kleinste Festplatte (maximal 50%)
+          </li>
 
           <q-img
             class="fit bg-grey-5 q-mt-md"
@@ -115,7 +118,7 @@
           </li>
           <li>Nutzdaten auf alle anderen Datenblöcke verteilt</li>
           <li>
-            nutzbare Kapazität = (Anzahl Festplatten - 1) * Kapazität der
+            Verfügbarer Speicherplatz = (Anzahl Festplatten - 1) * Kapazität der
             kleinsten Festplatte
           </li>
 

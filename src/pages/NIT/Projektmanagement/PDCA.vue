@@ -18,7 +18,7 @@
         oft auch als KVP (kontinuierlicher Verbesserungsprozess) bezeichnet
       </li>
       <li>
-        dient der Weiterentwicklung von Prdukten und der Fehler-Ursache-Analyse
+        dient der Weiterentwicklung von Produkten und der Fehler-Ursache-Analyse
       </li>
 
       <q-img
