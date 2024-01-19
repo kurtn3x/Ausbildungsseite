@@ -15,8 +15,50 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
-      Erstes Seitenthema
+      USV-Typen
     </div>
+    <ul>
+      <li class="text-weight-bolder">Offline-USV</li>
+      <ul>
+        <li>auch VFD (Voltage and Frequency Dependent) genannt</li>
+        <li>Verbraucher im Normalbetrieb direkt vom Netz versorgt</li>
+        <li>
+          Notstromkreis nur bei Stromaufsall oder Spannungsschwankungen
+          aktiviert
+        </li>
+        <li>
+          Akku bleibt weiterhin an Stromnetz angeschlossen, um volle
+          Ladeleistung zu sichern
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Line-Interaktive-USV</li>
+      <ul>
+        <li>auch VI-Systeme (Voltage Independent) genannt</li>
+        <li>Verbraucher im Normalbetrieb direkt vom Netz versorgt</li>
+        <li>
+          Anlage schaltet bei Stromausfall oder Spannungsschwankungen auf
+          Batterieversorgung um
+        </li>
+        <li>
+          verfügen über automatische Spannungsanpassung (AVR), gleicht Über- und
+          Unterspannungen aus
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Online-USV</li>
+      <ul>
+        <li>auch VFI-Systeme (Voltage and Frequency Independent) genannt</li>
+        <li>Verbraucher hat keine direkte Verbindung zum Stromnetz</li>
+        <li>
+          konstante Ausgangsspannung durch Gleichrichter (wandelt
+          Eingangsspannung zu Gleichstrom um und speist Energie in Akkus)
+        </li>
+        <li>
+          Wechselrichter bezieht Strom bei Normalbetrieb über Gleichrichter und
+          bei Stromausfall aus Akku
+        </li>
+        <li>Ständige Umwandlung von Gleich- in Wechselstrom</li>
+      </ul>
+    </ul>
   </q-page>
 </template>
 
