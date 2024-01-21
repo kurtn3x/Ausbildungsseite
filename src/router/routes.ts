@@ -207,6 +207,10 @@ const routes: RouteRecordRaw[] = [
         path: 'virtualisierung-cloud',
         component: () => import('pages/IT/Hardware/VirtualisierungCloud.vue'),
       },
+      {
+        path: 'server',
+        component: () => import('pages/IT/Hardware/Serverhardware.vue'),
+      },
     ],
   },
   {

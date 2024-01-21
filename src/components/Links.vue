@@ -176,6 +176,24 @@
       <q-btn
         dense
         flat
+        to="/hardware/usv"
+        label="USV"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
+        to="/hardware/strom-ladung"
+        label="Strom & Ladung"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+      />
+      <q-btn
+        dense
+        flat
         to="/hardware/verkabelung"
         label="Verkabelung"
         class="full-width q-mt-xs"
@@ -194,17 +212,8 @@
       <q-btn
         dense
         flat
-        to="/hardware/usv"
-        label="USV"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-      />
-      <q-btn
-        dense
-        flat
-        to="/hardware/strom-ladung"
-        label="Strom & Ladung"
+        to="/hardware/server"
+        label="Server-Hardware"
         class="full-width q-mt-xs"
         rounded
         align="left"
@@ -663,7 +672,7 @@
         dense
         flat
         to="/programmierung/programmierparadigmen"
-        label="Arten & Begriffe"
+        label="Paradigmen & Begriffe"
         class="full-width q-mt-xs"
         rounded
         align="left"

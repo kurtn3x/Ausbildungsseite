@@ -62,7 +62,9 @@
               <a class="text-weight-bold">Netzzugang <br />Network</a>
             </td>
             <td class="tg-0pky">ARP, Ethernet<br /></td>
-            <td>Ethernet-Frame</td>
+            <td style="max-width: 200px">
+              Ethernet-Frame (beinhaltet OSI Schicht 1 und Schicht 2 Inhalte)
+            </td>
           </tr>
         </tbody>
       </table>

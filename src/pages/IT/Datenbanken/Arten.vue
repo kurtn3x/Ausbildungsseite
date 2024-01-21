@@ -79,6 +79,76 @@
         </ul>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Begriffe zu Datenbanken
+    </div>
+    <ul>
+      <li class="text-weight-bolder">DBS - Datenbanksystem</li>
+      <ul>
+        <li>
+          System, mit dem sehr große Datenmengen von Computern verwaltet werden
+        </li>
+        <li>
+          soll Datenmengen sicher speichern und Anfragen von Nutzern und
+          Software schnell ermöglichen
+        </li>
+        <li>
+          beinhaltet Werkzeuge zur Auswertung, Analyse, Bearbeitung und
+          Präsentation von Daten
+        </li>
+        <li>Aufgaben:</li>
+        <ul>
+          <li>
+            Datenintegration: einheitliche Verwaltung der benötigten Daten
+          </li>
+          <li>Datenoperation: Suchen, Ändern und Abspeichern von Daten</li>
+          <li>Datenkatalog: Beschreibung der Datenbank</li>
+          <li>
+            Benutzersichten: unterschiedliche Sichten auf den Datenbestand
+          </li>
+          <li>Konsitenzüberwachung: Sichern der Korrektheit der Daten</li>
+          <li>Zugriffskontrolle: Zugriffe kontrollieren und ggf. verhindern</li>
+          <li>
+            Transaktionen: Änderungen können als Einheit zusammengefasst werden
+          </li>
+          <li>
+            Synchronisation: Daten müssen bei konkurrierenden Transaktionen
+            synchronisiert werden
+          </li>
+          <li>
+            Dantesicherung: Wiederherstellungsmöglichkeit des Datenbestandes
+          </li>
+        </ul>
+        <li>besteht aus 2 Teilen:</li>
+        <ul>
+          <li>die Verwaltungssoftware, dem Datenbankmanagementsystem (DBMS)</li>
+          <li>dem eigentlichen Datenspeicher, der Datenbank</li>
+        </ul>
+      </ul>
+      <li>
+        <a class="text-weight-bolder">Redundanz: </a>Mehrfachspeicherung von
+        Daten
+      </li>
+      <li>
+        <a class="text-weight-bolder">Konsistenz: </a>Es besteht kein
+        Widerspruch zwischen den Daten
+      </li>
+      <li>
+        <a class="text-weight-bolder">Integrität: </a>Die Daten sind korrekt,
+        konsistent und eindeutig
+      </li>
+      <li>
+        <a class="text-weight-bolder">Kradinalität: </a>Beschreibt die Art einer
+        Beziehung (1:1, 1:n, m:n)
+      </li>
+      <li>
+        <a class="text-weight-bolder">Normalisierung: </a>Redundanzen
+        beseitigen, Dateninkonsistenz verhindern
+      </li>
+    </ul>
   </q-page>
 </template>
 

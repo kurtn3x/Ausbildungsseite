@@ -12,10 +12,23 @@
       Das Entity-Relationship-Modell
     </div>
     <q-separator class="q-mt-md" />
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
-    >
-      Erstes Seitenthema
+    <div class="row justify-center q-mt-md">
+      <q-img
+        class="fit bg-grey-5"
+        :src="src + '/Programmierung/erm.png'"
+        style="max-width: 600px"
+        @click="
+          show_img = true;
+          popupsrc = '/Programmierung/erm.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
     </div>
   </q-page>
 </template>
@@ -25,7 +38,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'IndexPage',
+  name: 'ERMPage',
   setup() {
     const q = useQuasar();
     return {

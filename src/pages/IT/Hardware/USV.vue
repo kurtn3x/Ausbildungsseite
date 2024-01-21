@@ -9,7 +9,7 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      USV
+      USV - Unterbrechungsfreie Stromversorgung
     </div>
     <q-separator class="q-mt-md" />
     <div
@@ -30,6 +30,26 @@
           Akku bleibt weiterhin an Stromnetz angeschlossen, um volle
           Ladeleistung zu sichern
         </li>
+        <li>
+          Umschaltung erfolgt erst nach wenigen Millisekunden (schlecht für
+          empfindliche Verbraucher)
+        </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Hardware/offlineusv.jpg'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Hardware/offlineusv.jpg';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
       <li class="text-weight-bolder">Line-Interaktive-USV</li>
       <ul>
@@ -43,6 +63,26 @@
           verfügen über automatische Spannungsanpassung (AVR), gleicht Über- und
           Unterspannungen aus
         </li>
+        <li>
+          Keine Korrektur der Eingangsspannung und Umschaltung auch erst nach
+          wenigen Millisekunden
+        </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Hardware/line-interaktiveusv.jpg'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Hardware/line-interaktiveusv.jpg';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
       <li class="text-weight-bolder">Online-USV</li>
       <ul>
@@ -57,8 +97,39 @@
           bei Stromausfall aus Akku
         </li>
         <li>Ständige Umwandlung von Gleich- in Wechselstrom</li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Hardware/onlineusv.jpg'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Hardware/onlineusv.jpg';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+
+      https://www.akkuteam.de/thumbnail/e8/8f/18/1622123513/Offline-02_800x800.jpg<br />
+      https://www.akkuteam.de/thumbnail/3d/93/cb/1622123672/Line-Interactive-02_800x800.jpg
+      <br />
+      https://www.akkuteam.de/thumbnail/6d/af/f6/1622123796/Online-02_800x800.jpg
+      <br />
+
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
+    </div>
   </q-page>
 </template>
 

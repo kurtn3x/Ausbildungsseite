@@ -12,7 +12,16 @@
       UML (Unified Modeling Language) - Diagramme
     </div>
     <q-separator class="q-mt-md" />
+
     <ul>
+      <li>
+        <a
+          href="https://media.kurtn3x.xyz/assets/Programmierung/UML-Notations%C3%BCbersicht-2.5.pdf"
+          target="_blank"
+          class="text-light-blue"
+          >Übersicht</a
+        >
+      </li>
       <li>
         grafische Modellierung zur Spezifikation, Konstruktion, Dokumentation
         und Visualisierung von Software-Teilen und anderen Systemen
@@ -58,6 +67,25 @@
         beschreiben die statische Struktur von Objekten und ihre Beziehung
         untereinander
       </li>
+      <li class="text-weight-bolder">Komposition - Existenzabhängigkeit</li>
+      <ul>
+        <li>Die Teile sind vom Ganzen existenziell abhängig</li>
+        <li>Beispiel: Beziehung Gebäude-Raum</li>
+        <ul>
+          <li>Ein Raum kann nicht ohne Gebäude existieren</li>
+          <li>Ein Gebäude besteht aus mindestens einem Raum</li>
+        </ul>
+      </ul>
+      <li class="text-weight-bolder">Aggregation - Existenzunabhängigkeit</li>
+      <ul>
+        <li>Die Teile sind nicht vom Ganzen existenziell abhängig.</li>
+        <li>Beispiel: Beziehung Student-Vorlesung</li>
+        <ul>
+          <li>Ein Stunden kann ohne Vorlesung existieren</li>
+          <li>Eine Vorlesung besteht aus mindestens 3 Studenten</li>
+        </ul>
+      </ul>
+
       <li class="text-weight-bolder">Bestandteile:</li>
       <q-img
         class="fit bg-grey-5 q-mt-md"

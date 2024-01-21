@@ -27,8 +27,7 @@
         oder dem genutzten Dienst
       </li>
       <li>
-        Man unterscheidet zwischen einer Personal Firewall und exterenen
-        Firewall
+        Man unterscheidet zwischen einer Personal Firewall und externen Firewall
       </li>
       <ul>
         <li class="text-weight-bold">Personal- / Desktop-Firewall</li>

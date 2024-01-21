@@ -118,6 +118,16 @@
       Virtualisierung
     </div>
     <ul>
+      <li>
+        Virtualisierung ist das Nachbilden eines Hardware- oder Softwareobjekts
+        durch ein ähnliches Objekt vom selben Typ
+      </li>
+      <li>
+        Erzeugung virtueller Geräte und Dienste wie Hardware, Betriebssystem
+        oder Netzwerkanschlüsse
+      </li>
+    </ul>
+    <ul>
       <li class="text-weight-bolder">Containervirtualisierung</li>
       <ul>
         <li>
@@ -126,12 +136,15 @@
         </li>
         <li>
           es wird kein weiteres Betriebssystem gestartet → verschiedene
-          Betriebssysteme als Gastsystem unmöglich
+          Betriebssysteme als Gastsystem unmöglich, da die Container sich den
+          Kernel des OS teilen
         </li>
-
         <li>effizientere Ressourcennutzung</li>
+        <li>z.B. Docker</li>
       </ul>
-      <li class="text-weight-bolder">Virtuelle Maschinen</li>
+      <li class="text-weight-bolder">
+        Virtuelle Maschinen bzw. "Standard-Virtualisierung"
+      </li>
       <ul>
         <li>
           Kapselung eines Rechnersystems innerhalb eines lauffähigen
@@ -142,6 +155,7 @@
           <li>Mehrere Betriebssysteme gleichzeitig</li>
           <li>unterschiedliche Architekturen möglich</li>
           <li>Erhöhte Sicherheit</li>
+          <li>Isolation von Applikationen</li>
           <li>Günstig & Einfach</li>
         </ul>
         <li class="text-red">Nachteile:</li>
@@ -149,7 +163,11 @@
           <li>ineffizient (Hypervisor zieht auch Leistung)</li>
           <li>
             Schlechteres Load-Balancing, da Lastverhalten der einzelnen VMs
-            nicht vorhersehbar ist
+            nicht vorhersehbar ist und VMs sich die realen Ressourcen teilen
+            müssen
+          </li>
+          <li>
+            Fällt das Host-System aus, betrifft das alle darauf gehosteten VMs
           </li>
         </ul>
 
@@ -163,33 +181,46 @@
             </li>
             <li>erlauben Definierung einer virtuellen Umgebung</li>
             <li>
-              Typ-1-Hypervisor: auch native oder bare-metal setzt direkt auf der
-              Hardware auf und benötigt keine vorherige
-              Betriebssystem-Installation.
+              <a class="text-weight-bold">Typ-1-Hypervisor:</a> auch native oder
+              bare-metal setzt direkt auf der Hardware auf und benötigt keine
+              vorherige Betriebssystem-Installation. z.B. Hyper-V, VMware ESXI
             </li>
             <li>
-              Typ-2-Hypervisor: setzt auf einem vollwertigen Betriebssystem auf
-              und nutzt Gerätetreiber des Betriebssystems um auf die Hardware
-              zuzugreifen
+              <a class="text-weight-bold">Typ-2-Hypervisor:</a> setzt auf einem
+              vollwertigen Betriebssystem auf und nutzt Gerätetreiber des
+              Betriebssystems um auf die Hardware zuzugreifen. z.B. Virtualbox,
+              VMware Workstation
             </li>
           </ul>
-          <li class="text-weight-bold">Emulator</li>
+
+          <li class="text-weight-bold">Emulation</li>
           <ul>
             <li>
-              System, welches ein anderes in bestimmten Teilaspekten nachbildet
+              System, welches ein Anderes in bestimmten Teilaspekten nachbildet
             </li>
             <li>
               ermöglichen das Ausführen von Software für Computer oder
               Betriebssysteme auf einem anderen Computer mit einer anderen
               Architektur
             </li>
+            <li>soll dieselben Ergebnisse erzielen, wie das Original</li>
           </ul>
           <li class="text-weight-bold">Hardwarevirtualisierung</li>
           <ul>
+            <li>Abstraktion realer Hardware</li>
             <li>
               Virtualisierung des gesamten Systems oder von Teilkomponenten
               (z.B. CPU)
             </li>
+          </ul>
+          <li class="text-weight-bold">Desktop-Virtualisierung</li>
+          <ul>
+            <li>
+              Arbeitsplätze bzw. VMs werden in einer virtuellen Umgebung
+              eingerichtet
+            </li>
+            <li>Verbindung auf VM bzw. den Arbeitsplatz über das Netzwerk</li>
+            <li>Zugriff von überall</li>
           </ul>
         </ul>
       </ul>

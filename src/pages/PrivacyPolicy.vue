@@ -5,12 +5,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div class="row justify-center">
-      <q-card
-        bordered
-        flat
-        class="q-mt-lg bg-transparent"
-        style="max-width: 500px"
-      >
+      <q-card bordered flat class="q-mt-lg bg-transparent">
         <div class="q-ma-md">
           <div>
             No Cookies used on this site (some cookies may be set by other sites
@@ -23,7 +18,7 @@
             darkmode/lightmode)
           </div>
           <div class="q-mt-md">Contact</div>
-          <div>Mail: kurtn3x@proton.me</div>
+          <div>Mail: kurtn3x@gmail.com</div>
           <div>Discord: nex1233</div>
         </div>
       </q-card>

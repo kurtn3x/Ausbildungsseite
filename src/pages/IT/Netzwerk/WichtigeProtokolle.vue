@@ -63,7 +63,7 @@
           Verzeichnissen und Dateien
         </li>
         <li>keine Verschlüsselung</li>
-        <li>Port 21 & 22</li>
+        <li>Port 20 & 21</li>
       </ul>
       <li class="text-weight-bolder">SSH</li>
       <ul>
@@ -106,6 +106,34 @@
         <li>Fernsteuerung von Computern über Terminals</li>
         <li>unverschlüsselt und unsicher, durch SSH ersetzt</li>
         <li>Port 23</li>
+      </ul>
+      <li class="text-weight-bolder">NTP</li>
+      <ul>
+        <li>Network Time Protocol</li>
+        <li>Versorgen eines Endgeräts über das Internet mit einer Uhrzeit</li>
+        <li>Synchronisation von Echtzeituhren</li>
+        <li>Clients beziehen Uhrzeit von NTP-Servern</li>
+        <li>
+          in der Regel erfolgt die Synchronisation von mehreren Zeitservern
+        </li>
+        <li>
+          SNTP = Simple Network Time Protocol, ähnlich zu NTP, jedoch
+          Synchronisation nur von einem Zeitserver → ungenauer, jedoch weniger
+          Rechenintensiv
+        </li>
+      </ul>
+      <li class="text-weight-bolder">RDP</li>
+      <ul>
+        <li>Remote Desktop Protocol</li>
+        <li>Netzwerkprotokoll von Microsoft für Zugriff auf andere Computer</li>
+        <li>
+          Übertragung grafischer Bildschirminhalte sowie Anschlüsse (Maus,
+          Tastatur, ...)
+        </li>
+        <li>
+          Zusammenarbeit einer Serverkomponente (Remote Desktop Services) und
+          Clientkomponente
+        </li>
       </ul>
     </ul>
   </q-page>
