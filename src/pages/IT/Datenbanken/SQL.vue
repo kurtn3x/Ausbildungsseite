@@ -15,16 +15,12 @@
     <ul>
       <li>
         Angaben mit # sind nicht Bestandteil der SQL-Syntax, diese Felder müssen
-        durch richtige Werte getauscht werden (z.B. #Feldliste → "Name, Klasse,
-        Alter")
+        durch richtige Angaben aus der SQL-Tabelle getauscht werden (z.B.
+        #Feldliste → "Name, Klasse, Alter")
       </li>
-      <li>Angaben in Klammern () sind optionale Felder</li>
       <li class="text-weight-bolder q-mt-md">SELECT-Anweisung</li>
       <ul>
         <li class="text-red">SELECT = Wähle</li>
-        <li class="text-purple">
-          (DISTINCT) = gleiche Feldinhalte werden ignoriert
-        </li>
         <li class="text-pink">
           #Feldliste = Angabe der Felder durch Kommata getrennt oder auch * für
           alle Felder
@@ -58,30 +54,10 @@
             </div>
           </li>
           <li>gibt alle Felder aller Zeilen der Tabelle Lager aus</li>
-
-          <li>
-            <div
-              style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white q-mt-md"
-            >
-              <a class="text-red">SELECT </a>
-              <a class="text-purple"> DISTINCT </a>
-              <a class="text-pink">Land </a>
-              <a class="text-green">FROM</a> <a class="text-cyan">Kunden</a>;
-            </div>
-          </li>
-          <li>
-            gibt alle Länder aller Zeilen der Tabelle Kunden genau einmal aus
-          </li>
-          <li>
-            bzw. gibt ohne Dopplungen alle Länder aus, aus denen die Kunden
-            herkommen
-          </li>
         </ul>
 
         <li class="q-mt-md text-lime">
-          man kann mit SELECT-Anweisungen Felder zusammenrechnen und dem
-          Ergebnis mit AS ein Alias geben
+          Zusammenrechnen mehrer Felder und Zuweisen eines Aliases mit AS
         </li>
         <ul>
           <li>
@@ -105,6 +81,29 @@
               <a class="text-lime">(Gehalt+150) AS Sonderzahlung </a>
               <a class="text-green">FROM</a> <a class="text-cyan">Personal</a>;
             </div>
+          </li>
+        </ul>
+        <li class="text-purple q-mt-md">
+          DISTINCT = gleiche Feldinhalte werden ignoriert
+        </li>
+        <ul>
+          <li>
+            <div
+              style="font-family: monospace, monospace"
+              class="bg-grey-9 text-white"
+            >
+              <a class="text-red">SELECT </a>
+              <a class="text-purple"> DISTINCT </a>
+              <a class="text-pink">Land </a>
+              <a class="text-green">FROM</a> <a class="text-cyan">Kunden</a>;
+            </div>
+          </li>
+          <li>
+            gibt alle Länder aller Zeilen der Tabelle Kunden genau einmal aus
+          </li>
+          <li>
+            bzw. gibt ohne Dopplungen alle Länder aus, aus denen die Kunden
+            herkommen
           </li>
         </ul>
       </ul>
@@ -231,6 +230,85 @@
             Namen (Z→A)
           </li>
         </ul>
+      </ul>
+      <li class="text-weight-bolder q-mt-md">Aggregatfunktionen</li>
+      <ul>
+        <li>
+          Zusammenrechnen, zählen oder Minimal-/Maximalwerte einer oder mehrerer
+          Felder bestimmen
+        </li>
+        <li class="text-red q-mt-md">
+          SUM = Summe über ein Feld bilden und mit AS Alias zuweisen
+        </li>
+        <li>
+          <div
+            style="font-family: monospace, monospace"
+            class="bg-grey-9 text-white"
+          >
+            SELECT
+            <a class="text-red">SUM(Verkaufspreis) AS SummeVerkauf</a> FROM
+            Lager WHERE Artikelart='Computer';
+          </div>
+        </li>
+        <li>
+          gibt den zusammengerechneten Preis aller Computer in der Tabelle Lager
+          aus
+        </li>
+
+        <li class="text-green q-mt-md">
+          COUNT = Anzahl aller Datensätze (*) oder aller Datensätze mit Eintrag
+          im Feld (#Feldname)
+        </li>
+        <li>
+          <div
+            style="font-family: monospace, monospace"
+            class="bg-grey-9 text-white"
+          >
+            SELECT
+            <a class="text-green">COUNT(*)</a> FROM Lager WHERE
+            Artikelart='Computer';
+          </div>
+        </li>
+        <li>gibt die Anzahl aller Computer im Lager aus</li>
+
+        <li>
+          <div
+            style="font-family: monospace, monospace"
+            class="bg-grey-9 text-white q-mt-sm"
+          >
+            SELECT
+            <a class="text-green">COUNT(Preis)</a> FROM Lager WHERE
+            Artikelart='Computer';
+          </div>
+        </li>
+        <li>gibt die Anzahl aller Computer mit gesetztem Preis im Lager aus</li>
+
+        <li class="text-blue q-mt-md">
+          MIN | MAX = ermittelt den kleinsten/größten Wert im angegebenen Feld
+        </li>
+        <li>
+          <div
+            style="font-family: monospace, monospace"
+            class="bg-grey-9 text-white"
+          >
+            SELECT
+            <a class="text-blue">MIN(Preis)</a> FROM Lager WHERE
+            Artikelart='Computer';
+          </div>
+        </li>
+        <li>gibt den Computer mit dem kleinsten Preis aus</li>
+
+        <li>
+          <div
+            style="font-family: monospace, monospace"
+            class="bg-grey-9 text-white q-mt-sm"
+          >
+            SELECT
+            <a class="text-blue">MAX(Preis)</a> FROM Lager WHERE
+            Artikelart='Computer';
+          </div>
+        </li>
+        <li>gibt den Computer mit dem höchsten Preis aus</li>
       </ul>
     </ul>
   </q-page>
