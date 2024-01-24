@@ -90,6 +90,7 @@
           <li>Programm wird vom Interpreter gelesen und ausgeführt</li>
           <li>
             Nie in Maschinencode übersetzt, Ausnahme: Just-in-Time Compiler
+            (welcher oft als Teil von interpretierten Sprachen verwendet wird)
           </li>
           <li>
             portabel, selbes Programm kann auf jedem Betriebssystem und jeder
@@ -98,7 +99,7 @@
           </li>
           <li>z.B. Python, Java</li>
         </ul>
-        <li class="text-weight-bold">Komplierte Sprachen (Compiler)</li>
+        <li class="text-weight-bold">Kompilierte Sprachen (Compiler)</li>
         <ul>
           <li>Compiler übersetzt das Programm in maschinenlesbaren Code</li>
           <li>
@@ -109,46 +110,54 @@
           <li>Wie ausführbare Programme entstehen:</li>
           <ul>
             <li>
-              Der Präprozessor bindet weitere Quelltextdateien in den Sourcecode
-              ein
+              Der <a class="text-weight-bold">Präprozessor</a> bindet benötigte
+              Quelltextdateien in den Sourcecode ein. (z.B. #include - Dateien
+              in C einbinden)
             </li>
             <li>
-              Der Compiler übersetzt den Quellcode in Assembly-Code und nimmt
-              Optimisierungen vor. Assembly-Code ist die menschenlesbare Form
-              des Maschinencodes.
+              Der <a class="text-weight-bold">Compiler</a> übersetzt den
+              Quellcode in Assembly-Code und nimmt Optimisierungen vor.
+              Assembly-Code ist die menschenlesbare Form des Maschinencodes.
             </li>
-            <li>Der Assembler erzeugt eine Objektdatei mit Maschinencode</li>
             <li>
-              Der Linker verbindet mehrere Objektdateien und die Zugriffe
-              zwischen diesen zu einer ausführbaren Datei oder Bibliothek
+              Der <a class="text-weight-bold">Assembler</a> erzeugt aus dem
+              Assembly-Code eine Objektdatei mit Maschinencode.
+            </li>
+            <li>
+              Der <a class="text-weight-bold">Linker</a> verbindet mehrere
+              Objektdateien und die Zugriffe zwischen diesen zu einer
+              ausführbaren Datei oder Bibliothek. Der Linker sucht sich
+              benötigte, bereits kompilierte Funktionen aus den Bibliotheken
+              heraus und bindet sie in das kompilierte Programm ein.
+            </li>
+            <li>
+              Falls eine Executable erstellt wurde kann das Programm nun
+              ausgeführt werden. Der <a class="text-weight-bold">Loader</a> lädt
+              die ausführbare Datei in den Arbeitsspeicher und reserviert
+              benötigten Arbeitsspeicher für das Programm. Je nach
+              Betriebssystem muss der Loader noch viel mehr machen.
             </li>
           </ul>
         </ul>
-      </ul>
-    </ul>
-    <q-separator class="q-mt-md" />
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
-    >
-      Begriffe zur Programmierung
-    </div>
-    <ul>
-      <li class="text-weight-bolder">Just-in-time-Compiler</li>
-      <ul>
-        <li>Zwischending von Compiler und Interpreter</li>
-        <li>
-          Programme oder Teile davon werden zur Laufzeit in Maschinencode
-          übersetzt
-        </li>
-        <li>
-          Ziel: Erhöhung der Ausführgeschwindigkeit im Gegensatz zum Interpreter
-        </li>
-        <li>
-          Kompilierter Bytecode wird meist im Rahmen einer virtuellen Maschine
-          ausgeführt um plattformunabhängig zu funktionieren
-        </li>
-        <li>wird oft als Teil von interpretierten Sprachen verwendet</li>
-        <li>z.B. JavaScript oder Python</li>
+        <li class="text-weight-bolder">Just-in-time-Compiler</li>
+        <ul>
+          <li>Zwischending von Compiler und Interpreter</li>
+
+          <li>
+            Programme oder Teile davon werden zur Laufzeit in Maschinencode
+            übersetzt
+          </li>
+          <li>
+            Ziel: Erhöhung der Ausführgeschwindigkeit im Gegensatz zum
+            Interpreter
+          </li>
+          <li>
+            Kompilierter Bytecode wird meist im Rahmen einer virtuellen Maschine
+            ausgeführt um plattformunabhängig zu funktionieren
+          </li>
+          <li>wird oft als Teil von interpretierten Sprachen verwendet</li>
+          <li>z.B. JavaScript oder Python</li>
+        </ul>
       </ul>
     </ul>
   </q-page>

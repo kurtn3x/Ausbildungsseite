@@ -34,11 +34,7 @@ const routes: RouteRecordRaw[] = [
         path: 'projekt',
         component: () => import('pages/NIT/Projektmanagement/Projekt.vue'),
       },
-      {
-        path: 'systeme-methoden',
-        component: () =>
-          import('pages/NIT/Projektmanagement/SystemeMethoden.vue'),
-      },
+
       {
         path: 'pdca',
         component: () => import('pages/NIT/Projektmanagement/PDCA.vue'),
@@ -327,6 +323,17 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'anderes',
         component: () => import('pages/IT/Rechnungen/AndereBerechnungen.vue'),
+      },
+    ],
+  },
+
+  {
+    path: '/anderes',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      {
+        path: 'normungen-standards',
+        component: () => import('pages/Anderes/NormungenStandards.vue'),
       },
     ],
   },

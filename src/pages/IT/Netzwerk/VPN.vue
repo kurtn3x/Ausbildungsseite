@@ -100,6 +100,160 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
+      VPN-Protokolle
+    </div>
+    <ul>
+      <li class="text-weight-bolder">SSL-/TLS-VPN</li>
+      <ul>
+        <li>basiert auf SSL-/TLS-Protokoll</li>
+        <li>Verbindung kann mit jedem Browser aufgebaut werden</li>
+        <li>
+          Wird oft als "clientlos" bezeichnet, da theoretisch keine
+          Extra-Software benötigt wird. (manche liefern es trotzdem mit z.B.
+          Cisco AnyConnect)
+        </li>
+        <li>meist HTTPS und Port 443 für die Verbindung</li>
+        <li>Sicherer Verbindungsaufbau durch Zertifikatsaustausch</li>
+      </ul>
+      <li class="text-weight-bolder">OpenVPN</li>
+      <ul>
+        <li>Open-Source VPN Lösung</li>
+        <li>nutzt auch SSL-/TLS-Protokoll zur VPN-Sicherung</li>
+        <li>
+          Nutzt Hashes um die Integrität der übertragenen Pakete zu
+          gewährleisten
+        </li>
+        <li>
+          kann IP-Pakete Tunneln und unabhängig von der Anwendung übertragen
+        </li>
+        <li>wird von allen gängigen Betriebssystemen unterstützt</li>
+        <li>
+          nutzt einen Kontroll- und einen Daten-Kanal, welche jeweils
+          unterschiedliche Verschlüsselungsmethoden verwenden aber über die
+          selbe UDP-/TCP-Verbindung laufen
+        </li>
+        <li>
+          Kontroll-Kanal nutzt SSL/TLS-Verschlüsselung und der Daten-Kanal eine
+          OpenVPN-spezifische Verschlüsselungsmethode.
+        </li>
+      </ul>
+
+      <li class="text-weight-bolder">
+        PPTP - Point-to-Point Tunneling Protocol
+      </li>
+      <ul>
+        <li>von Microsoft und auf Windows vorinstalliert</li>
+        <li>
+          heutzutage schlechte Sicherheit, aufgrund schlechter
+          Verschlüsselungsmethoden
+        </li>
+        <li>
+          Nutzt 2 Kanäle: Einen zum Verbindungsaufbau und einen für den
+          Datentransport.
+        </li>
+      </ul>
+
+      <li class="text-weight-bolder">IPsec - Internet Protocol Security</li>
+      <ul>
+        <li>
+          ist eine Protokoll-Suite, die eine gesicherte Kommunikation über
+          unsichere IP-Netze wie das Internet ermöglichen soll
+        </li>
+        <li>
+          fügt einen besonderen Header, den ESP-Header (Encapsulating Security
+          Payload) in das Paket ein, welcher für die Authentisierung, Integrität
+          und Vertraulichkeit der IP-Pakete sorgt
+        </li>
+        <li class="text-weight-bold">Transportmodus:</li>
+        <ul>
+          <li>zwei Endpunkte werden direkt miteinander verbunden</li>
+          <li>
+            besonders wenn man nur 2 Rechner miteinander verbinden möchte, also
+            für Host-to-Host-Verbindungen
+          </li>
+          <li>
+            ESP-Header wird zwischen IP und TCP-/UDP-Header eingefügt, IP-Header
+            bleibt unverändert
+          </li>
+          <li>
+            verschlüsselt alle Daten im TCP-/UDP-Header sowie diesen Header
+            selbst
+          </li>
+          <li>
+            Nach dem Empfang des IPsec-Paketes werden die ursprünglichen
+            Nutzdaten (TCP-/UDP-Pakete) ausgepackt und an die nächst höhere
+            Schicht weitergegeben.
+          </li>
+          <q-img
+            style="max-width: 600px"
+            class="fit bg-grey-5"
+            :src="src + '/Netzwerke/transportmodus.gif'"
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/transportmodus.gif';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+        <li class="text-weight-bold">Tunnelmodus:</li>
+        <ul>
+          <li>zwei Netzwerke werden miteinander verbunden</li>
+          <li>
+            Die Endpunkte werden von zwei Routern bzw. VPN-Gateways gebildet,
+            zwischen denen der Tunnel aufgebaut wird
+          </li>
+          <li>
+            das ursprüngliche Paket wird in ein komplett neues IP-Paket gepackt
+          </li>
+          <li>
+            Es wird ein äußerer IP-Header gebildet, welcher die IP-Daten der
+            Tunnelenden beinhaltet
+          </li>
+          <li>
+            Nach dem äußeren IP-Header folgt der ESP-Header, welcher alle
+            nachfolgenden Daten verschlüsselt
+          </li>
+          <li>
+            Der innere IP-Header beinhaltet die Adressen der eigentlichen
+            Kommunikationsendpunkte
+          </li>
+          <q-img
+            style="max-width: 600px"
+            class="fit bg-grey-5"
+            :src="src + '/Netzwerke/tunnelmodus.gif'"
+            @click="
+              show_img = true;
+              popupsrc = '/Netzwerke/tunnelmodus.gif';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+      </ul>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
       Tunneling
     </div>
     <ul>
@@ -126,98 +280,6 @@
         werden, z.B. SSH, OpenVPN, PuTTY
       </li>
       <li>Zu den Tunneling-Protokollen gehört z.B. IPsec im Tunnelmodus</li>
-    </ul>
-    <q-separator class="q-mt-md" />
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
-    >
-      Ipsec - Internet Protocol Security
-    </div>
-    <ul>
-      <li>
-        ist eine Protokoll-Suite, die eine gesicherte Kommunikation über
-        unsichere IP-Netze wie das Internet ermöglichen soll
-      </li>
-      <li>
-        fügt einen besonderen Header, den ESP-Header (Encapsulating Security
-        Payload) in das Paket ein, welcher für die Authentisierung, Integrität
-        und Vertraulichkeit der IP-Pakete sorgt
-      </li>
-      <li class="text-weight-bolder">Transportmodus:</li>
-      <ul>
-        <li>zwei Endpunkte werden direkt miteinander verbunden</li>
-        <li>
-          besonders wenn man nur 2 Rechner miteinander verbinden möchte, also
-          für Host-to-Host-Verbindungen
-        </li>
-        <li>
-          ESP-Header wird zwischen IP und TCP-/UDP-Header eingefügt, IP-Header
-          bleibt unverändert
-        </li>
-        <li>
-          verschlüsselt alle Daten im TCP-/UDP-Header sowie diesen Header selbst
-        </li>
-        <li>
-          Nach dem Empfang des IPsec-Paketes werden die ursprünglichen Nutzdaten
-          (TCP-/UDP-Pakete) ausgepackt und an die nächst höhere Schicht
-          weitergegeben.
-        </li>
-        <q-img
-          style="max-width: 600px"
-          class="fit bg-grey-5"
-          :src="src + '/Netzwerke/transportmodus.gif'"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/transportmodus.gif';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </ul>
-      <li class="text-weight-bolder">Tunnelmodus:</li>
-      <ul>
-        <li>zwei Netzwerke werden miteinander verbunden</li>
-        <li>
-          Die Endpunkte werden von zwei Routern bzw. VPN-Gateways gebildet,
-          zwischen denen der Tunnel aufgebaut wird
-        </li>
-        <li>
-          das ursprüngliche Paket wird in ein komplett neues IP-Paket gepackt
-        </li>
-        <li>
-          Es wird ein äußerer IP-Header gebildet, welcher die IP-Daten der
-          Tunnelenden beinhaltet
-        </li>
-        <li>
-          Nach dem äußeren IP-Header folgt der ESP-Header, welcher alle
-          nachfolgenden Daten verschlüsselt
-        </li>
-        <li>
-          Der innere IP-Header beinhaltet die Adressen der eigentlichen
-          Kommunikationsendpunkte
-        </li>
-        <q-img
-          style="max-width: 600px"
-          class="fit bg-grey-5"
-          :src="src + '/Netzwerke/tunnelmodus.gif'"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/tunnelmodus.gif';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </ul>
     </ul>
     <q-separator class="q-mt-md" />
     <div

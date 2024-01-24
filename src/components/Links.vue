@@ -15,25 +15,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
-      />
-      <q-btn
-        dense
-        flat
-        to="/projektmanagement/gantt"
-        label="Gantt-Diagramm"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-      />
-
-      <q-btn
-        dense
-        flat
-        to="/projektmanagement/netzplan"
-        label="Netzplan"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
+        :class="$route.path == '/projektmanagement/projekt' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -43,15 +25,31 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/projektmanagement/pflichten-lastenheft'
+            ? 'active'
+            : ''
+        "
       />
       <q-btn
         dense
         flat
-        to="/projektmanagement/systeme-methoden"
-        label="Managementsysteme - & methoden"
+        to="/projektmanagement/netzplan"
+        label="Der Netzplan"
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/projektmanagement/netzplan' ? 'active' : ''"
+      />
+      <q-btn
+        dense
+        flat
+        to="/projektmanagement/gantt"
+        label="Das Gantt-Diagramm"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/projektmanagement/gantt' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -61,6 +59,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/projektmanagement/pdca' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>
@@ -80,6 +79,9 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/unternehmen/unternehmen-betriebe' ? 'active' : ''
+        "
       />
       <q-btn
         dense
@@ -89,15 +91,19 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/unternehmen/aufbauorganisation' ? 'active' : ''
+        "
       />
       <q-btn
         dense
         flat
-        to="/unternehmen/Leitbild"
+        to="/unternehmen/leitbild"
         label="Leitbild"
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/unternehmen/leitbild' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -107,6 +113,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/unternehmen/rechtsformen' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -116,6 +123,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/unternehmen/wertschopfung' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -125,6 +133,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/unternehmen/ziele' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>
@@ -144,6 +153,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/wirtschaft/kostenrechnung' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -153,6 +163,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/wirtschaft/markt' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -162,6 +173,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/wirtschaft/vertrage' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>
@@ -181,6 +193,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/hardware/usv' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -190,6 +203,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/hardware/strom-ladung' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -199,6 +213,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/hardware/verkabelung' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -208,6 +223,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/netzwerk/hardware' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -217,6 +233,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/hardware/server' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -226,6 +243,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/hardware/storage-backup' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -235,6 +253,9 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/hardware/virtualisierung-cloud' ? 'active' : ''
+        "
       />
     </div>
   </q-expansion-item>
@@ -254,6 +275,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/netzwerk/allgemein' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -263,6 +285,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/netzwerk/hardware' ? 'active' : ''"
       />
 
       <q-btn
@@ -273,6 +296,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/netzwerk/topologien' ? 'active' : ''"
       />
 
       <q-expansion-item
@@ -294,6 +318,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/osi' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -303,6 +328,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/tcpip' ? 'active' : ''"
           />
         </div>
       </q-expansion-item>
@@ -325,15 +351,17 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/vlan' ? 'active' : ''"
           />
           <q-btn
             dense
             flat
             to="/netzwerk/vpn"
-            label="VPN (+ IPsec & Tunneling )"
+            label="VPN & Tunneling"
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/vpn' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -343,6 +371,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/wlan' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -352,6 +381,9 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="
+              $route.path == '/netzwerk/weitere-netzwerkarten' ? 'active' : ''
+            "
           />
         </div>
       </q-expansion-item>
@@ -374,6 +406,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/mac' ? 'active' : ''"
           />
           <q-expansion-item
             dense-toggle
@@ -394,6 +427,7 @@
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
+                :class="$route.path == '/netzwerk/ipv4' ? 'active' : ''"
               />
               <q-btn
                 dense
@@ -403,6 +437,9 @@
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
+                :class="
+                  $route.path == '/netzwerk/ipv4subnetting' ? 'active' : ''
+                "
               />
             </div>
           </q-expansion-item>
@@ -425,6 +462,7 @@
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
+                :class="$route.path == '/netzwerk/ipv6' ? 'active' : ''"
               />
               <q-btn
                 dense
@@ -434,6 +472,9 @@
                 class="full-width q-mt-xs"
                 rounded
                 align="left"
+                :class="
+                  $route.path == '/netzwerk/ipv6subnetting' ? 'active' : ''
+                "
               />
             </div>
           </q-expansion-item>
@@ -445,6 +486,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/routing' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -454,6 +496,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/nat' ? 'active' : ''"
           />
 
           <q-btn
@@ -464,6 +507,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/tcpudp' ? 'active' : ''"
           />
         </div>
       </q-expansion-item>
@@ -486,6 +530,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/dhcp' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -495,6 +540,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/dns' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -504,6 +550,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/proxy' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -513,6 +560,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/firewall' ? 'active' : ''"
           />
           <q-btn
             dense
@@ -522,6 +570,7 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="$route.path == '/netzwerk/protokolle' ? 'active' : ''"
           />
         </div>
       </q-expansion-item>
@@ -533,6 +582,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/netzwerk/header' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>
@@ -552,6 +602,9 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/datenschutz-datensicherheit/raid' ? 'active' : ''
+        "
       />
       <q-btn
         dense
@@ -561,6 +614,11 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/datenschutz-datensicherheit/cyberbedrohung'
+            ? 'active'
+            : ''
+        "
       />
       <q-expansion-item
         dense
@@ -581,6 +639,11 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="
+              $route.path == '/datenschutz-datensicherheit/schutzziele'
+                ? 'active'
+                : ''
+            "
           />
           <q-btn
             dense
@@ -590,6 +653,9 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="
+              $route.path == '/datenschutz-datensicherheit/tom' ? 'active' : ''
+            "
           />
           <q-btn
             dense
@@ -599,6 +665,11 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="
+              $route.path == '/datenschutz-datensicherheit/schutzbedarfsanalyse'
+                ? 'active'
+                : ''
+            "
           />
           <q-btn
             dense
@@ -608,6 +679,11 @@
             class="full-width q-mt-xs"
             rounded
             align="left"
+            :class="
+              $route.path == '/datenschutz-datensicherheit/sicherheitsprozess'
+                ? 'active'
+                : ''
+            "
           />
         </div>
       </q-expansion-item>
@@ -619,6 +695,11 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/datenschutz-datensicherheit/verschlusselung'
+            ? 'active'
+            : ''
+        "
       />
     </div>
   </q-expansion-item>
@@ -638,6 +719,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/rechnungen/speichergrossen' ? 'active' : ''"
       />
 
       <q-btn
@@ -648,6 +730,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/rechnungen/bin-dez-hex' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -657,6 +740,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/rechnungen/anderes' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>
@@ -676,6 +760,9 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/programmierung/programmierparadigmen' ? 'active' : ''
+        "
       />
       <q-btn
         dense
@@ -685,6 +772,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/programmierung/uml' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -694,6 +782,9 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/programmierung/ablaufdiagramme' ? 'active' : ''
+        "
       />
       <q-btn
         dense
@@ -703,6 +794,11 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="
+          $route.path == '/programmierung/tests-vorgehensmodelle'
+            ? 'active'
+            : ''
+        "
       />
     </div>
   </q-expansion-item>
@@ -722,6 +818,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/datenbanken/arten' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -731,6 +828,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/datenbanken/erm' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -740,6 +838,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/datenbanken/normalisierung' ? 'active' : ''"
       />
       <q-btn
         dense
@@ -749,6 +848,27 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
+        :class="$route.path == '/datenbanken/sql' ? 'active' : ''"
+      />
+    </div>
+  </q-expansion-item>
+  <q-expansion-item
+    dense-toggle
+    label="Anderes"
+    header-class="bg-primary text-white text-body1"
+    expand-icon-class="text-white"
+    :content-inset-level="0.2"
+  >
+    <div class="q-ma-xs">
+      <q-btn
+        dense
+        flat
+        to="/anderes/normungen-standards"
+        label="Normungen & Organisationen"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/anderes/it-normung' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>
@@ -761,3 +881,10 @@ export default defineComponent({
   name: 'LinksPage',
 });
 </script>
+
+<style>
+.active {
+  background: #a2d2dfa5;
+  text-decoration: underline;
+}
+</style>

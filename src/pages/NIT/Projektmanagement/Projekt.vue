@@ -120,7 +120,7 @@
         <li>festlegen wesentlicher Inhalte</li>
         <li>Abschätzung von Kosten, Ausmaß und Zeit</li>
         <li>Am Ende formeller Projektauftrag</li>
-        <li>Dokuemente: Lastenheft des Kunden, Projektantrag</li>
+        <li>Dokumente: Lastenheft des Kunden, Projektantrag</li>
       </ul>
       <li class="text-weight-bolder">Projektplanung</li>
       <ul>

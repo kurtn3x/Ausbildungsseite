@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Das Pflichtenheft & Lastenheft
+      Das Lastenheft & Pflichtenheft
     </div>
     <q-separator class="q-mt-md" />
     <div

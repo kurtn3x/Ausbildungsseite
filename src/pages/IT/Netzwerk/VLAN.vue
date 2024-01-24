@@ -24,16 +24,18 @@
       <li class="text-weight-bold text-green">Gründe für VLANs:</li>
       <ul>
         <li>
-          <a class="text-weight-bold">Sicherheitsgründe: </a>Da die Datenströme
-          bereits sehr früh separiert werden (Layer 2 auf OSI-Schicht) schließt
-          dies automatisch Sicherheitsrisiken auf höheren Schichten aus
+          Sicherheitsgründe: Begrenzung der Broadcast-Domäne, Broadcast kann nur
+          innerhalb eines VLANs gesendet werden
+        </li>
+        <li>
+          Erhöhte Performance durch Begrenzung der Broadcast-Domäne → weniger
+          Netzwerktraffic
         </li>
         <li>
           Anwenden verschiedener fortgeschrittener Funktionen eines Switches auf
           seperate VLANs (z.B. Aussortieren von Netzsegmenten)
         </li>
         <li>logische Trennung von Datenströmen</li>
-        <li>Begrenzung von Broadcast-Domänen</li>
         <li>Priorisieren von Datenströmen</li>
         <li>Abbildung von Abteilungsstrukturen</li>
       </ul>
@@ -153,6 +155,10 @@
     <ul>
       <li>mehrere VLANs über einen einzelnen Port</li>
       <li>VLAN-ID wird im Ethernet-Frame mitgelifert (VLAN-Tags)</li>
+      <li>
+        aufgrund der Größe der VLAN-ID im Frame sind bis zu 4096 mögliche VLANs
+        vorgesehen
+      </li>
       <li>
         Es muss darauf geachtet werden, dass Geräte im Netz VLAN-Tags handhaben
         können.

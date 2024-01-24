@@ -38,17 +38,10 @@
         (Data-Link-Layer) und verwenden daher MAC-Adressen zur Adressierung
       </li>
       <li>
-        Teilweise auch Switches, welche Layer 3-Funktionen (Network Layer)
-        besitzen (Unterschied Layer 2 Switches ⇄ Layer 3 Switches)
-      </li>
-      <li>
-        Layer 3 Switches übernehmen auch Routing-Funktionen und verwenden neben
-        der MAC-Adresse auch IP-Adressen zur Adressierung
-      </li>
-      <li>
         Kann Mac-Adressen auswerten und lernt, welche sich an welchen Port
         befinden → Informationen werden in einer internen Tabelle gespeichert
       </li>
+      <li>sendet Daten direkt an die Empfänger</li>
       <li>
         VLAN-fähige Switches können ein physisches Netz in mehrere logische
         Teilnetze unterteilen.
@@ -60,6 +53,12 @@
       <li>
         Kommunikation zwischen zwei Rechnern belegt nur die betroffenen
         Leitungen
+      </li>
+      <li>
+        Einige Switches besitzen auch Layer-3-Funktionen (Network Layer),
+        weshalb sie Layer-3-Switches genannt werden. Layer-3-Switches übernehmen
+        auch Routing-Funktionen und verwenden neben der MAC-Adresse auch
+        IP-Adressen zur Adressierung
       </li>
       <li class="text-weight-bolder">Begriffe zu Switches</li>
       <ul>
@@ -94,16 +93,15 @@
           <li>
             <a class="text-weight-bold">Unmanaged Switches</a> sind direkt nach
             dem Anschluss funktionsfähig und benötigen keine Konfiguration.
-            Funktion ist die grundlegende Konnektivität.
+            Funktion ist die grundlegende Konnektivität und Weiterleitung des
+            Verkehrs.
           </li>
           <li>
             <a class="text-weight-bold">Managed Switches</a> stellen den
             umfassenden Funktionsumfang eines Switches bereit und erlauben somit
             die höchste Sicherheit, Kontrolle und Verwaltung des Netzwerks.
-            Managed Switches müssen nicht unbedingt konfiguriert werden,
-            funktionieren meist aber ohne Konfiguration nur so wie ein unmanaged
-            Switch. Daher ist bei managed Switches eine Konfiguration
-            vorgesehen.
+            Können unter anderem VLAN-, Firewall- und/oder Routing-Funktionen
+            besitzen.
           </li>
         </ul>
         <li class="text-weight-bold">

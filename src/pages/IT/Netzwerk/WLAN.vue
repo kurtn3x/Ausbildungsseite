@@ -29,6 +29,32 @@
         Controller (zur Steuerung des Betriebs mehrerer WLAN Access Points)
       </li>
       <li>viele unterschiedliche Standards und kontinuierliche Verbesserung</li>
+      <li><a class="text-weight-bold">SSID - Service Set Identifier</a></li>
+      <ul>
+        <li>
+          Definiert den Namen des Netzwerks, standardmäßig oft Modell des
+          Routers, kann jedoch nach belieben geändert werden
+        </li>
+        <li>Hidden SSID / Broadcast SSID deaktivieren</li>
+        <ul>
+          <li>WLAN-Client wird der Access-Point nicht automatisch angezeigt</li>
+          <li>SSID muss manuell angegeben werden</li>
+          <li>
+            bringt KEINE Sicherheit! Das WLAN ist trotzdem noch sichtbar, nur
+            ohne Namen. Die Clients, die sich mit der SSID mit dem WLAN
+            verbinden müssen regelmäßig nach der WLAN-SSID suchen, indem sie
+            Broadcasts mit der SSID in die Umgebung senden (auch wenn das WLAN
+            nicht in der Nähe ist). Durch diese Broadcasts allein könnte ein
+            Hacker Zugriff auf die SSID bekommen. Dieses Szenario birgt auch
+            weitere Sicherheitsrisiken, da ein Hacker auch einen Access-Point
+            mit der gleichen SSID einrichten könnte und dadurch den
+            WLAN-Handshake des Clients(der sich automatisch verbindet) abgreifen
+            könnte. Des weiteren birgt das verstecken von der SSID auch weitere
+            Fehlerquellen, da es nicht standardkonform ist und nicht von allen
+            Geräten umgesetzt wird.
+          </li>
+        </ul>
+      </ul>
       <li class="text-weight-bold">Übertragungsraten</li>
       <ul>
         <li>
@@ -42,6 +68,25 @@
         </li>
         <li>neuere Standards theoretisch bis zu 7GBit/s</li>
       </ul>
+      <li class="text-weight-bold">Übertragungsreichweite</li>
+      <ul>
+        <li>Störfaktoren:</li>
+        <ul>
+          <li>
+            Wasser (z.B. Regen, Schnee, Wasserleitungen oder auch dicht belaubte
+            Bäume)
+          </li>
+          <li>dicke Wände (z.B. Hauswände)</li>
+          <li>Metalle (Wellblechdächer, Stahlbeton)</li>
+        </ul>
+        <li>Verbesserung der Reichweite:</li>
+        <ul>
+          <li>Router in bessere Position stellen</li>
+          <li>WLAN-Kanal wechseln</li>
+          <li>Repeater, Range Extender oder Powerline-Adapter</li>
+        </ul>
+      </ul>
+
       <li class="text-weight-bold">Frequenzen und Kanäle</li>
       <ul>
         <li>Alle Nutzer eines Frequenzbandes teilen sich die Bandbreite</li>
@@ -72,6 +117,21 @@
             Absender bestätigen
           </li>
           <li>Erst nach Bestätigung werden Datenpakete versendet</li>
+        </ul>
+      </ul>
+      <li class="text-weight-bold">Modi</li>
+      <ul>
+        <li>Ad-Hoc</li>
+        <ul>
+          <li>
+            Direktes Verbinden von zwei oder mehreren Geräten ohne Basisstation
+          </li>
+        </ul>
+        <li>Infrastructure</li>
+        <ul>
+          <li>
+            Es wird sich über eine Basisstation verbunden (z.B. Access-Point)
+          </li>
         </ul>
       </ul>
     </ul>
@@ -126,6 +186,9 @@
           Accounting von Nutzern
         </li>
         <li>ist Standard bei der zentralen Authentifizierung mittels WLAN</li>
+        <li class="text-weight-bold">
+          AAA-System: Authentication, Authorization, Accounting
+        </li>
         <li>
           Vorteil: einmalig und zentral registrierte Zugangsdaten der Nutzer
         </li>

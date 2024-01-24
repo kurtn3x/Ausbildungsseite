@@ -129,6 +129,7 @@
     </div>
     <ul>
       <li>Ergänzt die IP Adresse im TCP oder UDP Header</li>
+      <li>Ports adressieren Applikationen</li>
       <li>
         Ermöglicht Zuordnung von Datenpaketen zu Server- und Client-Programmen
       </li>
