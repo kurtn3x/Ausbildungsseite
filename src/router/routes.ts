@@ -149,9 +149,9 @@ const routes: RouteRecordRaw[] = [
           import('pages/IT/DatenschutzDatensicherheit/Cyberbedrohung.vue'),
       },
       {
-        path: 'verschlusselung',
+        path: 'kryptographie',
         component: () =>
-          import('pages/IT/DatenschutzDatensicherheit/Verschlüsselung.vue'),
+          import('pages/IT/DatenschutzDatensicherheit/Kryptographie.vue'),
       },
     ],
   },

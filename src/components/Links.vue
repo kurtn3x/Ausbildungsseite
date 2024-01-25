@@ -690,13 +690,13 @@
       <q-btn
         dense
         flat
-        to="/datenschutz-datensicherheit/verschlusselung"
-        label="Verschlüsselung"
+        to="/datenschutz-datensicherheit/kryptographie"
+        label="Kryptographie"
         class="full-width q-mt-xs"
         rounded
         align="left"
         :class="
-          $route.path == '/datenschutz-datensicherheit/verschlusselung'
+          $route.path == '/datenschutz-datensicherheit/kryptographie'
             ? 'active'
             : ''
         "

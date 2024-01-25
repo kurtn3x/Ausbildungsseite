@@ -42,7 +42,31 @@
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-btn dense flat stretch to="/" icon="home" class="full-width" />
+      <div class="row bg-primary items-center">
+        <q-btn
+          dense
+          flat
+          square
+          to="/"
+          icon="home"
+          style="width: 50px; height: 40px"
+          class="bg-blue text-white"
+        />
+        <q-space />
+        <a class="text-h6 text-white">Themen</a>
+        <q-space />
+
+        <q-btn
+          dense
+          flat
+          square
+          icon="close"
+          style="width: 50px; height: 40px"
+          class="bg-red text-white"
+          @click="leftDrawerOpen = false"
+        />
+      </div>
+      <q-separator color="white" size="2px" />
       <Links />
     </q-drawer>
 
