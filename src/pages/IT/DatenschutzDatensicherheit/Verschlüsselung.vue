@@ -46,6 +46,12 @@
             symmetrische Verschlüsselung und gilt mit Schlüsselgrößen von 192
             Bit (AES-192) und 256 Bit (AES-256) als sehr sicher
           </li>
+          <li>
+            DES (Data Encryption Standard) - Schlüssellänge von 56 Bit(kann
+            durch Mehrfachanwendung erhöht werden → Triple-DES), mittlerweile
+            zwar noch oft verwendet aber gilt als unsicher und durch AES
+            abgelöst
+          </li>
           <li>Blowfish</li>
           <li>Twofish</li>
         </ul>
@@ -102,6 +108,29 @@
         </ul>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Zertifikate
+    </div>
+    <ul>
+      <li>bestätigen Authentizität & Integrität bestimmter Daten</li>
+      <li>Ausgestellt durch eine Certification Authority (CA)</li>
+      <li>
+        verwendet werden dazu sogenannte Public-Key-Zertifikate wie X.509,
+        welche die Identität und weitere Eigenschaften eines öffentlichen
+        kryptographischen Schlüssels bestätigen
+      </li>
+      <li></li>
+      <li>Typische Anwendung digitaler Zertifikate:</li>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Hashes
+    </div>
   </q-page>
 </template>
 

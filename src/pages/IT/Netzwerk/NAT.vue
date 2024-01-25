@@ -35,6 +35,14 @@
         In Privatnetzwerken übernimmt der Router im Netzwerk die SNAT, da er die
         Verbindung zum Internet herstellt
       </li>
+      <li>
+        <a class="text-weight-bold">Carrier Grade NAT:</a> Provider teilt dem
+        Endkunden eine private IP-Adresse aus dem Bereich 10.0.0.0/8 zu. Der
+        Provider ist dann für die NAT-Vermittlung zuständig und nicht der Router
+        des Endkunden. Vorteil für Provider (spart an öffentlichen IPs),
+        Nachteil für Endkunden (kann keine öffentlich-erreichbaren Dienste
+        bereitstellen, kein Port-Forwarding, mehr Fehlerquellen).
+      </li>
     </ul>
     <q-separator class="q-mt-md" />
     <div
@@ -87,6 +95,26 @@
             Click for full size
           </div>
         </q-img>
+      </ul>
+      <li class="text-weight-bolder">
+        PAT (Port and Address Translation) bzw. NAPT (Network Address Port
+        Translation) erweitert das SNAT
+      </li>
+      <ul>
+        <li>
+          PAT schreibt nicht nur IP-Adressen, sondern auch Port-Nummern um
+        </li>
+        <li>
+          z.B. mehrere Clients senden Daten mit dem selben Source-Port aus der
+          dynamischen Port-Range → Konflikt bei der Zustellung mit reinem NAT,
+          mehrere Einträge mit dem selben LAN-Port bei unterschiedlichen Clients
+          in der internen NAT-Tabelle (Router könnte Antworten nicht mehr
+          eindeutig zuweisen)
+        </li>
+        <li>
+          Lösung: Vorhandene LAN-Port-Nummern in der internen NAT-Tabelle immer
+          plus 1 rechnen, bis ein Port frei ist
+        </li>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
