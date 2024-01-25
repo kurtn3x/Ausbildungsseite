@@ -18,44 +18,91 @@
         Rechnernetzen
       </li>
       <li>wird durch einen Router ermöglicht</li>
-      <li>
-        neben dem typischen IP-Routing gibt es auch weitere Routing-Protokolle
-        (siehe
-        <a class="text-third"> Routing-Protokolle</a>)
-      </li>
-      <li>Man unterscheidet zwischen statischem und dynamischem Routing</li>
-      <uL>
-        <li class="text-weight-bolder">statisches Routing</li>
+      <li>IP-Adressen für das Ziel werden aus dem IP-Header bestimmt</li>
+      <li class="text-weight-bolder">Bestimmen von Routen</li>
+      <ul>
+        <li>
+          <a class="text-weight-bold">Routing-Tabellen</a> geben auf jedem
+          netzwerkfähigen Gerät an, wohin ein bestimmtes Paket gesendet werden
+          soll
+        </li>
+        <li>
+          Die Next-Hop-Adresse für ein Paket wird bestimmt, indem die
+          Ziel-IP-Adresse in der Routing-Tabelle gesucht wird und die passende
+          oder beste Route(bzw. Next-Hop-Adresse) gewählt wird
+        </li>
+        <li class="text-weight-bold">
+          Routing-Tabellen können statisch(statisches Routing) und dynamisch
+          (dynamisches Routing) angelegt werden
+        </li>
         <ul>
-          <li>Routen werden im Vorfeld manuell konfiguriert</li>
-          <li>
-            findet Verwendung, wenn es nur eine Route oder eine bevorzugte Route
-            gibt um ein Ziel zu erreichen
-          </li>
-          <li>
-            ressourcenschonend, da Netz nicht mit Nachrichten von
-            Routingprotokollen belastet wird
-          </li>
+          <li class="text-weight-bold">statisches Routing</li>
+          <ul>
+            <li>Routen werden im Vorfeld manuell konfiguriert</li>
+            <li>
+              findet Verwendung, wenn es nur eine Route oder eine bevorzugte
+              Route gibt um ein Ziel zu erreichen
+            </li>
+            <li>
+              ressourcenschonend, da Netz nicht mit Nachrichten von
+              Routingprotokollen belastet wird
+            </li>
+            <li>nach direkten Verbindungen höchste Priorität</li>
+          </ul>
+          <li class="text-weight-bold">dynamisches Routing</li>
+          <ul>
+            <li>
+              verwenden verschiedener Protokolle, um mehrere mögliche Routen zu
+              berechnen und den besten Weg für den Datenverkehr zu finden
+            </li>
+            <li>Router passen ihre Routingtabelle dynamisch an</li>
+            <li>
+              z.B.: werden die Protokolle OSPF oder RIP für die Erzeugung
+              dynamischer Routing verwendet (<a class="text-third"
+                >siehe auch Routing-Protokolle</a
+              >)
+            </li>
+            <li>
+              findet Verwendung, wenn sich die Routen im Netzwerk häufig ändern
+            </li>
+          </ul>
         </ul>
-        <li class="text-weight-bolder">dynamisches Routing</li>
+        <li>
+          In Routing-Tabellen können auch mehrere Wege zum Ziel führen. Dann
+          werden <a class="text-weight-bolder">Metriken </a> verwendet, um die
+          beste Route zu bestimmen.
+        </li>
+        <li class="text-weight-bolder">Routing-Metrik</li>
         <ul>
+          <li>numerisches Maß der Güte einer Route</li>
           <li>
-            verwenden verschiedener Protokolle, um mehrere mögliche Routen zu
-            berechnen und den besten Weg für den Datenverkehr zu finden
-          </li>
-          <li>Router passen ihre Routingtabelle dynamisch an</li>
-          <li>
-            z.B.: werden die Protokolle OSPF oder RIP für die Erzeugung
-            dynamischer Routing verwendet (<a class="text-third"
-              >siehe auch Routing-Protokolle</a
-            >)
+            Faktoren zur Bestimmung sind z.B. Verzögerung, Last, Hop-Count oder
+            Verlässlichkeit
           </li>
           <li>
-            findet Verwendung, wenn sich die Routen im Netzwerk häufig ändern
+            werden statisch gesetzt oder über Routingprotokolle und Algorithmen
+            bestimmt
           </li>
+          <li>
+            Direkt angeschlossene Netze und Statische Routen haben die höchste
+            Priorität, unabhängig der Metrik
+          </li>
+          <li>
+            Dynamische Routen haben eine niedrigere Priorität und haben oft
+            zugewiesene Metriken.
+          </li>
+          <li>Die Default-Route wird immer als letzter Ausweg gewählt.</li>
         </ul>
-      </uL>
-      <li class="text-weight-bolder">autonomes System</li>
+      </ul>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+    >
+      Routing-Protokolle
+    </div>
+    <ul>
+      <li class="text-weight-bolder">Das autonome System</li>
       <ul>
         <li>
           bezeichnet eine Menge von Routern mit einem gemeinsamen inneren
@@ -71,18 +118,31 @@
           verwendet, um Routen zu bestimmen
         </li>
       </ul>
-    </ul>
-    <q-separator class="q-mt-md" />
-    <div
-      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
-    >
-      Routing-Protokolle
-    </div>
-    <ul>
-      <li class="text-weight-bolder">Arten von Routing-Protokollen</li>
+      <li class="text-weight-bolder">Administrative Distanz</li>
       <ul>
-        <q-separator class="q-ma-sm" inset />
-
+        <li>
+          nummerisches Maß des Vertrauens bzw. der Güte eines Routing-Protokolls
+          in einem Router
+        </li>
+        <li>
+          Wenn ein Router über verschiedene Routing-Protokolle seine
+          Routing-Informationen erhält, werden die Routing-Informationen des
+          Protokolls mit der niedrigsten administrativen Distanz priorisiert
+        </li>
+        <li>
+          Es werden quasi die Routen der vertrauenswürdigsten Routing-Protokolle
+          priorisiert.
+        </li>
+        <li>
+          Normalerweise haben direkt verbundene Netze die niedrigste (beste)
+          Administrative Distanz, gefolgt von statischen Routen. Danach folgen
+          die tatsächlichen Routing-Protokolle.
+        </li>
+      </ul>
+      <li class="text-weight-bolder">
+        Link-State- und Distanzverktor-Protokolle
+      </li>
+      <ul>
         <li class="text-weight-bold">Link-State-Routing-Protokolle</li>
         <ul>
           <li>Teile der Welt mit, wer deine Nachbarn sind</li>
@@ -106,7 +166,11 @@
           </li>
           <li>z.B. RIP, (BGP)</li>
         </ul>
-        <q-separator class="q-ma-sm" inset />
+      </ul>
+      <li class="text-weight-bolder">
+        Interior-Gateway- und Exterior-Gateway-Protokolle
+      </li>
+      <ul>
         <li class="text-weight-bold">Interior Gateway Protokolle</li>
         <ul>
           <li>
@@ -125,7 +189,6 @@
           </li>
           <li>z.B. BGP</li>
         </ul>
-        <q-separator class="q-ma-sm" inset />
       </ul>
 
       <li class="text-weight-bolder">Beispiele von Routing-Protokollen</li>
@@ -313,7 +376,7 @@
     <div
       class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
     >
-      Routingtabellen
+      Routingtabellen schriftlich
     </div>
     <ul>
       <li class="text-weight-bold">
@@ -325,38 +388,42 @@
           und Zentrale Köln möglich ist.
         </li>
       </ul>
-      <q-img
-        class="fit bg-grey-5"
-        :src="src + '/Netzwerke/Routing/RoutingtabelleVorgabe.png'"
-        style="max-width: 800px"
-        @click="
-          show_img = true;
-          popupsrc = '/Netzwerke/Routing/RoutingtabelleVorgabe.png';
-        "
-      >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
+      <div>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Netzwerke/Routing/RoutingtabelleVorgabe.png'"
+          style="max-width: 800px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/Routing/RoutingtabelleVorgabe.png';
+          "
         >
-          Click for full size
-        </div>
-      </q-img>
-      <q-img
-        class="fit bg-grey-5 q-mt-md"
-        :src="src + '/Netzwerke/Routing/Routingtabelle.png'"
-        style="max-width: 800px"
-        @click="
-          show_img = true;
-          popupsrc = '/Netzwerke/Routing/Routingtabelle.png';
-        "
-      >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
+      </div>
+      <div>
+        <q-img
+          class="fit bg-grey-5 q-mt-md"
+          :src="src + '/Netzwerke/Routing/Routingtabelle.png'"
+          style="max-width: 800px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/Routing/Routingtabelle.png';
+          "
         >
-          Click for full size
-        </div>
-      </q-img>
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
+      </div>
 
       <li class="q-mt-sm">
         Die Default-Route (0.0.0.0) wurde für den Hop zur Zentrale Köln

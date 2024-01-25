@@ -25,6 +25,7 @@
         ermöglicht die gleichzeitige Verwendung einer öffentlichen Adresse durch
         mehrere Hosts
       </li>
+      <li>Nicht für IPv6 vorgesehen</li>
       <li>
         man unterscheidet zwischen SNAT (Source Network Address Translation /
         Quellen-NAT) und DNAT (Destination Network Address Translation /

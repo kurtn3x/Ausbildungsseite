@@ -71,17 +71,39 @@
         <li>E = U in Volt * I in Ampere * t in Sekunden</li>
         <li>E = P in Watt * t in Sekunden</li>
       </ul>
-      <li><a class="text-weight-bolder text-weight-bold">Anderes</a></li>
+      <li><a class="text-weight-bolder">Anderes</a></li>
       <ul>
         <li>
-          Tatsächlich bezogene Leistung = benötigte durchschnittliche Leistung /
-          Wirkungsgrad in %
+          <a class="text-weight-bold">Tatsächlich bezogene Leistung</a> =
+          benötigte durchschnittliche Leistung / Wirkungsgrad in %
         </li>
-        <li>
-          Energiekosten = Benutzungsdauer in h * bezogene Leistung aus Stromnetz
-          in kiloWatt * Energiekosten kWh in Cent
+        <li class="text-weight-bold">USV-Stromleistung</li>
+        <ul>
+          <li>Haltedauer = Akkukapazität / Leistung</li>
+          <li>Beispiel: Wie lange kann die USV Strom liefern?</li>
           <ul>
-            <li>Beispiel: 30cent/kWh, 180h Benutzungsdauer, 140W</li>
+            <li>Akkuspannung 12V, Akkukapazität 200Ah, Leistung 20000W</li>
+            <li>Amperestunden in Wattstunden umrechnen</li>
+            <ul>
+              <li>Akkukapazität in Wh = 200Ah*12V = 2400Wh</li>
+            </ul>
+            <li>Haltedauer = Akkukapazität / Leistung</li>
+            <ul>
+              <li>Haltedauer in h = 2400Wh / 20000W</li>
+              <li>Haltedauer in h= 0.12Stunden</li>
+              <li>Haltedauer in m (*60) = 7.2 Minuten</li>
+            </ul>
+          </ul>
+        </ul>
+        <li class="text-weight-bold">Stromkosten</li>
+        <ul>
+          <li>
+            = Benutzungsdauer in h * bezogene Leistung aus Stromnetz in kiloWatt
+            * Energiekosten kWh in Cent
+          </li>
+          <li>Beispiel:</li>
+          <ul>
+            <li>30cent/kWh, 180h Benutzungsdauer, 140W</li>
             <li>
               entwender 30cent/kWh in cent/Wh umrechnen oder 140W in kW
               umrechnen
@@ -89,11 +111,15 @@
             <li>0.03 cent/Wh * 140 W * 180 h = 756 Cent Kosten</li>
             <li>30 cent/kWh * 0.14 kW * 180 h = 756 Cent Kosten</li>
           </ul>
-        </li>
-        <li>
-          Netzspannung in Deutschland: 230Volt → z.B. Steckdose mit 10A kann in
-          Deutschland mit maximal 2300Watt belastet werden
-        </li>
+        </ul>
+        <li class="text-weight-bold">Maximale Belastung einer Steckdose</li>
+        <ul>
+          <li>Netzspannung in Deutschland: 230Volt</li>
+          <li>
+            z.B. Steckdose mit 10A kann in Deutschland mit maximal 2300Watt
+            belastet werden (10*230)
+          </li>
+        </ul>
       </ul>
     </ul>
   </q-page>
