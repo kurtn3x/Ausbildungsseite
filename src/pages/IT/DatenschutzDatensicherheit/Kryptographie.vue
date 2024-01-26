@@ -304,6 +304,37 @@
             in der Datenbank verglichen
           </li>
         </ul>
+        <li class="text-weight-bolder">Salt</li>
+        <ul>
+          <li>zufällig gewählte Zeichenfolge</li>
+          <li>
+            wird zusammen mit den Eingabedaten in eine Hashfunktion gegeben, um
+            die Entropie der Eingabe zu erhöhen
+          </li>
+          <li>Hashwert wird mit Salt gespeichert</li>
+          <li>
+            soll Rainbow-Table-Attacken verhindern (Rainbow-Table = oft
+            verwendete Passwörter, bereits in Hashwerte umgerechnet)
+          </li>
+          <li>
+            Mit Salt müsste für jeden Salt eine eigene Rainbow-Table erstellt
+            werden
+          </li>
+          <li>z.B. Passwörter</li>
+          <ul>
+            <li>
+              Nutzerpasswort wird mit zufällig generiertem Salt in Hashfunktion
+              gegeben
+            </li>
+            <li>
+              Salt + Hashwert(bestehend aus Salt+Eingabe) wird abgespeichert
+            </li>
+            <li>
+              Nutzer Loggt sich ein: Salt aus Datenbank wird mit Eingabepasswort
+              in Hashfunktion gegeben
+            </li>
+          </ul>
+        </ul>
       </ul>
       <li class="text-weight-bolder">Beispiele von Hashfunktionen</li>
       <ul>
