@@ -9,13 +9,13 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Nebenthemaaaaaaaaaaaa
+      Kostenrechnung
     </div>
     <q-separator class="q-mt-md" />
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
     >
-      Erstes Seitenthema
+      TBD
     </div>
   </q-page>
 </template>

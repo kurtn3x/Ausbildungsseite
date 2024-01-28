@@ -27,7 +27,7 @@
       <li>Hexadezimale Schreibweise</li>
       <li>
         Bestimmte Unternehmen unterhalten bestimmte Anfangsbereiche von
-        Mac-Adressen (erste 3 Oktette / 24Bit bzw erste 6 Zeichen) =
+        Mac-Adressen (erste 3 Oktette / 6 Hexdezimalzahlen / 24Bit) =
         "Organizationally Unique Identifier"
       </li>
       <li class="text-weight-bold">

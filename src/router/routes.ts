@@ -207,6 +207,10 @@ const routes: RouteRecordRaw[] = [
         path: 'server',
         component: () => import('pages/IT/Hardware/Serverhardware.vue'),
       },
+      {
+        path: 'netzwerk',
+        component: () => import('pages/IT/Hardware/Netzwerk.vue'),
+      },
     ],
   },
   {
@@ -240,10 +244,6 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'mac',
         component: () => import('pages/IT/Netzwerk/MAC.vue'),
-      },
-      {
-        path: 'hardware',
-        component: () => import('pages/IT/Netzwerk/NetzwerkHardware.vue'),
       },
       {
         path: 'routing',

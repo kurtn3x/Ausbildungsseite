@@ -13,98 +13,40 @@
       <li>beschreibt die Anforderungen des Auftraggebers</li>
       <li class="text-weight-bolder">Inhalte allgemein:</li>
       <ul>
+        <li>Zielbestimmung</li>
+        <li>Zeitrahmen</li>
+        <li>Rahmenbedingungen für das Produkt und die Leistungserbringung</li>
+        <li>Qualitätsanforderungen</li>
         <li>Spezifikation des zu erstellenden Produktes</li>
         <li>Anforderungen an das Produkt bei seiner Verwendung</li>
-        <li>Rahmenbedingungen für das Produkt und die Leistungserbringung</li>
-        <li>Vertragliche Konditionen</li>
         <li>Anforderungen an den Auftragnehmer</li>
         <li>Anforderungen an das Projektmanagement des Auftragnehmers</li>
       </ul>
-    </ul>
-    <ul>
-      <li class="text-weight-bolder">
-        Konkrete Inhalte, Beispiele (gibt mehrere Normen und Vorgehen):
-      </li>
-      <li>nach VDI 3694</li>
+      <li class="text-weight-bolder">Typische Gliederung</li>
       <ul>
-        <li>Einführung in das Projekt</li>
-        <ul>
-          <li>
-            Veranlassung, Zielsetzung, Projektumfeld, wesentliche Aufgaben,
-            Eckdaten
-          </li>
-        </ul>
-        <li>Ausgangssituation Ist-Zustand</li>
-        <ul>
-          <li>
-            Prozessbeschreibung, bestehendes System, Organisation, Ist-Zustand
-            von Daten
-          </li>
-        </ul>
-        <li>Aufgabenstellung - Soll-Zustand siehe auch SMART-Kriterien</li>
-        <ul>
-          <li>
-            Anforderungsbeschreibung nach Teilaufgaben, Ablaufbeschreibungen
-          </li>
-        </ul>
-        <li>Schnittstellen (Mensch-Maschine, Rechner-Rechner)</li>
-        <li>Anforderungen an die Systemtechnik</li>
-        <ul>
-          <li>Datenverarbeitung, Datenspeicherung, Soft- und Hardware</li>
-        </ul>
+        <li>Einführung</li>
+        <li>Beschreibung Ist-Zustand</li>
+        <li>Beschreibung Soll-Konzept</li>
+        <li>Beschreibung von Schnitstellen</li>
+        <li>Funktionale Anforderungen</li>
         <li>
-          Anforderungen für Systementwicklung,-inbetriebnahme und -einsatz
+          Nichtfunkttionale Anforderungen (Benutzbarkeit, Zuverlässigkeit,
+          Effizienz, Änderbarkeit, Wartbarkeit)
         </li>
-        <ul>
-          <li>
-            Dokumentation, Geräteaufstellung - und montage, Inbetriebname,
-            Probebetrieb, Schulungen, Instandhaltung, ...
-          </li>
-        </ul>
-        <li>Anforderungen an die Qualität</li>
-        <ul>
-          <li>Software-Qualität, Hardware-Qualität</li>
-        </ul>
-        <li>Anforderungen an die Projektabwicklung</li>
-        <ul>
-          <li>
-            Projektorganisation, Projektdurchführung, Konfigurationsmanagement
-          </li>
-        </ul>
-        <li>Gesetze, Normen, Richtlinien</li>
+        <li>Risikoakzeptanz</li>
+        <li>Lieferumfang</li>
+        <li>Abnahmekriterien</li>
       </ul>
-      <li>nach IEEE 29148-2018</li>
+      <li class="text-weight-bolder">Normungen</li>
       <ul>
-        <li>Einleitung</li>
-        <ul>
-          <li>Zweck</li>
-          <li>Umfang</li>
-          <li>Erläuterungen zu Begriffen / Abkürzungen</li>
-          <li>Verweise auf sonstige Ressourcen</li>
-          <li>Übersicht</li>
-        </ul>
-        <li>Allgemeine Beschreibung des Produkts</li>
-        <ul>
-          <li>Produktperspektive</li>
-          <li>Produktfunktionen</li>
-          <li>Benutzermerkmale</li>
-          <li>Einschränkungen für den Entwickler</li>
-          <li>Annahmen und Abhängigkeiten</li>
-          <li>
-            Aufteilunge der Anforderungen (nicht Realisierbares später angehen)
-          </li>
-        </ul>
-        <li>Spezifische Anforderungen</li>
-        <ul>
-          <li>funktionale Anforderungen</li>
-          <li>nicht-funktionale Anforderungen</li>
-          <li>externe Schnittstellen</li>
-          <li>Design Constraints</li>
-          <li>Anforderungen an Performance</li>
-          <li>Qualitätsanforderungen</li>
-        </ul>
+        <li>DIN 69901-5: Projektmanagement - Projektmanagementsysteme</li>
+        <li>
+          IEEE 830-1998: Software Requirements Specification, Lastenhefte für
+          Softwaresysteme
+        </li>
       </ul>
     </ul>
+
     <q-separator class="q-mt-md" />
     <div
       class="text-h6 text-underline q-mt-lg q-ml-md text-weight-bolder text-third"

@@ -41,7 +41,9 @@
         Kann Mac-Adressen auswerten und lernt, welche sich an welchen Port
         befinden → Informationen werden in einer internen Tabelle gespeichert
       </li>
-      <li>sendet Daten direkt an die Empfänger</li>
+      <li>
+        Sendet mithilfe der internen MAC-Tabelle Daten direkt an den Empfänger
+      </li>
       <li>
         VLAN-fähige Switches können ein physisches Netz in mehrere logische
         Teilnetze unterteilen.
@@ -226,63 +228,6 @@
           Verbindung mehr Redundanz und Bandbreite bereitzustellen
         </li>
       </ul>
-      <li class="text-weight-bold">Simplex</li>
-      <ul>
-        <li>
-          Simplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten
-          die Übertragung grundsätzlich auf einem Kanal nur in eine Richtung
-          möglich ist.
-        </li>
-        <li>
-          <a class="text-weight-bold">Dual-Simplex</a> beschreibt das Nutzen von
-          2 zwei Simplex-Verbindungen, womit auch eine Datenübertragung in beide
-          Richtungen möglich ist (ein Kanal hin, ein Kanal zurück). Jedoch
-          findet hierbei die Kommunikation über 2 Kanäle statt. (Unterschied zu
-          Voll-Duplex: Übertragung in beide Richtungen auf nur einem Kanal)
-        </li>
-      </ul>
-
-      <li class="text-weight-bold">Duplex</li>
-      <ul>
-        <li>
-          Duplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten
-          die Übertragung grundsätzlich in beide Richtungen möglich ist.
-        </li>
-        <li>Man unterscheidet zwischen Halbduplex und Vollduplex</li>
-        <li class="text-weight-bold">Halbduplex</li>
-        <ul>
-          <li>
-            es kann in beide Richtungen, allerdings nicht zur selben Zeit
-            kommuniziert werden
-          </li>
-          <li>Sender und Empfänger müssen sich daher abwechseln</li>
-          <li>Beispiel: Walkie-Talkie</li>
-        </ul>
-        <li class="text-weight-bold">Vollduplex</li>
-        <ul>
-          <li>
-            Daten können auf einem Kanal gleichzeitig in beide Richtungen
-            gesendet und empfangen werden
-          </li>
-          <li>Beispiel: Telefon</li>
-        </ul>
-        <q-img
-          class="bg-grey-5"
-          :src="src + '/Netzwerke/SimplexDuplex.webp'"
-          style="max-width: 600px"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/SimplexDuplex.webp';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
-      </ul>
     </ul>
     <q-separator class="q-mt-md" />
     <div
@@ -290,10 +235,6 @@
       style="line-break: anywhere"
     >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
-      https://www.fibermall.com/blog/wp-content/uploads/2022/06/different-layers-of-the-network.jpg
-      <br />
-      https://heinen-elektronik.de/wp-content/uploads/2023/02/Simplex_duplex.png
-      <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
   </q-page>

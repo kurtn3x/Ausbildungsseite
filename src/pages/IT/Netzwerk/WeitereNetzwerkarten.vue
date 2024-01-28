@@ -38,7 +38,7 @@
           Unternehmen) umfassen
         </li>
         <li>
-          Standard: Ethernet, weniger geräuchlich auch ARCNET oder TOken Ring
+          Standard: Ethernet, weniger geräuchlich auch ARCNET oder Token Ring
         </li>
         <li>
           schnelle Übertragung großer Datenmengen über Lichtwellenleiter oder
@@ -46,7 +46,7 @@
         </li>
         <li>
           VLAN (virtuelles LAN) wird genutzt um Datenverkehr eines LANs in
-          mehrere LANs aufzuteilen.
+          mehrere logische LANs aufzuteilen.
           <router-link to="/netzwerk/vlan" class="text-light-blue">
             Siehe auch VLAN</router-link
           >

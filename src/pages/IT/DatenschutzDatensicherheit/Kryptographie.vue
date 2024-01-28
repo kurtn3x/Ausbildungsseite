@@ -331,7 +331,13 @@
             </li>
             <li>
               Nutzer Loggt sich ein: Salt aus Datenbank wird mit Eingabepasswort
-              in Hashfunktion gegeben
+              vom Nutzer in Hashfunktion gegeben und mit dem Hashwert in der
+              Datenbank verglichen
+            </li>
+            <li>
+              Falls die Datenbank gehackt wird, können Rainbow-Tables nicht
+              verwendet werden, da die Hashwerte mit jedem Salt wieder neu
+              berechnet werden müssen (zeitintensiv, unpraktikabel)
             </li>
           </ul>
         </ul>

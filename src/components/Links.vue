@@ -21,7 +21,7 @@
         dense
         flat
         to="/projektmanagement/pflichten-lastenheft"
-        label="Pflichten- & Lastenheft"
+        label="Lasten- & Pflichtenheft"
         class="full-width q-mt-xs"
         rounded
         align="left"
@@ -218,8 +218,8 @@
       <q-btn
         dense
         flat
-        to="/netzwerk/hardware"
-        label="Netzwerk-Hardware"
+        to="/hardware/netzwerk"
+        label="Netzwerk Hardware"
         class="full-width q-mt-xs"
         rounded
         align="left"
@@ -229,7 +229,7 @@
         dense
         flat
         to="/hardware/server"
-        label="Server-Hardware"
+        label="Server Hardware"
         class="full-width q-mt-xs"
         rounded
         align="left"
@@ -276,16 +276,6 @@
         rounded
         align="left"
         :class="$route.path == '/netzwerk/allgemein' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/netzwerk/hardware"
-        label="Hardware"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/netzwerk/hardware' ? 'active' : ''"
       />
 
       <q-btn
@@ -620,6 +610,20 @@
             : ''
         "
       />
+      <q-btn
+        dense
+        flat
+        to="/datenschutz-datensicherheit/kryptographie"
+        label="Kryptographie"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="
+          $route.path == '/datenschutz-datensicherheit/kryptographie'
+            ? 'active'
+            : ''
+        "
+      />
       <q-expansion-item
         dense
         dense-toggle
@@ -687,20 +691,6 @@
           />
         </div>
       </q-expansion-item>
-      <q-btn
-        dense
-        flat
-        to="/datenschutz-datensicherheit/kryptographie"
-        label="Kryptographie"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="
-          $route.path == '/datenschutz-datensicherheit/kryptographie'
-            ? 'active'
-            : ''
-        "
-      />
     </div>
   </q-expansion-item>
   <q-expansion-item

@@ -24,16 +24,18 @@
       </li>
       <li class="text-weight-bolder">Kennzeichen:</li>
       <ul>
-        <li>werden vom Kunden beauftragt → Lastenheft</li>
-        <li>Auftragnehmer erstellt auf dessen Grundlage das Pflichtenheft</li>
-        <li>Eigene organisatorische Struktur</li>
+        <li>
+          Einmaligkeit der Bedingungen in ihrer Gesamtheit (Projekt wird von
+          Natur aus immer zum ersten und letzten Mal durchgeführt)
+        </li>
+        <li>
+          Zielvorgabe (Vorgabe von Zielen, die das Projekt erreichen muss)
+        </li>
+        <li>zeitliche, personelle, finanzielle Begrenzung</li>
+        <li>projektspezifische Organisation</li>
         <li>Projekte sind abrechenbar</li>
-        <li>gliedern sich in Meilensteinabschnitte</li>
         <li>hohes Misserfolgsrisiko</li>
         <li>Kunde gibt Rahmenbedingungen wie Zeit und Kosten vor</li>
-        <li>Komplex und umfangreich</li>
-        <li>werden standartisierte Dokumente erstellt</li>
-        <li>bilden eine Schnittstelle zur umgebenden Infrastruktur</li>
         <li>Zeitbregrenzt</li>
         <li>Ressourcenbegrenzt</li>
         <li>Komplex</li>

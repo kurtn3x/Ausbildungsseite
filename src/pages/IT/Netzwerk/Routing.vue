@@ -99,7 +99,7 @@
     <div
       class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
     >
-      Routing-Protokolle
+      Routing-Protokolle und -Begriffe
     </div>
     <ul>
       <li class="text-weight-bolder">Das autonome System</li>

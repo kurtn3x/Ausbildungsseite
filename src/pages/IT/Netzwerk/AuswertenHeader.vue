@@ -44,9 +44,9 @@
         aufgenommen werden, da sie bereits früh verworfen werden.
       </li>
       <li>
-        Mindestens 64 Byte (oder 68 mit VLAN-Tag) und maximal 1518 Byte (oder
-        1522 mit VLAN-Tag). Die Präambel, SFD und Interpacket-Gap zählt nicht zu
-        der Minimal-/Maximalgröße.
+        Gesamtes Ethernet-Datenpaket mindestens 64 Byte (oder 68 mit VLAN-Tag)
+        und maximal 1518 Byte (oder 1522 mit VLAN-Tag). Die Präambel, SFD und
+        Interpacket-Gap zählt nicht zu der Minimal-/Maximalgröße.
       </li>
       <li>
         Falls das Datenpaket kleiner als 64 (bzw. 68) Byte ist, werden vor der

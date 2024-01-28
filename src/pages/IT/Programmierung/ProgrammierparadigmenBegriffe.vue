@@ -48,11 +48,11 @@
       </li>
       <ul>
         <li class="text-weight-bold">Prozedurale Sprachen</li>
-        <uL>
+        <ul>
           <li>strukturierter Code mit Funktionen und Prozeduren</li>
           <li>Zerlegen des Programms in kleinere Teilaufgaben</li>
           <li>z.B. Python, C</li>
-        </uL>
+        </ul>
         <li class="text-weight-bold">Funktionale Sprachen</li>
         <ul>
           <li>basierend auf Funktion im mathematischen Sinn</li>

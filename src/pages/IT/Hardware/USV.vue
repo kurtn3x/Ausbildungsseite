@@ -27,7 +27,7 @@
           aktiviert
         </li>
         <li>
-          Akku bleibt weiterhin an Stromnetz angeschlossen, um volle
+          Akku bleibt permanent an Stromnetz angeschlossen, um volle
           Ladeleistung zu sichern
         </li>
         <li>
@@ -51,7 +51,7 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder">Line-Interaktive-USV</li>
+      <li class="text-weight-bolder q-mt-md">Line-Interaktive-USV</li>
       <ul>
         <li>auch VI-Systeme (Voltage Independent) genannt</li>
         <li>Verbraucher im Normalbetrieb direkt vom Netz versorgt</li>
@@ -84,7 +84,7 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder">Online-USV</li>
+      <li class="text-weight-bolder q-mt-md">Online-USV</li>
       <ul>
         <li>auch VFI-Systeme (Voltage and Frequency Independent) genannt</li>
         <li>Verbraucher hat keine direkte Verbindung zum Stromnetz</li>

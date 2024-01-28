@@ -72,10 +72,6 @@
       Portbasierte VLANs
     </div>
     <ul>
-      <li>
-        ein physischer Switch auf mehrere logische Switche aufgeteilt bzw. ein
-        physisches Netzwerk auf mehrere logische Netzwerke unterteilt
-      </li>
       <li>jedem Port wird eine feste VLAN-ID zugeordnet</li>
       <li>
         ein portbasiertes VLAN, bzw. ein Port mit einer festen VLAN-ID wird auch
