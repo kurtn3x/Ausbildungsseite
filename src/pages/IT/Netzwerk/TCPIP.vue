@@ -68,7 +68,8 @@
           </tr>
         </tbody>
       </table>
-
+    </div>
+    <div class="row justify-center">
       <q-img
         class="bg-grey-5 q-mt-md"
         :src="src + '/Netzwerke/ipv4/Datenpaket.png'"

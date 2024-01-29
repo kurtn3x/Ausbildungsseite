@@ -223,7 +223,7 @@
         class="full-width q-mt-xs"
         rounded
         align="left"
-        :class="$route.path == '/netzwerk/hardware' ? 'active' : ''"
+        :class="$route.path == '/hardware/netzwerk' ? 'active' : ''"
       />
       <q-btn
         dense

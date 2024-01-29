@@ -103,65 +103,10 @@
             umfassenden Funktionsumfang eines Switches bereit und erlauben somit
             die höchste Sicherheit, Kontrolle und Verwaltung des Netzwerks.
             Können unter anderem VLAN-, Firewall- und/oder Routing-Funktionen
-            besitzen.
+            besitzen. Müssen jedoch für den vollen Funktionsumfang konfiguriert
+            werden.
           </li>
         </ul>
-        <li class="text-weight-bold">
-          Core-, Distribution- und Access-Switches
-        </li>
-        <ul>
-          <li class="text-weight-bolder">Core-Switches</li>
-          <ul>
-            <li>
-              leistungsfähige Switches die das Rückgrat (Backbone) eines Netzes
-              bilden
-            </li>
-            <li>hohe Durchsatzraten, Leistung und Zuverlässigkeit</li>
-            <li>
-              Redundanz sehr wichtig, da bei Ausfall des Core-Switches das
-              gesamte Netzwerk betroffen ist
-            </li>
-            <li>leiten Pakete an Distribution-Switches weiter</li>
-          </ul>
-          <li class="text-weight-bolder">Distribution-Switches</li>
-          <ul>
-            <li>Verteilung von Datenpaketen</li>
-            <li>
-              sorgen dafür, dass das Netzwerk nicht mit Datenpaketen überfüllt
-              wird
-            </li>
-            <li>
-              leiten Pakete an Access-Switches oder andere Access-Geräte weiter
-            </li>
-          </ul>
-          <li class="text-weight-bolder">Access-Switches</li>
-          <ul>
-            <li>direkt mit Subnets verbunden</li>
-            <li>Layer 3 switches mit Routingfunktionen</li>
-            <li>leiten Pakete an das addressierte Gerät weiter</li>
-          </ul>
-          <q-img
-            class="bg-grey-5"
-            :src="src + '/Netzwerke/coreswitch.webp'"
-            style="max-width: 600px"
-            @click="
-              show_img = true;
-              popupsrc = '/Netzwerke/coreswitch.webp';
-            "
-          >
-            <div
-              class="absolute-bottom-right text-subtitle2"
-              style="
-                height: 40px;
-                font-size: 10px;
-                background-color: transparent;
-              "
-            >
-              Click for full size
-            </div>
-          </q-img>
-        </ul>
-
         <li class="text-weight-bold">AutoUplink (MDI/MDI-X)</li>
         <ul>
           <li>
@@ -169,6 +114,55 @@
             verbunden ist
           </li>
         </ul>
+      </ul>
+      <li class="text-weight-bold">Core-, Distribution- und Access-Switches</li>
+      <ul>
+        <li class="text-weight-bolder">Core-Switches</li>
+        <ul>
+          <li>
+            leistungsfähige Switches die das Rückgrat (Backbone) eines Netzes
+            bilden
+          </li>
+          <li>hohe Durchsatzraten, Leistung und Zuverlässigkeit</li>
+          <li>
+            Redundanz sehr wichtig, da bei Ausfall des Core-Switches das gesamte
+            Netzwerk betroffen ist
+          </li>
+          <li>leiten Pakete an Distribution-Switches weiter</li>
+        </ul>
+        <li class="text-weight-bolder">Distribution-Switches</li>
+        <ul>
+          <li>Verteilung von Datenpaketen</li>
+          <li>
+            sorgen dafür, dass das Netzwerk nicht mit Datenpaketen überfüllt
+            wird
+          </li>
+          <li>
+            leiten Pakete an Access-Switches oder andere Access-Geräte weiter
+          </li>
+        </ul>
+        <li class="text-weight-bolder">Access-Switches</li>
+        <ul>
+          <li>direkt mit Subnets verbunden</li>
+          <li>Layer 3 Switches mit Routingfunktionen</li>
+          <li>leiten Pakete an das adressierte Gerät weiter</li>
+        </ul>
+        <q-img
+          class="bg-grey-5"
+          :src="src + '/Netzwerke/coreswitch.webp'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/coreswitch.webp';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
