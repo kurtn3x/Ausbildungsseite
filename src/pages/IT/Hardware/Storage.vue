@@ -89,7 +89,7 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
     >
-      Storage-Protokolle und Übertragungsmedien
+      Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
     </div>
     <ul>
       <li class="text-weight-bolder">NFS - Network File System</li>
@@ -117,6 +117,7 @@
         <li>Neueste SMB-Version: SMB 3.1.1</li>
         <li>besonders Windows</li>
       </ul>
+
       <li class="text-weight-bolder">SCSI - Small Computer System Interface</li>
       <ul>
         <li>
@@ -127,21 +128,49 @@
           SCSI als Hardware-Schnittstelle spielt keine Rolle mehr, jedoch wird
           das Protokoll immernoch häufig verwendet z.B. SAS, iSCSI
         </li>
-        <li class="text-weight-bold">iSCSI</li>
+        <li class="text-weight-bold">iSCSI - Internet SCSI</li>
         <ul>
           <li>SCSI über TCP/IP-Netzwerk</li>
           <li>Verschicken von SCSI-Kommandos in TCP-Paketen</li>
-          <li>Vorteil von blockbasierten Zugriff</li>
+          <li>billiger & einfacher als Fibre Channel</li>
+          <li>
+            blockbasierter Zugriff, hohe Geschwindigkeiten und weitere Vorteile
+            wie Jumbo-Frames und Multipathing
+          </li>
         </ul>
       </ul>
       <li class="text-weight-bolder">FC - Fibre Channel</li>
       <ul>
         <li>Übertragungssystem, das für Speichernetze (SAN) eingesetzt wird</li>
-        <li>logische Erweiterung des SCSI-Busses</li>
-        <li>Überträgt SCSI-Befehle und Daten in serieller Form in einem SAN</li>
+        <li>
+          liefert verlustfreihe, chronologisch aufgereihte, rohe Blockdaten
+        </li>
+        <li>hoher Durchsatz und geringe Latenz</li>
         <li>
           benötigt teure Hardware → FCIP (Fibre Channel over IP) und FCoE (Fibre
-          Channel over Ethernet) zur Datenübertragung durch Ethernet und TCP/IP
+          Channel over Ethernet) zur Datenübertragung TCP/IP und Ethernet
+        </li>
+      </ul>
+
+      <li class="text-weight-bolder">Infiniband</li>
+      <ul>
+        <li>
+          Spezifikation einer Hardwareschnitstelle für
+          High-Performance-Computing
+        </li>
+        <li>
+          Hochgeschwindigkeitsübertragung auf kurze Distanz mit geringer Latenz
+        </li>
+        <li>
+          Verwendung in Computerclustern, bei der Verbindung zwischen Servern
+          aber auch besonders bei Verbindungen mit Massenspeichern wie SAN
+        </li>
+      </ul>
+
+      <li class="text-weight-bolder">HTTP</li>
+      <ul>
+        <li>
+          Nicht als Speicherprotokoll vorgesehen, jedoch trotzdem oft verwendet
         </li>
       </ul>
     </ul>

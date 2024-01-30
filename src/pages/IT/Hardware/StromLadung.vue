@@ -79,7 +79,6 @@
         </li>
         <li class="text-weight-bold">USV-Stromleistung</li>
         <ul>
-          <li>Haltedauer = Akkukapazität / Leistung</li>
           <li>Beispiel: Wie lange kann die USV Strom liefern?</li>
           <ul>
             <li>Akkuspannung 12V, Akkukapazität 200Ah, Leistung 20000W</li>
@@ -87,7 +86,7 @@
             <ul>
               <li>Akkukapazität in Wh = 200Ah*12V = 2400Wh</li>
             </ul>
-            <li>Haltedauer = Akkukapazität / Leistung</li>
+            <li>Haltedauer in h= Akkukapazität in Wh / Leistung in W</li>
             <ul>
               <li>Haltedauer in h = 2400Wh / 20000W</li>
               <li>Haltedauer in h= 0.12Stunden</li>

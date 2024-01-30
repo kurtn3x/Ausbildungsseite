@@ -109,7 +109,7 @@
         <li>Verbindung kann mit jedem Browser aufgebaut werden</li>
         <li>
           Wird oft als "clientlos" bezeichnet, da theoretisch keine
-          Extra-Software benötigt wird. (manche liefern es trotzdem mit z.B.
+          Extra-Software benötigt wird (manche liefern es trotzdem mit z.B.
           Cisco AnyConnect)
         </li>
         <li>meist HTTPS und Port 443 für die Verbindung</li>

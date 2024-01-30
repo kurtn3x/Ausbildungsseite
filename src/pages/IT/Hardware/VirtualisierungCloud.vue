@@ -86,7 +86,8 @@
       <li class="text-weight-bolder">SaaS - Software-as-a-Service</li>
       <ul>
         <li>
-          Drittanbieter stellt eine komplette Anwendung über eine Website bereit
+          Drittanbieter stellt eine komplette Anwendung über einer Website
+          bereit
         </li>
         <li>
           Nutzer ist nicht für Softwareupdates oder generelle Softwarewartung
@@ -139,6 +140,7 @@
           Betriebssysteme als Gastsystem unmöglich, da die Container sich den
           Kernel des OS teilen
         </li>
+        <li>Verwendung des Kernels des Hostsystems</li>
         <li>effizientere Ressourcennutzung</li>
         <li>z.B. Docker</li>
       </ul>
@@ -160,14 +162,14 @@
         </ul>
         <li class="text-red">Nachteile:</li>
         <ul>
-          <li>ineffizient (Hypervisor zieht auch Leistung)</li>
+          <li>ineffizient</li>
           <li>
             Schlechteres Load-Balancing, da Lastverhalten der einzelnen VMs
             nicht vorhersehbar ist und VMs sich die realen Ressourcen teilen
             müssen
           </li>
           <li>
-            Fällt das Host-System aus, betrifft das alle darauf gehosteten VMs
+            Fällt das Hostsystem aus, sind alle darauf gehosteten VMs betroffen
           </li>
         </ul>
 

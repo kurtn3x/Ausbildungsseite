@@ -25,7 +25,7 @@
       <li class="text-weight-bolder">Ziel einer strukturierten Verkabelung</li>
       <ul>
         <li>
-          Unterstützung der aktuellen u. zukünftigen Kommunikationssysteme
+          Unterstützung der aktuellen und zukünftigen Kommunikationssysteme
         </li>
         <li>Kapazitätsreserve</li>
         <li>flexible Erweiterbarkeit</li>
@@ -48,7 +48,7 @@
         <li>
           <a class="text-weight-bolder text-orange-4">Primärbereich: </a
           >Verbindet zentrale Komponenten und einzelne Gebäude. Meist
-          Lichtwellenleiter mit Redundanz. (Twisted-Pair auch mögl., jedoch
+          Lichtwellenleiter mit Redundanz (Twisted-Pair auch möglich, jedoch
           selten)
         </li>
         <li>
@@ -58,7 +58,7 @@
         <li>
           <a class="text-weight-bolder text-green-4">Tertiärbereich: </a
           >Horizontale Stockwerksverkabelung bis zur Anschlussdose. Verwendung
-          von Twisted-Pair. (Lichtewellenleiter auch mögl., jedoch selten)
+          von Twisted-Pair (Lichtewellenleiter auch möglich, jedoch selten)
         </li>
 
         <q-img
@@ -101,7 +101,11 @@
           <li>
             Durch Verdrillen wird in andere Richtung als der Partner gestrahlt
           </li>
-          <li>Man unterscheidet bei Twisted-Pair-Kabeln nach Abschirmung:</li>
+          <li>
+            Twsited-Pair-Kabel besitzen unterschiedliche Arten von
+            Abschirmungen, welche einen zusätzlichen Schutz gegen störende
+            äußere elektromagnetische Felder bieten:
+          </li>
           <q-img
             class="fit"
             :src="src + '/Hardware/twisted-pair.png'"
@@ -126,7 +130,7 @@
 
         <li class="text-weight-bold q-mt-md">Lichtwellenleiter</li>
         <ul>
-          <li>Lichtleitung erfolgt mittels Quarzglas oder Kunststoff.</li>
+          <li>Lichtleitung erfolgt mittels Quarzglas oder Kunststoff</li>
           <li>
             bestehen im Inneren aus einem Kern und einen umgebenden Mantel mit
             niedrigerem Brechungsindex
@@ -182,7 +186,7 @@
         <li>
           Simplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten
           die Übertragung grundsätzlich auf einem Kanal nur in eine Richtung
-          möglich ist.
+          möglich ist
         </li>
         <li>
           <a class="text-weight-bold">Dual-Simplex</a> beschreibt das Nutzen von
@@ -197,7 +201,7 @@
       <ul>
         <li>
           Duplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten
-          die Übertragung grundsätzlich in beide Richtungen möglich ist.
+          die Übertragung grundsätzlich in beide Richtungen möglich ist
         </li>
         <li>Man unterscheidet zwischen Halbduplex und Vollduplex</li>
         <li class="text-weight-bold">Halbduplex</li>
@@ -235,6 +239,8 @@
         </q-img>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+
     <div
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"

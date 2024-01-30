@@ -17,7 +17,7 @@
         ähnlich zu OSI-Modell, jedoch vereinfacht bzw. Schichten wurden
         zusammengefasst
       </li>
-      <li class="text-weight-bolder">
+      <li class="text-weight-bold">
         Stellt eher dar, wo die Frames eines Pakets aufgebaut werden
       </li>
     </ul>

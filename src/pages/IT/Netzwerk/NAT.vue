@@ -39,9 +39,10 @@
         <a class="text-weight-bold">Carrier Grade NAT:</a> Provider teilt dem
         Endkunden eine private IP-Adresse aus dem Bereich 10.0.0.0/8 zu. Der
         Provider ist dann für die NAT-Vermittlung zuständig und nicht der Router
-        des Endkunden. Vorteil für Provider (spart an öffentlichen IPs),
-        Nachteil für Endkunden (kann keine öffentlich-erreichbaren Dienste
-        bereitstellen, kein Port-Forwarding, mehr Fehlerquellen).
+        des Endkunden. <a class="text-green">Vorteil für Provider </a>(spart an
+        öffentlichen IPs), <a class="text-red">Nachteil für Endkunden </a>(kann
+        keine öffentlich-erreichbaren Dienste bereitstellen, kein
+        Port-Forwarding, mehr Fehlerquellen).
       </li>
     </ul>
     <q-separator class="q-mt-md" />
@@ -96,7 +97,7 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder">
+      <li class="text-weight-bolder q-mt-md">
         PAT (Port and Address Translation) bzw. NAPT (Network Address Port
         Translation) erweitert das SNAT
       </li>

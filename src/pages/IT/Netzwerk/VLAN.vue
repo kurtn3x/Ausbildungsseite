@@ -39,7 +39,9 @@
         <li>Priorisieren von Datenströmen</li>
         <li>Abbildung von Abteilungsstrukturen</li>
       </ul>
-      <li>man unterscheidet zwischen statischen und dynamischen VLANs</li>
+      <li class="text-weight-bolder">
+        man unterscheidet zwischen statischen und dynamischen VLANs
+      </li>
       <ul>
         <li class="text-weight-bold">statisch</li>
         <ul>
@@ -62,7 +64,9 @@
           </li>
         </ul>
       </ul>
-      <li>man unterscheidet zwischen portbasierten und tagged VLANs</li>
+      <li class="text-weight-bolder text-third">
+        man unterscheidet zwischen portbasierten und tagged VLANs
+      </li>
     </ul>
     <q-separator class="q-mt-md" />
 

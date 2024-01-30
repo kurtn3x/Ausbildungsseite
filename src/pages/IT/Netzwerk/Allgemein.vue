@@ -54,49 +54,10 @@
         bestimmten Zeiteinheit über ein Medium übertragene Datenmenge. Wird in
         <a class="text-purple">Bit</a> pro Sekunde angegeben. (z.B. MiB/s)
       </li>
-      <li>
-        <a class="text-weight-bolder">Räumliche Ausdehnung von Netzen:</a>
-      </li>
-
-      <ul>
-        <li>
-          <a class="text-weight-bolder">PAN: </a>Personal Area Network (z.B.
-          Bluetooth)
-        </li>
-        <li>
-          <a class="text-weight-bolder">LAN: </a>Local Area Network (lokales
-          Netz)
-        </li>
-        <li>
-          <a class="text-weight-bolder">MAN: </a>Metropolitan Area Network
-          (regionales Netz einer Metropolregion)
-        </li>
-        <li>
-          <a class="text-weight-bolder">WAN: </a>Wide Area Network
-          (Weitverkehrsverbindung)
-        </li>
-        <li>
-          <a class="text-weight-bolder">GAN: </a>Global Area Network (globales
-          Netz)
-        </li>
-      </ul>
 
       <li>
         <a class="text-weight-bolder">PowerLAN: </a>Nutzt das Stromnetz als
         lokales Übertragungsmedium
-      </li>
-      <li><a class="text-weight-bolder">WLAN: </a>Wireless-LAN</li>
-      <li>
-        <a class="text-weight-bolder">VLAN: </a>Virtual LAN : flexible, logische
-        Trennung eines physischen Netzes
-      </li>
-      <li>
-        <a class="text-weight-bolder">IEEE: </a>Insitute of Electrical and
-        Electronics Engineers (US-Normungsbehörde)
-      </li>
-      <li>
-        <a class="text-weight-bolder">ISO: </a>International Organisation for
-        Standardization
       </li>
     </ul>
   </q-page>

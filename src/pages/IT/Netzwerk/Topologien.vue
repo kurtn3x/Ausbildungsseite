@@ -48,11 +48,12 @@
             </td>
             <td class="text-h6 text-weight-bold text-center">Bustopologie</td>
             <td class="tg-0lax">
-              Einfach Installierbar<br /><br />Kurze Leitungen
+              Geringe Kosten<br /><br />einfache & kurze Verkabelung
             </td>
             <td class="tg-0lax">
-              Bei Kabelbruch fällt Netz aus<br /><br />Zugriffszeit nicht
-              berechenbar
+              Bei Kabelbruch fällt Netz aus<br /><br />Kollisionsmöglichkeit und
+              ein Sender blockiert alle Anderen <br />Jeder kann Datenverkehr
+              mithören
             </td>
           </tr>
           <tr>
@@ -127,6 +128,39 @@
             <td class="tg-0lax">
               <q-img
                 class="fit bg-grey-5"
+                :src="src + '/Netzwerke/Topologien/baum.png'"
+                style="max-width: 200px; min-width: 125px"
+                @click="
+                  show_img = true;
+                  popupsrc = '/Netzwerke/Topologien/baum.png';
+                "
+              >
+                <div
+                  class="absolute-bottom-right text-subtitle2"
+                  style="
+                    height: 40px;
+                    font-size: 10px;
+                    background-color: transparent;
+                  "
+                >
+                  Click for full size
+                </div>
+              </q-img>
+            </td>
+            <td class="text-h6 text-weight-bold text-center">Baumtopologie</td>
+            <td class="tg-0lax">
+              Ausfallsicherheit von Endgeräten<br /><br />Einfach erweiterbar
+            </td>
+            <td class="tg-0lax">
+              Ausfall eines Verteilers sorgt für Ausfall des kompletten
+              Unterbaums<br /><br />
+              Mit zunehmender Tiefe immer höhere Latenzen
+            </td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">
+              <q-img
+                class="fit bg-grey-5"
                 :src="src + '/Netzwerke/Topologien/Maschentopologie.png'"
                 style="max-width: 200px; min-width: 125px"
                 @click="
@@ -154,7 +188,44 @@
               Ausfallsicherheit
             </td>
             <td class="tg-0lax">
-              aufwendige Administration<br /><br />teure Vernetzung
+              aufwendige Administration und komplexes Routing<br /><br />teure
+              Vernetzung
+            </td>
+          </tr>
+
+          <tr>
+            <td class="tg-0lax">
+              <q-img
+                class="fit bg-grey-5"
+                :src="src + '/Netzwerke/Topologien/zell.png'"
+                style="max-width: 200px; min-width: 125px"
+                @click="
+                  show_img = true;
+                  popupsrc = '/Netzwerke/Topologien/zell.png';
+                "
+              >
+                <div
+                  class="absolute-bottom-right text-subtitle2"
+                  style="
+                    height: 40px;
+                    font-size: 10px;
+                    background-color: transparent;
+                  "
+                >
+                  Click for full size
+                </div>
+              </q-img>
+            </td>
+            <td class="text-h6 text-weight-bold text-center">
+              Zelltopologie (Drahtlos)
+            </td>
+            <td class="tg-0lax">
+              Keine Kabel<br /><br />hohe Ausfallsicherheit
+            </td>
+            <td class="tg-0lax">
+              Störanfällig, begrenzte Reichweite <br />
+              <br />
+              Unsicher, jeder kann mithören
             </td>
           </tr>
         </tbody>
