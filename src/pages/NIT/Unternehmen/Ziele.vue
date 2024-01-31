@@ -12,7 +12,7 @@
       <ul>
         <li class="text-weight-bold">
           Specific, Measurable, Attainable/Accepted, Realistic/Reasonable,
-          Time-Bound (spezifisch, messbar, erreichbar/aktzeptiert, realistisch,
+          Time-Bound (spezifisch, messbar, erreichbar/akzeptiert, realistisch,
           terminiert)
         </li>
       </ul>

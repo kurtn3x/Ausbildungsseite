@@ -46,9 +46,7 @@
             unterteilt und im "Reißverschlussverfahren", also abwechselnd zu
             einer großen Platte verbunden.
           </li>
-          <li>
-            Erhöhung der Übertragungsraten, da parellelle Zugriffe möglich
-          </li>
+          <li>Erhöhung der Übertragungsraten, da parellele Zugriffe möglich</li>
           <li>Verfügbarer Speicherplatz: 100%</li>
 
           <q-img

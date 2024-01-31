@@ -12,12 +12,89 @@
       DHCP - Dynamic Host Configuration Protocol
     </div>
     <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Allgemeines
+    </div>
     <ul>
-      <li>Automatisches Zuordnen von IP-Adressen über das DHCP Protokoll</li>
+      <li class="text-weight-bold">
+        Ermöglicht das Zuweisen von Netzwerkkonfigurationen an Clients durch
+        einen Server
+      </li>
       <li>
         DHCP verwendet Port 67 auf Serverseite und Port 68 auf Clientseite
       </li>
-      <li><a class="text-weight-bold">3 Modi:</a></li>
+      <li>
+        IPv6 benötigt kein DHCP, da IPv6 über Autokonfigurationen eine
+        funktionsfähige Internetverbindung aufbauen kann (mittels SLAAC -
+        Stateless Address Autoconfiguration, Konfiguration wird über Router im
+        Netzwerksegment ermittelt)
+      </li>
+      <li>
+        folgende Einstellungen können durch einen DHCP-Server zugewiesen werden:
+      </li>
+      <ul>
+        <li>IP-Adresse und Subnetzmaske</li>
+        <li>Gateway</li>
+        <li>DNS-Server</li>
+        <li>Time- und NTP-Server</li>
+        <li>WINS-Server</li>
+        <li>Proxy-Konfigurationen</li>
+        <li>
+          Teilweise auch die Angabe eines TFTP-Servers, der einem Client über
+          PXE ein Betriebssystem zum booten/installieren zur Verfügung stellt
+        </li>
+        <li>Je nach DHCP-Server noch mehr Funktionen</li>
+      </ul>
+      <li class="text-weight-bolder">DHCP-Relay</li>
+      <ul>
+        <li>Verwenden von DHCP über Netzgrenzen hinaus</li>
+        <li>
+          Ein DHCP-Server kann also über mehrere Subnets Netzwerkkonfigurationen
+          zuweisen
+        </li>
+        <li>
+          DHCP-Nachrichten werden über den DHCP-Relay in andere Subnets geleitet
+        </li>
+        <li>Oft eingebaute Funktionalität von Routern</li>
+      </ul>
+      <li class="text-weight-bolder">Sicherheit</li>
+      <ul>
+        <li>
+          DHCP ist ein sehr unsicheres Protokoll, da DHCP-Clients standardmäßig
+          jeden DHCP-Server akzeptieren
+        </li>
+        <li>
+          <a class="text-weight-bold">Rogue DHCP-Server</a>: von Angreifer
+          aufgesetzter DHCP-Server, der unbrauchbare oder manipulierte
+          Informationen an Clients liefert
+        </li>
+        <li>
+          Rogue DHCP-Server kann z.B. fehlerhafte DNS-Server übermitteln, welche
+          auf Phishing-Websites weiterleiten
+        </li>
+        <li class="text-weight-bold">Beispielmaßnahme: DHCP-Snooping</li>
+        <ul>
+          <li>
+            Protokoll, welches auf Switches läuft die den Client mit den
+            DHCP-Servern verbinden
+          </li>
+          <li>
+            Alle DHCP-Informationen, die über den Switch laufen werden überprüft
+          </li>
+          <li>
+            Nur zugelassene Pakete von vertrauenswürdigen DHCP-Servern werden
+            weitergeleitet
+          </li>
+          <li>
+            DHCP-Offer Pakete von unvertrauenswürdigen (Rogue) DHCP-Servern
+            werden aussortiert
+          </li>
+        </ul>
+      </ul>
+
+      <li><a class="text-weight-bold">DHCP besitzt 3 Modi:</a></li>
       <ul>
         <li>Statisches DHCP: feste Zuordnung von MAC-Adresse und IP</li>
         <li>
@@ -47,7 +124,7 @@
           DHCP-Request. Davor schaut der Client mit ARP noch, ob die DHCP-Offer
           Adresse wirklich frei ist. Der DHCP-Request beinhaltet eine
           spezifische Adresse von dem Server, der das DHCP-Offer gestellt hat
-          und nur der, der das DHCP-Offer erstellt hat aktzeptiert diese
+          und nur der, der das DHCP-Offer erstellt hat akzeptiert diese
           Nachricht.
         </li>
         <li>
