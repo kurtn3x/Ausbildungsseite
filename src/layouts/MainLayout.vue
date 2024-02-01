@@ -4,17 +4,18 @@
       <q-toolbar class="q-pa-none">
         <q-btn
           flat
+          square
           icon="menu"
           aria-label="Menu"
           @click="toggleLeftDrawer"
-          style="width: 75px"
+          style="width: 65px"
           stretch
+          class="bg-cyan"
         />
         <q-separator vertical color="white" />
 
         <q-space />
         <q-separator vertical color="white" />
-
         <q-icon name="format_size" size="30px" class="q-ml-md q-mr-md" />
         <q-slider
           label
@@ -42,32 +43,20 @@
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <div class="row bg-primary items-center">
+      <q-separator color="white" />
+      <Links />
+      <q-separator />
+      <div style="height: 45px">
         <q-btn
-          dense
+          stretch
           flat
           square
           to="/"
           icon="home"
-          style="width: 50px; height: 40px"
-          class="bg-blue text-white"
-        />
-        <q-space />
-        <a class="text-h6 text-white">Themen</a>
-        <q-space />
-
-        <q-btn
-          dense
-          flat
-          square
-          icon="close"
-          style="width: 50px; height: 40px"
-          class="bg-red text-white"
-          @click="leftDrawerOpen = false"
+          style="height: 45px"
+          class="bg-blue text-white absolute-bottom-left"
         />
       </div>
-      <q-separator color="white" size="2px" />
-      <Links />
     </q-drawer>
 
     <q-page-container>
