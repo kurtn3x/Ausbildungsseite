@@ -285,7 +285,7 @@
           0000:0000:0000:0000:0000:0000:0000:0000/0)
         </li>
       </ul>
-      <li class="text-weight-bolder q-mt-md">
+      <li class="text-weight-bolder">
         Limited Broadcast und Directed Broadcast
       </li>
       <ul>

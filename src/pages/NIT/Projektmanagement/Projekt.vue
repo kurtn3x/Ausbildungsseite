@@ -66,7 +66,7 @@
       </q-img>
       <li>zeigt Parameter auf, die ein Projekt und dessen Erfolg bestimmen</li>
       <li>
-        Veränderung eines Parameters führt automatisch zu Veränderung der
+        Veränderung eines Parameters führt automatisch zur Veränderung der
         Anderen
       </li>
       <li class="text-weight-bolder">Umfang</li>

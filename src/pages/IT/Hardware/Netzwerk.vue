@@ -180,7 +180,7 @@
         weiterzuleiten
       </li>
       <li>
-        Heutige Router haben oft viele weitere funktionen: NAS, Firewall, WLAN
+        Heutige Router haben oft viele weitere Funktionen: NAS, Firewall, WLAN
         (- Access Point), DHCP & DNS, uvm.
       </li>
       <li>

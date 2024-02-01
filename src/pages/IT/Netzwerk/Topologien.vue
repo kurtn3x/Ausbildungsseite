@@ -241,9 +241,11 @@
       <br />
       https://de.m.wikipedia.org/wiki/Datei:Netzwerktopologie_Ring.png <br />
       https://de.m.wikipedia.org/wiki/Datei:Netzwerktopologie_Stern.png <br />
+      https://bitjunkie.org/wp-content/uploads/2023/09/Baum-Topologie.png <br />
+
       https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/FullMeshNetwork.svg/220px-FullMeshNetwork.svg.png
       <br />
-
+      https://bsz-limbach.com/wir/schueler/bgy19die/bilder3/bild8.png <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
   </q-page>

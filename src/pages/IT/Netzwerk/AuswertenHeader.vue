@@ -36,22 +36,22 @@
       </q-img>
       <li>
         Der Ethernet-Header beinhaltet sowohl Frame-Inhalte, welche auf Schicht
-        1 arbeiten als auch Frame-Inhalte, welche auf Schicht 2 arbeiten.
+        1 arbeiten als auch Frame-Inhalte, welche auf Schicht 2 arbeiten
       </li>
       <li>
         Die Daten, die auf Schicht 1 mitgesendet werden (Präambel, SFD und
         Interpacket Gap) können generell nicht mit einer Software wie Wireshark
-        aufgenommen werden, da sie bereits früh verworfen werden.
+        aufgenommen werden, da sie bereits früh verworfen werden
       </li>
       <li>
         Gesamtes Ethernet-Datenpaket mindestens 64 Byte (oder 68 mit VLAN-Tag)
         und maximal 1518 Byte (oder 1522 mit VLAN-Tag). Die Präambel, SFD und
-        Interpacket-Gap zählt nicht zu der Minimal-/Maximalgröße.
+        Interpacket-Gap zählen nicht zu der Minimal-/Maximalgröße
       </li>
       <li>
         Falls das Datenpaket kleiner als 64 (bzw. 68) Byte ist, werden vor der
-        Frame Check Squence in Layer 2 des Ethernet-Headers noch Padding-Bits
-        zum Auffüllen gesetzt.
+        Frame Check Squence (bzw. nach den Nutzdaten) in Layer 2 des
+        Ethernet-Headers noch Padding-Bits zum Auffüllen gesetzt
       </li>
     </ul>
     <q-separator class="q-mt-md" />

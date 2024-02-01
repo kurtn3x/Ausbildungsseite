@@ -132,16 +132,55 @@
         <a class="text-weight-bolder">Redundanz: </a>Mehrfachspeicherung von
         Daten
       </li>
-      <li>
-        <a class="text-weight-bolder">Konsistenz: </a>Es besteht kein
-        Widerspruch zwischen den Daten
-      </li>
+      <li class="text-weight-bolder">Konsistenz</li>
+      <ul>
+        <li>Es besteht kein Widerspruch zwischen den Daten</li>
+        <li>
+          Tritt eine Inkonsistenz auf, spricht man auch von
+          <a class="text-weight-bold">Anomalien:</a>
+        </li>
+        <ul>
+          <li>
+            Einfüge-Anomalie: Wenn beim Einfügen die Relation nicht oder nur
+            schwierig eingetragen werden kann, weil nicht zu allen Attributen
+            des Primärschlüssels Werte vorliegen. z.B. Person wird ohne Nachname
+            eingefügt
+          </li>
+          <li>
+            Änderungs-Anomalie: Wenn beim Ändern nicht alle Vorkommen eines
+            Attributwertes zugeleich geändert werden. z.B. Nachnamenänderung bei
+            der selben Person wird nicht auf alle Datensätze übernommen
+          </li>
+          <li>
+            Lösch-Anomalie: Wenn beim Löschen mehr Informationen als erwünscht
+            verloren gehen. z.B. Person wird gelöscht, wobei auch die Anschrift
+            gelöscht wird (was nicht erwünscht ist)
+          </li>
+        </ul>
+      </ul>
       <li>
         <a class="text-weight-bolder">Integrität: </a>Die Daten sind korrekt,
         konsistent und eindeutig
       </li>
+      <li class="text-weight-bolder">Referenzielle Integrität</li>
+      <ul>
+        <li>
+          Tabellenbeziehungen in Datenbanken dürfen nicht zu Inkonsistenzen in
+          der Datenbank führen
+        </li>
+
+        <li>
+          Wenn neuer Datensatz mit Fremdschlüssel angelegt wird, muss in der
+          referenzierten Tabelle auch wirklich ein Datensatz für diesen
+          Schlüssel existieren
+        </li>
+        <li>
+          Datensatz darf nicht gelöscht werden, wenn er in einer anderen Tabelle
+          als Fremdschlüssel genutzt wird
+        </li>
+      </ul>
       <li>
-        <a class="text-weight-bolder">Kradinalität: </a>Beschreibt die Art einer
+        <a class="text-weight-bolder">Kardinalität: </a>Beschreibt die Art einer
         Beziehung (1:1, 1:n, m:n)
       </li>
       <li>

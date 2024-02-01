@@ -46,44 +46,26 @@
           Router oder über DNS Update, ein Protokoll für dynamisches DNS
         </li>
       </ul>
-      <li class="text-weight-bolder">DNS-Resolver</li>
+      <li class="text-weight-bolder">Arten von DNS-Servern:</li>
       <ul>
-        <li>
-          Komponente, die über das DNS-Protokoll Daten von einem Nameserver
-          abruft
-        </li>
-        <li>
-          In Betriebssystemen ist ein simpler Resolver (auch Stub-Resolver
-          genannt) vorinstalliert, der ausschließlich rekursive Anfragen an
-          einen DNS-Server stellt
-        </li>
-      </ul>
-      <li class="text-weight-bolder">
-        man unterscheidet zwischen einem autoritativen und nicht autoritativen
-        DNS
-      </li>
-      <ul>
-        <li><a class="text-weight-bold">Autoritatives DNS:</a></li>
+        <li class="text-weight-bold">Autoritativer DNS-Server:</li>
         <ul>
           <li>
             Autoritative Antwort erfolgt, wenn der angefragte Domainname in
             einer Zone enthalten ist, für die der angefragte Nameserver
             zuständig ist
           </li>
-
           <li>Antwortet rekursiven DNS-Servern</li>
         </ul>
-        <li>
-          <a class="text-weight-bold"
-            >Nicht-Autoritatives DNS (rekursiv oder iterativ):</a
-          >
+        <li class="text-weight-bold">
+          Nicht-Autoritativer DNS-Server (rekursiv oder iterativ):
         </li>
         <ul>
-          <li class="text-weight-bold">Rekursives DNS</li>
+          <li class="text-weight-bold">Rekursiv</li>
           <ul>
             <li>Server holt die Daten von einem anderen DNS-Server</li>
             <li>
-              Handelt als vermittler zwischen Client und autorativen
+              Handelt als Vermittler (Proxy) zwischen Client und autoritativen
               DNS-Servern, kann auch Anfragen direkt beantworten, falls sie im
               Cache gespeichert sind
             </li>
@@ -94,7 +76,7 @@
               weiter
             </li>
           </ul>
-          <li class="text-weight-bold">Iteratives DNS</li>
+          <li class="text-weight-bold">Iterativ</li>
           <ul>
             <li>Server antwortet mit Verweis auf andere Nameserver</li>
             <li>
@@ -105,6 +87,75 @@
           </ul>
         </ul>
       </ul>
+      <li class="text-weight-bolder">Akteure im Domain-Name-System</li>
+      <ul>
+        <li class="text-weight-bold">DNS-Resolver</li>
+        <ul>
+          <li>
+            Komponente, die über das DNS-Protokoll Daten von einem Nameserver
+            abruft
+          </li>
+          <li>Caching-/Forwarding-Funktionen</li>
+          <li>
+            In Betriebssystemen ist ein simpler Resolver (auch Stub-Resolver
+            genannt) vorinstalliert, der ausschließlich rekursive Anfragen an
+            einen DNS-Server stellt
+          </li>
+        </ul>
+        <li class="text-weight-bold">Root-Nameserver</li>
+        <ul>
+          <li>Autoritativer Nameserver für Root-Zone</li>
+          <li>Antworten auf Anfrage zur Root-Zone ('.')</li>
+          <li>
+            Kennt die zuständigen Nameserver für die Top-Level-Domains (TLD)
+          </li>
+          <li>
+            Inspiziert TLD der Anfrage und verweist auf zugehörigen
+            TLD-Nameserver
+          </li>
+          <li>
+            Es gibt 13 Root-Nameserver (Lastverteilung über Anycast, jeder
+            Root-Nameserver besteht aus vielen verteilten Servern, von denen nur
+            der nächste erreicht wird)
+          </li>
+        </ul>
+        <li class="text-weight-bold">Top-Level-Domain(TLD)-Nameserver</li>
+        <ul>
+          <li>verwaltet Informationen zur dazugehörigen TLD wie .de, .com</li>
+          <li>
+            verweist auf autoritative Nameserver, die für die Domain zuständig
+            sind
+          </li>
+          <li>von Internet Assigned Numbers Authority (IANA) verwaltet</li>
+          <li>
+            Zwei Hauptgruppen von TLD-Servern: länderspezifisch (.de, .uk, .ru,
+            ...) oder nicht länderspezifisch (.net, .edu, ...)
+          </li>
+        </ul>
+      </ul>
+      <li class="text-weight-bolder">Arten von DNS-Records:</li>
+      <ul>
+        <li>
+          <a class="text-weight-bold">A Records:</a> Auflösung von DNS-Namen zu
+          IPv4 Adresse
+        </li>
+        <li>
+          <a class="text-weight-bold">AAAA Records:</a> Auflösung von DNS-Namen
+          zu IPv6 Adresse
+        </li>
+        <li>
+          <a class="text-weight-bold">CNAME Records:</a> Verweis, Weiterleitung
+          oder Alias
+        </li>
+        <li>
+          <a class="text-weight-bold">MX Records:</a> zuständiger Mail-Exchange
+          Server für die Zone
+        </li>
+        <li>
+          <a class="text-weight-bold">NS Records:</a> zuständiger Name-Server
+          für die Zone
+        </li>
+      </ul>
       <li class="text-weight-bolder">typischer Ablauf einer DNS-Anfrage</li>
       <ul>
         <li>DNS-Anfrage wird an rekursiven DNS-Server/Resolver gesendet</li>
@@ -113,61 +164,36 @@
           Daten im Cache gespeichert sind
         </li>
         <li>
-          Falls nicht: Anfrage wird an einen Root-Nameserver weitergeleitet,
-          welcher die Root-Domain (.de, .com) der Anfrage inspiziert und an den
+          Anfrage wird an einen Root-Nameserver weitergeleitet, welcher die
+          Root-Domain (wie .de, .com) der Anfrage inspiziert und an den
           dazugehörigen TLD(Top Level Domain)-Server weiterleitet
         </li>
         <li>
-          Der TLD-Server leitet die Anfrage zu einem autoritativen DNS-Server
+          Der TLD-Server leitet die Anfrage an einen autoritativen DNS-Server
           weiter, der den Datensatz für die Anfragedomain enthält
         </li>
         <li>
           Die Anfrage wird zurück an den rekursiven DNS-Server/Resolver
-          geleitet, der die Domain cached und an den Client weitergibt
+          geleitet, der die Anfrage im Cache speichert und an den Client
+          weitergibt
         </li>
-      </ul>
-      <li class="text-weight-bolder">Arten von DNS-Records:</li>
-      <ul>
-        <li class="text-weight-bold">A Records</li>
-        <ul>
-          <li>gibt die IP-Adresse einer bestimmten Domain an</li>
-          <li>für IPv4-Adressen</li>
-          <li>
-            wird für standardmäßige Auflösung von DNS-Namen zu IP-Adressen
-            verwendet
-          </li>
-        </ul>
-        <li class="text-weight-bold">AAAA Records</li>
-        <ul>
-          <li>dasselbe wie A-Records, jedoch mit IPv6-Adressen</li>
-        </ul>
-        <li class="text-weight-bold">CNAME Records</li>
-        <ul>
-          <li>ein Hostname zeigt zu einem anderen Hostnamen oder FQDN</li>
-          <li>
-            können auch als Alias verstanden werden, z.B. wenn die Seite
-            test.google.de auf www.google.de zeigt, wird dies über einen
-            CNAME-Record realisiert
-          </li>
-        </ul>
-      </ul>
-      <li><a class="text-weight-bolder">DNS Anfrage - Beispiel</a></li>
-      <q-img
-        :src="src + '/Netzwerke/DNS/DNS.png'"
-        class="bg-grey-5 q-mt-md"
-        @click="
-          show_img = true;
-          popupsrc = '/Netzwerke/DNS/DNS.png';
-        "
-        style="max-width: 600px"
-      >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
+        <q-img
+          :src="src + '/Netzwerke/DNS/DNS.png'"
+          class="bg-grey-5 q-mt-md"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/DNS/DNS.png';
+          "
+          style="max-width: 600px"
         >
-          Click for full size
-        </div>
-      </q-img>
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
+      </ul>
     </ul>
 
     <q-separator class="q-mt-md" />

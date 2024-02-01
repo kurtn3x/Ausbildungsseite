@@ -588,7 +588,7 @@
         dense
         flat
         to="/datenschutz-datensicherheit/raid"
-        label="RAID"
+        label="RAID & Datensicherung"
         class="full-width q-mt-xs"
         rounded
         align="left"
@@ -746,7 +746,7 @@
         dense
         flat
         to="/programmierung/programmierparadigmen"
-        label="Paradigmen & Begriffe"
+        label="Begriffe zur Programmierung"
         class="full-width q-mt-xs"
         rounded
         align="left"
@@ -804,7 +804,7 @@
         dense
         flat
         to="/datenbanken/arten"
-        label="Arten von Datenbanken"
+        label="Arten & Begriffe"
         class="full-width q-mt-xs"
         rounded
         align="left"

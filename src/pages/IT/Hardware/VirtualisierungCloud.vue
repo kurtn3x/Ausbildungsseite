@@ -23,7 +23,7 @@
         beschreibt das zur Verfügung stellen von Computerressourcen (z.B.
         Server, Datenspeicher, Applikationen) übers Internet als Dienstleistung
       </li>
-      <li class="text-green">Vorteile:</li>
+      <li class="text-green">Vorteile (für Nutzer):</li>
       <ul>
         <li>
           Kostenvorteile, da z.B. Bezahlung nach Dauer der Nutzung und Dienst
@@ -36,7 +36,7 @@
         </li>
         <li>flexibler: einfachere Skalierung der benötigten Ressourcen</li>
       </ul>
-      <li class="text-red">Nachteile:</li>
+      <li class="text-red">Nachteile (für Nutzer):</li>
       <ul>
         <li>
           Sicherheitsrisiken (Absicherung des Zugriffs bei Transfer von Client
