@@ -25,92 +25,80 @@
         gleichen Daten aus dem Speicher zu bedienen
       </li>
       <li>leitet stellvertretend Anfragen an ein Netzwerk weiter</li>
-      <li>man unterscheidet zwischen einem Standard- und Reverse-Proxy</li>
+      <li class="text-weight-bolder">Standard-Proxy</li>
       <ul>
-        <li class="text-weight-bold">Standard-Proxy</li>
-        <ul>
-          <li>Client schickt Anfrage an Proxy-Server</li>
-          <li>Proxy-Server übermittelt die Anfrage zum Zielserver</li>
-          <li>Zielserver schickt Antwort an Proxy-Server</li>
-          <li>
-            Proxy-Server speichert Antwortdaten und übermittelt Antwort an
-            Client
-          </li>
-          <li>
-            Bei erneuter Anfrage zum selben Endpunkt verwendet der Proxy-Server
-            die vorher gespeicherte Antwort
-          </li>
-          <q-img
-            class="fit bg-grey-5"
-            :src="src + '/Netzwerke/proxy.png'"
-            style="max-width: 600px"
-            @click="
-              show_img = true;
-              popupsrc = '/Netzwerke/proxy.png';
-            "
+        <li>Client schickt Anfrage an Proxy-Server</li>
+        <li>Proxy-Server übermittelt die Anfrage zum Zielserver</li>
+        <li>Zielserver schickt Antwort an Proxy-Server</li>
+        <li>
+          Proxy-Server speichert Antwortdaten und übermittelt Antwort an Client
+        </li>
+        <li>
+          Bei erneuter Anfrage zum selben Endpunkt verwendet der Proxy-Server
+          die vorher gespeicherte Antwort
+        </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Netzwerke/proxy.png'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/proxy.png';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
           >
-            <div
-              class="absolute-bottom-right text-subtitle2"
-              style="
-                height: 40px;
-                font-size: 10px;
-                background-color: transparent;
-              "
-            >
-              Click for full size
-            </div>
-          </q-img>
-        </ul>
-        <li class="text-weight-bold q-mt-sm">Reverse-Proxy</li>
-        <ul>
-          <li>Sinnvoll für Serverdienste, z.B. Webserver</li>
-          <li>Reverse-Proxy-Server wird vor den Webserver geschalten</li>
-          <li>
-            Webserver muss nicht offen im Internet stehen, sondern Reverse-Proxy
-            nimmt Anfrage für den Webserver entgegen
-          </li>
-          <li>
-            Client sendet Anfrage für eine Website an einen (vermeintlichen)
-            Webserver, in Wirklichkeit nimmt der Reverse-Proxy-Server diese
-            Anfrage entgegen
-          </li>
-          <li>
-            Reverse-Proxy leitet die Anfrage an den richtigen, vom Internet
-            versteckten Webserver weiter
-          </li>
-          <li>
-            Webserver antwortet mit einer Website und sendet sie an den
-            Reverse-Proxy-Server
-          </li>
-          <li>
-            Reverse-Proxy speichert die Website zwischen und sendet sie an den
-            Client
-          </li>
-          <li>
-            Anfragen von Clients auf die selbe Website können direkt vom
-            Proxy-Speicher aus bedient werden → weniger Last für den Webserver
-          </li>
-          <q-img
-            class="fit bg-grey-5"
-            :src="src + '/Netzwerke/reverse_proxy.png'"
-            style="max-width: 600px"
-            @click="
-              show_img = true;
-              popupsrc = '/Netzwerke/reverse_proxy.png';
-            "
+            Click for full size
+          </div>
+        </q-img>
+      </ul>
+      <li class="text-weight-bolder q-mt-md">Reverse-Proxy</li>
+      <ul>
+        <li>Sinnvoll für Serverdienste, z.B. Webserver</li>
+        <li>Reverse-Proxy-Server wird vor den Webserver geschalten</li>
+        <li>
+          Webserver muss nicht offen im Internet stehen, sondern Reverse-Proxy
+          nimmt Anfrage für den Webserver entgegen
+        </li>
+        <li>
+          Client sendet Anfrage für eine Website an einen (vermeintlichen)
+          Webserver, in Wirklichkeit nimmt der Reverse-Proxy-Server diese
+          Anfrage entgegen
+        </li>
+        <li>
+          Reverse-Proxy leitet die Anfrage an den richtigen, vom Internet
+          versteckten Webserver weiter
+        </li>
+        <li>
+          Webserver antwortet mit einer Website und sendet sie an den
+          Reverse-Proxy-Server
+        </li>
+        <li>
+          Reverse-Proxy speichert die Website zwischen und sendet sie an den
+          Client
+        </li>
+        <li>
+          Anfragen von Clients auf die selbe Website können direkt vom
+          Proxy-Speicher aus bedient werden → weniger Last für den Webserver
+        </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Netzwerke/reverse_proxy.png'"
+          style="max-width: 600px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/reverse_proxy.png';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
           >
-            <div
-              class="absolute-bottom-right text-subtitle2"
-              style="
-                height: 40px;
-                font-size: 10px;
-                background-color: transparent;
-              "
-            >
-              Click for full size
-            </div>
-          </q-img>
-        </ul>
+            Click for full size
+          </div>
+        </q-img>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />

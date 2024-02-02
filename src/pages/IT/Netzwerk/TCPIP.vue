@@ -18,47 +18,54 @@
         zusammengefasst
       </li>
       <li class="text-weight-bold">
-        Stellt eher dar, wo die Frames eines Pakets aufgebaut werden
+        Stellt eher dar, wo die Frames eines typischen Ethernet-Pakets aufgebaut
+        werden
       </li>
     </ul>
     <div class="row justify-center">
       <table class="tg">
         <thead>
           <tr>
-            <th><a class="text-weight-bold"> Schicht</a></th>
-            <th><a class="text-weight-bold"> Name</a></th>
+            <th>
+              <a class="text-weight-bold" style="min-width: 35px"> Nr.</a>
+            </th>
+            <th>
+              <a class="text-weight-bold" style="min-width: 120px"> Name</a>
+            </th>
             <th><a class="text-weight-bold"> Verwendete Protokolle</a></th>
             <th><a class="text-weight-bold"> Frame</a></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>4</td>
+            <td style="min-width: 35px">4</td>
             <td class="tg-0pky">
-              <a class="text-weight-bold">Anwendung<br />Application <br /></a>
+              <a class="text-weight-bold" style="min-width: 120px"
+                >Anwendung<br />Application <br
+              /></a>
             </td>
             <td class="tg-0pky">FTP, HTTP, SMTP, Telnet, TLS, SOCKS</td>
             <td>Programmspezifisch z.B. HTTP-Header</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td class="tg-0pky">
+            <td style="min-width: 35px">3</td>
+            <td class="tg-0pky" style="min-width: 120px">
               <a class="text-weight-bold">Transport</a>
             </td>
             <td class="tg-0pky">TCP, UDP</td>
             <td>TCP-/UDP-Frame</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td class="tg-0pky">
+            <td style="min-width: 35px">2</td>
+            <td class="tg-0pky" style="min-width: 120px">
               <a class="text-weight-bold">Vermittlung <br />Internet</a>
             </td>
             <td class="tg-0pky">IPv4, IPv6, ICMP</td>
             <td>IPv4-/IPv6-Frame</td>
           </tr>
           <tr>
-            <td>1</td>
-            <td class="tg-0pky">
+            <td style="min-width: 35px">1</td>
+            <td class="tg-0pky" style="min-width: 120px">
               <a class="text-weight-bold">Netzzugang <br />Network</a>
             </td>
             <td class="tg-0pky">ARP, Ethernet<br /></td>

@@ -135,6 +135,21 @@
           Clientkomponente
         </li>
       </ul>
+
+      <li class="text-weight-bolder">SNMP</li>
+      <ul>
+        <li>Simple Network Management Protocol</li>
+        <li>
+          Überwachen, Verwalten und Steuern von Netzwerkelementen wie Switches,
+          Router oder Server
+        </li>
+        <li>
+          Client kann SNMP-Daten vom Zielsystem abholen oder das Zielsystem
+          sendet bei Bedarf die Daten automatisch an einen Client (SNMP-Trap
+          genannt)
+        </li>
+        <li>Standard in Managementprogrammen und sehr breite Unterstützung</li>
+      </ul>
     </ul>
   </q-page>
 </template>

@@ -107,7 +107,8 @@
           <li>Autoritativer Nameserver für Root-Zone</li>
           <li>Antworten auf Anfrage zur Root-Zone ('.')</li>
           <li>
-            Kennt die zuständigen Nameserver für die Top-Level-Domains (TLD)
+            Kennt die zuständigen Nameserver für die Top-Level-Domains (TLD) wie
+            .de oder .com
           </li>
           <li>
             Inspiziert TLD der Anfrage und verweist auf zugehörigen
@@ -116,7 +117,7 @@
           <li>
             Es gibt 13 Root-Nameserver (Lastverteilung über Anycast, jeder
             Root-Nameserver besteht aus vielen verteilten Servern, von denen nur
-            der nächste erreicht wird)
+            der Nächste erreicht wird)
           </li>
         </ul>
         <li class="text-weight-bold">Top-Level-Domain(TLD)-Nameserver</li>
@@ -160,8 +161,8 @@
       <ul>
         <li>DNS-Anfrage wird an rekursiven DNS-Server/Resolver gesendet</li>
         <li>
-          Rekursiver DNS-Server/Resolver antwortet sofort, wenn die angefragten
-          Daten im Cache gespeichert sind
+          (Rekursiver DNS-Server/Resolver antwortet sofort, wenn die angefragten
+          Daten im Cache gespeichert sind)
         </li>
         <li>
           Anfrage wird an einen Root-Nameserver weitergeleitet, welcher die

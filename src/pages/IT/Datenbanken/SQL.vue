@@ -174,7 +174,7 @@
               SELECT * FROM LAGER WHERE Name <a class="text-red">LIKE </a> 'M<a
                 class="text-green"
                 >_</a
-              >ller;'
+              >ller';
             </div>
           </li>
           <li>
@@ -185,7 +185,7 @@
               SELECT * FROM LAGER WHERE Name <a class="text-red">LIKE </a> 'M<a
                 class="text-green"
                 >%</a
-              >ller;'
+              >ller';
             </div>
           </li>
           <li>gibt alle mit Namen Müller, Miller, Möller, Malller, ... aus</li>

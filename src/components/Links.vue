@@ -257,6 +257,16 @@
           $route.path == '/hardware/virtualisierung-cloud' ? 'active' : ''
         "
       />
+      <q-btn
+        dense
+        flat
+        to="/hardware/uefi-bios"
+        label="Bootvorgänge (UEFI, BIOS)"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/hardware/uefi-bios' ? 'active' : ''"
+      />
     </div>
   </q-expansion-item>
   <q-expansion-item
@@ -859,6 +869,16 @@
         rounded
         align="left"
         :class="$route.path == '/anderes/it-normung' ? 'active' : ''"
+      />
+      <q-btn
+        dense
+        flat
+        to="/anderes/imacrd"
+        label="IT-Lifecycle-Management"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/anderes/imacrd' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>

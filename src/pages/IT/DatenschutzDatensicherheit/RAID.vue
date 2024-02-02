@@ -289,7 +289,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div class="text-weight-bold text-h6 q-ml-md text-third q-mt-md">
-      Weitere Techniken zur Datensicherung
+      Weitere Begriffe
     </div>
     <ul>
       <li class="text-weight-bolder">JBOD- Just a bunch of disks</li>
@@ -329,6 +329,16 @@
         <li>
           Im normalen Betrieb abgeschaltet und erst bei Bedarf angeschalten
         </li>
+      </ul>
+
+      <li class="text-weight-bolder q-mt-md">S.M.A.R.T.</li>
+      <ul>
+        <li>Self-Monitoring, Analysis and Reporting Technology</li>
+        <li>
+          Standard zur Überwachung von Festplattenlaufwerken(HDDs) und
+          Solid-State-Drives(SSDs)
+        </li>
+        <li>Vorhersage eines möglichen Ausfalls des Speichermediums</li>
       </ul>
     </ul>
 

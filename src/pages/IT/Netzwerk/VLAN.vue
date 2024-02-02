@@ -19,7 +19,11 @@
     </div>
     <ul>
       <li>VLAN ist ein logisches Teilnetzwerk eines physischen Netzes</li>
-      <li>Kann sich über mehrere Switches hinweg ausdehnen</li>
+      <li>
+        Switches sorgen für die Bildung von VLANs, indem sie VLAN-Pakete eines
+        VLANs nicht in ein anderes weiterleiten
+      </li>
+      <li>VLANs können sich über mehrere Switches hinweg ausdehnen</li>
       <li>jedes VLAN bildet eine eigene Broadcast-Domain</li>
       <li class="text-weight-bold text-green">Gründe für VLANs:</li>
       <ul>
@@ -39,14 +43,18 @@
         <li>Priorisieren von Datenströmen</li>
         <li>Abbildung von Abteilungsstrukturen</li>
       </ul>
+      <li>
+        Die VLAN-ID gibt an, zu welchem VLAN ein Port/Datenpaket gehört (4096
+        mögliche VLAN-IDs, definiert durch 12 reservierte Bit für die VLAN-ID im
+        Ethernet-Header)
+      </li>
       <li class="text-weight-bolder">
-        man unterscheidet zwischen statischen und dynamischen VLANs
+        Die VLAN-ID kann statisch oder dynamisch einem Port zugeordnet werden
       </li>
       <ul>
         <li class="text-weight-bold">statisch</li>
         <ul>
-          <li>Ports fest zu VLAN zugeordnet</li>
-          <li>z.B. portbasiertes VLAN</li>
+          <li>Ports werden fest konfiguriert und zu VLAN zugeordnet</li>
         </ul>
         <li class="text-weight-bold">dynamisch</li>
         <ul>
@@ -55,7 +63,7 @@
             zugeordnet
           </li>
           <li>
-            z.B. anhand der IP- oder MAC-Adresse eines Clients → Selbe
+            z.B. anhand der IP-, MAC-Adresse oder Ports eines Clients → Selbe
             IP-Adresse wird stets automatisch dem selben VLAN zugeordnet
           </li>
           <li>
@@ -64,6 +72,7 @@
           </li>
         </ul>
       </ul>
+
       <li class="text-weight-bolder text-third">
         man unterscheidet zwischen portbasierten und tagged VLANs
       </li>
@@ -153,15 +162,11 @@
       Tagged VLANs
     </div>
     <ul>
-      <li>mehrere VLANs über einen einzelnen Port</li>
-      <li>VLAN-ID wird im Ethernet-Frame mitgelifert (VLAN-Tags)</li>
-      <li>
-        aufgrund der Größe der VLAN-ID im Frame sind bis zu 4096 mögliche VLANs
-        vorgesehen
-      </li>
+      <li>mehrere VLANs über einen einzelnen Port übertragen</li>
+      <li>VLAN-ID wird im Ethernet-Frame mitgeliefert (VLAN-Tags)</li>
       <li>
         Es muss darauf geachtet werden, dass Geräte im Netz VLAN-Tags handhaben
-        können.
+        können
       </li>
       <li>ein getaggter Port wird auch als "trunked port" bezeichnet</li>
       <li>
@@ -174,6 +179,12 @@
           für jedes VLAN eine Verbindung zwischen den Switches
         </li>
         <li>Der Austausch beider VLANs geschieht über den getaggten Port 6</li>
+        <li>
+          Alle Clients in den jeweiligen VLANs können sich gegenseitig
+          erreichen. Der Datenverkehr zu den Clients auf dem jeweils anderen
+          Switch erfolgt über Port 6
+        </li>
+        <li>weniger Administrationsaufwand, mehr nutzbare Ports</li>
         <q-img
           class="fit bg-grey-5 q-mt-sm"
           :src="src + '/Netzwerke/VLANTag.png'"

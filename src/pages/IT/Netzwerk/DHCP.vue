@@ -77,7 +77,7 @@
         <li class="text-weight-bold">Beispielmaßnahme: DHCP-Snooping</li>
         <ul>
           <li>
-            Protokoll, welches auf Switches läuft die den Client mit den
+            Protokoll, welches auf Switches läuft, die den Client mit den
             DHCP-Servern verbinden
           </li>
           <li>
@@ -96,14 +96,14 @@
 
       <li><a class="text-weight-bold">DHCP besitzt 3 Modi:</a></li>
       <ul>
-        <li>Statisches DHCP: feste Zuordnung von MAC-Adresse und IP</li>
+        <li>Statisches DHCP: feste Zuordnung von MAC-Adresse zur IP</li>
         <li>
           Automatisches DHCP: Adressen in einer Range werden automatisch &
           permanent vergeben
         </li>
         <li>
           Dynamisches DHCP: Adressen in einer Range werden automatisch und mit
-          einer Verleihzeit (Lease-Time) vergeben.
+          einer Verleihzeit (Lease-Time) vergeben
         </li>
       </ul>
       <li><a class="text-weight-bolder">DHCP Anfrage - Ablauf</a></li>

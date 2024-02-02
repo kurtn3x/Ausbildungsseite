@@ -69,7 +69,7 @@
           </q-img>
         </ul>
       </ul>
-      <li class="text-weight-bold">Filtertechniken:</li>
+      <li class="text-weight-bold q-mt-md">Filtertechniken:</li>
       <ul>
         <li>
           <a class="text-weight-bold">Paketfilter </a> filtern Datenpakete
@@ -117,7 +117,7 @@
       <ul>
         <li>Pufferzone zwischen externen und internen Netzwerk</li>
         <li>
-          z.B. Ort für Webserver oder Mailserver, Dienste die sowohl vom
+          z.B. Ort für Webserver oder Mailserver: Dienste die sowohl vom
           externen sowie internen Netz erreichbar sein müssen
         </li>
         <li>

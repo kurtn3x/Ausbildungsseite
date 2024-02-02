@@ -211,6 +211,10 @@ const routes: RouteRecordRaw[] = [
         path: 'netzwerk',
         component: () => import('pages/IT/Hardware/Netzwerk.vue'),
       },
+      {
+        path: 'uefi-bios',
+        component: () => import('pages/IT/Hardware/UEFIBIOS.vue'),
+      },
     ],
   },
   {
@@ -334,6 +338,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'normungen-standards',
         component: () => import('pages/Anderes/NormungenStandards.vue'),
+      },
+      {
+        path: 'imacrd',
+        component: () => import('pages/Anderes/IMACRD.vue'),
       },
     ],
   },
