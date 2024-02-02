@@ -28,13 +28,18 @@
       <ul>
         <li>
           <a class="text-weight-bold">Routing-Tabellen</a> geben auf jedem
-          netzwerkfähigen Gerät an, wohin ein bestimmtes Paket gesendet werden
-          soll
+          netzwerkfähigen Gerät an, wohin ein bestimmtes Paket als nächstes
+          (Next-Hop-Adresse) gesendet werden soll
         </li>
         <li>
-          Die Next-Hop-Adresse für ein Paket wird bestimmt, indem die
-          Ziel-IP-Adresse in der Routing-Tabelle gesucht wird und die passende
-          oder beste Route(bzw. Next-Hop-Adresse) gewählt wird
+          Die Next-Hop-Adresse(bzw. Route) für ein Paket wird bestimmt, indem
+          die Ziel-IP-Adresse in der Routing-Tabelle gesucht wird und die
+          passende oder beste Next-Hop-Adresse(bzw. Route) gewählt wird
+        </li>
+        <li>
+          Die Next-Hop-Adresse der Default-Route (0.0.0.0) wird immer als
+          letzter Ausweg gewählt, falls keine passenden Routen in der
+          Routing-Tabelle vorzufinden sind
         </li>
         <li class="text-weight-bold">
           Routing-Tabellen können statisch(statisches Routing) und dynamisch
@@ -63,9 +68,7 @@
             <li>Router passen ihre Routingtabelle dynamisch an</li>
             <li>
               z.B.: werden die Protokolle OSPF oder RIP für die Erzeugung
-              dynamischer Routing verwendet (<a class="text-third"
-                >siehe auch Routing-Protokolle</a
-              >)
+              dynamischer Routen verwendet
             </li>
             <li>
               findet Verwendung, wenn sich die Routen im Netzwerk häufig ändern
@@ -75,11 +78,13 @@
         <li>
           In Routing-Tabellen können auch mehrere Wege zum Ziel führen. Dann
           werden <a class="text-weight-bolder">Metriken </a> verwendet, um die
-          beste Route zu bestimmen.
+          beste Route zu bestimmen
         </li>
         <li class="text-weight-bolder">Routing-Metrik</li>
         <ul>
-          <li>numerisches Maß der Güte einer Route</li>
+          <li>
+            numerisches Maß der Güte einer Route: je niedriger, desto besser
+          </li>
           <li>
             Faktoren zur Bestimmung sind z.B. Verzögerung, Last, Hop-Count oder
             Verlässlichkeit
@@ -89,14 +94,13 @@
             bestimmt
           </li>
           <li>
-            Direkt angeschlossene Netze und Statische Routen haben die höchste
-            Priorität, unabhängig der Metrik
+            Direkt angeschlossene Netze und statische Routen haben meistens die
+            höchste Priorität
           </li>
           <li>
-            Dynamische Routen haben eine niedrigere Priorität und haben oft
-            zugewiesene Metriken.
+            Dynamische Routen besitzen eine niedrigere Priorität und haben oft
+            zugewiesene Metriken
           </li>
-          <li>Die Default-Route wird immer als letzter Ausweg gewählt.</li>
         </ul>
       </ul>
     </ul>
@@ -122,12 +126,28 @@
           zwischen autonomen Systemen werden Exterior-Gateway-Protokolle
           verwendet, um Routen zu bestimmen
         </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Netzwerke/autonomessystem.jpg'"
+          style="max-width: 350px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/autonomessystem.jpg';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
-      <li class="text-weight-bolder">Administrative Distanz</li>
+      <li class="text-weight-bolder q-mt-md">Administrative Distanz</li>
       <ul>
         <li>
           nummerisches Maß des Vertrauens bzw. der Güte eines Routing-Protokolls
-          in einem Router
+          in einem Router: je niedriger, desto besser
         </li>
         <li>
           Wenn ein Router über verschiedene Routing-Protokolle seine
@@ -143,8 +163,24 @@
           Administrative Distanz, gefolgt von statischen Routen. Danach folgen
           die tatsächlichen Routing-Protokolle.
         </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/Netzwerke/addistance.webp'"
+          style="max-width: 350px"
+          @click="
+            show_img = true;
+            popupsrc = '/Netzwerke/addistance.webp';
+          "
+        >
+          <div
+            class="absolute-bottom-right text-subtitle2"
+            style="height: 40px; font-size: 10px; background-color: transparent"
+          >
+            Click for full size
+          </div>
+        </q-img>
       </ul>
-      <li class="text-weight-bolder">
+      <li class="text-weight-bolder q-mt-md">
         Link-State- und Distanzverktor-Protokolle
       </li>
       <ul>
@@ -235,6 +271,13 @@
           <li>
             findet zwischen Routern in meist großen, verzweigten Netzwerken
             statt
+          </li>
+          <li>
+            i(nternal)BGP: BGP zwischen Routern innerhalb eines autonomen
+            Systems
+          </li>
+          <li>
+            e(xternal)BGP: BGP zwischen Routern verschiedener autonomer Systeme
           </li>
         </ul>
 
@@ -370,7 +413,23 @@
           genannten Routing-Protokollen (Verwendung besonders von Routern)
         </li>
       </ul>
-      <li class="text-weight-bolder">Hot-Potatoe</li>
+      <q-img
+        class="fit bg-grey-5"
+        :src="src + '/Netzwerke/routingverfahren.gif'"
+        style="max-width: 400px"
+        @click="
+          show_img = true;
+          popupsrc = '/Netzwerke/routingverfahren.gif';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
+      <li class="text-weight-bolder q-mt-md">Hot-Potatoe</li>
       <ul>
         <li>Pakete werden so schnell wie möglich weitergeleitet</li>
         <li>Routen können dadurch unoptimal sein</li>
