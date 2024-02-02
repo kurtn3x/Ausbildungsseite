@@ -497,6 +497,20 @@
         um die Weiterleitung ins Internet bzw. in das lokale Netz.
       </li>
     </ul>
+    <q-separator class="q-mt-md" />
+
+    <div
+      class="text-subtitle2 text-grey font-size-small"
+      style="line-break: anywhere"
+    >
+      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://i.adroitacademy.com/blog/34101035.jpg <br />
+      https://www.flackbox.com/wp-content/uploads/2020/03/word-image-4.webp
+      <br />
+      https://lh3.googleusercontent.com/proxy/GwmoHJQ9OoWLoF4KWtwZSJIFFcHka7VxNluoQIn0DU6m4WGNSvVm_T_96nVH4lpe4qT8ujRr_eyC3GenmXoXO5cJdLGQoDu_l7JDywvncowgVJEa0QU
+      <br />
+      Ich bin nicht der Eigentümer der oben genannten Bilder.
+    </div>
   </q-page>
 </template>
 
