@@ -1,16 +1,21 @@
 <template>
   <q-page padding>
-    <div class="row justify-center q-mt-lg">
-      <q-card bordered flat style="width: 600px">
-        <Links />
-      </q-card>
+    <q-dialog v-model="show_img">
+      <q-img
+        :src="src + popupsrc"
+        fit="contain"
+        style="max-width: 90%; max-height: 90%; overflow-y: hidden"
+        class="bg-grey-5"
+      />
+    </q-dialog>
+    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+      Dateirechte
     </div>
-    <div style="min-height: 30px">
-      <div class="absolute-bottom-right q-mb-md q-mr-md">
-        <router-link to="/privacy-policy" class="q-ml-md text-light-blue"
-          >Privacy Policy</router-link
-        >
-      </div>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+    >
+      Erstes Seitenthema
     </div>
   </q-page>
 </template>
@@ -18,11 +23,9 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
-import Links from 'components/Links.vue';
 
 export default defineComponent({
   name: 'IndexPage',
-  components: { Links },
   setup() {
     const q = useQuasar();
     return {

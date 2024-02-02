@@ -56,7 +56,7 @@
         flat
         to="/projektmanagement/pdca"
         label="Der PDCA-Zyklus"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="$route.path == '/projektmanagement/pdca' ? 'active' : ''"
@@ -130,7 +130,7 @@
         flat
         to="/unternehmen/ziele"
         label="Ziele"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="$route.path == '/unternehmen/ziele' ? 'active' : ''"
@@ -170,7 +170,7 @@
         flat
         to="/wirtschaft/vertrage"
         label="Verträge & Vertragsarten"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="$route.path == '/wirtschaft/vertrage' ? 'active' : ''"
@@ -250,22 +250,62 @@
         flat
         to="/hardware/virtualisierung-cloud"
         label="Virtualisierung & Cloud"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="
           $route.path == '/hardware/virtualisierung-cloud' ? 'active' : ''
         "
       />
+    </div>
+  </q-expansion-item>
+  <q-expansion-item
+    dense-toggle
+    label="Alles übers Betriebssystem"
+    header-class="bg-primary text-white text-body1"
+    expand-icon-class="text-white"
+    :content-inset-level="0.2"
+  >
+    <div class="q-ma-xs">
       <q-btn
         dense
         flat
-        to="/hardware/uefi-bios"
+        to="/betriebssystem/uefi-bios"
         label="Bootvorgänge (UEFI, BIOS)"
         class="full-width q-mt-xs"
         rounded
         align="left"
-        :class="$route.path == '/hardware/uefi-bios' ? 'active' : ''"
+        :class="$route.path == '/betriebssystem/uefi-bios' ? 'active' : ''"
+      />
+      <q-btn
+        dense
+        flat
+        to="/betriebssystem/architekturen"
+        label="Architekturen"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/betriebssystem/architekturen' ? 'active' : ''"
+      />
+      <q-btn
+        dense
+        flat
+        to="/betriebssystem/dateisysteme"
+        label="Dateisysteme"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/betriebssystem/dateisysteme' ? 'active' : ''"
+      />
+      <q-btn
+        dense
+        flat
+        to="/betriebssystem/dateirechte"
+        label="Dateirechte"
+        class="full-width q-mt-xs q-mb-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/betriebssystem/dateirechte' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>
@@ -325,7 +365,7 @@
             flat
             to="/netzwerk/tcpip"
             label="TCP/IP-Modell"
-            class="full-width q-mt-xs"
+            class="full-width q-mt-xs q-mb-xs"
             rounded
             align="left"
             :class="$route.path == '/netzwerk/tcpip' ? 'active' : ''"
@@ -378,7 +418,7 @@
             flat
             to="/netzwerk/weitere-netzwerkarten"
             label="Weitere Netzwerkarten"
-            class="full-width q-mt-xs"
+            class="full-width q-mt-xs q-mb-xs"
             rounded
             align="left"
             :class="
@@ -434,7 +474,7 @@
                 flat
                 to="/netzwerk/ipv4subnetting"
                 label="Subnetting"
-                class="full-width q-mt-xs"
+                class="full-width q-mt-xs q-mb-xs"
                 rounded
                 align="left"
                 :class="
@@ -469,7 +509,7 @@
                 flat
                 to="/netzwerk/ipv6subnetting"
                 label="Subnetting"
-                class="full-width q-mt-xs"
+                class="full-width q-mt-xs q-mb-xs"
                 rounded
                 align="left"
                 :class="
@@ -504,7 +544,7 @@
             flat
             to="/netzwerk/tcpudp"
             label="TCP, UDP & Ports"
-            class="full-width q-mt-xs"
+            class="full-width q-mt-xs q-mb-xs"
             rounded
             align="left"
             :class="$route.path == '/netzwerk/tcpudp' ? 'active' : ''"
@@ -567,7 +607,7 @@
             flat
             to="/netzwerk/protokolle"
             label="Weitere Protokolle"
-            class="full-width q-mt-xs"
+            class="full-width q-mt-xs q-mb-xs"
             rounded
             align="left"
             :class="$route.path == '/netzwerk/protokolle' ? 'active' : ''"
@@ -579,7 +619,7 @@
         flat
         to="/netzwerk/header"
         label="Auswerten von Headern"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="$route.path == '/netzwerk/header' ? 'active' : ''"
@@ -690,7 +730,7 @@
             flat
             to="/datenschutz-datensicherheit/sicherheitsprozess"
             label="IT-Sicherheitsprozess"
-            class="full-width q-mt-xs"
+            class="full-width q-mt-xs q-mb-xs"
             rounded
             align="left"
             :class="
@@ -737,7 +777,7 @@
         flat
         to="/rechnungen/anderes"
         label="Andere Berechnungen"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="$route.path == '/rechnungen/anderes' ? 'active' : ''"
@@ -791,7 +831,7 @@
         flat
         to="/programmierung/tests-vorgehensmodelle"
         label="Tests & Vorgehensmodelle"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="
@@ -845,7 +885,7 @@
         flat
         to="/datenbanken/sql"
         label="SQL-Befehle"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="$route.path == '/datenbanken/sql' ? 'active' : ''"
@@ -875,7 +915,7 @@
         flat
         to="/anderes/imacrd"
         label="IT-Lifecycle-Management"
-        class="full-width q-mt-xs"
+        class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
         :class="$route.path == '/anderes/imacrd' ? 'active' : ''"

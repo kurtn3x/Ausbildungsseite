@@ -211,9 +211,27 @@ const routes: RouteRecordRaw[] = [
         path: 'netzwerk',
         component: () => import('pages/IT/Hardware/Netzwerk.vue'),
       },
+    ],
+  },
+  {
+    path: '/betriebssystem',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
       {
         path: 'uefi-bios',
-        component: () => import('pages/IT/Hardware/UEFIBIOS.vue'),
+        component: () => import('pages/IT/Betriebssystem/UEFIBIOS.vue'),
+      },
+      {
+        path: 'architekturen',
+        component: () => import('pages/IT/Betriebssystem/Architekturen.vue'),
+      },
+      {
+        path: 'dateisysteme',
+        component: () => import('pages/IT/Betriebssystem/Dateisysteme.vue'),
+      },
+      {
+        path: 'dateirechte',
+        component: () => import('pages/IT/Betriebssystem/Dateirechte.vue'),
       },
     ],
   },
