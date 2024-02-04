@@ -36,7 +36,8 @@
       <li>eingebettete Firmware auf dem Chip des Motherboards</li>
       <li>
         ermöglicht das Starten weiterer Software (wie z.B. das Betriebssystem)
-        durch Bootstrapping
+        durch Bootstrapping (laden kleinerer Software, um später Größere zu
+        laden)
       </li>
       <li class="text-weight-bold">Bootvorgang mit BIOS:</li>
       <ul>

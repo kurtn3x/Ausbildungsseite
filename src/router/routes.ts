@@ -226,12 +226,9 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Betriebssystem/Architekturen.vue'),
       },
       {
-        path: 'dateisysteme',
-        component: () => import('pages/IT/Betriebssystem/Dateisysteme.vue'),
-      },
-      {
-        path: 'dateirechte',
-        component: () => import('pages/IT/Betriebssystem/Dateirechte.vue'),
+        path: 'dateisysteme-dateirechte',
+        component: () =>
+          import('pages/IT/Betriebssystem/DateisystemeDateirechte.vue'),
       },
     ],
   },

@@ -290,22 +290,16 @@
       <q-btn
         dense
         flat
-        to="/betriebssystem/dateisysteme"
-        label="Dateisysteme"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/betriebssystem/dateisysteme' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/betriebssystem/dateirechte"
-        label="Dateirechte"
+        to="/betriebssystem/dateisysteme-dateirechte"
+        label="Dateisysteme & Dateirechte"
         class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
-        :class="$route.path == '/betriebssystem/dateirechte' ? 'active' : ''"
+        :class="
+          $route.path == '/betriebssystem/dateisysteme-dateirechte'
+            ? 'active'
+            : ''
+        "
       />
     </div>
   </q-expansion-item>
