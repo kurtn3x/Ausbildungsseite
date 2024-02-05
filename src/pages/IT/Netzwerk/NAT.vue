@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Allgemeines
     </div>
@@ -47,7 +47,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       SNAT - Source-NAT / Quellen-NAT
     </div>
@@ -120,7 +120,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       DNAT - Destination-NAT / Ziel-NAT / Port-Forwarding
     </div>

@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Allgemeines
     </div>
@@ -73,14 +73,14 @@
         </ul>
       </ul>
 
-      <li class="text-weight-bolder text-third">
+      <li class="text-weight-bolder text-secondary">
         man unterscheidet zwischen portbasierten und tagged VLANs
       </li>
     </ul>
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Portbasierte VLANs
     </div>
@@ -157,7 +157,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Tagged VLANs
     </div>

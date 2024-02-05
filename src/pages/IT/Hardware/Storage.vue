@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       DAS, NAS & SAN
     </div>
@@ -87,7 +87,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
     </div>
@@ -176,7 +176,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Arten von Backups
     </div>
@@ -242,7 +242,7 @@
 
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Sonstige Begriffe
     </div>

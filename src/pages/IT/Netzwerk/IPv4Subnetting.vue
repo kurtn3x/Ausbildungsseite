@@ -14,7 +14,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Bestimmen von Adressen innerhalb eines Subnets
     </div>
@@ -127,7 +127,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Unterteilen eines Netzes in mehrere Subnets
     </div>
@@ -227,7 +227,7 @@
         Die Broadcastadresse kann z.B. dazubestimmt werden, indem man den
         <a class="text-green">Clientteil bzw. Hostteil</a> komplett auf 1 setzt.
         (Siehe auch
-        <a class="text-third">
+        <a class="text-secondary">
           Bestimmen von Adressen innerhalb eines Subnets </a
         >)
       </li>
@@ -251,7 +251,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Bestimmen der Anzahl von Clients innerhalb eines Subnets
     </div>
@@ -307,7 +307,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Umrechnung Subnetzmaske ⇄ Suffix
     </div>
@@ -336,7 +336,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Beispiel Subnetzmasken & Anzahl verfügbarer Clients
     </div>
@@ -413,7 +413,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Beispiel für das Netz 192.168.164.0
     </div>

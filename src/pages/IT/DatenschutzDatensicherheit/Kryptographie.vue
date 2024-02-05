@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Symmetrische und asymmetrische Verschlüsselung
     </div>
@@ -24,10 +24,10 @@
         <li>z.B.: Caesar-Verschlüsselung</li>
         <ul>
           <li>
-            Jeder Buchstabe des Rohtexts wird um x Positionen im Alphabet
+            Jeder Buchstabe des Ausgangstextes wird um x Positionen im Alphabet
             verschoben
           </li>
-          <li>z.B. verschiebung um 3 Buchstaben → Hallo → Kdoor</li>
+          <li>z.B. verschiebung um 3 Buchstaben: Hallo → Kdoor</li>
           <li>Schlüssel ist die Verschiebung um 3 Buchstaben im Alphabet</li>
           <li>
             Für die Ver- und Entschlüsselung kommt hier also der selbe Schlüssel
@@ -74,18 +74,33 @@
       </ul>
       <li class="text-weight-bolder q-mt-md">asymmetrische Verschlüsselung</li>
       <ul>
-        <li>zwei Schlüssel zum ver- und entschlüsseln</li>
-        <li>ein öffentlicher Schlüssel, der für jeden zugänglich ist</li>
-        <li>ein privater Schlüssel, der geheim gehalten werden muss</li>
+        <li>Jeder Nutzer hat zwei Schlüssel</li>
+        <ul>
+          <li>
+            ein öffentlicher Schlüssel (public key), der Jeden zugänglich sein
+            muss
+          </li>
+          <li>
+            ein privater Schlüssel (private key), der geheim gehalten werden
+            muss
+          </li>
+        </ul>
         <li>
-          Die Verschlüsselung der Informationen erfolgt mit dem öffentlichen
-          Schlüssel, die Entschlüsselung kann nur mit dem privaten Schlüssel
-          passieren
+          Asymmetrische Verschlüsselungsverfahren werden auch bei der Erstellung
+          von digitalen Signaturen verwendet
+        </li>
+        <li>
+          Verschlüsselung oder Prüfung von Signaturen erfolgt mit dem
+          öffentlichen Schlüssel
+        </li>
+        <li>
+          Entschlüsselung oder Signierung von Daten erfolgt mit dem privaten
+          Schlüssel
         </li>
         <li>
           Falls zwei Nutzer miteinander asymmetrisch verschlüsselt kommunizieren
           wollen, werden also insgesamt 4 Schlüssel benötigt: Für Jeden ein
-          Public-Key und ein Private-Key. Die Nutzer nutzen zum verschlüsseln
+          Public-Key und ein Private-Key. Die Nutzer verwenden zum verschlüsseln
           der Nachricht den jeweils anderen Public-Key und zum Entschlüsseln der
           erhaltenen Nachricht ihren eigenen Private-Key. Die Public-Keys müssen
           vorher ausgetauscht werden, dies muss aber nicht sicher erfolgen.
@@ -97,7 +112,6 @@
         <ul>
           <li>RSA</li>
           <li>ECC (Elliptische-Kurven-Kryptographie)</li>
-          <li>Diffie-Hellman</li>
         </ul>
         <q-img
           class="fit bg-grey-5 q-mt-md"
@@ -124,133 +138,20 @@
         symmetrischen Schlüssel kommuniziert. Dies wird z.B. bei einer
         TLS-Verschlüsselung verwendet.
       </li>
-      <ul>
-        <ul>
-          <li>z.B. Diffie-Hellman-Schlüsselaustausch</li>
-          <li>TLS 1.3 unterstützt nur noch diese Verschlüsselungsmethode</li>
-          <li>
-            Kommunikationspartner einigen sich auf einen gemeinsamen, geheimen
-            symmetrischen Schlüssel basierend auf ihren privaten und
-            öffentlichen Schlüsseln
-          </li>
-          <li>
-            Der symmetrische Schlüssel wird dann verwendet, um mithilfe eines
-            symmetrischen Verschlüsselungsprotokolls wie AES zu kommunizieren.
-          </li>
-        </ul>
-      </ul>
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
-    >
-      Digitale Zertifikate
-    </div>
-    <ul>
-      <li>bestätigen Authentizität & Integrität bestimmter Daten</li>
-      <li>
-        verwendet werden dazu Public-Key-Zertifikate wie X.509, welche die
-        Identität und weitere Eigenschaften eines öffentlichen kryptographischen
-        Schlüssels bestätigen
-      </li>
-      <li>digitales Zertifikat ist durch eine Signatur geschützt</li>
-      <li>Ausgestellt durch eine Certification Authority (CA)</li>
-      <li class="text-weight-bold">CA - Certification Authority</li>
-      <ul>
-        <li>
-          vertrauenswürdige Organisationen, auf die sich die Anwender verlassen
-          können
-        </li>
-        <li>
-          öffentlicher Schlüssel einer CA wird benötigt, um die digitale
-          Signatur von Zertifikaten, die durch diese CA ausgestellt wurden, zu
-          überprüfen
-        </li>
-      </ul>
-      <li>
-        die öffentlichen Schlüssel einer CA müssen wiederum durch ein Anderes
-        Zertifikat überprüft werden, um auch dessen Authentizität zu sichern.
-        Dadurch entwickelt sich eine Zertifikatskette
-      </li>
-      <li>
-        Auf die Echtheit des letzten Zertifikats muss sich vollständig verlassen
-        werden.
-      </li>
-      <li>
-        vertrauenswürdige Zertifizierungsstellen in z.B. Webbrowsern oft
-        vorkonfiguriert
-      </li>
-      <li class="text-weight-bolder">
-        Das gesamte System, welches Zertifikate ausstellt, verteilt und
-        überprüft wird PKI - Public-Key-Infrastructure genannt
-      </li>
-      <li class="text-weight-bolder">
-        Typische Anwendung digitaler Zertifikate:
-      </li>
-      <ul>
-        <li class="text-weight-bold">Digitale Signaturen</li>
-        <ul>
-          <li>
-            = berechneter Wert der zu signierenden Daten mithilfe eines
-            Private-Keys
-          </li>
-          <li>
-            Jeder mit Zugriff auf den dazugehörigen Public-Key kann die digitale
-            Signatur überprüfen und damit die Urheberschaft und Integrität der
-            Daten feststellen
-          </li>
-        </ul>
-        <li>Sicherheit in Netzwerkprotokollen (HTTPS, TLS, IPsec, SSH)</li>
-        <li>Sicherheit von E-Mails (S/MIME, PGP)</li>
-      </ul>
-      <li class="text-weight-bolder">X.509</li>
-      <ul>
-        <li>oft auch SSL-Zertifikat genannt</li>
-        <li>
-          Standard für PKI (Public-Key-Infrastruktur) zum Erstellen digitaler
-          Zertifikate
-        </li>
-        <li>
-          wird immer an einen "Distinguished Name" oder "Alternative Name" wie
-          E-Mail-Adresse oder DNS-Eintrag gebunden
-        </li>
-        <li>
-          Zertifikate können seitens der Zertifizierungsstelle wieder unsicher
-          gemacht
-        </li>
-      </ul>
-      <q-img
-        class="fit bg-grey-5 q-mt-md"
-        :src="src + '/datenschutz/zertifikate.png'"
-        style="max-width: 500px"
-        @click="
-          show_img = true;
-          popupsrc = '/datenschutz/zertifikate.png';
-        "
-      >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
-      </q-img>
-    </ul>
-    <q-separator class="q-mt-md" />
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Hashfunktionen
     </div>
     <ul>
-      <li>Abbildung einer großen Eingabemenge auf kleinere Zielmengen</li>
       <li>
-        Eingabemenge kann unterschiedlicher länge sein, Zielmenge meist fest
+        <a class="text-weight-bolder">Hashing</a>(dt. zerhacken) =
+        Transformieren einer beliebig großen Eingabemenge in eine (meist feste
+        und kürzere) Zielmenge
       </li>
-      <li>
-        <a class="text-weight-bolder">Hashing</a> = umwandeln einer Zeichenfolge
-        in einen kürzeren, numerischen Wert
-      </li>
+      <li>Zielmenge wird als Hashwert bezeichnet</li>
       <li class="text-weight-bolder">Hashwerte</li>
       <ul>
         <li>
@@ -258,52 +159,103 @@
         </li>
         <li>eindeutiges Identifikationsmerkmal von Datenmengen</li>
         <li>
-          Inhalt der Daten wird so verarbeitet, dass sie einen eindeutigen und
-          einzigartigen numerischen Wert zugewiesen bekommen
+          Inhalt der Daten (Eingabemenge) wird so verarbeitet, dass sie einen
+          eindeutigen und einzigartigen Wert (Hashwert) zugewiesen bekommen
         </li>
-        <li>Die selben Daten haben immer den gleichen Hashwert</li>
+        <li>
+          Unter Verwendung der selben Hashfunktion haben die selben Daten haben
+          immer den gleichen Hashwert
+        </li>
         <li>Verwendung:</li>
         <ul>
-          <li>erkennen von Übertragungsfehlern</li>
-          <li>suchen von Daten mittels Hashtabellen in Datenbanken</li>
+          <li>Erkennen von Übertragungsfehlern</li>
           <li>Erkennen von Änderungen an übertragenen Dateien</li>
+          <li>Suchen von Daten mittels Hashtabellen in Datenbanken</li>
+          <li>
+            Verwendung in der Kryptographie (sicheres Speichern von Daten)
+          </li>
+          <li>
+            z.B. bei vielen Downloads von Betriebssystemen wird noch ein
+            Hashwert mitgegeben, damit das heruntergeladene ISO auf
+            Vollständigkeit und Veränderungen überprüft werden kann. Oft wird
+            noch eine digitale Signatur für diesen Hashwert mitgegeben, um auch
+            die Vertraulichkeit und Integrität des Hashwerts zu gewährleisten.
+          </li>
+        </ul>
+        <li>Beispiel Hashwerte (mit Hashfunktion MD5):</li>
+        <ul>
+          <li>Hallo: d1bf93299de1b68e6d382c893bf1215f</li>
+          <li>Guten Morgen: 41a71d2d71001d0f6d4963f6d395eef2</li>
+          <li>5 Seiten zufälliger Text: 12de527a22b556a7681e5499430c71c4</li>
         </ul>
       </ul>
       <li class="text-weight-bolder">Hashfunktionen in der Kryptographie</li>
       <ul>
         <li>
-          kryptographische Hashfunktionen müssen folgende Eigenschaften
-          erfüllen:
+          Hashfunktionen mit bestimmten Eigenschaften, die für
+          Verschlüsselungs-, Signatur oder Authentifizierungsverfahren genutzt
+          werden können
+        </li>
+        <li class="text-weight-bold">
+          Eigenschaften kryptographischer Hashfunktionen:
         </li>
         <ul>
           <li>
-            <a class="text-weight-bolder">Einwegfunktion: </a> leicht
-            berechenbar, aber schwer umzukehren (berechneter Hashwert sollte
-            nicht auf den Ursprungswert zurückberechnet werden können)
+            <a class="text-weight-bold">Einwegfunktion: </a> leicht berechenbar,
+            aber schwer umzukehren (berechneter Hashwert sollte nicht auf den
+            Ursprungswert zurückberechnet werden können)
           </li>
           <li>
-            <a class="text-weight-bolder">Kollisionsresistent: </a> Verschiedene
+            <a class="text-weight-bold">Kollisionsresistent: </a> Verschiedene
             Eingaben sollten nicht auf den selben Hashwert abgebildet werden
             können
           </li>
           <li>
-            <a class="text-weight-bolder">Pseudozufällig: </a> Hashwert sollte
+            <a class="text-weight-bold">Pseudozufällig: </a> Hashwert sollte
             zufällig erscheinen, in Wirklichkeit aber berechenbar sein
           </li>
-          <li>beliebige Eingabemenge, feste Ausgabelänge</li>
+          <li class="text-weight-bold">
+            beliebige Eingabemenge, feste Ausgabelänge
+          </li>
         </ul>
-        <li>Einsatz bei Integritätsprüfung von Daten</li>
-        <li>besonders bei Passworteingaben</li>
+        <li>z.B. Passworteingabe/-vergleich</li>
         <ul>
           <li>
-            Passwörter werden (sollten) immer als Hashwert gespeichert werden,
-            damit sie nicht Plain-Text in der Datenbank stehen
+            Passwörter sollten immer als Hashwert gespeichert werden, damit sie
+            nicht Plain-Text in der Datenbank stehen
           </li>
           <li>
             Die Nutzereingabe des Passworts wird gehashed und mit dem Hashwert
             in der Datenbank verglichen
           </li>
+          <li>
+            stimmen beide Hashwerte überein, hat der Nutzer das korrekte
+            Passwort eingegeben
+          </li>
         </ul>
+        <li class="text-weight-bolder">Rainbow-Tables</li>
+        <ul>
+          <li>
+            Datenstruktur für schnelle und speichereffiziente Suche nach dem
+            ursprünglichen Eingabewert (z.B. Passwort) für einen gegebenen
+            Hashwert
+          </li>
+          <li>
+            soll quasi die schwere Umkehrbarkeit von Hashwerten mittels
+            Brute-Forcing attackieren
+          </li>
+          <li>
+            Verwendung beim Passwortcracken (Rainbow-Tables mit oft verwendeten
+            Passwörtern werden verwendet)
+          </li>
+          <li>Tabellen finden sich zuhauf im Internet</li>
+
+          <li>
+            erfordet gehashte Passwörter
+            <a class="text-weight-bolder"> ohne Salt</a>
+          </li>
+        </ul>
+
         <li class="text-weight-bolder">Salt</li>
         <ul>
           <li>zufällig gewählte Zeichenfolge</li>
@@ -312,23 +264,18 @@
             die Entropie der Eingabe zu erhöhen
           </li>
           <li>Hashwert wird mit Salt gespeichert</li>
-          <li>
-            soll Rainbow-Table-Attacken verhindern (Rainbow-Table = oft
-            verwendete Passwörter, bereits in Hashwerte umgerechnet)
-          </li>
+          <li>soll Rainbow-Table-Attacken verhindern</li>
           <li>
             Mit Salt müsste für jeden Salt eine eigene Rainbow-Table erstellt
             werden
           </li>
-          <li>z.B. Passwörter</li>
+          <li>z.B. Passworteingabe/-vergleich</li>
           <ul>
             <li>
               Nutzerpasswort wird mit zufällig generiertem Salt in Hashfunktion
-              gegeben
+              gegeben = Hashwert
             </li>
-            <li>
-              Salt + Hashwert(bestehend aus Salt+Eingabe) wird abgespeichert
-            </li>
+            <li>(Plain-Text)Salt + Hashwert wird abgespeichert</li>
             <li>
               Nutzer Loggt sich ein: Salt aus Datenbank wird mit Eingabepasswort
               vom Nutzer in Hashfunktion gegeben und mit dem Hashwert in der
@@ -447,6 +394,117 @@
           </div>
         </li>
       </ul>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+    >
+      Digitale Zertifikate
+    </div>
+    <ul>
+      <li>bestätigen Authentizität & Integrität bestimmter Daten</li>
+      <li>
+        Ausschließlich verwendet werden Public-Key-Zertifikate wie X.509, welche
+        die Identität und weitere Eigenschaften eines öffentlichen
+        kryptographischen Schlüssels bestätigen
+      </li>
+      <li>
+        Public-Key-Zertifikate nutzen asymmetrische Kryptoverfahren und werden
+        durch eine digitale Signatur geschützt
+      </li>
+      <li>
+        Ein Zertifikat wird durch eine Zertifizierungsstelle (CA - Certification
+        Authority) ausgestellt und signiert. Die Überprüfung der Signatur eines
+        Zertifikats erfolgt über eine Zertifikatskette.
+      </li>
+      <li class="text-weight-bold">Zertifikatskette</li>
+      <ul>
+        <li>
+          Der öffentliche Schlüssel einer CA wird benötigt, um die digitale
+          Signatur von Zertifikaten, die durch diese CA ausgestellt wurden, zu
+          überprüfen
+        </li>
+        <li>
+          Die öffentlichen Schlüssel einer CA müssen wiederum durch ein anderes
+          Zertifikat überprüft werden, um auch dessen Authentizität zu sichern.
+          Dadurch entwickelt sich eine
+          <a class="text-weight-bold">Zertifikatskette</a>
+        </li>
+        <li>
+          Auf die Echtheit des letzten (Root-)Zertifikats muss sich vollständig
+          verlassen werden
+        </li>
+        <li>
+          Vertrauenswürdige Zertifizierungsstellen in z.B. Webbrowsern oft
+          vorkonfiguriert
+        </li>
+      </ul>
+
+      <li class="text-weight-bolder">
+        Das gesamte System, welches Zertifikate ausstellt, verteilt und
+        überprüft wird PKI - Public-Key-Infrastructure genannt
+      </li>
+      <li class="text-weight-bolder">
+        Typische Anwendung digitaler Zertifikate:
+      </li>
+      <ul>
+        <li class="text-weight-bold">Erstellen digitaler Signaturen:</li>
+        <ul>
+          <li>
+            Digitale Signatur = berechneter Wert der zu signierenden Daten
+            mithilfe eines Private-Keys
+          </li>
+          <li>
+            nichtabstreitbare Urheberschaft und Integrität kann mit dem
+            dazugehörigen Public-Key verifiziert werden
+          </li>
+          <li>
+            oft wird die digitale Signatur nicht auf eine ursprüngliche
+            Nachricht angewendet, sondern auf deren Hashwert
+          </li>
+          <li>Geeignete digitale Signaturverfahren sind z.B. RSA oder DSA</li>
+          <li>
+            Signatur <a class="text-weight-bold">IST NICHT</a> die
+            Verschlüsselung mit dem privaten RSA-Schlüssel
+          </li>
+        </ul>
+        <li>Verschlüsselung von Nachrichten</li>
+        <li>Sicherheit in Netzwerkprotokollen (HTTPS, TLS, IPsec, SSH)</li>
+        <li>Sicherheit von E-Mails (S/MIME, PGP)</li>
+        <li>Erstellen elektronischer Signaturen</li>
+      </ul>
+      <li class="text-weight-bolder">X.509</li>
+      <ul>
+        <li>oft auch SSL-Zertifikat genannt</li>
+        <li>
+          Standard für PKI (Public-Key-Infrastruktur) zum Erstellen digitaler
+          Zertifikate
+        </li>
+        <li>
+          wird immer an einen "Distinguished Name" oder "Alternative Name" wie
+          E-Mail-Adresse oder DNS-Eintrag gebunden
+        </li>
+        <li>
+          Zertifikate können seitens der Zertifizierungsstelle wieder unsicher
+          gemacht
+        </li>
+      </ul>
+      <q-img
+        class="fit bg-grey-5 q-mt-md"
+        :src="src + '/datenschutz/zertifikate.png'"
+        style="max-width: 500px"
+        @click="
+          show_img = true;
+          popupsrc = '/datenschutz/zertifikate.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
     </ul>
 
     <q-separator class="q-mt-md" />

@@ -5,7 +5,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Grundlagen
     </div>
@@ -53,7 +53,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Prozessarten im Unternehmen
     </div>

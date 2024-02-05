@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Strukturierte Verkabelung
     </div>
@@ -80,7 +80,7 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-weight-bold text-h6 q-mt-md text-underline text-third">
+    <div class="text-weight-bold text-h6 q-mt-md text-underline text-secondary">
       Übertragungsmedien
     </div>
     <ul>
@@ -177,7 +177,7 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-weight-bold text-h6 q-mt-md text-underline text-third">
+    <div class="text-weight-bold text-h6 q-mt-md text-underline text-secondary">
       Simplex und Duplex
     </div>
     <ul>

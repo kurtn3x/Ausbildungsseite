@@ -7,7 +7,7 @@
 
     <ul>
       <li>
-        <a class="text-h6 text-weight-bold text-third">Vertraulichkeit</a>
+        <a class="text-h6 text-weight-bold text-secondary">Vertraulichkeit</a>
       </li>
       <ul>
         <li>Nur berechtigte Personen dürfen Daten lesen und ändern</li>
@@ -17,21 +17,21 @@
         </li>
       </ul>
       <li>
-        <a class="text-h6 text-weight-bold text-third">Integrität</a>
+        <a class="text-h6 text-weight-bold text-secondary">Integrität</a>
       </li>
       <ul>
         <li>Daten dürfen nicht unerkannt oder unbemerkt geändert werden</li>
         <li>Nachvollziehbarkeit der Datenänderungen</li>
       </ul>
       <li>
-        <a class="text-h6 text-weight-bold text-third">Verfügbarkeit</a>
+        <a class="text-h6 text-weight-bold text-secondary">Verfügbarkeit</a>
       </li>
       <ul>
         <li>Beschreibt die Zeit, in der das System funktioniert</li>
         <li>Ist möglichst hoch zu halten</li>
       </ul>
       <li>
-        <a class="text-h6 text-weight-bold text-third">Datenschutz</a>
+        <a class="text-h6 text-weight-bold text-secondary">Datenschutz</a>
       </li>
       <ul>
         <li>
@@ -40,7 +40,7 @@
         </li>
       </ul>
       <li>
-        <a class="text-h6 text-weight-bold text-third">Datensicherheit</a>
+        <a class="text-h6 text-weight-bold text-secondary">Datensicherheit</a>
       </li>
       <ul>
         <li>Eng mit dem Datenschutz verknüpft</li>

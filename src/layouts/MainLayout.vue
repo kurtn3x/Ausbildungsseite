@@ -10,7 +10,7 @@
           @click="toggleLeftDrawer"
           style="width: 65px"
           stretch
-          class="bg-cyan"
+          class="bg-secondary"
         />
         <q-separator vertical color="white" />
 
@@ -24,7 +24,7 @@
           switch-label-side
           v-model="fontSize"
           color="white"
-          thumb-color="third"
+          thumb-color="white"
           :min="50"
           :step="10"
           :max="200"
@@ -43,20 +43,29 @@
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-separator color="white" />
-      <Links />
-      <q-separator />
-      <div style="height: 45px">
-        <q-btn
-          stretch
-          flat
-          square
-          to="/"
-          icon="home"
-          style="height: 45px"
-          class="bg-blue text-white absolute-bottom-left"
-        />
-      </div>
+      <q-scroll-area
+        class="fit"
+        :thumb-style="thumbStyle"
+        :bar-style="barStyle"
+      >
+        <div>
+          <div class="q-mr-xs">
+            <Links />
+          </div>
+          <q-separator class="q-mr-sm" />
+          <div style="height: 45px">
+            <q-btn
+              stretch
+              flat
+              square
+              to="/"
+              icon="home"
+              style="height: 45px"
+              class="bg-primary text-white absolute-bottom-left"
+            />
+          </div>
+        </div>
+      </q-scroll-area>
     </q-drawer>
 
     <q-page-container>
@@ -93,6 +102,19 @@ export default defineComponent({
       settingsStore,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value;
+      },
+      thumbStyle: {
+        right: '2px',
+        borderRadius: '5px',
+        backgroundColor: '#27b5d5',
+        width: '5px',
+        opacity: 0.9,
+      },
+
+      barStyle: {
+        backgroundColor: '#27b5d5',
+        width: '9px',
+        opacity: 0.3,
       },
     };
   },

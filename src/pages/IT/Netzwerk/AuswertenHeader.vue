@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Aufbau eines Ethernet-Datenpakets
     </div>
@@ -56,7 +56,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Aufteilen eines Ethernet-Pakets in seine Header
     </div>
@@ -136,7 +136,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Auswerten des Ethernet-Headers
     </div>
@@ -196,7 +196,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Auswerten des IPv4-Headers
     </div>
@@ -278,7 +278,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
       Auswerten des TCP-Headers
     </div>

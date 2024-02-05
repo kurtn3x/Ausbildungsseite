@@ -5,7 +5,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Gesetzliche Grundlagen
     </div>
@@ -30,7 +30,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Wichtige Rechtsformen eines Unternehmens
     </div>
@@ -70,7 +70,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Prokura
     </div>
@@ -107,7 +107,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Entscheidungskriterien für Wahl der Rechtsform
     </div>
@@ -125,7 +125,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Wirtschaftliche Verflechtungen
     </div>

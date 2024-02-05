@@ -14,7 +14,7 @@
       </div>
       <q-separator class="q-mt-md" />
       <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
       >
         Grundbegriffe
       </div>
@@ -52,7 +52,7 @@
       <q-separator class="q-mt-md" />
 
       <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
       >
         Das Bilden von Stellen und Abteilungen
       </div>
@@ -99,7 +99,7 @@
       <q-separator class="q-mt-md" />
 
       <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
       >
         Hierarchien und Führung im Unternehmen
       </div>
@@ -134,7 +134,7 @@
       <q-separator class="q-mt-md" />
 
       <div
-        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-third text-underline text-third"
+        class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline text-secondary"
       >
         Leitungssysteme
       </div>

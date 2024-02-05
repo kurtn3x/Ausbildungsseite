@@ -6,7 +6,7 @@
     <q-separator class="q-mt-md" />
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-underline text-third"
+        <a class="text-weight-bolder text-h6 text-underline text-secondary"
           >Technische Maßnahmen</a
         >
       </li>
@@ -32,7 +32,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-underline text-third"
+        <a class="text-weight-bolder text-h6 text-underline text-secondary"
           >Organisatorische Maßnahmen</a
         >
       </li>
@@ -54,13 +54,15 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       TOM gemäß Bundesdatenschutzgesetz (BDSG)
     </div>
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third">Zutrittskontrolle</a>
+        <a class="text-weight-bolder text-h6 text-secondary"
+          >Zutrittskontrolle</a
+        >
       </li>
       <ul>
         <li>
@@ -73,7 +75,9 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third">Zugangskontrolle</a>
+        <a class="text-weight-bolder text-h6 text-secondary"
+          >Zugangskontrolle</a
+        >
       </li>
       <ul>
         <li>
@@ -86,7 +90,9 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third">Zugriffskontrolle</a>
+        <a class="text-weight-bolder text-h6 text-secondary"
+          >Zugriffskontrolle</a
+        >
       </li>
       <ul>
         <li>
@@ -100,7 +106,9 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third">Weitergabekontrolle</a>
+        <a class="text-weight-bolder text-h6 text-secondary"
+          >Weitergabekontrolle</a
+        >
       </li>
       <ul>
         <li>
@@ -114,7 +122,9 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third">Eingabekontrolle</a>
+        <a class="text-weight-bolder text-h6 text-secondary"
+          >Eingabekontrolle</a
+        >
       </li>
       <ul>
         <li>
@@ -128,7 +138,9 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third">Auftragskontrolle</a>
+        <a class="text-weight-bolder text-h6 text-secondary"
+          >Auftragskontrolle</a
+        >
       </li>
       <ul>
         <li>
@@ -142,7 +154,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third"
+        <a class="text-weight-bolder text-h6 text-secondary"
           >Verfügbarkeitskontrolle</a
         >
       </li>
@@ -157,7 +169,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third">Trennungsgebot</a>
+        <a class="text-weight-bolder text-h6 text-secondary">Trennungsgebot</a>
       </li>
       <ul>
         <li>

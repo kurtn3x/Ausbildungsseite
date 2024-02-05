@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       RAID
     </div>
@@ -28,7 +28,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       RAID-Level
     </div>
@@ -288,7 +288,7 @@
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
-    <div class="text-weight-bold text-h6 q-ml-md text-third q-mt-md">
+    <div class="text-weight-bold text-h6 q-ml-md text-secondary q-mt-md">
       Weitere Begriffe
     </div>
     <ul>

@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       TCP
     </div>
@@ -86,7 +86,7 @@
 
     <q-separator class="q-mt-lg" />
     <div
-      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       UDP
     </div>
@@ -123,7 +123,7 @@
     </ul>
     <q-separator class="q-mt-lg" />
     <div
-      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h5 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Ports
     </div>

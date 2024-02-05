@@ -5,7 +5,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-underline text-weight-bolder text-third"
+      class="text-h6 q-mt-lg q-ml-md text-underline text-weight-bolder text-secondary"
     >
       Das Lastenheft
     </div>
@@ -49,7 +49,7 @@
 
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 text-underline q-mt-lg q-ml-md text-weight-bolder text-third"
+      class="text-h6 text-underline q-mt-lg q-ml-md text-weight-bolder text-secondary"
     >
       Das Pflichtenheft
     </div>

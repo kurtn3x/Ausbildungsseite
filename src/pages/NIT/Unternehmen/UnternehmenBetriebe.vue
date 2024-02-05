@@ -6,7 +6,7 @@
     <q-separator class="q-mt-md" />
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third text-underline"
+        <a class="text-weight-bolder text-h6 text-secondary text-underline"
           >Betrieb</a
         >
         ist eine unselbstständige örtliche Einheit zum Zweck des Erstellens von
@@ -29,7 +29,7 @@
 
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-third text-underline"
+        <a class="text-weight-bolder text-h6 text-secondary text-underline"
           >Unternehmen</a
         >
         ist ein selbstständig rechtliches und finanzielles Gebilde
@@ -49,7 +49,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-third"
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       Unterscheidung von Betrieb und Unternehmen
     </div>
