@@ -73,7 +73,7 @@
         </ul>
       </ul>
 
-      <li class="text-weight-bolder text-secondary">
+      <li class="text-weight-bolder text-secondary text-h7">
         man unterscheidet zwischen portbasierten und tagged VLANs
       </li>
     </ul>

@@ -48,7 +48,7 @@
                   </div>
                 </q-img>
               </td>
-              <td class="text-h6 text-weight-bold text-center">Bustopologie</td>
+              <td class="text-h7 text-weight-bold text-center">Bustopologie</td>
               <td class="tg-0lax">
                 Geringe Kosten<br /><br />einfache & kurze Verkabelung
               </td>
@@ -81,7 +81,7 @@
                   </div>
                 </q-img>
               </td>
-              <td class="text-h6 text-weight-bold text-center">
+              <td class="text-h7 text-weight-bold text-center">
                 Ringtopologie
               </td>
               <td class="tg-0lax">
@@ -117,7 +117,7 @@
                   </q-img>
                 </div>
               </td>
-              <td class="text-h6 text-weight-bold text-center">
+              <td class="text-h7 text-weight-bold text-center">
                 Sterntopologie<br />(kann zu Baum erweitert werden)<br />
               </td>
               <td class="tg-0lax">
@@ -152,7 +152,7 @@
                   </div>
                 </q-img>
               </td>
-              <td class="text-h6 text-weight-bold text-center">
+              <td class="text-h7 text-weight-bold text-center">
                 Baumtopologie
               </td>
               <td class="tg-0lax">
@@ -187,7 +187,7 @@
                   </div>
                 </q-img>
               </td>
-              <td class="text-h6 text-weight-bold text-center">
+              <td class="text-h7 text-weight-bold text-center">
                 Maschentopologie
               </td>
               <td class="tg-0lax">
@@ -223,7 +223,7 @@
                   </div>
                 </q-img>
               </td>
-              <td class="text-h6 text-weight-bold text-center">
+              <td class="text-h7 text-weight-bold text-center">
                 Zelltopologie (Drahtlos)
               </td>
               <td class="tg-0lax">

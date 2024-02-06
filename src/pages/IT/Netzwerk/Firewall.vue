@@ -26,7 +26,7 @@
         beschränkt oder erlaubt Netzwerkzugriff basierend auf Absender, Ziel
         oder dem genutzten Dienst
       </li>
-      <li>
+      <li class="text-weight-bolder">
         Man unterscheidet zwischen einer Personal Firewall und externen Firewall
       </li>
       <ul>

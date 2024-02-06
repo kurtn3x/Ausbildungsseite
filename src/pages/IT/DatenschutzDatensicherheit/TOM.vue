@@ -6,9 +6,7 @@
     <q-separator class="q-mt-md" />
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-underline text-secondary"
-          >Technische Maßnahmen</a
-        >
+        <a class="text-weight-bolder text-h7">Technische Maßnahmen</a>
       </li>
       <ul>
         <li>
@@ -32,9 +30,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-underline text-secondary"
-          >Organisatorische Maßnahmen</a
-        >
+        <a class="text-weight-bolder text-h7">Organisatorische Maßnahmen</a>
       </li>
       <ul>
         <li>
@@ -60,9 +56,7 @@
     </div>
     <ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary"
-          >Zutrittskontrolle</a
-        >
+        <a class="text-weight-bolder">Zutrittskontrolle</a>
       </li>
       <ul>
         <li>
@@ -75,9 +69,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary"
-          >Zugangskontrolle</a
-        >
+        <a class="text-weight-bolder">Zugangskontrolle</a>
       </li>
       <ul>
         <li>
@@ -90,9 +82,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary"
-          >Zugriffskontrolle</a
-        >
+        <a class="text-weight-bolder">Zugriffskontrolle</a>
       </li>
       <ul>
         <li>
@@ -106,9 +96,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary"
-          >Weitergabekontrolle</a
-        >
+        <a class="text-weight-bolder">Weitergabekontrolle</a>
       </li>
       <ul>
         <li>
@@ -122,9 +110,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary"
-          >Eingabekontrolle</a
-        >
+        <a class="text-weight-bolder">Eingabekontrolle</a>
       </li>
       <ul>
         <li>
@@ -138,9 +124,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary"
-          >Auftragskontrolle</a
-        >
+        <a class="text-weight-bolder">Auftragskontrolle</a>
       </li>
       <ul>
         <li>
@@ -154,9 +138,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary"
-          >Verfügbarkeitskontrolle</a
-        >
+        <a class="text-weight-bolder">Verfügbarkeitskontrolle</a>
       </li>
       <ul>
         <li>
@@ -169,7 +151,7 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h6 text-secondary">Trennungsgebot</a>
+        <a class="text-weight-bolder">Trennungsgebot</a>
       </li>
       <ul>
         <li>

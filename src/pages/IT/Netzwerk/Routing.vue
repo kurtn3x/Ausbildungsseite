@@ -24,7 +24,7 @@
       </li>
       <li>wird durch einen Router ermöglicht</li>
       <li>IP-Adressen für das Ziel werden aus dem IP-Header bestimmt</li>
-      <li class="text-weight-bolder">Bestimmen von Routen</li>
+      <li class="text-weight-bolder text-h7">Bestimmen von Routen</li>
       <ul>
         <li>
           <a class="text-weight-bold">Routing-Tabellen</a> geben auf jedem

@@ -109,7 +109,7 @@
           unterschiedliche Rechte vergeben werden)
         </li>
       </ul>
-      <li class="text-weight-bolder text-h6 q-mt-sm q-mb-sm">Linux / Unix</li>
+      <li class="text-weight-bolder text-h7 q-mt-sm">Linux / Unix</li>
       <ul>
         <li>
           Linux als klassisches Mehrbenutzerbetriebssystemen besitzt seit der
@@ -280,7 +280,7 @@
           bestimmte Linux-Dateisysteme implementieren auch Access Control Lists
         </li>
       </ul>
-      <li class="text-weight-bolder q-mt-sm text-h6 q-mb-sm">Windows</li>
+      <li class="text-weight-bolder q-mt-sm text-h7">Windows</li>
       <ul>
         <li>Dateirechte erst ab Windows-NT 3.5 durch Einführung von NTFS</li>
         <li>Windows verwendet nur Access Control Lists zur Rechtevergabe</li>

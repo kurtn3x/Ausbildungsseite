@@ -25,7 +25,7 @@
         gleichen Daten aus dem Speicher zu bedienen
       </li>
       <li>leitet stellvertretend Anfragen an ein Netzwerk weiter</li>
-      <li class="text-weight-bolder">Standard-Proxy</li>
+      <li class="text-weight-bolder text-h7">Standard-Proxy</li>
       <ul>
         <li>Client schickt Anfrage an Proxy-Server</li>
         <li>Proxy-Server übermittelt die Anfrage zum Zielserver</li>
@@ -54,7 +54,7 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder q-mt-md">Reverse-Proxy</li>
+      <li class="text-weight-bolder q-mt-md text-h7">Reverse-Proxy</li>
       <ul>
         <li>Sinnvoll für Serverdienste, z.B. Webserver</li>
         <li>Reverse-Proxy-Server wird vor den Webserver geschalten</li>

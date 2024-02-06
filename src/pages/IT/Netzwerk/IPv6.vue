@@ -49,7 +49,7 @@
     <ul>
       <li class="text-weight-bolder">IPv6-Adressen können gekürzt werden</li>
       <ul>
-        <li>führende Nullen können ausgelassen werden</li>
+        <li class="text-red">führende Nullen können ausgelassen werden</li>
         <ul>
           <li>
             <a class="text-weight-bold">Beispiel:</a> 2001:0db8<a
@@ -64,7 +64,7 @@
           </li>
         </ul>
 
-        <li>
+        <li class="text-orange">
           Ein oder mehrere aufeinander folgende 0 Blöcke dürfen einmalig
           ausgelassen werden
         </li>

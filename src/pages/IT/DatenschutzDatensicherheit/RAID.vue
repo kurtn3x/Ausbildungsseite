@@ -33,7 +33,7 @@
       RAID-Level
     </div>
     <ul>
-      <li class="text-weight-bolder">Gebräuchliche RAID-Level:</li>
+      <li class="text-weight-bolder text-h7">Gebräuchliche RAID-Level:</li>
       <ul>
         <li class="text-weight-bold">RAID 0: Striping</li>
         <ul>
@@ -153,7 +153,9 @@
           </q-img>
         </ul>
       </ul>
-      <li class="text-weight-bolder q-mt-md">Ungebräuchliche RAID-Level:</li>
+      <li class="text-weight-bolder q-mt-md text-h7">
+        Ungebräuchliche RAID-Level:
+      </li>
       <ul>
         <li class="text-weight-bold">
           RAID 2: Bit-Level Striping mit Hamming-Code basierter Fehlerkorrektur
@@ -210,7 +212,7 @@
           <li>Aufwendige Wiederherstellung</li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">RAID-Zusammenschlüsse:</li>
+      <li class="text-weight-bolder text-h7">RAID-Zusammenschlüsse:</li>
       <ul>
         <li>
           es gibt auch eine Menge RAID-Zusammenschlüsse, d.h. das verbinden

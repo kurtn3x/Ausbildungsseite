@@ -31,8 +31,8 @@
         Stateless Address Autoconfiguration, Konfiguration wird über Router im
         Netzwerksegment ermittelt)
       </li>
-      <li>
-        folgende Einstellungen können durch einen DHCP-Server zugewiesen werden:
+      <li class="text-weight-bolder">
+        Einstellungen, die von DHCP zugewiesen werden können:
       </li>
       <ul>
         <li>IP-Adresse und Subnetzmaske</li>
@@ -94,16 +94,20 @@
         </ul>
       </ul>
 
-      <li><a class="text-weight-bold">DHCP besitzt 3 Modi:</a></li>
+      <li><a class="text-weight-bolder">DHCP besitzt 3 Modi:</a></li>
       <ul>
-        <li>Statisches DHCP: feste Zuordnung von MAC-Adresse zur IP</li>
         <li>
-          Automatisches DHCP: Adressen in einer Range werden automatisch &
-          permanent vergeben
+          <a class="text-weight-bold">Statisches DHCP</a>: feste Zuordnung von
+          MAC-Adresse zur IP
         </li>
         <li>
-          Dynamisches DHCP: Adressen in einer Range werden automatisch und mit
-          einer Verleihzeit (Lease-Time) vergeben
+          <a class="text-weight-bold">Automatisches DHCP</a>: Adressen in einer
+          Range werden automatisch & permanent vergeben
+        </li>
+        <li>
+          <a class="text-weight-bold">Dynamisches DHCP</a>: Adressen in einer
+          Range werden automatisch und mit einer Verleihzeit (Lease-Time)
+          vergeben
         </li>
       </ul>
       <li><a class="text-weight-bolder">DHCP Anfrage - Ablauf</a></li>

@@ -18,7 +18,7 @@
       Symmetrische und asymmetrische Verschlüsselung
     </div>
     <ul>
-      <li class="text-weight-bolder">symmetrische Verschlüsselung</li>
+      <li class="text-weight-bolder text-h7">symmetrische Verschlüsselung</li>
       <ul>
         <li>selber Schlüssel für Ver- und Entschlüsselung</li>
         <li>z.B.: Caesar-Verschlüsselung</li>
@@ -72,7 +72,9 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder q-mt-md">asymmetrische Verschlüsselung</li>
+      <li class="text-weight-bolder q-mt-md text-h7">
+        asymmetrische Verschlüsselung
+      </li>
       <ul>
         <li>Jeder Nutzer hat zwei Schlüssel</li>
         <ul>
@@ -101,9 +103,10 @@
           Falls zwei Nutzer miteinander asymmetrisch verschlüsselt kommunizieren
           wollen, werden also insgesamt 4 Schlüssel benötigt: Für Jeden ein
           Public-Key und ein Private-Key. Die Nutzer verwenden zum verschlüsseln
-          der Nachricht den jeweils anderen Public-Key und zum Entschlüsseln der
-          erhaltenen Nachricht ihren eigenen Private-Key. Die Public-Keys müssen
-          vorher ausgetauscht werden, dies muss aber nicht sicher erfolgen.
+          der Nachricht den Public-Key des Empfängers. Der Empfänger kann die
+          verschlüsselte Nachricht mit seinem Private-Key entschlüsseln. Die
+          Public-Keys müssen vorher ausgetauscht werden, dies muss aber nicht
+          sicher erfolgen.
         </li>
         <li class="text-red">
           Nachteil: deutlich langsamer als symmetrische Verschlüsselungsmethoden
@@ -135,15 +138,15 @@
         sinnvoll beide gemeinsam zu verwenden: Dazu wird als Erstes der
         symmetrische Schlüssel mithilfe einer asymmetrischen
         Verschlüsselungsmethode ausgetauscht. Danach wird weiter über den
-        symmetrischen Schlüssel kommuniziert. Dies wird z.B. bei einer
-        TLS-Verschlüsselung verwendet.
+        symmetrischen Schlüssel kommuniziert. Dieses Verfahren wird z.B. bei
+        einer TLS-Verschlüsselung angewendet.
       </li>
     </ul>
     <q-separator class="q-mt-md" />
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
-      Hashfunktionen
+      Hashfunktionen / Hashwerte / Hashing
     </div>
     <ul>
       <li>
@@ -163,8 +166,8 @@
           eindeutigen und einzigartigen Wert (Hashwert) zugewiesen bekommen
         </li>
         <li>
-          Unter Verwendung der selben Hashfunktion haben die selben Daten haben
-          immer den gleichen Hashwert
+          Unter Verwendung der selben Hashfunktion haben die selben Daten immer
+          den gleichen Hashwert
         </li>
         <li>Verwendung:</li>
         <ul>
@@ -174,19 +177,24 @@
           <li>
             Verwendung in der Kryptographie (sicheres Speichern von Daten)
           </li>
+        </ul>
+        <li>Beispiel Verwendung:</li>
+        <ul>
           <li>
-            z.B. bei vielen Downloads von Betriebssystemen wird noch ein
-            Hashwert mitgegeben, damit das heruntergeladene ISO auf
-            Vollständigkeit und Veränderungen überprüft werden kann. Oft wird
-            noch eine digitale Signatur für diesen Hashwert mitgegeben, um auch
-            die Vertraulichkeit und Integrität des Hashwerts zu gewährleisten.
+            bei vielen Downloads von Betriebssystemen (oder anderen
+            sensiblen/wichtigen Daten) wird noch ein Hashwert mitgegeben, damit
+            das heruntergeladene ISO vor der Installation auf Vollständigkeit
+            und Veränderungen überprüft werden kann. Oft wird noch eine digitale
+            Signatur für diesen Hashwert mitgegeben, um auch die Vertraulichkeit
+            und Integrität des Hashwerts zu gewährleisten.
           </li>
         </ul>
         <li>Beispiel Hashwerte (mit Hashfunktion MD5):</li>
         <ul>
           <li>Hallo: d1bf93299de1b68e6d382c893bf1215f</li>
-          <li>Guten Morgen: 41a71d2d71001d0f6d4963f6d395eef2</li>
           <li>5 Seiten zufälliger Text: 12de527a22b556a7681e5499430c71c4</li>
+          <li>PDF-Datei: 062660ffbc2931cb5238d0fe8d6b8218</li>
+          <li>Debian-ISO: 746ca683b9983bf51d648c9a4875aa62</li>
         </ul>
       </ul>
       <li class="text-weight-bolder">Hashfunktionen in der Kryptographie</li>
@@ -218,15 +226,16 @@
             beliebige Eingabemenge, feste Ausgabelänge
           </li>
         </ul>
-        <li>z.B. Passworteingabe/-vergleich</li>
+        <li>z.B. Passworteingabe/-vergleich mithilfe von Hashfunktionen</li>
         <ul>
           <li>
             Passwörter sollten immer als Hashwert gespeichert werden, damit sie
-            nicht Plain-Text in der Datenbank stehen
+            nicht Plain-Text in der Datenbank stehen und im Falle eines
+            Hackerangriffs ausgelesen werden können
           </li>
           <li>
-            Die Nutzereingabe des Passworts wird gehashed und mit dem Hashwert
-            in der Datenbank verglichen
+            Die Nutzereingabe des Passworts wird gehashed und mit dem
+            gespeicherten Hashwert in der Datenbank verglichen
           </li>
           <li>
             stimmen beide Hashwerte überein, hat der Nutzer das korrekte
@@ -239,10 +248,6 @@
             Datenstruktur für schnelle und speichereffiziente Suche nach dem
             ursprünglichen Eingabewert (z.B. Passwort) für einen gegebenen
             Hashwert
-          </li>
-          <li>
-            soll quasi die schwere Umkehrbarkeit von Hashwerten mittels
-            Brute-Forcing attackieren
           </li>
           <li>
             Verwendung beim Passwortcracken (Rainbow-Tables mit oft verwendeten
@@ -269,7 +274,9 @@
             Mit Salt müsste für jeden Salt eine eigene Rainbow-Table erstellt
             werden
           </li>
-          <li>z.B. Passworteingabe/-vergleich</li>
+          <li>
+            z.B. Passworteingabe/-vergleich mithilfe von Hashfunktionen und Salt
+          </li>
           <ul>
             <li>
               Nutzerpasswort wird mit zufällig generiertem Salt in Hashfunktion
@@ -465,7 +472,7 @@
           <li>Geeignete digitale Signaturverfahren sind z.B. RSA oder DSA</li>
           <li>
             Signatur <a class="text-weight-bold">IST NICHT</a> die
-            Verschlüsselung mit dem privaten RSA-Schlüssel
+            Verschlüsselung mit dem privaten Schlüssel
           </li>
         </ul>
         <li>Verschlüsselung von Nachrichten</li>

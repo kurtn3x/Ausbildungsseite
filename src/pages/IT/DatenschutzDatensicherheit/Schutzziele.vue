@@ -4,10 +4,9 @@
       Die Schutzziele der Informationssicherheit
     </div>
     <q-separator class="q-mt-md" />
-
     <ul>
-      <li>
-        <a class="text-h6 text-weight-bold text-secondary">Vertraulichkeit</a>
+      <li class="text-h6 text-weight-bold text-secondary q-mt-sm">
+        Vertraulichkeit
       </li>
       <ul>
         <li>Nur berechtigte Personen dürfen Daten lesen und ändern</li>
@@ -16,22 +15,22 @@
           Daten hat
         </li>
       </ul>
-      <li>
-        <a class="text-h6 text-weight-bold text-secondary">Integrität</a>
+      <li class="text-h6 text-weight-bold text-secondary q-mt-sm">
+        Integrität
       </li>
       <ul>
         <li>Daten dürfen nicht unerkannt oder unbemerkt geändert werden</li>
         <li>Nachvollziehbarkeit der Datenänderungen</li>
       </ul>
-      <li>
-        <a class="text-h6 text-weight-bold text-secondary">Verfügbarkeit</a>
+      <li class="text-h6 text-weight-bold text-secondary q-mt-sm">
+        Verfügbarkeit
       </li>
       <ul>
         <li>Beschreibt die Zeit, in der das System funktioniert</li>
         <li>Ist möglichst hoch zu halten</li>
       </ul>
-      <li>
-        <a class="text-h6 text-weight-bold text-secondary">Datenschutz</a>
+      <li class="text-h6 text-weight-bold text-secondary q-mt-sm">
+        Datenschutz
       </li>
       <ul>
         <li>
@@ -39,8 +38,8 @@
           auf informationelle Selbstbestimmung und der Schutz der Privatsphäre
         </li>
       </ul>
-      <li>
-        <a class="text-h6 text-weight-bold text-secondary">Datensicherheit</a>
+      <li class="text-h6 text-weight-bold text-secondary q-mt-sm">
+        Datensicherheit
       </li>
       <ul>
         <li>Eng mit dem Datenschutz verknüpft</li>

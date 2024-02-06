@@ -41,7 +41,6 @@
         />
       </q-toolbar>
     </q-header>
-
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-scroll-area
         class="fit"
@@ -49,7 +48,7 @@
         :bar-style="barStyle"
       >
         <div>
-          <div class="q-mr-xs">
+          <div class="q-mr-sm">
             <Links />
           </div>
           <q-separator class="q-mr-sm" />
@@ -119,6 +118,9 @@ export default defineComponent({
     };
   },
   computed: {
+    fontSizeh7() {
+      return this.fontSize + 5 + '%';
+    },
     fontSizeh6() {
       return this.fontSize + 25 + '%';
     },
@@ -127,13 +129,6 @@ export default defineComponent({
     },
     fontSizeh4() {
       return this.fontSize + 125 + '%';
-    },
-    small() {
-      if (this.q.screen.width < 1024) {
-        return true;
-      } else {
-        return false;
-      }
     },
   },
 
@@ -162,5 +157,8 @@ export default defineComponent({
 }
 .text-h4 {
   font-size: v-bind(fontSizeh4);
+}
+.text-h7 {
+  font-size: v-bind(fontSizeh7);
 }
 </style>

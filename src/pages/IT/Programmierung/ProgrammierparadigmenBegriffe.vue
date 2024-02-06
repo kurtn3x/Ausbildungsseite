@@ -23,7 +23,7 @@
         Prinzipien
       </li>
 
-      <li class="text-weight-bold">Imperative Sprachen</li>
+      <li class="text-weight-bold text-h7">Imperative Sprachen</li>
       <ul>
         <li>Programme erklären, wie ein Problem gelöst werden soll</li>
         <li>Befehle und Schleifen</li>
@@ -57,7 +57,7 @@
           </li>
         </ul>
       </ul>
-      <li class="text-weight-bold">Deklarative Sprachen</li>
+      <li class="text-weight-bold text-h7">Deklarative Sprachen</li>
       <ul>
         <li>Keine Befehle und kein innerer Zustand</li>
         <li>Rekursion anstatt Schleifen</li>
@@ -79,7 +79,7 @@
         </ul>
       </ul>
 
-      <li class="text-weight-bolder">Objektorientierte Sprachen</li>
+      <li class="text-weight-bolder text-h7">Objektorientierte Sprachen</li>
       <ul>
         <li>sprachunabhängiges Programmiermodell</li>
         <li>
@@ -130,7 +130,9 @@
       Interpreter & Compiler
     </div>
     <ul>
-      <li class="text-weight-bold">Interpretierte Sprachen (Interpreter)</li>
+      <li class="text-weight-bold text-h7">
+        Interpretierte Sprachen (Interpreter)
+      </li>
       <ul>
         <li>Programm wird vom Interpreter gelesen und ausgeführt</li>
         <li>
@@ -143,7 +145,7 @@
         </li>
         <li>z.B. Python, Java</li>
       </ul>
-      <li class="text-weight-bold">Kompilierte Sprachen (Compiler)</li>
+      <li class="text-weight-bold text-h7">Kompilierte Sprachen (Compiler)</li>
       <ul>
         <li>Compiler übersetzt das Programm in maschinenlesbaren Code</li>
         <li>

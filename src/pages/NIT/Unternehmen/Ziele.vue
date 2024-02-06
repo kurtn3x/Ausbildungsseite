@@ -6,8 +6,8 @@
     <q-separator class="q-mt-md" />
     <ul class="q-mt-lg">
       <li>
-        <a class="text-weight-bolder text-secondary">SMART</a> - Akronym für
-        eine Methode, Ziele richtig zu setzen
+        <a class="text-weight-bolder text-secondary text-h7">SMART</a> - Akronym
+        für eine Methode, Ziele richtig zu setzen
       </li>
       <ul>
         <li class="text-weight-bold">

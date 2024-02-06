@@ -18,7 +18,7 @@
       Relationale und nicht-relationale Datenbanken
     </div>
     <ul>
-      <li class="text-weight-bolder">relationale Datenbank</li>
+      <li class="text-weight-bolder text-h7">relationale Datenbank</li>
       <ul>
         <li>auch SQL-Datenbank</li>
         <li>
@@ -57,7 +57,7 @@
           </li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">nicht-relationale Datenbank</li>
+      <li class="text-weight-bolder text-h7">nicht-relationale Datenbank</li>
       <ul>
         <li>auch NoSQL-Datenbank</li>
         <li>Vielzahl von Datenmodellen für Zugriff und Verwaltung der Daten</li>

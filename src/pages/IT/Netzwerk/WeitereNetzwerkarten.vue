@@ -13,7 +13,7 @@
     </div>
     <q-separator class="q-mt-md" />
     <ul>
-      <li class="text-weight-bolder">PAN - Personal Area Network</li>
+      <li class="text-weight-bolder text-h7">PAN - Personal Area Network</li>
       <ul>
         <li>
           bezeichnet eine Ansammlung verschiedener Geräte im selben Raum (bzw.
@@ -28,7 +28,7 @@
         </li>
         <li>Reichweite wenige Meter</li>
       </ul>
-      <li class="text-weight-bolder">LAN - Local Area Network</li>
+      <li class="text-weight-bolder text-h7">LAN - Local Area Network</li>
       <ul>
         <li>
           bezeichnet eine Ansammlung verschiedener Geräte im selben Gebäude
@@ -60,7 +60,9 @@
         </li>
         <li>z.B. Heimnetze oder Unternehmensnetze</li>
       </ul>
-      <li class="text-weight-bolder">MAN - Metropolitan Area Network</li>
+      <li class="text-weight-bolder text-h7">
+        MAN - Metropolitan Area Network
+      </li>
       <ul>
         <li>verbindet mehrere LANs in geografischer Nähe</li>
         <li>schnelle Übertragungsraten über Glasfaser</li>
@@ -70,7 +72,7 @@
           Funknetze
         </li>
       </ul>
-      <li class="text-weight-bolder">WAN -Wide Area Network</li>
+      <li class="text-weight-bolder text-h7">WAN -Wide Area Network</li>
       <ul>
         <li>
           erstrecken sich über große geografische Bereiche wie Länder und
@@ -78,7 +80,7 @@
         </li>
         <li>im Besitz bestimmer Organisationen</li>
       </ul>
-      <li class="text-weight-bolder">GAN -Global Area Network</li>
+      <li class="text-weight-bolder text-h7">GAN -Global Area Network</li>
       <ul>
         <li>weltumspannendes Netzwerk</li>
         <li>
@@ -87,7 +89,7 @@
         </li>
         <li>z.B. das gesamte Internet</li>
       </ul>
-      <div class="row justify-center q-mt-md">
+      <div class="q-ml-md q-mt-md">
         <q-img
           class="fit bg-grey-5"
           :src="src + '/Netzwerke/netzwerkarten.png'"

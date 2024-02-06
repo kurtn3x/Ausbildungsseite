@@ -18,7 +18,7 @@
       USV-Typen
     </div>
     <ul>
-      <li class="text-weight-bolder">Offline-USV</li>
+      <li class="text-weight-bolder text-h7">Offline-USV</li>
       <ul>
         <li>auch VFD (Voltage and Frequency Dependent) genannt</li>
         <li>Verbraucher im Normalbetrieb direkt vom Netz versorgt</li>
@@ -51,7 +51,7 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder q-mt-md">Line-Interaktive-USV</li>
+      <li class="text-weight-bolder q-mt-md text-h7">Line-Interaktive-USV</li>
       <ul>
         <li>auch VI-Systeme (Voltage Independent) genannt</li>
         <li>Verbraucher im Normalbetrieb direkt vom Netz versorgt</li>
@@ -84,7 +84,7 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder q-mt-md">Online-USV</li>
+      <li class="text-weight-bolder q-mt-md text-h7">Online-USV</li>
       <ul>
         <li>auch VFI-Systeme (Voltage and Frequency Independent) genannt</li>
         <li>Verbraucher hat keine direkte Verbindung zum Stromnetz</li>

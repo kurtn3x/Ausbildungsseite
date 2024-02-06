@@ -5,12 +5,12 @@
     </div>
     <q-separator class="q-mt-md" />
     <ul>
-      <li class="text-weight-bold">
+      <li class="text-weight-bolder">
         Speichergrößen können in vielen verschiedenen Arten und Formen angegeben
         werden, zu beachten gilt
       </li>
       <ul>
-        <li>
+        <li class="text-weight-bold">
           Unterschied Bit und Byte beachten,
           <a class="text-purple text-weight-bold">8 Bit = 1 Byte</a>
         </li>
@@ -22,7 +22,7 @@
           <li>MB/s - Megabyte/s</li>
           <li>MBit/s - Megabit/s → 800Mbit/s = 100MB/s</li>
         </ul>
-        <li>
+        <li class="text-weight-bold">
           Es gibt zwei Formen der Speichergrößenangabe:
           <a class="text-weight-bolder text-red">2er-Potenzen (*1024)</a> und
           <a class="text-weight-bolder text-green"> 10er-Potenzen (*1000)</a>.

@@ -98,7 +98,9 @@
       Marktformen und -arten
     </div>
     <ul>
-      <li class="text-weight-bolder">Verkäufermärkte und Käufermärkte</li>
+      <li class="text-weight-bolder text-h7">
+        Verkäufermärkte und Käufermärkte
+      </li>
       <ul>
         <li class="text-weight-bold">Verkäufermärkte</li>
         <ul>
@@ -127,7 +129,9 @@
           </li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">volkommener und unvolkommener Markt</li>
+      <li class="text-weight-bolder text-h7">
+        volkommener und unvolkommener Markt
+      </li>
       <ul>
         <li class="text-weight-bold">volkommener Markt</li>
         <ul>
@@ -150,7 +154,7 @@
           <li>Präferenzen liegen vor</li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">
+      <li class="text-weight-bolder text-h7">
         Nach Anzahl der Anbieter und Nachfrager
       </li>
       <ul>

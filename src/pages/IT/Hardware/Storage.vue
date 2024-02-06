@@ -18,7 +18,7 @@
       DAS, NAS & SAN
     </div>
     <ul>
-      <li class="text-weight-bolder">DAS - Direct Attached Storage</li>
+      <li class="text-weight-bolder text-h7">DAS - Direct Attached Storage</li>
       <ul>
         <li>eine Festplatte, die direkt mit einem Server verbunden ist</li>
         <li>Server kontrolliert Zugriff auf Speicherplatz</li>
@@ -28,7 +28,7 @@
         </li>
       </ul>
 
-      <li class="text-weight-bolder">NAS - Network Attached Storage</li>
+      <li class="text-weight-bolder text-h7">NAS - Network Attached Storage</li>
       <ul>
         <li>
           konfigurierbarer Datenspeicher, um in einem Netzwerk Speicherplatz zur
@@ -45,7 +45,7 @@
         <li>oft Datensicherheit durch konfigurierbares RAID</li>
       </ul>
 
-      <li class="text-weight-bolder">SAN - Storage Area Network</li>
+      <li class="text-weight-bolder text-h7">SAN - Storage Area Network</li>
       <ul>
         <li>
           Speicherung großer Datenmengen unabhängig von Standort und

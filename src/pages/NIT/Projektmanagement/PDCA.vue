@@ -9,12 +9,13 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Der PDCA-Zyklus (KVP)
+      Der PDCA-Zyklus
     </div>
     <q-separator class="q-mt-md" />
 
     <ul>
-      <li>
+      <li class="text-weight-bolder">PDCA = PLAN, DO, CHECK, ACT</li>
+      <li class="text-weight-bolder">
         oft auch als KVP (kontinuierlicher Verbesserungsprozess) bezeichnet
       </li>
       <li>
@@ -39,23 +40,27 @@
       </q-img>
     </ul>
     <ul>
-      <li>
-        <a class="text-weight-bolder">PLAN: </a>Planen: Welches Problem muss
-        gelöst werden? Welche Ressourcen brauchen/haben wir? Was ist das Ziel?
-      </li>
-      <li>
-        <a class="text-weight-bolder">DO: </a>Umsetzung: Umsetzung von all dem,
-        was geplant wurde.
-      </li>
-      <li>
-        <a class="text-weight-bolder">CHECK: </a>Überprüfen: Erfolgskontrolle,
-        Überwachung der Zielerreichung. Wurde der ursprüngliche Plan umgesetzt?
-        Was ist schiefgelaufen? Was war die Ursache für die Probleme?
-      </li>
-      <li>
-        <a class="text-weight-bolder">ACT: </a>Handeln, Beseitigung von
-        Defiziten, Verbesserung. Reagieren auf die Ergebnisse.
-      </li>
+      <li class="text-weight-bolder">Phasen des PDCA-Zyklus:</li>
+      <ul>
+        <li>
+          <a class="text-weight-bold">PLAN: </a>Planen: Welches Problem muss
+          gelöst werden? Welche Ressourcen brauchen/haben wir? Was ist das Ziel?
+        </li>
+        <li>
+          <a class="text-weight-bold">DO: </a>Umsetzung: Umsetzung von all dem,
+          was geplant wurde.
+        </li>
+        <li>
+          <a class="text-weight-bold">CHECK: </a>Überprüfen: Erfolgskontrolle,
+          Überwachung der Zielerreichung. Wurde der ursprüngliche Plan
+          umgesetzt? Was ist schiefgelaufen? Was war die Ursache für die
+          Probleme?
+        </li>
+        <li>
+          <a class="text-weight-bold">ACT: </a>Handeln, Beseitigung von
+          Defiziten, Verbesserung. Reagieren auf die Ergebnisse.
+        </li>
+      </ul>
     </ul>
 
     <q-separator class="q-mt-md" />

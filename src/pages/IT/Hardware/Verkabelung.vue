@@ -41,7 +41,7 @@
         <li>Empfehlungen für Verlegung und Installation</li>
         <li>standardisierte Mess-, Prüf- und Dokumentationsverfahren</li>
       </ul>
-      <li class="text-weight-bolder">
+      <li class="text-weight-bolder text-h7">
         Strukturierte Verkabelung nach EN 50173/50174
       </li>
       <ul>
@@ -84,7 +84,7 @@
       Übertragungsmedien
     </div>
     <ul>
-      <li class="text-weight-bolder">Leitergebundene</li>
+      <li class="text-weight-bolder text-h7">Leitergebundene</li>
       <ul>
         <li>
           <a class="text-weight-bold">Metallische/elektrische Leiter:</a>
@@ -167,7 +167,7 @@
           </ul>
         </ul>
       </ul>
-      <li class="text-weight-bold">Leiterungebundene</li>
+      <li class="text-weight-bold text-h7">Leiterungebundene</li>
       <ul>
         <li>
           <a class="text-weight-bold">Funkübertragung:</a> WLAN/Wi-Fi,
@@ -181,7 +181,7 @@
       Simplex und Duplex
     </div>
     <ul>
-      <li class="text-weight-bold">Simplex</li>
+      <li class="text-weight-bold text-h7">Simplex</li>
       <ul>
         <li>
           Simplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten
@@ -197,7 +197,7 @@
         </li>
       </ul>
 
-      <li class="text-weight-bold">Duplex</li>
+      <li class="text-weight-bold text-h7">Duplex</li>
       <ul>
         <li>
           Duplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten

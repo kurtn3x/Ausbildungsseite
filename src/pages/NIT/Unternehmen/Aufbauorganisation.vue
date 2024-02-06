@@ -139,7 +139,9 @@
         Leitungssysteme
       </div>
       <ul>
-        <li class="text-weight-bolder">Einliniensystem</li>
+        <li class="text-weight-bolder text-secondary text-h7">
+          Einliniensystem
+        </li>
         <ul>
           <li>Beschreibung:</li>
           <ul>
@@ -169,7 +171,7 @@
                 '/BetriebeUnternehmen/Aufbauorganisation/Einliniensystem.png';
             "
             class="bg-grey-5"
-            style="max-width: 300px"
+            style="max-width: 350px"
           >
             <div
               class="absolute-bottom-right text-subtitle2"
@@ -183,7 +185,9 @@
             </div>
           </q-img>
         </ul>
-        <li class="text-weight-bolder q-mt-md">Mehrliniensystem</li>
+        <li class="text-weight-bolder q-mt-md text-secondary text-h7">
+          Mehrliniensystem
+        </li>
         <ul>
           <li>Beschreibung:</li>
           <ul>
@@ -214,7 +218,7 @@
                 '/BetriebeUnternehmen/Aufbauorganisation/Mehrliniensystem.png';
             "
             class="bg-grey-5"
-            style="max-width: 300px"
+            style="max-width: 350px"
           >
             <div
               class="absolute-bottom-right text-subtitle2"
@@ -228,7 +232,9 @@
             </div>
           </q-img>
         </ul>
-        <li class="text-weight-bolder q-mt-md">Stabliniensystem</li>
+        <li class="text-weight-bolder q-mt-md text-secondary text-h7">
+          Stabliniensystem
+        </li>
         <ul>
           <li>Beschreibung:</li>
           <ul>
@@ -250,7 +256,7 @@
           </ul>
           <q-img
             class="bg-grey-5"
-            style="max-width: 300px"
+            style="max-width: 350px"
             :src="
               src +
               '/BetriebeUnternehmen/Aufbauorganisation/Stabliniensystem.png'
@@ -273,7 +279,9 @@
             </div>
           </q-img>
         </ul>
-        <li class="text-weight-bolder q-mt-md">Matrixorganisation</li>
+        <li class="text-weight-bolder q-mt-md text-secondary text-h7">
+          Matrixorganisation
+        </li>
         <ul>
           <li>Beschreibung:</li>
           <ul>
@@ -301,7 +309,7 @@
           </ul>
           <q-img
             class="bg-grey-5"
-            style="max-width: 300px"
+            style="max-width: 350px"
             :src="
               src +
               '/BetriebeUnternehmen/Aufbauorganisation/Matrixorganisation.png'
