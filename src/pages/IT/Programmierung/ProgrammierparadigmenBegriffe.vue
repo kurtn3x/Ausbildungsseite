@@ -25,13 +25,12 @@
 
       <li class="text-weight-bold text-h7">Imperative Sprachen</li>
       <ul>
-        <li>Programme erklären, wie ein Problem gelöst werden soll</li>
-        <li>Befehle und Schleifen</li>
-        <li>Programm besitzt einen inneren Zustand</li>
         <li>
-          Zustand des Systems wird verändert, also Variablen können zur Laufzeit
-          geändert werden
+          Programme erklären, wie ein Problem gelöst werden soll
+          (Schritt-für-Schritt-Anweisung)
         </li>
+        <li>oft Befehle und Schleifen</li>
+        <li>oft besitzt das Programm einen inneren Zustand</li>
         <li>z.B. die meisten Sprachen wie Python, C, Shell, BASIC</li>
         <li class="text-weight-bold">Strukturierte Sprachen</li>
         <ul>
@@ -59,10 +58,9 @@
       </ul>
       <li class="text-weight-bold text-h7">Deklarative Sprachen</li>
       <ul>
-        <li>Keine Befehle und kein innerer Zustand</li>
-        <li>Rekursion anstatt Schleifen</li>
-        <li>Änderung von Werten per Zuweisung nicht möglich</li>
-        <li>z.B. Haskell, Erlang</li>
+        <li>Programme erklären, was das Endergebnis sein soll</li>
+        <li>oft keine Befehle, keine Schleifen und kein innerer Zustand</li>
+        <li>z.B. Haskell, Erlang, Prolog theoretisch auch SQL</li>
         <li class="text-weight-bold">Funktionale Sprachen</li>
         <ul>
           <li>basierend auf Funktion im mathematischen Sinn</li>
@@ -76,6 +74,71 @@
             Interpreter versucht, die gewünschte Lösungsaussage herzuleiten
           </li>
           <li>z.B. Prolog</li>
+        </ul>
+      </ul>
+
+      <li>
+        Die Grenzen zwischen imperativen und deklarativen Sprachen verschwimmen
+        häufig und eine eindeutige Zuordnung ist schwer möglich. Bei hohen
+        Programmiersprachen wie Python finden sich beide Ansätze wieder.
+      </li>
+      <li>Beispiel:</li>
+      <ul>
+        <li>Wir wollen aus einer Liste die ungeraden Zahlen ausgeben.</li>
+        <li>
+          Vorgabe:
+          <div
+            style="font-family: monospace, monospace"
+            class="bg-grey-9 text-white"
+          >
+            numbers = [1,2,3,4,5,6]
+          </div>
+        </li>
+        <li class="text-weight-bolder">Imperativer Ansatz:</li>
+        <ul>
+          <li>
+            <div
+              style="font-family: monospace, monospace"
+              class="bg-grey-9 text-white"
+            >
+              foreach num in numbers {
+            </div>
+            <div
+              style="font-family: monospace, monospace"
+              class="bg-grey-9 text-white"
+            >
+              &nbsp;&nbsp;if (num % 2) != 0 {
+            </div>
+            <div
+              style="font-family: monospace, monospace"
+              class="bg-grey-9 text-white"
+            >
+              &nbsp;&nbsp;&nbsp;&nbsp; output num
+            </div>
+            <div
+              style="font-family: monospace, monospace"
+              class="bg-grey-9 text-white"
+            >
+              &nbsp;&nbsp;}
+            </div>
+            <div
+              style="font-family: monospace, monospace"
+              class="bg-grey-9 text-white"
+            >
+              }
+            </div>
+          </li>
+        </ul>
+        <li class="text-weight-bolder">Deklarativer Ansatz:</li>
+        <ul>
+          <li>
+            <div
+              style="font-family: monospace, monospace"
+              class="bg-grey-9 text-white"
+            >
+              output numbers.where(num % 2 != 0)
+            </div>
+          </li>
         </ul>
       </ul>
 

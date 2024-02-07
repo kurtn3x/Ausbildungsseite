@@ -114,7 +114,7 @@
         optionalen Feldern bis zu 60 Byte groß werden kann. Diese optionalen
         Felder werden im gegebenen Beispiel nicht verwendet.
       </li>
-      <li>Aufteilung des Frames:</li>
+      <li class="text-weight-bolder">Aufteilung des Frames:</li>
       <ul>
         <q-img
           class="fit bg-grey-5"

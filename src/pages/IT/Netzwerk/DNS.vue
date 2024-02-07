@@ -31,22 +31,7 @@
           Siehe auch Liste an Organisationen verbunden mit Adressvergaben
         </router-link>
       </li>
-      <li class="text-weight-bolder">dynamisches DNS</li>
-      <ul>
-        <li>
-          DNS-Einträge im DNS-Server ändern sich automatisch, wenn sich eine
-          IP-Adresse ändert
-        </li>
-        <li>
-          Rechner ist immer unter dem selben Hostnamen erreichbar, auch wenn
-          sich die IP-Adresse ändert
-        </li>
-        <li>
-          z.B. über HTTP/HTTPS mit Client-Software / spezielle Funktionen im
-          Router oder über DNS Update, ein Protokoll für dynamisches DNS
-        </li>
-      </ul>
-      <li class="text-weight-bolder">Arten von DNS-Servern:</li>
+      <li class="text-weight-bolder text-h7">Arten von DNS-Servern:</li>
       <ul>
         <li class="text-weight-bold">Autoritativer DNS-Server:</li>
         <ul>
@@ -155,6 +140,21 @@
         <li>
           <a class="text-weight-bold">NS Records:</a> zuständiger Name-Server
           für die Zone
+        </li>
+      </ul>
+      <li class="text-weight-bolder">dynamisches DNS</li>
+      <ul>
+        <li>
+          DNS-Einträge im DNS-Server ändern sich automatisch, wenn sich eine
+          IP-Adresse ändert
+        </li>
+        <li>
+          Rechner ist immer unter dem selben Hostnamen erreichbar, auch wenn
+          sich die IP-Adresse ändert
+        </li>
+        <li>
+          z.B. über HTTP/HTTPS mit Client-Software / spezielle Funktionen im
+          Router oder über DNS Update, ein Protokoll für dynamisches DNS
         </li>
       </ul>
       <li class="text-weight-bolder">typischer Ablauf einer DNS-Anfrage</li>

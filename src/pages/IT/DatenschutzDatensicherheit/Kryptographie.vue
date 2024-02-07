@@ -15,12 +15,19 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
-      Symmetrische und asymmetrische Verschlüsselung
+      Symmetrisches und asymmetrisches Kryptosystem
     </div>
     <ul>
-      <li class="text-weight-bolder text-h7">symmetrische Verschlüsselung</li>
+      <li class="text-weight-bolder text-h7">symmetrische Kryptographie</li>
       <ul>
-        <li>selber Schlüssel für Ver- und Entschlüsselung</li>
+        <li>
+          Teilnehmer verwenden selben Schlüssel für Ver- und Entschlüsselung
+        </li>
+        <li>
+          teilweise auch Schlüssel die nicht identisch sind, aber leicht
+          auseinander berechnet werden können (z.B. IDEA)
+        </li>
+        <li>Hauptsächliche Verwendung: Verschlüsselung von Nachrichten</li>
         <li>z.B.: Caesar-Verschlüsselung</li>
         <ul>
           <li>
@@ -52,13 +59,14 @@
             zwar noch oft verwendet aber gilt als unsicher und durch AES
             abgelöst
           </li>
+          <li>IDEA (International Data Encryption Algorithm)</li>
           <li>Blowfish</li>
           <li>Twofish</li>
         </ul>
         <q-img
           class="fit bg-grey-5 q-mt-md"
           :src="src + '/datenschutz/symmetrisch.png'"
-          style="max-width: 500px"
+          style="max-width: 400px"
           @click="
             show_img = true;
             popupsrc = '/datenschutz/symmetrisch.png';
@@ -73,65 +81,158 @@
         </q-img>
       </ul>
       <li class="text-weight-bolder q-mt-md text-h7">
-        asymmetrische Verschlüsselung
+        asymmetrische Kryptographie (Public-Key-Kryptographie)
       </li>
       <ul>
-        <li>Jeder Nutzer hat zwei Schlüssel</li>
+        <li>Jeder Nutzer erzeugt zwei Schlüssel</li>
         <ul>
           <li>
-            ein öffentlicher Schlüssel (public key), der Jeden zugänglich sein
-            muss
+            ein öffentlicher Schlüssel (public key), der Jeden zugänglich
+            gemacht werden kann
           </li>
           <li>
             ein privater Schlüssel (private key), der geheim gehalten werden
             muss
           </li>
+          <li>Es werden keine gemeinsamen, geheimen Schlüssel verwendet</li>
         </ul>
-        <li>
-          Asymmetrische Verschlüsselungsverfahren werden auch bei der Erstellung
-          von digitalen Signaturen verwendet
-        </li>
-        <li>
-          Verschlüsselung oder Prüfung von Signaturen erfolgt mit dem
-          öffentlichen Schlüssel
-        </li>
-        <li>
-          Entschlüsselung oder Signierung von Daten erfolgt mit dem privaten
-          Schlüssel
-        </li>
-        <li>
-          Falls zwei Nutzer miteinander asymmetrisch verschlüsselt kommunizieren
-          wollen, werden also insgesamt 4 Schlüssel benötigt: Für Jeden ein
-          Public-Key und ein Private-Key. Die Nutzer verwenden zum verschlüsseln
-          der Nachricht den Public-Key des Empfängers. Der Empfänger kann die
-          verschlüsselte Nachricht mit seinem Private-Key entschlüsseln. Die
-          Public-Keys müssen vorher ausgetauscht werden, dies muss aber nicht
-          sicher erfolgen.
-        </li>
         <li class="text-red">
           Nachteil: deutlich langsamer als symmetrische Verschlüsselungsmethoden
         </li>
+        <li>
+          Verwendung für digitale Signaturen, Public-Key-Authentifizierung,
+          Verschlüsselung oder beim Aushandeln symmetrischer Schlüssel
+        </li>
+
+        <li class="text-weight-bolder">asymmetrische Verschlüsselung</li>
+        <ul>
+          <li>
+            Verschlüsselung der Nachricht erfolgt mit dem öffentlichen Schlüssel
+            des Empfängers
+          </li>
+          <li>
+            Entschlüsselung der Nachricht erfolgt mit dem privaten Schlüssel des
+            Empfängers
+          </li>
+          <li>
+            Falls zwei Nutzer miteinander asymmetrisch verschlüsselt
+            kommunizieren wollen, werden also insgesamt 4 Schlüssel benötigt:
+            Für Jeden ein Public-Key und ein Private-Key. Die Nutzer verwenden
+            zum verschlüsseln der Nachricht den Public-Key des Empfängers(also
+            des jeweils anderen Nutzers). Der Empfänger kann die verschlüsselte
+            Nachricht mit seinem Private-Key entschlüsseln. Die Public-Keys
+            müssen vorher ausgetauscht werden, dies muss aber nicht sicher
+            erfolgen.
+          </li>
+          <q-img
+            class="fit bg-grey-5 q-mt-md"
+            :src="src + '/datenschutz/asymmetrisch.png'"
+            style="max-width: 400px"
+            @click="
+              show_img = true;
+              popupsrc = '/datenschutz/asymmetrisch.png';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+
+        <li class="text-weight-bolder">digitale Signaturen</li>
+        <ul>
+          <li>
+            = berechneter Wert der zu signierenden Daten mithilfe eines
+            Private-Keys
+          </li>
+          <li>
+            nichtabstreitbare Urheberschaft und Integrität der Daten kann mit
+            dem dazugehörigen Public-Key verifiziert werden
+          </li>
+          <li>
+            Signatur wird nicht aus den Rohdaten berechnet, sondern aus dem
+            Hashwert der Rohdaten
+          </li>
+          <li>
+            Signatur <a class="text-weight-bold">IST NICHT</a> die
+            Verschlüsselung mit dem privaten Schlüssel
+          </li>
+          <q-img
+            class="fit bg-grey-5 q-mt-md"
+            :src="src + '/datenschutz/signatur.png'"
+            style="max-width: 400px"
+            @click="
+              show_img = true;
+              popupsrc = '/datenschutz/signatur.png';
+            "
+          >
+            <div
+              class="absolute-bottom-right text-subtitle2"
+              style="
+                height: 40px;
+                font-size: 10px;
+                background-color: transparent;
+              "
+            >
+              Click for full size
+            </div>
+          </q-img>
+        </ul>
+
+        <li class="text-weight-bolder">Public-Key-Authentifizierung</li>
+        <ul>
+          <li>
+            Öffentlicher Schlüssel eines Nutzers wird auf dem Server gespeichert
+          </li>
+          <li>
+            Privater Schlüssel des Nutzers bleibt auf seinem eigenen Computer
+          </li>
+          <li>
+            Es wird eine Signatur mit dem privaten Schlüssel des Nutzers
+            erzeugt, die auf Serverseite mit dem hinterlegtem öffentlichen
+            Schlüssel überprüft wird. Kann die Authentizität bestätigt werden,
+            bekommt der Nutzer Zugriff auf den Server.
+          </li>
+          <li>
+            Es muss ein asymmetrisches Kryptoverfahren mit
+            Signierungsfunktionalität verwendet werden
+          </li>
+        </ul>
+
+        <li>
+          Verschlüsselung, Signierung und Public-Key-Authentifizierung sind
+          unterschiedliche Verfahren, mit unterschiedlichen Implementierungen.
+          Nur weil ein Verfahren für die digitale Signierung verwendet werden
+          kann, besteht nicht automatisch die Möglichkeit es für die
+          asymmetrische Verschlüsselung einzusetzen. z.B. RSA ist ein Verfahren,
+          welches für alle genannten Anwendungsfälle implementiert wurde.
+        </li>
+
         <li>Beispiele:</li>
         <ul>
-          <li>RSA</li>
-          <li>ECC (Elliptische-Kurven-Kryptographie)</li>
+          <li>RSA - Verschlüsselung & Signatur von Daten</li>
+          <li>DSA (Digital Signature Algorithm) - Signaturverfahren</li>
+          <li>
+            Diffie-Hellman-Merkle Schlüsselaustausch - Verfahren für
+            Vereinbarung eines symmetrischen Schlüssels auf Basis der
+            asymmetrischen Schlüssels der Nutzer
+          </li>
+          <li>
+            ECC (Elliptische-Kurven-Kryptographie) - Überbegriff für
+            kryptographische Verfahren basierend auf elliptischen Kurven.
+            Elliptische Kurven werden innerhalb anderer Kryptosysteme
+            implementiert, um diese sicherer zu machen
+          </li>
+          <li>ECDSA - DSA mit ECC</li>
+          <li>ECDH - Diffie-Hellman mit ECC</li>
         </ul>
-        <q-img
-          class="fit bg-grey-5 q-mt-md"
-          :src="src + '/datenschutz/asymmetrisch.png'"
-          style="max-width: 500px"
-          @click="
-            show_img = true;
-            popupsrc = '/datenschutz/asymmetrisch.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
       </ul>
       <li class="text-green q-mt-md">
         Durch die Nachteile der beiden Verschlüsselungsverfahren, ist es
@@ -455,26 +556,7 @@
         Typische Anwendung digitaler Zertifikate:
       </li>
       <ul>
-        <li class="text-weight-bold">Erstellen digitaler Signaturen:</li>
-        <ul>
-          <li>
-            Digitale Signatur = berechneter Wert der zu signierenden Daten
-            mithilfe eines Private-Keys
-          </li>
-          <li>
-            nichtabstreitbare Urheberschaft und Integrität kann mit dem
-            dazugehörigen Public-Key verifiziert werden
-          </li>
-          <li>
-            oft wird die digitale Signatur nicht auf eine ursprüngliche
-            Nachricht angewendet, sondern auf deren Hashwert
-          </li>
-          <li>Geeignete digitale Signaturverfahren sind z.B. RSA oder DSA</li>
-          <li>
-            Signatur <a class="text-weight-bold">IST NICHT</a> die
-            Verschlüsselung mit dem privaten Schlüssel
-          </li>
-        </ul>
+        <li>Erstellen digitaler Signaturen</li>
         <li>Verschlüsselung von Nachrichten</li>
         <li>Sicherheit in Netzwerkprotokollen (HTTPS, TLS, IPsec, SSH)</li>
         <li>Sicherheit von E-Mails (S/MIME, PGP)</li>
@@ -522,6 +604,8 @@
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:Orange_blue_symmetric_cryptography_de.svg<br />
       https://commons.wikimedia.org/wiki/File:Orange_blue_public_key_cryptography_de.svg
+      <br />
+      https://commons.wikimedia.org/wiki/File:Orange_blue_digital_signature_de.svg
       <br />
 
       Ich bin nicht der Eigentümer der oben genannten Bilder.

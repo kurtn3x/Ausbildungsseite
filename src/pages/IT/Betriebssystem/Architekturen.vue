@@ -15,7 +15,7 @@
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
     >
-      Erstes Seitenthema
+      TBD
     </div>
   </q-page>
 </template>

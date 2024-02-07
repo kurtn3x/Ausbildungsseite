@@ -61,6 +61,7 @@
       ARP- Address Resolution Protocol
     </div>
     <ul>
+      <li>Ermöglicht Zuordnung von IP-Adressen zu MAC-Adressen</li>
       <li>
         löst IP-Adressen in MAC-Adressen auf um Adressierung im Ethernet-Header
         zu gewährleisten
@@ -68,6 +69,10 @@
       <li>wird benötigt um Pakete im Netz zu adressieren</li>
       <li>ARP-Request an "FF-FF-FF-FF-FF-FF" -> 'MAC-Broadcast'</li>
       <li>Daten werden in einem lokalen ARP-Cache gespeichert</li>
+      <li>
+        <a class="text-weight-bolder">Reverse-ARP (RARP): </a>Ermöglicht
+        Zuordnung MAC-Adressen zu IP-Adressen
+      </li>
     </ul>
     <q-separator class="q-mt-md" />
 

@@ -224,14 +224,13 @@ export default defineComponent({
 .tg {
   border-collapse: collapse;
   border-spacing: 0;
-  table-layout: fixed;
-  width: 100%;
+  table-layout: auto;
 }
 .tg td {
   border-style: solid;
   border-width: 1px;
   overflow: hidden;
-  padding: 10px 5px;
+  padding: 15px 20px;
   word-break: break-word;
 }
 .tg th {
@@ -243,6 +242,6 @@ export default defineComponent({
 }
 .tg .tg-0lax {
   text-align: left;
-  vertical-align: top;
+  vertical-align: center;
 }
 </style>

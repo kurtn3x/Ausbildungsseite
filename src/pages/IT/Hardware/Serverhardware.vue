@@ -30,7 +30,7 @@
         </li>
         <li>Besondere Merkmale von Server-CPUs:</li>
         <ul>
-          <li>meist keinte GPU</li>
+          <li>meist keine integrierte GPU</li>
           <li>Unterstützen mehrere TiB RAM</li>
           <li>großer Cache</li>
           <li>Unterstützung von ECC-RAM</li>

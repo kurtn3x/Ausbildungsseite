@@ -99,7 +99,7 @@
           beinhaltet Werkzeuge zur Auswertung, Analyse, Bearbeitung und
           Präsentation von Daten
         </li>
-        <li>Aufgaben:</li>
+        <li class="text-weight-bold">Aufgaben:</li>
         <ul>
           <li>
             Datenintegration: einheitliche Verwaltung der benötigten Daten

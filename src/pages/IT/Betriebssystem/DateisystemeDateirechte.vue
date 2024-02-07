@@ -81,8 +81,8 @@
         </li>
       </ul>
       <li>
-        viele weitere z.B. btrfs (Linux, gut für backups durch integriertes
-        snapshot-management), HFS & HFS+ (veraltetes Apple Filesystem), APFS
+        viele weitere z.B. btrfs (Linux, gut für Backups durch integriertes
+        Snapshot-Management), HFS & HFS+ (veraltetes Apple Filesystem), APFS
         (Apple File System, Update von HFS)
       </li>
     </ul>
@@ -244,7 +244,7 @@
             <li>
               <div
                 style="font-family: monospace, monospace"
-                class="bg-grey-9 text-white q-mt-sm"
+                class="bg-grey-9 text-white"
               >
                 chown nutzer:gruppe datei.txt
               </div>
@@ -257,7 +257,7 @@
             <li>
               <div
                 style="font-family: monospace, monospace"
-                class="bg-grey-9 text-white q-mt-sm"
+                class="bg-grey-9 text-white"
               >
                 chmod 755 datei.txt
               </div>
@@ -269,7 +269,7 @@
             <li>
               <div
                 style="font-family: monospace, monospace"
-                class="bg-grey-9 text-white q-mt-sm"
+                class="bg-grey-9 text-white"
               >
                 umask 022
               </div>

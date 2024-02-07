@@ -47,6 +47,22 @@
         </li>
         <li>Je nach DHCP-Server noch mehr Funktionen</li>
       </ul>
+      <li><a class="text-weight-bolder text-h7">DHCP besitzt 3 Modi:</a></li>
+      <ul>
+        <li>
+          <a class="text-weight-bolder">Statisches DHCP</a>: feste Zuordnung von
+          MAC-Adresse zur IP
+        </li>
+        <li>
+          <a class="text-weight-bolder">Automatisches DHCP</a>: Adressen in
+          einer Range werden automatisch & permanent vergeben
+        </li>
+        <li>
+          <a class="text-weight-bolder">Dynamisches DHCP</a>: Adressen in einer
+          Range werden automatisch und mit einer Verleihzeit (Lease-Time)
+          vergeben
+        </li>
+      </ul>
       <li class="text-weight-bolder">DHCP-Relay</li>
       <ul>
         <li>Verwenden von DHCP über Netzgrenzen hinaus</li>
@@ -93,24 +109,9 @@
           </li>
         </ul>
       </ul>
-
-      <li><a class="text-weight-bolder">DHCP besitzt 3 Modi:</a></li>
-      <ul>
-        <li>
-          <a class="text-weight-bold">Statisches DHCP</a>: feste Zuordnung von
-          MAC-Adresse zur IP
-        </li>
-        <li>
-          <a class="text-weight-bold">Automatisches DHCP</a>: Adressen in einer
-          Range werden automatisch & permanent vergeben
-        </li>
-        <li>
-          <a class="text-weight-bold">Dynamisches DHCP</a>: Adressen in einer
-          Range werden automatisch und mit einer Verleihzeit (Lease-Time)
-          vergeben
-        </li>
-      </ul>
-      <li><a class="text-weight-bolder">DHCP Anfrage - Ablauf</a></li>
+      <li>
+        <a class="text-weight-bolder text-h7 q-mt-sm">DHCP Anfrage - Ablauf</a>
+      </li>
       <ul>
         <li>
           Client sendet an <a class="text-weight-bolder">ALLE </a> Anderen im
