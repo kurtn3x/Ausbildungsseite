@@ -20,15 +20,25 @@
     <ul>
       <li class="text-weight-bolder text-h7">symmetrische Kryptographie</li>
       <ul>
-        <li>
-          Teilnehmer verwenden selben Schlüssel für Ver- und Entschlüsselung
-        </li>
+        <li>Teilnehmer verwenden einen gemeinsamen, identischen Schlüssel</li>
+        <ul>
+          <li>
+            Bei der Verschlüsselung wird dieser gemeinsame Schlüssel sowohl für
+            die Verschlüsselung als auch für die Entschlüsselung der Nachricht
+            angewandt
+          </li>
+        </ul>
         <li>
           teilweise auch Schlüssel die nicht identisch sind, aber leicht
           auseinander berechnet werden können (z.B. IDEA)
         </li>
-        <li>Hauptsächliche Verwendung: Verschlüsselung von Nachrichten</li>
-        <li>z.B.: Caesar-Verschlüsselung</li>
+        <li class="text-red">
+          Nachteil: Übertragung des Schlüssels muss geheim Erfolgen, da Jeder,
+          der Zugriff auf den Schlüssel hat auch Zugriff auf die verschlüsselten
+          Informationen hat
+        </li>
+        <li>Verwendung: Verschlüsselung von Nachrichten</li>
+        <li>einfachstes Beispiel: Caesar-Verschlüsselung</li>
         <ul>
           <li>
             Jeder Buchstabe des Ausgangstextes wird um x Positionen im Alphabet
@@ -41,12 +51,7 @@
             zum Einsatz
           </li>
         </ul>
-        <li class="text-red">
-          Nachteil: Übertragung des Schlüssels muss geheim Erfolgen, da Jeder,
-          der Zugriff auf den Schlüssel hat auch Zugriff auf die verschlüsselten
-          Informationen hat
-        </li>
-        <li>Beispiele:</li>
+        <li>Beispiele symmetrischer Verschlüsselungsmethoden:</li>
         <ul>
           <li>
             AES (Advanced Encryption Standard), de facto Standard für
@@ -64,9 +69,9 @@
           <li>Twofish</li>
         </ul>
         <q-img
-          class="fit bg-grey-5 q-mt-md"
+          class="fit bg-grey-5 q-mt-xs"
           :src="src + '/datenschutz/symmetrisch.png'"
-          style="max-width: 400px"
+          style="max-width: 300px"
           @click="
             show_img = true;
             popupsrc = '/datenschutz/symmetrisch.png';
@@ -125,9 +130,9 @@
             erfolgen.
           </li>
           <q-img
-            class="fit bg-grey-5 q-mt-md"
+            class="fit bg-grey-5 q-mt-xs"
             :src="src + '/datenschutz/asymmetrisch.png'"
-            style="max-width: 400px"
+            style="max-width: 300px"
             @click="
               show_img = true;
               popupsrc = '/datenschutz/asymmetrisch.png';
@@ -146,7 +151,7 @@
           </q-img>
         </ul>
 
-        <li class="text-weight-bolder">digitale Signaturen</li>
+        <li class="text-weight-bolder q-mt-sm">digitale Signaturen</li>
         <ul>
           <li>
             = berechneter Wert der zu signierenden Daten mithilfe eines
@@ -165,9 +170,9 @@
             Verschlüsselung mit dem privaten Schlüssel
           </li>
           <q-img
-            class="fit bg-grey-5 q-mt-md"
+            class="fit bg-grey-5 q-mt-xs"
             :src="src + '/datenschutz/signatur.png'"
-            style="max-width: 400px"
+            style="max-width: 300px"
             @click="
               show_img = true;
               popupsrc = '/datenschutz/signatur.png';
@@ -186,7 +191,7 @@
           </q-img>
         </ul>
 
-        <li class="text-weight-bolder">Public-Key-Authentifizierung</li>
+        <li class="text-weight-bolder q-mt-sm">Public-Key-Authentifizierung</li>
         <ul>
           <li>
             Öffentlicher Schlüssel eines Nutzers wird auf dem Server gespeichert
@@ -222,7 +227,7 @@
           <li>
             Diffie-Hellman-Merkle Schlüsselaustausch - Verfahren für
             Vereinbarung eines symmetrischen Schlüssels auf Basis der
-            asymmetrischen Schlüssels der Nutzer
+            asymmetrischen Schlüssel der Nutzer
           </li>
           <li>
             ECC (Elliptische-Kurven-Kryptographie) - Überbegriff für
@@ -235,12 +240,12 @@
         </ul>
       </ul>
       <li class="text-green q-mt-md">
-        Durch die Nachteile der beiden Verschlüsselungsverfahren, ist es
-        sinnvoll beide gemeinsam zu verwenden: Dazu wird als Erstes der
-        symmetrische Schlüssel mithilfe einer asymmetrischen
-        Verschlüsselungsmethode ausgetauscht. Danach wird weiter über den
-        symmetrischen Schlüssel kommuniziert. Dieses Verfahren wird z.B. bei
-        einer TLS-Verschlüsselung angewendet.
+        Durch die Nachteile der beiden Kryptographieverfahren ist es sinnvoll
+        beide gemeinsam zu verwenden: Dazu wird als Erstes der symmetrische
+        Schlüssel mithilfe einer asymmetrischen Methode ausgetauscht. Danach
+        wird weiter über den symmetrischen Schlüssel kommuniziert. Dieses
+        Verfahren wird z.B. bei TLS mithilfe des
+        Diffie-Hellman-Schlüsselaustauschs angewandt.
       </li>
     </ul>
     <q-separator class="q-mt-md" />
@@ -523,7 +528,8 @@
       <li>
         Ein Zertifikat wird durch eine Zertifizierungsstelle (CA - Certification
         Authority) ausgestellt und signiert. Die Überprüfung der Signatur eines
-        Zertifikats erfolgt über eine Zertifikatskette.
+        Zertifikats erfolgt über eine
+        <a class="text-weight-bold">Zertifikatskette</a>.
       </li>
       <li class="text-weight-bold">Zertifikatskette</li>
       <ul>
