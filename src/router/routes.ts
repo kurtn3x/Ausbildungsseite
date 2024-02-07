@@ -316,6 +316,10 @@ const routes: RouteRecordRaw[] = [
         path: 'wlan',
         component: () => import('pages/IT/Netzwerk/WLAN.vue'),
       },
+      {
+        path: 'ssl-tls',
+        component: () => import('pages/IT/Netzwerk/SSLTLS.vue'),
+      },
 
       {
         path: 'weitere-netzwerkarten',

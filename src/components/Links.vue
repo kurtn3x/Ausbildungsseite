@@ -599,6 +599,16 @@
           <q-btn
             dense
             flat
+            to="/netzwerk/ssl-tls"
+            label="SSL & TLS"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="$route.path == '/netzwerk/ssl-tls' ? 'active' : ''"
+          />
+          <q-btn
+            dense
+            flat
             to="/netzwerk/protokolle"
             label="Weitere Protokolle"
             class="full-width q-mt-xs q-mb-xs"
