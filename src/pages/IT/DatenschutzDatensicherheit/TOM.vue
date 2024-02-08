@@ -34,9 +34,9 @@
       </li>
       <ul>
         <li>
-          Als organisatorische Maßnahmen sind solche Schutzversuche zu verstehen
-          die durch Handlungsanweisung, Verfahrens- und Vorgehensweisen
-          umgesetzt werden, z.B.:
+          Als organisatorische Maßnahmen sind solche Schutzversuche zu
+          verstehen, die durch Handlungsanweisung, Verfahrens- und
+          Vorgehensweisen umgesetzt werden, z.B.:
         </li>
         <ul>
           <li>Besucheranmeldung</li>
@@ -101,7 +101,7 @@
       <ul>
         <li>
           Maßnahmen, die Unbefugte daran hindern, personenbezogene Daten bei der
-          Übertragung, beimTransport oder bei der Speicherung zu lesen,
+          Übertragung, beim Transport oder bei der Speicherung zu lesen,
           kopieren, verändern oder zu löschen, z.B.:
         </li>
         <ul>

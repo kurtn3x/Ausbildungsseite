@@ -169,16 +169,16 @@
             werden
           </li>
           <li>
-            <a class="text-weight-bold">Persistenz:</a>: Objektvariablen
+            <a class="text-weight-bold">Persistenz:</a> Objektvariablen
             existieren, solange Objekte vorhanden sind
           </li>
           <li>
-            <a class="text-weight-bold">Polymorphie:</a>: Funktionen oder
+            <a class="text-weight-bold">Polymorphie:</a> Funktionen oder
             Methoden können in verschiedenen Objekten unterschiedlich ausgeführt
             werden
           </li>
           <li>
-            <a class="text-weight-bold">Vererbung:</a>: abgeleitete Klasse
+            <a class="text-weight-bold">Vererbung:</a> abgeleitete Klasse
             Besitzt die Methoden und Attribute der Basisklasse
           </li>
         </ul>

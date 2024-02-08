@@ -11,9 +11,9 @@
     </div>
     <ul>
       <li>
-        Der mögliche Schaden wird für jedes Zielobjekt (Anwendung, Prozess)
-        ermittelt auf Basis der Schutzziele Vertraulichkeit, Integrität und
-        Verfügbarkeit.
+        Der mögliche Schaden wird auf Basis der Schutzziele Vertraulichkeit,
+        Integrität und Verfügbarkeit für jedes Zielobjekt (Anwendung, Prozess)
+        ermittelt
       </li>
       <li>
         Jedem Schutzziel wird begründend eine Schutzbedarfsklasse zugeordnet.
@@ -23,7 +23,7 @@
       <ul>
         <li>finanzieller Schaden</li>
         <li>Personenschaden</li>
-        <li>Verstöße gegen Gesetz und Vertäge</li>
+        <li>Verstöße gegen Gesetz und Verträge</li>
         <li>Ansehen des Unternehmens</li>
         <li>Beeinträchtigung von Aufgabenerfüllung</li>
         <li>Beeinträchtigung des informationellen Selbstbestimmungsrechts</li>
@@ -78,7 +78,7 @@
       <ul>
         <li>begränzte, überschaubare Auswirkungen auf das Unternehmen</li>
         <li>
-          Verstöße gegen Gesetze, Vorschriften, Verträge geringfügige
+          Verstöße gegen Gesetze, Vorschriften, Verträge haben geringfügige
           juristische Konsequenzen
         </li>
         <li>
@@ -86,36 +86,36 @@
           Betroffene
         </li>
         <li>persönliche Unversehrtheit nicht beeinträchtigt</li>
-        <li>Ausfallzeiten von mehr als 48 Stunden sind tolleriert</li>
+        <li>Ausfallzeiten von mehr als 48 Stunden sind toleriert</li>
         <li>kein Ansehensverlust</li>
       </ul>
       <li class="text-weight-bolder">Schutzbedarfskategorie hoch</li>
       <ul>
         <li>beträchtliche Auswirkungen auf das Unternehmen</li>
         <li>
-          Verstöße gegen Gesetze, Vorschriften, Verträge schwerwiegende/hohe
-          juristische Konsequenzen
+          Verstöße gegen Gesetze, Vorschriften, Verträge haben
+          schwerwiegende/hohe juristische Konsequenzen
         </li>
         <li>
           Missbrauch personenbezogener Daten hätte beträchtliche Auswirkungen
           auf Betroffene
         </li>
         <li>persönliche Unversehrtheit nicht dauerhaft beeinträchtigt</li>
-        <li>Ausfallzeiten von höchstens 48 Stunden sind tolleriert</li>
+        <li>Ausfallzeiten von höchstens 48 Stunden sind toleriert</li>
         <li>Ansehensverlust ist beträchtlich</li>
       </ul>
       <li class="text-weight-bolder">Schutzbedarfskategorie sehr hoch</li>
       <ul>
         <li>katastrophale Auswirkungen auf das Unternehmen</li>
         <li>
-          Verstöße gegen Gesetze, Vorschriften, Verträge Existenzgefährdend
+          Verstöße gegen Gesetze, Vorschriften, Verträge sind existenzgefährdend
         </li>
         <li>
           Missbrauch personenbezogener Daten hätte ruinöse Auswirkungen auf
           Betroffene
         </li>
         <li>persönliche Unversehrtheit dauerhaft beeinträchtigt</li>
-        <li>Ausfallzeiten von allerhöchstens 2 Stunden sind tolleriert</li>
+        <li>Ausfallzeiten von allerhöchstens 2 Stunden sind toleriert</li>
         <li>nachhaltiger Ansehensverlust</li>
       </ul>
     </ul>

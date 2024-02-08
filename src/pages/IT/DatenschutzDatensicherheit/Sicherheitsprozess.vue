@@ -108,9 +108,11 @@
           (Informationssicherheitmanagement)
         </li>
       </ul>
-      <li class="text-weight-bolder">Der Informationssicherheitsbeauftragte</li>
+      <li class="text-weight-bolder">
+        Der Informationssicherheitsbeauftragte (IB)
+      </li>
       <ul>
-        <li>Steuerung u. Koodinierung des Sicherheitsprozesses</li>
+        <li>Steuerung u. Koordinierung des Sicherheitsprozesses</li>
         <li>
           Unterstützung der Leitung bei Erstellung der Sicherheitsleitlinie
         </li>
@@ -119,7 +121,7 @@
           die Initiierung und Überprüfung der Umsetzung
         </li>
         <li>
-          Sicherheitsrelevante Projekte koodinieren, Sicherheitsrelevante
+          Sicherheitsrelevante Projekte koordinieren, Sicherheitsrelevante
           Vorfälle dokumentieren
         </li>
         <li>
@@ -148,7 +150,7 @@
           Informationssicherheit zuständig
         </li>
         <li>
-          koodiniert, berät und kontrolliert Analysen, Konzepte und Richtlinien
+          koordiniert, berät und kontrolliert Analysen, Konzepte und Richtlinien
         </li>
         <li>
           Überprüft ob geplante Sicherheitsmaßnahmen geeignet und wirksam sind
