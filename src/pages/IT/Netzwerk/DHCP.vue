@@ -51,7 +51,8 @@
       <ul>
         <li>
           <a class="text-weight-bolder">Statisches DHCP</a>: feste Zuordnung von
-          MAC-Adresse zur IP
+          MAC-Adresse zur IP; das Gerät mit der selben MAC-Adresse bekommt immer
+          die gleiche IP
         </li>
         <li>
           <a class="text-weight-bolder">Automatisches DHCP</a>: Adressen in

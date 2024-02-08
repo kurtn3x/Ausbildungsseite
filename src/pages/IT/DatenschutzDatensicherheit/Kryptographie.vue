@@ -23,15 +23,10 @@
         <li>Teilnehmer verwenden einen gemeinsamen, identischen Schlüssel</li>
         <ul>
           <li>
-            Bei der Verschlüsselung wird dieser gemeinsame Schlüssel sowohl für
-            die Verschlüsselung als auch für die Entschlüsselung der Nachricht
-            angewandt
+            Schlüssel sowohl für die Verschlüsselung als auch für die
+            Entschlüsselung der Nachricht angewandt
           </li>
         </ul>
-        <li>
-          teilweise auch Schlüssel die nicht identisch sind, aber leicht
-          auseinander berechnet werden können (z.B. IDEA)
-        </li>
         <li class="text-red">
           Nachteil: Übertragung des Schlüssels muss geheim Erfolgen, da Jeder,
           der Zugriff auf den Schlüssel hat auch Zugriff auf die verschlüsselten
@@ -65,13 +60,11 @@
             abgelöst
           </li>
           <li>IDEA (International Data Encryption Algorithm)</li>
-          <li>Blowfish</li>
-          <li>Twofish</li>
         </ul>
         <q-img
           class="fit bg-grey-5 q-mt-xs"
           :src="src + '/datenschutz/symmetrisch.png'"
-          style="max-width: 300px"
+          style="max-width: 400px"
           @click="
             show_img = true;
             popupsrc = '/datenschutz/symmetrisch.png';
@@ -132,7 +125,7 @@
           <q-img
             class="fit bg-grey-5 q-mt-xs"
             :src="src + '/datenschutz/asymmetrisch.png'"
-            style="max-width: 300px"
+            style="max-width: 400px"
             @click="
               show_img = true;
               popupsrc = '/datenschutz/asymmetrisch.png';
@@ -172,7 +165,7 @@
           <q-img
             class="fit bg-grey-5 q-mt-xs"
             :src="src + '/datenschutz/signatur.png'"
-            style="max-width: 300px"
+            style="max-width: 400px"
             @click="
               show_img = true;
               popupsrc = '/datenschutz/signatur.png';
@@ -458,54 +451,6 @@
             Click for full size
           </div>
         </q-img>
-        <li class="q-mt-md">
-          <div
-            style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
-          >
-            >>> import hashlib
-          </div>
-          <div
-            style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
-          >
-            >>> print(f"Hashwert von Hallo:
-            {hashlib.md5('Hallo'.encode('utf-8')).hexdigest()}")
-          </div>
-          <div
-            style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
-          >
-            Hashwert von Hallo: d1bf93299de1b68e6d382c893bf1215f
-          </div>
-          <div
-            style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
-          >
-            >>> print(f"Hashwert von Guten Morgen: {hashlib.md5('Guten
-            Morgen'.encode('utf-8')).hexdigest()}")
-          </div>
-          <div
-            style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
-          >
-            Hashwert von Guten Morgen: 41a71d2d71001d0f6d4963f6d395eef2
-          </div>
-
-          <div
-            style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
-          >
-            >>> print(f"Nochmal Hashwert von Hallo:
-            {hashlib.md5('Hallo'.encode('utf-8')).hexdigest()}")
-          </div>
-          <div
-            style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
-          >
-            Nochmal Hashwert von Hallo: d1bf93299de1b68e6d382c893bf1215f
-          </div>
-        </li>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
@@ -600,6 +545,42 @@
           Click for full size
         </div>
       </q-img>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+    >
+      Weitere Begriffe zur Kryptographie
+    </div>
+    <ul>
+      <li class="text-weight-bolder">Cipher Suite</li>
+      <ul>
+        <li>ist eine standardisierte Sammlung kryptographischer Verfahren</li>
+        <li>
+          in TLS legt sie z.B. fest, welche Algorithmen zum Aufbau einer
+          Verbindung verwendet werden sollen
+        </li>
+        <li>Algorithmen in 4 Gruppen unterteilt</li>
+        <ul>
+          <li>
+            <a class="text-weight-bold">Schlüsselaustausch:</a> asymmetrische
+            Verschlüsselungsmethode wie RSA oder asymmetrische
+            Schlüsselaustauschmethode wie Diffie-Hellman
+          </li>
+          <li>
+            <a class="text-weight-bold">Authentifizierung:</a> asymmetrische
+            Signaturmethode wie RSA, DSA oder ECDSA
+          </li>
+          <li>
+            <a class="text-weight-bold">Verschlüsselung:</a> symmetrische
+            Verschlüsselungsmethode wie AES, DES oder Triple-DES
+          </li>
+          <li>
+            <a class="text-weight-bold">Hashfunktion:</a> Hashmethode wie MD5
+            oder SHA2
+          </li>
+        </ul>
+      </ul>
     </ul>
 
     <q-separator class="q-mt-md" />

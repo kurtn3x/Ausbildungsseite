@@ -16,7 +16,11 @@ export default defineComponent({
       settingsStore.darkmode = true;
     }
     if (settingsStore.fontsizeState == null) {
-      settingsStore.fontsize = 100;
+      if (q.screen.width < 1024) {
+        settingsStore.fontsize = 100;
+      } else {
+        settingsStore.fontsize = 120;
+      }
     }
     q.dark.set(settingsStore.darkmodeState);
     settingsStore.$subscribe((mutation, state) => {
@@ -30,9 +34,9 @@ export default defineComponent({
   computed: {
     ulPadding() {
       if (this.q.screen.width < 1024) {
-        return 20 + 'px';
+        return 15 + 'px';
       } else {
-        return 35 + 'px';
+        return 30 + 'px';
       }
     },
   },
