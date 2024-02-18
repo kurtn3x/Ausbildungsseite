@@ -54,8 +54,8 @@
               </td>
               <td class="tg-0lax">
                 Bei Kabelbruch fällt Netz aus<br /><br />Kollisionsmöglichkeit
-                und ein Sender blockiert alle Anderen <br />Jeder kann
-                Datenverkehr mithören
+                und ein Sender blockiert alle Anderen <br /><br />
+                Unsicher, Jeder kann mithören
               </td>
             </tr>
             <tr>

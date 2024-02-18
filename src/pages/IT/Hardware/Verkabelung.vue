@@ -102,7 +102,7 @@
             Durch Verdrillen wird in andere Richtung als der Partner gestrahlt
           </li>
           <li>
-            Twsited-Pair-Kabel besitzen unterschiedliche Arten von
+            Twisted-Pair-Kabel besitzen unterschiedliche Arten von
             Abschirmungen, welche einen zusätzlichen Schutz gegen störende
             äußere elektromagnetische Felder bieten:
           </li>

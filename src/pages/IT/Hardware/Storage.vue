@@ -39,10 +39,10 @@
           Besteht aus Festplatten, Stromversorgung und einem Netzwerkinterface
         </li>
         <li>jedes NAS muss einzeln konfiguriert werden</li>
-        <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
         <li>Zugriff über Remoteprotokoll wie SMB, NFS, FTP oder auch HTTP</li>
-        <li>unkompliziert und schnell</li>
         <li>oft Datensicherheit durch konfigurierbares RAID</li>
+        <li>unkompliziert und schnell</li>
+        <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
       </ul>
 
       <li class="text-weight-bolder text-h7">SAN - Storage Area Network</li>
@@ -61,12 +61,12 @@
           Speicher von allen Servern gemeinsam genutzt werden kann → gesamter
           Speicher steht als ein Block zur Verfügung
         </li>
-        <li>Flexibilität durch vereinfachte Speicherzuweisung</li>
         <li>
           verschiedene Schnitstellen: Fibre Channel, iSCSI, Ethernet, Infiniband
         </li>
-        <li>oft große Unternehmen bzw. wichtige Services</li>
+        <li>Flexibilität durch vereinfachte Speicherzuweisung</li>
         <li>hohe Datendurchsätze und niedrige Latenz</li>
+        <li>oft große Unternehmen bzw. wichtige Services</li>
       </ul>
       <q-img
         class="fit bg-grey-5"
@@ -92,8 +92,13 @@
       Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
     </div>
     <ul>
-      <li class="text-weight-bolder">NFS - Network File System</li>
+      <li class="text-weight-bolder">NFS - Network File System (Protokoll)</li>
       <ul>
+        <li>Netzwerkprotokoll, das Zugriff auf Dateien ermöglicht</li>
+        <li>
+          Dateien werden nicht direkt übertragen, sondern Nutzer greifen auf
+          Remote-Dateien so zu, als wären sie auf ihrer lokalen Festplatte
+        </li>
         <li>Kommunikation zwischen NFS-fähigen Client und NFS-Server</li>
         <li>
           Server prüft bei Zugriff ob die Datei existiert und ob der Client
@@ -107,18 +112,28 @@
         <li>Neueste NFS-Version: NFSv4</li>
         <li>besonders Linux</li>
       </ul>
-      <li class="text-weight-bolder">SMB - Server Message Block</li>
+      <li class="text-weight-bolder">SMB - Server Message Block (Protokoll)</li>
       <ul>
-        <li>ähnlich NFS</li>
+        <li>Netzwerkprotokoll für Datei-, Druck- und andere Serverdienste</li>
+        <li>Netzwerkdateisystem ähnlich wie NFS</li>
         <li>
           Dateien werden nicht auf lokalem SMB-Client gemountet, sondern über
           einen Netzwerkpfad auf eine Netzwerkfreigabe bereitgestellt
         </li>
         <li>Neueste SMB-Version: SMB 3.1.1</li>
         <li>besonders Windows</li>
+        <li>
+          auf Linux wird eine Kompatibilität mithilfe des Projekts
+          <a class="text-weight-bold">Samba</a> ermöglicht, welches
+          Windows-proprietäre Funktionen wie Datei- und Druckerdienste oder die
+          Domain-Controller-Funktionalität unter anderen Betriebssystemen
+          verfügbar macht
+        </li>
       </ul>
 
-      <li class="text-weight-bolder">SCSI - Small Computer System Interface</li>
+      <li class="text-weight-bolder">
+        SCSI - Small Computer System Interface (Protokolle & Schnittstellen)
+      </li>
       <ul>
         <li>
           Protokoll zur Steuerung der Kommunikation zwischen Massenspeicher und
@@ -139,7 +154,9 @@
           </li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">FC - Fibre Channel</li>
+      <li class="text-weight-bolder">
+        FC - Fibre Channel (Schnitstelle, Protokoll-Stack)
+      </li>
       <ul>
         <li>Übertragungssystem, das für Speichernetze (SAN) eingesetzt wird</li>
         <li>
@@ -152,7 +169,7 @@
         </li>
       </ul>
 
-      <li class="text-weight-bolder">Infiniband</li>
+      <li class="text-weight-bolder">Infiniband (Schnitstelle)</li>
       <ul>
         <li>
           Spezifikation einer Hardwareschnitstelle für
@@ -167,8 +184,11 @@
         </li>
       </ul>
 
-      <li class="text-weight-bolder">HTTP</li>
+      <li class="text-weight-bolder">HTTP (Protokoll)</li>
       <ul>
+        <li>
+          Übertragung von Websiten aus dem World Wide Web auf den Webbrowser
+        </li>
         <li>
           Nicht als Speicherprotokoll vorgesehen, jedoch trotzdem oft verwendet
         </li>
@@ -238,6 +258,11 @@
           </li>
         </ul>
       </ul>
+      <li>
+        Die oben genannten Backupstrategien stellen selten die Realität dar. Oft
+        werden Hybrid-Typen verwendet die nicht direkt einer Backupstrategie
+        zugeordnet werden können.
+      </li>
     </ul>
 
     <q-separator class="q-mt-md" />
@@ -247,34 +272,6 @@
       Sonstige Begriffe
     </div>
     <ul>
-      <li class="text-weight-bolder">Komprimentierung</li>
-      <ul>
-        <li>
-          Anzahl der für die Darstellung von Daten benötigten Bits verringert
-        </li>
-        <li>durch entfernen von redundanten Daten innerhalb der Datei</li>
-        <li>
-          Algorithmus stellt die Originaldaten beim Lesen der Datei wieder her
-        </li>
-      </ul>
-      <li class="text-weight-bolder">Deduplizierung</li>
-      <ul>
-        <li>Eliminieren redundanter Dateien auf einem Speichersystem</li>
-        <li>Es wird nur eine Instanz einer Datei gespeichert</li>
-        <li>
-          z.B. gleiches Dokument, welches in verschiedenen Unterordnern
-          gespeichert wird, wird dedupliziert, sodass das gespeicherte Dokument
-          nur einmal wirklich gespeichert wurde und die restlichen "Dateien" nur
-          auf das echte Dokument zeigen
-        </li>
-        <li>
-          Deduplizierung auf Blockebene (im Gegenzug zur Dateiebene) speichert
-          eindeutige Wiederholungen jedes Blocks in einer Datei. Falls die Datei
-          geändert wurde, werden nur die überarbeiteten Daten gespeichert,
-          wodurch keine neue Datei entsteht. Effizienter, jedoch
-          rechenintensiver.
-        </li>
-      </ul>
       <li>
         <a class="text-weight-bolder">Block:</a> Speicherbereich (Folge von Bits
         oder Bytes) mit fester Größe (Blockgröße)
@@ -305,6 +302,40 @@
             verändert werden, sondern nur die Blöcke, die verändert wurden.
           </li>
         </ul>
+      </ul>
+      <li class="text-weight-bolder">Komprimentierung</li>
+      <ul>
+        <li>
+          Anzahl der für die Darstellung von Daten benötigten Bits verringert
+        </li>
+        <li>durch entfernen von redundanten Daten innerhalb der Datei</li>
+        <li>
+          Algorithmus stellt die Originaldaten beim Lesen der Datei wieder her
+        </li>
+      </ul>
+      <li class="text-weight-bolder">Deduplizierung</li>
+      <ul>
+        <li>Eliminieren redundanter Kopien von Daten</li>
+        <li>
+          auf Dateiebene: es wird nur eine Instanz einer Datei gespeichert.
+          Falls eine neue Datei gespeichert wird, wird geschaut ob es sie
+          bereits gibt. Wenn sie noch nicht existiert wird die neue Datei
+          angelegt. Wenn sie bereits existiert wird nur ein Link zur
+          existierenden Datei erstellt.
+        </li>
+        <li>
+          auf Blockebene: es werden nur einzigartige Wiederholungen jedes Blocks
+          gespeichert. Dazu wird der Hashwert jedes einzigartigen Blocks in
+          einer Datenbank gespeichert und neue Blöcke mit diesem verglichen
+          (falls es den Hashwert bereits gibt, gibt es den Block bereits und er
+          muss nicht nochmal gespeichert werden). Wenn sich eine Datei ändert
+          werden nur die veränderten Blöcke (also die veränderten Teile der
+          Datei) überschrieben. Sehr effizient, jedoch rechenintensiv
+        </li>
+        <li>
+          auf Byteebene: wie Blockebene, jedoch Bytevergleich anstatt
+          Blockvergleich
+        </li>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />

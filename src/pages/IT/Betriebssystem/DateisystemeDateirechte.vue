@@ -192,9 +192,11 @@
         <li class="text-weight-bolder">Umask</li>
         <ul>
           <li>
-            gibt an, welche Rechte ein Programm (wie z.B. touch) auf eine neu
-            angelegte Datei setzen darf; das Programm kann die Rechte jedoch
-            immernoch von sich aus setzen, die umask schränkt es nur ein
+            gibt an, welche Rechte ein Programm (wie z.B. touch → anlegen einer
+            leeren Datei) auf eine neu angelegte Datei/Ordner setzen darf; das
+            Programm kann die Rechte jedoch immernoch von sich aus einschränken
+            (z.B. touch legt eine Datei immer ohne Ausführrechte an, selbst wenn
+            die umask es erlaubt)
           </li>
           <li>
             In der umask werden die 3 Rechtebits (in Dezimal) für jede

@@ -72,7 +72,7 @@
       </li>
       <li>
         Kann in den verschiedensten Formen ausfallen, ein einfachstes
-        Pflichtenheft enthält einen Projektstrukturplan, die Bennenung des
+        Pflichtenheft enthält einen Projektstrukturplan, die Benennung des
         Liefertermins und des Preises
       </li>
       <li>weitere Inhalte:</li>
