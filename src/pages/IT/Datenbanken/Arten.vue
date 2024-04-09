@@ -48,11 +48,11 @@
             Verfälschung von Daten
           </li>
           <li>
-            Isolation: konkurrirende Transaktionen dürfen sich nicht gegenseitig
+            Isolation: konkurrierende Transaktionen dürfen sich nicht gegenseitig
             beeinflussen
           </li>
           <li>
-            Dauerhaftigkeit: Systemausfall darf Auswirkungen einer efolgreichen
+            Dauerhaftigkeit: Systemausfall darf Auswirkungen einer erfolgreichen
             Transaktion nicht rückgängig machen
           </li>
         </ul>

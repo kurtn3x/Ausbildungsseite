@@ -88,9 +88,10 @@
       <li class="q-mt-md text-weight-bolder">Erste Normalform</li>
       <ul>
         <li>
-          Werte sind nicht atomar! (mehrere Werte in einer Spalte) -> Atomar
-          machen, also mehrere Datensätze innerhalb einer Zelle auf einzelne
-          aufgliedern
+          Alle Datensätze sollten atomar sein, also jedes Datenfeld darf nur
+          einen Wert enthalten. Dazu sollte auch sichergestellt werden, dass
+          jede Spalte nur Werte des selben Datentyps enthält, also sollte z.B.
+          eine Adresse in Ort, Straße und Hausnummer aufgegliedert werden.
         </li>
       </ul>
       <div style="overflow-x: auto">
@@ -199,15 +200,15 @@
       <ul>
         <li>
           Änderungsanomalien vermeiden, z.B. Namensänderungen müssten in
-          mehreren Zeilen geschehen, Bei Löschung von Personen werden
+          mehreren Zeilen geschehen oder bei der Löschung von Personen werden
           Projektinformationen mit gelöscht
         </li>
         <li>
-          -> Tabelle muss in Einzelteile zerlegt werden, um Änderungsanomalien
-          zu umgehen
+          Jedes Nicht-Schlüssel-Attribut muss vom Primärschlüssel voll
+          funktional abhängig sein
         </li>
       </ul>
-      <ul>
+      <ul class="q-mt-md">
         <li>Tabelle Mitarbeiter</li>
 
         <table class="tg q-mt-md">
@@ -340,12 +341,8 @@
       <li class="text-weight-bolder q-mt-md">Dritte Normalform</li>
       <ul>
         <li>
-          Immer noch Änderungsanomalien in Tabelle Mitarbeiter möglich (z.B.
-          Abteilungsname wird geändert)
-        </li>
-        <li>
-          -> weitere Zerlegung der Tabelle Mitarbeiter in Mitarbeiter und
-          Abteilungstabelle
+          Es darf keine transitiven Abhängigkeiten geben. (Aus keinem
+          Nicht-Schlüssel-Attribut folgt ein anderes Nicht-Schlüssel-Attribut)
         </li>
 
         <li class="q-mt-md">Tabelle Mitarbeiter</li>

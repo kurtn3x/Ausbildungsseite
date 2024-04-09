@@ -27,10 +27,13 @@
             Entschlüsselung der Nachricht angewandt
           </li>
         </ul>
+        <li class="text-green">
+          Vorteil: schnell, benötigt wenig Rechenleistung, einfach zu verstehen
+        </li>
         <li class="text-red">
-          Nachteil: Übertragung des Schlüssels muss geheim Erfolgen, da Jeder,
-          der Zugriff auf den Schlüssel hat auch Zugriff auf die verschlüsselten
-          Informationen hat
+          Nachteil: Jeder mit Zugriff auf Schlüssel hat auch Zugriff auf die
+          verschlüsselten Daten, geheimer Schlüssel muss über einen sicheren
+          Kanal ausgetauscht werden
         </li>
         <li>Verwendung: Verschlüsselung von Nachrichten</li>
         <li>einfachstes Beispiel: Caesar-Verschlüsselung</li>
@@ -94,8 +97,13 @@
           </li>
           <li>Es werden keine gemeinsamen, geheimen Schlüssel verwendet</li>
         </ul>
+        <li class="text-green">
+          Vorteil: Geheimer Schlüssel muss nicht geteilt werden, Öffentlicher
+          Schlüssel kann über unsichere Kanäle ausgetauscht werden
+        </li>
         <li class="text-red">
-          Nachteil: deutlich langsamer als symmetrische Verschlüsselungsmethoden
+          Nachteil: deutlich langsamer, benötigt mehr Rechenleistung und ist
+          komplexer als symmetrische Verschlüsselungsmethoden
         </li>
         <li>
           Verwendung für digitale Signaturen, Public-Key-Authentifizierung,

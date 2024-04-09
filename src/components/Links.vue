@@ -238,6 +238,16 @@
       <q-btn
         dense
         flat
+        to="/hardware/raid"
+        label="RAID"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/hardware/raid' ? 'active' : ''"
+      />
+      <q-btn
+        dense
+        flat
         to="/hardware/storage-backup"
         label="Storage & Backup"
         class="full-width q-mt-xs"
@@ -638,18 +648,6 @@
     :content-inset-level="0.2"
   >
     <div class="q-ma-xs">
-      <q-btn
-        dense
-        flat
-        to="/datenschutz-datensicherheit/raid"
-        label="RAID & Datensicherung"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="
-          $route.path == '/datenschutz-datensicherheit/raid' ? 'active' : ''
-        "
-      />
       <q-btn
         dense
         flat

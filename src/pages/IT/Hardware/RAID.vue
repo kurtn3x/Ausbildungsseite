@@ -9,7 +9,7 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      RAID & Datensicherung
+      RAID
     </div>
     <q-separator class="q-mt-md" />
     <div
@@ -23,6 +23,13 @@
         dient zur Organisation mehrerer Massenspeicher zu einem logischen
         Laufwerk, um eine höhere Ausfallsicherheit oder Datenübertragungsrate
         gewährleisten zu können
+      </li>
+      <li>
+        Siehe
+        <router-link to="/hardware/storage-backup" class="text-light-blue">
+          Storage & Backup</router-link
+        >
+        für Backupstrategien und Storage-Lösungen
       </li>
     </ul>
     <q-separator class="q-mt-md" />

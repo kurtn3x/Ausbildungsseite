@@ -12,12 +12,17 @@
       Storage & Backup
     </div>
     <q-separator class="q-mt-md" />
+
     <div
       class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
     >
       DAS, NAS & SAN
     </div>
     <ul>
+      <li>
+        verschiedene Storage-Arten zur Speicherung und zum Zugriff auf Daten im
+        Netzwerk
+      </li>
       <li class="text-weight-bolder text-h7">DAS - Direct Attached Storage</li>
       <ul>
         <li>eine Festplatte, die direkt mit einem Server verbunden ist</li>
@@ -26,23 +31,40 @@
           Andere können über Benutzerrichtlichen oder Freigaben Zugriff auf den
           Speicher erhalten
         </li>
+        <li>
+          <a class="text-green">Vorteile:</a> geringe Kosten, wenig Hardware,
+          kein zusätzlicher Protokollstack
+        </li>
+        <li>
+          <a class="text-red">Nachteile:</a> Nur ein Host, Eingschränkte
+          Skalierbarkeit, Eingeschränkte Reichweite
+        </li>
       </ul>
 
       <li class="text-weight-bolder text-h7">NAS - Network Attached Storage</li>
       <ul>
+        <li>Anbindung über Standard Ethernet-Interface wie RJ45</li>
         <li>
-          konfigurierbarer Datenspeicher, um in einem Netzwerk Speicherplatz zur
-          Verfügung zu stellen
+          Verwenden des typischen TCP/IP-Protokoll-Stacks (für Storage
+          unoptimal)
         </li>
         <li>Festplatten nicht an Server gebunden</li>
         <li>
           Besteht aus Festplatten, Stromversorgung und einem Netzwerkinterface
         </li>
         <li>jedes NAS muss einzeln konfiguriert werden</li>
+        <li>Verwendung von Networking-Dateisystemen wie NFS oder SMB</li>
         <li>Zugriff über Remoteprotokoll wie SMB, NFS, FTP oder auch HTTP</li>
         <li>oft Datensicherheit durch konfigurierbares RAID</li>
-        <li>unkompliziert und schnell</li>
         <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
+        <li>
+          <a class="text-green">Vorteile:</a> Einfache Anbindung, konkurrierende
+          Zugriffe mehrerer Clients, gute Kompatibilität
+        </li>
+        <li>
+          <a class="text-red">Nachteile:</a> TCP/IP-Protokoll-Stack ungeeignet
+          für Storage-Traffic, Hohe Belastung des LANs
+        </li>
       </ul>
 
       <li class="text-weight-bolder text-h7">SAN - Storage Area Network</li>
@@ -65,8 +87,16 @@
           verschiedene Schnitstellen: Fibre Channel, iSCSI, Ethernet, Infiniband
         </li>
         <li>Flexibilität durch vereinfachte Speicherzuweisung</li>
-        <li>hohe Datendurchsätze und niedrige Latenz</li>
         <li>oft große Unternehmen bzw. wichtige Services</li>
+        <li>
+          <a class="text-green">Vorteile:</a> Hohe Transferraten, Niedrige
+          Latenz, Hohe Reichweite, Zentralisierung des Speichers und dadurch
+          einfachere Administration
+        </li>
+        <li>
+          <a class="text-red">Nachteile:</a> Teuer, Kompliziert,
+          Kompatibilitätsprobleme, Extra Infrastrukturebene für Speicher
+        </li>
       </ul>
       <q-img
         class="fit bg-grey-5"
@@ -208,6 +238,8 @@
           vorgenommen wurden
         </li>
         <li>langsam und beansprucht am meisten Speicherplatz</li>
+        <li>sichert Dateien unabhängig von Archivbit</li>
+        <li>setzt das Archivbit zurück</li>
       </ul>
 
       <li class="text-weight-bolder">inkrementelles Backup</li>
@@ -216,6 +248,10 @@
           es werden nur die Dateien gesichert, die sich seit dem letzten Backup
           verändert haben
         </li>
+        <li>
+          sichert also alle Dateien, die über ein gesetztes Archivbit verfügen
+        </li>
+        <li>Archivbit wird zurückgesetzt</li>
         <li class="text-green">Vorteile:</li>
         <ul>
           <li>schnell und effizient</li>
@@ -238,6 +274,10 @@
           es werden nur die Dateien gesichert, die sich seit dem letzten
           <a class="text-blue">vollständigen</a> Backup verändert haben
         </li>
+        <li>
+          sichert also alle Dateien, die über ein gesetztes Archivbit verfügen
+        </li>
+        <li>das Archivbit bleibt unverändert</li>
         <li>
           Größe der Backupdatei nimmt immer weiter zu, bis zum nächsten
           Vollbackup
@@ -283,6 +323,17 @@
         <a class="text-weight-bolder">Volume/LUN:</a> Logischer, blockbasierter
         Bereich
       </li>
+      <li class="text-weight-bolder">Archivbit</li>
+      <ul>
+        <li>
+          Dateiattribut, das in Microsoft-Betriebssystemen genutzt wird, um neu
+          angelegte oder veränderte Dateien zu kennzeichnen
+        </li>
+        <li>
+          soll bei differenziellen oder inkrementellen Backups die für das
+          Backup benötigten Dateien kennzeichnen
+        </li>
+      </ul>
 
       <li class="text-weight-bolder">blockbasierter Dateizugriff</li>
       <ul>

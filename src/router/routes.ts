@@ -119,10 +119,6 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
-        path: 'raid',
-        component: () => import('pages/IT/DatenschutzDatensicherheit/RAID.vue'),
-      },
-      {
         path: 'schutzbedarfsanalyse',
         component: () =>
           import(
@@ -186,6 +182,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'verkabelung',
         component: () => import('pages/IT/Hardware/Verkabelung.vue'),
+      },
+      {
+        path: 'raid',
+        component: () => import('pages/IT/Hardware/RAID.vue'),
       },
       {
         path: 'usv',
