@@ -421,7 +421,7 @@
             dense
             flat
             to="/netzwerk/weitere-netzwerkarten"
-            label="Weitere Netzwerkarten"
+            label="Arten nach Ausdehnung"
             class="full-width q-mt-xs q-mb-xs"
             rounded
             align="left"

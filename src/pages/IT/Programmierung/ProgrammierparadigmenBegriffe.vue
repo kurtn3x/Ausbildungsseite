@@ -179,7 +179,7 @@
           </li>
           <li>
             <a class="text-weight-bold">Vererbung:</a> abgeleitete Klasse
-            Besitzt die Methoden und Attribute der Basisklasse
+            besitzt die Methoden und Attribute der Basisklasse
           </li>
         </ul>
       </ul>

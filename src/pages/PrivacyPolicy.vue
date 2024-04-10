@@ -19,7 +19,6 @@
           </div>
           <div class="q-mt-md">Contact</div>
           <div>Mail: kurtn3x@gmail.com</div>
-          <div>Discord: nex1233#9045</div>
         </div>
       </q-card>
     </div>

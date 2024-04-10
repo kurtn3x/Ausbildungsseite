@@ -9,7 +9,7 @@
       />
     </q-dialog>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Weitere Netzwerkarten
+      Weitere Netzwerkarten nach Ausdehnung
     </div>
     <q-separator class="q-mt-md" />
     <ul>

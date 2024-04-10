@@ -334,6 +334,21 @@
           Backup benötigten Dateien kennzeichnen
         </li>
       </ul>
+      <li class="text-weight-bolder">Archivierung</li>
+      <ul>
+        <li>Langfristige Aufbewahrung von Backups</li>
+        <li>
+          Daten müssen for Manipulation (Veränderung und Löschung) geschützt
+          werden
+        </li>
+        <li>
+          Daten werden meist mit einer WORM (Write Once Read Many) Methode
+          gespeichert
+        </li>
+        <li>
+          besondere gesetzliche Vorgaben und branchenspezifische Regelungen
+        </li>
+      </ul>
 
       <li class="text-weight-bolder">blockbasierter Dateizugriff</li>
       <ul>

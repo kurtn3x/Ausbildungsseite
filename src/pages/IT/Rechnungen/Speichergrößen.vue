@@ -126,6 +126,19 @@
           </tr>
         </tbody>
       </table>
+      <li class="q-mt-sm">
+        <a class="text-weight-bolder">Beispiel: </a> Wie lange dauert der
+        Download einer 50MiB großen Datei mit einer Downloadgeschwindigkeit von
+        2Mbit/s?
+      </li>
+      <ul>
+        <li>
+          50 MiB = 51200 KiB (*1024) = 52428800 Byte (*1024) = 419430400 Bit
+          (*8)
+        </li>
+        <li>2 Mbit/s = 2000 Kbit/s (*1000) = 20000000 Bit/s (*1000)</li>
+        <li>419430400 Bit / 20000000 Bit/s = ~210 Sekunden</li>
+      </ul>
     </ul>
   </q-page>
 </template>
