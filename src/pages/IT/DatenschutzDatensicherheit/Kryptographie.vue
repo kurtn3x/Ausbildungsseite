@@ -27,16 +27,32 @@
             Entschlüsselung der Nachricht angewandt
           </li>
         </ul>
-        <li class="text-green">
-          Vorteil: schnell, benötigt wenig Rechenleistung, einfach zu verstehen
-        </li>
-        <li class="text-red">
-          Nachteil: Jeder mit Zugriff auf Schlüssel hat auch Zugriff auf die
-          verschlüsselten Daten, geheimer Schlüssel muss über einen sicheren
-          Kanal ausgetauscht werden
-        </li>
         <li>Verwendung: Verschlüsselung von Nachrichten</li>
-        <li>einfachstes Beispiel: Caesar-Verschlüsselung</li>
+
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>schnell</li>
+          <li>benötigt wenig Rechenleistung</li>
+          <li>einfach zu verstehen, unkomplex</li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>
+            Jeder mit Zugriff auf Schlüssel hat auch Zugriff auf die
+            verschlüsselten Daten
+          </li>
+          <li>
+            geheimer Schlüssel muss über einen sicheren Kanal ausgetauscht
+            werden
+          </li>
+          <li>
+            für jede neue Kommunikationsverbindung zwischen unterschiedlichen
+            Partnern wird ein neuer asymmetrischer Schlüssel benötigt
+          </li>
+        </ul>
+        <li class="text-underline">
+          einfachstes Beispiel: Caesar-Verschlüsselung
+        </li>
         <ul>
           <li>
             Jeder Buchstabe des Ausgangstextes wird um x Positionen im Alphabet
@@ -49,7 +65,7 @@
             zum Einsatz
           </li>
         </ul>
-        <li>Beispiele symmetrischer Verschlüsselungsmethoden:</li>
+        <li class="text-underline">Symmetrische Verfahren:</li>
         <ul>
           <li>
             AES (Advanced Encryption Standard), de facto Standard für
@@ -97,6 +113,10 @@
           </li>
           <li>Es werden keine gemeinsamen, geheimen Schlüssel verwendet</li>
         </ul>
+        <li>
+          Verwendung: digitale Signaturen, Public-Key-Authentifizierung,
+          Verschlüsselung, Aushandeln symmetrischer Schlüssel
+        </li>
         <li class="text-green">
           Vorteil: Geheimer Schlüssel muss nicht geteilt werden, Öffentlicher
           Schlüssel kann über unsichere Kanäle ausgetauscht werden
@@ -104,10 +124,6 @@
         <li class="text-red">
           Nachteil: deutlich langsamer, benötigt mehr Rechenleistung und ist
           komplexer als symmetrische Verschlüsselungsmethoden
-        </li>
-        <li>
-          Verwendung für digitale Signaturen, Public-Key-Authentifizierung,
-          Verschlüsselung oder beim Aushandeln symmetrischer Schlüssel
         </li>
 
         <li class="text-weight-bolder">asymmetrische Verschlüsselung</li>
@@ -221,7 +237,7 @@
           welches für alle genannten Anwendungsfälle implementiert wurde.
         </li>
 
-        <li>Beispiele:</li>
+        <li class="text-underline">Asymmetrische Verfahren:</li>
         <ul>
           <li>RSA - Verschlüsselung & Signatur von Daten</li>
           <li>DSA (Digital Signature Algorithm) - Signaturverfahren</li>
@@ -535,6 +551,11 @@
         <li>
           Zertifikate können seitens der Zertifizierungsstelle wieder unsicher
           gemacht
+        </li>
+        <li>
+          <a class="text-weight-bold">Bestandteile:</a> unter anderem Inhaber,
+          Public-Key des Inhabers, Aussteller (CA), Gültigkeit,
+          Signatur-Algorithmus, Signatur, Version
         </li>
       </ul>
       <q-img

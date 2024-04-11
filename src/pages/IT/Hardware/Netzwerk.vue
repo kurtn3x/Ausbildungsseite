@@ -201,11 +201,14 @@
       <ul>
         <li>
           Protokoll, welches sicherstellt, dass zwischen zwei Geräten jeweils
-          nur ein Datenpfad existiert
+          nur ein Datenpfad existiert und unterbindet somit Loops
         </li>
-        <li>unterbindet somit Loops</li>
         <li>
-          deaktiviert bei identifizierten Mehrfach-Wegen automatisch Ports
+          deaktiviert bei identifizierten Mehrfach-Wegen automatisch Ports,
+          lässt also eine Leitung ungenutzt liegen
+        </li>
+        <li>
+          fällt eine Leitung aus wird der Traffic über die Andere geleitet
         </li>
       </ul>
       <li class="text-weight-bold">Auto-Negotiation</li>
@@ -220,6 +223,11 @@
         <li>
           Methode, bei der mehrere Schnitstellen genutzt werden, um für eine
           Verbindung mehr Redundanz und Bandbreite bereitzustellen
+        </li>
+        <li>Mehrere Leitungen werden "gebündelt"</li>
+        <li>
+          Fällt eine Leitung aus, werden die Daten nur noch mit der
+          Übertragungsgeschwindigkeit einer Leitung gesendet
         </li>
       </ul>
     </ul>

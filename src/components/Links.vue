@@ -666,7 +666,7 @@
         dense
         flat
         to="/datenschutz-datensicherheit/kryptographie"
-        label="Kryptographie"
+        label="Kryptographie & Zertifikate"
         class="full-width q-mt-xs"
         rounded
         align="left"
