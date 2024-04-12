@@ -176,7 +176,7 @@
             bleibt unverändert
           </li>
           <li>
-            verschlüsselt alle Daten im TCP-/UDP-Header sowie diesen Header
+            verschlüsselt alle Daten im TCP-/UDP-Paket sowie den TCP-/UDP-Header
             selbst
           </li>
           <li>

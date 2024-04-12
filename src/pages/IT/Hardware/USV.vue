@@ -20,7 +20,7 @@
     <ul>
       <li class="text-weight-bolder text-h7">Offline-USV</li>
       <ul>
-        <li>auch VFD (Voltage and Frequency Dependent) genannt</li>
+        <li>auch VFD-Systeme (Voltage and Frequency Dependent) genannt</li>
         <li>Verbraucher im Normalbetrieb direkt vom Netz versorgt</li>
         <li>
           Notstromkreis nur bei Stromaufsall oder Spannungsschwankungen

@@ -148,16 +148,6 @@
       <q-btn
         dense
         flat
-        to="/wirtschaft/kostenrechnung"
-        label="Kostenrechnung"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/wirtschaft/kostenrechnung' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
         to="/wirtschaft/markt"
         label="Der Markt"
         class="full-width q-mt-xs"
@@ -287,16 +277,7 @@
         align="left"
         :class="$route.path == '/betriebssystem/uefi-bios' ? 'active' : ''"
       />
-      <q-btn
-        dense
-        flat
-        to="/betriebssystem/architekturen"
-        label="Architekturen"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/betriebssystem/architekturen' ? 'active' : ''"
-      />
+
       <q-btn
         dense
         flat
@@ -842,6 +823,43 @@
             : ''
         "
       />
+      <q-expansion-item
+        dense-toggle
+        dense
+        expand-separator
+        label="Algorithmen"
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
+        align="left"
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/programmierung/bubble-sort"
+            label="Bubblesort"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/programmierung/bubble-sort' ? 'active' : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/programmierung/selection-sort"
+            label="Selectionsort"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/programmierung/selection-sort' ? 'active' : ''
+            "
+          />
+        </div>
+      </q-expansion-item>
     </div>
   </q-expansion-item>
   <q-expansion-item

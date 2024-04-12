@@ -73,15 +73,14 @@
       </ul>
       <li><a class="text-weight-bolder">Anderes</a></li>
       <ul>
-        <li>
-          <a class="text-weight-bold">Tatsächlich bezogene Leistung</a> =
-          benötigte durchschnittliche Leistung / Wirkungsgrad in %
-        </li>
         <li class="text-weight-bold">USV-Stromleistung</li>
         <ul>
-          <li>Beispiel: Wie lange kann die USV Strom liefern?</li>
+          <li>
+            Beispiel: Wie lange kann die USV Strom liefern?
+            <a class="text-underline">gegeben:</a>
+            Akkuspannung 12V, Akkukapazität 200Ah, Leistung 20000W
+          </li>
           <ul>
-            <li>Akkuspannung 12V, Akkukapazität 200Ah, Leistung 20000W</li>
             <li>Amperestunden in Wattstunden umrechnen</li>
             <ul>
               <li>Akkukapazität in Wh = 200Ah*12V = 2400Wh</li>

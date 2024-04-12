@@ -117,14 +117,21 @@
           Verwendung: digitale Signaturen, Public-Key-Authentifizierung,
           Verschlüsselung, Aushandeln symmetrischer Schlüssel
         </li>
-        <li class="text-green">
-          Vorteil: Geheimer Schlüssel muss nicht geteilt werden, Öffentlicher
-          Schlüssel kann über unsichere Kanäle ausgetauscht werden
-        </li>
-        <li class="text-red">
-          Nachteil: deutlich langsamer, benötigt mehr Rechenleistung und ist
-          komplexer als symmetrische Verschlüsselungsmethoden
-        </li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>Geheimer Schlüssel muss nicht geteilt werden</li>
+          <li>
+            Öffentlicher Schlüssel kann über unsichere Kanäle ausgetauscht
+            werden
+          </li>
+          <li>Hat viele Anwendungsbereiche</li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>deutlich langsamer</li>
+          <li>benötigt mehr Rechenleistung</li>
+          <li>komplex</li>
+        </ul>
 
         <li class="text-weight-bolder">asymmetrische Verschlüsselung</li>
         <ul>

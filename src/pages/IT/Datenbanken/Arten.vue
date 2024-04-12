@@ -37,23 +37,25 @@
           strenge Regeln in Bezug auf Datenvariation und Tabellenbeziehungen
         </li>
         <li>Nutzen von SQL zur Datenabfrage</li>
-        <li>muss "ACID"-Eigenschaften aufweisen</li>
+        <li>
+          muss <a class="text-weight-bolder">ACID</a>-Eigenschaften aufweisen
+        </li>
         <ul>
           <li>
-            Atomarität (Atomicity): Transaktionen müssen vollständig gelingen
-            oder vollständig fehlschlagen
+            <a class="text-underline">Atomarität:</a> Transaktionen müssen
+            vollständig gelingen oder vollständig fehlschlagen
           </li>
           <li>
-            Konsitenz (Consistency): Validierung und Verhinderung der
-            Verfälschung von Daten
+            <a class="text-underline">Konsitenz (Consistency): </a> Validierung
+            und Verhinderung der Verfälschung von Daten
           </li>
           <li>
-            Isolation: konkurrierende Transaktionen dürfen sich nicht gegenseitig
-            beeinflussen
+            <a class="text-underline">Isolation:</a> konkurrierende
+            Transaktionen dürfen sich nicht gegenseitig beeinflussen
           </li>
           <li>
-            Dauerhaftigkeit: Systemausfall darf Auswirkungen einer erfolgreichen
-            Transaktion nicht rückgängig machen
+            <a class="text-underline">Dauerhaftigkeit: </a> Systemausfall darf
+            Auswirkungen einer erfolgreichen Transaktion nicht rückgängig machen
           </li>
         </ul>
       </ul>
@@ -141,20 +143,22 @@
         </li>
         <ul>
           <li>
-            Einfüge-Anomalie: Wenn beim Einfügen die Relation nicht oder nur
-            schwierig eingetragen werden kann, weil nicht zu allen Attributen
-            des Primärschlüssels Werte vorliegen. z.B. Person wird ohne Nachname
-            eingefügt
+            <a class="text-underline">Einfüge-Anomalie:</a>
+            Wenn beim Einfügen die Relation nicht oder nur schwierig eingetragen
+            werden kann, weil nicht zu allen Attributen des Primärschlüssels
+            Werte vorliegen. z.B. Person wird ohne Nachname eingefügt
           </li>
           <li>
-            Änderungs-Anomalie: Wenn beim Ändern nicht alle Vorkommen eines
-            Attributwertes zugeleich geändert werden. z.B. Nachnamenänderung bei
-            der selben Person wird nicht auf alle Datensätze übernommen
+            <a class="text-underline">Änderungs-Anomalie:</a> Wenn beim Ändern
+            nicht alle Vorkommen eines Attributwertes zugeleich geändert werden.
+            z.B. Nachnamenänderung bei der selben Person wird nicht auf alle
+            Datensätze übernommen
           </li>
           <li>
-            Lösch-Anomalie: Wenn beim Löschen mehr Informationen als erwünscht
-            verloren gehen. z.B. Person wird gelöscht, wobei auch die Anschrift
-            gelöscht wird (was nicht erwünscht ist)
+            <a class="text-underline">Lösch-Anomalie:</a> Wenn beim Löschen mehr
+            Informationen als erwünscht verloren gehen. z.B. Person wird
+            gelöscht, wobei auch die Anschrift gelöscht wird (was nicht
+            erwünscht ist)
           </li>
         </ul>
       </ul>

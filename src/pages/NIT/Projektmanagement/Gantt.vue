@@ -19,7 +19,7 @@
     </div>
     <ul>
       <li>
-        weit verbreitete Methode um im Projektmanagement-Aktivitäten zeitbezogen
+        weit verbreitete Methode um im Projektmanagement Aktivitäten zeitbezogen
         aufzuzeigen
       </li>
       <li>

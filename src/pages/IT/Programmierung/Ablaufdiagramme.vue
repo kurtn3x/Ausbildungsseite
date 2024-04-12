@@ -71,8 +71,8 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-purple q-mt-sm">Raute: Verzweigung/Kondition</li>
-      <li class="text-brown">Parallelogramm: Ein- oder Ausgabe</li>
+      <li class="text-purple-5 q-mt-sm">Raute: Verzweigung/Kondition</li>
+      <li class="text-brown-5">Parallelogramm: Ein- oder Ausgabe</li>
       <li>Beispiel:</li>
       <ul>
         <q-img
@@ -105,7 +105,10 @@
       <li>ähnelt höheren Programmiersprachen wie Python</li>
       <li>keine direkten Vorgaben, egal ob deutsch oder englisch</li>
       <li>Beispiel:</li>
-      <ul style="font-family: monospace, monospace">
+      <ul
+        style="font-family: monospace, monospace"
+        :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
+      >
         i = 0
         <br />
         while i &lt;= 10:
@@ -121,10 +124,7 @@
     </ul>
 
     <q-separator class="q-mt-md" />
-    <div
-      class="text-subtitle2 text-grey font-size-small"
-      style="line-break: anywhere"
-    >
+    <div class="text-subtitle2 text-grey" style="line-break: anywhere">
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:NassiShneiderman.png <br />
       https://commons.wikimedia.org/wiki/File:Rechteck_mit_doppelten,_vertikalen_Linien_(Programmablaufplan).png
@@ -139,25 +139,25 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
+import { useSettingsStore } from 'stores/settings';
 
 export default defineComponent({
   name: 'IndexPage',
   setup() {
     const q = useQuasar();
+    const settingsStore = useSettingsStore();
+
     return {
       q,
       src: 'https://media.kurtn3x.xyz/assets',
       show_img: ref(false),
       popupsrc: ref(''),
+      settingsStore,
     };
   },
   computed: {
-    small() {
-      if (this.q.screen.width < 1024) {
-        return true;
-      } else {
-        return false;
-      }
+    darkmode() {
+      return this.settingsStore.darkmode;
     },
   },
 });

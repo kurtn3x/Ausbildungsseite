@@ -89,7 +89,7 @@
           Vorgabe:
           <div
             style="font-family: monospace, monospace"
-            class="bg-grey-9 text-white"
+            :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
           >
             numbers = [1,2,3,4,5,6]
           </div>
@@ -99,31 +99,31 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               foreach num in numbers {
             </div>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               &nbsp;&nbsp;if (num % 2) != 0 {
             </div>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               &nbsp;&nbsp;&nbsp;&nbsp; output num
             </div>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               &nbsp;&nbsp;}
             </div>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               }
             </div>
@@ -134,7 +134,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               output numbers.where(num % 2 != 0)
             </div>
@@ -273,25 +273,25 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
+import { useSettingsStore } from 'stores/settings';
 
 export default defineComponent({
   name: 'ProgrammierparadigmenBegriffePage',
   setup() {
     const q = useQuasar();
+    const settingsStore = useSettingsStore();
+
     return {
       q,
       src: 'https://media.kurtn3x.xyz/assets',
       show_img: ref(false),
       popupsrc: ref(''),
+      settingsStore,
     };
   },
   computed: {
-    small() {
-      if (this.q.screen.width < 1024) {
-        return true;
-      } else {
-        return false;
-      }
+    darkmode() {
+      return this.settingsStore.darkmode;
     },
   },
 });

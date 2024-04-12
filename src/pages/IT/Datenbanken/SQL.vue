@@ -32,7 +32,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               <a class="text-red">SELECT </a>
               <a class="text-pink">Atrikel_nr, Atrikel_Bez </a>
@@ -46,7 +46,8 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white q-mt-md"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
+              class="q-mt-md"
             >
               <a class="text-red">SELECT </a>
               <a class="text-pink">* </a>
@@ -63,7 +64,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               <a class="text-red">SELECT </a>
               <a class="text-pink">Atrikel_nr, </a>
@@ -74,7 +75,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               <a class="text-red">SELECT </a>
               <a class="text-pink">Name, Gehalt, </a>
@@ -90,7 +91,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               <a class="text-red">SELECT </a>
               <a class="text-purple-4"> DISTINCT </a>
@@ -131,7 +132,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT * FROM LAGER <a class="text-red">WHERE </a>
               <a class="text-green">Artikelart='Computer' </a>
@@ -143,7 +144,7 @@
           <li class="q-mt-md">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT * FROM LAGER <a class="text-red">WHERE </a>
               <a class="text-green">Preis IS NOT NULL </a>
@@ -169,7 +170,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT * FROM LAGER WHERE Name <a class="text-red">LIKE </a> 'M<a
                 class="text-green"
@@ -180,7 +181,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT * FROM LAGER WHERE Name <a class="text-red">LIKE </a> 'M<a
                 class="text-green"
@@ -206,7 +207,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT * FROM Personal <a class="text-red">ORDER BY </a>
               <a class="text-green">Name </a> <a class="text-blue">ASC;</a>
@@ -219,7 +220,7 @@
           <li class="q-mt-md">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT * FROM Personal <a class="text-red">ORDER BY </a>
               <a class="text-green">Name </a> <a class="text-blue">DESC;</a>
@@ -244,7 +245,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-red">SUM(Verkaufspreis) AS SummeVerkauf</a> FROM
@@ -265,7 +266,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-green">COUNT(*)</a> FROM Lager WHERE
@@ -278,7 +279,8 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white q-mt-sm"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
+              class="q-mt-sm"
             >
               SELECT
               <a class="text-green">COUNT(Preis)</a> FROM Lager WHERE
@@ -296,7 +298,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-blue">MIN(Preis)</a> FROM Lager WHERE
@@ -308,7 +310,8 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white q-mt-sm"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
+              class="q-mt-sm"
             >
               SELECT
               <a class="text-blue">MAX(Preis)</a> FROM Lager WHERE
@@ -331,7 +334,8 @@
           <li class="q-mt-sm">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white q-mt-sm"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
+              class="q-mt-sm"
             >
               SELECT *
               <a class="text-red">INTO </a>
@@ -356,7 +360,8 @@
           <li class="q-mt-sm">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white q-mt-sm"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
+              class="q-mt-sm"
             >
               <a class="text-red">INSERT INTO </a>
               <a class="text-green">Computer</a>
@@ -381,7 +386,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT Name, Straße, Ort FROM Kunde
               <a class="text-red">UNION</a>
@@ -401,7 +406,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT Name, Straße, Ort FROM Kunde
               <a class="text-green">UNION ALL</a>
@@ -424,7 +429,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT Ort FROM Kunde
               <a class="text-green">INTERSECT </a>
@@ -440,7 +445,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT Ort FROM Kunde
               <a class="text-red">EXCEPT </a>
@@ -505,7 +510,7 @@
           <li>
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-purple-4"
@@ -526,7 +531,7 @@
           <li class="q-mt-md">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-purple-4"
@@ -546,7 +551,7 @@
           <li class="q-mt-md">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-purple-4"
@@ -566,7 +571,7 @@
           <li class="q-mt-md">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-purple-4"
@@ -586,7 +591,7 @@
           <li class="q-mt-md">
             <div
               style="font-family: monospace, monospace"
-              class="bg-grey-9 text-white"
+              :class="darkmode ? 'bg-grey-9 text-white' : 'bg-grey-3 text-dark'"
             >
               SELECT
               <a class="text-purple-4"
@@ -610,16 +615,20 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
+import { useSettingsStore } from 'stores/settings';
 
 export default defineComponent({
   name: 'SQLPage',
   setup() {
     const q = useQuasar();
+    const settingsStore = useSettingsStore();
+
     return {
       q,
       src: 'https://media.kurtn3x.xyz/assets',
       show_img: ref(false),
       popupsrc: ref(''),
+      settingsStore,
     };
   },
   computed: {
@@ -629,6 +638,9 @@ export default defineComponent({
       } else {
         return false;
       }
+    },
+    darkmode() {
+      return this.settingsStore.darkmode;
     },
   },
 });

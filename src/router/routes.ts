@@ -160,6 +160,14 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/IT/Programmierung/Ablaufdiagramme.vue'),
       },
       {
+        path: 'bubble-sort',
+        component: () => import('pages/IT/Programmierung/BubbleSort.vue'),
+      },
+      {
+        path: 'selection-sort',
+        component: () => import('pages/IT/Programmierung/SelectionSort.vue'),
+      },
+      {
         path: 'uml',
         component: () => import('pages/IT/Programmierung/UML.vue'),
       },

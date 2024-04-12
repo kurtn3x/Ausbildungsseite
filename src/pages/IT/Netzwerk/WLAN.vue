@@ -63,7 +63,7 @@
         </li>
         <li>Sandardisierte Trägerfrequenzen sind: 2.4GHz, 5GHz und 60GHz</li>
         <li>
-          Im ersten Standard war lediglich eine Übertragungsrate von 2MBIT/s
+          Im ersten Standard war lediglich eine Übertragungsrate von 2MBit/s
           möglich
         </li>
         <li>neuere Standards theoretisch bis zu 7GBit/s</li>
@@ -81,7 +81,7 @@
         </ul>
         <li>Verbesserung der Reichweite:</li>
         <ul>
-          <li>Router in bessere Position stellen</li>
+          <li>Router/Access Point in bessere Position stellen</li>
           <li>WLAN-Kanal wechseln</li>
           <li>Repeater, Range Extender oder Powerline-Adapter</li>
         </ul>
