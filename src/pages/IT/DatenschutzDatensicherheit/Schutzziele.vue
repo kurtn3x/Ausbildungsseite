@@ -34,20 +34,31 @@
       </li>
       <ul>
         <li>
-          Schutz eines Bürgers vor misbräuchlicher Datenverarbeitung, das Recht
-          auf informationelle Selbstbestimmung und der Schutz der Privatsphäre
+          <a class="text-weight-bold">Schutz von personenbezogenen Daten</a>
+          (Daten, die sich auf eine natürliche Person beziehen oder Daten mit
+          direktem Personenbezug)
+        </li>
+
+        <li>
+          Rechtsorientiert → Schutz des allgemeinen Persönlichkeitsrechts, der
+          Privatsphäre
         </li>
       </ul>
       <li class="text-h6 text-weight-bold text-secondary q-mt-sm">
         Datensicherheit
       </li>
       <ul>
-        <li>Eng mit dem Datenschutz verknüpft</li>
         <li>
           Das Technische Ziel, Daten jeder Art in ausreichendem Maße gegen
           Manipulation, Verlust, unberechtigte Kenntnissname Dritter oder
           anderen Bedrohungen zu sichern
         </li>
+        <li>generelle Sicherheit von Daten</li>
+        <li>
+          gewährleistung von Vertraulichkeit, Integrität und Verfügbarkeit von
+          Daten
+        </li>
+        <li>praktisch orientierte Sicherheitsmaßnahmen</li>
       </ul>
     </ul>
   </q-page>

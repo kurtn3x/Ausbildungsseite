@@ -25,15 +25,19 @@
       </li>
       <li class="text-weight-bolder text-h7">DAS - Direct Attached Storage</li>
       <ul>
-        <li>eine Festplatte, die direkt mit einem Server verbunden ist</li>
-        <li>Server kontrolliert Zugriff auf Speicherplatz</li>
+        <li>
+          eine Festplatte/Speichergerät, welches direkt mit einem Host verbunden
+          ist
+        </li>
+        <li>Host kontrolliert Zugriff auf Speicherplatz</li>
         <li>
           Andere können über Benutzerrichtlichen oder Freigaben Zugriff auf den
           Speicher erhalten
         </li>
+        <li>Punkt-zu-Punkt Schnittstellen wie SCSI, SAS, USB</li>
         <li>
           <a class="text-green">Vorteile:</a> geringe Kosten, wenig Hardware,
-          kein zusätzlicher Protokollstack
+          kein zusätzlicher Protokollstack, performant
         </li>
         <li>
           <a class="text-red">Nachteile:</a> Nur ein Host, Eingschränkte
@@ -43,23 +47,26 @@
 
       <li class="text-weight-bolder text-h7">NAS - Network Attached Storage</li>
       <ul>
-        <li>Anbindung über Standard Ethernet-Interface wie RJ45</li>
         <li>
-          Verwenden des typischen TCP/IP-Protokoll-Stacks (für Storage
-          unoptimal)
+          dedizierter Dateiserver (meist als Komplettlösung mit Festplatten,
+          Stromversorgung & Netzwerkinterface, teilweise aber auch in z.B.
+          modernen Routern )
         </li>
-        <li>Festplatten nicht an Server gebunden</li>
         <li>
-          Besteht aus Festplatten, Stromversorgung und einem Netzwerkinterface
+          Anbindung über Standard Ethernet-Interface wie RJ45 und Verwenden des
+          typischen TCP/IP-Protokoll-Stacks
         </li>
-        <li>jedes NAS muss einzeln konfiguriert werden</li>
-        <li>Verwendung von Networking-Dateisystemen wie NFS oder SMB</li>
-        <li>Zugriff über Remoteprotokoll wie SMB, NFS, FTP oder auch HTTP</li>
+        <li>
+          Zugriff auf Networking-Dateisysteme über Remoteprotokoll wie SMB, NFS,
+          FTP oder auch HTTP
+        </li>
+        <li>Dateibasierter Zugriff z.B. \\server\freigabe</li>
         <li>oft Datensicherheit durch konfigurierbares RAID</li>
         <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
         <li>
           <a class="text-green">Vorteile:</a> Einfache Anbindung, konkurrierende
-          Zugriffe mehrerer Clients, gute Kompatibilität
+          Zugriffe mehrerer Clients, gute Kompatibilität, geringe Stromkosten
+          durch Einfachheit, RAID möglich
         </li>
         <li>
           <a class="text-red">Nachteile:</a> TCP/IP-Protokoll-Stack ungeeignet
@@ -81,12 +88,12 @@
         <li>
           Ziel ist auch die Zusammenfassung einzelner Festplatten, damit der
           Speicher von allen Servern gemeinsam genutzt werden kann → gesamter
-          Speicher steht als ein Block zur Verfügung
+          Speicher steht als ein Block zur Verfügung (blockbasierter Zugriff)
         </li>
         <li>
-          verschiedene Schnitstellen: Fibre Channel, iSCSI, Ethernet, Infiniband
+          verschiedene (netzwerkorientierte) Schnitstellen: Fibre Channel,
+          iSCSI, Ethernet, Infiniband
         </li>
-        <li>Flexibilität durch vereinfachte Speicherzuweisung</li>
         <li>oft große Unternehmen bzw. wichtige Services</li>
         <li>
           <a class="text-green">Vorteile:</a> Hohe Transferraten, Niedrige
@@ -95,7 +102,8 @@
         </li>
         <li>
           <a class="text-red">Nachteile:</a> Teuer, Kompliziert,
-          Kompatibilitätsprobleme, Extra Infrastrukturebene für Speicher
+          Kompatibilitätsprobleme da jeder Hersteller eigene Standards
+          verwendet, Extra Infrastrukturebene für Speicher
         </li>
       </ul>
       <q-img
@@ -334,6 +342,7 @@
           Backup benötigten Dateien kennzeichnen
         </li>
       </ul>
+
       <li class="text-weight-bolder">Archivierung</li>
       <ul>
         <li>Langfristige Aufbewahrung von Backups</li>

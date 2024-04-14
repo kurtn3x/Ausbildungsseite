@@ -18,8 +18,7 @@
       Allgemeines
     </div>
     <ul>
-      <li>VPN ist ein Sammelbegriff verschiedener Protokolle</li>
-      <li>
+      <li class="text-weight-bold">
         bezeichnet grundlegend eine Netzwerkverbindung, die von Unbeteiligten
         nicht einsehbar ist
       </li>
@@ -28,22 +27,15 @@
         können miteinander kommunizieren
       </li>
       <li>
-        <a class="text-weight-bold">VPN-Tunnel: </a>logische Verbindung zwischen
-        beliebigen Endpunkten, dessen Datenpakete für andere nicht sichtbar sind
+        <a class="text-weight-bolder">VPN-Tunnel: </a>logische Verbindung
+        zwischen beliebigen Endpunkten, dessen Datenpakete für andere nicht
+        sichtbar sind
       </li>
       <li>
-        <a class="text-weight-bold">VPN-Endpunkt: </a>Stelle, an der der VPN
+        <a class="text-weight-bolder">VPN-Endpunkt: </a>Stelle, an der der VPN
         Tunnel endet oder beginnt. Kann ein Router, Gateway oder Software-Client
         sein und erzeugt einen virtuellen Netzwerkadapter für Datenverkehr
       </li>
-      <li>
-        zu VPN-Protokollen gehören unter Berücksichtigung des OSI-Modells z.B.:
-      </li>
-      <ul>
-        <li>Layer 2: MPLS, L2TP</li>
-        <li>Layer 3: IPsec</li>
-        <li>Layer 4-5: SSL-VPN, TLS</li>
-      </ul>
       <li class="text-weight-bolder">
         Außerdem gibt es verschiedene VPN-Typen:
       </li>

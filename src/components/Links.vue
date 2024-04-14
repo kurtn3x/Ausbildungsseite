@@ -199,7 +199,7 @@
         dense
         flat
         to="/hardware/verkabelung"
-        label="Verkabelung"
+        label="Verkabelung & Kabeltypen"
         class="full-width q-mt-xs"
         rounded
         align="left"

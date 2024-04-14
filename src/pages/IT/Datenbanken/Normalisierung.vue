@@ -21,178 +21,188 @@
       <li class="text-weight-bolder text-weight-bolder">
         Vorgabe, nicht normalisiert
       </li>
-      <div style="overflow-x: auto">
-        <table class="tg q-mt-md" style="min-width: 750px">
-          <thead>
-            <tr>
-              <th class="text-weight-bolder">Mitarbeiter Nr</th>
-              <th class="text-weight-bolder">Mitarbeiter Name</th>
-              <th class="text-weight-bolder">Abteilungs Nr</th>
-              <th class="text-weight-bolder">Abteilungs Name</th>
-              <th class="text-weight-bolder">Projekt Nr</th>
-              <th class="text-weight-bolder">Projekt Name</th>
-              <th class="text-weight-bolder">Zeit</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="tg-0lax">110</td>
-              <td class="tg-0lax">Albert</td>
-              <td class="tg-0lax">1</td>
-              <td class="tg-0lax">Vertrieb</td>
-              <td class="tg-0lax">1,2</td>
-              <td class="tg-0lax">Pr01, Pr02</td>
-              <td class="tg-0lax">10,20</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">120</td>
-              <td class="tg-0lax">Bulle</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Marketing</td>
-              <td class="tg-0lax">2,3</td>
-              <td class="tg-0lax">Pr02, Pr03</td>
-              <td class="tg-0lax">5,30</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">130</td>
-              <td class="tg-0lax">Clever</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">EDV</td>
-              <td class="tg-0lax">1,2,3</td>
-              <td class="tg-0lax">Pr01, Pr02, Pr03</td>
-              <td class="tg-0lax">10,20,30</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">140</td>
-              <td class="tg-0lax">Drall</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Marketing</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">Pr03</td>
-              <td class="tg-0lax">50</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">150</td>
-              <td class="tg-0lax">Emsig</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">EDV</td>
-              <td class="tg-0lax">4</td>
-              <td class="tg-0lax">Pr04</td>
-              <td class="tg-0lax">100</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <ul>
+        <li class="text-underline">Tabelle:</li>
+        <div style="overflow-x: auto">
+          <table class="tg" style="min-width: 750px">
+            <thead>
+              <tr>
+                <th class="text-weight-bolder">Mitarbeiter Nr</th>
+                <th class="text-weight-bolder">Mitarbeiter Name</th>
+                <th class="text-weight-bolder">Abteilungs Nr</th>
+                <th class="text-weight-bolder">Abteilungs Name</th>
+                <th class="text-weight-bolder">Projekt Nr</th>
+                <th class="text-weight-bolder">Projekt Name</th>
+                <th class="text-weight-bolder">Zeit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-0lax">110</td>
+                <td class="tg-0lax">Albert</td>
+                <td class="tg-0lax">1</td>
+                <td class="tg-0lax">Vertrieb</td>
+                <td class="tg-0lax">1,2</td>
+                <td class="tg-0lax">Pr01, Pr02</td>
+                <td class="tg-0lax">10,20</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">120</td>
+                <td class="tg-0lax">Bulle</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Marketing</td>
+                <td class="tg-0lax">2,3</td>
+                <td class="tg-0lax">Pr02, Pr03</td>
+                <td class="tg-0lax">5,30</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">130</td>
+                <td class="tg-0lax">Clever</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">EDV</td>
+                <td class="tg-0lax">1,2,3</td>
+                <td class="tg-0lax">Pr01, Pr02, Pr03</td>
+                <td class="tg-0lax">10,20,30</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">140</td>
+                <td class="tg-0lax">Drall</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Marketing</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">Pr03</td>
+                <td class="tg-0lax">50</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">150</td>
+                <td class="tg-0lax">Emsig</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">EDV</td>
+                <td class="tg-0lax">4</td>
+                <td class="tg-0lax">Pr04</td>
+                <td class="tg-0lax">100</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </ul>
     </ul>
+    <q-separator />
     <ul>
       <li class="q-mt-md text-weight-bolder">Erste Normalform</li>
       <ul>
         <li>
           Alle Datensätze sollten atomar sein, also jedes Datenfeld darf nur
-          einen Wert enthalten. Dazu sollte auch sichergestellt werden, dass
-          jede Spalte nur Werte des selben Datentyps enthält, also sollte z.B.
-          eine Adresse in Ort, Straße und Hausnummer aufgegliedert werden.
+          einen Wert enthalten
         </li>
+        <li>Jede Spalte nur Werte des selben Datentyps</li>
+        <li>
+          auch Aufgliederung einer Adresse in PLZ, Stadt, Straße oder Name in
+          Vor-und Nachname
+        </li>
+        <li class="text-underline q-mt-md">Tabelle:</li>
+        <div style="overflow-x: auto">
+          <table class="tg" style="min-width: 750px">
+            <thead>
+              <tr>
+                <th class="text-weight-bolder">Mitarbeiter Nr</th>
+                <th class="text-weight-bolder">Mitarbeiter Name</th>
+                <th class="text-weight-bolder">Abteilungs Nr</th>
+                <th class="text-weight-bolder">Abteilungs Name</th>
+                <th class="text-weight-bolder">Projekt Nr</th>
+                <th class="text-weight-bolder">Projekt Name</th>
+                <th class="text-weight-bolder">Zeit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-0lax">110</td>
+                <td class="tg-0lax">Albert</td>
+                <td class="tg-0lax">1</td>
+                <td class="tg-0lax">Vertrieb</td>
+                <td class="tg-0lax">1</td>
+                <td class="tg-0lax">Pr01</td>
+                <td class="tg-0lax">10</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">110</td>
+                <td class="tg-0lax">Albert</td>
+                <td class="tg-0lax">1</td>
+                <td class="tg-0lax">Vertrieb</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Pr02</td>
+                <td class="tg-0lax">20</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">120</td>
+                <td class="tg-0lax">Bulle</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Marketing</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Pr02</td>
+                <td class="tg-0lax">5</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">120</td>
+                <td class="tg-0lax">Bulle</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Marketing</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">Pr03</td>
+                <td class="tg-0lax">30</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">130</td>
+                <td class="tg-0lax">Clever</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">EDV</td>
+                <td class="tg-0lax">1</td>
+                <td class="tg-0lax">Pr01</td>
+                <td class="tg-0lax">10</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">130</td>
+                <td class="tg-0lax">Clever</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">EDV</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Pr02</td>
+                <td class="tg-0lax">20</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">130</td>
+                <td class="tg-0lax">Clever</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">EDV</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">Pr03</td>
+                <td class="tg-0lax">30</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">140</td>
+                <td class="tg-0lax">Drall</td>
+                <td class="tg-0lax">2</td>
+                <td class="tg-0lax">Marketing</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">Pr03</td>
+                <td class="tg-0lax">50</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">150</td>
+                <td class="tg-0lax">Emsig</td>
+                <td class="tg-0lax">3</td>
+                <td class="tg-0lax">EDV</td>
+                <td class="tg-0lax">4</td>
+                <td class="tg-0lax">Pr04</td>
+                <td class="tg-0lax">100</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </ul>
-      <div style="overflow-x: auto">
-        <table class="tg q-mt-md" style="min-width: 750px">
-          <thead>
-            <tr>
-              <th class="text-weight-bolder">Mitarbeiter Nr</th>
-              <th class="text-weight-bolder">Mitarbeiter Name</th>
-              <th class="text-weight-bolder">Abteilungs Nr</th>
-              <th class="text-weight-bolder">Abteilungs Name</th>
-              <th class="text-weight-bolder">Projekt Nr</th>
-              <th class="text-weight-bolder">Projekt Name</th>
-              <th class="text-weight-bolder">Zeit</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="tg-0lax">110</td>
-              <td class="tg-0lax">Albert</td>
-              <td class="tg-0lax">1</td>
-              <td class="tg-0lax">Vertrieb</td>
-              <td class="tg-0lax">1</td>
-              <td class="tg-0lax">Pr01</td>
-              <td class="tg-0lax">10</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">110</td>
-              <td class="tg-0lax">Albert</td>
-              <td class="tg-0lax">1</td>
-              <td class="tg-0lax">Vertrieb</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Pr02</td>
-              <td class="tg-0lax">20</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">120</td>
-              <td class="tg-0lax">Bulle</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Marketing</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Pr02</td>
-              <td class="tg-0lax">5</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">120</td>
-              <td class="tg-0lax">Bulle</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Marketing</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">Pr03</td>
-              <td class="tg-0lax">30</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">130</td>
-              <td class="tg-0lax">Clever</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">EDV</td>
-              <td class="tg-0lax">1</td>
-              <td class="tg-0lax">Pr01</td>
-              <td class="tg-0lax">10</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">130</td>
-              <td class="tg-0lax">Clever</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">EDV</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Pr02</td>
-              <td class="tg-0lax">20</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">130</td>
-              <td class="tg-0lax">Clever</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">EDV</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">Pr03</td>
-              <td class="tg-0lax">30</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">140</td>
-              <td class="tg-0lax">Drall</td>
-              <td class="tg-0lax">2</td>
-              <td class="tg-0lax">Marketing</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">Pr03</td>
-              <td class="tg-0lax">50</td>
-            </tr>
-            <tr>
-              <td class="tg-0lax">150</td>
-              <td class="tg-0lax">Emsig</td>
-              <td class="tg-0lax">3</td>
-              <td class="tg-0lax">EDV</td>
-              <td class="tg-0lax">4</td>
-              <td class="tg-0lax">Pr04</td>
-              <td class="tg-0lax">100</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </ul>
+    <q-separator />
+
     <ul>
       <li class="text-weight-bolder q-mt-md text-weight-bolder">
         Zweite Normalform
@@ -208,10 +218,10 @@
           funktional abhängig sein
         </li>
       </ul>
-      <ul class="q-mt-md">
-        <li>Tabelle Mitarbeiter</li>
+      <ul>
+        <li class="text-underline q-mt-md">Tabelle Mitarbeiter</li>
 
-        <table class="tg q-mt-md">
+        <table class="tg">
           <thead>
             <tr>
               <th class="text-weight-bolder">Mitarbeiter Nr</th>
@@ -253,8 +263,8 @@
             </tr>
           </tbody>
         </table>
-        <li class="q-mt-md">Tabelle Projekt</li>
-        <table class="tg q-mt-md">
+        <li class="q-mt-md text-underline">Tabelle Projekt</li>
+        <table class="tg">
           <thead>
             <tr>
               <th class="text-weight-bolder">Projekt Nr</th>
@@ -280,8 +290,8 @@
             </tr>
           </tbody>
         </table>
-        <li class="q-mt-md">Tabelle Tätigkeit</li>
-        <table class="tg q-mt-md">
+        <li class="q-mt-md text-underline">Tabelle Tätigkeit</li>
+        <table class="tg">
           <thead>
             <tr>
               <th class="text-weight-bolder">Mitarbeiter Nr</th>
@@ -337,6 +347,8 @@
         </table>
       </ul>
     </ul>
+    <q-separator />
+
     <ul>
       <li class="text-weight-bolder q-mt-md">Dritte Normalform</li>
       <ul>
@@ -344,9 +356,10 @@
           Es darf keine transitiven Abhängigkeiten geben. (Aus keinem
           Nicht-Schlüssel-Attribut folgt ein anderes Nicht-Schlüssel-Attribut)
         </li>
+        <li>z.B. Auslagern von Werten wie Klasse, Abteilung, ...</li>
 
-        <li class="q-mt-md">Tabelle Mitarbeiter</li>
-        <table class="tg q-mt-md">
+        <li class="text-underline q-mt-md">Tabelle Mitarbeiter</li>
+        <table class="tg">
           <thead>
             <tr>
               <th class="text-weight-bolder">Mitarbeiter Nr</th>
@@ -382,8 +395,8 @@
             </tr>
           </tbody>
         </table>
-        <li class="q-mt-md">Tabelle Abteilung</li>
-        <table class="tg q-mt-md">
+        <li class="q-mt-md text-underline">Tabelle Abteilung</li>
+        <table class="tg">
           <thead>
             <tr>
               <th class="text-weight-bolder">Abteilungs Nr</th>
