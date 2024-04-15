@@ -26,6 +26,10 @@
           E-Mail-Servers
         </li>
         <li>
+          Dateien werden auf dem E-Mail-Server gelöscht und sind nur noch lokal
+          verfügbar (schlecht für mehrere Geräte)
+        </li>
+        <li>
           z.B. POP3: Auflisten, Abholen und Löschen von E-Mails auf dem
           Mail-Server
         </li>
@@ -40,6 +44,11 @@
           Speichern von Mails, Ordnerstrukturen und Einstellungen auf dem
           Mail-Server
         </li>
+        <li>
+          E-Mails verbleiben auf dem Mailserver und werden nur mit Clients
+          synchronisiert
+        </li>
+        <li>Verwaltung des E-Mail-Kontos erfolgt auf dem E-Mailserver</li>
         <li>Port 143</li>
         <li>Port 993 für IMAPS (IMAP mit SSL-Verschlüsselung)</li>
       </ul>

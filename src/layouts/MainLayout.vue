@@ -42,16 +42,12 @@
       </q-toolbar>
     </q-header>
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
-      <q-scroll-area
-        class="fit"
-        :thumb-style="thumbStyle"
-        :bar-style="barStyle"
-      >
+      <q-scroll-area class="fit" :thumb-style="thumbStyle">
         <div>
-          <div class="q-mr-sm">
+          <div>
             <Links />
           </div>
-          <q-separator class="q-mr-sm" />
+          <q-separator />
           <div style="height: 45px">
             <q-btn
               stretch
@@ -103,17 +99,11 @@ export default defineComponent({
         leftDrawerOpen.value = !leftDrawerOpen.value;
       },
       thumbStyle: {
-        right: '2px',
-        borderRadius: '5px',
+        right: '1px',
+        borderRadius: '7px',
         backgroundColor: '#27b5d5',
-        width: '5px',
+        width: '7px',
         opacity: 0.9,
-      },
-
-      barStyle: {
-        backgroundColor: '#27b5d5',
-        width: '9px',
-        opacity: 0.3,
       },
     };
   },

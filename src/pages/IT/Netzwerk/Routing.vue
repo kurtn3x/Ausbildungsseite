@@ -94,8 +94,8 @@
             bestimmt
           </li>
           <li>
-            Direkt angeschlossene Netze und statische Routen haben meistens die
-            höchste Priorität
+            Direkt angeschlossene Netze und statische Routen haben standardmäßig
+            die höchste Priorität
           </li>
           <li>
             Dynamische Routen besitzen eine niedrigere Priorität und haben oft

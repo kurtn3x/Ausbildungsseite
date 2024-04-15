@@ -131,14 +131,25 @@
         Download einer 50MiB großen Datei mit einer Downloadgeschwindigkeit von
         2Mbit/s?
       </li>
-      <ul>
-        <li>
-          50 MiB = 51200 KiB (*1024) = 52428800 Byte (*1024) = 419430400 Bit
-          (*8)
-        </li>
-        <li>2 Mbit/s = 2000 Kbit/s (*1000) = 20000000 Bit/s (*1000)</li>
-        <li>419430400 Bit / 20000000 Bit/s = ~210 Sekunden</li>
-      </ul>
+      <q-card bordered flat>
+        <q-expansion-item
+          dense-toggle
+          dense
+          expand-separator
+          label="Lösung"
+          header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
+          align="left"
+        >
+          <ul>
+            <li>
+              50 MiB = 51200 KiB (*1024) = 52428800 Byte (*1024) = 419430400 Bit
+              (*8)
+            </li>
+            <li>2 Mbit/s = 2000 Kbit/s (*1000) = 20000000 Bit/s (*1000)</li>
+            <li>419430400 Bit / 20000000 Bit/s = ~210 Sekunden</li>
+          </ul>
+        </q-expansion-item>
+      </q-card>
     </ul>
   </q-page>
 </template>

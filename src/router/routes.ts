@@ -146,8 +146,29 @@ const routes: RouteRecordRaw[] = [
       },
       {
         path: 'kryptographie',
-        component: () =>
-          import('pages/IT/DatenschutzDatensicherheit/Kryptographie.vue'),
+        children: [
+          {
+            path: 'hashing',
+            component: () =>
+              import(
+                'pages/IT/DatenschutzDatensicherheit/Kryptographie/Hashing.vue'
+              ),
+          },
+          {
+            path: 'zertifikate',
+            component: () =>
+              import(
+                'pages/IT/DatenschutzDatensicherheit/Kryptographie/Zertifikate.vue'
+              ),
+          },
+          {
+            path: 'verschluesselung',
+            component: () =>
+              import(
+                'pages/IT/DatenschutzDatensicherheit/Kryptographie/Verschlüsselung.vue'
+              ),
+          },
+        ],
       },
     ],
   },
@@ -189,28 +210,105 @@ const routes: RouteRecordRaw[] = [
     children: [
       {
         path: 'verkabelung',
-        component: () => import('pages/IT/Hardware/Verkabelung.vue'),
+        children: [
+          {
+            path: 'simplex-duplex',
+            component: () =>
+              import('pages/IT/Hardware/Verkabelung/SimplexDuplex.vue'),
+          },
+          {
+            path: 'strukturierte-verkabelung',
+            component: () =>
+              import(
+                'pages/IT/Hardware/Verkabelung/StrukturierteVerkabelung.vue'
+              ),
+          },
+          {
+            path: 'medien-kabeltypen',
+            component: () =>
+              import(
+                'pages/IT/Hardware/Verkabelung/ÜbertragungsmedienKabeltypen.vue'
+              ),
+          },
+        ],
       },
+
       {
-        path: 'raid',
-        component: () => import('pages/IT/Hardware/RAID.vue'),
+        path: 'storage-raid',
+        children: [
+          {
+            path: 'raid',
+            component: () => import('pages/IT/Hardware/StorageRaid/RAID.vue'),
+          },
+          {
+            path: 'backup',
+            component: () => import('pages/IT/Hardware/StorageRaid/Backup.vue'),
+          },
+          {
+            path: 'das-nas-san',
+            component: () =>
+              import('pages/IT/Hardware/StorageRaid/DASNASSAN.vue'),
+          },
+          {
+            path: 'protokolle',
+            component: () =>
+              import('pages/IT/Hardware/StorageRaid/Protokolle.vue'),
+          },
+          {
+            path: 'begriffe',
+            component: () =>
+              import('pages/IT/Hardware/StorageRaid/Begriffe.vue'),
+          },
+        ],
       },
-      {
-        path: 'usv',
-        component: () => import('pages/IT/Hardware/USV.vue'),
-      },
-      {
-        path: 'storage-backup',
-        component: () => import('pages/IT/Hardware/Storage.vue'),
-      },
+
       {
         path: 'strom-ladung',
-        component: () => import('pages/IT/Hardware/StromLadung.vue'),
+        children: [
+          {
+            path: 'usv',
+            component: () => import('pages/IT/Hardware/StromLadung/USV.vue'),
+          },
+          {
+            path: 'formeln-einheiten',
+            component: () =>
+              import('pages/IT/Hardware/StromLadung/FormelnEinheiten.vue'),
+          },
+          {
+            path: 'berechnungen',
+            component: () =>
+              import('pages/IT/Hardware/StromLadung/Berechnungen.vue'),
+          },
+        ],
       },
+
       {
         path: 'virtualisierung-cloud',
-        component: () => import('pages/IT/Hardware/VirtualisierungCloud.vue'),
+        children: [
+          {
+            path: 'cloud-on-premises',
+            component: () =>
+              import(
+                'pages/IT/Hardware/VirtualisierungCloud/CloudOnpremises.vue'
+              ),
+          },
+          {
+            path: 'cloud-servicemodelle',
+            component: () =>
+              import(
+                'pages/IT/Hardware/VirtualisierungCloud/Servicemodelle.vue'
+              ),
+          },
+          {
+            path: 'virtualisierung',
+            component: () =>
+              import(
+                'pages/IT/Hardware/VirtualisierungCloud/Virtualisierung.vue'
+              ),
+          },
+        ],
       },
+
       {
         path: 'server',
         component: () => import('pages/IT/Hardware/Serverhardware.vue'),

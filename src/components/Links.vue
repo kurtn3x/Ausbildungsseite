@@ -175,36 +175,245 @@
     :content-inset-level="0.2"
   >
     <div class="q-ma-xs">
-      <q-btn
+      <q-expansion-item
+        dense-toggle
         dense
-        flat
-        to="/hardware/usv"
-        label="USV"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/hardware/usv' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/hardware/strom-ladung"
+        expand-separator
         label="Strom & Ladung"
-        class="full-width q-mt-xs"
-        rounded
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
         align="left"
-        :class="$route.path == '/hardware/strom-ladung' ? 'active' : ''"
-      />
-      <q-btn
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/hardware/strom-ladung/usv"
+            label="USV"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="$route.path == '/hardware/strom-ladung/usv' ? 'active' : ''"
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/strom-ladung/formeln-einheiten"
+            label="Formeln & Einheiten"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/strom-ladung/formeln-einheiten'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/strom-ladung/berechnungen"
+            label="Berechnungen"
+            class="full-width q-mt-xs q-mb-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/strom-ladung/berechnungen'
+                ? 'active'
+                : ''
+            "
+          />
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
         dense
-        flat
-        to="/hardware/verkabelung"
-        label="Verkabelung & Kabeltypen"
-        class="full-width q-mt-xs"
-        rounded
+        expand-separator
+        label="Verkabelung"
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
         align="left"
-        :class="$route.path == '/hardware/verkabelung' ? 'active' : ''"
-      />
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/hardware/verkabelung/strukturierte-verkabelung"
+            label="Strukturierte Verkabelung"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/verkabelung/strukturierte-verkabelung'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/verkabelung/medien-kabeltypen"
+            label="Kabeltypen (Twisted-Pair & LWL)"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/verkabelung/medien-kabeltypen'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/verkabelung/simplex-duplex"
+            label="Simplex & Duplex"
+            class="full-width q-mt-xs q-mb-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/verkabelung/simplex-duplex'
+                ? 'active'
+                : ''
+            "
+          />
+        </div>
+      </q-expansion-item>
+
+      <q-expansion-item
+        dense-toggle
+        dense
+        expand-separator
+        label="Storage & Raid"
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
+        align="left"
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/hardware/storage-raid/backup"
+            label="Backuparten"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/storage-raid/backup' ? 'active' : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/storage-raid/raid"
+            label="RAID"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/storage-raid/raid' ? 'active' : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/storage-raid/das-nas-san"
+            label="DAS, NAS & SAN"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/storage-raid/das-nas-san'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/storage-raid/protokolle"
+            label="Protokolle & Schnittstellen"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/storage-raid/protokolle' ? 'active' : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/storage-raid/begriffe"
+            label="Weitere Begriffe"
+            class="full-width q-mt-xs q-mb-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/storage-raid/begriffe' ? 'active' : ''
+            "
+          />
+        </div>
+      </q-expansion-item>
+
+      <q-expansion-item
+        dense-toggle
+        dense
+        expand-separator
+        label="Cloud & Virtualisierung"
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
+        align="left"
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/hardware/virtualisierung-cloud/cloud-on-premises"
+            label="Cloud vs. On-Premises"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/virtualisierung-cloud/cloud-on-premises'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/virtualisierung-cloud/cloud-servicemodelle"
+            label="Cloud-Servicemodelle"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path ==
+              '/hardware/virtualisierung-cloud/cloud-servicemodelle'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/hardware/virtualisierung-cloud/virtualisierung"
+            label="Virtualisierung"
+            class="full-width q-mt-xs q-mb-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/virtualisierung-cloud/virtualisierung'
+                ? 'active'
+                : ''
+            "
+          />
+        </div>
+      </q-expansion-item>
       <q-btn
         dense
         flat
@@ -224,38 +433,6 @@
         rounded
         align="left"
         :class="$route.path == '/hardware/server' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/hardware/raid"
-        label="RAID"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/hardware/raid' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/hardware/storage-backup"
-        label="Storage & Backup"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/hardware/storage-backup' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/hardware/virtualisierung-cloud"
-        label="Virtualisierung & Cloud"
-        class="full-width q-mt-xs q-mb-xs"
-        rounded
-        align="left"
-        :class="
-          $route.path == '/hardware/virtualisierung-cloud' ? 'active' : ''
-        "
       />
     </div>
   </q-expansion-item>
@@ -416,7 +593,7 @@
         dense-toggle
         dense
         expand-separator
-        label="Adressierung (OSI 1-4)"
+        label="Adressierung (OSI 2-4)"
         header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
         class="q-mt-xs"
         align="left"
@@ -643,20 +820,65 @@
             : ''
         "
       />
-      <q-btn
+      <q-expansion-item
         dense
-        flat
-        to="/datenschutz-datensicherheit/kryptographie"
+        dense-toggle
+        expand-separator
         label="Kryptographie & Zertifikate"
-        class="full-width q-mt-xs"
-        rounded
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
         align="left"
-        :class="
-          $route.path == '/datenschutz-datensicherheit/kryptographie'
-            ? 'active'
-            : ''
-        "
-      />
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/datenschutz-datensicherheit/kryptographie/verschluesselung"
+            label="Verschlüsselungsarten"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path ==
+              '/datenschutz-datensicherheit/kryptographie/verschluesselung'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/datenschutz-datensicherheit/kryptographie/hashing"
+            label="Hashwerte/Hashing"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path ==
+              '/datenschutz-datensicherheit/kryptographie/hashing'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/datenschutz-datensicherheit/kryptographie/zertifikate"
+            label="Digitale Zertifikate"
+            class="full-width q-mt-xs q-mb-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path ==
+              '/datenschutz-datensicherheit/kryptographie/zertifikate'
+                ? 'active'
+                : ''
+            "
+          />
+        </div>
+      </q-expansion-item>
+
       <q-expansion-item
         dense
         dense-toggle

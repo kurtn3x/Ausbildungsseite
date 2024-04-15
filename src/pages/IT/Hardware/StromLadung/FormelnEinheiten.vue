@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
-      Strom & Ladung
+      Formeln & Einheiten von Strom & Ladung
     </div>
     <q-separator class="q-mt-md" />
     <ul>
@@ -71,54 +71,6 @@
         <li>E = U in Volt * I in Ampere * t in Sekunden</li>
         <li>E = P in Watt * t in Sekunden</li>
       </ul>
-      <li><a class="text-weight-bolder">Anderes</a></li>
-      <ul>
-        <li class="text-weight-bold">USV-Stromleistung</li>
-        <ul>
-          <li>
-            Beispiel: Wie lange kann die USV Strom liefern?
-            <a class="text-underline">gegeben:</a>
-            Akkuspannung 12V, Akkukapazität 200Ah, Leistung 20000W
-          </li>
-          <ul>
-            <li>Amperestunden in Wattstunden umrechnen</li>
-            <ul>
-              <li>Akkukapazität in Wh = 200Ah*12V = 2400Wh</li>
-            </ul>
-            <li>Haltedauer in h= Akkukapazität in Wh / Leistung in W</li>
-            <ul>
-              <li>Haltedauer in h = 2400Wh / 20000W</li>
-              <li>Haltedauer in h= 0.12Stunden</li>
-              <li>Haltedauer in m (*60) = 7.2 Minuten</li>
-            </ul>
-          </ul>
-        </ul>
-        <li class="text-weight-bold">Stromkosten</li>
-        <ul>
-          <li>
-            = Benutzungsdauer in h * bezogene Leistung aus Stromnetz in kiloWatt
-            * Energiekosten kWh in Cent
-          </li>
-          <li>Beispiel:</li>
-          <ul>
-            <li>30cent/kWh, 180h Benutzungsdauer, 140W</li>
-            <li>
-              entwender 30cent/kWh in cent/Wh umrechnen oder 140W in kW
-              umrechnen
-            </li>
-            <li>0.03 cent/Wh * 140 W * 180 h = 756 Cent Kosten</li>
-            <li>30 cent/kWh * 0.14 kW * 180 h = 756 Cent Kosten</li>
-          </ul>
-        </ul>
-        <li class="text-weight-bold">Maximale Belastung einer Steckdose</li>
-        <ul>
-          <li>Netzspannung in Deutschland: 230Volt</li>
-          <li>
-            z.B. Steckdose mit 10A kann in Deutschland mit maximal 2300Watt
-            belastet werden (10*230)
-          </li>
-        </ul>
-      </ul>
     </ul>
   </q-page>
 </template>
@@ -128,7 +80,7 @@ import { defineComponent, ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 export default defineComponent({
-  name: 'StomLadungPage',
+  name: 'FormelnEinheitenPage',
   setup() {
     const q = useQuasar();
     return {

@@ -34,6 +34,17 @@
           Umschaltung erfolgt erst nach wenigen Millisekunden (schlecht für
           empfindliche Verbraucher)
         </li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>Hoher Wirkungsgrad</li>
+          <li>Lange Batterielebensdauer</li>
+          <li>einfach, günstig</li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>Umschaltlücke von wenigen Millisekunden</li>
+          <li>Verbraucher durch ungefilterte Spannung versorgt</li>
+        </ul>
         <q-img
           class="fit bg-grey-5"
           :src="src + '/Hardware/offlineusv.jpg'"
@@ -51,6 +62,8 @@
           </div>
         </q-img>
       </ul>
+      <q-separator class="q-mt-md" />
+
       <li class="text-weight-bolder q-mt-md text-h7">Line-Interaktive-USV</li>
       <ul>
         <li>auch VI-Systeme (Voltage Independent) genannt</li>
@@ -67,6 +80,16 @@
           Keine Korrektur der Eingangsspannung und Umschaltung auch erst nach
           wenigen Millisekunden
         </li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>Hoher Wirkungsgrad</li>
+          <li>Gutes Preis-Leistungsverhältnis</li>
+          <li>Niedrige Betriebskosten</li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>Umschaltlücke von wenigen Millisekunden</li>
+        </ul>
         <q-img
           class="fit bg-grey-5"
           :src="src + '/Hardware/line-interaktiveusv.jpg'"
@@ -84,6 +107,7 @@
           </div>
         </q-img>
       </ul>
+      <q-separator class="q-mt-md" />
       <li class="text-weight-bolder q-mt-md text-h7">Online-USV</li>
       <ul>
         <li>auch VFI-Systeme (Voltage and Frequency Independent) genannt</li>
@@ -97,6 +121,16 @@
           bei Stromausfall aus Akku
         </li>
         <li>Ständige Umwandlung von Gleich- in Wechselstrom</li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>Konstante Ausgangsspannung und -frequenz</li>
+          <li>Keine Umschaltzeit & keine Versorgungslücken</li>
+          <li>Optimaler Schutz vor Netzstörungen</li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>Kostenintensiv</li>
+        </ul>
         <q-img
           class="fit bg-grey-5"
           :src="src + '/Hardware/onlineusv.jpg'"

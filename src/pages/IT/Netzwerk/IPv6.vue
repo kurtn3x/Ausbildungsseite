@@ -54,11 +54,11 @@
           <li>
             <a class="text-weight-bold">Beispiel:</a> 2001:0db8<a
               class="text-red"
-              >:0000:</a
+              >:0100:</a
             >08d3<a class="text-red">:0020:</a>8a2e:0070:7344
           </li>
           <li>
-            wird zu: 2001:db8<a class="text-red">:0:</a>8d3<a class="text-red"
+            wird zu: 2001:db8<a class="text-red">:100:</a>8d3<a class="text-red"
               >:20:</a
             >8a2e:70:7344
           </li>
@@ -85,15 +85,30 @@
       </ul>
       <li><a class="text-weight-bold">Besondere IPv6-Adressen:</a></li>
       <ul>
-        <li>::/128 nicht spezifizierte Adresse (Adresse fehlt)</li>
-        <li>::/0 Standard-Route</li>
-        <li>::1/128 Loopback Adresse</li>
         <li>
-          Fe80::/64 Link-Local-Adressen, sind nur bis zum ersten Router gültig
+          <a class="text-weight-bold">::/128</a> nicht spezifizierte Adresse
+          (Adresse fehlt)
+        </li>
+        <li><a class="text-weight-bold">::/0</a> Standard-Route</li>
+        <li><a class="text-weight-bold">::1/128</a> Loopback Adresse</li>
+        <li>
+          <a class="text-weight-bold">FE80::/64</a>
+          Link-Local-Adressen, sind nur bis zum ersten Router gültig. Der
+          gesamte reservierte Bereich dieser Adressen ist fe80::/10
+        </li>
+        <li><a class="text-weight-bold">FF00::/8</a> Multicast-Adressen</li>
+        <li>
+          <a class="text-weight-bold">2000::/3</a>
+          Global Unique Address, vergleichbar mit der öffentlichen IPv4-Adresse
+          (global einzigartig und routbar), der Bereich
+          <a class="text-weight-bold">2001::/3</a> ist für die Vergabe an
+          Provider und ihre Nutzer gedacht
         </li>
       </ul>
       <li>
-        <a class="text-weight-bold">Vorteile von IPv6 gegenüber IPv4:</a>
+        <a class="text-weight-bold text-green"
+          >Vorteile von IPv6 gegenüber IPv4:</a
+        >
       </li>
       <ul>
         <li>Nahezu uneingeschränkte Adresszahl</li>

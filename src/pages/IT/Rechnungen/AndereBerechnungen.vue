@@ -14,14 +14,26 @@
           z.B. gegebene Fläche 50,8cm x 63,5 cm mit einer Auflösung von
           500x500DPI
         </li>
-        <ul>
-          <li>50,8cm= 20Inch, 63,5cm=25Inch</li>
-          <li>20*500=10000 Dots(Pixel), 25*500=12500 Dots(Pixel)</li>
-          <li>
-            Das resultierende Bild ergibt eine Auflösung von 10000*12000 Pixel
-          </li>
-          <li>Das sind insgesamt 120.000.000 Pixel.</li>
-        </ul>
+        <q-card bordered flat>
+          <q-expansion-item
+            dense-toggle
+            dense
+            expand-separator
+            label="Lösung"
+            header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
+            align="left"
+          >
+            <ul>
+              <li>50,8cm= 20Inch, 63,5cm=25Inch</li>
+              <li>20*500=10000 Dots(Pixel), 25*500=12500 Dots(Pixel)</li>
+              <li>
+                Das resultierende Bild ergibt eine Auflösung von 10000*12000
+                Pixel
+              </li>
+              <li>Das sind insgesamt 120.000.000 Pixel.</li>
+            </ul>
+          </q-expansion-item>
+        </q-card>
       </ul>
       <li class="text-weight-bolder">
         Berechnen der Speichergröße mit einer Anzahl von Pixeln und Farbtiefe
@@ -32,20 +44,30 @@
           Die Farbtiefe beschreibt die Größe an Bit oder Byte, die ein einzelner
           Pixel einnimmt
         </li>
-        <li>z.B. Farbtiefe von 16Bit</li>
-        <ul>
-          <li>
-            ein Pixel nimmt 16Bit ein (auch direkte Umrechnung in Byte möglich)
-          </li>
-          <li>
-            → vorheriges Beispiel: 120.000.000Pixel nehmen 120.000.000*16Bit an
-            Speicher ein
-          </li>
-          <li>
-            Das sind 1.920.000.000Bit = 240.000.000Byte = 234.375KiB =
-            228,88MiB.
-          </li>
-        </ul>
+        <li>z.B. Farbtiefe von 16Bit mit Auflösung von 10000x125000</li>
+        <q-card bordered flat>
+          <q-expansion-item
+            dense-toggle
+            dense
+            expand-separator
+            label="Lösung"
+            header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
+            align="left"
+          >
+            <ul>
+              <li>
+                ein Pixel nimmt 16Bit ein (auch direkte Umrechnung in Byte
+                möglich)
+              </li>
+              <li>10000x125000 = 120.000.000Pixel</li>
+              <li>nehmen 120.000.000*16Bit an Speicher ein</li>
+              <li>
+                Das sind 1.920.000.000Bit = 240.000.000Byte = 234.375KiB =
+                228,88MiB.
+              </li>
+            </ul>
+          </q-expansion-item>
+        </q-card>
       </ul>
     </ul>
   </q-page>
