@@ -14,9 +14,7 @@
 
     <q-separator class="q-mt-md" />
     <ul>
-      <li class="text-weight-bolder text-h7 text-secondary">
-        Colocation / On-Site
-      </li>
+      <li class="text-weight-bolder text-h7 text-secondary">Colocation</li>
       <ul>
         <li>auch Serverhousing oder Serverhoming</li>
         <li>
@@ -92,6 +90,12 @@
           Click for full size
         </div>
       </q-img>
+      <ul>
+        <li>
+          Mit On-Site ist im Bild on-Premises-Hosting gemeint und nicht
+          Colocation.
+        </li>
+      </ul>
     </ul>
     <q-separator class="q-mt-md" />
     <div

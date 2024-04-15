@@ -56,15 +56,9 @@
             popupsrc = '/datenschutz/RAID/RAID0.png';
           "
         >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
         </q-img>
       </ul>
-      <li class="text-weight-bold q-mt-sm text-h7">RAID 1: Mirroring</li>
+      <li class="text-weight-bold q-mt-md text-h7">RAID 1: Mirroring</li>
       <ul>
         <li>Verbund von mindestens zwei Festplatten</li>
         <li>
@@ -84,15 +78,9 @@
             popupsrc = '/datenschutz/RAID/RAID1.png';
           "
         >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
         </q-img>
       </ul>
-      <li class="text-weight-bold q-mt-sm text-h7">
+      <li class="text-weight-bold q-mt-md text-h7">
         RAID 5: Block-Level Striping mit verteilten Paritätsinformationen
       </li>
       <ul>
@@ -128,16 +116,10 @@
             popupsrc = '/datenschutz/RAID/RAID5.png';
           "
         >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
         </q-img>
       </ul>
 
-      <li class="text-weight-bold text-h7 q-mt-sm">
+      <li class="text-weight-bold text-h7 q-mt-md">
         RAID 6: Block-Level Striping mit doppelt verteilter Paritätsinformation
       </li>
       <ul>
@@ -151,8 +133,22 @@
           zwei Festplatten
         </li>
         <li>Aufwendige Wiederherstellung</li>
+        <li>
+          Verfügbarer Speicherplatz = (Anzahl Festplatten - 2) * Kapazität der
+          kleinsten Festplatte
+        </li>
+        <q-img
+          class="fit bg-grey-5"
+          :src="src + '/datenschutz/RAID/raid6.png'"
+          style="max-width: 300px"
+          @click="
+            show_img = true;
+            popupsrc = '/datenschutz/RAID/raid6.png';
+          "
+        >
+        </q-img>
       </ul>
-      <li class="text-weight-bolder text-h7">RAID-Zusammenschlüsse:</li>
+      <li class="text-weight-bolder text-h7 q-mt-md">RAID-Zusammenschlüsse:</li>
       <ul>
         <li>
           es gibt auch eine Menge RAID-Zusammenschlüsse, d.h. das verbinden
@@ -212,16 +208,6 @@
               popupsrc = '/datenschutz/RAID/RAID01.png';
             "
           >
-            <div
-              class="absolute-bottom-right text-subtitle2"
-              style="
-                height: 40px;
-                font-size: 10px;
-                background-color: transparent;
-              "
-            >
-              Click for full size
-            </div>
           </q-img>
         </ul>
         <li class="q-mt-md">
@@ -298,12 +284,6 @@
             popupsrc = '/datenschutz/RAID/JBOD.png';
           "
         >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
         </q-img>
       </ul>
     </ul>
@@ -317,6 +297,7 @@
       https://commons.wikimedia.org/wiki/File:RAID_0.svg<br />
       https://commons.wikimedia.org/wiki/File:RAID_1.svg <br />
       https://commons.wikimedia.org/wiki/File:RAID_5.svg <br />
+      https://commons.wikimedia.org/wiki/File:RAID_6.svg <br />
       https://commons.wikimedia.org/wiki/File:RAID_01.svg <br />
       https://commons.wikimedia.org/wiki/File:RAID_10.svg <br />
       https://commons.wikimedia.org/wiki/File:JBOD.svg <br />

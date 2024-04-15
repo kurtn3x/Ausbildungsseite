@@ -14,7 +14,7 @@
           z.B. gegebene Fläche 50,8cm x 63,5 cm mit einer Auflösung von
           500x500DPI
         </li>
-        <q-card bordered flat>
+        <q-card bordered flat style="max-width: 500px">
           <q-expansion-item
             dense-toggle
             dense
@@ -23,7 +23,7 @@
             header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
             align="left"
           >
-            <ul>
+            <ul class="q-ma-sm">
               <li>50,8cm= 20Inch, 63,5cm=25Inch</li>
               <li>20*500=10000 Dots(Pixel), 25*500=12500 Dots(Pixel)</li>
               <li>
@@ -45,7 +45,7 @@
           Pixel einnimmt
         </li>
         <li>z.B. Farbtiefe von 16Bit mit Auflösung von 10000x125000</li>
-        <q-card bordered flat>
+        <q-card bordered flat style="max-width: 500px">
           <q-expansion-item
             dense-toggle
             dense
@@ -54,7 +54,7 @@
             header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
             align="left"
           >
-            <ul>
+            <ul class="q-ma-sm">
               <li>
                 ein Pixel nimmt 16Bit ein (auch direkte Umrechnung in Byte
                 möglich)

@@ -25,9 +25,9 @@
           v-model="fontSize"
           color="white"
           thumb-color="white"
-          :min="50"
-          :step="10"
-          :max="200"
+          :min="0.5"
+          :step="0.1"
+          :max="2"
           style="width: 125px"
           class="q-mr-md"
           track-color="white"
@@ -66,7 +66,12 @@
     <q-page-container>
       <router-view
         :style="
-          'font-size:' + fontSize + '%' + ';line-height:' + (fontSize / 150 + 1)
+          'font-size:' +
+          fontSize +
+          'rem' +
+          ';line-height:' +
+          (fontSize + 0.75) +
+          'rem'
         "
       />
     </q-page-container>
@@ -109,16 +114,23 @@ export default defineComponent({
   },
   computed: {
     fontSizeh7() {
-      return this.fontSize + 5 + '%';
+      return this.fontSize + 0.3 + 'rem';
     },
     fontSizeh6() {
-      return this.fontSize + 25 + '%';
+      return this.fontSize + 0.6 + 'rem';
     },
     fontSizeh5() {
-      return this.fontSize + 75 + '%';
+      return this.fontSize + 0.9 + 'rem';
     },
     fontSizeh4() {
-      return this.fontSize + 125 + '%';
+      return this.fontSize + 1.2 + 'rem';
+    },
+    ulPadding() {
+      if (this.q.screen.width < 1024) {
+        return 15 + 'px';
+      } else {
+        return 30 + 'px';
+      }
     },
   },
 
@@ -141,14 +153,22 @@ export default defineComponent({
 <style>
 .text-h6 {
   font-size: v-bind(fontSizeh6);
+  line-height: v-bind(fontSizeh6 + 1);
 }
 .text-h5 {
   font-size: v-bind(fontSizeh5);
+  line-height: v-bind(fontSizeh5 + 1);
 }
 .text-h4 {
   font-size: v-bind(fontSizeh4);
+  line-height: v-bind(fontSizeh4 + 1);
 }
 .text-h7 {
   font-size: v-bind(fontSizeh7);
+  line-height: v-bind(fontSizeh7 + 1);
+}
+
+ul {
+  padding-left: v-bind(ulPadding);
 }
 </style>

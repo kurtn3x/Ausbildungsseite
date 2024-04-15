@@ -124,13 +124,16 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
           <li>Extra Infrastrukturebene für Speicher</li>
         </ul>
       </ul>
+      <li class="text-weight-bolder text-h7">
+        Skizzierung der Storagesysteme im Netzwerk:
+      </li>
       <q-img
-        class="fit bg-grey-5"
-        :src="src + '/datenschutz/RAID/NASSAN.jpg'"
+        class="fit bg-grey-5 q-mt-sm"
+        :src="src + '/datenschutz/RAID/dasnassan.png'"
         style="max-width: 600px"
         @click="
           show_img = true;
-          popupsrc = '/datenschutz/RAID/NASSAN.jpg';
+          popupsrc = '/datenschutz/RAID/dasnassan.png';
         "
       >
         <div
@@ -140,6 +143,20 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
           Click for full size
         </div>
       </q-img>
+      <ul class="q-mt-sm">
+        <li>
+          <a class="text-weight-bold">DAS:</a> Storage direkt am Server
+          angeschlossen
+        </li>
+        <li>
+          <a class="text-weight-bold">SAN:</a> Storage über Fibre-Channel-Switch
+          (FC-Switch) mit Server verbunden
+        </li>
+        <li>
+          <a class="text-weight-bold">NAS:</a> Storage als eigenständiges System
+          im Netzwerk
+        </li>
+      </ul>
     </ul>
 
     <q-separator class="q-mt-md" />
@@ -148,7 +165,7 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
       style="line-break: anywhere"
     >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
-      https://medium.com/teamresellerclub/what-is-the-difference-between-san-and-nas-storage-9e5d0b0b94b2
+      https://www.thomas-krenn.com/de/tkmag/wp-content/uploads/2020/08/grafik.png
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>

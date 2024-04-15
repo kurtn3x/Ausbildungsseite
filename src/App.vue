@@ -6,6 +6,7 @@
 import { defineComponent } from 'vue';
 import { useQuasar, LocalStorage } from 'quasar';
 import { useSettingsStore } from 'stores/settings';
+import { settings } from 'cluster';
 
 export default defineComponent({
   name: 'App',
@@ -15,11 +16,11 @@ export default defineComponent({
     if (settingsStore.darkmodeState == null) {
       settingsStore.darkmode = true;
     }
-    if (settingsStore.fontsizeState == null) {
+    if (settingsStore.fontsizeState == null || settingsStore.fontsize > 2) {
       if (q.screen.width < 1024) {
-        settingsStore.fontsize = 100;
+        settingsStore.fontsize = 1;
       } else {
-        settingsStore.fontsize = 120;
+        settingsStore.fontsize = 1.2;
       }
     }
     q.dark.set(settingsStore.darkmodeState);
@@ -31,20 +32,5 @@ export default defineComponent({
     });
     return { q };
   },
-  computed: {
-    ulPadding() {
-      if (this.q.screen.width < 1024) {
-        return 15 + 'px';
-      } else {
-        return 30 + 'px';
-      }
-    },
-  },
 });
 </script>
-
-<style>
-ul {
-  padding-left: v-bind(ulPadding);
-}
-</style>
