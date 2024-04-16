@@ -57,7 +57,7 @@
           Sicherheitsverantwortung wird an Cloud-Anbieter abgegeben
         </li>
         <li>
-          <a class="text-underline">Mehr Sicherheitsrisiken:</a> Anbiter kann
+          <a class="text-underline">Mehr Sicherheitsrisiken:</a> Anbieter kann
           Festplattendaten oder RAM durch physischen Zugriff auslesen und so an
           Daten kommen
         </li>
@@ -94,7 +94,7 @@
           gehostet werden
         </li>
         <li>
-          <a class="text-underline">Sicherheit:</a>: Unternehmen haben die
+          <a class="text-underline">Sicherheit:</a> Unternehmen haben die
           Möglichkeit, sicherzustellen, dass ihre Server geschützt und sicher
           sind
         </li>

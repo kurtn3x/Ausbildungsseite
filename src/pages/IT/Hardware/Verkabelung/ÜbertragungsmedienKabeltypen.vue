@@ -90,7 +90,6 @@
         <li>unempfindlich gegen elektromagnetische Störungen</li>
         <li>wenig eigene Störaussendung</li>
         <li>robuster gegen Umwelteinflüsse</li>
-        <li>Kostengünstig</li>
         <li>Geringere Dämpfung</li>
         <li>Höhere Übertragungsrate</li>
         <li>Größere Reichweiten möglich</li>
@@ -102,7 +101,6 @@
         <li>kein Power over Ethernet möglich</li>
         <li>Komplexere Verbindungstechnik als z.B. Twisted-Pair</li>
         <li>Zerbrechlich</li>
-        <li>höhere Herstellungskosten</li>
         <li>Größerer Installationsaufwand</li>
       </ul>
       <li class="text-underline text-weight-bold">Monomode/Singlemode</li>
