@@ -893,13 +893,13 @@
           <q-btn
             dense
             flat
-            to="/datenschutz-datensicherheit/schutzziele"
+            to="/datenschutz-datensicherheit/bsi/schutzziele"
             label="Schutzziele"
             class="full-width q-mt-xs"
             rounded
             align="left"
             :class="
-              $route.path == '/datenschutz-datensicherheit/schutzziele'
+              $route.path == '/datenschutz-datensicherheit/bsi/schutzziele'
                 ? 'active'
                 : ''
             "
@@ -907,25 +907,13 @@
           <q-btn
             dense
             flat
-            to="/datenschutz-datensicherheit/tom"
+            to="/datenschutz-datensicherheit/bsi/tom"
             label="Techn. Org. Maßnahmen"
             class="full-width q-mt-xs"
             rounded
             align="left"
             :class="
-              $route.path == '/datenschutz-datensicherheit/tom' ? 'active' : ''
-            "
-          />
-          <q-btn
-            dense
-            flat
-            to="/datenschutz-datensicherheit/schutzbedarfsanalyse"
-            label="Schutzbedarfsanalyse"
-            class="full-width q-mt-xs"
-            rounded
-            align="left"
-            :class="
-              $route.path == '/datenschutz-datensicherheit/schutzbedarfsanalyse'
+              $route.path == '/datenschutz-datensicherheit/bsi/tom'
                 ? 'active'
                 : ''
             "
@@ -933,19 +921,47 @@
           <q-btn
             dense
             flat
-            to="/datenschutz-datensicherheit/sicherheitsprozess"
+            to="/datenschutz-datensicherheit/bsi/schutzbedarfsanalyse"
+            label="Schutzbedarfsanalyse"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path ==
+              '/datenschutz-datensicherheit/bsi/schutzbedarfsanalyse'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/datenschutz-datensicherheit/bsi/sicherheitsprozess"
             label="IT-Sicherheitsprozess"
             class="full-width q-mt-xs q-mb-xs"
             rounded
             align="left"
             :class="
-              $route.path == '/datenschutz-datensicherheit/sicherheitsprozess'
+              $route.path ==
+              '/datenschutz-datensicherheit/bsi/sicherheitsprozess'
                 ? 'active'
                 : ''
             "
           />
         </div>
       </q-expansion-item>
+      <q-btn
+        dense
+        flat
+        to="/datenschutz-datensicherheit/rechte"
+        label="Rechtliches (DSGVO)"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="
+          $route.path == '/datenschutz-datensicherheit/rechte' ? 'active' : ''
+        "
+      />
     </div>
   </q-expansion-item>
   <q-expansion-item

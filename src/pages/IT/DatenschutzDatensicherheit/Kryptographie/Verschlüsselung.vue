@@ -13,7 +13,9 @@
     </div>
     <q-separator class="q-mt-md" />
     <ul>
-      <li class="text-weight-bolder text-h7">symmetrische Kryptographie</li>
+      <li class="text-weight-bolder text-h7 text-secondary">
+        symmetrische Kryptographie
+      </li>
       <ul>
         <li>Teilnehmer verwenden einen gemeinsamen, identischen Schlüssel</li>
         <ul>
@@ -92,7 +94,7 @@
           </div>
         </q-img>
       </ul>
-      <li class="text-weight-bolder q-mt-md text-h7">
+      <li class="text-weight-bolder q-mt-md text-h7 text-secondary">
         asymmetrische Kryptographie (Public-Key-Kryptographie)
       </li>
       <ul>

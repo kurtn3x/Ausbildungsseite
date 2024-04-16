@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <div class="row justify-center q-mt-lg">
-      <q-card bordered flat style="width: 600px">
+      <q-card bordered flat style="width: 600px; line-height: 1rem">
         <Links />
       </q-card>
     </div>

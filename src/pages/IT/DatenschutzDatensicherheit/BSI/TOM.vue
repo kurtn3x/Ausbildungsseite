@@ -6,7 +6,9 @@
     <q-separator class="q-mt-md" />
     <ul>
       <li>
-        <a class="text-weight-bolder text-h7">Technische Maßnahmen</a>
+        <a class="text-weight-bolder text-h7 text-secondary"
+          >Technische Maßnahmen</a
+        >
       </li>
       <ul>
         <li>
@@ -30,7 +32,9 @@
         </ul>
       </ul>
       <li>
-        <a class="text-weight-bolder text-h7">Organisatorische Maßnahmen</a>
+        <a class="text-weight-bolder text-h7 text-secondary"
+          >Organisatorische Maßnahmen</a
+        >
       </li>
       <ul>
         <li>

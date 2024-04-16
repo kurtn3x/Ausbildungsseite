@@ -85,7 +85,7 @@
               align="left"
             >
               <ul class="q-ma-sm">
-                <li>100VA während einer Stunde = 100Wh</li>
+                <li>100VA über einer Stunde = 100Wh Akkuleistung</li>
                 <li>
                   Haltedauer bei 100% = 100Wh / 300W = 0.33 Stunden = 20 Minuten
                 </li>

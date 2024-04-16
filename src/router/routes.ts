@@ -119,30 +119,44 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
-        path: 'schutzbedarfsanalyse',
-        component: () =>
-          import(
-            'pages/IT/DatenschutzDatensicherheit/Schutzbedarfsanalyse.vue'
-          ),
+        path: 'bsi',
+        children: [
+          {
+            path: 'schutzbedarfsanalyse',
+            component: () =>
+              import(
+                'pages/IT/DatenschutzDatensicherheit/BSI/Schutzbedarfsanalyse.vue'
+              ),
+          },
+          {
+            path: 'schutzziele',
+            component: () =>
+              import('pages/IT/DatenschutzDatensicherheit/BSI/Schutzziele.vue'),
+          },
+          {
+            path: 'sicherheitsprozess',
+            component: () =>
+              import(
+                'pages/IT/DatenschutzDatensicherheit/BSI/Sicherheitsprozess.vue'
+              ),
+          },
+          {
+            path: 'tom',
+            component: () =>
+              import('pages/IT/DatenschutzDatensicherheit/BSI/TOM.vue'),
+          },
+        ],
       },
-      {
-        path: 'schutzziele',
-        component: () =>
-          import('pages/IT/DatenschutzDatensicherheit/Schutzziele.vue'),
-      },
-      {
-        path: 'sicherheitsprozess',
-        component: () =>
-          import('pages/IT/DatenschutzDatensicherheit/Sicherheitsprozess.vue'),
-      },
-      {
-        path: 'tom',
-        component: () => import('pages/IT/DatenschutzDatensicherheit/TOM.vue'),
-      },
+
       {
         path: 'cyberbedrohung',
         component: () =>
           import('pages/IT/DatenschutzDatensicherheit/Cyberbedrohung.vue'),
+      },
+      {
+        path: 'rechte',
+        component: () =>
+          import('pages/IT/DatenschutzDatensicherheit/Rechtliches.vue'),
       },
       {
         path: 'kryptographie',

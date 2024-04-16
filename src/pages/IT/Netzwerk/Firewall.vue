@@ -146,6 +146,23 @@
           </div>
         </q-img>
       </ul>
+      <li class="text-weight-bolder q-mt-md">
+        Stateful Packet Inspection (SPI)
+      </li>
+      <ul>
+        <li>
+          dynamische Paketfiltertechnik, bei der die Firewall den Zustand der
+          Datenverbindung erkennt
+        </li>
+        <li>
+          erkennt aktive TCP-Sessions und kann Datenpakete aufgrund des
+          Session-Status zulassen oder blockieren
+        </li>
+        <li>
+          z.B. dürfen Antworten für erlaubten Traffic ebenfalls für einen
+          bestimmten Zeitraum die Firewall passieren
+        </li>
+      </ul>
     </ul>
     <q-separator class="q-mt-md" />
     <div
