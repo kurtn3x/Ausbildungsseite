@@ -12,11 +12,6 @@
       DNS - Domain Name System
     </div>
     <q-separator class="q-mt-md" />
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
-    >
-      Allgemeines
-    </div>
     <ul>
       <li class="text-weight-bold">
         Übersetzt Menschenlesbare Namen wie www.google.de (DNS-Namen) in
@@ -31,7 +26,9 @@
           Siehe auch Liste an Organisationen verbunden mit Adressvergaben
         </router-link>
       </li>
-      <li class="text-weight-bolder text-h7">Arten von DNS-Servern:</li>
+      <li class="text-weight-bolder text-h7 text-secondary">
+        Arten von DNS-Servern:
+      </li>
       <ul>
         <li class="text-weight-bold">Autoritativer DNS-Server:</li>
         <ul>
@@ -72,7 +69,9 @@
           </ul>
         </ul>
       </ul>
-      <li class="text-weight-bolder">Akteure im Domain-Name-System</li>
+      <li class="text-weight-bolder text-h7 text-secondary">
+        Akteure im Domain-Name-System
+      </li>
       <ul>
         <li class="text-weight-bold">DNS-Resolver</li>
         <ul>
@@ -119,7 +118,9 @@
           </li>
         </ul>
       </ul>
-      <li class="text-weight-bolder">Arten von DNS-Records:</li>
+      <li class="text-weight-bolder text-h7 text-secondary">
+        Arten von DNS-Records:
+      </li>
       <ul>
         <li>
           <a class="text-weight-bold">A Records:</a> Auflösung von DNS-Namen zu
@@ -142,6 +143,21 @@
           für die Zone
         </li>
       </ul>
+      <li class="text-weight-bolder">DNSSEC</li>
+      <ul>
+        <li>
+          erweitert DNS zur Gewährleistung von Authentizität und Integrität
+        </li>
+        <li>
+          Nutzen von kryptografischen Signaturen, die zu bestehenden
+          DNS-Einträgen hinzugefügt werden
+        </li>
+        <li>
+          Signatur des DNS-Datensatzes wird mit der des autorisierenden
+          Nameservers überprüft
+        </li>
+      </ul>
+
       <li class="text-weight-bolder">dynamisches DNS</li>
       <ul>
         <li>

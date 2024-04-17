@@ -57,10 +57,9 @@
           <ul>
             <li>am meisten verwendet</li>
             <li>
-              abstrahierte Schicht zwischen tatsächlich vorhandener Hardware und
-              weiteren Betriebssystemen
+              abstrahiert die Hardware und gibt den virtuellen Maschinen vor,
+              dass es sich um physische Maschinen handle
             </li>
-            <li>erlauben Definierung einer virtuellen Umgebung</li>
             <li>
               <a class="text-weight-bold">Typ-1-Hypervisor:</a> auch native oder
               bare-metal setzt direkt auf der Hardware auf und benötigt keine

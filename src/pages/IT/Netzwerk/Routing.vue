@@ -187,7 +187,18 @@
         <li class="text-weight-bold">Link-State-Routing-Protokolle</li>
         <ul>
           <li>Teile der Welt mit, wer deine Nachbarn sind</li>
-          <li>Router lernen die Topologie des gesamten Netzwerks</li>
+          <li>
+            Teilen Informationen über ihre direkten Verbindungen (Links) und
+            deren Zustand mit allen anderen Routern im Netzwerk (Sate)
+          </li>
+          <li>
+            Jeder Router erstellt daraus eine Topologiekarte und berechnet
+            algorithmisch den kürzesten Pfad zu jedem Zielnetzwerk
+          </li>
+          <li>
+            Kosten (wie Geschwindigkeit) der Route spielt auch eine Rolle bei
+            der Pfadbestimmung
+          </li>
           <li>z.B. OSPF, IS-IS</li>
         </ul>
 
@@ -199,6 +210,19 @@
             Nachbarrouter lernen, dass sie über den Sender der Informationen
             weitere Netzwerke erreichen können
           </li>
+          <li>
+            Pfad wird basierend auf Entfernung (Distance) und Richtung (Vektor)
+            zum Ziel bestimmt
+          </li>
+          <li>
+            Router kennen nicht das gesamte Netz, sondern nur ihre direkten
+            Nachbarn
+          </li>
+          <li>
+            Ausschließlich die Anzahl der Hops fließt in die Bestimmung der
+            Routen ein
+          </li>
+          <li>anfällig für Loops</li>
           <li>
             eine allgemeinere Form der Distanzverktorprotokolle sind die
             Pfadvektorprotokolle, welche eine bessere Erkennung von Schleifen

@@ -61,8 +61,7 @@
       </li>
       <ul>
         <li>
-          Drittanbieter stellt eine komplette Anwendung über einer Website
-          bereit
+          Drittanbieter stellt eine komplette Anwendung über eine Website bereit
         </li>
         <li>
           Nutzer ist nicht für Softwareupdates oder generelle Softwarewartung

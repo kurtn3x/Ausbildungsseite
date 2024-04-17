@@ -28,8 +28,8 @@
       <li class="text-weight-bold text-green">Gründe für VLANs:</li>
       <ul>
         <li>
-          Sicherheitsgründe: Begrenzung der Broadcast-Domäne, Broadcast kann nur
-          innerhalb eines VLANs gesendet werden
+          Sicherheitsgründe: Begrenzung der Broadcast-Domäne, logische Trennung
+          der Netzwerksegmente
         </li>
         <li>
           Erhöhte Performance durch Begrenzung der Broadcast-Domäne → weniger
@@ -39,9 +39,10 @@
           Anwenden verschiedener fortgeschrittener Funktionen eines Switches auf
           seperate VLANs (z.B. Aussortieren von Netzsegmenten)
         </li>
-        <li>logische Trennung von Datenströmen</li>
+
         <li>Priorisieren von Datenströmen</li>
         <li>Abbildung von Abteilungsstrukturen</li>
+        <li>ggf. Einsparung von Kabeln (dadurch auch geringere Kosten)</li>
       </ul>
       <li>
         Die VLAN-ID gibt an, zu welchem VLAN ein Port/Datenpaket gehört (4096

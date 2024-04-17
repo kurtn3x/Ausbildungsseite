@@ -55,8 +55,9 @@
       <li>
         Twisted-Pair-Kabel besitzen unterschiedliche Arten von Abschirmungen,
         welche einen zusätzlichen Schutz gegen störende äußere
-        elektromagnetische Felder bieten:
+        elektromagnetische Felder bieten
       </li>
+      <li>Maximale Reichweite: 100m</li>
       <q-img
         class="fit"
         :src="src + '/Hardware/twisted-pair.png'"
@@ -108,6 +109,7 @@
         <li>sehr dünner Kerndurchmesser</li>
         <li>Licht als gerader Strahl durchgeleitet</li>
         <li>nur ein Lichtmodus</li>
+        <li>bis zu 40km Reichweite bei 10Gbit/s</li>
         <li>
           <a class="text-green">Vorteile:</a> große Distanzen, hohe Bandbreiten,
           geringe Dämpfung des Signals
@@ -139,6 +141,7 @@
         <li>Kerndurchmesser relativ dick</li>
         <li>Licht bricht in vielen Winkeln und verliert an Genauigkeit</li>
         <li>gleichzeitige Ausbreitung mehrerer Modi oder Lichstrahlen</li>
+        <li>bis zu 550m Reichweite bei 10Gbit/s</li>
         <li>
           <a class="text-green">Vorteile:</a> geringerer Aufwand bei
           Herstellung, einfachere Installation
