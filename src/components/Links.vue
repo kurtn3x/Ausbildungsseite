@@ -65,108 +65,116 @@
   </q-expansion-item>
   <q-expansion-item
     dense-toggle
-    label="Unternehmen"
+    label="WISO"
     header-class="bg-primary text-white text-body1"
     expand-icon-class="text-white"
     :content-inset-level="0.2"
   >
     <div class="q-ma-xs">
-      <q-btn
+      <q-expansion-item
+        dense-toggle
         dense
-        flat
-        to="/unternehmen/unternehmen-betriebe"
+        expand-separator
         label="Unternehmen & Betriebe"
-        class="full-width q-mt-xs"
-        rounded
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
         align="left"
-        :class="
-          $route.path == '/unternehmen/unternehmen-betriebe' ? 'active' : ''
-        "
-      />
-      <q-btn
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/wiso/unternehmen-betriebe/allgemein"
+            label="Allgemeines"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/wiso/unternehmen-betriebe/allgemein'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/wiso/unternehmen-betriebe/aufbauorganisation"
+            label="Aufbauorganisation"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/wiso/unternehmen-betriebe/aufbauorganisation'
+                ? 'active'
+                : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
+            to="/wiso/unternehmen-betriebe/rechtsformen"
+            label="Rechtsformen"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/wiso/unternehmen-betriebe/rechtsformen'
+                ? 'active'
+                : ''
+            "
+          />
+
+          <q-btn
+            dense
+            flat
+            to="/wiso/unternehmen-betriebe/ziele"
+            label="Ziele"
+            class="full-width q-mt-xs q-mb-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/wiso/unternehmen-betriebe/ziele' ? 'active' : ''
+            "
+          />
+        </div>
+      </q-expansion-item>
+      <q-expansion-item
+        dense-toggle
         dense
-        flat
-        to="/unternehmen/aufbauorganisation"
-        label="Aufbauorganisation"
-        class="full-width q-mt-xs"
-        rounded
+        expand-separator
+        label="Wirtschaft"
+        header-class="q-pl-xs text-body2 text-uppercase text-weight-medium rounded-borders"
+        class="q-mt-xs"
         align="left"
-        :class="
-          $route.path == '/unternehmen/aufbauorganisation' ? 'active' : ''
-        "
-      />
-      <q-btn
-        dense
-        flat
-        to="/unternehmen/leitbild"
-        label="Leitbild"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/unternehmen/leitbild' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/unternehmen/rechtsformen"
-        label="Rechtsformen"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/unternehmen/rechtsformen' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/unternehmen/wertschopfung"
-        label="Wertschöpfung"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/unternehmen/wertschopfung' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/unternehmen/ziele"
-        label="Ziele"
-        class="full-width q-mt-xs q-mb-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/unternehmen/ziele' ? 'active' : ''"
-      />
+        :content-inset-level="0.4"
+      >
+        <div class="q-ma-xs">
+          <q-btn
+            dense
+            flat
+            to="/wiso/wirtschaft/markt"
+            label="Der Markt"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="$route.path == '/wiso/wirtschaft/markt' ? 'active' : ''"
+          />
+          <q-btn
+            dense
+            flat
+            to="/wiso/wirtschaft/vertrage"
+            label="Verträge & Vertragsarten"
+            class="full-width q-mt-xs q-mb-xs"
+            rounded
+            align="left"
+            :class="$route.path == '/wiso/wirtschaft/vertrage' ? 'active' : ''"
+          />
+        </div>
+      </q-expansion-item>
     </div>
   </q-expansion-item>
-  <q-expansion-item
-    dense-toggle
-    label="Wirtschaft"
-    header-class="bg-primary text-white text-body1"
-    expand-icon-class="text-white"
-    :content-inset-level="0.2"
-  >
-    <div class="q-ma-xs">
-      <q-btn
-        dense
-        flat
-        to="/wirtschaft/markt"
-        label="Der Markt"
-        class="full-width q-mt-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/wirtschaft/markt' ? 'active' : ''"
-      />
-      <q-btn
-        dense
-        flat
-        to="/wirtschaft/vertrage"
-        label="Verträge & Vertragsarten"
-        class="full-width q-mt-xs q-mb-xs"
-        rounded
-        align="left"
-        :class="$route.path == '/wirtschaft/vertrage' ? 'active' : ''"
-      />
-    </div>
-  </q-expansion-item>
+
   <q-expansion-item
     dense-toggle
     label="Hardware"

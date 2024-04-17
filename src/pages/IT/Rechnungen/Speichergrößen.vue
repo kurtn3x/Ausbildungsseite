@@ -140,7 +140,7 @@
           header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
           align="left"
         >
-          <ul class="q-ma-sm">
+          <ul class="q-ma-sm q-ml-md">
             <li>
               50 MiB = 51200 KiB (*1024) = 52428800 Byte (*1024) = 419430400 Bit
               (*8)

@@ -16,7 +16,7 @@
             <a class="text-underline">gegeben:</a> Akkuspannung 12V,
             Akkukapazität 200Ah, Leistung 20000W
           </li>
-          <q-card bordered flat style="max-width: 500px">
+          <q-card bordered flat style="max-width: 700px">
             <q-expansion-item
               dense-toggle
               dense
@@ -25,7 +25,7 @@
               header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
               align="left"
             >
-              <ul class="q-ma-sm">
+              <ul class="q-ma-sm q-ml-md">
                 <li>Amperestunden in Wattstunden umrechnen</li>
                 <ul>
                   <li>Akkukapazität in Wh = 200Ah*12V = 2400Wh</li>
@@ -48,7 +48,7 @@
             <a class="text-underline">gegeben:</a> 4 Racks mit je 2.75kW
             Leistung, Batteriekapazität von 6kWh
           </li>
-          <q-card bordered flat style="max-width: 500px">
+          <q-card bordered flat style="max-width: 700px">
             <q-expansion-item
               dense-toggle
               dense
@@ -57,7 +57,7 @@
               header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
               align="left"
             >
-              <ul class="q-ma-sm">
+              <ul class="q-ma-sm q-ml-md">
                 <li>
                   Haltedauer = 6kWh / (4*2.75) = 0.54 Stunden = 32 Minuten
                 </li>
@@ -75,7 +75,7 @@
         </li>
         <ul>
           <li>VA == Watt (W)</li>
-          <q-card bordered flat style="max-width: 500px">
+          <q-card bordered flat style="max-width: 700px">
             <q-expansion-item
               dense-toggle
               dense
@@ -84,7 +84,7 @@
               header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
               align="left"
             >
-              <ul class="q-ma-sm">
+              <ul class="q-ma-sm q-ml-md">
                 <li>100VA über einer Stunde = 100Wh Akkuleistung</li>
                 <li>
                   Haltedauer bei 100% = 100Wh / 300W = 0.33 Stunden = 20 Minuten
@@ -126,7 +126,7 @@
             <a class="text-underline">gegeben:</a> Strompreis von 30cent/kWh,
             180h Benutzungsdauer, 140W Verbrauch
           </li>
-          <q-card bordered flat style="max-width: 500px">
+          <q-card bordered flat style="max-width: 700px">
             <q-expansion-item
               dense-toggle
               dense
@@ -135,7 +135,7 @@
               header-class="q-pl-xs bg-secondary text-body2 text-uppercase text-weight-medium rounded-borders"
               align="left"
             >
-              <ul class="q-ma-sm">
+              <ul class="q-ma-sm q-ml-md">
                 <li>
                   entwender 30cent/kWh in cent/Wh umrechnen oder 140W in kW
                   umrechnen
