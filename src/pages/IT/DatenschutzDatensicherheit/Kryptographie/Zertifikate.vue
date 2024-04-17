@@ -15,7 +15,7 @@
     <ul>
       <li>bestätigen Authentizität & Integrität bestimmter Daten</li>
       <li>
-        Ausschließlich verwendet werden Public-Key-Zertifikate wie X.509, welche
+        ausschließlich verwendet werden Public-Key-Zertifikate wie X.509, welche
         die Identität und weitere Eigenschaften eines öffentlichen
         kryptographischen Schlüssels bestätigen
       </li>
@@ -25,10 +25,26 @@
       </li>
       <li>
         Ein Zertifikat wird durch eine Zertifizierungsstelle (CA - Certification
-        Authority) ausgestellt und signiert. Die Überprüfung der Signatur eines
-        Zertifikats erfolgt über eine
-        <a class="text-weight-bold">Zertifikatskette</a>.
+        Authority) ausgestellt und signiert
       </li>
+      <li class="text-weight-bolder">Zertifikatsüberprüfung</li>
+      <ul>
+        <li>
+          Das Zertifikat wird mit dem privaten Schlüssel der CA signiert. Diese
+          Signatur wird mithilfe des öffentlichen Schlüssels der CA überprüft.
+        </li>
+        <li>
+          Der Widerrufsstatus des Zertifikats wird überprüft. Das passiert
+          meistens mithilfe eines Servers der CA.
+        </li>
+        <li>
+          Die Gültigkeitsdauer wird mithilfe des Start- und End-Datums im
+          Zertifikat überprüft.
+        </li>
+        <li>
+          Die <a class="text-weight-bold">Zertifikatskette</a> wird überprüft.
+        </li>
+      </ul>
       <li class="text-weight-bold">Zertifikatskette</li>
       <ul>
         <li>
@@ -42,6 +58,7 @@
           Dadurch entwickelt sich eine
           <a class="text-weight-bold">Zertifikatskette</a>
         </li>
+
         <li>
           Auf die Echtheit des letzten (Root-)Zertifikats muss sich vollständig
           verlassen werden
@@ -50,12 +67,11 @@
           Vertrauenswürdige Zertifizierungsstellen in z.B. Webbrowsern oft
           vorkonfiguriert
         </li>
+        <li class="text-weight-bolder">
+          Das gesamte System, welches Zertifikate ausstellt, verteilt und
+          überprüft wird PKI - Public-Key-Infrastructure genannt
+        </li>
       </ul>
-
-      <li class="text-weight-bolder">
-        Das gesamte System, welches Zertifikate ausstellt, verteilt und
-        überprüft wird PKI - Public-Key-Infrastructure genannt
-      </li>
       <li class="text-weight-bolder">
         Typische Anwendung digitaler Zertifikate:
       </li>
@@ -66,7 +82,7 @@
         <li>Sicherheit von E-Mails (S/MIME, PGP)</li>
         <li>Erstellen elektronischer Signaturen</li>
       </ul>
-      <li class="text-weight-bolder">X.509</li>
+      <li class="text-weight-bolder text-h7">X.509</li>
       <ul>
         <li>oft auch SSL-Zertifikat genannt</li>
         <li>

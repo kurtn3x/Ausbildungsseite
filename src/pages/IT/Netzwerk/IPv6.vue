@@ -116,6 +116,14 @@
         <li>Verbesserte Integration von Sicherheitsmaßnahmen wie IPSec</li>
         <li>Verschlankung des Protokoll-Headers</li>
       </ul>
+      <li class="text-weight-bolder">IPv6 Privacy Extensions</li>
+      <ul>
+        <li>System erhält nach jedem Neustart eine andere IPv6-Adresse</li>
+        <li>
+          Schlecht für Server, da die Clients die IPv6 Adresse ständig neu
+          ermitteln müssen
+        </li>
+      </ul>
 
       <li class="text-weight-bolder">Aufbau des IPv6-Headers:</li>
       <ul>

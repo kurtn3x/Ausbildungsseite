@@ -28,6 +28,18 @@
           <a class="text-weight-bold">Multiprocessing: </a>Jede CPU bekommt ihre
           eigenen Systemressourcen
         </li>
+        <li>
+          <a class="text-weight-bold">Hyperthreading: </a>Effizientere Nutzung
+          der Prozessorressourcen, da jeder Kern mehrere Threads gleichzeitig
+          verarbeiten kann. Steigert auch den Prozessordurchsatz und verbessert
+          damit die Gesamtleistung von Multithreading-Software.
+        </li>
+        <li>
+          <a class="text-weight-bold">CPU-Cache: </a>Der CPU-Cache dient der
+          Optimierung der Verarbeitung von Operationen. Prozessorkerne können
+          schneller auf den CPU-Cache zugreifen als auf den RAM oder den
+          Festplattenspeicher.
+        </li>
         <li>Besondere Merkmale von Server-CPUs:</li>
         <ul>
           <li>meist keine integrierte GPU</li>
@@ -45,6 +57,11 @@
         <li>
           <a class="text-weight-bold">Registered RAM: </a>RAM beinhaltet ein
           Register, um Speicherzugriff der CPU auf RAM zu erleichtern
+        </li>
+        <li>
+          <a class="text-weight-bold">Quad-Channel: </a>vier
+          Arbeitsspeicher-Module gleicher Kapizität können parallel betrieben
+          werden. Erhöht die Datentransferrate.
         </li>
       </ul>
       <li class="text-weight-bolder">Storage</li>

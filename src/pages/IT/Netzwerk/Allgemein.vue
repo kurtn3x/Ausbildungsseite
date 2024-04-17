@@ -47,7 +47,9 @@
       <li>
         <a class="text-weight-bolder">Latenz: </a> Verzögerung bei der
         Netzwerkkommunikation. Gibt an, wie viel Zeit die Daten für die
-        Übertragung über das Netzwerk benötigen.
+        Übertragung über das Netzwerk benötigen. Gründe für eine hohe Latenz
+        sind z.B. Längere Leitungen, überlastet Netzwerkkomponenten oder
+        Warteschlangen bei mehrfach Belegungen von Leitungen
       </li>
       <li>
         <a class="text-weight-bolder">Bandbreite: </a> Maß für die in einer

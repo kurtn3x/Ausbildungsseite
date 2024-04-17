@@ -29,13 +29,27 @@
         Controller (zur Steuerung des Betriebs mehrerer WLAN Access Points)
       </li>
       <li>viele unterschiedliche Standards und kontinuierliche Verbesserung</li>
-      <li><a class="text-weight-bold">SSID - Service Set Identifier</a></li>
+      <li><a class="text-weight-bolder">SSID - Service Set Identifier</a></li>
       <ul>
         <li>
           Definiert den Namen des Netzwerks, standardmäßig oft Modell des
           Routers, kann jedoch nach belieben geändert werden
         </li>
-        <li>Hidden SSID / Broadcast SSID deaktivieren</li>
+        <li class="text-weight-bold">Multi-SSID</li>
+        <ul>
+          <li>
+            mehere verschieden WLAN-Netze mit unterschiedlichen SSIDs
+            einrichtbar (z.B. für unterschiedliche Abteilungen innerhalb einer
+            Firma)
+          </li>
+          <li>
+            Für jedes dieser Netze können andere Einstellungen (z.B. zur
+            Sicherheit) getätigt werden
+          </li>
+        </ul>
+        <li class="text-weight-bold">
+          Hidden SSID / Broadcast SSID deaktivieren
+        </li>
         <ul>
           <li>WLAN-Client wird der Access-Point nicht automatisch angezeigt</li>
           <li>SSID muss manuell angegeben werden</li>
@@ -130,7 +144,9 @@
         <li>Infrastructure</li>
         <ul>
           <li>
-            Es wird sich über eine Basisstation verbunden (z.B. Access-Point)
+            Es wird sich über eine Basisstation verbunden (z.B. Access-Point).
+            Die Kommunikation bzw. Kommunikationssteuerung im WLAN findet über
+            einen zentralen Punk (Router bzw. Access Point) statt.
           </li>
         </ul>
       </ul>

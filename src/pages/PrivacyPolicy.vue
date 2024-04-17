@@ -5,19 +5,21 @@
     </div>
     <q-separator class="q-mt-md" />
     <div class="row justify-center">
-      <q-card bordered flat class="q-mt-lg bg-transparent">
+      <q-card flat class="q-mt-lg bg-transparent">
         <div class="q-ma-md">
+          <div>No Cookies</div>
+          <div>No Logs</div>
+          <div>No Data sent to 3rd parties</div>
+          <div>No Data collected/saved on server</div>
+          <div class="q-mt-md text-underline">Source:</div>
           <div>
-            No Cookies used on this site (some cookies may be set by other sites
-            belonging to my domain).
+            <a
+              href="https://github.com/kurtn3x/Ausbildungsseite"
+              target="_blank"
+              >https://github.com/kurtn3x/Ausbildungsseite</a
+            >
           </div>
-          <div>No Logs.</div>
-          <div>No Data sent to 3rd parties.</div>
-          <div>
-            Website State is saved in Local Storage (text size,
-            darkmode/lightmode)
-          </div>
-          <div class="q-mt-md">Contact</div>
+          <div class="q-mt-md text-underline">Contact:</div>
           <div>Mail: kurtn3x@gmail.com</div>
         </div>
       </q-card>
