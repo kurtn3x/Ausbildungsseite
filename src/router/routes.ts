@@ -83,6 +83,10 @@ const routes: RouteRecordRaw[] = [
               },
             ],
           },
+          {
+            path: 'allgemeine-notizen',
+            component: () => import('pages/NIT/WISO/Allgemeines.vue'),
+          },
         ],
       },
       {

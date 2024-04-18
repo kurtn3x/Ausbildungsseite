@@ -35,36 +35,85 @@
       Wichtige Rechtsformen eines Unternehmens
     </div>
     <ul>
-      <li class="text-weight-bold">
-        Einzelunternehmen, Personengesellschaft, Mischformen
-      </li>
+      <li class="text-weight-bold text-green">Personengesellschaft</li>
       <ul>
         <li>jeder Einzelne ist Rechts- und Steuersubjekt</li>
         <li>
-          Haftung mit gesamten Vermögen, Einkommensbesteuerung mit Gewinn oder
-          Verlust
+          Haftungsunbeschränkt = Gesellschafter haften mit Privatvermögen und
+          Einlage
         </li>
+        <li>Einkommensbesteuerung mit Gewinn oder Verlust</li>
         <li>Einkommensteuer jeder Person</li>
         <li>Ertragsbesteuerung</li>
+        <li>Keine Mindestkapitaleinlage</li>
       </ul>
-      <li class="text-weight-bold">Kapitalgesellschaft, Sonstiges</li>
+      <li class="text-weight-bold text-blue">Kapitalgesellschaft</li>
       <ul>
         <li>Gesellschaft als juristische Person rechtsfähig</li>
+        <li>
+          Haftungsbeschränkt = haften in der Regel ausschließlich mit
+          Gesellschaftsvermögen
+        </li>
         <li>
           Rechts und Steuersubjekt kann haftbar gemacht werden für
           Verbindlichkeiten mit ihrem Vermögen
         </li>
         <li>Körperschaftssteuerpflichtig</li>
         <li>Ertragsbesteuerung</li>
+        <li>Verfolgen in der Regel in erwerbswirtschaftliches Ziel</li>
       </ul>
-      <li class="text-weight-bold">Im Überblick:</li>
+
+      <li class="text-weight-bold text-h7 q-mt-sm">
+        Rechtsformen im Überblick:
+      </li>
       <ul>
-        <li>Einzelunternehmen</li>
-        <li>Gesellschaft bürgerlichen Rechts (GbR)</li>
-        <li>Offene Handelsgesellschaft (OH)</li>
-        <li>Kommanditgesellschaft (KG)</li>
-        <li>Gesellschaft mit beschränkter Haftung (GmbH)</li>
-        <li>Aktiengesellschaft (AG)</li>
+        <li class="text-weight-bold text-green">Einzelunternehmen</li>
+        <ul>
+          <li>Personengesellschaft</li>
+        </ul>
+        <li class="text-weight-bold text-green">
+          Gesellschaft bürgerlichen Rechts (GbR)
+        </li>
+        <ul>
+          <li>Personengesellschaft</li>
+        </ul>
+        <li class="text-weight-bold text-green">
+          Offene Handelsgesellschaft (OHG)
+        </li>
+        <ul>
+          <li>Personengesellschaft</li>
+          <li>in örtliches Genossenschaftsregister eingetragen</li>
+          <li>muss ins Handelsregister eingetragen werden</li>
+        </ul>
+        <li class="text-weight-bold text-green">Kommanditgesellschaft (KG)</li>
+        <ul>
+          <li>min. 1x Komplementäre (Haftungsunbeschränkt Gesellschafter)</li>
+          <li>min 1x Kommandisten (Haftungsbeschränkte Gesellschafter)</li>
+          <li>muss ins Handelsregister eingetragen werden</li>
+          <li>
+            Zweck: Betrieb eines Handelsgewerbes unter gemeinschaftlicher Firma
+          </li>
+        </ul>
+        <li class="text-weight-bold text-blue">
+          Gesellschaft mit beschränkter Haftung (GmbH)
+        </li>
+        <ul>
+          <li>Kapitalgesellschaft</li>
+          <li>Mindestkapital: 25000€</li>
+          <li>
+            Gesellschafter haben Stimmrecht in der Gesellschafterversammlung
+          </li>
+          <li>
+            Verteilung des Gewinns nach dem Verhältnis der Geschäftsanteile der
+            Gesellschafter
+          </li>
+        </ul>
+        <li class="text-weight-bold text-blue">Aktiengesellschaft (AG)</li>
+        <ul>
+          <li>Kapitalgesellschaft</li>
+          <li>Mindestkapital: 50000€</li>
+          <li>Unternehmensanteile können an der Börse gehandelt werden</li>
+        </ul>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
@@ -104,24 +153,7 @@
         <li>z.B. Prokuraerteilung, Anmelden der Firma zum Handelsregister</li>
       </ul>
     </ul>
-    <q-separator class="q-mt-md" />
 
-    <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
-    >
-      Entscheidungskriterien für Wahl der Rechtsform
-    </div>
-    <ul>
-      <li>Rechtsgestaltung, insbesondere Haftung</li>
-      <li>Aufwendungen der Rechtsform</li>
-      <li>Kapitalbedarf und Finanzierungsmöglichkeiten</li>
-      <li>Risiken</li>
-      <li>Eintragung ins Handelsregister</li>
-      <li>Leistungsbefugnisse</li>
-      <li>Gewinn- und Verlustminimierung</li>
-      <li>Steuerbelastung</li>
-      <li>Flexibilität bei Änderung von Beteiligungsverhältnissen</li>
-    </ul>
     <q-separator class="q-mt-md" />
 
     <div

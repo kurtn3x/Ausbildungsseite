@@ -165,13 +165,26 @@
             flat
             to="/wiso/wirtschaft/vertrage"
             label="Verträge & Vertragsarten"
-            class="full-width q-mt-xs q-mb-xs"
+            class="full-width q-mt-xs"
             rounded
             align="left"
             :class="$route.path == '/wiso/wirtschaft/vertrage' ? 'active' : ''"
           />
         </div>
       </q-expansion-item>
+
+      <q-btn
+        dense
+        flat
+        to="/wiso/allgemeine-notizen"
+        label="Notizen"
+        class="full-width q-mt-xs q-mb-xs"
+        rounded
+        align="left"
+        :class="
+          $route.path == '/wiso/unternehmen-betriebe/ziele' ? 'active' : ''
+        "
+      />
     </div>
   </q-expansion-item>
 
