@@ -36,8 +36,7 @@
           Gewinn geht an Unternehmer (Inhaber, Gesellschafter, Kapitalgeber)
         </li>
       </ul>
-    </ul>
-    <ul>
+
       <li class="text-weight-bold">
         Gemeinwirtschaftliche Betriebe -> Kostendeckung oder mindestens
         Verlustminimierung
@@ -49,40 +48,34 @@
           gesellschaftlichem, gemeinnützigem Ziel
         </li>
       </ul>
-    </ul>
-    <ul>
+
       <li class="text-weight-bold">Wirtschaftliche Ziele</li>
       <ul>
         <li>Wachstumsziele: Steigerung von Umsatz oder Gewinn</li>
         <li>Finanzielle Ziele: hoher Gewinn, Liquidität</li>
       </ul>
-    </ul>
-    <ul>
+
       <li class="text-weight-bold">Gesellschaftliche Ziele</li>
       <ul>
         <li>Hohes Image der Produkte und der Firma</li>
       </ul>
-    </ul>
-    <ul>
+
       <li class="text-weight-bold">Soziale Ziele</li>
       <ul>
         <li>Gute Vergütung, Sichere Arbeitsplätze, Arbeitszufriedenheit</li>
       </ul>
-    </ul>
-    <ul>
+
       <li class="text-weight-bold">Ökologische Ziele</li>
       <ul>
         <li>Verringerung der Schadtstoffemissionen, Recycling</li>
       </ul>
-    </ul>
-    <ul>
+
       <li class="text-weight-bold">Sach bzw. Leistungsziele</li>
       <ul>
         <li>Bestimmt durch Angebot des Unternehmens</li>
         <li>Produktion von Gütern, Bereitstellung von Dienstleistungen</li>
       </ul>
-    </ul>
-    <ul>
+
       <li class="text-weight-bold">Erfolgsziele</li>
       <ul>
         <li>

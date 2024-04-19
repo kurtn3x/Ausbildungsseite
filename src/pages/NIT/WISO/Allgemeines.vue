@@ -5,48 +5,96 @@
     </div>
     <q-separator class="q-mt-md" />
     <ul>
-      <li>gesetzliche Sozialversicherung</li>
+      <li class="text-weight-bolder text-h7">
+        gesetzliche Sozialversicherungen
+      </li>
       <ul>
-        <li>Gesetzliche Krankenversicherung</li>
-        <li>Pflegeversicherung</li>
-        <li>Arbeitslosenversicherung</li>
-        <li>Rentenversicherung</li>
-        <li>Gesetzliche Unfallversicherung</li>
         <li>
           folgen dem Solidaritätsprinzip = gegenseitige Hilfe und Unterstützung
         </li>
+        <li class="text-weight-bolder">Gesetzliche Krankenversicherung</li>
+        <ul>
+          <li>50/50 aufgeteilt (derzeit 14,6% / 14% gesamt)</li>
+          <li>
+            auf den Teil des Bruttolohns, der über der Versicherungspflichgrenze
+            liegt wird kein Beitrag erhoben
+          </li>
+          <li>
+            Versicherte, deren Bruttolohn über der Versicherungspflichtgrenze
+            liegt, können sich als freiwilliges Mitglied weiter in der GKV
+            versichern
+          </li>
+          <li class="text-weight-bold">Krankheit</li>
+          <ul>
+            <li>
+              Lohnfortzahlung des vollen Gehalts bis zu 6 (42 Kalendertage)
+              Wochen für jede neue Erkrankung. Bei Arbeitsunfähigkeit von mehr
+              als 6 Wochen derselben Krankheit übernimmt die Krankenkasse
+              (Krankengeld) mit 70% des Bruttoverdienstes.
+            </li>
+            <li>
+              Arbeitnehmer ist verpflichtet, Arbeitgeber unverzüglich über
+              Krankheit zu informieren
+            </li>
+            <li>
+              Spätestens 3 Tage nach der Arbeitsunfähigkeit wird eine
+              Arbeitsunfähigkeitsbescheinigung eines Artztes benötigt.
+            </li>
+          </ul>
+        </ul>
+        <li class="text-weight-bolder">Pflegeversicherung</li>
+        <ul>
+          <li>Arbeitgeber übernimmt immer 1,7%</li>
+          <li>
+            Arbeitnehmer variabel nach Anzahl Kinder (keine Kinder -> 1,7% +
+            0,6% Zuschlag; 1 Kind -> 1,7%; über 1 Kind -> 1,7% - 0.25% für jedes
+            Kind bis maximal 0,7% Beitragssatz)
+          </li>
+        </ul>
+        <li class="text-weight-bolder">Arbeitslosenversicherung</li>
+        <ul>
+          <li>50/50 aufgeteilt (derzeit 2,6% gesamt)</li>
+          <li>
+            Zur Berechnung des Arbeitslosengelds wird das Bruttoentgelt der
+            vergangenen zwölf Monate zugrunde gelegt
+          </li>
+        </ul>
+        <li class="text-weight-bolder">Rentenversicherung</li>
+        <ul>
+          <li>50/50 aufgeteilt (derzeit 18,6% gesamt)</li>
+        </ul>
+        <li class="text-weight-bolder">Gesetzliche Unfallversicherung</li>
+        <ul>
+          <li>vollständig vom Arbeitgeber getragen</li>
+          <li>Träger sind die zuständigen Berufsgenossenschaften</li>
+        </ul>
       </ul>
-
-      <li>Berufsbildungsgesetz</li>
+      <li class="text-weight-bolder text-h7">Wirtschaftssektoren</li>
       <ul>
-        <li>Regelung der Probezeit</li>
+        <li class="text-weight-bolder">primärer Sektor</li>
+        <ul>
+          <li>Urproduktion</li>
+          <li>Abbau von Rohstoffen, Anbau von Lebensmitteln, ...</li>
+        </ul>
+        <li class="text-weight-bolder">sekundärer Sektor</li>
+        <ul>
+          <li>Industriesektor</li>
+          <li>Herstellen von Gütern, z.B. CPUs, Apfelsaft</li>
+          <li>
+            Grenze zwischen sekundär und tertiär können verschwimmen, z.B.
+            Zusammenbau von Computern kann in beide Sektoren eingegliedert
+            werden
+          </li>
+        </ul>
+        <li class="text-weight-bolder">tertiärer Sektor</li>
+        <ul>
+          <li>Dienstleistungssektor</li>
+          <li>
+            Erstellen von Software, Verkauf, Einkauf, andere Dienstleistungen
+          </li>
+        </ul>
       </ul>
-      <li>Berufsgenossenschaft</li>
-      <ul>
-        <li>immer bei Arbeitsunfällen</li>
-        <li>Unfallverhütung</li>
-      </ul>
-      <li>gesetzliche Krankenversicherung</li>
-      <ul>
-        <li>
-          auf den Teil des Bruttolohns, der über der Versicherungspflichgrenze
-          liegt wird kein Beitrag erhoben
-        </li>
-        <li>
-          Versicherte, deren Bruttolohn über der Versicherungspflichtgrenze
-          liegt, können sich als freiwilliges Mitglied weiter in der GKV
-          versichern
-        </li>
-      </ul>
-      <li>gesetzliche Unfallversicherung</li>
-      <ul>
-        <li>Träger sind die zuständigen Berufsgenossenschaften</li>
-      </ul>
-      <li>Betriebsversammlung</li>
-      <ul>
-        <li>Teilnahme eines Arbeitnehmers gilt als Arbeitszeit</li>
-      </ul>
-      <li>Betriebsrat</li>
+      <li class="text-weight-bolder text-h7">Betriebsrat</li>
       <ul>
         <li>Mitwirkungsbereiche:</li>
         <ul>
@@ -64,6 +112,23 @@
           Abschluss des Kündigungsschutzprozesses weiter beschäftigt wäre
         </li>
         <li>wählbar alle 4 Jahre</li>
+      </ul>
+      <li>Berufsbildungsgesetz</li>
+      <ul>
+        <li>Regelung der Probezeit</li>
+      </ul>
+      <li>Berufsgenossenschaft</li>
+      <ul>
+        <li>
+          immer bei Arbeitsunfällen, Unfällen auf der Arbeit oder Unfällen auf
+          dem direkten Weg zur Arbeit zu informieren
+        </li>
+        <li>Informationen zur Unfallverhütung</li>
+      </ul>
+
+      <li class="text">Betriebsversammlung</li>
+      <ul>
+        <li>Teilnahme eines Arbeitnehmers gilt als Arbeitszeit</li>
       </ul>
 
       <li>IHK</li>
@@ -92,24 +157,12 @@
           nur in einem Betrieb mit Betriebsrat kann auch eine JAV gewählt werden
         </li>
       </ul>
-      <li>Arbeitslosengeld</li>
-      <ul>
-        <li>
-          Zur Berechnung wir das Bruttoentgelt der vergangenen zwölf Monate
-          zugrunde gelegt
-        </li>
-      </ul>
+
       <li>Ist-Kaufmann</li>
       <ul>
         <li>
           Eintragung als Ist-Kaufmann im Handelsregister hat rein deklatorische
           Wiirkung
-        </li>
-      </ul>
-      <li>Handelsregister</li>
-      <ul>
-        <li>
-          Abteilung A Personengesellschaften, Abteilung B Kapitalgesellschaften
         </li>
       </ul>
       <li>Tarifverhandlungen</li>
@@ -120,23 +173,7 @@
           unter Beachtung der gesetzlichen Vorschriften selbstständig zu regeln
         </li>
       </ul>
-      <li>Krankheit</li>
-      <ul>
-        <li>
-          Lohnfortzahlung des vollen Gehalts bis zu 6 (42 Kalendertage) Wochen
-          für jede neue Erkrankung. Bei Arbeitsunfähigkeit von mehr als 6 Wochen
-          derselben Krankheit übernimmt die Krankenkasse (Krankengeld) mit 70%
-          des Bruttoverdienstes.
-        </li>
-        <li>
-          Arbeitnehmer ist verpflichtet, Arbeitgeber unverzüglich über Krankheit
-          zu informieren
-        </li>
-        <li>
-          Spätestens 3 Tage nach der Arbeitsunfähigkeit wird eine
-          Arbeitsunfähigkeitsbescheinigung eines Artztes benötigt.
-        </li>
-      </ul>
+
       <li>Europass</li>
       <ul>
         <li>

@@ -181,9 +181,7 @@
         class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"
-        :class="
-          $route.path == '/wiso/unternehmen-betriebe/ziele' ? 'active' : ''
-        "
+        :class="$route.path == '/wiso/allgemeine-notizen' ? 'active' : ''"
       />
     </div>
   </q-expansion-item>

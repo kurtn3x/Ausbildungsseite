@@ -24,6 +24,9 @@
         <li>Schutz von Unternehmens-Partnern durch die Bekanntmachung</li>
         <li>Recht auf Einsichtnahme</li>
         <li>begrenzte Informationen zu Geschäftsdaten</li>
+        <li>
+          Abteilung A Personengesellschaften, Abteilung B Kapitalgesellschaften
+        </li>
       </ul>
       <li>z.T. Bürgerliches Gesetzbuch (BGB)</li>
     </ul>
@@ -106,6 +109,9 @@
           <li>
             Verteilung des Gewinns nach dem Verhältnis der Geschäftsanteile der
             Gesellschafter
+          </li>
+          <li>
+            Ein Geschäftsführer muss ins Handelsregister eingetragen werden
           </li>
         </ul>
         <li class="text-weight-bold text-blue">Aktiengesellschaft (AG)</li>
