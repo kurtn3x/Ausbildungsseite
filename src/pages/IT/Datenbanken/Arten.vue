@@ -150,7 +150,7 @@
           </li>
           <li>
             <a class="text-underline">Änderungs-Anomalie:</a> Wenn beim Ändern
-            nicht alle Vorkommen eines Attributwertes zugeleich geändert werden.
+            nicht alle Vorkommen eines Attributwertes zugleich geändert werden.
             z.B. Nachnamenänderung bei der selben Person wird nicht auf alle
             Datensätze übernommen
           </li>
