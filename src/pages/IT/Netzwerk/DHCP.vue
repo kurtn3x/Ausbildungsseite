@@ -8,12 +8,14 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       DHCP - Dynamic Host Configuration Protocol
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Allgemeines
     </div>
@@ -47,23 +49,7 @@
         </li>
         <li>Je nach DHCP-Server noch mehr Funktionen</li>
       </ul>
-      <li><a class="text-weight-bolder text-h7">DHCP besitzt 3 Modi:</a></li>
-      <ul>
-        <li>
-          <a class="text-weight-bolder">Statisches DHCP</a>: feste Zuordnung von
-          MAC-Adresse zur IP; das Gerät mit der selben MAC-Adresse bekommt immer
-          die gleiche IP
-        </li>
-        <li>
-          <a class="text-weight-bolder">Automatisches DHCP</a>: Adressen in
-          einer Range werden automatisch & permanent vergeben
-        </li>
-        <li>
-          <a class="text-weight-bolder">Dynamisches DHCP</a>: Adressen in einer
-          Range werden automatisch und mit einer Verleihzeit (Lease-Time)
-          vergeben
-        </li>
-      </ul>
+
       <li class="text-weight-bolder">DHCP-Relay</li>
       <ul>
         <li>Verwenden von DHCP über Netzgrenzen hinaus</li>
@@ -110,52 +96,71 @@
           </li>
         </ul>
       </ul>
-      <li>
-        <a class="text-weight-bolder text-h7 q-mt-sm">DHCP Anfrage - Ablauf</a>
-      </li>
+      <li class="text-weight-bolder text-h7">DHCP-Modi:</li>
       <ul>
         <li>
-          Client sendet an <a class="text-weight-bolder">ALLE </a> Anderen im
-          Netz eine DHCP-Discover Anfrage (Broadcast).
+          <a class="text-weight-bolder">Statisches DHCP</a>: feste Zuordnung von
+          MAC-Adresse zur IP; das Gerät mit der selben MAC-Adresse bekommt immer
+          die gleiche IP
         </li>
         <li>
-          <a class="text-weight-bolder">ALLE </a> DHCP Server antworten dem
-          Client mit einem DHCP-Offer, welcher einige wichtige Daten beinhaltet
-          (IP, Subnetz, ...).
+          <a class="text-weight-bolder">Automatisches DHCP</a>: Adressen in
+          einer Range werden automatisch & permanent vergeben
         </li>
         <li>
-          Der Client akzeptiert (meistens) den schnellsten, jedoch nur exakt
-          einen DHCP-Offer und sendet an
-          <a class="text-weight-bolder">ALLE </a> Anderen im Netz den
-          DHCP-Request. Davor schaut der Client mit ARP noch, ob die DHCP-Offer
-          Adresse wirklich frei ist. Der DHCP-Request beinhaltet eine
-          spezifische Adresse von dem Server, der das DHCP-Offer gestellt hat
-          und nur der, der das DHCP-Offer erstellt hat akzeptiert diese
-          Nachricht.
+          <a class="text-weight-bolder">Dynamisches DHCP</a>: Adressen in einer
+          Range werden automatisch und mit einer Verleihzeit (Lease-Time)
+          vergeben
         </li>
-        <li>
-          Der Server antwortet dem Client mit einem DHCP-ACK Packet, welcher
-          weitere Informationen wie Lease Duration und Einstellungen beinhaltet.
-        </li>
-        <li>Der Client verwendet die erhaltene IP-Adresse.</li>
-
-        <q-img
-          class="fit bg-grey-5"
-          :src="src + '/Netzwerke/DNS/DHCP.png'"
-          style="max-width: 400px"
-          @click="
-            show_img = true;
-            popupsrc = '/Netzwerke/DNS/DHCP.png';
-          "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
       </ul>
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
+    >
+      Typischer Ablauf einer DHCP-Anfrage
+    </div>
+    <ul>
+      <li>
+        Client sendet an <a class="text-weight-bolder">ALLE </a> Anderen im Netz
+        eine DHCP-Discover Anfrage (Broadcast).
+      </li>
+      <li>
+        <a class="text-weight-bolder">ALLE </a> DHCP Server antworten dem Client
+        mit einem DHCP-Offer, welcher einige wichtige Daten beinhaltet (IP,
+        Subnetz, ...).
+      </li>
+      <li>
+        Der Client akzeptiert (meistens) den schnellsten, jedoch nur exakt einen
+        DHCP-Offer und sendet an
+        <a class="text-weight-bolder">ALLE </a> Anderen im Netz den
+        DHCP-Request. Davor schaut der Client mit ARP noch, ob die DHCP-Offer
+        Adresse wirklich frei ist. Der DHCP-Request beinhaltet eine spezifische
+        Adresse von dem Server, der das DHCP-Offer gestellt hat und nur der, der
+        das DHCP-Offer erstellt hat akzeptiert diese Nachricht.
+      </li>
+      <li>
+        Der Server antwortet dem Client mit einem DHCP-ACK Packet, welcher
+        weitere Informationen wie Lease Duration und Einstellungen beinhaltet.
+      </li>
+      <li>Der Client verwendet die erhaltene IP-Adresse.</li>
+
+      <q-img
+        class="fit bg-grey-5"
+        :src="src + '/Netzwerke/DNS/DHCP.png'"
+        style="max-width: 400px"
+        @click="
+          show_img = true;
+          popupsrc = '/Netzwerke/DNS/DHCP.png';
+        "
+      >
+        <div
+          class="absolute-bottom-right text-subtitle2"
+          style="height: 40px; font-size: 10px; background-color: transparent"
+        >
+          Click for full size
+        </div>
+      </q-img>
     </ul>
     <q-separator class="q-mt-md" />
     <div

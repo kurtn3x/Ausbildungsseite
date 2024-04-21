@@ -8,12 +8,14 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Begriffe zur Programmierung
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Programmierparadigmen
     </div>
@@ -142,7 +144,9 @@
         </ul>
       </ul>
 
-      <li class="text-weight-bolder text-h7">Objektorientierte Sprachen</li>
+      <li class="text-weight-bolder text-h7 q-mt-md">
+        Objektorientierte Sprachen
+      </li>
       <ul>
         <li>sprachunabhängiges Programmiermodell</li>
         <li>
@@ -188,7 +192,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Interpreter & Compiler
     </div>

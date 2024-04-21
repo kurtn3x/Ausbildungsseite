@@ -1,11 +1,13 @@
 <template>
   <q-page padding>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Rechtliches zu Datenschutz/Datensicherheit
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Gesetzliche Grundlagen
     </div>
@@ -33,7 +35,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Grundsätze und Maßnahmen des Datenschutzes
     </div>
@@ -97,7 +99,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Betroffenenrechte
     </div>
@@ -118,7 +120,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Persönlichkeitsrechte
     </div>

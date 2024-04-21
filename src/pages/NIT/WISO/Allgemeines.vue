@@ -7,105 +7,15 @@
     </h1>
     <q-separator class="q-mt-md" />
     <ul>
-      <li class="text-weight-bolder text-h7">
-        gesetzliche Sozialversicherungen
-      </li>
-      <ul>
-        <li>
-          folgen dem Solidaritätsprinzip = gegenseitige Hilfe und Unterstützung
-        </li>
-        <li class="text-weight-bolder">Gesetzliche Krankenversicherung</li>
-        <ul>
-          <li>50/50 aufgeteilt (derzeit 14,6% bzw. 14% gesamt)</li>
-          <li>
-            auf den Teil des Bruttolohns, der über der Versicherungspflichgrenze
-            liegt wird kein Beitrag erhoben
-          </li>
-          <li>
-            Versicherte, deren Bruttolohn über der Versicherungspflichtgrenze
-            liegt, können sich als freiwilliges Mitglied weiter in der GKV
-            versichern
-          </li>
-          <li class="text-weight-bold">Krankheit</li>
-          <ul>
-            <li>
-              Lohnfortzahlung des vollen Gehalts bis zu 6 (42 Kalendertage)
-              Wochen für jede neue Erkrankung. Bei Arbeitsunfähigkeit von mehr
-              als 6 Wochen derselben Krankheit übernimmt die Krankenkasse
-              (Krankengeld) mit 70% des Bruttoverdienstes.
-            </li>
-            <li>
-              Arbeitnehmer ist verpflichtet, Arbeitgeber unverzüglich über
-              Krankheit zu informieren
-            </li>
-            <li>
-              Spätestens 3 Tage nach der Arbeitsunfähigkeit wird eine
-              Arbeitsunfähigkeitsbescheinigung eines Artztes benötigt.
-            </li>
-          </ul>
-        </ul>
-        <li class="text-weight-bolder">Pflegeversicherung</li>
-        <ul>
-          <li>Arbeitgeber übernimmt immer 1,7%</li>
-          <li>
-            Arbeitnehmer variabel nach Anzahl Kinder (keine Kinder -> 1,7% +
-            0,6% Zuschlag; 1 Kind -> 1,7%; über 1 Kind -> 1,7% - 0.25% für jedes
-            Kind bis maximal 0,7% Beitragssatz)
-          </li>
-        </ul>
-        <li class="text-weight-bolder">Arbeitslosenversicherung</li>
-        <ul>
-          <li>50/50 aufgeteilt (derzeit 2,6% gesamt)</li>
-          <li>
-            Zur Berechnung des Arbeitslosengelds wird das Bruttoentgelt der
-            vergangenen zwölf Monate zugrunde gelegt
-          </li>
-        </ul>
-        <li class="text-weight-bolder">Rentenversicherung</li>
-        <ul>
-          <li>50/50 aufgeteilt (derzeit 18,6% gesamt)</li>
-        </ul>
-        <li class="text-weight-bolder">Gesetzliche Unfallversicherung</li>
-        <ul>
-          <li>vollständig vom Arbeitgeber getragen</li>
-          <li>Träger sind die zuständigen Berufsgenossenschaften</li>
-        </ul>
-      </ul>
-      <li class="text-weight-bolder text-h7">Wirtschaftssektoren</li>
-      <ul>
-        <li class="text-weight-bolder">primärer Sektor</li>
-        <ul>
-          <li>Urproduktion</li>
-          <li>Abbau von Rohstoffen, Anbau von Lebensmitteln, ...</li>
-        </ul>
-        <li class="text-weight-bolder">sekundärer Sektor</li>
-        <ul>
-          <li>Industriesektor</li>
-          <li>Herstellen von Gütern, z.B. CPUs, Apfelsaft</li>
-          <li>
-            Grenze zwischen sekundär und tertiär können verschwimmen, z.B.
-            Zusammenbau von Computern kann in beide Sektoren eingegliedert
-            werden
-          </li>
-        </ul>
-        <li class="text-weight-bolder">tertiärer Sektor</li>
-        <ul>
-          <li>Dienstleistungssektor</li>
-          <li>
-            Erstellen von Software, Verkauf, Einkauf, andere Dienstleistungen
-          </li>
-        </ul>
-      </ul>
       <li class="text-weight-bolder text-h7">Betriebsrat</li>
       <ul>
-        <li>Mitwirkungsbereiche:</li>
+        <li class="text-weight-bold">Mitwirkungsbereiche:</li>
         <ul>
-          <li>Soziale Angelegenheiten</li>
-          <li>Personelle Angelegenheiten</li>
-          <li>Wirtschaftliche Angelegenheiten</li>
+          <li>Soziale Angelegenheiten, z.B. Sozialeinrichtungen</li>
+          <li>Personelle Angelegenheiten, z.B. Kündigungen</li>
           <li>Arbeits- u. Umweltschutz</li>
-          <li>Arbeitsplatzgestaltung</li>
-          <li>Arbeitsablauf und Arbeitsumgebung</li>
+          <li>Arbeitsplatzgestaltung, z.B. Kontrolle der Mitarbeiter</li>
+          <li>Arbeitsablauf und Arbeitsumgebung, z.B. Arbeitszeitänderungen</li>
         </ul>
         <li>
           Muss bei jeder Kündigung eines Beschäftigten angehört werden. Der
@@ -114,46 +24,7 @@
           Abschluss des Kündigungsschutzprozesses weiter beschäftigt wäre
         </li>
         <li>wählbar alle 4 Jahre</li>
-      </ul>
-      <li class="text-h7 text-weight-bolder">Der Arbeitsvertrag</li>
-      <ul>
-        <li class="text-weight-bold">Probezeit</li>
-        <ul>
-          <li>
-            normale Arbeitnehmer: keine gesetzliche Mindestzeit (= Keine
-            Probezeit falls nicht im Vertrag angegeben), maximal 6 Monate
-          </li>
-          <li>Azubis: mindestens 1Monat, maximal 4 Monate</li>
-          <li>
-            Während der Probezeit ist die Kündigung ohne Angabe von Gründen
-            möglich, dabei ist die Kündigungsfrist auf 14 Tage heruntergesetzt
-          </li>
-        </ul>
-        <li class="text-weight-bold">Befristung</li>
-        <ul>
-          <li>Falls nicht angegeben: unbefristet</li>
-          <li>
-            für maximal 2 Jahre möglich, können innerhalb dieses Zeitraums 3x
-            verlängert werden
-          </li>
-          <li>
-            Arbeitsvertrag endet automatisch ohne Kündigung nach Ablauf der
-            Befristung
-          </li>
-        </ul>
-        <li class="text-weight-bold">Weitere Regelungen:</li>
-        <ul>
-          <li>mindestens 15 freie Sonntage (Gastronomie: 10)</li>
-          <li>wöchentliche Arbeitszeit max. 48 Stunden</li>
-          <li>
-            tägliche Ruhezeit mindestens 11 Stunden nach der Arbeit
-            (Gastronomie: 10)
-          </li>
-          <li>
-            Mindesturlaub 24 Werktage (30/27/25 für unter 16-/17-/18-Jährige), +
-            5 Tage für Schwerbehinderte
-          </li>
-        </ul>
+        <li>mindestens 5 Arbeitnehmer</li>
       </ul>
       <li>Berufsbildungsgesetz</li>
       <ul>

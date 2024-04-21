@@ -163,6 +163,16 @@
           <q-btn
             dense
             flat
+            to="/wiso/wirtschaft/sektoren"
+            label="Wirtschaftssektoren"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="$route.path == '/wiso/wirtschaft/sektoren' ? 'active' : ''"
+          />
+          <q-btn
+            dense
+            flat
             to="/wiso/wirtschaft/vertrage"
             label="Verträge & Vertragsarten"
             class="full-width q-mt-xs"
@@ -172,12 +182,31 @@
           />
         </div>
       </q-expansion-item>
-
+      <q-btn
+        dense
+        flat
+        to="/wiso/arbeitsvertrag"
+        label="Der Arbeitsvertrag"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/wiso/arbeitsvertrag' ? 'active' : ''"
+      />
+      <q-btn
+        dense
+        flat
+        to="/wiso/sozialversicherungen"
+        label="Gesetzliche Sozialversicherungen"
+        class="full-width q-mt-xs"
+        rounded
+        align="left"
+        :class="$route.path == '/wiso/sozialversicherungen' ? 'active' : ''"
+      />
       <q-btn
         dense
         flat
         to="/wiso/allgemeine-notizen"
-        label="Notizen"
+        label="Allgemeine Notizen"
         class="full-width q-mt-xs q-mb-xs"
         rounded
         align="left"

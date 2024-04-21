@@ -1,8 +1,10 @@
 <template>
   <q-page padding>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Der Betrieb und das Unternehmen
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <ul>
       <li>
@@ -45,7 +47,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Unterscheidung von Betrieb und Unternehmen
     </div>

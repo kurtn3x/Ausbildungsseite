@@ -8,9 +8,11 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Weitere Netzwerkarten nach Ausdehnung
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <ul>
       <li class="text-weight-bolder text-h7">PAN - Personal Area Network</li>

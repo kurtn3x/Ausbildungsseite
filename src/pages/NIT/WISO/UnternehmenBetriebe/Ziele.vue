@@ -1,8 +1,10 @@
 <template>
   <q-page padding>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Ziele von Betrieben und Unternehmen
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <ul class="q-mt-lg">
       <li>
@@ -20,7 +22,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Unterscheidung nach Zielsetzung
     </div>
@@ -87,7 +89,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Beteiligte (Stakeholder) des Zielentscheidungsprozesses
     </div>
@@ -131,7 +133,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Bewertung von Zielen
     </div>
@@ -175,7 +177,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Wichtige Begriffe wirtschaftlicher Ziele
     </div>

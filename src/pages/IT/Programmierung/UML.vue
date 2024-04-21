@@ -8,9 +8,11 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       UML (Unified Modeling Language) - Diagramme
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
 
     <ul>
@@ -29,7 +31,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       UML-Anwendungsfalldiagramm / use-case-Diagramm
     </div>
@@ -58,7 +60,7 @@
 
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       UML-Klassendiagramme
     </div>
@@ -106,7 +108,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       UML-Sequenzdiagramme
     </div>
@@ -135,7 +137,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-secondary text-underline"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       UML-Aktivitätsdiagramme
     </div>

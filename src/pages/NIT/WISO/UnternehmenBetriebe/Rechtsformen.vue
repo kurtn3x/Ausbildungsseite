@@ -1,11 +1,13 @@
 <template>
   <q-page padding>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Unternehmensrechtsformen
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Gesetzliche Grundlagen
     </div>
@@ -33,7 +35,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Wichtige Rechtsformen eines Unternehmens
     </div>
@@ -42,8 +44,8 @@
       <ul>
         <li>jeder Einzelne ist Rechts- und Steuersubjekt</li>
         <li>
-          Haftungsunbeschränkt = Gesellschafter haften mit Privatvermögen und
-          Einlage
+          Haftungsunbeschränkt = Gesellschafter und ggb. Gläubiger haften mit
+          Privatvermögen und Einlage
         </li>
         <li>Einkommensbesteuerung mit Gewinn oder Verlust</li>
         <li>Einkommenssteuer jeder Person</li>
@@ -70,9 +72,10 @@
         Rechtsformen im Überblick:
       </li>
       <ul>
-        <li class="text-weight-bold text-green">Einzelunternehmen</li>
+        <li class="text-weight-bold text-green">Einzelunternehmen (eK)</li>
         <ul>
           <li>Personengesellschaft</li>
+          <li>für Kleingewerbetreibende (Händler, Handwerker)</li>
         </ul>
         <li class="text-weight-bold text-green">
           Gesellschaft bürgerlichen Rechts (GbR)
@@ -85,13 +88,22 @@
         </li>
         <ul>
           <li>Personengesellschaft</li>
+          <li>mindestens 2 natürliche oder juristische Personen</li>
           <li>in örtliches Genossenschaftsregister eingetragen</li>
           <li>muss ins Handelsregister eingetragen werden</li>
+          <li>
+            Gesellschaftsvertrag (beinhaltet Rechte & Pflichten der
+            Gesellschafter)
+          </li>
         </ul>
         <li class="text-weight-bold text-green">Kommanditgesellschaft (KG)</li>
         <ul>
-          <li>min. 1x Komplementäre (Haftungsunbeschränkt Gesellschafter)</li>
-          <li>min 1x Kommandisten (Haftungsbeschränkte Gesellschafter)</li>
+          <li>
+            mindestens ein Komplementär (Haftungsunbeschränkte Gesellschafter)
+          </li>
+          <li>
+            mindestens ein Kommandist (Haftungsbeschränkte Gesellschafter)
+          </li>
           <li>muss ins Handelsregister eingetragen werden</li>
           <li>
             Zweck: Betrieb eines Handelsgewerbes unter gemeinschaftlicher Firma
@@ -102,7 +114,8 @@
         </li>
         <ul>
           <li>Kapitalgesellschaft</li>
-          <li>Mindestkapital: 25000€</li>
+          <li>mindestens ein Gesellschafter</li>
+          <li>Stammkapital: 25000€</li>
           <li>
             Gesellschafter haben Stimmrecht in der Gesellschafterversammlung
           </li>
@@ -117,15 +130,33 @@
         <li class="text-weight-bold text-blue">Aktiengesellschaft (AG)</li>
         <ul>
           <li>Kapitalgesellschaft</li>
-          <li>Mindestkapital: 50000€</li>
+          <li>Grundkapital: 50000€</li>
+          <li>mindestens eine Person (Aktionär)</li>
+          <li>Gesellschaftsvertrag</li>
           <li>Unternehmensanteile können an der Börse gehandelt werden</li>
+          <li>muss ins Handelsregister eingetragen werden</li>
+        </ul>
+
+        <li class="text-weight-bold">Genossenschaft (eG)</li>
+        <ul>
+          <li>
+            Selbsthilfeorganisation von schwächeren Gewerbetreibenden und
+            Verbrauchern
+          </li>
+          <li>nicht geschlossene Mitgliederzahl (mindestens 3 Genossen)</li>
+          <li>
+            Ziel: Fördern des Erwerbs und der Wirtschaft ihrer Mitglieder, durch
+            z.B. Großeinkauf oder gemeinsamer Absatz
+          </li>
+          <li>Rechtsperson (juristische Person)</li>
+          <li>Eintrag ins Genossenschaftsregister</li>
         </ul>
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Prokura
     </div>
@@ -167,7 +198,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Wirtschaftliche Verflechtungen
     </div>

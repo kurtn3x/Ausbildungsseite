@@ -81,7 +81,20 @@ const routes: RouteRecordRaw[] = [
                 component: () =>
                   import('pages/NIT/WISO/Wirtschaft/Verträge.vue'),
               },
+              {
+                path: 'sektoren',
+                component: () =>
+                  import('pages/NIT/WISO/Wirtschaft/Sektoren.vue'),
+              },
             ],
+          },
+          {
+            path: 'arbeitsvertrag',
+            component: () => import('pages/NIT/WISO/Arbeitsvertrag.vue'),
+          },
+          {
+            path: 'sozialversicherungen',
+            component: () => import('pages/NIT/WISO/Sozialversicherungen.vue'),
           },
           {
             path: 'allgemeine-notizen',

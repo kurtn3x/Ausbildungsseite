@@ -8,13 +8,15 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       IPv4 Subnetting
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Bestimmen von Adressen innerhalb eines Subnets
     </div>
@@ -127,7 +129,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Unterteilen eines Netzes in mehrere Subnets
     </div>
@@ -251,7 +253,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Bestimmen der Anzahl von Clients innerhalb eines Subnets
     </div>
@@ -307,7 +309,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Umrechnung Subnetzmaske ⇄ Suffix
     </div>
@@ -336,7 +338,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Beispiel Subnetzmasken & Anzahl verfügbarer Clients
     </div>
@@ -413,7 +415,7 @@
     <q-separator class="q-mt-md" />
 
     <div
-      class="text-h6 q-mt-lg q-ml-md text-weight-bolder text-underline text-secondary"
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
       Beispiel für das Netz 192.168.164.0
     </div>

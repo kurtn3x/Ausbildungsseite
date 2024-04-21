@@ -1,8 +1,10 @@
 <template>
   <q-page padding>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Brechnungen von Strom & Ladung
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <ul>
       <li class="text-weight-bold text-h7">USV-Stromleistung</li>

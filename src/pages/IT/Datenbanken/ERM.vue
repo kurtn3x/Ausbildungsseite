@@ -8,9 +8,11 @@
         class="bg-grey-5"
       />
     </q-dialog>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Das Entity-Relationship-Modell
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <div class="row justify-center q-mt-md">
       <q-img

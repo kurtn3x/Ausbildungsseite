@@ -109,7 +109,7 @@ export default defineComponent({
         backgroundColor: '#27b5d5',
         width: '7px',
         opacity: 0.9,
-      },
+      } as any,
     };
   },
   computed: {
@@ -124,6 +124,19 @@ export default defineComponent({
     },
     fontSizeh4() {
       return this.fontSize + 1.2 + 'rem';
+    },
+
+    lineHeighth7() {
+      return this.fontSize + 1.2 + 'rem';
+    },
+    lineHeighth6() {
+      return this.fontSize + 1.3 + 'rem';
+    },
+    lineHeighth5() {
+      return this.fontSize + 1.5 + 'rem';
+    },
+    lineHeighth4() {
+      return this.fontSize + 2 + 'rem';
     },
     ulPadding() {
       if (this.q.screen.width < 1024) {
@@ -151,21 +164,21 @@ export default defineComponent({
 </script>
 
 <style>
+.text-h7 {
+  font-size: v-bind(fontSizeh7);
+  line-height: v-bind(lineHeighth7);
+}
 .text-h6 {
   font-size: v-bind(fontSizeh6);
-  line-height: v-bind(fontSizeh6 + 1);
+  line-height: v-bind(lineHeighth6);
 }
 .text-h5 {
   font-size: v-bind(fontSizeh5);
-  line-height: v-bind(fontSizeh5 + 1);
+  line-height: v-bind(lineHeighth5);
 }
 .text-h4 {
   font-size: v-bind(fontSizeh4);
-  line-height: v-bind(fontSizeh4 + 1);
-}
-.text-h7 {
-  font-size: v-bind(fontSizeh7);
-  line-height: v-bind(fontSizeh7 + 1);
+  line-height: v-bind(lineHeighth4);
 }
 
 ul {
