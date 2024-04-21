@@ -244,6 +244,11 @@ const routes: RouteRecordRaw[] = [
                     'pages/IT/Hardware/Verkabelung/ÜbertragungsmedienKabeltypen.vue'
                   ),
               },
+              {
+                path: 'leitungen',
+                component: () =>
+                  import('pages/IT/Hardware/Verkabelung/Leitungen.vue'),
+              },
             ],
           },
 

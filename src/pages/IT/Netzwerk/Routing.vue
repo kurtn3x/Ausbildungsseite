@@ -189,7 +189,7 @@
           <li>Teile der Welt mit, wer deine Nachbarn sind</li>
           <li>
             Teilen Informationen über ihre direkten Verbindungen (Links) und
-            deren Zustand mit allen anderen Routern im Netzwerk (Sate)
+            deren Zustand mit allen anderen Routern im Netzwerk (State)
           </li>
           <li>
             Jeder Router erstellt daraus eine Topologiekarte und berechnet

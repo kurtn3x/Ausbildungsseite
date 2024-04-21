@@ -1,8 +1,10 @@
 <template>
   <q-page padding>
-    <div class="text-center q-mt-sm text-h4 text-weight-bold text-primary">
+    <h1
+      class="text-center q-mt-sm text-h4 text-weight-bold text-primary q-mb-sm"
+    >
       Allgemeine Übersicht WISO
-    </div>
+    </h1>
     <q-separator class="q-mt-md" />
     <ul>
       <li class="text-weight-bolder text-h7">
@@ -14,7 +16,7 @@
         </li>
         <li class="text-weight-bolder">Gesetzliche Krankenversicherung</li>
         <ul>
-          <li>50/50 aufgeteilt (derzeit 14,6% / 14% gesamt)</li>
+          <li>50/50 aufgeteilt (derzeit 14,6% bzw. 14% gesamt)</li>
           <li>
             auf den Teil des Bruttolohns, der über der Versicherungspflichgrenze
             liegt wird kein Beitrag erhoben
@@ -112,6 +114,46 @@
           Abschluss des Kündigungsschutzprozesses weiter beschäftigt wäre
         </li>
         <li>wählbar alle 4 Jahre</li>
+      </ul>
+      <li class="text-h7 text-weight-bolder">Der Arbeitsvertrag</li>
+      <ul>
+        <li class="text-weight-bold">Probezeit</li>
+        <ul>
+          <li>
+            normale Arbeitnehmer: keine gesetzliche Mindestzeit (= Keine
+            Probezeit falls nicht im Vertrag angegeben), maximal 6 Monate
+          </li>
+          <li>Azubis: mindestens 1Monat, maximal 4 Monate</li>
+          <li>
+            Während der Probezeit ist die Kündigung ohne Angabe von Gründen
+            möglich, dabei ist die Kündigungsfrist auf 14 Tage heruntergesetzt
+          </li>
+        </ul>
+        <li class="text-weight-bold">Befristung</li>
+        <ul>
+          <li>Falls nicht angegeben: unbefristet</li>
+          <li>
+            für maximal 2 Jahre möglich, können innerhalb dieses Zeitraums 3x
+            verlängert werden
+          </li>
+          <li>
+            Arbeitsvertrag endet automatisch ohne Kündigung nach Ablauf der
+            Befristung
+          </li>
+        </ul>
+        <li class="text-weight-bold">Weitere Regelungen:</li>
+        <ul>
+          <li>mindestens 15 freie Sonntage (Gastronomie: 10)</li>
+          <li>wöchentliche Arbeitszeit max. 48 Stunden</li>
+          <li>
+            tägliche Ruhezeit mindestens 11 Stunden nach der Arbeit
+            (Gastronomie: 10)
+          </li>
+          <li>
+            Mindesturlaub 24 Werktage (30/27/25 für unter 16-/17-/18-Jährige), +
+            5 Tage für Schwerbehinderte
+          </li>
+        </ul>
       </ul>
       <li>Berufsbildungsgesetz</li>
       <ul>

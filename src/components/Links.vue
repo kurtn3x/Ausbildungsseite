@@ -287,6 +287,18 @@
           <q-btn
             dense
             flat
+            to="/hardware/verkabelung/leitungen"
+            label="Leitungen (DSL, Standleitung)"
+            class="full-width q-mt-xs"
+            rounded
+            align="left"
+            :class="
+              $route.path == '/hardware/verkabelung/leitungen' ? 'active' : ''
+            "
+          />
+          <q-btn
+            dense
+            flat
             to="/hardware/verkabelung/simplex-duplex"
             label="Simplex & Duplex"
             class="full-width q-mt-xs q-mb-xs"

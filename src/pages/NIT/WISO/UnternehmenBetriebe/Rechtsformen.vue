@@ -46,7 +46,7 @@
           Einlage
         </li>
         <li>Einkommensbesteuerung mit Gewinn oder Verlust</li>
-        <li>Einkommensteuer jeder Person</li>
+        <li>Einkommenssteuer jeder Person</li>
         <li>Ertragsbesteuerung</li>
         <li>Keine Mindestkapitaleinlage</li>
       </ul>
@@ -63,7 +63,7 @@
         </li>
         <li>Körperschaftssteuerpflichtig</li>
         <li>Ertragsbesteuerung</li>
-        <li>Verfolgen in der Regel in erwerbswirtschaftliches Ziel</li>
+        <li>Verfolgen in der Regel ein erwerbswirtschaftliches Ziel</li>
       </ul>
 
       <li class="text-weight-bold text-h7 q-mt-sm">
@@ -148,15 +148,19 @@
           kann keine Grundlagengeschäfte tätigen, die den Betrieb des
           Handelsgewerbes als solches Betreffen
         </li>
-        <li>
-          z.B. Firma ändern, Gesellschafter aufnehmen, Insolvenzverfahren
-          eröffnen
-        </li>
+        <ul>
+          <li>
+            z.B. Firma ändern, Gesellschafter aufnehmen, Insolvenzverfahren
+            eröffnen
+          </li>
+        </ul>
         <li>
           kann keine Geschäfte vornehmen, die Inhaber des Handelschäftes
           vorbehalten sind
         </li>
-        <li>z.B. Prokuraerteilung, Anmelden der Firma zum Handelsregister</li>
+        <ul>
+          <li>z.B. Prokuraerteilung, Anmelden der Firma zum Handelsregister</li>
+        </ul>
       </ul>
     </ul>
 

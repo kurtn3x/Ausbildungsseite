@@ -14,7 +14,7 @@
     <q-separator class="q-mt-md" />
 
     <ul>
-      <li class="text-weight-bold text-h7">Simplex</li>
+      <li class="text-weight-bold text-h7 text-secondary">Simplex</li>
       <ul>
         <li>
           Simplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten
@@ -30,7 +30,7 @@
         </li>
       </ul>
 
-      <li class="text-weight-bold text-h7">Duplex</li>
+      <li class="text-weight-bold text-h7 text-secondary">Duplex</li>
       <ul>
         <li>
           Duplex beschreibt, dass bei der Kommunikation zwischen zwei Geräten
