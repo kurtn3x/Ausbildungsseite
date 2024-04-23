@@ -49,12 +49,6 @@
           popupsrc = '/Programmierung/uml-use-case.png';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
     </ul>
 
@@ -98,12 +92,6 @@
           popupsrc = '/Programmierung/uml.png';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
     </ul>
     <q-separator class="q-mt-md" />
@@ -127,12 +115,6 @@
           popupsrc = '/Programmierung/uml-sequenz.png';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
     </ul>
     <q-separator class="q-mt-md" />
@@ -156,12 +138,6 @@
           popupsrc = '/Programmierung/uml-aktivitat.png';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
     </ul>
 

@@ -118,12 +118,6 @@
           popupsrc = '/Netzwerke/ipv4/Ipv4Subnetting.png';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
     </ul>
     <q-separator class="q-mt-md" />
@@ -242,12 +236,6 @@
           popupsrc = '/Netzwerke/ipv4/Ipv4Subnetting3.png';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
     </ul>
     <q-separator class="q-mt-md" />

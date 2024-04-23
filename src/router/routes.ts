@@ -81,11 +81,6 @@ const routes: RouteRecordRaw[] = [
                 component: () =>
                   import('pages/NIT/WISO/Wirtschaft/Verträge.vue'),
               },
-              {
-                path: 'sektoren',
-                component: () =>
-                  import('pages/NIT/WISO/Wirtschaft/Sektoren.vue'),
-              },
             ],
           },
           {

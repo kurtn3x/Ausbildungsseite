@@ -157,14 +157,7 @@
             show_img = true;
             popupsrc = '/Netzwerke/coreswitch.webp';
           "
-        >
-          <div
-            class="absolute-bottom-right text-subtitle2"
-            style="height: 40px; font-size: 10px; background-color: transparent"
-          >
-            Click for full size
-          </div>
-        </q-img>
+        />
       </ul>
     </ul>
     <q-separator class="q-mt-md" />
@@ -195,9 +188,43 @@
     <div
       class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
     >
+      SFP / SFP+ / QSFP
+    </div>
+    <ul>
+      <li>SFP = Small Form-factor Pluggable</li>
+      <li>
+        ein im laufenden Betrieb (hot swappable) austauschbarer Transceiver
+      </li>
+      <li>
+        können in SFP-Ports/SFP-Cages von z.B. Switches oder Server eingebaut
+        werden
+      </li>
+      <li>Unterstützung von Ethernet, Fibre-Channel und SONET</li>
+      <li>
+        SFP+ → höhere Datenübertragungsraten, jedoch in der Regel kleinere
+        Distanzen
+      </li>
+      <li>
+        QSFP = Quad SFP → Untersützung von Ethernet, Fibre-Channel, InfiniBand
+        oder SONET/SDH mit noch höheren Datenübertragungsraten
+      </li>
+
+      <q-img
+        class="bg-grey-5"
+        :src="src + '/Netzwerke/sfp.webp'"
+        style="max-width: 250px"
+        @click="
+          show_img = true;
+          popupsrc = '/Netzwerke/sfp.webp';
+        "
+      />
+    </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
+    >
       Begriffe zu Netzwerk-Hardware
     </div>
-
     <ul>
       <li class="text-weight-bold">Spanning-Tree</li>
       <ul>
@@ -239,6 +266,10 @@
       style="line-break: anywhere"
     >
       Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      https://www.fiber-optic-solutions.com/wp-content/uploads/2018/07/access-switch-in-the-access-layer.jpg
+      <br />
+      https://cdn.ready-market.com.tw/91466f78/Templates/pic/IMG-SFP.jpg?v=5fad583a
+      <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>
   </q-page>

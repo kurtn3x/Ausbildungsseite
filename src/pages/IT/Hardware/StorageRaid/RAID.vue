@@ -26,6 +26,31 @@
         Laufwerk, um eine höhere Ausfallsicherheit oder Datenübertragungsrate
         gewährleisten zu können
       </li>
+      <li class="text-weight-bolder">RAID-Controller</li>
+      <ul>
+        <li>
+          Verbinden mehrerer unabhängiger Festplatten zu einem logischen
+          RAID-Verbund
+        </li>
+        <li>Steuern von Lese-und Schreibzugriffen</li>
+        <li>
+          abstrahiert die physischen Gegebenheiten, um dem Betriebssystem den
+          Verbund als einen logischen Verbund darzustellen
+        </li>
+        <li>
+          kann nur softwareseitig sein oder als unabhängiges Gerät fungieren
+        </li>
+        <li>Spezifikationen von Hardware-RAID-Controllern</li>
+        <ul>
+          <li>Datenübertragungsrate, z.B. 6Gb/s</li>
+          <li>Unterstützte RAID-Level, z.B. 0, 1, 5, 6, 10</li>
+          <li>Kompatibilität, z.B. bestimmte Betriebssysteme, vSphere</li>
+          <li>Unterstützte Geräte/Schnittstellen, z.B. SAS/SATA</li>
+          <li>Portanzahl, z.B. 4</li>
+          <li>Größe des Caches</li>
+          <li>interner Prozessor</li>
+        </ul>
+      </ul>
     </ul>
     <q-separator class="q-mt-md" />
 
@@ -45,7 +70,15 @@
           unterteilt und im "Reißverschlussverfahren", also abwechselnd zu einer
           großen Platte verbunden
         </li>
-        <li>Erhöhung der Übertragungsraten, da parellele Zugriffe möglich</li>
+        <li>
+          Striping = eine Datei in Dateifragmente aufteilt und auf
+          unterschiedliche Festplatten verteilt
+        </li>
+        <li>
+          → Erhöhung der Lese- und Schreibgeschwindigkeit, da parellele Zugriffe
+          möglich
+        </li>
+        <li>fällt eine Festplatte aus, sind alle Daten verloren</li>
         <li>Mindestens 2 Festplatten</li>
         <li>Verfügbarer Speicherplatz: 100%</li>
 
@@ -65,6 +98,9 @@
         <li>Verbund von mindestens zwei Festplatten</li>
         <li>
           speichert auf allen Festplatten die gleichen Daten -> volle Redundanz
+        </li>
+        <li>
+          es können alle Festplatten, bis auf eine ohne Datenverlust ausfallen
         </li>
         <li>Mindestens 2 Festplatten</li>
         <li>
@@ -103,6 +139,7 @@
           Schlechte Schreibgeschwindigkeit, durch Bildung der
           Paritätsinformationen
         </li>
+        <li>es darf maximal eine Festplatte ausfallen</li>
         <li>Mindestens 3 Festplatten</li>
         <li>
           Verfügbarer Speicherplatz = (Anzahl Festplatten - 1) * Kapazität der
@@ -130,11 +167,11 @@
           Paritätsinformationen
         </li>
         <li>benötigt mindestens vier Festplatten</li>
+        <li>Aufwendige Wiederherstellung</li>
         <li>
           ähnlich zu RAID 5, verkraftet jedoch gleichzeitigen Ausfall von bis zu
           zwei Festplatten
         </li>
-        <li>Aufwendige Wiederherstellung</li>
         <li>
           Verfügbarer Speicherplatz = (Anzahl Festplatten - 2) * Kapazität der
           kleinsten Festplatte
@@ -269,13 +306,20 @@
     <ul>
       <li class="text-weight-bolder">JBOD- Just a bunch of disks</li>
       <ul>
-        <li>Mehrere Festplatten verbunden zu einem logischen Volumen.</li>
+        <li>Mehrere Festplatten verbunden zu einem logischen Volumen</li>
         <li>
           Verfügbare Kapazität ist einfach die gesamte Kapazität aller
           Festplatten zusammen.
         </li>
         <li>Keine Redundanz & schlechtere Datenübertragungsraten</li>
         <li>da kein RAID, kein RAID-Controller erforderlich</li>
+        <li>
+          <a class="text-underline">Unterschied zu RAID0:</a> Daten werden nicht
+          gestriped, also wenn eine Festplatte in einem JBOD-Array verloren
+          geht, gehen nur die Daten auf der Festplatte verloren. Bei RAID0 wären
+          alle Daten verloren, da es Dateien striped und dadurch alle Dateien
+          unvollständig wären.
+        </li>
         <li>Gut für z.B. Archivierung</li>
         <q-img
           class="fit bg-grey-5"

@@ -163,16 +163,6 @@
           <q-btn
             dense
             flat
-            to="/wiso/wirtschaft/sektoren"
-            label="Wirtschaftssektoren"
-            class="full-width q-mt-xs"
-            rounded
-            align="left"
-            :class="$route.path == '/wiso/wirtschaft/sektoren' ? 'active' : ''"
-          />
-          <q-btn
-            dense
-            flat
             to="/wiso/wirtschaft/vertrage"
             label="Verträge & Vertragsarten"
             class="full-width q-mt-xs"

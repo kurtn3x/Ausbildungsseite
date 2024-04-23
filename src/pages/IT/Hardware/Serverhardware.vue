@@ -54,7 +54,8 @@
       <ul>
         <li>
           <a class="text-weight-bold">ECC: </a>Error Correcting Code. Kann
-          selber Speicherfehler erkennen und korrigieren
+          selber Speicherfehler erkennen und korrigieren (1-Bit-Speicherfehler
+          erkennen & korrigieren, 2-Bit-Speicherfehler erkennen)
         </li>
         <li>
           <a class="text-weight-bold">Registered RAM: </a>RAM beinhaltet ein
@@ -65,15 +66,31 @@
           Arbeitsspeicher-Module gleicher Kapizität können parallel betrieben
           werden. Erhöht die Datentransferrate.
         </li>
+        <li class="text-underline">
+          Beispiel: 16 GB DDR4-2400 ( PC4-19200R, CL16) ECC-RAM
+        </li>
+        <ul>
+          <li>
+            DDR4 (Unterschied zu DDR3: höhere Taktraten möglich
+            (1600MHz-3200MHz))
+          </li>
+          <li>Taktrate von 2400MHz</li>
+          <li>
+            2400 MHz entspricht einer Datenübertragungsrate von 19200MByte/s
+            (steht zum einen in der Beschreibung, kann auch mit der Formel
+            Taktrate*64/8 berechnet werden → 2400*64/8=19200)
+          </li>
+          <li>ECC = Error Correcting Code</li>
+          <li>R (19200R) = Registered</li>
+          <li>
+            auf allen Kanälen zusammen (PC4 → 4 Kanäle) kann eine
+            Datenübertragungsrate von 4*19200=76800MByte/s stattfinden
+          </li>
+        </ul>
       </ul>
       <li class="text-weight-bolder">Storage</li>
       <ul>
-        <li>besonders SCSI & Fibre Channel</li>
-        <li>
-          <router-link to="/hardware/storage-backup" class="text-light-blue">
-            Siehe auch Storage & Backup</router-link
-          >
-        </li>
+        <li>besonders SCSI, Fibre Channel & Infiniband</li>
       </ul>
     </ul>
   </q-page>

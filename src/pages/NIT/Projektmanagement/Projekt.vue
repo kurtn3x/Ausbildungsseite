@@ -59,12 +59,6 @@
           popupsrc = '/projektmanagement/Dreieck.png';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
       <li>zeigt Parameter auf, die ein Projekt und dessen Erfolg bestimmen</li>
       <li>

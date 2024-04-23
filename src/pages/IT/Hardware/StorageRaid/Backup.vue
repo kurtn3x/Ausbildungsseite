@@ -90,6 +90,67 @@
         </ul>
       </ul>
     </ul>
+    <q-separator class="q-mt-md" />
+    <div
+      class="text-h6 q-mt-md q-ml-sm text-weight-bolder text-secondary text-underline"
+    >
+      Andere Backuparten
+    </div>
+    <ul>
+      <li class="text-weight-bolder text-h7 text-secondary">Snapshots</li>
+      <ul>
+        <li>Momentaufnahme eines Systems oder Objekts</li>
+        <li>meist Abbild eines Dateisystems</li>
+        <li>
+          kopiert nur Einstellungen und Metadaten, die zur Wiederherstellung
+          benötigt werden würden
+        </li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>speicherplatzsparender</li>
+          <li>
+            einfacheres Management, z.B. können alte Snapshots einfach
+            überschrieben werden
+          </li>
+          <li>einfachere Wiederherstellung</li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>
+            werden in der Regel auf dem selben Speichermedium gesichert, auf dem
+            auch das Original liegt → bei Ausfall des Speichermediums ist der
+            Snapshot nutzlos
+          </li>
+          <li>
+            ohne korrektes Snapshot-Management sehr schnell sehr viele & große
+            Snapshot-Dateien
+          </li>
+        </ul>
+      </ul>
+      <li class="text-weight-bolder text-h7 text-secondary">Klon</li>
+      <ul>
+        <li>
+          identische Kopie einer Festplatte (Partionen, Daten,
+          Festplattenkonfigurationen)
+        </li>
+        <li class="text-green">Vorteile:</li>
+        <ul>
+          <li>einfache Wiederherstellung</li>
+          <li>
+            auf Backup-Daten kann auch im Klon-Image direkt zugegriffen werden
+            (ohne die Daten vorher wiederherzustellen)
+          </li>
+        </ul>
+        <li class="text-red">Nachteile:</li>
+        <ul>
+          <li>große Abbilddatei</li>
+          <li>
+            Datenwiederherstellung kann lange dauern, da alles wiederhergestellt
+            wird
+          </li>
+        </ul>
+      </ul>
+    </ul>
   </q-page>
 </template>
 

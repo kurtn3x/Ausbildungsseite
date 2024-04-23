@@ -448,12 +448,6 @@
           popupsrc = '/Netzwerke/routingverfahren.gif';
         "
       >
-        <div
-          class="absolute-bottom-right text-subtitle2"
-          style="height: 40px; font-size: 10px; background-color: transparent"
-        >
-          Click for full size
-        </div>
       </q-img>
       <li class="text-weight-bolder q-mt-md">Hot-Potatoe</li>
       <ul>
