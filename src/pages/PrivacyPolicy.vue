@@ -13,15 +13,16 @@
           <div>No Logs</div>
           <div>No Data sent to 3rd parties</div>
           <div>No Data collected/saved on server</div>
-          <div class="q-mt-md text-underline">Source:</div>
+          <div class="q-mt-md text-underline text-weight-bold">Source:</div>
           <div>
             <a
               href="https://github.com/kurtn3x/Ausbildungsseite"
               target="_blank"
+              class="text-blue"
               >https://github.com/kurtn3x/Ausbildungsseite</a
             >
           </div>
-          <div class="q-mt-md text-underline">Contact:</div>
+          <div class="q-mt-md text-underline text-weight-bold">Contact:</div>
           <div>
             <a
               href="https://about.kurtn3x.xyz"
