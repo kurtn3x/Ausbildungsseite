@@ -22,7 +22,14 @@
             >
           </div>
           <div class="q-mt-md text-underline">Contact:</div>
-          <div>Mail: kurtn3x@gmail.com</div>
+          <div>
+            <a
+              href="https://about.kurtn3x.xyz"
+              target="_blank"
+              class="text-blue"
+              >about.kurtn3x.xyz</a
+            >
+          </div>
         </div>
       </q-card>
     </div>
