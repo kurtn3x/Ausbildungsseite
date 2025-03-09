@@ -108,7 +108,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:Proxy_concept_en.svg
       <br />
       https://commons.wikimedia.org/wiki/File:Reverse_proxy_h2g2bob.svg

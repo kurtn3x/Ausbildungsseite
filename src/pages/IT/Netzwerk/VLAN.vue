@@ -235,7 +235,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://download-hk.huawei.com/mdl/image/download?uuid=e293a66aa668456881268c0a73b3e0bf
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

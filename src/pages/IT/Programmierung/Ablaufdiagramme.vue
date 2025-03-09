@@ -121,7 +121,7 @@
 
     <q-separator class="q-mt-md" />
     <div class="text-subtitle2 text-grey" style="line-break: anywhere">
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:NassiShneiderman.png <br />
       https://commons.wikimedia.org/wiki/File:Rechteck_mit_doppelten,_vertikalen_Linien_(Programmablaufplan).png
       <br />

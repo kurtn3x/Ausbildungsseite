@@ -161,7 +161,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:DHCP_session.svg
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

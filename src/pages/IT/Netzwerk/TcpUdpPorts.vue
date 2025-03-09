@@ -151,7 +151,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.ionos.de/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/tcp-header.jpg
       <br />
       https://commons.wikimedia.org/wiki/File:Tcp-handshake.svg <br />

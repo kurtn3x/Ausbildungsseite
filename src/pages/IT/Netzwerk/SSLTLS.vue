@@ -167,7 +167,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.elektronik-kompendium.de/sites/net/bilder/18112811.gif
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

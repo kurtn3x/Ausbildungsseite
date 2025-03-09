@@ -220,7 +220,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div class="text-subtitle2 text-grey font-size-small">
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich):<br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich):<br />
       https://www.watelectronics.com/wp-content/uploads/Hexadecimal-and-Binary-Number-System-Representation.jpg
       <br />
 

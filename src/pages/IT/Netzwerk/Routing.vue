@@ -523,7 +523,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://i.adroitacademy.com/blog/34101035.jpg <br />
       https://www.flackbox.com/wp-content/uploads/2020/03/word-image-4.webp
       <br />

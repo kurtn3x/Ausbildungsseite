@@ -45,7 +45,7 @@
         <ul>
           <li>Hinzufügen neuer Hardware</li>
           <li>Nachinstallation von Software</li>
-          <li>Anpassungen im Vertrags- und Lizensmanagement</li>
+          <li>Anpassungen im Vertrags- und Lizenzmanagement</li>
         </ul>
         <li class="text-weight-bolder">Phase 4: Change</li>
         <ul>
@@ -86,7 +86,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.i-doit.com/hs-fs/hubfs/imac-r-d-1600x900-1.jpg?width=825&height=464&name=imac-r-d-1600x900-1.jpg
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
