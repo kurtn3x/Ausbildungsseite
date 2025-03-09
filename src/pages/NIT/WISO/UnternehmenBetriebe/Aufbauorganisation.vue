@@ -23,17 +23,17 @@
     <ul>
       <li class="text-weight-bolder text-secondary text-h7">Einliniensystem</li>
       <ul>
-        <li>Beschreibung:</li>
+        <li class="text-weight-bold">Beschreibung:</li>
         <ul>
           <li>jede untergeordnete Stelle hat nur eine übergeordnete Instanz</li>
           <li>kleine-mittlere Unternehmen</li>
           <li>vertikale Kommunikationswege</li>
         </ul>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>eindeutige Dienst-, Informations-, und Kommunikationswege</li>
         </ul>
-        <li class="text-red">Nachteile</li>
+        <li class="text-red text-weight-bold">Nachteile</li>
         <ul>
           <li>Zeitverlust durch lange Dienstwege</li>
           <li>mangelnde Flexibilität</li>
@@ -62,7 +62,7 @@
         Mehrliniensystem
       </li>
       <ul>
-        <li>Beschreibung:</li>
+        <li class="text-weight-bold">Beschreibung:</li>
         <ul>
           <li>
             eine untergeordnete Stelle kann von mehreren Instanzen Weisungen
@@ -70,12 +70,12 @@
           </li>
           <li>Mehrdimensionale Organisationsstruktur</li>
         </ul>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Entlastung der Instanzen</li>
           <li>Direkte Kommunikations-und Informationswege</li>
         </ul>
-        <li class="text-red">Nachteile</li>
+        <li class="text-red text-weight-bold">Nachteile</li>
         <ul>
           <li>Kompetenzstreitigkeiten unter Instanzen</li>
           <li>Fehler lassen sich schwerer zuweisen</li>
@@ -104,19 +104,19 @@
         Stabliniensystem
       </li>
       <ul>
-        <li>Beschreibung:</li>
+        <li class="text-weight-bold">Beschreibung:</li>
         <ul>
           <li>Liniensystem mit zusätzlichen Stabsstellen</li>
           <li>Erweiterung Einliniensystem durch einen Stab</li>
         </ul>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Entlastung der Instanzen</li>
           <li>
             Ausgleich zwischen Fachwissen der Stäbe und Überblick der Instanzen
           </li>
         </ul>
-        <li class="text-red">Nachteile</li>
+        <li class="text-red text-weight-bold">Nachteile</li>
         <ul>
           <li>Konflikte zwischen Instanzen und Stab</li>
           <li>unübersichtliche Entscheidungsprozesse</li>
@@ -145,7 +145,7 @@
         Matrixorganisation
       </li>
       <ul>
-        <li>Beschreibung:</li>
+        <li class="text-weight-bold">Beschreibung:</li>
         <ul>
           <li>
             Weiterentwicklung des Mehrliniensystems, auf zwei unabhängige
@@ -156,14 +156,14 @@
             Organisation der Produktbereiche
           </li>
         </ul>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Entlastung der Instanzen</li>
           <li>
             Ausgleich zwischen Fachwissen der Stäbe und Überblick der Instanzen
           </li>
         </ul>
-        <li class="text-red">Nachteile</li>
+        <li class="text-red text-weight-bold">Nachteile</li>
         <ul>
           <li>Konflikte zwischen Instanzen und Stab</li>
           <li>unübersichtliche Entscheidungsprozesse</li>
@@ -192,7 +192,7 @@
     </ul>
     <q-separator class="q-mt-md" />
     <div class="text-subtitle2 text-grey font-size-small">
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.bwl-lexikon.de/app/uploads/einliniensystem-beispiel.png
       <br />
       https://www.bwl-lexikon.de/app/uploads/mehrliniensystem.png <br />

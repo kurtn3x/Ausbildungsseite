@@ -36,14 +36,14 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
         </li>
         <li>Punkt-zu-Punkt Schnittstellen wie SCSI, SAS, USB</li>
 
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>geringe Kosten</li>
           <li>wenig Hardware</li>
           <li>performant</li>
           <li>kein zusätzlicher Protokollstack</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>Nur ein Host</li>
           <li>Eingeschränkte Skalierbarkeit</li>
@@ -71,7 +71,7 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
         <li>Dateibasierter Zugriff z.B. \\server\freigabe</li>
         <li>oft Datensicherheit durch konfigurierbares RAID</li>
         <li>für kleinere Unternehmen bzw. bis zu Privateinsatz</li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>einfache Anbindung</li>
           <li>konkurrierende Zugriffe mehrerer Clients</li>
@@ -79,7 +79,7 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
           <li>gute Kompatibilität</li>
           <li>RAID möglich</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>TCP-/IP-Protokollstack ungeeignet für Storage-Traffic</li>
           <li>Hohe Belastung des LANs durch TCP-/-IP-Traffic</li>
@@ -110,7 +110,7 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
         </li>
         <li>oft große Unternehmen bzw. wichtige Services</li>
 
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>hohe Transferraten</li>
           <li>niedrige Latenz</li>
@@ -118,7 +118,7 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
           <li>Zentralisierung des Speichers</li>
           <li>einfache Administration des Speichers</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>teuer</li>
           <li>kompliziert</li>
@@ -160,7 +160,7 @@ Storage-Protokolle, -Übertragungsmedien und -Hardwareschnittstellen
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.thomas-krenn.com/de/tkmag/wp-content/uploads/2020/08/grafik.png
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

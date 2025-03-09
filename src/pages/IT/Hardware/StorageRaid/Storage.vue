@@ -260,14 +260,14 @@
           sichert also alle Dateien, die über ein gesetztes Archivbit verfügen
         </li>
         <li>Archivbit wird zurückgesetzt</li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>schnell und effizient</li>
           <li>benötigen wenig Speicherplatz</li>
           <li>spart Netzwerkbandbreite</li>
           <li>kosteneffizient</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>
             Wiederherstellung der Daten ist zeitaufwending und komplex
@@ -290,14 +290,14 @@
           Größe der Backupdatei nimmt immer weiter zu, bis zum nächsten
           Vollbackup
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>
             Wiederherstellung des Backups einfach (erfordert nur das letzte
             vollständige Backup und das letzte differentielle Backup)
           </li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>größere Backups</li>
           <li>
@@ -368,7 +368,7 @@
           sie gespeichert oder gelesen werden können
         </li>
         <li>Dateisystem ordnet Dateien einer Folge von Blöcken zu</li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>
             Direkter Zugriff auf Blöcke, die geändert oder gelesen werden sollen
@@ -419,7 +419,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://medium.com/teamresellerclub/what-is-the-difference-between-san-and-nas-storage-9e5d0b0b94b2
       <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.

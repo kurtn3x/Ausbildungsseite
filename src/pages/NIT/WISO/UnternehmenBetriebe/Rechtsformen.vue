@@ -26,9 +26,8 @@
         <li>Schutz von Unternehmens-Partnern durch die Bekanntmachung</li>
         <li>Recht auf Einsichtnahme</li>
         <li>begrenzte Informationen zu Geschäftsdaten</li>
-        <li>
-          Abteilung A Personengesellschaften, Abteilung B Kapitalgesellschaften
-        </li>
+        <li>Abteilung A: Personengesellschaften</li>
+        <li>Abteilung B: Kapitalgesellschaften</li>
       </ul>
       <li>z.T. Bürgerliches Gesetzbuch (BGB)</li>
     </ul>
@@ -44,7 +43,7 @@
       <ul>
         <li>jeder Einzelne ist Rechts- und Steuersubjekt</li>
         <li>
-          Haftungsunbeschränkt = Gesellschafter und ggb. Gläubiger haften mit
+          Haftungsunbeschränkt = Gesellschafter haften persönlich mit
           Privatvermögen und Einlage
         </li>
         <li>Einkommensbesteuerung mit Gewinn oder Verlust</li>

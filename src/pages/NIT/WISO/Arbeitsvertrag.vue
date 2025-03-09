@@ -123,14 +123,17 @@
       Kündigungen / Aufhebung des Vertrags
     </div>
     <ul>
-      <li>nach Zweckerfüllung → ohne Kündigung</li>
-      <li>nach Fristablauf → ohne Kündigung</li>
-      <li>
-        Aufhebungsvertrag (übereinstimmende Willenserklärung beider
-        Vertragspartner, fristlos)
-      </li>
-      <li>Anfechtbarkeit (Täuschung, Irrtum)</li>
-      <li>Tod des Arbeitnehmers (nicht aber bei Arbeitgeber)</li>
+      <li class="text-weight-bolder text-h7">Aufhebung:</li>
+      <ul>
+        <li>nach Zweckerfüllung → ohne Kündigung</li>
+        <li>nach Fristablauf → ohne Kündigung</li>
+        <li>
+          Aufhebungsvertrag (übereinstimmende Willenserklärung beider
+          Vertragspartner, fristlos)
+        </li>
+        <li>Anfechtbarkeit (Täuschung, Irrtum)</li>
+        <li>Tod des Arbeitnehmers (nicht aber bei Arbeitgeber)</li>
+      </ul>
       <li class="text-weight-bolder text-h7">
         Kündigung (einseitige empfangsbedürftige Willenserklärung)
       </li>
@@ -201,7 +204,7 @@
         <li>müssen vollständig sein</li>
         <li>müssen der Wahrheit entsprechen</li>
         <li>Zeugnissprache (wohlwollend formuliert)</li>
-        <li>Drüfen die berufliche Laufbahn nicht behindern</li>
+        <li>Dürfen die berufliche Laufbahn nicht behindern</li>
       </ul>
     </ul>
   </q-page>

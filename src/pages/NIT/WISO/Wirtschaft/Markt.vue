@@ -47,7 +47,7 @@
         <ul>
           <li>sich selbst aus der Sicht des Kunden beurteilen</li>
           <li>Stärken aufbauen, Schwächen reduzieren</li>
-          <li>bestehende Absatzsegment sichern und neue finden</li>
+          <li>bestehendes Absatzsegment sichern und neue finden</li>
           <li>Konkurrenz beobachten und sich von ihr absetzen</li>
         </ul>
         <li class="text-weight-bold">Ziele des Marketings:</li>
@@ -108,7 +108,7 @@
         <ul>
           <li>
             Anbieter bestimmen aufgrund des geringen Angebots an Gütern bei
-            gleichzeitig viel größerer Nachfrage nach diesenen Gütern die Preise
+            gleichzeitig viel größerer Nachfrage nach diesen Gütern die Preise
           </li>
           <li>
             Anbieter haben selbst bei ungünstigem Preis, geringer Qualität oder
@@ -137,23 +137,27 @@
       <ul>
         <li class="text-weight-bold">volkommener Markt</li>
         <ul>
-          <li>liegt vor wenn alle 3 der folgenden Bedingungen erfüllt sind</li>
-          <li>
-            Alle Güter sind hinsichtlich Art, Qualität, Ausstattung und
-            Aufmachung völlig gleich
-          </li>
-          <li>vollständige Marktübersicht (Markttransparenz)</li>
-          <li>Käufer ziehen keinen Anbieter und kein Produkt vor</li>
+          <li>liegt vor wenn alle 3 der folgenden Bedingungen erfüllt sind:</li>
+          <ul>
+            <li>
+              Alle Güter sind hinsichtlich Art, Qualität, Ausstattung und
+              Aufmachung völlig gleich
+            </li>
+            <li>vollständige Marktübersicht (Markttransparenz)</li>
+            <li>Käufer ziehen keinen Anbieter und kein Produkt vor</li>
+          </ul>
         </ul>
         <li class="text-weight-bold">unvolkommener Markt</li>
         <ul>
           <li>
             liegt vor, wenn eine der Bedingungen des vollkommenen Marktes nicht
-            erfüllt ist
+            erfüllt ist:
           </li>
-          <li>Unterschiedliche Qualität von Gütern</li>
-          <li>fehlende Marktübersicht</li>
-          <li>Präferenzen liegen vor</li>
+          <ul>
+            <li>Unterschiedliche Qualität von Gütern</li>
+            <li>fehlende Marktübersicht</li>
+            <li>Präferenzen liegen vor</li>
+          </ul>
         </ul>
       </ul>
       <li class="text-weight-bolder text-h7">
@@ -188,7 +192,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.bommi2000.de/wirtkunde/e1_lernbereich3_6x9zoll.pdf<br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>

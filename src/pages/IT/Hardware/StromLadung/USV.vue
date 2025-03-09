@@ -36,13 +36,13 @@
           Umschaltung erfolgt erst nach wenigen Millisekunden (schlecht für
           empfindliche Verbraucher)
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Hoher Wirkungsgrad</li>
           <li>Lange Batterielebensdauer</li>
           <li>einfach, günstig</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>Umschaltlücke von wenigen Millisekunden</li>
           <li>Verbraucher durch ungefilterte Spannung versorgt</li>
@@ -82,13 +82,13 @@
           Keine Korrektur der Eingangsspannung und Umschaltung auch erst nach
           wenigen Millisekunden
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Hoher Wirkungsgrad</li>
           <li>Gutes Preis-Leistungsverhältnis</li>
           <li>Niedrige Betriebskosten</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>Umschaltlücke von wenigen Millisekunden</li>
         </ul>
@@ -123,13 +123,13 @@
           bei Stromausfall aus Akku
         </li>
         <li>Ständige Umwandlung von Gleich- in Wechselstrom</li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Konstante Ausgangsspannung und -frequenz</li>
           <li>Keine Umschaltzeit & keine Versorgungslücken</li>
           <li>Optimaler Schutz vor Netzstörungen</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>Kostenintensiv</li>
         </ul>
@@ -156,7 +156,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
 
       https://www.akkuteam.de/thumbnail/e8/8f/18/1622123513/Offline-02_800x800.jpg<br />
       https://www.akkuteam.de/thumbnail/3d/93/cb/1622123672/Line-Interactive-02_800x800.jpg

@@ -42,13 +42,13 @@
         </li>
         <li>Infrastruktur über API oder Dashboard gesteuert</li>
         <li>Rechenzentrum wird vom Anbieter gewartet</li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Rechenzentrum muss nicht gewartet werden</li>
           <li>flexible Skalierung</li>
           <li>keine Wartungskosten</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>
             Sicherheitsprobleme durch Anbieter (Sicherheitsverantwortng liegt
@@ -72,7 +72,7 @@
           Nutzer ist nicht für Hardwarewartung oder Softwareupdates
           verantwortlich
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>
             wie IaaS + weniger Verwaltungsaufwand → keine
@@ -81,7 +81,7 @@
           <li>weniger Verwaltungsaufwand</li>
           <li>einfacheres Deployment auf andere Umgebungen</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>wie IaaS</li>
           <li>
@@ -108,7 +108,7 @@
         <li>
           sinvoll für Hosten einer bestimmten Anwendung wie z.B. eine Website
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>
             wie PaaS + weniger Verwaltungsaufwand da auch keine
@@ -117,7 +117,7 @@
           <li>sehr flexibel → einfachstes Deployment der Anwendung</li>
           <li>gut für Anwendungen, die nicht groß angepasst werden müssen</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>wie PaaS</li>
           <li>
@@ -149,7 +149,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
 
       https://www.redhat.com/rhdc/managed-files/iaas-paas-saas-diagram5.1-1638x1046.png
       <br />

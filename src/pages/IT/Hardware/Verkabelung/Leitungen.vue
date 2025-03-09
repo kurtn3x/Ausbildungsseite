@@ -64,14 +64,14 @@
               Glasfaser endet innerhalb des Gebäudes, in dem der Kunde seinen
               Anschluss hat
             </li>
-            <li>"""echtes Glasfaser"""</li>
+            <li>"echtes Glasfaser"</li>
           </ul>
           <li>Fibre-to-the-Home (Glasfaser bis in die Wohnung)</li>
           <ul>
             <li>
               Glasfaser endet in der Wohnung des Kunden am Teilnehmeranschluss
             </li>
-            <li>"""echtes Glasfaser"""</li>
+            <li>"echtes Glasfaser"</li>
           </ul>
         </ul>
       </ul>

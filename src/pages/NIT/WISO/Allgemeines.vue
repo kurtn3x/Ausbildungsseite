@@ -21,8 +21,9 @@
         <li>
           Muss bei jeder Kündigung eines Beschäftigten angehört werden. Der
           Kündigung kann aufgrund z.B. fehlerhafter Sozialauswahl oder Verstoß
-          gegen Auswahlrichtlinien widersprochen werden, wodurch AN bis zum
-          Abschluss des Kündigungsschutzprozesses weiter beschäftigt wäre
+          gegen Auswahlrichtlinien widersprochen werden, wodurch Arbeitnehmer
+          bis zum Abschluss des Kündigungsschutzprozesses weiter beschäftigt
+          wäre
         </li>
         <li>wählbar alle 4 Jahre</li>
         <li>bei mindestens 5 wahlberechtigten Arbeitnehmern</li>
@@ -32,7 +33,7 @@
       <li class="text-weight-bolder">Betriebsversammlung</li>
       <ul>
         <li>
-          Verantstaltung des Betriebsrats → nur in Betrieben mit Betriebsrat
+          Veranststaltung des Betriebsrats → nur in Betrieben mit Betriebsrat
         </li>
         <li>Teilnahme eines Arbeitnehmers gilt als Arbeitszeit</li>
         <li>Teilnehmen können alle Arbeitnehmer und Auzubildenden</li>

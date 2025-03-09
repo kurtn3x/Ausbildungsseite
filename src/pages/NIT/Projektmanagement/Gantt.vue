@@ -35,7 +35,7 @@
         kritischer Pfad = Pfad, auf welchem zeitliche Verzögerung
         Projektenddatum beeinträchtigt
       </li>
-      <li>Beispiel:</li>
+      <li class="text-weight-bolder">Beispiel:</li>
       <q-img
         class="fit bg-grey-5 q-mt-md"
         :src="src + '/projektmanagement/Gantt_diagramm.png'"

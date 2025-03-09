@@ -25,7 +25,15 @@
         </li>
         <li>langsam und beansprucht am meisten Speicherplatz</li>
         <li>sichert Dateien unabhängig von Archivbit</li>
-        <li>setzt das Archivbit zurück</li>
+        <li>
+          setzt das Archivbit zurück
+          <router-link
+            to="/hardware/storage-raid/begriffe#archivbit"
+            class="text-light-blue"
+          >
+            (Siehe Weitere Begriffe für Erkärung zu Archivbit)
+          </router-link>
+        </li>
       </ul>
 
       <li class="text-weight-bolder text-h7 text-secondary">
@@ -40,14 +48,14 @@
           sichert also alle Dateien, die über ein gesetztes Archivbit verfügen
         </li>
         <li>Archivbit wird zurückgesetzt</li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>schnell und effizient</li>
           <li>benötigen wenig Speicherplatz</li>
           <li>spart Netzwerkbandbreite</li>
           <li>kosteneffizient</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>
             Wiederherstellung der Daten ist zeitaufwending und komplex
@@ -73,14 +81,14 @@
           Größe der Backupdatei nimmt immer weiter zu, bis zum nächsten
           Vollbackup
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>
             Wiederherstellung des Backups einfach (erfordert nur das letzte
             vollständige Backup und das letzte differentielle Backup)
           </li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>größere Backups</li>
           <li>
@@ -105,7 +113,7 @@
           kopiert nur Einstellungen und Metadaten, die zur Wiederherstellung
           benötigt werden würden
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>speicherplatzsparender</li>
           <li>
@@ -114,7 +122,7 @@
           </li>
           <li>einfachere Wiederherstellung</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>
             werden in der Regel auf dem selben Speichermedium gesichert, auf dem
@@ -133,7 +141,7 @@
           identische Kopie einer Festplatte (Partionen, Daten,
           Festplattenkonfigurationen)
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>einfache Wiederherstellung</li>
           <li>
@@ -141,7 +149,7 @@
             (ohne die Daten vorher wiederherzustellen)
           </li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>große Abbilddatei</li>
           <li>

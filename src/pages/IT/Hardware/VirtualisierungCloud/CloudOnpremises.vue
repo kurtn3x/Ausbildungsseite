@@ -27,7 +27,7 @@
         Server, Datenspeicher, Applikationen) übers Internet als Dienstleistung,
         bzw. das Verwenden einer Cloud für das Hosten einer Anwendung
       </li>
-      <li class="text-green">Vorteile (für Nutzer):</li>
+      <li class="text-green text-weight-bold">Vorteile (für Nutzer):</li>
       <ul>
         <li>
           <a class="text-underline">Kostenvorteile:</a> Bezahlung nach Dauer
@@ -51,7 +51,7 @@
           Updateverantwortung liegt beim Anbieter
         </li>
       </ul>
-      <li class="text-red">Nachteile (für Nutzer):</li>
+      <li class="text-red text-weight-bold">Nachteile (für Nutzer):</li>
       <ul>
         <li>
           <a class="text-underline">Sicherheitsrisiken:</a> Datenübertragung auf
@@ -88,7 +88,7 @@
       <li>
         beschreibt das Hosten einer Anwendung auf einem eigenen, lokalen Server
       </li>
-      <li class="text-green">Vorteile:</li>
+      <li class="text-green text-weight-bold">Vorteile:</li>
       <ul>
         <li>
           <a class="text-underline">Zugriff und Kontrolle:</a> Unernehmen haben
@@ -114,7 +114,7 @@
           Internetprobleme, da lokal
         </li>
       </ul>
-      <li class="text-red">Nachteile:</li>
+      <li class="text-red text-weight-bold">Nachteile:</li>
       <ul>
         <li>
           <a class="text-underline">Teurer als Cloud:</a> die Server müssen

@@ -23,8 +23,8 @@
         <li class="text-weight-bold">Metallische/elektrische Leiter:</li>
         <ul>
           <li>
-            Koaxialkabel ( Übertragung von Hochfrequenzsignalen (Fernsehantennen
-            / Satellitenschüsseln))
+            Koaxialkabel (Übertragung von Hochfrequenzsignalen wie
+            Fernsehantennen oder Satellitenschüsseln)
           </li>
           <li class="text-secondary">Twisted-Pair</li>
         </ul>
@@ -171,7 +171,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.glasfaserkabel.de/images/content/lichtausbreitung-singlemode.jpg
       <br />
       https://www.glasfaserkabel.de/images/content/lichtausbreitung-multimode.jpg

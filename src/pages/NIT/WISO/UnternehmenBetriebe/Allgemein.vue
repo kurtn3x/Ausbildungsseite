@@ -15,7 +15,7 @@
       <ul>
         <li>Technisch organisatorische Einheit</li>
         <li>z.B. Hotel, Friseur, IT-Betrieb, Automanufaktur</li>
-        <li>Merkmale:</li>
+        <li class="text-weight-bold">Merkmale:</li>
         <ul>
           <li>Einem Unternehmen zugeordnet</li>
           <li>Dient der Leistungserstellung</li>
@@ -35,7 +35,7 @@
       <ul>
         <li>Rechtliche Wirtschaftseinheit</li>
         <li>z.B. Hotelkette, Friseurkette, IT-GmbH, Auto AG</li>
-        <li>Merkmale:</li>
+        <li class="text-weight-bold">Merkmale:</li>
         <ul>
           <li>Geschäftsbücher und Jahresabschlüsse</li>
           <li>Ziel: Gewinn(-maximierung)</li>
@@ -60,7 +60,7 @@
         <li>Primärsektor (Urproduktion wie Land- und Fortswirtschaft)</li>
         <li>Sekundärsektor (industrieller Sektor wie Handwerk und Bau)</li>
         <li>Tertiärsektor (Dienstleistungssektor wie Medizin und Banken)</li>
-        <li>Tertiärsektor kann noch in</li>
+        <li>Tertiärsektor kann noch weiter unterteilt werden</li>
 
         <ul>
           <li>
@@ -69,7 +69,6 @@
           </li>
           <li>Quintärsektor (Entsorgungswirtschaft, Wasseraufbereitung)</li>
         </ul>
-        <li>unterteilt werden.</li>
       </ul>
     </ul>
 

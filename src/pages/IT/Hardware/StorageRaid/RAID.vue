@@ -20,7 +20,7 @@
       RAID
     </div>
     <ul>
-      <li>RAID = redundant array of independent discs</li>
+      <li>RAID = redundant array of independent disks</li>
       <li>
         dient zur Organisation mehrerer Massenspeicher zu einem logischen
         Laufwerk, um eine höhere Ausfallsicherheit oder Datenübertragungsrate
@@ -339,7 +339,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:RAID_0.svg<br />
       https://commons.wikimedia.org/wiki/File:RAID_1.svg <br />
       https://commons.wikimedia.org/wiki/File:RAID_5.svg <br />

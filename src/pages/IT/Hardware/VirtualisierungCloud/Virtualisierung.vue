@@ -32,7 +32,7 @@
           Kapselung eines Rechnersystems innerhalb eines lauffähigen
           Rechnersystems
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Mehrere Betriebssysteme gleichzeitig</li>
           <li>unterschiedliche Architekturen möglich</li>
@@ -40,7 +40,7 @@
           <li>Isolation von Applikationen</li>
           <li>Günstig & Einfach</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>ineffizient</li>
           <li>
@@ -135,7 +135,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
 
       https://www.netapp.com/de/media/container-vs-vm-inline1_tcm24-82163.png?v=85344?v=85344
       <br />

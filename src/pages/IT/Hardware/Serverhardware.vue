@@ -34,13 +34,13 @@
           <a class="text-weight-bold">Hyperthreading: </a>Effizientere Nutzung
           der Prozessorressourcen, da jeder Kern mehrere Threads gleichzeitig
           verarbeiten kann. Steigert auch den Prozessordurchsatz und verbessert
-          damit die Gesamtleistung von Multithreading-Software.
+          damit die Gesamtleistung von Multithreading-Software
         </li>
         <li>
           <a class="text-weight-bold">CPU-Cache: </a>Der CPU-Cache dient der
           Optimierung der Verarbeitung von Operationen. Prozessorkerne können
           schneller auf den CPU-Cache zugreifen als auf den RAM oder den
-          Festplattenspeicher.
+          Festplattenspeicher
         </li>
         <li>Besondere Merkmale von Server-CPUs:</li>
         <ul>
@@ -64,7 +64,7 @@
         <li>
           <a class="text-weight-bold">Quad-Channel: </a>vier
           Arbeitsspeicher-Module gleicher Kapizität können parallel betrieben
-          werden. Erhöht die Datentransferrate.
+          werden. Erhöht die Datentransferrate
         </li>
         <li class="text-underline">
           Beispiel: 16 GB DDR4-2400 ( PC4-19200R, CL16) ECC-RAM

@@ -174,10 +174,10 @@
         </li>
         <ul>
           <li class="text-green">
-            Ziel-Mac-Adresse (6 Byte): 50-eb-56-97-f8-f4
+            Ziel-MAC-Adresse (6 Byte): 50-eb-56-97-f8-f4
           </li>
           <li class="text-red">
-            Quell-Mac-Adresse (6 Byte): c8-0c-c8-d3-1f-d4
+            Quell-MAC-Adresse (6 Byte): c8-0c-c8-d3-1f-d4
           </li>
           <li class="text-blue">
             Ethernet-Type (2 Byte): 08 00 = IPv4 (z.B.: IPv6 = 86 DD)
@@ -329,7 +329,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://de.wikipedia.org/wiki/Datenframe <br />
       https://download-hk.huawei.com/mdl/image/download?uuid=e293a66aa668456881268c0a73b3e0bf
       <br />

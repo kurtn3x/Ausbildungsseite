@@ -28,13 +28,13 @@
         </ul>
         <li>Verwendung: Verschlüsselung von Nachrichten</li>
 
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>schnell</li>
           <li>benötigt wenig Rechenleistung</li>
           <li>einfach zu verstehen, unkomplex</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>
             Jeder mit Zugriff auf Schlüssel hat auch Zugriff auf die
@@ -116,7 +116,7 @@
           Verwendung: digitale Signaturen, Public-Key-Authentifizierung,
           Verschlüsselung, Aushandeln symmetrischer Schlüssel
         </li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>Geheimer Schlüssel muss nicht geteilt werden</li>
           <li>
@@ -125,7 +125,7 @@
           </li>
           <li>Hat viele Anwendungsbereiche</li>
         </ul>
-        <li class="text-red">Nachteile:</li>
+        <li class="text-red text-weight-bold">Nachteile:</li>
         <ul>
           <li>deutlich langsamer</li>
           <li>benötigt mehr Rechenleistung</li>
@@ -277,7 +277,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://commons.wikimedia.org/wiki/File:Orange_blue_symmetric_cryptography_de.svg<br />
       https://commons.wikimedia.org/wiki/File:Orange_blue_public_key_cryptography_de.svg
       <br />

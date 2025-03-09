@@ -11,7 +11,7 @@
       <ul>
         <li>Haltedauer = Batteriekapazität / Leistung</li>
         <li class="text-weight-bolder">
-          Beispiel1: Wie lange kann die USV Strom liefern?
+          Beispiel 1: Wie lange kann die USV Strom liefern?
         </li>
         <ul>
           <li>
@@ -43,7 +43,7 @@
           </q-card>
         </ul>
         <li class="text-weight-bolder">
-          Beispiel2: Wie lange kann die USV Strom liefern?
+          Beispiel 2: Wie lange kann die USV Strom liefern?
         </li>
         <ul>
           <li>
@@ -68,7 +68,7 @@
           </q-card>
         </ul>
         <li class="text-weight-bolder">
-          Beispiel3: 100% geladener Akku kann bei einer Last von 100VA eine
+          Beispiel 3: 100% geladener Akku kann bei einer Last von 100VA eine
           Stunde Stromausfall überbrücken. Der Ladestand soll 40% nicht
           unterschreiten. Der angeschlossene Server hat einen Leistungsbedarf
           von 300 Watt. Der Server benötigt 5 Minuten zum herunterfahren.

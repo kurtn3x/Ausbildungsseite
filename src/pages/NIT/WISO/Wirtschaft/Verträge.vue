@@ -78,9 +78,10 @@
     <ul>
       <li>Soll Liquidität von Unternehmen mit hohen Außenständen erhalten</li>
       <li>
-        Factoring-Bak kauft Forderung einer Unternehmung auf, bevorschusst die
+        Factoring-Bank kauft Forderung einer Unternehmung auf, bevorschusst die
         Unternehmung und übernimmt die Eintreibung der Forderung beim Kunden
       </li>
+      <li>z.B. Bezahlung mit Klarna</li>
       <li class="text-weight-bolder">Teilnehmer am Factoringvertrag</li>
       <ul>
         <li>
@@ -141,7 +142,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.bommi2000.de/wirtkunde/e2_lernfeld06_2.jpg<br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>

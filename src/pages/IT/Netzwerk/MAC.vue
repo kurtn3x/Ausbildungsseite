@@ -29,14 +29,14 @@
       <li>Hexadezimale Schreibweise</li>
       <li>
         Bestimmte Unternehmen unterhalten bestimmte Anfangsbereiche von
-        Mac-Adressen (erste 3 Oktette / 6 Hexdezimalzahlen / 24Bit) =
+        MAC-Adressen (erste 3 Oktette / 6 Hexdezimalzahlen / 24Bit) =
         "Organizationally Unique Identifier"
       </li>
       <li class="text-weight-bold">
         Beispiel: 00-09-8C-00-69-63 oder auch : statt -
       </li>
       <li class="text-weight-bold">
-        Mac-Adressen werden für die Adressierung im Ethernet-Frame genutzt:
+        MAC-Adressen werden für die Adressierung im Ethernet-Frame genutzt:
       </li>
       <q-img
         class="fit bg-grey-5"
@@ -76,7 +76,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://de.m.wikipedia.org/wiki/Datei:Ethernet_frame.svg <br />
       Ich bin nicht der Eigentümer der oben genannten Bilder.
     </div>

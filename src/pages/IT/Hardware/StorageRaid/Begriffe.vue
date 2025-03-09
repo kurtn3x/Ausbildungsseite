@@ -83,7 +83,7 @@
           sie gespeichert oder gelesen werden können
         </li>
         <li>Dateisystem ordnet Dateien einer Folge von Blöcken zu</li>
-        <li class="text-green">Vorteile:</li>
+        <li class="text-green text-weight-bold">Vorteile:</li>
         <ul>
           <li>
             Direkter Zugriff auf Blöcke, die geändert oder gelesen werden sollen

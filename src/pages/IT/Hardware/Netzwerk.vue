@@ -21,7 +21,7 @@
     </div>
     <ul>
       <li>verbinden Geräte sternförmig</li>
-      <li>keine Analyse der Mac-Adresse</li>
+      <li>keine Analyse der MAC-Adresse</li>
       <li>nur Verstärkung und Weiterleitung des Signals auf allen Ports</li>
       <li>kann Endgeräte nicht unterscheiden und sendet alles an Jeden</li>
       <li>
@@ -40,7 +40,7 @@
         (Data-Link-Layer) und verwenden daher MAC-Adressen zur Adressierung
       </li>
       <li>
-        Kann Mac-Adressen auswerten und lernt, welche sich an welchen Port
+        Kann MAC-Adressen auswerten und lernt, welche sich an welchen Port
         befinden → Informationen werden in einer internen Tabelle gespeichert
       </li>
       <li>
@@ -48,7 +48,7 @@
       </li>
       <li>
         VLAN-fähige Switches können ein physisches Netz in mehrere logische
-        Teilnetze unterteilen.
+        Teilnetze unterteilen
         <router-link to="/netzwerk/vlan" class="text-light-blue">
           Siehe auch VLAN</router-link
         >
@@ -98,7 +98,7 @@
             <a class="text-weight-bold">Unmanaged Switches</a> sind direkt nach
             dem Anschluss funktionsfähig und benötigen keine Konfiguration.
             Funktion ist die grundlegende Konnektivität und Weiterleitung des
-            Verkehrs.
+            Verkehrs
           </li>
           <li>
             <a class="text-weight-bold">Managed Switches</a> stellen den
@@ -106,7 +106,7 @@
             die höchste Sicherheit, Kontrolle und Verwaltung des Netzwerks.
             Können unter anderem VLAN-, Firewall- und/oder Routing-Funktionen
             besitzen. Müssen jedoch für den vollen Funktionsumfang konfiguriert
-            werden.
+            werden
           </li>
         </ul>
         <li class="text-weight-bold">AutoUplink (MDI/MDI-X)</li>
@@ -229,8 +229,8 @@
       <li class="text-weight-bold">Spanning-Tree</li>
       <ul>
         <li>
-          Protokoll, welches sicherstellt, dass zwischen zwei Geräten jeweils
-          nur ein Datenpfad existiert und unterbindet somit Loops
+          Protokoll, das sicherstellt, dass zwischen zwei Geräten jeweils nur
+          ein Datenpfad existiert, und somit Loops unterbindet
         </li>
         <li>
           deaktiviert bei identifizierten Mehrfach-Wegen automatisch Ports,
@@ -265,7 +265,7 @@
       class="text-subtitle2 text-grey font-size-small"
       style="line-break: anywhere"
     >
-      Bildquellen & Lizens(von oben nach unten, falls erforderlich): <br />
+      Bildquellen & Lizenz(von oben nach unten, falls erforderlich): <br />
       https://www.fiber-optic-solutions.com/wp-content/uploads/2018/07/access-switch-in-the-access-layer.jpg
       <br />
       https://cdn.ready-market.com.tw/91466f78/Templates/pic/IMG-SFP.jpg?v=5fad583a

@@ -25,10 +25,10 @@
         <li class="text-weight-bold">Krankheit</li>
         <ul>
           <li>
-            Lohnfortzahlung des vollen Gehalts bis zu 6 (42 Kalendertage) Wochen
+            Lohnfortzahlung des vollen Gehalts bis zu 6 Wochen (42 Kalendertage)
             für jede neue Erkrankung. Bei Arbeitsunfähigkeit von mehr als 6
-            Wochen derselben Krankheit übernimmt die Krankenkasse (Krankengeld)
-            mit 70% des Bruttoverdienstes.
+            Wochen derselben Krankheit übernimmt die Krankenkasse mit 70% des
+            Bruttoverdienstes (Krankengeld)
           </li>
           <li>
             Arbeitnehmer ist verpflichtet, Arbeitgeber unverzüglich über
@@ -36,18 +36,22 @@
           </li>
           <li>
             Spätestens 3 Tage nach der Arbeitsunfähigkeit wird eine
-            Arbeitsunfähigkeitsbescheinigung eines Artztes benötigt.
+            Arbeitsunfähigkeitsbescheinigung eines Artztes benötigt
           </li>
         </ul>
       </ul>
       <li class="text-weight-bolder">Pflegeversicherung</li>
       <ul>
         <li>Arbeitgeber übernimmt immer 1,7%</li>
-        <li>
-          Arbeitnehmer variabel nach Anzahl Kinder (keine Kinder -> 1,7% + 0,6%
-          Zuschlag; 1 Kind -> 1,7%; über 1 Kind -> 1,7% - 0.25% für jedes Kind
-          bis maximal 0,7% Beitragssatz)
-        </li>
+        <li>Arbeitnehmer variabel nach Anzahl Kinder</li>
+        <ul>
+          <li>keine Kinder → 1,7% + 0,6% Zuschlag</li>
+          <li>1 Kind → 1,7%</li>
+          <li>
+            über 1 Kind → 1,7% - 0.25% für jedes Kind bis maximal 0,7%
+            Beitragssatz (also ab über 4 Kindern kein verringerter Beitragssatz)
+          </li>
+        </ul>
       </ul>
       <li class="text-weight-bolder">Arbeitslosenversicherung</li>
       <ul>
